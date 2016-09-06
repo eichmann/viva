@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altCollege.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:College subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -21,8 +22,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>abbreviation</td><td><vivo:CollegeAbbreviation /></td></tr>
       <tr><td>overview</td><td><vivo:CollegeOverview /></td></tr>
+      <tr><td>abbreviation</td><td><vivo:CollegeAbbreviation /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -31,9 +32,15 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachCollegeRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:CollegeRO_0000053Type/>/<vivo:CollegeRO_0000053Type/>.jsp?uri=<vivo:CollegeRO_0000053/>"><vivo:CollegeRO_0000053 /></a></td></tr>
-      </vivo:foreachCollegeRO_0000053Iterator>
+      <vivo:foreachCollegeAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<vivo:CollegeAssigneeForType/>/<vivo:CollegeAssigneeForType/>.jsp?uri=<vivo:CollegeAssigneeFor/>"><vivo:CollegeAssigneeFor /></a></td></tr>
+      </vivo:foreachCollegeAssigneeForIterator>
+      <vivo:foreachCollegeHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<vivo:CollegeHasCollaboratorType/>/<vivo:CollegeHasCollaboratorType/>.jsp?uri=<vivo:CollegeHasCollaborator/>"><vivo:CollegeHasCollaborator /></a></td></tr>
+      </vivo:foreachCollegeHasCollaboratorIterator>
+      <vivo:foreachCollegeTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<vivo:CollegeTranslatorOfType/>/<vivo:CollegeTranslatorOfType/>.jsp?uri=<vivo:CollegeTranslatorOf/>"><vivo:CollegeTranslatorOf /></a></td></tr>
+      </vivo:foreachCollegeTranslatorOfIterator>
       <vivo:foreachCollegeSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<vivo:CollegeSponsorsType/>/<vivo:CollegeSponsorsType/>.jsp?uri=<vivo:CollegeSponsors/>"><vivo:CollegeSponsors /></a></td></tr>
       </vivo:foreachCollegeSponsorsIterator>
@@ -67,18 +74,12 @@
       <vivo:foreachCollegeAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:CollegeAffiliatedOrganizationType/>/<vivo:CollegeAffiliatedOrganizationType/>.jsp?uri=<vivo:CollegeAffiliatedOrganization/>"><vivo:CollegeAffiliatedOrganization /></a></td></tr>
       </vivo:foreachCollegeAffiliatedOrganizationIterator>
+      <vivo:foreachCollegeRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:CollegeRO_0000053Type/>/<vivo:CollegeRO_0000053Type/>.jsp?uri=<vivo:CollegeRO_0000053/>"><vivo:CollegeRO_0000053 /></a></td></tr>
+      </vivo:foreachCollegeRO_0000053Iterator>
       <vivo:foreachCollegeRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:CollegeRO_0000056Type/>/<vivo:CollegeRO_0000056Type/>.jsp?uri=<vivo:CollegeRO_0000056/>"><vivo:CollegeRO_0000056 /></a></td></tr>
       </vivo:foreachCollegeRO_0000056Iterator>
-      <vivo:foreachCollegeAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<vivo:CollegeAssigneeForType/>/<vivo:CollegeAssigneeForType/>.jsp?uri=<vivo:CollegeAssigneeFor/>"><vivo:CollegeAssigneeFor /></a></td></tr>
-      </vivo:foreachCollegeAssigneeForIterator>
-      <vivo:foreachCollegeHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<vivo:CollegeHasCollaboratorType/>/<vivo:CollegeHasCollaboratorType/>.jsp?uri=<vivo:CollegeHasCollaborator/>"><vivo:CollegeHasCollaborator /></a></td></tr>
-      </vivo:foreachCollegeHasCollaboratorIterator>
-      <vivo:foreachCollegeTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<vivo:CollegeTranslatorOfType/>/<vivo:CollegeTranslatorOfType/>.jsp?uri=<vivo:CollegeTranslatorOf/>"><vivo:CollegeTranslatorOf /></a></td></tr>
-      </vivo:foreachCollegeTranslatorOfIterator>
    </table>
    </vivo:College>
 

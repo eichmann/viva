@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altAttendeeRole.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:AttendeeRole subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -29,18 +30,18 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachAttendeeRoleBFO_0000054Iterator>
-         <tr><td>BFO_0000054</td><td><a href="../<vivo:AttendeeRoleBFO_0000054Type/>/<vivo:AttendeeRoleBFO_0000054Type/>.jsp?uri=<vivo:AttendeeRoleBFO_0000054/>"><vivo:AttendeeRoleBFO_0000054 /></a></td></tr>
-      </vivo:foreachAttendeeRoleBFO_0000054Iterator>
       <vivo:foreachAttendeeRoleRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<vivo:AttendeeRoleRO_0000052Type/>/<vivo:AttendeeRoleRO_0000052Type/>.jsp?uri=<vivo:AttendeeRoleRO_0000052/>"><vivo:AttendeeRoleRO_0000052 /></a></td></tr>
       </vivo:foreachAttendeeRoleRO_0000052Iterator>
-      <vivo:foreachAttendeeRoleRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:AttendeeRoleRO_0000056Type/>/<vivo:AttendeeRoleRO_0000056Type/>.jsp?uri=<vivo:AttendeeRoleRO_0000056/>"><vivo:AttendeeRoleRO_0000056 /></a></td></tr>
-      </vivo:foreachAttendeeRoleRO_0000056Iterator>
       <vivo:foreachAttendeeRoleRoleContributesToIterator>
          <tr><td>roleContributesTo</td><td><a href="../<vivo:AttendeeRoleRoleContributesToType/>/<vivo:AttendeeRoleRoleContributesToType/>.jsp?uri=<vivo:AttendeeRoleRoleContributesTo/>"><vivo:AttendeeRoleRoleContributesTo /></a></td></tr>
       </vivo:foreachAttendeeRoleRoleContributesToIterator>
+      <vivo:foreachAttendeeRoleBFO_0000054Iterator>
+         <tr><td>BFO_0000054</td><td><a href="../<vivo:AttendeeRoleBFO_0000054Type/>/<vivo:AttendeeRoleBFO_0000054Type/>.jsp?uri=<vivo:AttendeeRoleBFO_0000054/>"><vivo:AttendeeRoleBFO_0000054 /></a></td></tr>
+      </vivo:foreachAttendeeRoleBFO_0000054Iterator>
+      <vivo:foreachAttendeeRoleRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:AttendeeRoleRO_0000056Type/>/<vivo:AttendeeRoleRO_0000056Type/>.jsp?uri=<vivo:AttendeeRoleRO_0000056/>"><vivo:AttendeeRoleRO_0000056 /></a></td></tr>
+      </vivo:foreachAttendeeRoleRO_0000056Iterator>
    </table>
    </vivo:AttendeeRole>
 

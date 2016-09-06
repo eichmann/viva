@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altERO_0000020.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:ERO_0000020 subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -35,9 +36,6 @@
       <vivo:foreachERO_0000020RO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:ERO_0000020RO_0000053Type/>/<vivo:ERO_0000020RO_0000053Type/>.jsp?uri=<vivo:ERO_0000020RO_0000053/>"><vivo:ERO_0000020RO_0000053 /></a></td></tr>
       </vivo:foreachERO_0000020RO_0000053Iterator>
-      <vivo:foreachERO_0000020RO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:ERO_0000020RO_0000056Type/>/<vivo:ERO_0000020RO_0000056Type/>.jsp?uri=<vivo:ERO_0000020RO_0000056/>"><vivo:ERO_0000020RO_0000056 /></a></td></tr>
-      </vivo:foreachERO_0000020RO_0000056Iterator>
       <vivo:foreachERO_0000020RO_0003000Iterator>
          <tr><td>RO_0003000</td><td><a href="../<vivo:ERO_0000020RO_0003000Type/>/<vivo:ERO_0000020RO_0003000Type/>.jsp?uri=<vivo:ERO_0000020RO_0003000/>"><vivo:ERO_0000020RO_0003000 /></a></td></tr>
       </vivo:foreachERO_0000020RO_0003000Iterator>
@@ -47,6 +45,9 @@
       <vivo:foreachERO_0000020OBI_0000304Iterator>
          <tr><td>OBI_0000304</td><td><a href="../<vivo:ERO_0000020OBI_0000304Type/>/<vivo:ERO_0000020OBI_0000304Type/>.jsp?uri=<vivo:ERO_0000020OBI_0000304/>"><vivo:ERO_0000020OBI_0000304 /></a></td></tr>
       </vivo:foreachERO_0000020OBI_0000304Iterator>
+      <vivo:foreachERO_0000020RO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:ERO_0000020RO_0000056Type/>/<vivo:ERO_0000020RO_0000056Type/>.jsp?uri=<vivo:ERO_0000020RO_0000056/>"><vivo:ERO_0000020RO_0000056 /></a></td></tr>
+      </vivo:foreachERO_0000020RO_0000056Iterator>
    </table>
    </vivo:ERO_0000020>
 

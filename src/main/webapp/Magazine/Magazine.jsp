@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altMagazine.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:Magazine subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -35,18 +36,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachMagazineDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<vivo:MagazineDateTimeValueType/>/<vivo:MagazineDateTimeValueType/>.jsp?uri=<vivo:MagazineDateTimeValue/>"><vivo:MagazineDateTimeValue /></a></td></tr>
-      </vivo:foreachMagazineDateTimeValueIterator>
-      <vivo:foreachMagazineRO_0002353Iterator>
-         <tr><td>RO_0002353</td><td><a href="../<vivo:MagazineRO_0002353Type/>/<vivo:MagazineRO_0002353Type/>.jsp?uri=<vivo:MagazineRO_0002353/>"><vivo:MagazineRO_0002353 /></a></td></tr>
-      </vivo:foreachMagazineRO_0002353Iterator>
-      <vivo:foreachMagazineARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<vivo:MagazineARG_2000028Type/>/<vivo:MagazineARG_2000028Type/>.jsp?uri=<vivo:MagazineARG_2000028/>"><vivo:MagazineARG_2000028 /></a></td></tr>
-      </vivo:foreachMagazineARG_2000028Iterator>
-      <vivo:foreachMagazineRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<vivo:MagazineRelatedByType/>/<vivo:MagazineRelatedByType/>.jsp?uri=<vivo:MagazineRelatedBy/>"><vivo:MagazineRelatedBy /></a></td></tr>
-      </vivo:foreachMagazineRelatedByIterator>
       <vivo:foreachMagazineTranslatorIterator>
          <tr><td>translator</td><td><a href="../<vivo:MagazineTranslatorType/>/<vivo:MagazineTranslatorType/>.jsp?uri=<vivo:MagazineTranslator/>"><vivo:MagazineTranslator /></a></td></tr>
       </vivo:foreachMagazineTranslatorIterator>
@@ -59,6 +48,18 @@
       <vivo:foreachMagazineIAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<vivo:MagazineIAO_0000136Type/>/<vivo:MagazineIAO_0000136Type/>.jsp?uri=<vivo:MagazineIAO_0000136/>"><vivo:MagazineIAO_0000136 /></a></td></tr>
       </vivo:foreachMagazineIAO_0000136Iterator>
+      <vivo:foreachMagazineDateTimeValueIterator>
+         <tr><td>dateTimeValue</td><td><a href="../<vivo:MagazineDateTimeValueType/>/<vivo:MagazineDateTimeValueType/>.jsp?uri=<vivo:MagazineDateTimeValue/>"><vivo:MagazineDateTimeValue /></a></td></tr>
+      </vivo:foreachMagazineDateTimeValueIterator>
+      <vivo:foreachMagazineRO_0002353Iterator>
+         <tr><td>RO_0002353</td><td><a href="../<vivo:MagazineRO_0002353Type/>/<vivo:MagazineRO_0002353Type/>.jsp?uri=<vivo:MagazineRO_0002353/>"><vivo:MagazineRO_0002353 /></a></td></tr>
+      </vivo:foreachMagazineRO_0002353Iterator>
+      <vivo:foreachMagazineARG_2000028Iterator>
+         <tr><td>ARG_2000028</td><td><a href="../<vivo:MagazineARG_2000028Type/>/<vivo:MagazineARG_2000028Type/>.jsp?uri=<vivo:MagazineARG_2000028/>"><vivo:MagazineARG_2000028 /></a></td></tr>
+      </vivo:foreachMagazineARG_2000028Iterator>
+      <vivo:foreachMagazineRelatedByIterator>
+         <tr><td>relatedBy</td><td><a href="../<vivo:MagazineRelatedByType/>/<vivo:MagazineRelatedByType/>.jsp?uri=<vivo:MagazineRelatedBy/>"><vivo:MagazineRelatedBy /></a></td></tr>
+      </vivo:foreachMagazineRelatedByIterator>
       <vivo:foreachMagazineRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:MagazineRO_0000056Type/>/<vivo:MagazineRO_0000056Type/>.jsp?uri=<vivo:MagazineRO_0000056/>"><vivo:MagazineRO_0000056 /></a></td></tr>
       </vivo:foreachMagazineRO_0000056Iterator>

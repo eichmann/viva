@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altNewsletter.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:Newsletter subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -35,18 +36,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachNewsletterDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<vivo:NewsletterDateTimeValueType/>/<vivo:NewsletterDateTimeValueType/>.jsp?uri=<vivo:NewsletterDateTimeValue/>"><vivo:NewsletterDateTimeValue /></a></td></tr>
-      </vivo:foreachNewsletterDateTimeValueIterator>
-      <vivo:foreachNewsletterRO_0002353Iterator>
-         <tr><td>RO_0002353</td><td><a href="../<vivo:NewsletterRO_0002353Type/>/<vivo:NewsletterRO_0002353Type/>.jsp?uri=<vivo:NewsletterRO_0002353/>"><vivo:NewsletterRO_0002353 /></a></td></tr>
-      </vivo:foreachNewsletterRO_0002353Iterator>
-      <vivo:foreachNewsletterARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<vivo:NewsletterARG_2000028Type/>/<vivo:NewsletterARG_2000028Type/>.jsp?uri=<vivo:NewsletterARG_2000028/>"><vivo:NewsletterARG_2000028 /></a></td></tr>
-      </vivo:foreachNewsletterARG_2000028Iterator>
-      <vivo:foreachNewsletterRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<vivo:NewsletterRelatedByType/>/<vivo:NewsletterRelatedByType/>.jsp?uri=<vivo:NewsletterRelatedBy/>"><vivo:NewsletterRelatedBy /></a></td></tr>
-      </vivo:foreachNewsletterRelatedByIterator>
       <vivo:foreachNewsletterTranslatorIterator>
          <tr><td>translator</td><td><a href="../<vivo:NewsletterTranslatorType/>/<vivo:NewsletterTranslatorType/>.jsp?uri=<vivo:NewsletterTranslator/>"><vivo:NewsletterTranslator /></a></td></tr>
       </vivo:foreachNewsletterTranslatorIterator>
@@ -59,6 +48,18 @@
       <vivo:foreachNewsletterIAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<vivo:NewsletterIAO_0000136Type/>/<vivo:NewsletterIAO_0000136Type/>.jsp?uri=<vivo:NewsletterIAO_0000136/>"><vivo:NewsletterIAO_0000136 /></a></td></tr>
       </vivo:foreachNewsletterIAO_0000136Iterator>
+      <vivo:foreachNewsletterDateTimeValueIterator>
+         <tr><td>dateTimeValue</td><td><a href="../<vivo:NewsletterDateTimeValueType/>/<vivo:NewsletterDateTimeValueType/>.jsp?uri=<vivo:NewsletterDateTimeValue/>"><vivo:NewsletterDateTimeValue /></a></td></tr>
+      </vivo:foreachNewsletterDateTimeValueIterator>
+      <vivo:foreachNewsletterRO_0002353Iterator>
+         <tr><td>RO_0002353</td><td><a href="../<vivo:NewsletterRO_0002353Type/>/<vivo:NewsletterRO_0002353Type/>.jsp?uri=<vivo:NewsletterRO_0002353/>"><vivo:NewsletterRO_0002353 /></a></td></tr>
+      </vivo:foreachNewsletterRO_0002353Iterator>
+      <vivo:foreachNewsletterARG_2000028Iterator>
+         <tr><td>ARG_2000028</td><td><a href="../<vivo:NewsletterARG_2000028Type/>/<vivo:NewsletterARG_2000028Type/>.jsp?uri=<vivo:NewsletterARG_2000028/>"><vivo:NewsletterARG_2000028 /></a></td></tr>
+      </vivo:foreachNewsletterARG_2000028Iterator>
+      <vivo:foreachNewsletterRelatedByIterator>
+         <tr><td>relatedBy</td><td><a href="../<vivo:NewsletterRelatedByType/>/<vivo:NewsletterRelatedByType/>.jsp?uri=<vivo:NewsletterRelatedBy/>"><vivo:NewsletterRelatedBy /></a></td></tr>
+      </vivo:foreachNewsletterRelatedByIterator>
       <vivo:foreachNewsletterRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:NewsletterRO_0000056Type/>/<vivo:NewsletterRO_0000056Type/>.jsp?uri=<vivo:NewsletterRO_0000056/>"><vivo:NewsletterRO_0000056 /></a></td></tr>
       </vivo:foreachNewsletterRO_0000056Iterator>

@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altEmeritusLibrarian.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:EmeritusLibrarian subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -21,10 +22,10 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
+      <tr><td>overview</td><td><vivo:EmeritusLibrarianOverview /></td></tr>
       <tr><td>teachingOverview</td><td><vivo:EmeritusLibrarianTeachingOverview /></td></tr>
       <tr><td>outreachOverview</td><td><vivo:EmeritusLibrarianOutreachOverview /></td></tr>
       <tr><td>researchOverview</td><td><vivo:EmeritusLibrarianResearchOverview /></td></tr>
-      <tr><td>overview</td><td><vivo:EmeritusLibrarianOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -51,12 +52,18 @@
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachEmeritusLibrarianAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<vivo:EmeritusLibrarianAssigneeForType/>/<vivo:EmeritusLibrarianAssigneeForType/>.jsp?uri=<vivo:EmeritusLibrarianAssigneeFor/>"><vivo:EmeritusLibrarianAssigneeFor /></a></td></tr>
+      </vivo:foreachEmeritusLibrarianAssigneeForIterator>
+      <vivo:foreachEmeritusLibrarianHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<vivo:EmeritusLibrarianHasCollaboratorType/>/<vivo:EmeritusLibrarianHasCollaboratorType/>.jsp?uri=<vivo:EmeritusLibrarianHasCollaborator/>"><vivo:EmeritusLibrarianHasCollaborator /></a></td></tr>
+      </vivo:foreachEmeritusLibrarianHasCollaboratorIterator>
+      <vivo:foreachEmeritusLibrarianTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<vivo:EmeritusLibrarianTranslatorOfType/>/<vivo:EmeritusLibrarianTranslatorOfType/>.jsp?uri=<vivo:EmeritusLibrarianTranslatorOf/>"><vivo:EmeritusLibrarianTranslatorOf /></a></td></tr>
+      </vivo:foreachEmeritusLibrarianTranslatorOfIterator>
       <vivo:foreachEmeritusLibrarianRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:EmeritusLibrarianRO_0000053Type/>/<vivo:EmeritusLibrarianRO_0000053Type/>.jsp?uri=<vivo:EmeritusLibrarianRO_0000053/>"><vivo:EmeritusLibrarianRO_0000053 /></a></td></tr>
       </vivo:foreachEmeritusLibrarianRO_0000053Iterator>
-      <vivo:foreachEmeritusLibrarianRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:EmeritusLibrarianRO_0000056Type/>/<vivo:EmeritusLibrarianRO_0000056Type/>.jsp?uri=<vivo:EmeritusLibrarianRO_0000056/>"><vivo:EmeritusLibrarianRO_0000056 /></a></td></tr>
-      </vivo:foreachEmeritusLibrarianRO_0000056Iterator>
       <vivo:foreachEmeritusLibrarianRO_0001025Iterator>
          <tr><td>RO_0001025</td><td><a href="../<vivo:EmeritusLibrarianRO_0001025Type/>/<vivo:EmeritusLibrarianRO_0001025Type/>.jsp?uri=<vivo:EmeritusLibrarianRO_0001025/>"><vivo:EmeritusLibrarianRO_0001025 /></a></td></tr>
       </vivo:foreachEmeritusLibrarianRO_0001025Iterator>
@@ -78,15 +85,9 @@
       <vivo:foreachEmeritusLibrarianOrcidIdIterator>
          <tr><td>orcidId</td><td><a href="../<vivo:EmeritusLibrarianOrcidIdType/>/<vivo:EmeritusLibrarianOrcidIdType/>.jsp?uri=<vivo:EmeritusLibrarianOrcidId/>"><vivo:EmeritusLibrarianOrcidId /></a></td></tr>
       </vivo:foreachEmeritusLibrarianOrcidIdIterator>
-      <vivo:foreachEmeritusLibrarianAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<vivo:EmeritusLibrarianAssigneeForType/>/<vivo:EmeritusLibrarianAssigneeForType/>.jsp?uri=<vivo:EmeritusLibrarianAssigneeFor/>"><vivo:EmeritusLibrarianAssigneeFor /></a></td></tr>
-      </vivo:foreachEmeritusLibrarianAssigneeForIterator>
-      <vivo:foreachEmeritusLibrarianHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<vivo:EmeritusLibrarianHasCollaboratorType/>/<vivo:EmeritusLibrarianHasCollaboratorType/>.jsp?uri=<vivo:EmeritusLibrarianHasCollaborator/>"><vivo:EmeritusLibrarianHasCollaborator /></a></td></tr>
-      </vivo:foreachEmeritusLibrarianHasCollaboratorIterator>
-      <vivo:foreachEmeritusLibrarianTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<vivo:EmeritusLibrarianTranslatorOfType/>/<vivo:EmeritusLibrarianTranslatorOfType/>.jsp?uri=<vivo:EmeritusLibrarianTranslatorOf/>"><vivo:EmeritusLibrarianTranslatorOf /></a></td></tr>
-      </vivo:foreachEmeritusLibrarianTranslatorOfIterator>
+      <vivo:foreachEmeritusLibrarianRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:EmeritusLibrarianRO_0000056Type/>/<vivo:EmeritusLibrarianRO_0000056Type/>.jsp?uri=<vivo:EmeritusLibrarianRO_0000056/>"><vivo:EmeritusLibrarianRO_0000056 /></a></td></tr>
+      </vivo:foreachEmeritusLibrarianRO_0000056Iterator>
    </table>
    </vivo:EmeritusLibrarian>
 

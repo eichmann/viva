@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altUniversity.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:University subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -21,8 +22,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>abbreviation</td><td><vivo:UniversityAbbreviation /></td></tr>
       <tr><td>overview</td><td><vivo:UniversityOverview /></td></tr>
+      <tr><td>abbreviation</td><td><vivo:UniversityAbbreviation /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -31,9 +32,15 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachUniversityRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:UniversityRO_0000053Type/>/<vivo:UniversityRO_0000053Type/>.jsp?uri=<vivo:UniversityRO_0000053/>"><vivo:UniversityRO_0000053 /></a></td></tr>
-      </vivo:foreachUniversityRO_0000053Iterator>
+      <vivo:foreachUniversityAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<vivo:UniversityAssigneeForType/>/<vivo:UniversityAssigneeForType/>.jsp?uri=<vivo:UniversityAssigneeFor/>"><vivo:UniversityAssigneeFor /></a></td></tr>
+      </vivo:foreachUniversityAssigneeForIterator>
+      <vivo:foreachUniversityHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<vivo:UniversityHasCollaboratorType/>/<vivo:UniversityHasCollaboratorType/>.jsp?uri=<vivo:UniversityHasCollaborator/>"><vivo:UniversityHasCollaborator /></a></td></tr>
+      </vivo:foreachUniversityHasCollaboratorIterator>
+      <vivo:foreachUniversityTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<vivo:UniversityTranslatorOfType/>/<vivo:UniversityTranslatorOfType/>.jsp?uri=<vivo:UniversityTranslatorOf/>"><vivo:UniversityTranslatorOf /></a></td></tr>
+      </vivo:foreachUniversityTranslatorOfIterator>
       <vivo:foreachUniversitySponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<vivo:UniversitySponsorsType/>/<vivo:UniversitySponsorsType/>.jsp?uri=<vivo:UniversitySponsors/>"><vivo:UniversitySponsors /></a></td></tr>
       </vivo:foreachUniversitySponsorsIterator>
@@ -67,18 +74,12 @@
       <vivo:foreachUniversityAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:UniversityAffiliatedOrganizationType/>/<vivo:UniversityAffiliatedOrganizationType/>.jsp?uri=<vivo:UniversityAffiliatedOrganization/>"><vivo:UniversityAffiliatedOrganization /></a></td></tr>
       </vivo:foreachUniversityAffiliatedOrganizationIterator>
+      <vivo:foreachUniversityRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:UniversityRO_0000053Type/>/<vivo:UniversityRO_0000053Type/>.jsp?uri=<vivo:UniversityRO_0000053/>"><vivo:UniversityRO_0000053 /></a></td></tr>
+      </vivo:foreachUniversityRO_0000053Iterator>
       <vivo:foreachUniversityRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:UniversityRO_0000056Type/>/<vivo:UniversityRO_0000056Type/>.jsp?uri=<vivo:UniversityRO_0000056/>"><vivo:UniversityRO_0000056 /></a></td></tr>
       </vivo:foreachUniversityRO_0000056Iterator>
-      <vivo:foreachUniversityAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<vivo:UniversityAssigneeForType/>/<vivo:UniversityAssigneeForType/>.jsp?uri=<vivo:UniversityAssigneeFor/>"><vivo:UniversityAssigneeFor /></a></td></tr>
-      </vivo:foreachUniversityAssigneeForIterator>
-      <vivo:foreachUniversityHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<vivo:UniversityHasCollaboratorType/>/<vivo:UniversityHasCollaboratorType/>.jsp?uri=<vivo:UniversityHasCollaborator/>"><vivo:UniversityHasCollaborator /></a></td></tr>
-      </vivo:foreachUniversityHasCollaboratorIterator>
-      <vivo:foreachUniversityTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<vivo:UniversityTranslatorOfType/>/<vivo:UniversityTranslatorOfType/>.jsp?uri=<vivo:UniversityTranslatorOf/>"><vivo:UniversityTranslatorOf /></a></td></tr>
-      </vivo:foreachUniversityTranslatorOfIterator>
    </table>
    </vivo:University>
 

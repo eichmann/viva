@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altERO_0000595.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:ERO_0000595 subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -35,15 +36,15 @@
       <vivo:foreachERO_0000595ERO_0000775Iterator>
          <tr><td>ERO_0000775</td><td><a href="../<vivo:ERO_0000595ERO_0000775Type/>/<vivo:ERO_0000595ERO_0000775Type/>.jsp?uri=<vivo:ERO_0000595ERO_0000775/>"><vivo:ERO_0000595ERO_0000775 /></a></td></tr>
       </vivo:foreachERO_0000595ERO_0000775Iterator>
-      <vivo:foreachERO_0000595BFO_0000054Iterator>
-         <tr><td>BFO_0000054</td><td><a href="../<vivo:ERO_0000595BFO_0000054Type/>/<vivo:ERO_0000595BFO_0000054Type/>.jsp?uri=<vivo:ERO_0000595BFO_0000054/>"><vivo:ERO_0000595BFO_0000054 /></a></td></tr>
-      </vivo:foreachERO_0000595BFO_0000054Iterator>
       <vivo:foreachERO_0000595RO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<vivo:ERO_0000595RO_0000052Type/>/<vivo:ERO_0000595RO_0000052Type/>.jsp?uri=<vivo:ERO_0000595RO_0000052/>"><vivo:ERO_0000595RO_0000052 /></a></td></tr>
       </vivo:foreachERO_0000595RO_0000052Iterator>
       <vivo:foreachERO_0000595RO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:ERO_0000595RO_0000056Type/>/<vivo:ERO_0000595RO_0000056Type/>.jsp?uri=<vivo:ERO_0000595RO_0000056/>"><vivo:ERO_0000595RO_0000056 /></a></td></tr>
       </vivo:foreachERO_0000595RO_0000056Iterator>
+      <vivo:foreachERO_0000595BFO_0000054Iterator>
+         <tr><td>BFO_0000054</td><td><a href="../<vivo:ERO_0000595BFO_0000054Type/>/<vivo:ERO_0000595BFO_0000054Type/>.jsp?uri=<vivo:ERO_0000595BFO_0000054/>"><vivo:ERO_0000595BFO_0000054 /></a></td></tr>
+      </vivo:foreachERO_0000595BFO_0000054Iterator>
    </table>
    </vivo:ERO_0000595>
 

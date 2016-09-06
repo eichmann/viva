@@ -11,9 +11,10 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
- <p><a href="altPerson.jsp?uri=${param.uri}">alternate view</a></p>
+   <p><a href="altPerson.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:Person subjectURI="${param.uri}">
-    <h3>Default Properties</h3>
+
+   <h3>Default Properties</h3>
    <table>
       <tr><td>URI</td><td><a href="<vivo:PersonSubjectURI/>"><vivo:PersonSubjectURI /></a></td></tr>
       <tr><td>Label</td><td><vivo:PersonLabel /></td></tr>
@@ -72,12 +73,6 @@
       <vivo:foreachPersonOrcidIdIterator>
          <tr><td>orcidId</td><td><a href="../<vivo:PersonOrcidIdType/>/<vivo:PersonOrcidIdType/>.jsp?uri=<vivo:PersonOrcidId/>"><vivo:PersonOrcidId /></a></td></tr>
       </vivo:foreachPersonOrcidIdIterator>
-      <vivo:foreachPersonRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:PersonRO_0000053Type/>/<vivo:PersonRO_0000053Type/>.jsp?uri=<vivo:PersonRO_0000053/>"><vivo:PersonRO_0000053 /></a></td></tr>
-      </vivo:foreachPersonRO_0000053Iterator>
-      <vivo:foreachPersonRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:PersonRO_0000056Type/>/<vivo:PersonRO_0000056Type/>.jsp?uri=<vivo:PersonRO_0000056/>"><vivo:PersonRO_0000056 /></a></td></tr>
-      </vivo:foreachPersonRO_0000056Iterator>
       <vivo:foreachPersonAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:PersonAssigneeForType/>/<vivo:PersonAssigneeForType/>.jsp?uri=<vivo:PersonAssigneeFor/>"><vivo:PersonAssigneeFor /></a></td></tr>
       </vivo:foreachPersonAssigneeForIterator>
@@ -87,6 +82,12 @@
       <vivo:foreachPersonTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<vivo:PersonTranslatorOfType/>/<vivo:PersonTranslatorOfType/>.jsp?uri=<vivo:PersonTranslatorOf/>"><vivo:PersonTranslatorOf /></a></td></tr>
       </vivo:foreachPersonTranslatorOfIterator>
+      <vivo:foreachPersonRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:PersonRO_0000053Type/>/<vivo:PersonRO_0000053Type/>.jsp?uri=<vivo:PersonRO_0000053/>"><vivo:PersonRO_0000053 /></a></td></tr>
+      </vivo:foreachPersonRO_0000053Iterator>
+      <vivo:foreachPersonRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:PersonRO_0000056Type/>/<vivo:PersonRO_0000056Type/>.jsp?uri=<vivo:PersonRO_0000056/>"><vivo:PersonRO_0000056 /></a></td></tr>
+      </vivo:foreachPersonRO_0000056Iterator>
    </table>
    </vivo:Person>
 

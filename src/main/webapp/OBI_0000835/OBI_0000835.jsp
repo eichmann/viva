@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altOBI_0000835.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:OBI_0000835 subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -30,12 +31,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachOBI_0000835RO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:OBI_0000835RO_0000053Type/>/<vivo:OBI_0000835RO_0000053Type/>.jsp?uri=<vivo:OBI_0000835RO_0000053/>"><vivo:OBI_0000835RO_0000053 /></a></td></tr>
-      </vivo:foreachOBI_0000835RO_0000053Iterator>
-      <vivo:foreachOBI_0000835RO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:OBI_0000835RO_0000056Type/>/<vivo:OBI_0000835RO_0000056Type/>.jsp?uri=<vivo:OBI_0000835RO_0000056/>"><vivo:OBI_0000835RO_0000056 /></a></td></tr>
-      </vivo:foreachOBI_0000835RO_0000056Iterator>
       <vivo:foreachOBI_0000835AssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:OBI_0000835AssigneeForType/>/<vivo:OBI_0000835AssigneeForType/>.jsp?uri=<vivo:OBI_0000835AssigneeFor/>"><vivo:OBI_0000835AssigneeFor /></a></td></tr>
       </vivo:foreachOBI_0000835AssigneeForIterator>
@@ -45,6 +40,12 @@
       <vivo:foreachOBI_0000835TranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<vivo:OBI_0000835TranslatorOfType/>/<vivo:OBI_0000835TranslatorOfType/>.jsp?uri=<vivo:OBI_0000835TranslatorOf/>"><vivo:OBI_0000835TranslatorOf /></a></td></tr>
       </vivo:foreachOBI_0000835TranslatorOfIterator>
+      <vivo:foreachOBI_0000835RO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:OBI_0000835RO_0000053Type/>/<vivo:OBI_0000835RO_0000053Type/>.jsp?uri=<vivo:OBI_0000835RO_0000053/>"><vivo:OBI_0000835RO_0000053 /></a></td></tr>
+      </vivo:foreachOBI_0000835RO_0000053Iterator>
+      <vivo:foreachOBI_0000835RO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:OBI_0000835RO_0000056Type/>/<vivo:OBI_0000835RO_0000056Type/>.jsp?uri=<vivo:OBI_0000835RO_0000056/>"><vivo:OBI_0000835RO_0000056 /></a></td></tr>
+      </vivo:foreachOBI_0000835RO_0000056Iterator>
    </table>
    </vivo:OBI_0000835>
 

@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altAssociation.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:Association subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -21,8 +22,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>abbreviation</td><td><vivo:AssociationAbbreviation /></td></tr>
       <tr><td>overview</td><td><vivo:AssociationOverview /></td></tr>
+      <tr><td>abbreviation</td><td><vivo:AssociationAbbreviation /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -31,12 +32,15 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachAssociationRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:AssociationRO_0000053Type/>/<vivo:AssociationRO_0000053Type/>.jsp?uri=<vivo:AssociationRO_0000053/>"><vivo:AssociationRO_0000053 /></a></td></tr>
-      </vivo:foreachAssociationRO_0000053Iterator>
-      <vivo:foreachAssociationRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:AssociationRO_0000056Type/>/<vivo:AssociationRO_0000056Type/>.jsp?uri=<vivo:AssociationRO_0000056/>"><vivo:AssociationRO_0000056 /></a></td></tr>
-      </vivo:foreachAssociationRO_0000056Iterator>
+      <vivo:foreachAssociationAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<vivo:AssociationAssigneeForType/>/<vivo:AssociationAssigneeForType/>.jsp?uri=<vivo:AssociationAssigneeFor/>"><vivo:AssociationAssigneeFor /></a></td></tr>
+      </vivo:foreachAssociationAssigneeForIterator>
+      <vivo:foreachAssociationHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<vivo:AssociationHasCollaboratorType/>/<vivo:AssociationHasCollaboratorType/>.jsp?uri=<vivo:AssociationHasCollaborator/>"><vivo:AssociationHasCollaborator /></a></td></tr>
+      </vivo:foreachAssociationHasCollaboratorIterator>
+      <vivo:foreachAssociationTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<vivo:AssociationTranslatorOfType/>/<vivo:AssociationTranslatorOfType/>.jsp?uri=<vivo:AssociationTranslatorOf/>"><vivo:AssociationTranslatorOf /></a></td></tr>
+      </vivo:foreachAssociationTranslatorOfIterator>
       <vivo:foreachAssociationSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<vivo:AssociationSponsorsType/>/<vivo:AssociationSponsorsType/>.jsp?uri=<vivo:AssociationSponsors/>"><vivo:AssociationSponsors /></a></td></tr>
       </vivo:foreachAssociationSponsorsIterator>
@@ -70,15 +74,12 @@
       <vivo:foreachAssociationAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:AssociationAffiliatedOrganizationType/>/<vivo:AssociationAffiliatedOrganizationType/>.jsp?uri=<vivo:AssociationAffiliatedOrganization/>"><vivo:AssociationAffiliatedOrganization /></a></td></tr>
       </vivo:foreachAssociationAffiliatedOrganizationIterator>
-      <vivo:foreachAssociationAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<vivo:AssociationAssigneeForType/>/<vivo:AssociationAssigneeForType/>.jsp?uri=<vivo:AssociationAssigneeFor/>"><vivo:AssociationAssigneeFor /></a></td></tr>
-      </vivo:foreachAssociationAssigneeForIterator>
-      <vivo:foreachAssociationHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<vivo:AssociationHasCollaboratorType/>/<vivo:AssociationHasCollaboratorType/>.jsp?uri=<vivo:AssociationHasCollaborator/>"><vivo:AssociationHasCollaborator /></a></td></tr>
-      </vivo:foreachAssociationHasCollaboratorIterator>
-      <vivo:foreachAssociationTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<vivo:AssociationTranslatorOfType/>/<vivo:AssociationTranslatorOfType/>.jsp?uri=<vivo:AssociationTranslatorOf/>"><vivo:AssociationTranslatorOf /></a></td></tr>
-      </vivo:foreachAssociationTranslatorOfIterator>
+      <vivo:foreachAssociationRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:AssociationRO_0000053Type/>/<vivo:AssociationRO_0000053Type/>.jsp?uri=<vivo:AssociationRO_0000053/>"><vivo:AssociationRO_0000053 /></a></td></tr>
+      </vivo:foreachAssociationRO_0000053Iterator>
+      <vivo:foreachAssociationRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:AssociationRO_0000056Type/>/<vivo:AssociationRO_0000056Type/>.jsp?uri=<vivo:AssociationRO_0000056/>"><vivo:AssociationRO_0000056 /></a></td></tr>
+      </vivo:foreachAssociationRO_0000056Iterator>
    </table>
    </vivo:Association>
 

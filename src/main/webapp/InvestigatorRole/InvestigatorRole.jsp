@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altInvestigatorRole.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:InvestigatorRole subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -30,18 +31,18 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachInvestigatorRoleBFO_0000054Iterator>
-         <tr><td>BFO_0000054</td><td><a href="../<vivo:InvestigatorRoleBFO_0000054Type/>/<vivo:InvestigatorRoleBFO_0000054Type/>.jsp?uri=<vivo:InvestigatorRoleBFO_0000054/>"><vivo:InvestigatorRoleBFO_0000054 /></a></td></tr>
-      </vivo:foreachInvestigatorRoleBFO_0000054Iterator>
       <vivo:foreachInvestigatorRoleRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<vivo:InvestigatorRoleRO_0000052Type/>/<vivo:InvestigatorRoleRO_0000052Type/>.jsp?uri=<vivo:InvestigatorRoleRO_0000052/>"><vivo:InvestigatorRoleRO_0000052 /></a></td></tr>
       </vivo:foreachInvestigatorRoleRO_0000052Iterator>
-      <vivo:foreachInvestigatorRoleRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:InvestigatorRoleRO_0000056Type/>/<vivo:InvestigatorRoleRO_0000056Type/>.jsp?uri=<vivo:InvestigatorRoleRO_0000056/>"><vivo:InvestigatorRoleRO_0000056 /></a></td></tr>
-      </vivo:foreachInvestigatorRoleRO_0000056Iterator>
       <vivo:foreachInvestigatorRoleRoleContributesToIterator>
          <tr><td>roleContributesTo</td><td><a href="../<vivo:InvestigatorRoleRoleContributesToType/>/<vivo:InvestigatorRoleRoleContributesToType/>.jsp?uri=<vivo:InvestigatorRoleRoleContributesTo/>"><vivo:InvestigatorRoleRoleContributesTo /></a></td></tr>
       </vivo:foreachInvestigatorRoleRoleContributesToIterator>
+      <vivo:foreachInvestigatorRoleBFO_0000054Iterator>
+         <tr><td>BFO_0000054</td><td><a href="../<vivo:InvestigatorRoleBFO_0000054Type/>/<vivo:InvestigatorRoleBFO_0000054Type/>.jsp?uri=<vivo:InvestigatorRoleBFO_0000054/>"><vivo:InvestigatorRoleBFO_0000054 /></a></td></tr>
+      </vivo:foreachInvestigatorRoleBFO_0000054Iterator>
+      <vivo:foreachInvestigatorRoleRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:InvestigatorRoleRO_0000056Type/>/<vivo:InvestigatorRoleRO_0000056Type/>.jsp?uri=<vivo:InvestigatorRoleRO_0000056/>"><vivo:InvestigatorRoleRO_0000056 /></a></td></tr>
+      </vivo:foreachInvestigatorRoleRO_0000056Iterator>
    </table>
    </vivo:InvestigatorRole>
 

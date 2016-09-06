@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altCode.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:Code subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -35,18 +36,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachCodeDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<vivo:CodeDateTimeValueType/>/<vivo:CodeDateTimeValueType/>.jsp?uri=<vivo:CodeDateTimeValue/>"><vivo:CodeDateTimeValue /></a></td></tr>
-      </vivo:foreachCodeDateTimeValueIterator>
-      <vivo:foreachCodeRO_0002353Iterator>
-         <tr><td>RO_0002353</td><td><a href="../<vivo:CodeRO_0002353Type/>/<vivo:CodeRO_0002353Type/>.jsp?uri=<vivo:CodeRO_0002353/>"><vivo:CodeRO_0002353 /></a></td></tr>
-      </vivo:foreachCodeRO_0002353Iterator>
-      <vivo:foreachCodeARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<vivo:CodeARG_2000028Type/>/<vivo:CodeARG_2000028Type/>.jsp?uri=<vivo:CodeARG_2000028/>"><vivo:CodeARG_2000028 /></a></td></tr>
-      </vivo:foreachCodeARG_2000028Iterator>
-      <vivo:foreachCodeRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<vivo:CodeRelatedByType/>/<vivo:CodeRelatedByType/>.jsp?uri=<vivo:CodeRelatedBy/>"><vivo:CodeRelatedBy /></a></td></tr>
-      </vivo:foreachCodeRelatedByIterator>
       <vivo:foreachCodeTranslatorIterator>
          <tr><td>translator</td><td><a href="../<vivo:CodeTranslatorType/>/<vivo:CodeTranslatorType/>.jsp?uri=<vivo:CodeTranslator/>"><vivo:CodeTranslator /></a></td></tr>
       </vivo:foreachCodeTranslatorIterator>
@@ -59,6 +48,18 @@
       <vivo:foreachCodeIAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<vivo:CodeIAO_0000136Type/>/<vivo:CodeIAO_0000136Type/>.jsp?uri=<vivo:CodeIAO_0000136/>"><vivo:CodeIAO_0000136 /></a></td></tr>
       </vivo:foreachCodeIAO_0000136Iterator>
+      <vivo:foreachCodeDateTimeValueIterator>
+         <tr><td>dateTimeValue</td><td><a href="../<vivo:CodeDateTimeValueType/>/<vivo:CodeDateTimeValueType/>.jsp?uri=<vivo:CodeDateTimeValue/>"><vivo:CodeDateTimeValue /></a></td></tr>
+      </vivo:foreachCodeDateTimeValueIterator>
+      <vivo:foreachCodeRO_0002353Iterator>
+         <tr><td>RO_0002353</td><td><a href="../<vivo:CodeRO_0002353Type/>/<vivo:CodeRO_0002353Type/>.jsp?uri=<vivo:CodeRO_0002353/>"><vivo:CodeRO_0002353 /></a></td></tr>
+      </vivo:foreachCodeRO_0002353Iterator>
+      <vivo:foreachCodeARG_2000028Iterator>
+         <tr><td>ARG_2000028</td><td><a href="../<vivo:CodeARG_2000028Type/>/<vivo:CodeARG_2000028Type/>.jsp?uri=<vivo:CodeARG_2000028/>"><vivo:CodeARG_2000028 /></a></td></tr>
+      </vivo:foreachCodeARG_2000028Iterator>
+      <vivo:foreachCodeRelatedByIterator>
+         <tr><td>relatedBy</td><td><a href="../<vivo:CodeRelatedByType/>/<vivo:CodeRelatedByType/>.jsp?uri=<vivo:CodeRelatedBy/>"><vivo:CodeRelatedBy /></a></td></tr>
+      </vivo:foreachCodeRelatedByIterator>
       <vivo:foreachCodeRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:CodeRO_0000056Type/>/<vivo:CodeRO_0000056Type/>.jsp?uri=<vivo:CodeRO_0000056/>"><vivo:CodeRO_0000056 /></a></td></tr>
       </vivo:foreachCodeRO_0000056Iterator>

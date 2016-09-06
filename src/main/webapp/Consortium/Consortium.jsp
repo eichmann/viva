@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altConsortium.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:Consortium subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -21,8 +22,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>abbreviation</td><td><vivo:ConsortiumAbbreviation /></td></tr>
       <tr><td>overview</td><td><vivo:ConsortiumOverview /></td></tr>
+      <tr><td>abbreviation</td><td><vivo:ConsortiumAbbreviation /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -31,9 +32,15 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachConsortiumRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:ConsortiumRO_0000053Type/>/<vivo:ConsortiumRO_0000053Type/>.jsp?uri=<vivo:ConsortiumRO_0000053/>"><vivo:ConsortiumRO_0000053 /></a></td></tr>
-      </vivo:foreachConsortiumRO_0000053Iterator>
+      <vivo:foreachConsortiumAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<vivo:ConsortiumAssigneeForType/>/<vivo:ConsortiumAssigneeForType/>.jsp?uri=<vivo:ConsortiumAssigneeFor/>"><vivo:ConsortiumAssigneeFor /></a></td></tr>
+      </vivo:foreachConsortiumAssigneeForIterator>
+      <vivo:foreachConsortiumHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<vivo:ConsortiumHasCollaboratorType/>/<vivo:ConsortiumHasCollaboratorType/>.jsp?uri=<vivo:ConsortiumHasCollaborator/>"><vivo:ConsortiumHasCollaborator /></a></td></tr>
+      </vivo:foreachConsortiumHasCollaboratorIterator>
+      <vivo:foreachConsortiumTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<vivo:ConsortiumTranslatorOfType/>/<vivo:ConsortiumTranslatorOfType/>.jsp?uri=<vivo:ConsortiumTranslatorOf/>"><vivo:ConsortiumTranslatorOf /></a></td></tr>
+      </vivo:foreachConsortiumTranslatorOfIterator>
       <vivo:foreachConsortiumSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<vivo:ConsortiumSponsorsType/>/<vivo:ConsortiumSponsorsType/>.jsp?uri=<vivo:ConsortiumSponsors/>"><vivo:ConsortiumSponsors /></a></td></tr>
       </vivo:foreachConsortiumSponsorsIterator>
@@ -67,18 +74,12 @@
       <vivo:foreachConsortiumAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:ConsortiumAffiliatedOrganizationType/>/<vivo:ConsortiumAffiliatedOrganizationType/>.jsp?uri=<vivo:ConsortiumAffiliatedOrganization/>"><vivo:ConsortiumAffiliatedOrganization /></a></td></tr>
       </vivo:foreachConsortiumAffiliatedOrganizationIterator>
+      <vivo:foreachConsortiumRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:ConsortiumRO_0000053Type/>/<vivo:ConsortiumRO_0000053Type/>.jsp?uri=<vivo:ConsortiumRO_0000053/>"><vivo:ConsortiumRO_0000053 /></a></td></tr>
+      </vivo:foreachConsortiumRO_0000053Iterator>
       <vivo:foreachConsortiumRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:ConsortiumRO_0000056Type/>/<vivo:ConsortiumRO_0000056Type/>.jsp?uri=<vivo:ConsortiumRO_0000056/>"><vivo:ConsortiumRO_0000056 /></a></td></tr>
       </vivo:foreachConsortiumRO_0000056Iterator>
-      <vivo:foreachConsortiumAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<vivo:ConsortiumAssigneeForType/>/<vivo:ConsortiumAssigneeForType/>.jsp?uri=<vivo:ConsortiumAssigneeFor/>"><vivo:ConsortiumAssigneeFor /></a></td></tr>
-      </vivo:foreachConsortiumAssigneeForIterator>
-      <vivo:foreachConsortiumHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<vivo:ConsortiumHasCollaboratorType/>/<vivo:ConsortiumHasCollaboratorType/>.jsp?uri=<vivo:ConsortiumHasCollaborator/>"><vivo:ConsortiumHasCollaborator /></a></td></tr>
-      </vivo:foreachConsortiumHasCollaboratorIterator>
-      <vivo:foreachConsortiumTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<vivo:ConsortiumTranslatorOfType/>/<vivo:ConsortiumTranslatorOfType/>.jsp?uri=<vivo:ConsortiumTranslatorOf/>"><vivo:ConsortiumTranslatorOf /></a></td></tr>
-      </vivo:foreachConsortiumTranslatorOfIterator>
    </table>
    </vivo:Consortium>
 

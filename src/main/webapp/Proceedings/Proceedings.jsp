@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altProceedings.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:Proceedings subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -25,12 +26,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachProceedingsTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:ProceedingsTheAbstract /></td></tr>
-      </vivo:foreachProceedingsTheAbstractIterator>
-      <vivo:foreachProceedingsDoiIterator>
-         <tr><td>doi</td><td><vivo:ProceedingsDoi /></td></tr>
-      </vivo:foreachProceedingsDoiIterator>
       <vivo:foreachProceedingsPageStartIterator>
          <tr><td>pageStart</td><td><vivo:ProceedingsPageStart /></td></tr>
       </vivo:foreachProceedingsPageStartIterator>
@@ -46,6 +41,12 @@
       <vivo:foreachProceedingsNumPagesIterator>
          <tr><td>numPages</td><td><vivo:ProceedingsNumPages /></td></tr>
       </vivo:foreachProceedingsNumPagesIterator>
+      <vivo:foreachProceedingsTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:ProceedingsTheAbstract /></td></tr>
+      </vivo:foreachProceedingsTheAbstractIterator>
+      <vivo:foreachProceedingsDoiIterator>
+         <tr><td>doi</td><td><vivo:ProceedingsDoi /></td></tr>
+      </vivo:foreachProceedingsDoiIterator>
       <vivo:foreachProceedingsPmidIterator>
          <tr><td>pmid</td><td><vivo:ProceedingsPmid /></td></tr>
       </vivo:foreachProceedingsPmidIterator>
@@ -62,18 +63,6 @@
       <vivo:foreachProceedingsProceedingsOfIterator>
          <tr><td>proceedingsOf</td><td><a href="../<vivo:ProceedingsProceedingsOfType/>/<vivo:ProceedingsProceedingsOfType/>.jsp?uri=<vivo:ProceedingsProceedingsOf/>"><vivo:ProceedingsProceedingsOf /></a></td></tr>
       </vivo:foreachProceedingsProceedingsOfIterator>
-      <vivo:foreachProceedingsTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:ProceedingsTranslatorType/>/<vivo:ProceedingsTranslatorType/>.jsp?uri=<vivo:ProceedingsTranslator/>"><vivo:ProceedingsTranslator /></a></td></tr>
-      </vivo:foreachProceedingsTranslatorIterator>
-      <vivo:foreachProceedingsFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:ProceedingsFeaturesType/>/<vivo:ProceedingsFeaturesType/>.jsp?uri=<vivo:ProceedingsFeatures/>"><vivo:ProceedingsFeatures /></a></td></tr>
-      </vivo:foreachProceedingsFeaturesIterator>
-      <vivo:foreachProceedingsInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ProceedingsInformationResourceSupportedByType/>/<vivo:ProceedingsInformationResourceSupportedByType/>.jsp?uri=<vivo:ProceedingsInformationResourceSupportedBy/>"><vivo:ProceedingsInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachProceedingsInformationResourceSupportedByIterator>
-      <vivo:foreachProceedingsIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:ProceedingsIAO_0000136Type/>/<vivo:ProceedingsIAO_0000136Type/>.jsp?uri=<vivo:ProceedingsIAO_0000136/>"><vivo:ProceedingsIAO_0000136 /></a></td></tr>
-      </vivo:foreachProceedingsIAO_0000136Iterator>
       <vivo:foreachProceedingsDateTimeValueIterator>
          <tr><td>dateTimeValue</td><td><a href="../<vivo:ProceedingsDateTimeValueType/>/<vivo:ProceedingsDateTimeValueType/>.jsp?uri=<vivo:ProceedingsDateTimeValue/>"><vivo:ProceedingsDateTimeValue /></a></td></tr>
       </vivo:foreachProceedingsDateTimeValueIterator>
@@ -95,6 +84,18 @@
       <vivo:foreachProceedingsRelatesIterator>
          <tr><td>relates</td><td><a href="../<vivo:ProceedingsRelatesType/>/<vivo:ProceedingsRelatesType/>.jsp?uri=<vivo:ProceedingsRelates/>"><vivo:ProceedingsRelates /></a></td></tr>
       </vivo:foreachProceedingsRelatesIterator>
+      <vivo:foreachProceedingsTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:ProceedingsTranslatorType/>/<vivo:ProceedingsTranslatorType/>.jsp?uri=<vivo:ProceedingsTranslator/>"><vivo:ProceedingsTranslator /></a></td></tr>
+      </vivo:foreachProceedingsTranslatorIterator>
+      <vivo:foreachProceedingsFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:ProceedingsFeaturesType/>/<vivo:ProceedingsFeaturesType/>.jsp?uri=<vivo:ProceedingsFeatures/>"><vivo:ProceedingsFeatures /></a></td></tr>
+      </vivo:foreachProceedingsFeaturesIterator>
+      <vivo:foreachProceedingsInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ProceedingsInformationResourceSupportedByType/>/<vivo:ProceedingsInformationResourceSupportedByType/>.jsp?uri=<vivo:ProceedingsInformationResourceSupportedBy/>"><vivo:ProceedingsInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachProceedingsInformationResourceSupportedByIterator>
+      <vivo:foreachProceedingsIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:ProceedingsIAO_0000136Type/>/<vivo:ProceedingsIAO_0000136Type/>.jsp?uri=<vivo:ProceedingsIAO_0000136/>"><vivo:ProceedingsIAO_0000136 /></a></td></tr>
+      </vivo:foreachProceedingsIAO_0000136Iterator>
       <vivo:foreachProceedingsDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<vivo:ProceedingsDocumentationForType/>/<vivo:ProceedingsDocumentationForType/>.jsp?uri=<vivo:ProceedingsDocumentationFor/>"><vivo:ProceedingsDocumentationFor /></a></td></tr>
       </vivo:foreachProceedingsDocumentationForIterator>

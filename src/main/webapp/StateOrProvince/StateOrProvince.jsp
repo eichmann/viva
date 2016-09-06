@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altStateOrProvince.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:StateOrProvince subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -32,15 +33,15 @@
       <vivo:foreachStateOrProvinceBFO_0000050Iterator>
          <tr><td>BFO_0000050</td><td><a href="../<vivo:StateOrProvinceBFO_0000050Type/>/<vivo:StateOrProvinceBFO_0000050Type/>.jsp?uri=<vivo:StateOrProvinceBFO_0000050/>"><vivo:StateOrProvinceBFO_0000050 /></a></td></tr>
       </vivo:foreachStateOrProvinceBFO_0000050Iterator>
+      <vivo:foreachStateOrProvinceGeographicFocusOfIterator>
+         <tr><td>geographicFocusOf</td><td><a href="../<vivo:StateOrProvinceGeographicFocusOfType/>/<vivo:StateOrProvinceGeographicFocusOfType/>.jsp?uri=<vivo:StateOrProvinceGeographicFocusOf/>"><vivo:StateOrProvinceGeographicFocusOf /></a></td></tr>
+      </vivo:foreachStateOrProvinceGeographicFocusOfIterator>
       <vivo:foreachStateOrProvinceRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:StateOrProvinceRO_0000053Type/>/<vivo:StateOrProvinceRO_0000053Type/>.jsp?uri=<vivo:StateOrProvinceRO_0000053/>"><vivo:StateOrProvinceRO_0000053 /></a></td></tr>
       </vivo:foreachStateOrProvinceRO_0000053Iterator>
       <vivo:foreachStateOrProvinceRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:StateOrProvinceRO_0000056Type/>/<vivo:StateOrProvinceRO_0000056Type/>.jsp?uri=<vivo:StateOrProvinceRO_0000056/>"><vivo:StateOrProvinceRO_0000056 /></a></td></tr>
       </vivo:foreachStateOrProvinceRO_0000056Iterator>
-      <vivo:foreachStateOrProvinceGeographicFocusOfIterator>
-         <tr><td>geographicFocusOf</td><td><a href="../<vivo:StateOrProvinceGeographicFocusOfType/>/<vivo:StateOrProvinceGeographicFocusOfType/>.jsp?uri=<vivo:StateOrProvinceGeographicFocusOf/>"><vivo:StateOrProvinceGeographicFocusOf /></a></td></tr>
-      </vivo:foreachStateOrProvinceGeographicFocusOfIterator>
    </table>
    </vivo:StateOrProvince>
 

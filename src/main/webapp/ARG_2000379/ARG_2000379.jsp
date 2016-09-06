@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altARG_2000379.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:ARG_2000379 subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -38,9 +39,6 @@
       <vivo:foreachARG_2000379ARG_2000029Iterator>
          <tr><td>ARG_2000029</td><td><a href="../<vivo:ARG_2000379ARG_2000029Type/>/<vivo:ARG_2000379ARG_2000029Type/>.jsp?uri=<vivo:ARG_2000379ARG_2000029/>"><vivo:ARG_2000379ARG_2000029 /></a></td></tr>
       </vivo:foreachARG_2000379ARG_2000029Iterator>
-      <vivo:foreachARG_2000379RO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:ARG_2000379RO_0000056Type/>/<vivo:ARG_2000379RO_0000056Type/>.jsp?uri=<vivo:ARG_2000379RO_0000056/>"><vivo:ARG_2000379RO_0000056 /></a></td></tr>
-      </vivo:foreachARG_2000379RO_0000056Iterator>
       <vivo:foreachARG_2000379TranslatorIterator>
          <tr><td>translator</td><td><a href="../<vivo:ARG_2000379TranslatorType/>/<vivo:ARG_2000379TranslatorType/>.jsp?uri=<vivo:ARG_2000379Translator/>"><vivo:ARG_2000379Translator /></a></td></tr>
       </vivo:foreachARG_2000379TranslatorIterator>
@@ -53,6 +51,9 @@
       <vivo:foreachARG_2000379IAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<vivo:ARG_2000379IAO_0000136Type/>/<vivo:ARG_2000379IAO_0000136Type/>.jsp?uri=<vivo:ARG_2000379IAO_0000136/>"><vivo:ARG_2000379IAO_0000136 /></a></td></tr>
       </vivo:foreachARG_2000379IAO_0000136Iterator>
+      <vivo:foreachARG_2000379RO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:ARG_2000379RO_0000056Type/>/<vivo:ARG_2000379RO_0000056Type/>.jsp?uri=<vivo:ARG_2000379RO_0000056/>"><vivo:ARG_2000379RO_0000056 /></a></td></tr>
+      </vivo:foreachARG_2000379RO_0000056Iterator>
    </table>
    </vivo:ARG_2000379>
 

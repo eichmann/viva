@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altgeographical_region.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:geographical_region subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -110,6 +111,9 @@
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachgeographical_regionHasMemberIterator>
+         <tr><td>hasMember</td><td><a href="../<vivo:geographical_regionHasMemberType/>/<vivo:geographical_regionHasMemberType/>.jsp?uri=<vivo:geographical_regionHasMember/>"><vivo:geographical_regionHasMember /></a></td></tr>
+      </vivo:foreachgeographical_regionHasMemberIterator>
       <vivo:foreachgeographical_regionGeographicFocusOfIterator>
          <tr><td>geographicFocusOf</td><td><a href="../<vivo:geographical_regionGeographicFocusOfType/>/<vivo:geographical_regionGeographicFocusOfType/>.jsp?uri=<vivo:geographical_regionGeographicFocusOf/>"><vivo:geographical_regionGeographicFocusOf /></a></td></tr>
       </vivo:foreachgeographical_regionGeographicFocusOfIterator>
@@ -122,9 +126,6 @@
       <vivo:foreachgeographical_regionIsPredecessorOfIterator>
          <tr><td>isPredecessorOf</td><td><a href="../<vivo:geographical_regionIsPredecessorOfType/>/<vivo:geographical_regionIsPredecessorOfType/>.jsp?uri=<vivo:geographical_regionIsPredecessorOf/>"><vivo:geographical_regionIsPredecessorOf /></a></td></tr>
       </vivo:foreachgeographical_regionIsPredecessorOfIterator>
-      <vivo:foreachgeographical_regionHasMemberIterator>
-         <tr><td>hasMember</td><td><a href="../<vivo:geographical_regionHasMemberType/>/<vivo:geographical_regionHasMemberType/>.jsp?uri=<vivo:geographical_regionHasMember/>"><vivo:geographical_regionHasMember /></a></td></tr>
-      </vivo:foreachgeographical_regionHasMemberIterator>
       <vivo:foreachgeographical_regionRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:geographical_regionRO_0000056Type/>/<vivo:geographical_regionRO_0000056Type/>.jsp?uri=<vivo:geographical_regionRO_0000056/>"><vivo:geographical_regionRO_0000056 /></a></td></tr>
       </vivo:foreachgeographical_regionRO_0000056Iterator>

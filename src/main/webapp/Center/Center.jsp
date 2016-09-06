@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altCenter.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:Center subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -21,8 +22,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>abbreviation</td><td><vivo:CenterAbbreviation /></td></tr>
       <tr><td>overview</td><td><vivo:CenterOverview /></td></tr>
+      <tr><td>abbreviation</td><td><vivo:CenterAbbreviation /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -31,9 +32,15 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachCenterRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:CenterRO_0000053Type/>/<vivo:CenterRO_0000053Type/>.jsp?uri=<vivo:CenterRO_0000053/>"><vivo:CenterRO_0000053 /></a></td></tr>
-      </vivo:foreachCenterRO_0000053Iterator>
+      <vivo:foreachCenterAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<vivo:CenterAssigneeForType/>/<vivo:CenterAssigneeForType/>.jsp?uri=<vivo:CenterAssigneeFor/>"><vivo:CenterAssigneeFor /></a></td></tr>
+      </vivo:foreachCenterAssigneeForIterator>
+      <vivo:foreachCenterHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<vivo:CenterHasCollaboratorType/>/<vivo:CenterHasCollaboratorType/>.jsp?uri=<vivo:CenterHasCollaborator/>"><vivo:CenterHasCollaborator /></a></td></tr>
+      </vivo:foreachCenterHasCollaboratorIterator>
+      <vivo:foreachCenterTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<vivo:CenterTranslatorOfType/>/<vivo:CenterTranslatorOfType/>.jsp?uri=<vivo:CenterTranslatorOf/>"><vivo:CenterTranslatorOf /></a></td></tr>
+      </vivo:foreachCenterTranslatorOfIterator>
       <vivo:foreachCenterSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<vivo:CenterSponsorsType/>/<vivo:CenterSponsorsType/>.jsp?uri=<vivo:CenterSponsors/>"><vivo:CenterSponsors /></a></td></tr>
       </vivo:foreachCenterSponsorsIterator>
@@ -67,18 +74,12 @@
       <vivo:foreachCenterAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:CenterAffiliatedOrganizationType/>/<vivo:CenterAffiliatedOrganizationType/>.jsp?uri=<vivo:CenterAffiliatedOrganization/>"><vivo:CenterAffiliatedOrganization /></a></td></tr>
       </vivo:foreachCenterAffiliatedOrganizationIterator>
+      <vivo:foreachCenterRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:CenterRO_0000053Type/>/<vivo:CenterRO_0000053Type/>.jsp?uri=<vivo:CenterRO_0000053/>"><vivo:CenterRO_0000053 /></a></td></tr>
+      </vivo:foreachCenterRO_0000053Iterator>
       <vivo:foreachCenterRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:CenterRO_0000056Type/>/<vivo:CenterRO_0000056Type/>.jsp?uri=<vivo:CenterRO_0000056/>"><vivo:CenterRO_0000056 /></a></td></tr>
       </vivo:foreachCenterRO_0000056Iterator>
-      <vivo:foreachCenterAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<vivo:CenterAssigneeForType/>/<vivo:CenterAssigneeForType/>.jsp?uri=<vivo:CenterAssigneeFor/>"><vivo:CenterAssigneeFor /></a></td></tr>
-      </vivo:foreachCenterAssigneeForIterator>
-      <vivo:foreachCenterHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<vivo:CenterHasCollaboratorType/>/<vivo:CenterHasCollaboratorType/>.jsp?uri=<vivo:CenterHasCollaborator/>"><vivo:CenterHasCollaborator /></a></td></tr>
-      </vivo:foreachCenterHasCollaboratorIterator>
-      <vivo:foreachCenterTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<vivo:CenterTranslatorOfType/>/<vivo:CenterTranslatorOfType/>.jsp?uri=<vivo:CenterTranslatorOf/>"><vivo:CenterTranslatorOf /></a></td></tr>
-      </vivo:foreachCenterTranslatorOfIterator>
    </table>
    </vivo:Center>
 

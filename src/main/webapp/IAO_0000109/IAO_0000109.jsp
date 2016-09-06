@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altIAO_0000109.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:IAO_0000109 subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -38,9 +39,6 @@
       <vivo:foreachIAO_0000109IAO_0000221Iterator>
          <tr><td>IAO_0000221</td><td><a href="../<vivo:IAO_0000109IAO_0000221Type/>/<vivo:IAO_0000109IAO_0000221Type/>.jsp?uri=<vivo:IAO_0000109IAO_0000221/>"><vivo:IAO_0000109IAO_0000221 /></a></td></tr>
       </vivo:foreachIAO_0000109IAO_0000221Iterator>
-      <vivo:foreachIAO_0000109RO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:IAO_0000109RO_0000056Type/>/<vivo:IAO_0000109RO_0000056Type/>.jsp?uri=<vivo:IAO_0000109RO_0000056/>"><vivo:IAO_0000109RO_0000056 /></a></td></tr>
-      </vivo:foreachIAO_0000109RO_0000056Iterator>
       <vivo:foreachIAO_0000109TranslatorIterator>
          <tr><td>translator</td><td><a href="../<vivo:IAO_0000109TranslatorType/>/<vivo:IAO_0000109TranslatorType/>.jsp?uri=<vivo:IAO_0000109Translator/>"><vivo:IAO_0000109Translator /></a></td></tr>
       </vivo:foreachIAO_0000109TranslatorIterator>
@@ -53,6 +51,9 @@
       <vivo:foreachIAO_0000109IAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<vivo:IAO_0000109IAO_0000136Type/>/<vivo:IAO_0000109IAO_0000136Type/>.jsp?uri=<vivo:IAO_0000109IAO_0000136/>"><vivo:IAO_0000109IAO_0000136 /></a></td></tr>
       </vivo:foreachIAO_0000109IAO_0000136Iterator>
+      <vivo:foreachIAO_0000109RO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:IAO_0000109RO_0000056Type/>/<vivo:IAO_0000109RO_0000056Type/>.jsp?uri=<vivo:IAO_0000109RO_0000056/>"><vivo:IAO_0000109RO_0000056 /></a></td></tr>
+      </vivo:foreachIAO_0000109RO_0000056Iterator>
    </table>
    </vivo:IAO_0000109>
 

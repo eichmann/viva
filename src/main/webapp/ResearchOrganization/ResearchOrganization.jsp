@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altResearchOrganization.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:ResearchOrganization subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -21,8 +22,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>abbreviation</td><td><vivo:ResearchOrganizationAbbreviation /></td></tr>
       <tr><td>overview</td><td><vivo:ResearchOrganizationOverview /></td></tr>
+      <tr><td>abbreviation</td><td><vivo:ResearchOrganizationAbbreviation /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -31,12 +32,15 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachResearchOrganizationRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:ResearchOrganizationRO_0000053Type/>/<vivo:ResearchOrganizationRO_0000053Type/>.jsp?uri=<vivo:ResearchOrganizationRO_0000053/>"><vivo:ResearchOrganizationRO_0000053 /></a></td></tr>
-      </vivo:foreachResearchOrganizationRO_0000053Iterator>
-      <vivo:foreachResearchOrganizationRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:ResearchOrganizationRO_0000056Type/>/<vivo:ResearchOrganizationRO_0000056Type/>.jsp?uri=<vivo:ResearchOrganizationRO_0000056/>"><vivo:ResearchOrganizationRO_0000056 /></a></td></tr>
-      </vivo:foreachResearchOrganizationRO_0000056Iterator>
+      <vivo:foreachResearchOrganizationAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<vivo:ResearchOrganizationAssigneeForType/>/<vivo:ResearchOrganizationAssigneeForType/>.jsp?uri=<vivo:ResearchOrganizationAssigneeFor/>"><vivo:ResearchOrganizationAssigneeFor /></a></td></tr>
+      </vivo:foreachResearchOrganizationAssigneeForIterator>
+      <vivo:foreachResearchOrganizationHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<vivo:ResearchOrganizationHasCollaboratorType/>/<vivo:ResearchOrganizationHasCollaboratorType/>.jsp?uri=<vivo:ResearchOrganizationHasCollaborator/>"><vivo:ResearchOrganizationHasCollaborator /></a></td></tr>
+      </vivo:foreachResearchOrganizationHasCollaboratorIterator>
+      <vivo:foreachResearchOrganizationTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<vivo:ResearchOrganizationTranslatorOfType/>/<vivo:ResearchOrganizationTranslatorOfType/>.jsp?uri=<vivo:ResearchOrganizationTranslatorOf/>"><vivo:ResearchOrganizationTranslatorOf /></a></td></tr>
+      </vivo:foreachResearchOrganizationTranslatorOfIterator>
       <vivo:foreachResearchOrganizationSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<vivo:ResearchOrganizationSponsorsType/>/<vivo:ResearchOrganizationSponsorsType/>.jsp?uri=<vivo:ResearchOrganizationSponsors/>"><vivo:ResearchOrganizationSponsors /></a></td></tr>
       </vivo:foreachResearchOrganizationSponsorsIterator>
@@ -70,15 +74,12 @@
       <vivo:foreachResearchOrganizationAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:ResearchOrganizationAffiliatedOrganizationType/>/<vivo:ResearchOrganizationAffiliatedOrganizationType/>.jsp?uri=<vivo:ResearchOrganizationAffiliatedOrganization/>"><vivo:ResearchOrganizationAffiliatedOrganization /></a></td></tr>
       </vivo:foreachResearchOrganizationAffiliatedOrganizationIterator>
-      <vivo:foreachResearchOrganizationAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<vivo:ResearchOrganizationAssigneeForType/>/<vivo:ResearchOrganizationAssigneeForType/>.jsp?uri=<vivo:ResearchOrganizationAssigneeFor/>"><vivo:ResearchOrganizationAssigneeFor /></a></td></tr>
-      </vivo:foreachResearchOrganizationAssigneeForIterator>
-      <vivo:foreachResearchOrganizationHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<vivo:ResearchOrganizationHasCollaboratorType/>/<vivo:ResearchOrganizationHasCollaboratorType/>.jsp?uri=<vivo:ResearchOrganizationHasCollaborator/>"><vivo:ResearchOrganizationHasCollaborator /></a></td></tr>
-      </vivo:foreachResearchOrganizationHasCollaboratorIterator>
-      <vivo:foreachResearchOrganizationTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<vivo:ResearchOrganizationTranslatorOfType/>/<vivo:ResearchOrganizationTranslatorOfType/>.jsp?uri=<vivo:ResearchOrganizationTranslatorOf/>"><vivo:ResearchOrganizationTranslatorOf /></a></td></tr>
-      </vivo:foreachResearchOrganizationTranslatorOfIterator>
+      <vivo:foreachResearchOrganizationRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:ResearchOrganizationRO_0000053Type/>/<vivo:ResearchOrganizationRO_0000053Type/>.jsp?uri=<vivo:ResearchOrganizationRO_0000053/>"><vivo:ResearchOrganizationRO_0000053 /></a></td></tr>
+      </vivo:foreachResearchOrganizationRO_0000053Iterator>
+      <vivo:foreachResearchOrganizationRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:ResearchOrganizationRO_0000056Type/>/<vivo:ResearchOrganizationRO_0000056Type/>.jsp?uri=<vivo:ResearchOrganizationRO_0000056/>"><vivo:ResearchOrganizationRO_0000056 /></a></td></tr>
+      </vivo:foreachResearchOrganizationRO_0000056Iterator>
    </table>
    </vivo:ResearchOrganization>
 

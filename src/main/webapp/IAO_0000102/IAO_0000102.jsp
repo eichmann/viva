@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altIAO_0000102.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:IAO_0000102 subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -35,9 +36,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachIAO_0000102RO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:IAO_0000102RO_0000056Type/>/<vivo:IAO_0000102RO_0000056Type/>.jsp?uri=<vivo:IAO_0000102RO_0000056/>"><vivo:IAO_0000102RO_0000056 /></a></td></tr>
-      </vivo:foreachIAO_0000102RO_0000056Iterator>
       <vivo:foreachIAO_0000102TranslatorIterator>
          <tr><td>translator</td><td><a href="../<vivo:IAO_0000102TranslatorType/>/<vivo:IAO_0000102TranslatorType/>.jsp?uri=<vivo:IAO_0000102Translator/>"><vivo:IAO_0000102Translator /></a></td></tr>
       </vivo:foreachIAO_0000102TranslatorIterator>
@@ -50,6 +48,9 @@
       <vivo:foreachIAO_0000102IAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<vivo:IAO_0000102IAO_0000136Type/>/<vivo:IAO_0000102IAO_0000136Type/>.jsp?uri=<vivo:IAO_0000102IAO_0000136/>"><vivo:IAO_0000102IAO_0000136 /></a></td></tr>
       </vivo:foreachIAO_0000102IAO_0000136Iterator>
+      <vivo:foreachIAO_0000102RO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:IAO_0000102RO_0000056Type/>/<vivo:IAO_0000102RO_0000056Type/>.jsp?uri=<vivo:IAO_0000102RO_0000056/>"><vivo:IAO_0000102RO_0000056 /></a></td></tr>
+      </vivo:foreachIAO_0000102RO_0000056Iterator>
    </table>
    </vivo:IAO_0000102>
 

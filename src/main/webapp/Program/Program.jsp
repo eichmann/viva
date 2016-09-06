@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altProgram.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:Program subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -21,8 +22,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>abbreviation</td><td><vivo:ProgramAbbreviation /></td></tr>
       <tr><td>overview</td><td><vivo:ProgramOverview /></td></tr>
+      <tr><td>abbreviation</td><td><vivo:ProgramAbbreviation /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -31,9 +32,15 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachProgramRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:ProgramRO_0000053Type/>/<vivo:ProgramRO_0000053Type/>.jsp?uri=<vivo:ProgramRO_0000053/>"><vivo:ProgramRO_0000053 /></a></td></tr>
-      </vivo:foreachProgramRO_0000053Iterator>
+      <vivo:foreachProgramAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<vivo:ProgramAssigneeForType/>/<vivo:ProgramAssigneeForType/>.jsp?uri=<vivo:ProgramAssigneeFor/>"><vivo:ProgramAssigneeFor /></a></td></tr>
+      </vivo:foreachProgramAssigneeForIterator>
+      <vivo:foreachProgramHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<vivo:ProgramHasCollaboratorType/>/<vivo:ProgramHasCollaboratorType/>.jsp?uri=<vivo:ProgramHasCollaborator/>"><vivo:ProgramHasCollaborator /></a></td></tr>
+      </vivo:foreachProgramHasCollaboratorIterator>
+      <vivo:foreachProgramTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<vivo:ProgramTranslatorOfType/>/<vivo:ProgramTranslatorOfType/>.jsp?uri=<vivo:ProgramTranslatorOf/>"><vivo:ProgramTranslatorOf /></a></td></tr>
+      </vivo:foreachProgramTranslatorOfIterator>
       <vivo:foreachProgramSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<vivo:ProgramSponsorsType/>/<vivo:ProgramSponsorsType/>.jsp?uri=<vivo:ProgramSponsors/>"><vivo:ProgramSponsors /></a></td></tr>
       </vivo:foreachProgramSponsorsIterator>
@@ -67,18 +74,12 @@
       <vivo:foreachProgramAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:ProgramAffiliatedOrganizationType/>/<vivo:ProgramAffiliatedOrganizationType/>.jsp?uri=<vivo:ProgramAffiliatedOrganization/>"><vivo:ProgramAffiliatedOrganization /></a></td></tr>
       </vivo:foreachProgramAffiliatedOrganizationIterator>
+      <vivo:foreachProgramRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:ProgramRO_0000053Type/>/<vivo:ProgramRO_0000053Type/>.jsp?uri=<vivo:ProgramRO_0000053/>"><vivo:ProgramRO_0000053 /></a></td></tr>
+      </vivo:foreachProgramRO_0000053Iterator>
       <vivo:foreachProgramRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:ProgramRO_0000056Type/>/<vivo:ProgramRO_0000056Type/>.jsp?uri=<vivo:ProgramRO_0000056/>"><vivo:ProgramRO_0000056 /></a></td></tr>
       </vivo:foreachProgramRO_0000056Iterator>
-      <vivo:foreachProgramAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<vivo:ProgramAssigneeForType/>/<vivo:ProgramAssigneeForType/>.jsp?uri=<vivo:ProgramAssigneeFor/>"><vivo:ProgramAssigneeFor /></a></td></tr>
-      </vivo:foreachProgramAssigneeForIterator>
-      <vivo:foreachProgramHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<vivo:ProgramHasCollaboratorType/>/<vivo:ProgramHasCollaboratorType/>.jsp?uri=<vivo:ProgramHasCollaborator/>"><vivo:ProgramHasCollaborator /></a></td></tr>
-      </vivo:foreachProgramHasCollaboratorIterator>
-      <vivo:foreachProgramTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<vivo:ProgramTranslatorOfType/>/<vivo:ProgramTranslatorOfType/>.jsp?uri=<vivo:ProgramTranslatorOf/>"><vivo:ProgramTranslatorOf /></a></td></tr>
-      </vivo:foreachProgramTranslatorOfIterator>
    </table>
    </vivo:Program>
 

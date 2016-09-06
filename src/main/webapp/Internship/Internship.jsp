@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altInternship.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:Internship subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -35,12 +36,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachInternshipRO_0000057Iterator>
-         <tr><td>RO_0000057</td><td><a href="../<vivo:InternshipRO_0000057Type/>/<vivo:InternshipRO_0000057Type/>.jsp?uri=<vivo:InternshipRO_0000057/>"><vivo:InternshipRO_0000057 /></a></td></tr>
-      </vivo:foreachInternshipRO_0000057Iterator>
       <vivo:foreachInternshipBFO_0000055Iterator>
          <tr><td>BFO_0000055</td><td><a href="../<vivo:InternshipBFO_0000055Type/>/<vivo:InternshipBFO_0000055Type/>.jsp?uri=<vivo:InternshipBFO_0000055/>"><vivo:InternshipBFO_0000055 /></a></td></tr>
       </vivo:foreachInternshipBFO_0000055Iterator>
+      <vivo:foreachInternshipRO_0000057Iterator>
+         <tr><td>RO_0000057</td><td><a href="../<vivo:InternshipRO_0000057Type/>/<vivo:InternshipRO_0000057Type/>.jsp?uri=<vivo:InternshipRO_0000057/>"><vivo:InternshipRO_0000057 /></a></td></tr>
+      </vivo:foreachInternshipRO_0000057Iterator>
    </table>
    </vivo:Internship>
 

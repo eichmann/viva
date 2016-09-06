@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altGraduateStudent.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:GraduateStudent subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -21,10 +22,10 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
+      <tr><td>overview</td><td><vivo:GraduateStudentOverview /></td></tr>
       <tr><td>teachingOverview</td><td><vivo:GraduateStudentTeachingOverview /></td></tr>
       <tr><td>outreachOverview</td><td><vivo:GraduateStudentOutreachOverview /></td></tr>
       <tr><td>researchOverview</td><td><vivo:GraduateStudentResearchOverview /></td></tr>
-      <tr><td>overview</td><td><vivo:GraduateStudentOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -51,12 +52,18 @@
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachGraduateStudentAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<vivo:GraduateStudentAssigneeForType/>/<vivo:GraduateStudentAssigneeForType/>.jsp?uri=<vivo:GraduateStudentAssigneeFor/>"><vivo:GraduateStudentAssigneeFor /></a></td></tr>
+      </vivo:foreachGraduateStudentAssigneeForIterator>
+      <vivo:foreachGraduateStudentHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<vivo:GraduateStudentHasCollaboratorType/>/<vivo:GraduateStudentHasCollaboratorType/>.jsp?uri=<vivo:GraduateStudentHasCollaborator/>"><vivo:GraduateStudentHasCollaborator /></a></td></tr>
+      </vivo:foreachGraduateStudentHasCollaboratorIterator>
+      <vivo:foreachGraduateStudentTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<vivo:GraduateStudentTranslatorOfType/>/<vivo:GraduateStudentTranslatorOfType/>.jsp?uri=<vivo:GraduateStudentTranslatorOf/>"><vivo:GraduateStudentTranslatorOf /></a></td></tr>
+      </vivo:foreachGraduateStudentTranslatorOfIterator>
       <vivo:foreachGraduateStudentRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:GraduateStudentRO_0000053Type/>/<vivo:GraduateStudentRO_0000053Type/>.jsp?uri=<vivo:GraduateStudentRO_0000053/>"><vivo:GraduateStudentRO_0000053 /></a></td></tr>
       </vivo:foreachGraduateStudentRO_0000053Iterator>
-      <vivo:foreachGraduateStudentRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:GraduateStudentRO_0000056Type/>/<vivo:GraduateStudentRO_0000056Type/>.jsp?uri=<vivo:GraduateStudentRO_0000056/>"><vivo:GraduateStudentRO_0000056 /></a></td></tr>
-      </vivo:foreachGraduateStudentRO_0000056Iterator>
       <vivo:foreachGraduateStudentRO_0001025Iterator>
          <tr><td>RO_0001025</td><td><a href="../<vivo:GraduateStudentRO_0001025Type/>/<vivo:GraduateStudentRO_0001025Type/>.jsp?uri=<vivo:GraduateStudentRO_0001025/>"><vivo:GraduateStudentRO_0001025 /></a></td></tr>
       </vivo:foreachGraduateStudentRO_0001025Iterator>
@@ -78,15 +85,9 @@
       <vivo:foreachGraduateStudentOrcidIdIterator>
          <tr><td>orcidId</td><td><a href="../<vivo:GraduateStudentOrcidIdType/>/<vivo:GraduateStudentOrcidIdType/>.jsp?uri=<vivo:GraduateStudentOrcidId/>"><vivo:GraduateStudentOrcidId /></a></td></tr>
       </vivo:foreachGraduateStudentOrcidIdIterator>
-      <vivo:foreachGraduateStudentAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<vivo:GraduateStudentAssigneeForType/>/<vivo:GraduateStudentAssigneeForType/>.jsp?uri=<vivo:GraduateStudentAssigneeFor/>"><vivo:GraduateStudentAssigneeFor /></a></td></tr>
-      </vivo:foreachGraduateStudentAssigneeForIterator>
-      <vivo:foreachGraduateStudentHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<vivo:GraduateStudentHasCollaboratorType/>/<vivo:GraduateStudentHasCollaboratorType/>.jsp?uri=<vivo:GraduateStudentHasCollaborator/>"><vivo:GraduateStudentHasCollaborator /></a></td></tr>
-      </vivo:foreachGraduateStudentHasCollaboratorIterator>
-      <vivo:foreachGraduateStudentTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<vivo:GraduateStudentTranslatorOfType/>/<vivo:GraduateStudentTranslatorOfType/>.jsp?uri=<vivo:GraduateStudentTranslatorOf/>"><vivo:GraduateStudentTranslatorOf /></a></td></tr>
-      </vivo:foreachGraduateStudentTranslatorOfIterator>
+      <vivo:foreachGraduateStudentRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:GraduateStudentRO_0000056Type/>/<vivo:GraduateStudentRO_0000056Type/>.jsp?uri=<vivo:GraduateStudentRO_0000056/>"><vivo:GraduateStudentRO_0000056 /></a></td></tr>
+      </vivo:foreachGraduateStudentRO_0000056Iterator>
    </table>
    </vivo:GraduateStudent>
 

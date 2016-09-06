@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altWorkshopSeries.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:WorkshopSeries subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -29,12 +30,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachWorkshopSeriesRO_0000057Iterator>
-         <tr><td>RO_0000057</td><td><a href="../<vivo:WorkshopSeriesRO_0000057Type/>/<vivo:WorkshopSeriesRO_0000057Type/>.jsp?uri=<vivo:WorkshopSeriesRO_0000057/>"><vivo:WorkshopSeriesRO_0000057 /></a></td></tr>
-      </vivo:foreachWorkshopSeriesRO_0000057Iterator>
       <vivo:foreachWorkshopSeriesBFO_0000055Iterator>
          <tr><td>BFO_0000055</td><td><a href="../<vivo:WorkshopSeriesBFO_0000055Type/>/<vivo:WorkshopSeriesBFO_0000055Type/>.jsp?uri=<vivo:WorkshopSeriesBFO_0000055/>"><vivo:WorkshopSeriesBFO_0000055 /></a></td></tr>
       </vivo:foreachWorkshopSeriesBFO_0000055Iterator>
+      <vivo:foreachWorkshopSeriesRO_0000057Iterator>
+         <tr><td>RO_0000057</td><td><a href="../<vivo:WorkshopSeriesRO_0000057Type/>/<vivo:WorkshopSeriesRO_0000057Type/>.jsp?uri=<vivo:WorkshopSeriesRO_0000057/>"><vivo:WorkshopSeriesRO_0000057 /></a></td></tr>
+      </vivo:foreachWorkshopSeriesRO_0000057Iterator>
    </table>
    </vivo:WorkshopSeries>
 

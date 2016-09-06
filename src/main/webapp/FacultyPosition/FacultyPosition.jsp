@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altFacultyPosition.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:FacultyPosition subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -38,18 +39,18 @@
       <vivo:foreachFacultyPositionRelatesIterator>
          <tr><td>relates</td><td><a href="../<vivo:FacultyPositionRelatesType/>/<vivo:FacultyPositionRelatesType/>.jsp?uri=<vivo:FacultyPositionRelates/>"><vivo:FacultyPositionRelates /></a></td></tr>
       </vivo:foreachFacultyPositionRelatesIterator>
-      <vivo:foreachFacultyPositionRO_0000052Iterator>
-         <tr><td>RO_0000052</td><td><a href="../<vivo:FacultyPositionRO_0000052Type/>/<vivo:FacultyPositionRO_0000052Type/>.jsp?uri=<vivo:FacultyPositionRO_0000052/>"><vivo:FacultyPositionRO_0000052 /></a></td></tr>
-      </vivo:foreachFacultyPositionRO_0000052Iterator>
-      <vivo:foreachFacultyPositionRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:FacultyPositionRO_0000056Type/>/<vivo:FacultyPositionRO_0000056Type/>.jsp?uri=<vivo:FacultyPositionRO_0000056/>"><vivo:FacultyPositionRO_0000056 /></a></td></tr>
-      </vivo:foreachFacultyPositionRO_0000056Iterator>
       <vivo:foreachFacultyPositionDateTimeIntervalIterator>
          <tr><td>dateTimeInterval</td><td><a href="../<vivo:FacultyPositionDateTimeIntervalType/>/<vivo:FacultyPositionDateTimeIntervalType/>.jsp?uri=<vivo:FacultyPositionDateTimeInterval/>"><vivo:FacultyPositionDateTimeInterval /></a></td></tr>
       </vivo:foreachFacultyPositionDateTimeIntervalIterator>
       <vivo:foreachFacultyPositionRelatesIterator>
          <tr><td>relates</td><td><a href="../<vivo:FacultyPositionRelatesType/>/<vivo:FacultyPositionRelatesType/>.jsp?uri=<vivo:FacultyPositionRelates/>"><vivo:FacultyPositionRelates /></a></td></tr>
       </vivo:foreachFacultyPositionRelatesIterator>
+      <vivo:foreachFacultyPositionRO_0000052Iterator>
+         <tr><td>RO_0000052</td><td><a href="../<vivo:FacultyPositionRO_0000052Type/>/<vivo:FacultyPositionRO_0000052Type/>.jsp?uri=<vivo:FacultyPositionRO_0000052/>"><vivo:FacultyPositionRO_0000052 /></a></td></tr>
+      </vivo:foreachFacultyPositionRO_0000052Iterator>
+      <vivo:foreachFacultyPositionRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:FacultyPositionRO_0000056Type/>/<vivo:FacultyPositionRO_0000056Type/>.jsp?uri=<vivo:FacultyPositionRO_0000056/>"><vivo:FacultyPositionRO_0000056 /></a></td></tr>
+      </vivo:foreachFacultyPositionRO_0000056Iterator>
    </table>
    </vivo:FacultyPosition>
 

@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altCommittee.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:Committee subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -30,12 +31,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachCommitteeRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:CommitteeRO_0000053Type/>/<vivo:CommitteeRO_0000053Type/>.jsp?uri=<vivo:CommitteeRO_0000053/>"><vivo:CommitteeRO_0000053 /></a></td></tr>
-      </vivo:foreachCommitteeRO_0000053Iterator>
-      <vivo:foreachCommitteeRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:CommitteeRO_0000056Type/>/<vivo:CommitteeRO_0000056Type/>.jsp?uri=<vivo:CommitteeRO_0000056/>"><vivo:CommitteeRO_0000056 /></a></td></tr>
-      </vivo:foreachCommitteeRO_0000056Iterator>
       <vivo:foreachCommitteeAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:CommitteeAssigneeForType/>/<vivo:CommitteeAssigneeForType/>.jsp?uri=<vivo:CommitteeAssigneeFor/>"><vivo:CommitteeAssigneeFor /></a></td></tr>
       </vivo:foreachCommitteeAssigneeForIterator>
@@ -45,6 +40,12 @@
       <vivo:foreachCommitteeTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<vivo:CommitteeTranslatorOfType/>/<vivo:CommitteeTranslatorOfType/>.jsp?uri=<vivo:CommitteeTranslatorOf/>"><vivo:CommitteeTranslatorOf /></a></td></tr>
       </vivo:foreachCommitteeTranslatorOfIterator>
+      <vivo:foreachCommitteeRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:CommitteeRO_0000053Type/>/<vivo:CommitteeRO_0000053Type/>.jsp?uri=<vivo:CommitteeRO_0000053/>"><vivo:CommitteeRO_0000053 /></a></td></tr>
+      </vivo:foreachCommitteeRO_0000053Iterator>
+      <vivo:foreachCommitteeRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:CommitteeRO_0000056Type/>/<vivo:CommitteeRO_0000056Type/>.jsp?uri=<vivo:CommitteeRO_0000056/>"><vivo:CommitteeRO_0000056 /></a></td></tr>
+      </vivo:foreachCommitteeRO_0000056Iterator>
    </table>
    </vivo:Committee>
 

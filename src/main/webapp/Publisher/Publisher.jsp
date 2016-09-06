@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altPublisher.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:Publisher subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -21,8 +22,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>abbreviation</td><td><vivo:PublisherAbbreviation /></td></tr>
       <tr><td>overview</td><td><vivo:PublisherOverview /></td></tr>
+      <tr><td>abbreviation</td><td><vivo:PublisherAbbreviation /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -34,9 +35,15 @@
       <vivo:foreachPublisherRelatedByIterator>
          <tr><td>relatedBy</td><td><a href="../<vivo:PublisherRelatedByType/>/<vivo:PublisherRelatedByType/>.jsp?uri=<vivo:PublisherRelatedBy/>"><vivo:PublisherRelatedBy /></a></td></tr>
       </vivo:foreachPublisherRelatedByIterator>
-      <vivo:foreachPublisherRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:PublisherRO_0000053Type/>/<vivo:PublisherRO_0000053Type/>.jsp?uri=<vivo:PublisherRO_0000053/>"><vivo:PublisherRO_0000053 /></a></td></tr>
-      </vivo:foreachPublisherRO_0000053Iterator>
+      <vivo:foreachPublisherAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<vivo:PublisherAssigneeForType/>/<vivo:PublisherAssigneeForType/>.jsp?uri=<vivo:PublisherAssigneeFor/>"><vivo:PublisherAssigneeFor /></a></td></tr>
+      </vivo:foreachPublisherAssigneeForIterator>
+      <vivo:foreachPublisherHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<vivo:PublisherHasCollaboratorType/>/<vivo:PublisherHasCollaboratorType/>.jsp?uri=<vivo:PublisherHasCollaborator/>"><vivo:PublisherHasCollaborator /></a></td></tr>
+      </vivo:foreachPublisherHasCollaboratorIterator>
+      <vivo:foreachPublisherTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<vivo:PublisherTranslatorOfType/>/<vivo:PublisherTranslatorOfType/>.jsp?uri=<vivo:PublisherTranslatorOf/>"><vivo:PublisherTranslatorOf /></a></td></tr>
+      </vivo:foreachPublisherTranslatorOfIterator>
       <vivo:foreachPublisherSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<vivo:PublisherSponsorsType/>/<vivo:PublisherSponsorsType/>.jsp?uri=<vivo:PublisherSponsors/>"><vivo:PublisherSponsors /></a></td></tr>
       </vivo:foreachPublisherSponsorsIterator>
@@ -70,18 +77,12 @@
       <vivo:foreachPublisherAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:PublisherAffiliatedOrganizationType/>/<vivo:PublisherAffiliatedOrganizationType/>.jsp?uri=<vivo:PublisherAffiliatedOrganization/>"><vivo:PublisherAffiliatedOrganization /></a></td></tr>
       </vivo:foreachPublisherAffiliatedOrganizationIterator>
+      <vivo:foreachPublisherRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:PublisherRO_0000053Type/>/<vivo:PublisherRO_0000053Type/>.jsp?uri=<vivo:PublisherRO_0000053/>"><vivo:PublisherRO_0000053 /></a></td></tr>
+      </vivo:foreachPublisherRO_0000053Iterator>
       <vivo:foreachPublisherRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:PublisherRO_0000056Type/>/<vivo:PublisherRO_0000056Type/>.jsp?uri=<vivo:PublisherRO_0000056/>"><vivo:PublisherRO_0000056 /></a></td></tr>
       </vivo:foreachPublisherRO_0000056Iterator>
-      <vivo:foreachPublisherAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<vivo:PublisherAssigneeForType/>/<vivo:PublisherAssigneeForType/>.jsp?uri=<vivo:PublisherAssigneeFor/>"><vivo:PublisherAssigneeFor /></a></td></tr>
-      </vivo:foreachPublisherAssigneeForIterator>
-      <vivo:foreachPublisherHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<vivo:PublisherHasCollaboratorType/>/<vivo:PublisherHasCollaboratorType/>.jsp?uri=<vivo:PublisherHasCollaborator/>"><vivo:PublisherHasCollaborator /></a></td></tr>
-      </vivo:foreachPublisherHasCollaboratorIterator>
-      <vivo:foreachPublisherTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<vivo:PublisherTranslatorOfType/>/<vivo:PublisherTranslatorOfType/>.jsp?uri=<vivo:PublisherTranslatorOf/>"><vivo:PublisherTranslatorOf /></a></td></tr>
-      </vivo:foreachPublisherTranslatorOfIterator>
    </table>
    </vivo:Publisher>
 

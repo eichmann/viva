@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altARG_2000011.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:ARG_2000011 subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -29,9 +30,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachARG_2000011RO_0000057Iterator>
-         <tr><td>RO_0000057</td><td><a href="../<vivo:ARG_2000011RO_0000057Type/>/<vivo:ARG_2000011RO_0000057Type/>.jsp?uri=<vivo:ARG_2000011RO_0000057/>"><vivo:ARG_2000011RO_0000057 /></a></td></tr>
-      </vivo:foreachARG_2000011RO_0000057Iterator>
       <vivo:foreachARG_2000011BFO_0000055Iterator>
          <tr><td>BFO_0000055</td><td><a href="../<vivo:ARG_2000011BFO_0000055Type/>/<vivo:ARG_2000011BFO_0000055Type/>.jsp?uri=<vivo:ARG_2000011BFO_0000055/>"><vivo:ARG_2000011BFO_0000055 /></a></td></tr>
       </vivo:foreachARG_2000011BFO_0000055Iterator>
@@ -44,6 +42,9 @@
       <vivo:foreachARG_2000011OBI_0000299Iterator>
          <tr><td>OBI_0000299</td><td><a href="../<vivo:ARG_2000011OBI_0000299Type/>/<vivo:ARG_2000011OBI_0000299Type/>.jsp?uri=<vivo:ARG_2000011OBI_0000299/>"><vivo:ARG_2000011OBI_0000299 /></a></td></tr>
       </vivo:foreachARG_2000011OBI_0000299Iterator>
+      <vivo:foreachARG_2000011RO_0000057Iterator>
+         <tr><td>RO_0000057</td><td><a href="../<vivo:ARG_2000011RO_0000057Type/>/<vivo:ARG_2000011RO_0000057Type/>.jsp?uri=<vivo:ARG_2000011RO_0000057/>"><vivo:ARG_2000011RO_0000057 /></a></td></tr>
+      </vivo:foreachARG_2000011RO_0000057Iterator>
    </table>
    </vivo:ARG_2000011>
 

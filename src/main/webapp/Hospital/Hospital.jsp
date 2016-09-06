@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altHospital.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:Hospital subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -21,8 +22,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>abbreviation</td><td><vivo:HospitalAbbreviation /></td></tr>
       <tr><td>overview</td><td><vivo:HospitalOverview /></td></tr>
+      <tr><td>abbreviation</td><td><vivo:HospitalAbbreviation /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -31,9 +32,15 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachHospitalRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:HospitalRO_0000053Type/>/<vivo:HospitalRO_0000053Type/>.jsp?uri=<vivo:HospitalRO_0000053/>"><vivo:HospitalRO_0000053 /></a></td></tr>
-      </vivo:foreachHospitalRO_0000053Iterator>
+      <vivo:foreachHospitalAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<vivo:HospitalAssigneeForType/>/<vivo:HospitalAssigneeForType/>.jsp?uri=<vivo:HospitalAssigneeFor/>"><vivo:HospitalAssigneeFor /></a></td></tr>
+      </vivo:foreachHospitalAssigneeForIterator>
+      <vivo:foreachHospitalHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<vivo:HospitalHasCollaboratorType/>/<vivo:HospitalHasCollaboratorType/>.jsp?uri=<vivo:HospitalHasCollaborator/>"><vivo:HospitalHasCollaborator /></a></td></tr>
+      </vivo:foreachHospitalHasCollaboratorIterator>
+      <vivo:foreachHospitalTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<vivo:HospitalTranslatorOfType/>/<vivo:HospitalTranslatorOfType/>.jsp?uri=<vivo:HospitalTranslatorOf/>"><vivo:HospitalTranslatorOf /></a></td></tr>
+      </vivo:foreachHospitalTranslatorOfIterator>
       <vivo:foreachHospitalSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<vivo:HospitalSponsorsType/>/<vivo:HospitalSponsorsType/>.jsp?uri=<vivo:HospitalSponsors/>"><vivo:HospitalSponsors /></a></td></tr>
       </vivo:foreachHospitalSponsorsIterator>
@@ -67,18 +74,12 @@
       <vivo:foreachHospitalAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:HospitalAffiliatedOrganizationType/>/<vivo:HospitalAffiliatedOrganizationType/>.jsp?uri=<vivo:HospitalAffiliatedOrganization/>"><vivo:HospitalAffiliatedOrganization /></a></td></tr>
       </vivo:foreachHospitalAffiliatedOrganizationIterator>
+      <vivo:foreachHospitalRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:HospitalRO_0000053Type/>/<vivo:HospitalRO_0000053Type/>.jsp?uri=<vivo:HospitalRO_0000053/>"><vivo:HospitalRO_0000053 /></a></td></tr>
+      </vivo:foreachHospitalRO_0000053Iterator>
       <vivo:foreachHospitalRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:HospitalRO_0000056Type/>/<vivo:HospitalRO_0000056Type/>.jsp?uri=<vivo:HospitalRO_0000056/>"><vivo:HospitalRO_0000056 /></a></td></tr>
       </vivo:foreachHospitalRO_0000056Iterator>
-      <vivo:foreachHospitalAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<vivo:HospitalAssigneeForType/>/<vivo:HospitalAssigneeForType/>.jsp?uri=<vivo:HospitalAssigneeFor/>"><vivo:HospitalAssigneeFor /></a></td></tr>
-      </vivo:foreachHospitalAssigneeForIterator>
-      <vivo:foreachHospitalHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<vivo:HospitalHasCollaboratorType/>/<vivo:HospitalHasCollaboratorType/>.jsp?uri=<vivo:HospitalHasCollaborator/>"><vivo:HospitalHasCollaborator /></a></td></tr>
-      </vivo:foreachHospitalHasCollaboratorIterator>
-      <vivo:foreachHospitalTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<vivo:HospitalTranslatorOfType/>/<vivo:HospitalTranslatorOfType/>.jsp?uri=<vivo:HospitalTranslatorOf/>"><vivo:HospitalTranslatorOf /></a></td></tr>
-      </vivo:foreachHospitalTranslatorOfIterator>
    </table>
    </vivo:Hospital>
 

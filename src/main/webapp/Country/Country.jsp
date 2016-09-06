@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altCountry.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:Country subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -260,15 +261,15 @@
       <vivo:foreachCountryHasBorderWithIterator>
          <tr><td>hasBorderWith</td><td><a href="../<vivo:CountryHasBorderWithType/>/<vivo:CountryHasBorderWithType/>.jsp?uri=<vivo:CountryHasBorderWith/>"><vivo:CountryHasBorderWith /></a></td></tr>
       </vivo:foreachCountryHasBorderWithIterator>
+      <vivo:foreachCountryGeographicFocusOfIterator>
+         <tr><td>geographicFocusOf</td><td><a href="../<vivo:CountryGeographicFocusOfType/>/<vivo:CountryGeographicFocusOfType/>.jsp?uri=<vivo:CountryGeographicFocusOf/>"><vivo:CountryGeographicFocusOf /></a></td></tr>
+      </vivo:foreachCountryGeographicFocusOfIterator>
       <vivo:foreachCountryRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:CountryRO_0000053Type/>/<vivo:CountryRO_0000053Type/>.jsp?uri=<vivo:CountryRO_0000053/>"><vivo:CountryRO_0000053 /></a></td></tr>
       </vivo:foreachCountryRO_0000053Iterator>
       <vivo:foreachCountryRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:CountryRO_0000056Type/>/<vivo:CountryRO_0000056Type/>.jsp?uri=<vivo:CountryRO_0000056/>"><vivo:CountryRO_0000056 /></a></td></tr>
       </vivo:foreachCountryRO_0000056Iterator>
-      <vivo:foreachCountryGeographicFocusOfIterator>
-         <tr><td>geographicFocusOf</td><td><a href="../<vivo:CountryGeographicFocusOfType/>/<vivo:CountryGeographicFocusOfType/>.jsp?uri=<vivo:CountryGeographicFocusOf/>"><vivo:CountryGeographicFocusOf /></a></td></tr>
-      </vivo:foreachCountryGeographicFocusOfIterator>
    </table>
    </vivo:Country>
 

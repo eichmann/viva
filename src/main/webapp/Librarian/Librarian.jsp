@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altLibrarian.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:Librarian subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -21,10 +22,10 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
+      <tr><td>overview</td><td><vivo:LibrarianOverview /></td></tr>
       <tr><td>teachingOverview</td><td><vivo:LibrarianTeachingOverview /></td></tr>
       <tr><td>outreachOverview</td><td><vivo:LibrarianOutreachOverview /></td></tr>
       <tr><td>researchOverview</td><td><vivo:LibrarianResearchOverview /></td></tr>
-      <tr><td>overview</td><td><vivo:LibrarianOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -51,12 +52,18 @@
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachLibrarianAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<vivo:LibrarianAssigneeForType/>/<vivo:LibrarianAssigneeForType/>.jsp?uri=<vivo:LibrarianAssigneeFor/>"><vivo:LibrarianAssigneeFor /></a></td></tr>
+      </vivo:foreachLibrarianAssigneeForIterator>
+      <vivo:foreachLibrarianHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<vivo:LibrarianHasCollaboratorType/>/<vivo:LibrarianHasCollaboratorType/>.jsp?uri=<vivo:LibrarianHasCollaborator/>"><vivo:LibrarianHasCollaborator /></a></td></tr>
+      </vivo:foreachLibrarianHasCollaboratorIterator>
+      <vivo:foreachLibrarianTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<vivo:LibrarianTranslatorOfType/>/<vivo:LibrarianTranslatorOfType/>.jsp?uri=<vivo:LibrarianTranslatorOf/>"><vivo:LibrarianTranslatorOf /></a></td></tr>
+      </vivo:foreachLibrarianTranslatorOfIterator>
       <vivo:foreachLibrarianRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:LibrarianRO_0000053Type/>/<vivo:LibrarianRO_0000053Type/>.jsp?uri=<vivo:LibrarianRO_0000053/>"><vivo:LibrarianRO_0000053 /></a></td></tr>
       </vivo:foreachLibrarianRO_0000053Iterator>
-      <vivo:foreachLibrarianRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:LibrarianRO_0000056Type/>/<vivo:LibrarianRO_0000056Type/>.jsp?uri=<vivo:LibrarianRO_0000056/>"><vivo:LibrarianRO_0000056 /></a></td></tr>
-      </vivo:foreachLibrarianRO_0000056Iterator>
       <vivo:foreachLibrarianRO_0001025Iterator>
          <tr><td>RO_0001025</td><td><a href="../<vivo:LibrarianRO_0001025Type/>/<vivo:LibrarianRO_0001025Type/>.jsp?uri=<vivo:LibrarianRO_0001025/>"><vivo:LibrarianRO_0001025 /></a></td></tr>
       </vivo:foreachLibrarianRO_0001025Iterator>
@@ -78,15 +85,9 @@
       <vivo:foreachLibrarianOrcidIdIterator>
          <tr><td>orcidId</td><td><a href="../<vivo:LibrarianOrcidIdType/>/<vivo:LibrarianOrcidIdType/>.jsp?uri=<vivo:LibrarianOrcidId/>"><vivo:LibrarianOrcidId /></a></td></tr>
       </vivo:foreachLibrarianOrcidIdIterator>
-      <vivo:foreachLibrarianAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<vivo:LibrarianAssigneeForType/>/<vivo:LibrarianAssigneeForType/>.jsp?uri=<vivo:LibrarianAssigneeFor/>"><vivo:LibrarianAssigneeFor /></a></td></tr>
-      </vivo:foreachLibrarianAssigneeForIterator>
-      <vivo:foreachLibrarianHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<vivo:LibrarianHasCollaboratorType/>/<vivo:LibrarianHasCollaboratorType/>.jsp?uri=<vivo:LibrarianHasCollaborator/>"><vivo:LibrarianHasCollaborator /></a></td></tr>
-      </vivo:foreachLibrarianHasCollaboratorIterator>
-      <vivo:foreachLibrarianTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<vivo:LibrarianTranslatorOfType/>/<vivo:LibrarianTranslatorOfType/>.jsp?uri=<vivo:LibrarianTranslatorOf/>"><vivo:LibrarianTranslatorOf /></a></td></tr>
-      </vivo:foreachLibrarianTranslatorOfIterator>
+      <vivo:foreachLibrarianRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:LibrarianRO_0000056Type/>/<vivo:LibrarianRO_0000056Type/>.jsp?uri=<vivo:LibrarianRO_0000056/>"><vivo:LibrarianRO_0000056 /></a></td></tr>
+      </vivo:foreachLibrarianRO_0000056Iterator>
    </table>
    </vivo:Librarian>
 

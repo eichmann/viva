@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altAcademicArticle.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:AcademicArticle subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -34,15 +35,6 @@
       <vivo:foreachAcademicArticleNumPagesIterator>
          <tr><td>numPages</td><td><vivo:AcademicArticleNumPages /></td></tr>
       </vivo:foreachAcademicArticleNumPagesIterator>
-      <vivo:foreachAcademicArticlePmcidIterator>
-         <tr><td>pmcid</td><td><vivo:AcademicArticlePmcid /></td></tr>
-      </vivo:foreachAcademicArticlePmcidIterator>
-      <vivo:foreachAcademicArticleIssueIterator>
-         <tr><td>issue</td><td><vivo:AcademicArticleIssue /></td></tr>
-      </vivo:foreachAcademicArticleIssueIterator>
-      <vivo:foreachAcademicArticleNihmsidIterator>
-         <tr><td>nihmsid</td><td><vivo:AcademicArticleNihmsid /></td></tr>
-      </vivo:foreachAcademicArticleNihmsidIterator>
       <vivo:foreachAcademicArticleTheAbstractIterator>
          <tr><td>theAbstract</td><td><vivo:AcademicArticleTheAbstract /></td></tr>
       </vivo:foreachAcademicArticleTheAbstractIterator>
@@ -58,6 +50,15 @@
       <vivo:foreachAcademicArticleVolumeIterator>
          <tr><td>volume</td><td><vivo:AcademicArticleVolume /></td></tr>
       </vivo:foreachAcademicArticleVolumeIterator>
+      <vivo:foreachAcademicArticlePmcidIterator>
+         <tr><td>pmcid</td><td><vivo:AcademicArticlePmcid /></td></tr>
+      </vivo:foreachAcademicArticlePmcidIterator>
+      <vivo:foreachAcademicArticleIssueIterator>
+         <tr><td>issue</td><td><vivo:AcademicArticleIssue /></td></tr>
+      </vivo:foreachAcademicArticleIssueIterator>
+      <vivo:foreachAcademicArticleNihmsidIterator>
+         <tr><td>nihmsid</td><td><vivo:AcademicArticleNihmsid /></td></tr>
+      </vivo:foreachAcademicArticleNihmsidIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -77,21 +78,6 @@
       <vivo:foreachAcademicArticleHasSubjectAreaIterator>
          <tr><td>hasSubjectArea</td><td><a href="../<vivo:AcademicArticleHasSubjectAreaType/>/<vivo:AcademicArticleHasSubjectAreaType/>.jsp?uri=<vivo:AcademicArticleHasSubjectArea/>"><vivo:AcademicArticleHasSubjectArea /></a></td></tr>
       </vivo:foreachAcademicArticleHasSubjectAreaIterator>
-      <vivo:foreachAcademicArticleRelatesIterator>
-         <tr><td>relates</td><td><a href="../<vivo:AcademicArticleRelatesType/>/<vivo:AcademicArticleRelatesType/>.jsp?uri=<vivo:AcademicArticleRelates/>"><vivo:AcademicArticleRelates /></a></td></tr>
-      </vivo:foreachAcademicArticleRelatesIterator>
-      <vivo:foreachAcademicArticleDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<vivo:AcademicArticleDateTimeValueType/>/<vivo:AcademicArticleDateTimeValueType/>.jsp?uri=<vivo:AcademicArticleDateTimeValue/>"><vivo:AcademicArticleDateTimeValue /></a></td></tr>
-      </vivo:foreachAcademicArticleDateTimeValueIterator>
-      <vivo:foreachAcademicArticleHasPublicationVenueIterator>
-         <tr><td>hasPublicationVenue</td><td><a href="../<vivo:AcademicArticleHasPublicationVenueType/>/<vivo:AcademicArticleHasPublicationVenueType/>.jsp?uri=<vivo:AcademicArticleHasPublicationVenue/>"><vivo:AcademicArticleHasPublicationVenue /></a></td></tr>
-      </vivo:foreachAcademicArticleHasPublicationVenueIterator>
-      <vivo:foreachAcademicArticleARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<vivo:AcademicArticleARG_2000028Type/>/<vivo:AcademicArticleARG_2000028Type/>.jsp?uri=<vivo:AcademicArticleARG_2000028/>"><vivo:AcademicArticleARG_2000028 /></a></td></tr>
-      </vivo:foreachAcademicArticleARG_2000028Iterator>
-      <vivo:foreachAcademicArticleRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<vivo:AcademicArticleRelatedByType/>/<vivo:AcademicArticleRelatedByType/>.jsp?uri=<vivo:AcademicArticleRelatedBy/>"><vivo:AcademicArticleRelatedBy /></a></td></tr>
-      </vivo:foreachAcademicArticleRelatedByIterator>
       <vivo:foreachAcademicArticleRelatesIterator>
          <tr><td>relates</td><td><a href="../<vivo:AcademicArticleRelatesType/>/<vivo:AcademicArticleRelatesType/>.jsp?uri=<vivo:AcademicArticleRelates/>"><vivo:AcademicArticleRelates /></a></td></tr>
       </vivo:foreachAcademicArticleRelatesIterator>
@@ -137,6 +123,21 @@
       <vivo:foreachAcademicArticleRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:AcademicArticleRO_0000056Type/>/<vivo:AcademicArticleRO_0000056Type/>.jsp?uri=<vivo:AcademicArticleRO_0000056/>"><vivo:AcademicArticleRO_0000056 /></a></td></tr>
       </vivo:foreachAcademicArticleRO_0000056Iterator>
+      <vivo:foreachAcademicArticleDateTimeValueIterator>
+         <tr><td>dateTimeValue</td><td><a href="../<vivo:AcademicArticleDateTimeValueType/>/<vivo:AcademicArticleDateTimeValueType/>.jsp?uri=<vivo:AcademicArticleDateTimeValue/>"><vivo:AcademicArticleDateTimeValue /></a></td></tr>
+      </vivo:foreachAcademicArticleDateTimeValueIterator>
+      <vivo:foreachAcademicArticleHasPublicationVenueIterator>
+         <tr><td>hasPublicationVenue</td><td><a href="../<vivo:AcademicArticleHasPublicationVenueType/>/<vivo:AcademicArticleHasPublicationVenueType/>.jsp?uri=<vivo:AcademicArticleHasPublicationVenue/>"><vivo:AcademicArticleHasPublicationVenue /></a></td></tr>
+      </vivo:foreachAcademicArticleHasPublicationVenueIterator>
+      <vivo:foreachAcademicArticleARG_2000028Iterator>
+         <tr><td>ARG_2000028</td><td><a href="../<vivo:AcademicArticleARG_2000028Type/>/<vivo:AcademicArticleARG_2000028Type/>.jsp?uri=<vivo:AcademicArticleARG_2000028/>"><vivo:AcademicArticleARG_2000028 /></a></td></tr>
+      </vivo:foreachAcademicArticleARG_2000028Iterator>
+      <vivo:foreachAcademicArticleRelatedByIterator>
+         <tr><td>relatedBy</td><td><a href="../<vivo:AcademicArticleRelatedByType/>/<vivo:AcademicArticleRelatedByType/>.jsp?uri=<vivo:AcademicArticleRelatedBy/>"><vivo:AcademicArticleRelatedBy /></a></td></tr>
+      </vivo:foreachAcademicArticleRelatedByIterator>
+      <vivo:foreachAcademicArticleRelatesIterator>
+         <tr><td>relates</td><td><a href="../<vivo:AcademicArticleRelatesType/>/<vivo:AcademicArticleRelatesType/>.jsp?uri=<vivo:AcademicArticleRelates/>"><vivo:AcademicArticleRelates /></a></td></tr>
+      </vivo:foreachAcademicArticleRelatesIterator>
    </table>
    </vivo:AcademicArticle>
 

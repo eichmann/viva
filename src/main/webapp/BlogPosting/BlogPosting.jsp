@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altBlogPosting.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:BlogPosting subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -25,15 +26,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachBlogPostingPmcidIterator>
-         <tr><td>pmcid</td><td><vivo:BlogPostingPmcid /></td></tr>
-      </vivo:foreachBlogPostingPmcidIterator>
-      <vivo:foreachBlogPostingIssueIterator>
-         <tr><td>issue</td><td><vivo:BlogPostingIssue /></td></tr>
-      </vivo:foreachBlogPostingIssueIterator>
-      <vivo:foreachBlogPostingNihmsidIterator>
-         <tr><td>nihmsid</td><td><vivo:BlogPostingNihmsid /></td></tr>
-      </vivo:foreachBlogPostingNihmsidIterator>
       <vivo:foreachBlogPostingTheAbstractIterator>
          <tr><td>theAbstract</td><td><vivo:BlogPostingTheAbstract /></td></tr>
       </vivo:foreachBlogPostingTheAbstractIterator>
@@ -49,25 +41,19 @@
       <vivo:foreachBlogPostingVolumeIterator>
          <tr><td>volume</td><td><vivo:BlogPostingVolume /></td></tr>
       </vivo:foreachBlogPostingVolumeIterator>
+      <vivo:foreachBlogPostingPmcidIterator>
+         <tr><td>pmcid</td><td><vivo:BlogPostingPmcid /></td></tr>
+      </vivo:foreachBlogPostingPmcidIterator>
+      <vivo:foreachBlogPostingIssueIterator>
+         <tr><td>issue</td><td><vivo:BlogPostingIssue /></td></tr>
+      </vivo:foreachBlogPostingIssueIterator>
+      <vivo:foreachBlogPostingNihmsidIterator>
+         <tr><td>nihmsid</td><td><vivo:BlogPostingNihmsid /></td></tr>
+      </vivo:foreachBlogPostingNihmsidIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachBlogPostingDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<vivo:BlogPostingDateTimeValueType/>/<vivo:BlogPostingDateTimeValueType/>.jsp?uri=<vivo:BlogPostingDateTimeValue/>"><vivo:BlogPostingDateTimeValue /></a></td></tr>
-      </vivo:foreachBlogPostingDateTimeValueIterator>
-      <vivo:foreachBlogPostingHasPublicationVenueIterator>
-         <tr><td>hasPublicationVenue</td><td><a href="../<vivo:BlogPostingHasPublicationVenueType/>/<vivo:BlogPostingHasPublicationVenueType/>.jsp?uri=<vivo:BlogPostingHasPublicationVenue/>"><vivo:BlogPostingHasPublicationVenue /></a></td></tr>
-      </vivo:foreachBlogPostingHasPublicationVenueIterator>
-      <vivo:foreachBlogPostingARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<vivo:BlogPostingARG_2000028Type/>/<vivo:BlogPostingARG_2000028Type/>.jsp?uri=<vivo:BlogPostingARG_2000028/>"><vivo:BlogPostingARG_2000028 /></a></td></tr>
-      </vivo:foreachBlogPostingARG_2000028Iterator>
-      <vivo:foreachBlogPostingRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<vivo:BlogPostingRelatedByType/>/<vivo:BlogPostingRelatedByType/>.jsp?uri=<vivo:BlogPostingRelatedBy/>"><vivo:BlogPostingRelatedBy /></a></td></tr>
-      </vivo:foreachBlogPostingRelatedByIterator>
-      <vivo:foreachBlogPostingRelatesIterator>
-         <tr><td>relates</td><td><a href="../<vivo:BlogPostingRelatesType/>/<vivo:BlogPostingRelatesType/>.jsp?uri=<vivo:BlogPostingRelates/>"><vivo:BlogPostingRelates /></a></td></tr>
-      </vivo:foreachBlogPostingRelatesIterator>
       <vivo:foreachBlogPostingTranslatorIterator>
          <tr><td>translator</td><td><a href="../<vivo:BlogPostingTranslatorType/>/<vivo:BlogPostingTranslatorType/>.jsp?uri=<vivo:BlogPostingTranslator/>"><vivo:BlogPostingTranslator /></a></td></tr>
       </vivo:foreachBlogPostingTranslatorIterator>
@@ -110,6 +96,21 @@
       <vivo:foreachBlogPostingRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:BlogPostingRO_0000056Type/>/<vivo:BlogPostingRO_0000056Type/>.jsp?uri=<vivo:BlogPostingRO_0000056/>"><vivo:BlogPostingRO_0000056 /></a></td></tr>
       </vivo:foreachBlogPostingRO_0000056Iterator>
+      <vivo:foreachBlogPostingDateTimeValueIterator>
+         <tr><td>dateTimeValue</td><td><a href="../<vivo:BlogPostingDateTimeValueType/>/<vivo:BlogPostingDateTimeValueType/>.jsp?uri=<vivo:BlogPostingDateTimeValue/>"><vivo:BlogPostingDateTimeValue /></a></td></tr>
+      </vivo:foreachBlogPostingDateTimeValueIterator>
+      <vivo:foreachBlogPostingHasPublicationVenueIterator>
+         <tr><td>hasPublicationVenue</td><td><a href="../<vivo:BlogPostingHasPublicationVenueType/>/<vivo:BlogPostingHasPublicationVenueType/>.jsp?uri=<vivo:BlogPostingHasPublicationVenue/>"><vivo:BlogPostingHasPublicationVenue /></a></td></tr>
+      </vivo:foreachBlogPostingHasPublicationVenueIterator>
+      <vivo:foreachBlogPostingARG_2000028Iterator>
+         <tr><td>ARG_2000028</td><td><a href="../<vivo:BlogPostingARG_2000028Type/>/<vivo:BlogPostingARG_2000028Type/>.jsp?uri=<vivo:BlogPostingARG_2000028/>"><vivo:BlogPostingARG_2000028 /></a></td></tr>
+      </vivo:foreachBlogPostingARG_2000028Iterator>
+      <vivo:foreachBlogPostingRelatedByIterator>
+         <tr><td>relatedBy</td><td><a href="../<vivo:BlogPostingRelatedByType/>/<vivo:BlogPostingRelatedByType/>.jsp?uri=<vivo:BlogPostingRelatedBy/>"><vivo:BlogPostingRelatedBy /></a></td></tr>
+      </vivo:foreachBlogPostingRelatedByIterator>
+      <vivo:foreachBlogPostingRelatesIterator>
+         <tr><td>relates</td><td><a href="../<vivo:BlogPostingRelatesType/>/<vivo:BlogPostingRelatesType/>.jsp?uri=<vivo:BlogPostingRelates/>"><vivo:BlogPostingRelates /></a></td></tr>
+      </vivo:foreachBlogPostingRelatesIterator>
    </table>
    </vivo:BlogPosting>
 

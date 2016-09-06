@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="alteconomic_region.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:economic_region subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -101,15 +102,15 @@
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreacheconomic_regionHasMemberIterator>
+         <tr><td>hasMember</td><td><a href="../<vivo:economic_regionHasMemberType/>/<vivo:economic_regionHasMemberType/>.jsp?uri=<vivo:economic_regionHasMember/>"><vivo:economic_regionHasMember /></a></td></tr>
+      </vivo:foreacheconomic_regionHasMemberIterator>
       <vivo:foreacheconomic_regionIsSuccessorOfIterator>
          <tr><td>isSuccessorOf</td><td><a href="../<vivo:economic_regionIsSuccessorOfType/>/<vivo:economic_regionIsSuccessorOfType/>.jsp?uri=<vivo:economic_regionIsSuccessorOf/>"><vivo:economic_regionIsSuccessorOf /></a></td></tr>
       </vivo:foreacheconomic_regionIsSuccessorOfIterator>
       <vivo:foreacheconomic_regionIsPredecessorOfIterator>
          <tr><td>isPredecessorOf</td><td><a href="../<vivo:economic_regionIsPredecessorOfType/>/<vivo:economic_regionIsPredecessorOfType/>.jsp?uri=<vivo:economic_regionIsPredecessorOf/>"><vivo:economic_regionIsPredecessorOf /></a></td></tr>
       </vivo:foreacheconomic_regionIsPredecessorOfIterator>
-      <vivo:foreacheconomic_regionHasMemberIterator>
-         <tr><td>hasMember</td><td><a href="../<vivo:economic_regionHasMemberType/>/<vivo:economic_regionHasMemberType/>.jsp?uri=<vivo:economic_regionHasMember/>"><vivo:economic_regionHasMember /></a></td></tr>
-      </vivo:foreacheconomic_regionHasMemberIterator>
    </table>
    </vivo:economic_region>
 

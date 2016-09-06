@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altFilm.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:Film subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -83,9 +84,6 @@
       <vivo:foreachFilmCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:FilmCitesType/>/<vivo:FilmCitesType/>.jsp?uri=<vivo:FilmCites/>"><vivo:FilmCites /></a></td></tr>
       </vivo:foreachFilmCitesIterator>
-      <vivo:foreachFilmRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:FilmRO_0000056Type/>/<vivo:FilmRO_0000056Type/>.jsp?uri=<vivo:FilmRO_0000056/>"><vivo:FilmRO_0000056 /></a></td></tr>
-      </vivo:foreachFilmRO_0000056Iterator>
       <vivo:foreachFilmDateTimeValueIterator>
          <tr><td>dateTimeValue</td><td><a href="../<vivo:FilmDateTimeValueType/>/<vivo:FilmDateTimeValueType/>.jsp?uri=<vivo:FilmDateTimeValue/>"><vivo:FilmDateTimeValue /></a></td></tr>
       </vivo:foreachFilmDateTimeValueIterator>
@@ -98,6 +96,9 @@
       <vivo:foreachFilmRelatedByIterator>
          <tr><td>relatedBy</td><td><a href="../<vivo:FilmRelatedByType/>/<vivo:FilmRelatedByType/>.jsp?uri=<vivo:FilmRelatedBy/>"><vivo:FilmRelatedBy /></a></td></tr>
       </vivo:foreachFilmRelatedByIterator>
+      <vivo:foreachFilmRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:FilmRO_0000056Type/>/<vivo:FilmRO_0000056Type/>.jsp?uri=<vivo:FilmRO_0000056/>"><vivo:FilmRO_0000056 /></a></td></tr>
+      </vivo:foreachFilmRO_0000056Iterator>
    </table>
    </vivo:Film>
 

@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altClinicalOrganization.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:ClinicalOrganization subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -21,8 +22,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>abbreviation</td><td><vivo:ClinicalOrganizationAbbreviation /></td></tr>
       <tr><td>overview</td><td><vivo:ClinicalOrganizationOverview /></td></tr>
+      <tr><td>abbreviation</td><td><vivo:ClinicalOrganizationAbbreviation /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -31,9 +32,15 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachClinicalOrganizationRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:ClinicalOrganizationRO_0000053Type/>/<vivo:ClinicalOrganizationRO_0000053Type/>.jsp?uri=<vivo:ClinicalOrganizationRO_0000053/>"><vivo:ClinicalOrganizationRO_0000053 /></a></td></tr>
-      </vivo:foreachClinicalOrganizationRO_0000053Iterator>
+      <vivo:foreachClinicalOrganizationAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<vivo:ClinicalOrganizationAssigneeForType/>/<vivo:ClinicalOrganizationAssigneeForType/>.jsp?uri=<vivo:ClinicalOrganizationAssigneeFor/>"><vivo:ClinicalOrganizationAssigneeFor /></a></td></tr>
+      </vivo:foreachClinicalOrganizationAssigneeForIterator>
+      <vivo:foreachClinicalOrganizationHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<vivo:ClinicalOrganizationHasCollaboratorType/>/<vivo:ClinicalOrganizationHasCollaboratorType/>.jsp?uri=<vivo:ClinicalOrganizationHasCollaborator/>"><vivo:ClinicalOrganizationHasCollaborator /></a></td></tr>
+      </vivo:foreachClinicalOrganizationHasCollaboratorIterator>
+      <vivo:foreachClinicalOrganizationTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<vivo:ClinicalOrganizationTranslatorOfType/>/<vivo:ClinicalOrganizationTranslatorOfType/>.jsp?uri=<vivo:ClinicalOrganizationTranslatorOf/>"><vivo:ClinicalOrganizationTranslatorOf /></a></td></tr>
+      </vivo:foreachClinicalOrganizationTranslatorOfIterator>
       <vivo:foreachClinicalOrganizationSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<vivo:ClinicalOrganizationSponsorsType/>/<vivo:ClinicalOrganizationSponsorsType/>.jsp?uri=<vivo:ClinicalOrganizationSponsors/>"><vivo:ClinicalOrganizationSponsors /></a></td></tr>
       </vivo:foreachClinicalOrganizationSponsorsIterator>
@@ -67,18 +74,12 @@
       <vivo:foreachClinicalOrganizationAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:ClinicalOrganizationAffiliatedOrganizationType/>/<vivo:ClinicalOrganizationAffiliatedOrganizationType/>.jsp?uri=<vivo:ClinicalOrganizationAffiliatedOrganization/>"><vivo:ClinicalOrganizationAffiliatedOrganization /></a></td></tr>
       </vivo:foreachClinicalOrganizationAffiliatedOrganizationIterator>
+      <vivo:foreachClinicalOrganizationRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:ClinicalOrganizationRO_0000053Type/>/<vivo:ClinicalOrganizationRO_0000053Type/>.jsp?uri=<vivo:ClinicalOrganizationRO_0000053/>"><vivo:ClinicalOrganizationRO_0000053 /></a></td></tr>
+      </vivo:foreachClinicalOrganizationRO_0000053Iterator>
       <vivo:foreachClinicalOrganizationRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:ClinicalOrganizationRO_0000056Type/>/<vivo:ClinicalOrganizationRO_0000056Type/>.jsp?uri=<vivo:ClinicalOrganizationRO_0000056/>"><vivo:ClinicalOrganizationRO_0000056 /></a></td></tr>
       </vivo:foreachClinicalOrganizationRO_0000056Iterator>
-      <vivo:foreachClinicalOrganizationAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<vivo:ClinicalOrganizationAssigneeForType/>/<vivo:ClinicalOrganizationAssigneeForType/>.jsp?uri=<vivo:ClinicalOrganizationAssigneeFor/>"><vivo:ClinicalOrganizationAssigneeFor /></a></td></tr>
-      </vivo:foreachClinicalOrganizationAssigneeForIterator>
-      <vivo:foreachClinicalOrganizationHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<vivo:ClinicalOrganizationHasCollaboratorType/>/<vivo:ClinicalOrganizationHasCollaboratorType/>.jsp?uri=<vivo:ClinicalOrganizationHasCollaborator/>"><vivo:ClinicalOrganizationHasCollaborator /></a></td></tr>
-      </vivo:foreachClinicalOrganizationHasCollaboratorIterator>
-      <vivo:foreachClinicalOrganizationTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<vivo:ClinicalOrganizationTranslatorOfType/>/<vivo:ClinicalOrganizationTranslatorOfType/>.jsp?uri=<vivo:ClinicalOrganizationTranslatorOf/>"><vivo:ClinicalOrganizationTranslatorOf /></a></td></tr>
-      </vivo:foreachClinicalOrganizationTranslatorOfIterator>
    </table>
    </vivo:ClinicalOrganization>
 

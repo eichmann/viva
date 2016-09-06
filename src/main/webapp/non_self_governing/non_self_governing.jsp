@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altnon_self_governing.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:non_self_governing subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -248,12 +249,12 @@
       <vivo:foreachnon_self_governingRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:non_self_governingRO_0000056Type/>/<vivo:non_self_governingRO_0000056Type/>.jsp?uri=<vivo:non_self_governingRO_0000056/>"><vivo:non_self_governingRO_0000056 /></a></td></tr>
       </vivo:foreachnon_self_governingRO_0000056Iterator>
-      <vivo:foreachnon_self_governingRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:non_self_governingRO_0000053Type/>/<vivo:non_self_governingRO_0000053Type/>.jsp?uri=<vivo:non_self_governingRO_0000053/>"><vivo:non_self_governingRO_0000053 /></a></td></tr>
-      </vivo:foreachnon_self_governingRO_0000053Iterator>
       <vivo:foreachnon_self_governingIsInGroupIterator>
          <tr><td>isInGroup</td><td><a href="../<vivo:non_self_governingIsInGroupType/>/<vivo:non_self_governingIsInGroupType/>.jsp?uri=<vivo:non_self_governingIsInGroup/>"><vivo:non_self_governingIsInGroup /></a></td></tr>
       </vivo:foreachnon_self_governingIsInGroupIterator>
+      <vivo:foreachnon_self_governingRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:non_self_governingRO_0000053Type/>/<vivo:non_self_governingRO_0000053Type/>.jsp?uri=<vivo:non_self_governingRO_0000053/>"><vivo:non_self_governingRO_0000053 /></a></td></tr>
+      </vivo:foreachnon_self_governingRO_0000053Iterator>
    </table>
    </vivo:non_self_governing>
 

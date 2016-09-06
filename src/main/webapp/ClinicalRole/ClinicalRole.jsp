@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altClinicalRole.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:ClinicalRole subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -29,18 +30,18 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachClinicalRoleBFO_0000054Iterator>
-         <tr><td>BFO_0000054</td><td><a href="../<vivo:ClinicalRoleBFO_0000054Type/>/<vivo:ClinicalRoleBFO_0000054Type/>.jsp?uri=<vivo:ClinicalRoleBFO_0000054/>"><vivo:ClinicalRoleBFO_0000054 /></a></td></tr>
-      </vivo:foreachClinicalRoleBFO_0000054Iterator>
       <vivo:foreachClinicalRoleRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<vivo:ClinicalRoleRO_0000052Type/>/<vivo:ClinicalRoleRO_0000052Type/>.jsp?uri=<vivo:ClinicalRoleRO_0000052/>"><vivo:ClinicalRoleRO_0000052 /></a></td></tr>
       </vivo:foreachClinicalRoleRO_0000052Iterator>
-      <vivo:foreachClinicalRoleRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:ClinicalRoleRO_0000056Type/>/<vivo:ClinicalRoleRO_0000056Type/>.jsp?uri=<vivo:ClinicalRoleRO_0000056/>"><vivo:ClinicalRoleRO_0000056 /></a></td></tr>
-      </vivo:foreachClinicalRoleRO_0000056Iterator>
       <vivo:foreachClinicalRoleRoleContributesToIterator>
          <tr><td>roleContributesTo</td><td><a href="../<vivo:ClinicalRoleRoleContributesToType/>/<vivo:ClinicalRoleRoleContributesToType/>.jsp?uri=<vivo:ClinicalRoleRoleContributesTo/>"><vivo:ClinicalRoleRoleContributesTo /></a></td></tr>
       </vivo:foreachClinicalRoleRoleContributesToIterator>
+      <vivo:foreachClinicalRoleBFO_0000054Iterator>
+         <tr><td>BFO_0000054</td><td><a href="../<vivo:ClinicalRoleBFO_0000054Type/>/<vivo:ClinicalRoleBFO_0000054Type/>.jsp?uri=<vivo:ClinicalRoleBFO_0000054/>"><vivo:ClinicalRoleBFO_0000054 /></a></td></tr>
+      </vivo:foreachClinicalRoleBFO_0000054Iterator>
+      <vivo:foreachClinicalRoleRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:ClinicalRoleRO_0000056Type/>/<vivo:ClinicalRoleRO_0000056Type/>.jsp?uri=<vivo:ClinicalRoleRO_0000056/>"><vivo:ClinicalRoleRO_0000056 /></a></td></tr>
+      </vivo:foreachClinicalRoleRO_0000056Iterator>
    </table>
    </vivo:ClinicalRole>
 

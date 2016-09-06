@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altMemberRole.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:MemberRole subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -29,18 +30,18 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachMemberRoleBFO_0000054Iterator>
-         <tr><td>BFO_0000054</td><td><a href="../<vivo:MemberRoleBFO_0000054Type/>/<vivo:MemberRoleBFO_0000054Type/>.jsp?uri=<vivo:MemberRoleBFO_0000054/>"><vivo:MemberRoleBFO_0000054 /></a></td></tr>
-      </vivo:foreachMemberRoleBFO_0000054Iterator>
       <vivo:foreachMemberRoleRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<vivo:MemberRoleRO_0000052Type/>/<vivo:MemberRoleRO_0000052Type/>.jsp?uri=<vivo:MemberRoleRO_0000052/>"><vivo:MemberRoleRO_0000052 /></a></td></tr>
       </vivo:foreachMemberRoleRO_0000052Iterator>
-      <vivo:foreachMemberRoleRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:MemberRoleRO_0000056Type/>/<vivo:MemberRoleRO_0000056Type/>.jsp?uri=<vivo:MemberRoleRO_0000056/>"><vivo:MemberRoleRO_0000056 /></a></td></tr>
-      </vivo:foreachMemberRoleRO_0000056Iterator>
       <vivo:foreachMemberRoleRoleContributesToIterator>
          <tr><td>roleContributesTo</td><td><a href="../<vivo:MemberRoleRoleContributesToType/>/<vivo:MemberRoleRoleContributesToType/>.jsp?uri=<vivo:MemberRoleRoleContributesTo/>"><vivo:MemberRoleRoleContributesTo /></a></td></tr>
       </vivo:foreachMemberRoleRoleContributesToIterator>
+      <vivo:foreachMemberRoleBFO_0000054Iterator>
+         <tr><td>BFO_0000054</td><td><a href="../<vivo:MemberRoleBFO_0000054Type/>/<vivo:MemberRoleBFO_0000054Type/>.jsp?uri=<vivo:MemberRoleBFO_0000054/>"><vivo:MemberRoleBFO_0000054 /></a></td></tr>
+      </vivo:foreachMemberRoleBFO_0000054Iterator>
+      <vivo:foreachMemberRoleRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:MemberRoleRO_0000056Type/>/<vivo:MemberRoleRO_0000056Type/>.jsp?uri=<vivo:MemberRoleRO_0000056/>"><vivo:MemberRoleRO_0000056 /></a></td></tr>
+      </vivo:foreachMemberRoleRO_0000056Iterator>
    </table>
    </vivo:MemberRole>
 

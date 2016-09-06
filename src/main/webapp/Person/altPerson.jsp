@@ -34,6 +34,21 @@
          </vivo:foreachPersonFreetextKeywordIterator>
       </vivo:foreachPersonARG_2000028Iterator>
       <h4>Overview</h4><vivo:PersonOverview/>
+
+      <H4>Publications</H4>
+      <ol>
+      <vivo:foreachPersonRelatedByIterator classFilter="Authorship">
+         <c:set var="auth"><vivo:PersonRelatedBy/></c:set>
+         <vivo:Authorship subjectURI="${auth}">
+            <vivo:foreachAuthorshipRelatesIterator classFilter="AcademicArticle">
+               <c:set var="pub"><vivo:AuthorshipRelates/></c:set>
+               <vivo:AcademicArticle subjectURI="${pub}">
+                  <li><a href="../AcademicArticle/AcademicArticle.jsp?uri=<vivo:AcademicArticleSubjectURI/>"><vivo:AcademicArticleLabel/></a> (Academic Article)
+               </vivo:AcademicArticle>
+            </vivo:foreachAuthorshipRelatesIterator>
+         </vivo:Authorship>
+      </vivo:foreachPersonRelatedByIterator>
+      </ol>
    </vivo:Person>
 
 <jsp:include page="/footer.jsp" flush="true" /></div></div></body>

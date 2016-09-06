@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altChapter.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:Chapter subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -35,9 +36,6 @@
       <vivo:foreachChapterNumPagesIterator>
          <tr><td>numPages</td><td><vivo:ChapterNumPages /></td></tr>
       </vivo:foreachChapterNumPagesIterator>
-      <vivo:foreachChapterChapterIterator>
-         <tr><td>chapter</td><td><vivo:ChapterChapter /></td></tr>
-      </vivo:foreachChapterChapterIterator>
       <vivo:foreachChapterPmidIterator>
          <tr><td>pmid</td><td><vivo:ChapterPmid /></td></tr>
       </vivo:foreachChapterPmidIterator>
@@ -53,6 +51,9 @@
       <vivo:foreachChapterDoiIterator>
          <tr><td>doi</td><td><vivo:ChapterDoi /></td></tr>
       </vivo:foreachChapterDoiIterator>
+      <vivo:foreachChapterChapterIterator>
+         <tr><td>chapter</td><td><vivo:ChapterChapter /></td></tr>
+      </vivo:foreachChapterChapterIterator>
    </table>
 
    <h3>Object Properties</h3>

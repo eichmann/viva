@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altLibrarianPosition.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:LibrarianPosition subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -38,18 +39,18 @@
       <vivo:foreachLibrarianPositionRelatesIterator>
          <tr><td>relates</td><td><a href="../<vivo:LibrarianPositionRelatesType/>/<vivo:LibrarianPositionRelatesType/>.jsp?uri=<vivo:LibrarianPositionRelates/>"><vivo:LibrarianPositionRelates /></a></td></tr>
       </vivo:foreachLibrarianPositionRelatesIterator>
-      <vivo:foreachLibrarianPositionRO_0000052Iterator>
-         <tr><td>RO_0000052</td><td><a href="../<vivo:LibrarianPositionRO_0000052Type/>/<vivo:LibrarianPositionRO_0000052Type/>.jsp?uri=<vivo:LibrarianPositionRO_0000052/>"><vivo:LibrarianPositionRO_0000052 /></a></td></tr>
-      </vivo:foreachLibrarianPositionRO_0000052Iterator>
-      <vivo:foreachLibrarianPositionRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:LibrarianPositionRO_0000056Type/>/<vivo:LibrarianPositionRO_0000056Type/>.jsp?uri=<vivo:LibrarianPositionRO_0000056/>"><vivo:LibrarianPositionRO_0000056 /></a></td></tr>
-      </vivo:foreachLibrarianPositionRO_0000056Iterator>
       <vivo:foreachLibrarianPositionDateTimeIntervalIterator>
          <tr><td>dateTimeInterval</td><td><a href="../<vivo:LibrarianPositionDateTimeIntervalType/>/<vivo:LibrarianPositionDateTimeIntervalType/>.jsp?uri=<vivo:LibrarianPositionDateTimeInterval/>"><vivo:LibrarianPositionDateTimeInterval /></a></td></tr>
       </vivo:foreachLibrarianPositionDateTimeIntervalIterator>
       <vivo:foreachLibrarianPositionRelatesIterator>
          <tr><td>relates</td><td><a href="../<vivo:LibrarianPositionRelatesType/>/<vivo:LibrarianPositionRelatesType/>.jsp?uri=<vivo:LibrarianPositionRelates/>"><vivo:LibrarianPositionRelates /></a></td></tr>
       </vivo:foreachLibrarianPositionRelatesIterator>
+      <vivo:foreachLibrarianPositionRO_0000052Iterator>
+         <tr><td>RO_0000052</td><td><a href="../<vivo:LibrarianPositionRO_0000052Type/>/<vivo:LibrarianPositionRO_0000052Type/>.jsp?uri=<vivo:LibrarianPositionRO_0000052/>"><vivo:LibrarianPositionRO_0000052 /></a></td></tr>
+      </vivo:foreachLibrarianPositionRO_0000052Iterator>
+      <vivo:foreachLibrarianPositionRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:LibrarianPositionRO_0000056Type/>/<vivo:LibrarianPositionRO_0000056Type/>.jsp?uri=<vivo:LibrarianPositionRO_0000056/>"><vivo:LibrarianPositionRO_0000056 /></a></td></tr>
+      </vivo:foreachLibrarianPositionRO_0000056Iterator>
    </table>
    </vivo:LibrarianPosition>
 

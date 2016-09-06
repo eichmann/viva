@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altRoom.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:Room subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -33,12 +34,12 @@
       <vivo:foreachRoomRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:RoomRO_0000053Type/>/<vivo:RoomRO_0000053Type/>.jsp?uri=<vivo:RoomRO_0000053/>"><vivo:RoomRO_0000053 /></a></td></tr>
       </vivo:foreachRoomRO_0000053Iterator>
-      <vivo:foreachRoomRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:RoomRO_0000056Type/>/<vivo:RoomRO_0000056Type/>.jsp?uri=<vivo:RoomRO_0000056/>"><vivo:RoomRO_0000056 /></a></td></tr>
-      </vivo:foreachRoomRO_0000056Iterator>
       <vivo:foreachRoomFacilityForIterator>
          <tr><td>facilityFor</td><td><a href="../<vivo:RoomFacilityForType/>/<vivo:RoomFacilityForType/>.jsp?uri=<vivo:RoomFacilityFor/>"><vivo:RoomFacilityFor /></a></td></tr>
       </vivo:foreachRoomFacilityForIterator>
+      <vivo:foreachRoomRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:RoomRO_0000056Type/>/<vivo:RoomRO_0000056Type/>.jsp?uri=<vivo:RoomRO_0000056/>"><vivo:RoomRO_0000056 /></a></td></tr>
+      </vivo:foreachRoomRO_0000056Iterator>
    </table>
    </vivo:Room>
 

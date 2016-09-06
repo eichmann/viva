@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altSynonym.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:Synonym subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -35,9 +36,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachSynonymRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:SynonymRO_0000056Type/>/<vivo:SynonymRO_0000056Type/>.jsp?uri=<vivo:SynonymRO_0000056/>"><vivo:SynonymRO_0000056 /></a></td></tr>
-      </vivo:foreachSynonymRO_0000056Iterator>
       <vivo:foreachSynonymTranslatorIterator>
          <tr><td>translator</td><td><a href="../<vivo:SynonymTranslatorType/>/<vivo:SynonymTranslatorType/>.jsp?uri=<vivo:SynonymTranslator/>"><vivo:SynonymTranslator /></a></td></tr>
       </vivo:foreachSynonymTranslatorIterator>
@@ -50,6 +48,9 @@
       <vivo:foreachSynonymIAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<vivo:SynonymIAO_0000136Type/>/<vivo:SynonymIAO_0000136Type/>.jsp?uri=<vivo:SynonymIAO_0000136/>"><vivo:SynonymIAO_0000136 /></a></td></tr>
       </vivo:foreachSynonymIAO_0000136Iterator>
+      <vivo:foreachSynonymRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:SynonymRO_0000056Type/>/<vivo:SynonymRO_0000056Type/>.jsp?uri=<vivo:SynonymRO_0000056/>"><vivo:SynonymRO_0000056 /></a></td></tr>
+      </vivo:foreachSynonymRO_0000056Iterator>
    </table>
    </vivo:Synonym>
 

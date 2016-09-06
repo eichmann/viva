@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altMuseum.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:Museum subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -21,8 +22,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>abbreviation</td><td><vivo:MuseumAbbreviation /></td></tr>
       <tr><td>overview</td><td><vivo:MuseumOverview /></td></tr>
+      <tr><td>abbreviation</td><td><vivo:MuseumAbbreviation /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -31,9 +32,15 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachMuseumRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:MuseumRO_0000053Type/>/<vivo:MuseumRO_0000053Type/>.jsp?uri=<vivo:MuseumRO_0000053/>"><vivo:MuseumRO_0000053 /></a></td></tr>
-      </vivo:foreachMuseumRO_0000053Iterator>
+      <vivo:foreachMuseumAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<vivo:MuseumAssigneeForType/>/<vivo:MuseumAssigneeForType/>.jsp?uri=<vivo:MuseumAssigneeFor/>"><vivo:MuseumAssigneeFor /></a></td></tr>
+      </vivo:foreachMuseumAssigneeForIterator>
+      <vivo:foreachMuseumHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<vivo:MuseumHasCollaboratorType/>/<vivo:MuseumHasCollaboratorType/>.jsp?uri=<vivo:MuseumHasCollaborator/>"><vivo:MuseumHasCollaborator /></a></td></tr>
+      </vivo:foreachMuseumHasCollaboratorIterator>
+      <vivo:foreachMuseumTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<vivo:MuseumTranslatorOfType/>/<vivo:MuseumTranslatorOfType/>.jsp?uri=<vivo:MuseumTranslatorOf/>"><vivo:MuseumTranslatorOf /></a></td></tr>
+      </vivo:foreachMuseumTranslatorOfIterator>
       <vivo:foreachMuseumSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<vivo:MuseumSponsorsType/>/<vivo:MuseumSponsorsType/>.jsp?uri=<vivo:MuseumSponsors/>"><vivo:MuseumSponsors /></a></td></tr>
       </vivo:foreachMuseumSponsorsIterator>
@@ -67,18 +74,12 @@
       <vivo:foreachMuseumAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:MuseumAffiliatedOrganizationType/>/<vivo:MuseumAffiliatedOrganizationType/>.jsp?uri=<vivo:MuseumAffiliatedOrganization/>"><vivo:MuseumAffiliatedOrganization /></a></td></tr>
       </vivo:foreachMuseumAffiliatedOrganizationIterator>
+      <vivo:foreachMuseumRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:MuseumRO_0000053Type/>/<vivo:MuseumRO_0000053Type/>.jsp?uri=<vivo:MuseumRO_0000053/>"><vivo:MuseumRO_0000053 /></a></td></tr>
+      </vivo:foreachMuseumRO_0000053Iterator>
       <vivo:foreachMuseumRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:MuseumRO_0000056Type/>/<vivo:MuseumRO_0000056Type/>.jsp?uri=<vivo:MuseumRO_0000056/>"><vivo:MuseumRO_0000056 /></a></td></tr>
       </vivo:foreachMuseumRO_0000056Iterator>
-      <vivo:foreachMuseumAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<vivo:MuseumAssigneeForType/>/<vivo:MuseumAssigneeForType/>.jsp?uri=<vivo:MuseumAssigneeFor/>"><vivo:MuseumAssigneeFor /></a></td></tr>
-      </vivo:foreachMuseumAssigneeForIterator>
-      <vivo:foreachMuseumHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<vivo:MuseumHasCollaboratorType/>/<vivo:MuseumHasCollaboratorType/>.jsp?uri=<vivo:MuseumHasCollaborator/>"><vivo:MuseumHasCollaborator /></a></td></tr>
-      </vivo:foreachMuseumHasCollaboratorIterator>
-      <vivo:foreachMuseumTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<vivo:MuseumTranslatorOfType/>/<vivo:MuseumTranslatorOfType/>.jsp?uri=<vivo:MuseumTranslatorOf/>"><vivo:MuseumTranslatorOf /></a></td></tr>
-      </vivo:foreachMuseumTranslatorOfIterator>
    </table>
    </vivo:Museum>
 

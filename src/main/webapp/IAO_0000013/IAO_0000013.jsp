@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altIAO_0000013.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:IAO_0000013 subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -25,24 +26,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachIAO_0000013PageStartIterator>
-         <tr><td>pageStart</td><td><vivo:IAO_0000013PageStart /></td></tr>
-      </vivo:foreachIAO_0000013PageStartIterator>
-      <vivo:foreachIAO_0000013PageEndIterator>
-         <tr><td>pageEnd</td><td><vivo:IAO_0000013PageEnd /></td></tr>
-      </vivo:foreachIAO_0000013PageEndIterator>
-      <vivo:foreachIAO_0000013NumPagesIterator>
-         <tr><td>numPages</td><td><vivo:IAO_0000013NumPages /></td></tr>
-      </vivo:foreachIAO_0000013NumPagesIterator>
-      <vivo:foreachIAO_0000013PmcidIterator>
-         <tr><td>pmcid</td><td><vivo:IAO_0000013Pmcid /></td></tr>
-      </vivo:foreachIAO_0000013PmcidIterator>
-      <vivo:foreachIAO_0000013IssueIterator>
-         <tr><td>issue</td><td><vivo:IAO_0000013Issue /></td></tr>
-      </vivo:foreachIAO_0000013IssueIterator>
-      <vivo:foreachIAO_0000013NihmsidIterator>
-         <tr><td>nihmsid</td><td><vivo:IAO_0000013Nihmsid /></td></tr>
-      </vivo:foreachIAO_0000013NihmsidIterator>
       <vivo:foreachIAO_0000013TheAbstractIterator>
          <tr><td>theAbstract</td><td><vivo:IAO_0000013TheAbstract /></td></tr>
       </vivo:foreachIAO_0000013TheAbstractIterator>
@@ -58,43 +41,28 @@
       <vivo:foreachIAO_0000013VolumeIterator>
          <tr><td>volume</td><td><vivo:IAO_0000013Volume /></td></tr>
       </vivo:foreachIAO_0000013VolumeIterator>
+      <vivo:foreachIAO_0000013PmcidIterator>
+         <tr><td>pmcid</td><td><vivo:IAO_0000013Pmcid /></td></tr>
+      </vivo:foreachIAO_0000013PmcidIterator>
+      <vivo:foreachIAO_0000013IssueIterator>
+         <tr><td>issue</td><td><vivo:IAO_0000013Issue /></td></tr>
+      </vivo:foreachIAO_0000013IssueIterator>
+      <vivo:foreachIAO_0000013NihmsidIterator>
+         <tr><td>nihmsid</td><td><vivo:IAO_0000013Nihmsid /></td></tr>
+      </vivo:foreachIAO_0000013NihmsidIterator>
+      <vivo:foreachIAO_0000013PageStartIterator>
+         <tr><td>pageStart</td><td><vivo:IAO_0000013PageStart /></td></tr>
+      </vivo:foreachIAO_0000013PageStartIterator>
+      <vivo:foreachIAO_0000013PageEndIterator>
+         <tr><td>pageEnd</td><td><vivo:IAO_0000013PageEnd /></td></tr>
+      </vivo:foreachIAO_0000013PageEndIterator>
+      <vivo:foreachIAO_0000013NumPagesIterator>
+         <tr><td>numPages</td><td><vivo:IAO_0000013NumPages /></td></tr>
+      </vivo:foreachIAO_0000013NumPagesIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachIAO_0000013DateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<vivo:IAO_0000013DateTimeValueType/>/<vivo:IAO_0000013DateTimeValueType/>.jsp?uri=<vivo:IAO_0000013DateTimeValue/>"><vivo:IAO_0000013DateTimeValue /></a></td></tr>
-      </vivo:foreachIAO_0000013DateTimeValueIterator>
-      <vivo:foreachIAO_0000013HasPublicationVenueIterator>
-         <tr><td>hasPublicationVenue</td><td><a href="../<vivo:IAO_0000013HasPublicationVenueType/>/<vivo:IAO_0000013HasPublicationVenueType/>.jsp?uri=<vivo:IAO_0000013HasPublicationVenue/>"><vivo:IAO_0000013HasPublicationVenue /></a></td></tr>
-      </vivo:foreachIAO_0000013HasPublicationVenueIterator>
-      <vivo:foreachIAO_0000013ARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<vivo:IAO_0000013ARG_2000028Type/>/<vivo:IAO_0000013ARG_2000028Type/>.jsp?uri=<vivo:IAO_0000013ARG_2000028/>"><vivo:IAO_0000013ARG_2000028 /></a></td></tr>
-      </vivo:foreachIAO_0000013ARG_2000028Iterator>
-      <vivo:foreachIAO_0000013RelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<vivo:IAO_0000013RelatedByType/>/<vivo:IAO_0000013RelatedByType/>.jsp?uri=<vivo:IAO_0000013RelatedBy/>"><vivo:IAO_0000013RelatedBy /></a></td></tr>
-      </vivo:foreachIAO_0000013RelatedByIterator>
-      <vivo:foreachIAO_0000013HasSubjectAreaIterator>
-         <tr><td>hasSubjectArea</td><td><a href="../<vivo:IAO_0000013HasSubjectAreaType/>/<vivo:IAO_0000013HasSubjectAreaType/>.jsp?uri=<vivo:IAO_0000013HasSubjectArea/>"><vivo:IAO_0000013HasSubjectArea /></a></td></tr>
-      </vivo:foreachIAO_0000013HasSubjectAreaIterator>
-      <vivo:foreachIAO_0000013RelatesIterator>
-         <tr><td>relates</td><td><a href="../<vivo:IAO_0000013RelatesType/>/<vivo:IAO_0000013RelatesType/>.jsp?uri=<vivo:IAO_0000013Relates/>"><vivo:IAO_0000013Relates /></a></td></tr>
-      </vivo:foreachIAO_0000013RelatesIterator>
-      <vivo:foreachIAO_0000013DateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<vivo:IAO_0000013DateTimeValueType/>/<vivo:IAO_0000013DateTimeValueType/>.jsp?uri=<vivo:IAO_0000013DateTimeValue/>"><vivo:IAO_0000013DateTimeValue /></a></td></tr>
-      </vivo:foreachIAO_0000013DateTimeValueIterator>
-      <vivo:foreachIAO_0000013HasPublicationVenueIterator>
-         <tr><td>hasPublicationVenue</td><td><a href="../<vivo:IAO_0000013HasPublicationVenueType/>/<vivo:IAO_0000013HasPublicationVenueType/>.jsp?uri=<vivo:IAO_0000013HasPublicationVenue/>"><vivo:IAO_0000013HasPublicationVenue /></a></td></tr>
-      </vivo:foreachIAO_0000013HasPublicationVenueIterator>
-      <vivo:foreachIAO_0000013ARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<vivo:IAO_0000013ARG_2000028Type/>/<vivo:IAO_0000013ARG_2000028Type/>.jsp?uri=<vivo:IAO_0000013ARG_2000028/>"><vivo:IAO_0000013ARG_2000028 /></a></td></tr>
-      </vivo:foreachIAO_0000013ARG_2000028Iterator>
-      <vivo:foreachIAO_0000013RelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<vivo:IAO_0000013RelatedByType/>/<vivo:IAO_0000013RelatedByType/>.jsp?uri=<vivo:IAO_0000013RelatedBy/>"><vivo:IAO_0000013RelatedBy /></a></td></tr>
-      </vivo:foreachIAO_0000013RelatedByIterator>
-      <vivo:foreachIAO_0000013RelatesIterator>
-         <tr><td>relates</td><td><a href="../<vivo:IAO_0000013RelatesType/>/<vivo:IAO_0000013RelatesType/>.jsp?uri=<vivo:IAO_0000013Relates/>"><vivo:IAO_0000013Relates /></a></td></tr>
-      </vivo:foreachIAO_0000013RelatesIterator>
       <vivo:foreachIAO_0000013TranslatorIterator>
          <tr><td>translator</td><td><a href="../<vivo:IAO_0000013TranslatorType/>/<vivo:IAO_0000013TranslatorType/>.jsp?uri=<vivo:IAO_0000013Translator/>"><vivo:IAO_0000013Translator /></a></td></tr>
       </vivo:foreachIAO_0000013TranslatorIterator>
@@ -137,6 +105,39 @@
       <vivo:foreachIAO_0000013RO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:IAO_0000013RO_0000056Type/>/<vivo:IAO_0000013RO_0000056Type/>.jsp?uri=<vivo:IAO_0000013RO_0000056/>"><vivo:IAO_0000013RO_0000056 /></a></td></tr>
       </vivo:foreachIAO_0000013RO_0000056Iterator>
+      <vivo:foreachIAO_0000013DateTimeValueIterator>
+         <tr><td>dateTimeValue</td><td><a href="../<vivo:IAO_0000013DateTimeValueType/>/<vivo:IAO_0000013DateTimeValueType/>.jsp?uri=<vivo:IAO_0000013DateTimeValue/>"><vivo:IAO_0000013DateTimeValue /></a></td></tr>
+      </vivo:foreachIAO_0000013DateTimeValueIterator>
+      <vivo:foreachIAO_0000013HasPublicationVenueIterator>
+         <tr><td>hasPublicationVenue</td><td><a href="../<vivo:IAO_0000013HasPublicationVenueType/>/<vivo:IAO_0000013HasPublicationVenueType/>.jsp?uri=<vivo:IAO_0000013HasPublicationVenue/>"><vivo:IAO_0000013HasPublicationVenue /></a></td></tr>
+      </vivo:foreachIAO_0000013HasPublicationVenueIterator>
+      <vivo:foreachIAO_0000013ARG_2000028Iterator>
+         <tr><td>ARG_2000028</td><td><a href="../<vivo:IAO_0000013ARG_2000028Type/>/<vivo:IAO_0000013ARG_2000028Type/>.jsp?uri=<vivo:IAO_0000013ARG_2000028/>"><vivo:IAO_0000013ARG_2000028 /></a></td></tr>
+      </vivo:foreachIAO_0000013ARG_2000028Iterator>
+      <vivo:foreachIAO_0000013RelatedByIterator>
+         <tr><td>relatedBy</td><td><a href="../<vivo:IAO_0000013RelatedByType/>/<vivo:IAO_0000013RelatedByType/>.jsp?uri=<vivo:IAO_0000013RelatedBy/>"><vivo:IAO_0000013RelatedBy /></a></td></tr>
+      </vivo:foreachIAO_0000013RelatedByIterator>
+      <vivo:foreachIAO_0000013RelatesIterator>
+         <tr><td>relates</td><td><a href="../<vivo:IAO_0000013RelatesType/>/<vivo:IAO_0000013RelatesType/>.jsp?uri=<vivo:IAO_0000013Relates/>"><vivo:IAO_0000013Relates /></a></td></tr>
+      </vivo:foreachIAO_0000013RelatesIterator>
+      <vivo:foreachIAO_0000013DateTimeValueIterator>
+         <tr><td>dateTimeValue</td><td><a href="../<vivo:IAO_0000013DateTimeValueType/>/<vivo:IAO_0000013DateTimeValueType/>.jsp?uri=<vivo:IAO_0000013DateTimeValue/>"><vivo:IAO_0000013DateTimeValue /></a></td></tr>
+      </vivo:foreachIAO_0000013DateTimeValueIterator>
+      <vivo:foreachIAO_0000013HasPublicationVenueIterator>
+         <tr><td>hasPublicationVenue</td><td><a href="../<vivo:IAO_0000013HasPublicationVenueType/>/<vivo:IAO_0000013HasPublicationVenueType/>.jsp?uri=<vivo:IAO_0000013HasPublicationVenue/>"><vivo:IAO_0000013HasPublicationVenue /></a></td></tr>
+      </vivo:foreachIAO_0000013HasPublicationVenueIterator>
+      <vivo:foreachIAO_0000013ARG_2000028Iterator>
+         <tr><td>ARG_2000028</td><td><a href="../<vivo:IAO_0000013ARG_2000028Type/>/<vivo:IAO_0000013ARG_2000028Type/>.jsp?uri=<vivo:IAO_0000013ARG_2000028/>"><vivo:IAO_0000013ARG_2000028 /></a></td></tr>
+      </vivo:foreachIAO_0000013ARG_2000028Iterator>
+      <vivo:foreachIAO_0000013RelatedByIterator>
+         <tr><td>relatedBy</td><td><a href="../<vivo:IAO_0000013RelatedByType/>/<vivo:IAO_0000013RelatedByType/>.jsp?uri=<vivo:IAO_0000013RelatedBy/>"><vivo:IAO_0000013RelatedBy /></a></td></tr>
+      </vivo:foreachIAO_0000013RelatedByIterator>
+      <vivo:foreachIAO_0000013HasSubjectAreaIterator>
+         <tr><td>hasSubjectArea</td><td><a href="../<vivo:IAO_0000013HasSubjectAreaType/>/<vivo:IAO_0000013HasSubjectAreaType/>.jsp?uri=<vivo:IAO_0000013HasSubjectArea/>"><vivo:IAO_0000013HasSubjectArea /></a></td></tr>
+      </vivo:foreachIAO_0000013HasSubjectAreaIterator>
+      <vivo:foreachIAO_0000013RelatesIterator>
+         <tr><td>relates</td><td><a href="../<vivo:IAO_0000013RelatesType/>/<vivo:IAO_0000013RelatesType/>.jsp?uri=<vivo:IAO_0000013Relates/>"><vivo:IAO_0000013Relates /></a></td></tr>
+      </vivo:foreachIAO_0000013RelatesIterator>
    </table>
    </vivo:IAO_0000013>
 

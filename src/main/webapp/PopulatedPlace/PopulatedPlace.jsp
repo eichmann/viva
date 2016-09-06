@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altPopulatedPlace.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:PopulatedPlace subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -29,15 +30,15 @@
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachPopulatedPlaceGeographicFocusOfIterator>
+         <tr><td>geographicFocusOf</td><td><a href="../<vivo:PopulatedPlaceGeographicFocusOfType/>/<vivo:PopulatedPlaceGeographicFocusOfType/>.jsp?uri=<vivo:PopulatedPlaceGeographicFocusOf/>"><vivo:PopulatedPlaceGeographicFocusOf /></a></td></tr>
+      </vivo:foreachPopulatedPlaceGeographicFocusOfIterator>
       <vivo:foreachPopulatedPlaceRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:PopulatedPlaceRO_0000053Type/>/<vivo:PopulatedPlaceRO_0000053Type/>.jsp?uri=<vivo:PopulatedPlaceRO_0000053/>"><vivo:PopulatedPlaceRO_0000053 /></a></td></tr>
       </vivo:foreachPopulatedPlaceRO_0000053Iterator>
       <vivo:foreachPopulatedPlaceRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:PopulatedPlaceRO_0000056Type/>/<vivo:PopulatedPlaceRO_0000056Type/>.jsp?uri=<vivo:PopulatedPlaceRO_0000056/>"><vivo:PopulatedPlaceRO_0000056 /></a></td></tr>
       </vivo:foreachPopulatedPlaceRO_0000056Iterator>
-      <vivo:foreachPopulatedPlaceGeographicFocusOfIterator>
-         <tr><td>geographicFocusOf</td><td><a href="../<vivo:PopulatedPlaceGeographicFocusOfType/>/<vivo:PopulatedPlaceGeographicFocusOfType/>.jsp?uri=<vivo:PopulatedPlaceGeographicFocusOf/>"><vivo:PopulatedPlaceGeographicFocusOf /></a></td></tr>
-      </vivo:foreachPopulatedPlaceGeographicFocusOfIterator>
    </table>
    </vivo:PopulatedPlace>
 

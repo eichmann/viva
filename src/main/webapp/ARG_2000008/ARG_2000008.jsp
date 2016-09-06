@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altARG_2000008.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:ARG_2000008 subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -35,12 +36,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachARG_2000008IAO_0000221Iterator>
-         <tr><td>IAO_0000221</td><td><a href="../<vivo:ARG_2000008IAO_0000221Type/>/<vivo:ARG_2000008IAO_0000221Type/>.jsp?uri=<vivo:ARG_2000008IAO_0000221/>"><vivo:ARG_2000008IAO_0000221 /></a></td></tr>
-      </vivo:foreachARG_2000008IAO_0000221Iterator>
-      <vivo:foreachARG_2000008RO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:ARG_2000008RO_0000056Type/>/<vivo:ARG_2000008RO_0000056Type/>.jsp?uri=<vivo:ARG_2000008RO_0000056/>"><vivo:ARG_2000008RO_0000056 /></a></td></tr>
-      </vivo:foreachARG_2000008RO_0000056Iterator>
       <vivo:foreachARG_2000008TranslatorIterator>
          <tr><td>translator</td><td><a href="../<vivo:ARG_2000008TranslatorType/>/<vivo:ARG_2000008TranslatorType/>.jsp?uri=<vivo:ARG_2000008Translator/>"><vivo:ARG_2000008Translator /></a></td></tr>
       </vivo:foreachARG_2000008TranslatorIterator>
@@ -53,6 +48,12 @@
       <vivo:foreachARG_2000008IAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<vivo:ARG_2000008IAO_0000136Type/>/<vivo:ARG_2000008IAO_0000136Type/>.jsp?uri=<vivo:ARG_2000008IAO_0000136/>"><vivo:ARG_2000008IAO_0000136 /></a></td></tr>
       </vivo:foreachARG_2000008IAO_0000136Iterator>
+      <vivo:foreachARG_2000008RO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:ARG_2000008RO_0000056Type/>/<vivo:ARG_2000008RO_0000056Type/>.jsp?uri=<vivo:ARG_2000008RO_0000056/>"><vivo:ARG_2000008RO_0000056 /></a></td></tr>
+      </vivo:foreachARG_2000008RO_0000056Iterator>
+      <vivo:foreachARG_2000008IAO_0000221Iterator>
+         <tr><td>IAO_0000221</td><td><a href="../<vivo:ARG_2000008IAO_0000221Type/>/<vivo:ARG_2000008IAO_0000221Type/>.jsp?uri=<vivo:ARG_2000008IAO_0000221/>"><vivo:ARG_2000008IAO_0000221 /></a></td></tr>
+      </vivo:foreachARG_2000008IAO_0000221Iterator>
    </table>
    </vivo:ARG_2000008>
 

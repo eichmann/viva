@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altERO_0000007.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:ERO_0000007 subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -32,9 +33,6 @@
       <vivo:foreachERO_0000007ERO_0000398Iterator>
          <tr><td>ERO_0000398</td><td><a href="../<vivo:ERO_0000007ERO_0000398Type/>/<vivo:ERO_0000007ERO_0000398Type/>.jsp?uri=<vivo:ERO_0000007ERO_0000398/>"><vivo:ERO_0000007ERO_0000398 /></a></td></tr>
       </vivo:foreachERO_0000007ERO_0000398Iterator>
-      <vivo:foreachERO_0000007RO_0000057Iterator>
-         <tr><td>RO_0000057</td><td><a href="../<vivo:ERO_0000007RO_0000057Type/>/<vivo:ERO_0000007RO_0000057Type/>.jsp?uri=<vivo:ERO_0000007RO_0000057/>"><vivo:ERO_0000007RO_0000057 /></a></td></tr>
-      </vivo:foreachERO_0000007RO_0000057Iterator>
       <vivo:foreachERO_0000007BFO_0000055Iterator>
          <tr><td>BFO_0000055</td><td><a href="../<vivo:ERO_0000007BFO_0000055Type/>/<vivo:ERO_0000007BFO_0000055Type/>.jsp?uri=<vivo:ERO_0000007BFO_0000055/>"><vivo:ERO_0000007BFO_0000055 /></a></td></tr>
       </vivo:foreachERO_0000007BFO_0000055Iterator>
@@ -47,6 +45,9 @@
       <vivo:foreachERO_0000007OBI_0000299Iterator>
          <tr><td>OBI_0000299</td><td><a href="../<vivo:ERO_0000007OBI_0000299Type/>/<vivo:ERO_0000007OBI_0000299Type/>.jsp?uri=<vivo:ERO_0000007OBI_0000299/>"><vivo:ERO_0000007OBI_0000299 /></a></td></tr>
       </vivo:foreachERO_0000007OBI_0000299Iterator>
+      <vivo:foreachERO_0000007RO_0000057Iterator>
+         <tr><td>RO_0000057</td><td><a href="../<vivo:ERO_0000007RO_0000057Type/>/<vivo:ERO_0000007RO_0000057Type/>.jsp?uri=<vivo:ERO_0000007RO_0000057/>"><vivo:ERO_0000007RO_0000057 /></a></td></tr>
+      </vivo:foreachERO_0000007RO_0000057Iterator>
    </table>
    </vivo:ERO_0000007>
 

@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altspecial_group.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:special_group subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -110,15 +111,15 @@
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachspecial_groupHasMemberIterator>
+         <tr><td>hasMember</td><td><a href="../<vivo:special_groupHasMemberType/>/<vivo:special_groupHasMemberType/>.jsp?uri=<vivo:special_groupHasMember/>"><vivo:special_groupHasMember /></a></td></tr>
+      </vivo:foreachspecial_groupHasMemberIterator>
       <vivo:foreachspecial_groupIsSuccessorOfIterator>
          <tr><td>isSuccessorOf</td><td><a href="../<vivo:special_groupIsSuccessorOfType/>/<vivo:special_groupIsSuccessorOfType/>.jsp?uri=<vivo:special_groupIsSuccessorOf/>"><vivo:special_groupIsSuccessorOf /></a></td></tr>
       </vivo:foreachspecial_groupIsSuccessorOfIterator>
       <vivo:foreachspecial_groupIsPredecessorOfIterator>
          <tr><td>isPredecessorOf</td><td><a href="../<vivo:special_groupIsPredecessorOfType/>/<vivo:special_groupIsPredecessorOfType/>.jsp?uri=<vivo:special_groupIsPredecessorOf/>"><vivo:special_groupIsPredecessorOf /></a></td></tr>
       </vivo:foreachspecial_groupIsPredecessorOfIterator>
-      <vivo:foreachspecial_groupHasMemberIterator>
-         <tr><td>hasMember</td><td><a href="../<vivo:special_groupHasMemberType/>/<vivo:special_groupHasMemberType/>.jsp?uri=<vivo:special_groupHasMember/>"><vivo:special_groupHasMember /></a></td></tr>
-      </vivo:foreachspecial_groupHasMemberIterator>
    </table>
    </vivo:special_group>
 

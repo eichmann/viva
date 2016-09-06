@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altTeacherRole.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:TeacherRole subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -29,18 +30,18 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachTeacherRoleBFO_0000054Iterator>
-         <tr><td>BFO_0000054</td><td><a href="../<vivo:TeacherRoleBFO_0000054Type/>/<vivo:TeacherRoleBFO_0000054Type/>.jsp?uri=<vivo:TeacherRoleBFO_0000054/>"><vivo:TeacherRoleBFO_0000054 /></a></td></tr>
-      </vivo:foreachTeacherRoleBFO_0000054Iterator>
       <vivo:foreachTeacherRoleRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<vivo:TeacherRoleRO_0000052Type/>/<vivo:TeacherRoleRO_0000052Type/>.jsp?uri=<vivo:TeacherRoleRO_0000052/>"><vivo:TeacherRoleRO_0000052 /></a></td></tr>
       </vivo:foreachTeacherRoleRO_0000052Iterator>
-      <vivo:foreachTeacherRoleRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:TeacherRoleRO_0000056Type/>/<vivo:TeacherRoleRO_0000056Type/>.jsp?uri=<vivo:TeacherRoleRO_0000056/>"><vivo:TeacherRoleRO_0000056 /></a></td></tr>
-      </vivo:foreachTeacherRoleRO_0000056Iterator>
       <vivo:foreachTeacherRoleRoleContributesToIterator>
          <tr><td>roleContributesTo</td><td><a href="../<vivo:TeacherRoleRoleContributesToType/>/<vivo:TeacherRoleRoleContributesToType/>.jsp?uri=<vivo:TeacherRoleRoleContributesTo/>"><vivo:TeacherRoleRoleContributesTo /></a></td></tr>
       </vivo:foreachTeacherRoleRoleContributesToIterator>
+      <vivo:foreachTeacherRoleBFO_0000054Iterator>
+         <tr><td>BFO_0000054</td><td><a href="../<vivo:TeacherRoleBFO_0000054Type/>/<vivo:TeacherRoleBFO_0000054Type/>.jsp?uri=<vivo:TeacherRoleBFO_0000054/>"><vivo:TeacherRoleBFO_0000054 /></a></td></tr>
+      </vivo:foreachTeacherRoleBFO_0000054Iterator>
+      <vivo:foreachTeacherRoleRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:TeacherRoleRO_0000056Type/>/<vivo:TeacherRoleRO_0000056Type/>.jsp?uri=<vivo:TeacherRoleRO_0000056/>"><vivo:TeacherRoleRO_0000056 /></a></td></tr>
+      </vivo:foreachTeacherRoleRO_0000056Iterator>
    </table>
    </vivo:TeacherRole>
 

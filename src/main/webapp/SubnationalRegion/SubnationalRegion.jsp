@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altSubnationalRegion.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:SubnationalRegion subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -29,15 +30,15 @@
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachSubnationalRegionGeographicFocusOfIterator>
+         <tr><td>geographicFocusOf</td><td><a href="../<vivo:SubnationalRegionGeographicFocusOfType/>/<vivo:SubnationalRegionGeographicFocusOfType/>.jsp?uri=<vivo:SubnationalRegionGeographicFocusOf/>"><vivo:SubnationalRegionGeographicFocusOf /></a></td></tr>
+      </vivo:foreachSubnationalRegionGeographicFocusOfIterator>
       <vivo:foreachSubnationalRegionRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:SubnationalRegionRO_0000053Type/>/<vivo:SubnationalRegionRO_0000053Type/>.jsp?uri=<vivo:SubnationalRegionRO_0000053/>"><vivo:SubnationalRegionRO_0000053 /></a></td></tr>
       </vivo:foreachSubnationalRegionRO_0000053Iterator>
       <vivo:foreachSubnationalRegionRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:SubnationalRegionRO_0000056Type/>/<vivo:SubnationalRegionRO_0000056Type/>.jsp?uri=<vivo:SubnationalRegionRO_0000056/>"><vivo:SubnationalRegionRO_0000056 /></a></td></tr>
       </vivo:foreachSubnationalRegionRO_0000056Iterator>
-      <vivo:foreachSubnationalRegionGeographicFocusOfIterator>
-         <tr><td>geographicFocusOf</td><td><a href="../<vivo:SubnationalRegionGeographicFocusOfType/>/<vivo:SubnationalRegionGeographicFocusOfType/>.jsp?uri=<vivo:SubnationalRegionGeographicFocusOf/>"><vivo:SubnationalRegionGeographicFocusOf /></a></td></tr>
-      </vivo:foreachSubnationalRegionGeographicFocusOfIterator>
    </table>
    </vivo:SubnationalRegion>
 

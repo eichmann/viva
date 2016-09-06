@@ -11,6 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="altother.jsp?uri=${param.uri}">alternate view</a></p>
    <vivo:other subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
@@ -110,12 +111,12 @@
       <vivo:foreachotherRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:otherRO_0000056Type/>/<vivo:otherRO_0000056Type/>.jsp?uri=<vivo:otherRO_0000056/>"><vivo:otherRO_0000056 /></a></td></tr>
       </vivo:foreachotherRO_0000056Iterator>
-      <vivo:foreachotherRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:otherRO_0000053Type/>/<vivo:otherRO_0000053Type/>.jsp?uri=<vivo:otherRO_0000053/>"><vivo:otherRO_0000053 /></a></td></tr>
-      </vivo:foreachotherRO_0000053Iterator>
       <vivo:foreachotherIsInGroupIterator>
          <tr><td>isInGroup</td><td><a href="../<vivo:otherIsInGroupType/>/<vivo:otherIsInGroupType/>.jsp?uri=<vivo:otherIsInGroup/>"><vivo:otherIsInGroup /></a></td></tr>
       </vivo:foreachotherIsInGroupIterator>
+      <vivo:foreachotherRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:otherRO_0000053Type/>/<vivo:otherRO_0000053Type/>.jsp?uri=<vivo:otherRO_0000053/>"><vivo:otherRO_0000053 /></a></td></tr>
+      </vivo:foreachotherRO_0000053Iterator>
    </table>
    </vivo:other>
 
