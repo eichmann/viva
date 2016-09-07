@@ -39,15 +39,15 @@
       <vivo:foreachNonFacultyAcademicPositionRelatesIterator>
          <tr><td>relates</td><td><a href="../<vivo:NonFacultyAcademicPositionRelatesType/>/<vivo:NonFacultyAcademicPositionRelatesType/>.jsp?uri=<vivo:NonFacultyAcademicPositionRelates/>"><vivo:NonFacultyAcademicPositionRelates /></a></td></tr>
       </vivo:foreachNonFacultyAcademicPositionRelatesIterator>
-      <vivo:foreachNonFacultyAcademicPositionRO_0000052Iterator>
-         <tr><td>RO_0000052</td><td><a href="../<vivo:NonFacultyAcademicPositionRO_0000052Type/>/<vivo:NonFacultyAcademicPositionRO_0000052Type/>.jsp?uri=<vivo:NonFacultyAcademicPositionRO_0000052/>"><vivo:NonFacultyAcademicPositionRO_0000052 /></a></td></tr>
-      </vivo:foreachNonFacultyAcademicPositionRO_0000052Iterator>
       <vivo:foreachNonFacultyAcademicPositionDateTimeIntervalIterator>
          <tr><td>dateTimeInterval</td><td><a href="../<vivo:NonFacultyAcademicPositionDateTimeIntervalType/>/<vivo:NonFacultyAcademicPositionDateTimeIntervalType/>.jsp?uri=<vivo:NonFacultyAcademicPositionDateTimeInterval/>"><vivo:NonFacultyAcademicPositionDateTimeInterval /></a></td></tr>
       </vivo:foreachNonFacultyAcademicPositionDateTimeIntervalIterator>
       <vivo:foreachNonFacultyAcademicPositionRelatesIterator>
          <tr><td>relates</td><td><a href="../<vivo:NonFacultyAcademicPositionRelatesType/>/<vivo:NonFacultyAcademicPositionRelatesType/>.jsp?uri=<vivo:NonFacultyAcademicPositionRelates/>"><vivo:NonFacultyAcademicPositionRelates /></a></td></tr>
       </vivo:foreachNonFacultyAcademicPositionRelatesIterator>
+      <vivo:foreachNonFacultyAcademicPositionRO_0000052Iterator>
+         <tr><td>RO_0000052</td><td><a href="../<vivo:NonFacultyAcademicPositionRO_0000052Type/>/<vivo:NonFacultyAcademicPositionRO_0000052Type/>.jsp?uri=<vivo:NonFacultyAcademicPositionRO_0000052/>"><vivo:NonFacultyAcademicPositionRO_0000052 /></a></td></tr>
+      </vivo:foreachNonFacultyAcademicPositionRO_0000052Iterator>
       <vivo:foreachNonFacultyAcademicPositionRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:NonFacultyAcademicPositionRO_0000056Type/>/<vivo:NonFacultyAcademicPositionRO_0000056Type/>.jsp?uri=<vivo:NonFacultyAcademicPositionRO_0000056/>"><vivo:NonFacultyAcademicPositionRO_0000056 /></a></td></tr>
       </vivo:foreachNonFacultyAcademicPositionRO_0000056Iterator>

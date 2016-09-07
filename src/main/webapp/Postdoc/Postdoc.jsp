@@ -52,6 +52,9 @@
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachPostdocRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:PostdocRO_0000053Type/>/<vivo:PostdocRO_0000053Type/>.jsp?uri=<vivo:PostdocRO_0000053/>"><vivo:PostdocRO_0000053 /></a></td></tr>
+      </vivo:foreachPostdocRO_0000053Iterator>
       <vivo:foreachPostdocAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:PostdocAssigneeForType/>/<vivo:PostdocAssigneeForType/>.jsp?uri=<vivo:PostdocAssigneeFor/>"><vivo:PostdocAssigneeFor /></a></td></tr>
       </vivo:foreachPostdocAssigneeForIterator>
@@ -61,9 +64,6 @@
       <vivo:foreachPostdocTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<vivo:PostdocTranslatorOfType/>/<vivo:PostdocTranslatorOfType/>.jsp?uri=<vivo:PostdocTranslatorOf/>"><vivo:PostdocTranslatorOf /></a></td></tr>
       </vivo:foreachPostdocTranslatorOfIterator>
-      <vivo:foreachPostdocRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:PostdocRO_0000053Type/>/<vivo:PostdocRO_0000053Type/>.jsp?uri=<vivo:PostdocRO_0000053/>"><vivo:PostdocRO_0000053 /></a></td></tr>
-      </vivo:foreachPostdocRO_0000053Iterator>
       <vivo:foreachPostdocRO_0001025Iterator>
          <tr><td>RO_0001025</td><td><a href="../<vivo:PostdocRO_0001025Type/>/<vivo:PostdocRO_0001025Type/>.jsp?uri=<vivo:PostdocRO_0001025/>"><vivo:PostdocRO_0001025 /></a></td></tr>
       </vivo:foreachPostdocRO_0001025Iterator>

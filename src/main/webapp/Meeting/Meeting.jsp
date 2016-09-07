@@ -30,12 +30,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachMeetingBFO_0000055Iterator>
-         <tr><td>BFO_0000055</td><td><a href="../<vivo:MeetingBFO_0000055Type/>/<vivo:MeetingBFO_0000055Type/>.jsp?uri=<vivo:MeetingBFO_0000055/>"><vivo:MeetingBFO_0000055 /></a></td></tr>
-      </vivo:foreachMeetingBFO_0000055Iterator>
       <vivo:foreachMeetingRO_0000057Iterator>
          <tr><td>RO_0000057</td><td><a href="../<vivo:MeetingRO_0000057Type/>/<vivo:MeetingRO_0000057Type/>.jsp?uri=<vivo:MeetingRO_0000057/>"><vivo:MeetingRO_0000057 /></a></td></tr>
       </vivo:foreachMeetingRO_0000057Iterator>
+      <vivo:foreachMeetingBFO_0000055Iterator>
+         <tr><td>BFO_0000055</td><td><a href="../<vivo:MeetingBFO_0000055Type/>/<vivo:MeetingBFO_0000055Type/>.jsp?uri=<vivo:MeetingBFO_0000055/>"><vivo:MeetingBFO_0000055 /></a></td></tr>
+      </vivo:foreachMeetingBFO_0000055Iterator>
    </table>
    </vivo:Meeting>
 

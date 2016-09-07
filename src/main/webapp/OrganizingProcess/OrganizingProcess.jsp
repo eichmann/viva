@@ -30,12 +30,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachOrganizingProcessBFO_0000055Iterator>
-         <tr><td>BFO_0000055</td><td><a href="../<vivo:OrganizingProcessBFO_0000055Type/>/<vivo:OrganizingProcessBFO_0000055Type/>.jsp?uri=<vivo:OrganizingProcessBFO_0000055/>"><vivo:OrganizingProcessBFO_0000055 /></a></td></tr>
-      </vivo:foreachOrganizingProcessBFO_0000055Iterator>
       <vivo:foreachOrganizingProcessRO_0000057Iterator>
          <tr><td>RO_0000057</td><td><a href="../<vivo:OrganizingProcessRO_0000057Type/>/<vivo:OrganizingProcessRO_0000057Type/>.jsp?uri=<vivo:OrganizingProcessRO_0000057/>"><vivo:OrganizingProcessRO_0000057 /></a></td></tr>
       </vivo:foreachOrganizingProcessRO_0000057Iterator>
+      <vivo:foreachOrganizingProcessBFO_0000055Iterator>
+         <tr><td>BFO_0000055</td><td><a href="../<vivo:OrganizingProcessBFO_0000055Type/>/<vivo:OrganizingProcessBFO_0000055Type/>.jsp?uri=<vivo:OrganizingProcessBFO_0000055/>"><vivo:OrganizingProcessBFO_0000055 /></a></td></tr>
+      </vivo:foreachOrganizingProcessBFO_0000055Iterator>
    </table>
    </vivo:OrganizingProcess>
 

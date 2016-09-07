@@ -31,15 +31,15 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachCoPrincipalInvestigatorRoleRO_0000052Iterator>
-         <tr><td>RO_0000052</td><td><a href="../<vivo:CoPrincipalInvestigatorRoleRO_0000052Type/>/<vivo:CoPrincipalInvestigatorRoleRO_0000052Type/>.jsp?uri=<vivo:CoPrincipalInvestigatorRoleRO_0000052/>"><vivo:CoPrincipalInvestigatorRoleRO_0000052 /></a></td></tr>
-      </vivo:foreachCoPrincipalInvestigatorRoleRO_0000052Iterator>
       <vivo:foreachCoPrincipalInvestigatorRoleRoleContributesToIterator>
          <tr><td>roleContributesTo</td><td><a href="../<vivo:CoPrincipalInvestigatorRoleRoleContributesToType/>/<vivo:CoPrincipalInvestigatorRoleRoleContributesToType/>.jsp?uri=<vivo:CoPrincipalInvestigatorRoleRoleContributesTo/>"><vivo:CoPrincipalInvestigatorRoleRoleContributesTo /></a></td></tr>
       </vivo:foreachCoPrincipalInvestigatorRoleRoleContributesToIterator>
       <vivo:foreachCoPrincipalInvestigatorRoleBFO_0000054Iterator>
          <tr><td>BFO_0000054</td><td><a href="../<vivo:CoPrincipalInvestigatorRoleBFO_0000054Type/>/<vivo:CoPrincipalInvestigatorRoleBFO_0000054Type/>.jsp?uri=<vivo:CoPrincipalInvestigatorRoleBFO_0000054/>"><vivo:CoPrincipalInvestigatorRoleBFO_0000054 /></a></td></tr>
       </vivo:foreachCoPrincipalInvestigatorRoleBFO_0000054Iterator>
+      <vivo:foreachCoPrincipalInvestigatorRoleRO_0000052Iterator>
+         <tr><td>RO_0000052</td><td><a href="../<vivo:CoPrincipalInvestigatorRoleRO_0000052Type/>/<vivo:CoPrincipalInvestigatorRoleRO_0000052Type/>.jsp?uri=<vivo:CoPrincipalInvestigatorRoleRO_0000052/>"><vivo:CoPrincipalInvestigatorRoleRO_0000052 /></a></td></tr>
+      </vivo:foreachCoPrincipalInvestigatorRoleRO_0000052Iterator>
       <vivo:foreachCoPrincipalInvestigatorRoleRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:CoPrincipalInvestigatorRoleRO_0000056Type/>/<vivo:CoPrincipalInvestigatorRoleRO_0000056Type/>.jsp?uri=<vivo:CoPrincipalInvestigatorRoleRO_0000056/>"><vivo:CoPrincipalInvestigatorRoleRO_0000056 /></a></td></tr>
       </vivo:foreachCoPrincipalInvestigatorRoleRO_0000056Iterator>

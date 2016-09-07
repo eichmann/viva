@@ -102,6 +102,9 @@
       <vivo:foreachotherGeographicFocusOfIterator>
          <tr><td>geographicFocusOf</td><td><a href="../<vivo:otherGeographicFocusOfType/>/<vivo:otherGeographicFocusOfType/>.jsp?uri=<vivo:otherGeographicFocusOf/>"><vivo:otherGeographicFocusOf /></a></td></tr>
       </vivo:foreachotherGeographicFocusOfIterator>
+      <vivo:foreachotherIsInGroupIterator>
+         <tr><td>isInGroup</td><td><a href="../<vivo:otherIsInGroupType/>/<vivo:otherIsInGroupType/>.jsp?uri=<vivo:otherIsInGroup/>"><vivo:otherIsInGroup /></a></td></tr>
+      </vivo:foreachotherIsInGroupIterator>
       <vivo:foreachotherIsSuccessorOfIterator>
          <tr><td>isSuccessorOf</td><td><a href="../<vivo:otherIsSuccessorOfType/>/<vivo:otherIsSuccessorOfType/>.jsp?uri=<vivo:otherIsSuccessorOf/>"><vivo:otherIsSuccessorOf /></a></td></tr>
       </vivo:foreachotherIsSuccessorOfIterator>
@@ -111,9 +114,6 @@
       <vivo:foreachotherRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:otherRO_0000056Type/>/<vivo:otherRO_0000056Type/>.jsp?uri=<vivo:otherRO_0000056/>"><vivo:otherRO_0000056 /></a></td></tr>
       </vivo:foreachotherRO_0000056Iterator>
-      <vivo:foreachotherIsInGroupIterator>
-         <tr><td>isInGroup</td><td><a href="../<vivo:otherIsInGroupType/>/<vivo:otherIsInGroupType/>.jsp?uri=<vivo:otherIsInGroup/>"><vivo:otherIsInGroup /></a></td></tr>
-      </vivo:foreachotherIsInGroupIterator>
       <vivo:foreachotherRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:otherRO_0000053Type/>/<vivo:otherRO_0000053Type/>.jsp?uri=<vivo:otherRO_0000053/>"><vivo:otherRO_0000053 /></a></td></tr>
       </vivo:foreachotherRO_0000053Iterator>

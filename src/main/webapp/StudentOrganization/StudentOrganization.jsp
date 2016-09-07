@@ -32,6 +32,9 @@
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachStudentOrganizationRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:StudentOrganizationRO_0000053Type/>/<vivo:StudentOrganizationRO_0000053Type/>.jsp?uri=<vivo:StudentOrganizationRO_0000053/>"><vivo:StudentOrganizationRO_0000053 /></a></td></tr>
+      </vivo:foreachStudentOrganizationRO_0000053Iterator>
       <vivo:foreachStudentOrganizationAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:StudentOrganizationAssigneeForType/>/<vivo:StudentOrganizationAssigneeForType/>.jsp?uri=<vivo:StudentOrganizationAssigneeFor/>"><vivo:StudentOrganizationAssigneeFor /></a></td></tr>
       </vivo:foreachStudentOrganizationAssigneeForIterator>
@@ -74,9 +77,6 @@
       <vivo:foreachStudentOrganizationAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:StudentOrganizationAffiliatedOrganizationType/>/<vivo:StudentOrganizationAffiliatedOrganizationType/>.jsp?uri=<vivo:StudentOrganizationAffiliatedOrganization/>"><vivo:StudentOrganizationAffiliatedOrganization /></a></td></tr>
       </vivo:foreachStudentOrganizationAffiliatedOrganizationIterator>
-      <vivo:foreachStudentOrganizationRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:StudentOrganizationRO_0000053Type/>/<vivo:StudentOrganizationRO_0000053Type/>.jsp?uri=<vivo:StudentOrganizationRO_0000053/>"><vivo:StudentOrganizationRO_0000053 /></a></td></tr>
-      </vivo:foreachStudentOrganizationRO_0000053Iterator>
       <vivo:foreachStudentOrganizationRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:StudentOrganizationRO_0000056Type/>/<vivo:StudentOrganizationRO_0000056Type/>.jsp?uri=<vivo:StudentOrganizationRO_0000056/>"><vivo:StudentOrganizationRO_0000056 /></a></td></tr>
       </vivo:foreachStudentOrganizationRO_0000056Iterator>

@@ -26,12 +26,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachPersonalCommunicationDocumentTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:PersonalCommunicationDocumentTheAbstract /></td></tr>
-      </vivo:foreachPersonalCommunicationDocumentTheAbstractIterator>
-      <vivo:foreachPersonalCommunicationDocumentDoiIterator>
-         <tr><td>doi</td><td><vivo:PersonalCommunicationDocumentDoi /></td></tr>
-      </vivo:foreachPersonalCommunicationDocumentDoiIterator>
       <vivo:foreachPersonalCommunicationDocumentPmidIterator>
          <tr><td>pmid</td><td><vivo:PersonalCommunicationDocumentPmid /></td></tr>
       </vivo:foreachPersonalCommunicationDocumentPmidIterator>
@@ -41,22 +35,19 @@
       <vivo:foreachPersonalCommunicationDocumentVolumeIterator>
          <tr><td>volume</td><td><vivo:PersonalCommunicationDocumentVolume /></td></tr>
       </vivo:foreachPersonalCommunicationDocumentVolumeIterator>
+      <vivo:foreachPersonalCommunicationDocumentTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:PersonalCommunicationDocumentTheAbstract /></td></tr>
+      </vivo:foreachPersonalCommunicationDocumentTheAbstractIterator>
+      <vivo:foreachPersonalCommunicationDocumentDoiIterator>
+         <tr><td>doi</td><td><vivo:PersonalCommunicationDocumentDoi /></td></tr>
+      </vivo:foreachPersonalCommunicationDocumentDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachPersonalCommunicationDocumentTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:PersonalCommunicationDocumentTranslatorType/>/<vivo:PersonalCommunicationDocumentTranslatorType/>.jsp?uri=<vivo:PersonalCommunicationDocumentTranslator/>"><vivo:PersonalCommunicationDocumentTranslator /></a></td></tr>
-      </vivo:foreachPersonalCommunicationDocumentTranslatorIterator>
-      <vivo:foreachPersonalCommunicationDocumentFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:PersonalCommunicationDocumentFeaturesType/>/<vivo:PersonalCommunicationDocumentFeaturesType/>.jsp?uri=<vivo:PersonalCommunicationDocumentFeatures/>"><vivo:PersonalCommunicationDocumentFeatures /></a></td></tr>
-      </vivo:foreachPersonalCommunicationDocumentFeaturesIterator>
-      <vivo:foreachPersonalCommunicationDocumentInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:PersonalCommunicationDocumentInformationResourceSupportedByType/>/<vivo:PersonalCommunicationDocumentInformationResourceSupportedByType/>.jsp?uri=<vivo:PersonalCommunicationDocumentInformationResourceSupportedBy/>"><vivo:PersonalCommunicationDocumentInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachPersonalCommunicationDocumentInformationResourceSupportedByIterator>
-      <vivo:foreachPersonalCommunicationDocumentIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:PersonalCommunicationDocumentIAO_0000136Type/>/<vivo:PersonalCommunicationDocumentIAO_0000136Type/>.jsp?uri=<vivo:PersonalCommunicationDocumentIAO_0000136/>"><vivo:PersonalCommunicationDocumentIAO_0000136 /></a></td></tr>
-      </vivo:foreachPersonalCommunicationDocumentIAO_0000136Iterator>
+      <vivo:foreachPersonalCommunicationDocumentRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:PersonalCommunicationDocumentRO_0000056Type/>/<vivo:PersonalCommunicationDocumentRO_0000056Type/>.jsp?uri=<vivo:PersonalCommunicationDocumentRO_0000056/>"><vivo:PersonalCommunicationDocumentRO_0000056 /></a></td></tr>
+      </vivo:foreachPersonalCommunicationDocumentRO_0000056Iterator>
       <vivo:foreachPersonalCommunicationDocumentDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<vivo:PersonalCommunicationDocumentDocumentationForType/>/<vivo:PersonalCommunicationDocumentDocumentationForType/>.jsp?uri=<vivo:PersonalCommunicationDocumentDocumentationFor/>"><vivo:PersonalCommunicationDocumentDocumentationFor /></a></td></tr>
       </vivo:foreachPersonalCommunicationDocumentDocumentationForIterator>
@@ -84,9 +75,18 @@
       <vivo:foreachPersonalCommunicationDocumentCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:PersonalCommunicationDocumentCitesType/>/<vivo:PersonalCommunicationDocumentCitesType/>.jsp?uri=<vivo:PersonalCommunicationDocumentCites/>"><vivo:PersonalCommunicationDocumentCites /></a></td></tr>
       </vivo:foreachPersonalCommunicationDocumentCitesIterator>
-      <vivo:foreachPersonalCommunicationDocumentRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:PersonalCommunicationDocumentRO_0000056Type/>/<vivo:PersonalCommunicationDocumentRO_0000056Type/>.jsp?uri=<vivo:PersonalCommunicationDocumentRO_0000056/>"><vivo:PersonalCommunicationDocumentRO_0000056 /></a></td></tr>
-      </vivo:foreachPersonalCommunicationDocumentRO_0000056Iterator>
+      <vivo:foreachPersonalCommunicationDocumentTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:PersonalCommunicationDocumentTranslatorType/>/<vivo:PersonalCommunicationDocumentTranslatorType/>.jsp?uri=<vivo:PersonalCommunicationDocumentTranslator/>"><vivo:PersonalCommunicationDocumentTranslator /></a></td></tr>
+      </vivo:foreachPersonalCommunicationDocumentTranslatorIterator>
+      <vivo:foreachPersonalCommunicationDocumentFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:PersonalCommunicationDocumentFeaturesType/>/<vivo:PersonalCommunicationDocumentFeaturesType/>.jsp?uri=<vivo:PersonalCommunicationDocumentFeatures/>"><vivo:PersonalCommunicationDocumentFeatures /></a></td></tr>
+      </vivo:foreachPersonalCommunicationDocumentFeaturesIterator>
+      <vivo:foreachPersonalCommunicationDocumentInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:PersonalCommunicationDocumentInformationResourceSupportedByType/>/<vivo:PersonalCommunicationDocumentInformationResourceSupportedByType/>.jsp?uri=<vivo:PersonalCommunicationDocumentInformationResourceSupportedBy/>"><vivo:PersonalCommunicationDocumentInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachPersonalCommunicationDocumentInformationResourceSupportedByIterator>
+      <vivo:foreachPersonalCommunicationDocumentIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:PersonalCommunicationDocumentIAO_0000136Type/>/<vivo:PersonalCommunicationDocumentIAO_0000136Type/>.jsp?uri=<vivo:PersonalCommunicationDocumentIAO_0000136/>"><vivo:PersonalCommunicationDocumentIAO_0000136 /></a></td></tr>
+      </vivo:foreachPersonalCommunicationDocumentIAO_0000136Iterator>
    </table>
    </vivo:PersonalCommunicationDocument>
 

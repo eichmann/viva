@@ -26,12 +26,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachReferenceSourceTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:ReferenceSourceTheAbstract /></td></tr>
-      </vivo:foreachReferenceSourceTheAbstractIterator>
-      <vivo:foreachReferenceSourceDoiIterator>
-         <tr><td>doi</td><td><vivo:ReferenceSourceDoi /></td></tr>
-      </vivo:foreachReferenceSourceDoiIterator>
       <vivo:foreachReferenceSourcePmidIterator>
          <tr><td>pmid</td><td><vivo:ReferenceSourcePmid /></td></tr>
       </vivo:foreachReferenceSourcePmidIterator>
@@ -41,22 +35,19 @@
       <vivo:foreachReferenceSourceVolumeIterator>
          <tr><td>volume</td><td><vivo:ReferenceSourceVolume /></td></tr>
       </vivo:foreachReferenceSourceVolumeIterator>
+      <vivo:foreachReferenceSourceTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:ReferenceSourceTheAbstract /></td></tr>
+      </vivo:foreachReferenceSourceTheAbstractIterator>
+      <vivo:foreachReferenceSourceDoiIterator>
+         <tr><td>doi</td><td><vivo:ReferenceSourceDoi /></td></tr>
+      </vivo:foreachReferenceSourceDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachReferenceSourceTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:ReferenceSourceTranslatorType/>/<vivo:ReferenceSourceTranslatorType/>.jsp?uri=<vivo:ReferenceSourceTranslator/>"><vivo:ReferenceSourceTranslator /></a></td></tr>
-      </vivo:foreachReferenceSourceTranslatorIterator>
-      <vivo:foreachReferenceSourceFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:ReferenceSourceFeaturesType/>/<vivo:ReferenceSourceFeaturesType/>.jsp?uri=<vivo:ReferenceSourceFeatures/>"><vivo:ReferenceSourceFeatures /></a></td></tr>
-      </vivo:foreachReferenceSourceFeaturesIterator>
-      <vivo:foreachReferenceSourceInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ReferenceSourceInformationResourceSupportedByType/>/<vivo:ReferenceSourceInformationResourceSupportedByType/>.jsp?uri=<vivo:ReferenceSourceInformationResourceSupportedBy/>"><vivo:ReferenceSourceInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachReferenceSourceInformationResourceSupportedByIterator>
-      <vivo:foreachReferenceSourceIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:ReferenceSourceIAO_0000136Type/>/<vivo:ReferenceSourceIAO_0000136Type/>.jsp?uri=<vivo:ReferenceSourceIAO_0000136/>"><vivo:ReferenceSourceIAO_0000136 /></a></td></tr>
-      </vivo:foreachReferenceSourceIAO_0000136Iterator>
+      <vivo:foreachReferenceSourceRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:ReferenceSourceRO_0000056Type/>/<vivo:ReferenceSourceRO_0000056Type/>.jsp?uri=<vivo:ReferenceSourceRO_0000056/>"><vivo:ReferenceSourceRO_0000056 /></a></td></tr>
+      </vivo:foreachReferenceSourceRO_0000056Iterator>
       <vivo:foreachReferenceSourceDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<vivo:ReferenceSourceDocumentationForType/>/<vivo:ReferenceSourceDocumentationForType/>.jsp?uri=<vivo:ReferenceSourceDocumentationFor/>"><vivo:ReferenceSourceDocumentationFor /></a></td></tr>
       </vivo:foreachReferenceSourceDocumentationForIterator>
@@ -84,9 +75,18 @@
       <vivo:foreachReferenceSourceCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:ReferenceSourceCitesType/>/<vivo:ReferenceSourceCitesType/>.jsp?uri=<vivo:ReferenceSourceCites/>"><vivo:ReferenceSourceCites /></a></td></tr>
       </vivo:foreachReferenceSourceCitesIterator>
-      <vivo:foreachReferenceSourceRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:ReferenceSourceRO_0000056Type/>/<vivo:ReferenceSourceRO_0000056Type/>.jsp?uri=<vivo:ReferenceSourceRO_0000056/>"><vivo:ReferenceSourceRO_0000056 /></a></td></tr>
-      </vivo:foreachReferenceSourceRO_0000056Iterator>
+      <vivo:foreachReferenceSourceTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:ReferenceSourceTranslatorType/>/<vivo:ReferenceSourceTranslatorType/>.jsp?uri=<vivo:ReferenceSourceTranslator/>"><vivo:ReferenceSourceTranslator /></a></td></tr>
+      </vivo:foreachReferenceSourceTranslatorIterator>
+      <vivo:foreachReferenceSourceFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:ReferenceSourceFeaturesType/>/<vivo:ReferenceSourceFeaturesType/>.jsp?uri=<vivo:ReferenceSourceFeatures/>"><vivo:ReferenceSourceFeatures /></a></td></tr>
+      </vivo:foreachReferenceSourceFeaturesIterator>
+      <vivo:foreachReferenceSourceInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ReferenceSourceInformationResourceSupportedByType/>/<vivo:ReferenceSourceInformationResourceSupportedByType/>.jsp?uri=<vivo:ReferenceSourceInformationResourceSupportedBy/>"><vivo:ReferenceSourceInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachReferenceSourceInformationResourceSupportedByIterator>
+      <vivo:foreachReferenceSourceIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:ReferenceSourceIAO_0000136Type/>/<vivo:ReferenceSourceIAO_0000136Type/>.jsp?uri=<vivo:ReferenceSourceIAO_0000136/>"><vivo:ReferenceSourceIAO_0000136 /></a></td></tr>
+      </vivo:foreachReferenceSourceIAO_0000136Iterator>
    </table>
    </vivo:ReferenceSource>
 

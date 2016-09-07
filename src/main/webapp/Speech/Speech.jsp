@@ -26,12 +26,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachSpeechTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:SpeechTheAbstract /></td></tr>
-      </vivo:foreachSpeechTheAbstractIterator>
-      <vivo:foreachSpeechDoiIterator>
-         <tr><td>doi</td><td><vivo:SpeechDoi /></td></tr>
-      </vivo:foreachSpeechDoiIterator>
       <vivo:foreachSpeechPmidIterator>
          <tr><td>pmid</td><td><vivo:SpeechPmid /></td></tr>
       </vivo:foreachSpeechPmidIterator>
@@ -41,22 +35,19 @@
       <vivo:foreachSpeechVolumeIterator>
          <tr><td>volume</td><td><vivo:SpeechVolume /></td></tr>
       </vivo:foreachSpeechVolumeIterator>
+      <vivo:foreachSpeechTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:SpeechTheAbstract /></td></tr>
+      </vivo:foreachSpeechTheAbstractIterator>
+      <vivo:foreachSpeechDoiIterator>
+         <tr><td>doi</td><td><vivo:SpeechDoi /></td></tr>
+      </vivo:foreachSpeechDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachSpeechTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:SpeechTranslatorType/>/<vivo:SpeechTranslatorType/>.jsp?uri=<vivo:SpeechTranslator/>"><vivo:SpeechTranslator /></a></td></tr>
-      </vivo:foreachSpeechTranslatorIterator>
-      <vivo:foreachSpeechFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:SpeechFeaturesType/>/<vivo:SpeechFeaturesType/>.jsp?uri=<vivo:SpeechFeatures/>"><vivo:SpeechFeatures /></a></td></tr>
-      </vivo:foreachSpeechFeaturesIterator>
-      <vivo:foreachSpeechInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:SpeechInformationResourceSupportedByType/>/<vivo:SpeechInformationResourceSupportedByType/>.jsp?uri=<vivo:SpeechInformationResourceSupportedBy/>"><vivo:SpeechInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachSpeechInformationResourceSupportedByIterator>
-      <vivo:foreachSpeechIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:SpeechIAO_0000136Type/>/<vivo:SpeechIAO_0000136Type/>.jsp?uri=<vivo:SpeechIAO_0000136/>"><vivo:SpeechIAO_0000136 /></a></td></tr>
-      </vivo:foreachSpeechIAO_0000136Iterator>
+      <vivo:foreachSpeechRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:SpeechRO_0000056Type/>/<vivo:SpeechRO_0000056Type/>.jsp?uri=<vivo:SpeechRO_0000056/>"><vivo:SpeechRO_0000056 /></a></td></tr>
+      </vivo:foreachSpeechRO_0000056Iterator>
       <vivo:foreachSpeechDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<vivo:SpeechDocumentationForType/>/<vivo:SpeechDocumentationForType/>.jsp?uri=<vivo:SpeechDocumentationFor/>"><vivo:SpeechDocumentationFor /></a></td></tr>
       </vivo:foreachSpeechDocumentationForIterator>
@@ -84,9 +75,18 @@
       <vivo:foreachSpeechCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:SpeechCitesType/>/<vivo:SpeechCitesType/>.jsp?uri=<vivo:SpeechCites/>"><vivo:SpeechCites /></a></td></tr>
       </vivo:foreachSpeechCitesIterator>
-      <vivo:foreachSpeechRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:SpeechRO_0000056Type/>/<vivo:SpeechRO_0000056Type/>.jsp?uri=<vivo:SpeechRO_0000056/>"><vivo:SpeechRO_0000056 /></a></td></tr>
-      </vivo:foreachSpeechRO_0000056Iterator>
+      <vivo:foreachSpeechTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:SpeechTranslatorType/>/<vivo:SpeechTranslatorType/>.jsp?uri=<vivo:SpeechTranslator/>"><vivo:SpeechTranslator /></a></td></tr>
+      </vivo:foreachSpeechTranslatorIterator>
+      <vivo:foreachSpeechFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:SpeechFeaturesType/>/<vivo:SpeechFeaturesType/>.jsp?uri=<vivo:SpeechFeatures/>"><vivo:SpeechFeatures /></a></td></tr>
+      </vivo:foreachSpeechFeaturesIterator>
+      <vivo:foreachSpeechInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:SpeechInformationResourceSupportedByType/>/<vivo:SpeechInformationResourceSupportedByType/>.jsp?uri=<vivo:SpeechInformationResourceSupportedBy/>"><vivo:SpeechInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachSpeechInformationResourceSupportedByIterator>
+      <vivo:foreachSpeechIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:SpeechIAO_0000136Type/>/<vivo:SpeechIAO_0000136Type/>.jsp?uri=<vivo:SpeechIAO_0000136/>"><vivo:SpeechIAO_0000136 /></a></td></tr>
+      </vivo:foreachSpeechIAO_0000136Iterator>
    </table>
    </vivo:Speech>
 

@@ -36,12 +36,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachInternshipBFO_0000055Iterator>
-         <tr><td>BFO_0000055</td><td><a href="../<vivo:InternshipBFO_0000055Type/>/<vivo:InternshipBFO_0000055Type/>.jsp?uri=<vivo:InternshipBFO_0000055/>"><vivo:InternshipBFO_0000055 /></a></td></tr>
-      </vivo:foreachInternshipBFO_0000055Iterator>
       <vivo:foreachInternshipRO_0000057Iterator>
          <tr><td>RO_0000057</td><td><a href="../<vivo:InternshipRO_0000057Type/>/<vivo:InternshipRO_0000057Type/>.jsp?uri=<vivo:InternshipRO_0000057/>"><vivo:InternshipRO_0000057 /></a></td></tr>
       </vivo:foreachInternshipRO_0000057Iterator>
+      <vivo:foreachInternshipBFO_0000055Iterator>
+         <tr><td>BFO_0000055</td><td><a href="../<vivo:InternshipBFO_0000055Type/>/<vivo:InternshipBFO_0000055Type/>.jsp?uri=<vivo:InternshipBFO_0000055/>"><vivo:InternshipBFO_0000055 /></a></td></tr>
+      </vivo:foreachInternshipBFO_0000055Iterator>
    </table>
    </vivo:Internship>
 

@@ -26,12 +26,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachAbstractTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:AbstractTheAbstract /></td></tr>
-      </vivo:foreachAbstractTheAbstractIterator>
-      <vivo:foreachAbstractDoiIterator>
-         <tr><td>doi</td><td><vivo:AbstractDoi /></td></tr>
-      </vivo:foreachAbstractDoiIterator>
       <vivo:foreachAbstractPmidIterator>
          <tr><td>pmid</td><td><vivo:AbstractPmid /></td></tr>
       </vivo:foreachAbstractPmidIterator>
@@ -41,22 +35,19 @@
       <vivo:foreachAbstractVolumeIterator>
          <tr><td>volume</td><td><vivo:AbstractVolume /></td></tr>
       </vivo:foreachAbstractVolumeIterator>
+      <vivo:foreachAbstractTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:AbstractTheAbstract /></td></tr>
+      </vivo:foreachAbstractTheAbstractIterator>
+      <vivo:foreachAbstractDoiIterator>
+         <tr><td>doi</td><td><vivo:AbstractDoi /></td></tr>
+      </vivo:foreachAbstractDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachAbstractTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:AbstractTranslatorType/>/<vivo:AbstractTranslatorType/>.jsp?uri=<vivo:AbstractTranslator/>"><vivo:AbstractTranslator /></a></td></tr>
-      </vivo:foreachAbstractTranslatorIterator>
-      <vivo:foreachAbstractFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:AbstractFeaturesType/>/<vivo:AbstractFeaturesType/>.jsp?uri=<vivo:AbstractFeatures/>"><vivo:AbstractFeatures /></a></td></tr>
-      </vivo:foreachAbstractFeaturesIterator>
-      <vivo:foreachAbstractInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:AbstractInformationResourceSupportedByType/>/<vivo:AbstractInformationResourceSupportedByType/>.jsp?uri=<vivo:AbstractInformationResourceSupportedBy/>"><vivo:AbstractInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachAbstractInformationResourceSupportedByIterator>
-      <vivo:foreachAbstractIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:AbstractIAO_0000136Type/>/<vivo:AbstractIAO_0000136Type/>.jsp?uri=<vivo:AbstractIAO_0000136/>"><vivo:AbstractIAO_0000136 /></a></td></tr>
-      </vivo:foreachAbstractIAO_0000136Iterator>
+      <vivo:foreachAbstractRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:AbstractRO_0000056Type/>/<vivo:AbstractRO_0000056Type/>.jsp?uri=<vivo:AbstractRO_0000056/>"><vivo:AbstractRO_0000056 /></a></td></tr>
+      </vivo:foreachAbstractRO_0000056Iterator>
       <vivo:foreachAbstractDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<vivo:AbstractDocumentationForType/>/<vivo:AbstractDocumentationForType/>.jsp?uri=<vivo:AbstractDocumentationFor/>"><vivo:AbstractDocumentationFor /></a></td></tr>
       </vivo:foreachAbstractDocumentationForIterator>
@@ -84,9 +75,18 @@
       <vivo:foreachAbstractCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:AbstractCitesType/>/<vivo:AbstractCitesType/>.jsp?uri=<vivo:AbstractCites/>"><vivo:AbstractCites /></a></td></tr>
       </vivo:foreachAbstractCitesIterator>
-      <vivo:foreachAbstractRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:AbstractRO_0000056Type/>/<vivo:AbstractRO_0000056Type/>.jsp?uri=<vivo:AbstractRO_0000056/>"><vivo:AbstractRO_0000056 /></a></td></tr>
-      </vivo:foreachAbstractRO_0000056Iterator>
+      <vivo:foreachAbstractTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:AbstractTranslatorType/>/<vivo:AbstractTranslatorType/>.jsp?uri=<vivo:AbstractTranslator/>"><vivo:AbstractTranslator /></a></td></tr>
+      </vivo:foreachAbstractTranslatorIterator>
+      <vivo:foreachAbstractFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:AbstractFeaturesType/>/<vivo:AbstractFeaturesType/>.jsp?uri=<vivo:AbstractFeatures/>"><vivo:AbstractFeatures /></a></td></tr>
+      </vivo:foreachAbstractFeaturesIterator>
+      <vivo:foreachAbstractInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:AbstractInformationResourceSupportedByType/>/<vivo:AbstractInformationResourceSupportedByType/>.jsp?uri=<vivo:AbstractInformationResourceSupportedBy/>"><vivo:AbstractInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachAbstractInformationResourceSupportedByIterator>
+      <vivo:foreachAbstractIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:AbstractIAO_0000136Type/>/<vivo:AbstractIAO_0000136Type/>.jsp?uri=<vivo:AbstractIAO_0000136/>"><vivo:AbstractIAO_0000136 /></a></td></tr>
+      </vivo:foreachAbstractIAO_0000136Iterator>
    </table>
    </vivo:Abstract>
 

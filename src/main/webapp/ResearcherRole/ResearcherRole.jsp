@@ -31,15 +31,15 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachResearcherRoleRO_0000052Iterator>
-         <tr><td>RO_0000052</td><td><a href="../<vivo:ResearcherRoleRO_0000052Type/>/<vivo:ResearcherRoleRO_0000052Type/>.jsp?uri=<vivo:ResearcherRoleRO_0000052/>"><vivo:ResearcherRoleRO_0000052 /></a></td></tr>
-      </vivo:foreachResearcherRoleRO_0000052Iterator>
       <vivo:foreachResearcherRoleRoleContributesToIterator>
          <tr><td>roleContributesTo</td><td><a href="../<vivo:ResearcherRoleRoleContributesToType/>/<vivo:ResearcherRoleRoleContributesToType/>.jsp?uri=<vivo:ResearcherRoleRoleContributesTo/>"><vivo:ResearcherRoleRoleContributesTo /></a></td></tr>
       </vivo:foreachResearcherRoleRoleContributesToIterator>
       <vivo:foreachResearcherRoleBFO_0000054Iterator>
          <tr><td>BFO_0000054</td><td><a href="../<vivo:ResearcherRoleBFO_0000054Type/>/<vivo:ResearcherRoleBFO_0000054Type/>.jsp?uri=<vivo:ResearcherRoleBFO_0000054/>"><vivo:ResearcherRoleBFO_0000054 /></a></td></tr>
       </vivo:foreachResearcherRoleBFO_0000054Iterator>
+      <vivo:foreachResearcherRoleRO_0000052Iterator>
+         <tr><td>RO_0000052</td><td><a href="../<vivo:ResearcherRoleRO_0000052Type/>/<vivo:ResearcherRoleRO_0000052Type/>.jsp?uri=<vivo:ResearcherRoleRO_0000052/>"><vivo:ResearcherRoleRO_0000052 /></a></td></tr>
+      </vivo:foreachResearcherRoleRO_0000052Iterator>
       <vivo:foreachResearcherRoleRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:ResearcherRoleRO_0000056Type/>/<vivo:ResearcherRoleRO_0000056Type/>.jsp?uri=<vivo:ResearcherRoleRO_0000056/>"><vivo:ResearcherRoleRO_0000056 /></a></td></tr>
       </vivo:foreachResearcherRoleRO_0000056Iterator>

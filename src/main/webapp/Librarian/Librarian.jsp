@@ -52,6 +52,9 @@
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachLibrarianRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:LibrarianRO_0000053Type/>/<vivo:LibrarianRO_0000053Type/>.jsp?uri=<vivo:LibrarianRO_0000053/>"><vivo:LibrarianRO_0000053 /></a></td></tr>
+      </vivo:foreachLibrarianRO_0000053Iterator>
       <vivo:foreachLibrarianAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:LibrarianAssigneeForType/>/<vivo:LibrarianAssigneeForType/>.jsp?uri=<vivo:LibrarianAssigneeFor/>"><vivo:LibrarianAssigneeFor /></a></td></tr>
       </vivo:foreachLibrarianAssigneeForIterator>
@@ -61,9 +64,6 @@
       <vivo:foreachLibrarianTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<vivo:LibrarianTranslatorOfType/>/<vivo:LibrarianTranslatorOfType/>.jsp?uri=<vivo:LibrarianTranslatorOf/>"><vivo:LibrarianTranslatorOf /></a></td></tr>
       </vivo:foreachLibrarianTranslatorOfIterator>
-      <vivo:foreachLibrarianRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:LibrarianRO_0000053Type/>/<vivo:LibrarianRO_0000053Type/>.jsp?uri=<vivo:LibrarianRO_0000053/>"><vivo:LibrarianRO_0000053 /></a></td></tr>
-      </vivo:foreachLibrarianRO_0000053Iterator>
       <vivo:foreachLibrarianRO_0001025Iterator>
          <tr><td>RO_0001025</td><td><a href="../<vivo:LibrarianRO_0001025Type/>/<vivo:LibrarianRO_0001025Type/>.jsp?uri=<vivo:LibrarianRO_0001025/>"><vivo:LibrarianRO_0001025 /></a></td></tr>
       </vivo:foreachLibrarianRO_0001025Iterator>

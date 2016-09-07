@@ -74,12 +74,12 @@
       <vivo:foreachCoreLaboratoryAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:CoreLaboratoryAffiliatedOrganizationType/>/<vivo:CoreLaboratoryAffiliatedOrganizationType/>.jsp?uri=<vivo:CoreLaboratoryAffiliatedOrganization/>"><vivo:CoreLaboratoryAffiliatedOrganization /></a></td></tr>
       </vivo:foreachCoreLaboratoryAffiliatedOrganizationIterator>
-      <vivo:foreachCoreLaboratoryRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:CoreLaboratoryRO_0000053Type/>/<vivo:CoreLaboratoryRO_0000053Type/>.jsp?uri=<vivo:CoreLaboratoryRO_0000053/>"><vivo:CoreLaboratoryRO_0000053 /></a></td></tr>
-      </vivo:foreachCoreLaboratoryRO_0000053Iterator>
       <vivo:foreachCoreLaboratoryRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:CoreLaboratoryRO_0000056Type/>/<vivo:CoreLaboratoryRO_0000056Type/>.jsp?uri=<vivo:CoreLaboratoryRO_0000056/>"><vivo:CoreLaboratoryRO_0000056 /></a></td></tr>
       </vivo:foreachCoreLaboratoryRO_0000056Iterator>
+      <vivo:foreachCoreLaboratoryRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:CoreLaboratoryRO_0000053Type/>/<vivo:CoreLaboratoryRO_0000053Type/>.jsp?uri=<vivo:CoreLaboratoryRO_0000053/>"><vivo:CoreLaboratoryRO_0000053 /></a></td></tr>
+      </vivo:foreachCoreLaboratoryRO_0000053Iterator>
    </table>
    </vivo:CoreLaboratory>
 

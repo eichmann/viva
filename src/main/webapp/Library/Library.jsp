@@ -32,6 +32,9 @@
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachLibraryRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:LibraryRO_0000053Type/>/<vivo:LibraryRO_0000053Type/>.jsp?uri=<vivo:LibraryRO_0000053/>"><vivo:LibraryRO_0000053 /></a></td></tr>
+      </vivo:foreachLibraryRO_0000053Iterator>
       <vivo:foreachLibraryAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:LibraryAssigneeForType/>/<vivo:LibraryAssigneeForType/>.jsp?uri=<vivo:LibraryAssigneeFor/>"><vivo:LibraryAssigneeFor /></a></td></tr>
       </vivo:foreachLibraryAssigneeForIterator>
@@ -74,9 +77,6 @@
       <vivo:foreachLibraryAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:LibraryAffiliatedOrganizationType/>/<vivo:LibraryAffiliatedOrganizationType/>.jsp?uri=<vivo:LibraryAffiliatedOrganization/>"><vivo:LibraryAffiliatedOrganization /></a></td></tr>
       </vivo:foreachLibraryAffiliatedOrganizationIterator>
-      <vivo:foreachLibraryRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:LibraryRO_0000053Type/>/<vivo:LibraryRO_0000053Type/>.jsp?uri=<vivo:LibraryRO_0000053/>"><vivo:LibraryRO_0000053 /></a></td></tr>
-      </vivo:foreachLibraryRO_0000053Iterator>
       <vivo:foreachLibraryRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:LibraryRO_0000056Type/>/<vivo:LibraryRO_0000056Type/>.jsp?uri=<vivo:LibraryRO_0000056/>"><vivo:LibraryRO_0000056 /></a></td></tr>
       </vivo:foreachLibraryRO_0000056Iterator>

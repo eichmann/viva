@@ -26,12 +26,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachBriefTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:BriefTheAbstract /></td></tr>
-      </vivo:foreachBriefTheAbstractIterator>
-      <vivo:foreachBriefDoiIterator>
-         <tr><td>doi</td><td><vivo:BriefDoi /></td></tr>
-      </vivo:foreachBriefDoiIterator>
       <vivo:foreachBriefPmidIterator>
          <tr><td>pmid</td><td><vivo:BriefPmid /></td></tr>
       </vivo:foreachBriefPmidIterator>
@@ -41,22 +35,19 @@
       <vivo:foreachBriefVolumeIterator>
          <tr><td>volume</td><td><vivo:BriefVolume /></td></tr>
       </vivo:foreachBriefVolumeIterator>
+      <vivo:foreachBriefTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:BriefTheAbstract /></td></tr>
+      </vivo:foreachBriefTheAbstractIterator>
+      <vivo:foreachBriefDoiIterator>
+         <tr><td>doi</td><td><vivo:BriefDoi /></td></tr>
+      </vivo:foreachBriefDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachBriefTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:BriefTranslatorType/>/<vivo:BriefTranslatorType/>.jsp?uri=<vivo:BriefTranslator/>"><vivo:BriefTranslator /></a></td></tr>
-      </vivo:foreachBriefTranslatorIterator>
-      <vivo:foreachBriefFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:BriefFeaturesType/>/<vivo:BriefFeaturesType/>.jsp?uri=<vivo:BriefFeatures/>"><vivo:BriefFeatures /></a></td></tr>
-      </vivo:foreachBriefFeaturesIterator>
-      <vivo:foreachBriefInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:BriefInformationResourceSupportedByType/>/<vivo:BriefInformationResourceSupportedByType/>.jsp?uri=<vivo:BriefInformationResourceSupportedBy/>"><vivo:BriefInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachBriefInformationResourceSupportedByIterator>
-      <vivo:foreachBriefIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:BriefIAO_0000136Type/>/<vivo:BriefIAO_0000136Type/>.jsp?uri=<vivo:BriefIAO_0000136/>"><vivo:BriefIAO_0000136 /></a></td></tr>
-      </vivo:foreachBriefIAO_0000136Iterator>
+      <vivo:foreachBriefRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:BriefRO_0000056Type/>/<vivo:BriefRO_0000056Type/>.jsp?uri=<vivo:BriefRO_0000056/>"><vivo:BriefRO_0000056 /></a></td></tr>
+      </vivo:foreachBriefRO_0000056Iterator>
       <vivo:foreachBriefDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<vivo:BriefDocumentationForType/>/<vivo:BriefDocumentationForType/>.jsp?uri=<vivo:BriefDocumentationFor/>"><vivo:BriefDocumentationFor /></a></td></tr>
       </vivo:foreachBriefDocumentationForIterator>
@@ -84,9 +75,18 @@
       <vivo:foreachBriefCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:BriefCitesType/>/<vivo:BriefCitesType/>.jsp?uri=<vivo:BriefCites/>"><vivo:BriefCites /></a></td></tr>
       </vivo:foreachBriefCitesIterator>
-      <vivo:foreachBriefRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:BriefRO_0000056Type/>/<vivo:BriefRO_0000056Type/>.jsp?uri=<vivo:BriefRO_0000056/>"><vivo:BriefRO_0000056 /></a></td></tr>
-      </vivo:foreachBriefRO_0000056Iterator>
+      <vivo:foreachBriefTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:BriefTranslatorType/>/<vivo:BriefTranslatorType/>.jsp?uri=<vivo:BriefTranslator/>"><vivo:BriefTranslator /></a></td></tr>
+      </vivo:foreachBriefTranslatorIterator>
+      <vivo:foreachBriefFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:BriefFeaturesType/>/<vivo:BriefFeaturesType/>.jsp?uri=<vivo:BriefFeatures/>"><vivo:BriefFeatures /></a></td></tr>
+      </vivo:foreachBriefFeaturesIterator>
+      <vivo:foreachBriefInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:BriefInformationResourceSupportedByType/>/<vivo:BriefInformationResourceSupportedByType/>.jsp?uri=<vivo:BriefInformationResourceSupportedBy/>"><vivo:BriefInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachBriefInformationResourceSupportedByIterator>
+      <vivo:foreachBriefIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:BriefIAO_0000136Type/>/<vivo:BriefIAO_0000136Type/>.jsp?uri=<vivo:BriefIAO_0000136/>"><vivo:BriefIAO_0000136 /></a></td></tr>
+      </vivo:foreachBriefIAO_0000136Iterator>
    </table>
    </vivo:Brief>
 

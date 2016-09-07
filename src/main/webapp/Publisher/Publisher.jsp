@@ -35,6 +35,9 @@
       <vivo:foreachPublisherRelatedByIterator>
          <tr><td>relatedBy</td><td><a href="../<vivo:PublisherRelatedByType/>/<vivo:PublisherRelatedByType/>.jsp?uri=<vivo:PublisherRelatedBy/>"><vivo:PublisherRelatedBy /></a></td></tr>
       </vivo:foreachPublisherRelatedByIterator>
+      <vivo:foreachPublisherRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:PublisherRO_0000053Type/>/<vivo:PublisherRO_0000053Type/>.jsp?uri=<vivo:PublisherRO_0000053/>"><vivo:PublisherRO_0000053 /></a></td></tr>
+      </vivo:foreachPublisherRO_0000053Iterator>
       <vivo:foreachPublisherAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:PublisherAssigneeForType/>/<vivo:PublisherAssigneeForType/>.jsp?uri=<vivo:PublisherAssigneeFor/>"><vivo:PublisherAssigneeFor /></a></td></tr>
       </vivo:foreachPublisherAssigneeForIterator>
@@ -77,9 +80,6 @@
       <vivo:foreachPublisherAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:PublisherAffiliatedOrganizationType/>/<vivo:PublisherAffiliatedOrganizationType/>.jsp?uri=<vivo:PublisherAffiliatedOrganization/>"><vivo:PublisherAffiliatedOrganization /></a></td></tr>
       </vivo:foreachPublisherAffiliatedOrganizationIterator>
-      <vivo:foreachPublisherRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:PublisherRO_0000053Type/>/<vivo:PublisherRO_0000053Type/>.jsp?uri=<vivo:PublisherRO_0000053/>"><vivo:PublisherRO_0000053 /></a></td></tr>
-      </vivo:foreachPublisherRO_0000053Iterator>
       <vivo:foreachPublisherRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:PublisherRO_0000056Type/>/<vivo:PublisherRO_0000056Type/>.jsp?uri=<vivo:PublisherRO_0000056/>"><vivo:PublisherRO_0000056 /></a></td></tr>
       </vivo:foreachPublisherRO_0000056Iterator>

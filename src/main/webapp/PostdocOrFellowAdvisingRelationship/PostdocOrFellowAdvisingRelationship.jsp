@@ -30,12 +30,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachPostdocOrFellowAdvisingRelationshipRO_0000052Iterator>
-         <tr><td>RO_0000052</td><td><a href="../<vivo:PostdocOrFellowAdvisingRelationshipRO_0000052Type/>/<vivo:PostdocOrFellowAdvisingRelationshipRO_0000052Type/>.jsp?uri=<vivo:PostdocOrFellowAdvisingRelationshipRO_0000052/>"><vivo:PostdocOrFellowAdvisingRelationshipRO_0000052 /></a></td></tr>
-      </vivo:foreachPostdocOrFellowAdvisingRelationshipRO_0000052Iterator>
       <vivo:foreachPostdocOrFellowAdvisingRelationshipDegreeCandidacyIterator>
          <tr><td>degreeCandidacy</td><td><a href="../<vivo:PostdocOrFellowAdvisingRelationshipDegreeCandidacyType/>/<vivo:PostdocOrFellowAdvisingRelationshipDegreeCandidacyType/>.jsp?uri=<vivo:PostdocOrFellowAdvisingRelationshipDegreeCandidacy/>"><vivo:PostdocOrFellowAdvisingRelationshipDegreeCandidacy /></a></td></tr>
       </vivo:foreachPostdocOrFellowAdvisingRelationshipDegreeCandidacyIterator>
+      <vivo:foreachPostdocOrFellowAdvisingRelationshipRO_0000052Iterator>
+         <tr><td>RO_0000052</td><td><a href="../<vivo:PostdocOrFellowAdvisingRelationshipRO_0000052Type/>/<vivo:PostdocOrFellowAdvisingRelationshipRO_0000052Type/>.jsp?uri=<vivo:PostdocOrFellowAdvisingRelationshipRO_0000052/>"><vivo:PostdocOrFellowAdvisingRelationshipRO_0000052 /></a></td></tr>
+      </vivo:foreachPostdocOrFellowAdvisingRelationshipRO_0000052Iterator>
       <vivo:foreachPostdocOrFellowAdvisingRelationshipRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:PostdocOrFellowAdvisingRelationshipRO_0000056Type/>/<vivo:PostdocOrFellowAdvisingRelationshipRO_0000056Type/>.jsp?uri=<vivo:PostdocOrFellowAdvisingRelationshipRO_0000056/>"><vivo:PostdocOrFellowAdvisingRelationshipRO_0000056 /></a></td></tr>
       </vivo:foreachPostdocOrFellowAdvisingRelationshipRO_0000056Iterator>

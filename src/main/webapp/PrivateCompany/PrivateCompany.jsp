@@ -33,6 +33,9 @@
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachPrivateCompanyRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:PrivateCompanyRO_0000053Type/>/<vivo:PrivateCompanyRO_0000053Type/>.jsp?uri=<vivo:PrivateCompanyRO_0000053/>"><vivo:PrivateCompanyRO_0000053 /></a></td></tr>
+      </vivo:foreachPrivateCompanyRO_0000053Iterator>
       <vivo:foreachPrivateCompanyAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:PrivateCompanyAssigneeForType/>/<vivo:PrivateCompanyAssigneeForType/>.jsp?uri=<vivo:PrivateCompanyAssigneeFor/>"><vivo:PrivateCompanyAssigneeFor /></a></td></tr>
       </vivo:foreachPrivateCompanyAssigneeForIterator>
@@ -42,6 +45,9 @@
       <vivo:foreachPrivateCompanyTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<vivo:PrivateCompanyTranslatorOfType/>/<vivo:PrivateCompanyTranslatorOfType/>.jsp?uri=<vivo:PrivateCompanyTranslatorOf/>"><vivo:PrivateCompanyTranslatorOf /></a></td></tr>
       </vivo:foreachPrivateCompanyTranslatorOfIterator>
+      <vivo:foreachPrivateCompanyRelatedByIterator>
+         <tr><td>relatedBy</td><td><a href="../<vivo:PrivateCompanyRelatedByType/>/<vivo:PrivateCompanyRelatedByType/>.jsp?uri=<vivo:PrivateCompanyRelatedBy/>"><vivo:PrivateCompanyRelatedBy /></a></td></tr>
+      </vivo:foreachPrivateCompanyRelatedByIterator>
       <vivo:foreachPrivateCompanySponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<vivo:PrivateCompanySponsorsType/>/<vivo:PrivateCompanySponsorsType/>.jsp?uri=<vivo:PrivateCompanySponsors/>"><vivo:PrivateCompanySponsors /></a></td></tr>
       </vivo:foreachPrivateCompanySponsorsIterator>
@@ -75,15 +81,9 @@
       <vivo:foreachPrivateCompanyAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:PrivateCompanyAffiliatedOrganizationType/>/<vivo:PrivateCompanyAffiliatedOrganizationType/>.jsp?uri=<vivo:PrivateCompanyAffiliatedOrganization/>"><vivo:PrivateCompanyAffiliatedOrganization /></a></td></tr>
       </vivo:foreachPrivateCompanyAffiliatedOrganizationIterator>
-      <vivo:foreachPrivateCompanyRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:PrivateCompanyRO_0000053Type/>/<vivo:PrivateCompanyRO_0000053Type/>.jsp?uri=<vivo:PrivateCompanyRO_0000053/>"><vivo:PrivateCompanyRO_0000053 /></a></td></tr>
-      </vivo:foreachPrivateCompanyRO_0000053Iterator>
       <vivo:foreachPrivateCompanyRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:PrivateCompanyRO_0000056Type/>/<vivo:PrivateCompanyRO_0000056Type/>.jsp?uri=<vivo:PrivateCompanyRO_0000056/>"><vivo:PrivateCompanyRO_0000056 /></a></td></tr>
       </vivo:foreachPrivateCompanyRO_0000056Iterator>
-      <vivo:foreachPrivateCompanyRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<vivo:PrivateCompanyRelatedByType/>/<vivo:PrivateCompanyRelatedByType/>.jsp?uri=<vivo:PrivateCompanyRelatedBy/>"><vivo:PrivateCompanyRelatedBy /></a></td></tr>
-      </vivo:foreachPrivateCompanyRelatedByIterator>
    </table>
    </vivo:PrivateCompany>
 

@@ -32,6 +32,9 @@
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachConsortiumRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:ConsortiumRO_0000053Type/>/<vivo:ConsortiumRO_0000053Type/>.jsp?uri=<vivo:ConsortiumRO_0000053/>"><vivo:ConsortiumRO_0000053 /></a></td></tr>
+      </vivo:foreachConsortiumRO_0000053Iterator>
       <vivo:foreachConsortiumAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:ConsortiumAssigneeForType/>/<vivo:ConsortiumAssigneeForType/>.jsp?uri=<vivo:ConsortiumAssigneeFor/>"><vivo:ConsortiumAssigneeFor /></a></td></tr>
       </vivo:foreachConsortiumAssigneeForIterator>
@@ -74,9 +77,6 @@
       <vivo:foreachConsortiumAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:ConsortiumAffiliatedOrganizationType/>/<vivo:ConsortiumAffiliatedOrganizationType/>.jsp?uri=<vivo:ConsortiumAffiliatedOrganization/>"><vivo:ConsortiumAffiliatedOrganization /></a></td></tr>
       </vivo:foreachConsortiumAffiliatedOrganizationIterator>
-      <vivo:foreachConsortiumRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:ConsortiumRO_0000053Type/>/<vivo:ConsortiumRO_0000053Type/>.jsp?uri=<vivo:ConsortiumRO_0000053/>"><vivo:ConsortiumRO_0000053 /></a></td></tr>
-      </vivo:foreachConsortiumRO_0000053Iterator>
       <vivo:foreachConsortiumRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:ConsortiumRO_0000056Type/>/<vivo:ConsortiumRO_0000056Type/>.jsp?uri=<vivo:ConsortiumRO_0000056/>"><vivo:ConsortiumRO_0000056 /></a></td></tr>
       </vivo:foreachConsortiumRO_0000056Iterator>

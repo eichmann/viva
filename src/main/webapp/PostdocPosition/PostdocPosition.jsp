@@ -39,21 +39,21 @@
       <vivo:foreachPostdocPositionRelatesIterator>
          <tr><td>relates</td><td><a href="../<vivo:PostdocPositionRelatesType/>/<vivo:PostdocPositionRelatesType/>.jsp?uri=<vivo:PostdocPositionRelates/>"><vivo:PostdocPositionRelates /></a></td></tr>
       </vivo:foreachPostdocPositionRelatesIterator>
+      <vivo:foreachPostdocPositionDateTimeIntervalIterator>
+         <tr><td>dateTimeInterval</td><td><a href="../<vivo:PostdocPositionDateTimeIntervalType/>/<vivo:PostdocPositionDateTimeIntervalType/>.jsp?uri=<vivo:PostdocPositionDateTimeInterval/>"><vivo:PostdocPositionDateTimeInterval /></a></td></tr>
+      </vivo:foreachPostdocPositionDateTimeIntervalIterator>
+      <vivo:foreachPostdocPositionRelatesIterator>
+         <tr><td>relates</td><td><a href="../<vivo:PostdocPositionRelatesType/>/<vivo:PostdocPositionRelatesType/>.jsp?uri=<vivo:PostdocPositionRelates/>"><vivo:PostdocPositionRelates /></a></td></tr>
+      </vivo:foreachPostdocPositionRelatesIterator>
+      <vivo:foreachPostdocPositionDateTimeIntervalIterator>
+         <tr><td>dateTimeInterval</td><td><a href="../<vivo:PostdocPositionDateTimeIntervalType/>/<vivo:PostdocPositionDateTimeIntervalType/>.jsp?uri=<vivo:PostdocPositionDateTimeInterval/>"><vivo:PostdocPositionDateTimeInterval /></a></td></tr>
+      </vivo:foreachPostdocPositionDateTimeIntervalIterator>
+      <vivo:foreachPostdocPositionRelatesIterator>
+         <tr><td>relates</td><td><a href="../<vivo:PostdocPositionRelatesType/>/<vivo:PostdocPositionRelatesType/>.jsp?uri=<vivo:PostdocPositionRelates/>"><vivo:PostdocPositionRelates /></a></td></tr>
+      </vivo:foreachPostdocPositionRelatesIterator>
       <vivo:foreachPostdocPositionRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<vivo:PostdocPositionRO_0000052Type/>/<vivo:PostdocPositionRO_0000052Type/>.jsp?uri=<vivo:PostdocPositionRO_0000052/>"><vivo:PostdocPositionRO_0000052 /></a></td></tr>
       </vivo:foreachPostdocPositionRO_0000052Iterator>
-      <vivo:foreachPostdocPositionDateTimeIntervalIterator>
-         <tr><td>dateTimeInterval</td><td><a href="../<vivo:PostdocPositionDateTimeIntervalType/>/<vivo:PostdocPositionDateTimeIntervalType/>.jsp?uri=<vivo:PostdocPositionDateTimeInterval/>"><vivo:PostdocPositionDateTimeInterval /></a></td></tr>
-      </vivo:foreachPostdocPositionDateTimeIntervalIterator>
-      <vivo:foreachPostdocPositionRelatesIterator>
-         <tr><td>relates</td><td><a href="../<vivo:PostdocPositionRelatesType/>/<vivo:PostdocPositionRelatesType/>.jsp?uri=<vivo:PostdocPositionRelates/>"><vivo:PostdocPositionRelates /></a></td></tr>
-      </vivo:foreachPostdocPositionRelatesIterator>
-      <vivo:foreachPostdocPositionDateTimeIntervalIterator>
-         <tr><td>dateTimeInterval</td><td><a href="../<vivo:PostdocPositionDateTimeIntervalType/>/<vivo:PostdocPositionDateTimeIntervalType/>.jsp?uri=<vivo:PostdocPositionDateTimeInterval/>"><vivo:PostdocPositionDateTimeInterval /></a></td></tr>
-      </vivo:foreachPostdocPositionDateTimeIntervalIterator>
-      <vivo:foreachPostdocPositionRelatesIterator>
-         <tr><td>relates</td><td><a href="../<vivo:PostdocPositionRelatesType/>/<vivo:PostdocPositionRelatesType/>.jsp?uri=<vivo:PostdocPositionRelates/>"><vivo:PostdocPositionRelates /></a></td></tr>
-      </vivo:foreachPostdocPositionRelatesIterator>
       <vivo:foreachPostdocPositionRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:PostdocPositionRO_0000056Type/>/<vivo:PostdocPositionRO_0000056Type/>.jsp?uri=<vivo:PostdocPositionRO_0000056/>"><vivo:PostdocPositionRO_0000056 /></a></td></tr>
       </vivo:foreachPostdocPositionRO_0000056Iterator>

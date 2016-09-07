@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=US-ASCII" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="vivo" uri="http://slis.uiowa.edu/VIVOISF"%>
+<%@ taglib prefix="util" uri="http://icts.uiowa.edu/tagUtil"%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>ConferencePoster - http://purl.org/ontology/bibo/ConferencePoster</title>
+<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<body>
+<div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+   <p><a href="ConferencePoster.jsp?uri=${param.uri}">generated view</a></p>
+   <vivo:ConferencePoster subjectURI="${param.uri}">
+
+      <h1><vivo:ConferencePosterLabel /></h1>
+  <h3>Authors</h3>
+      <ol class=bulletedList>
+      <vivo:foreachConferencePosterRelatedByIterator classFilter="Authorship">
+         <c:set var="auth"><vivo:ConferencePosterRelatedBy/></c:set>
+         <vivo:Authorship subjectURI="${auth}">
+            <vivo:foreachAuthorshipRelatesIterator classFilter="Person">
+               <c:set var="person"><vivo:AuthorshipRelates/></c:set>
+               <vivo:Person subjectURI="${person}">
+                  <li><a href="../Person/altPerson.jsp?uri=<vivo:PersonSubjectURI/>"><vivo:PersonLabel/></a>
+               </vivo:Person>
+            </vivo:foreachAuthorshipRelatesIterator>
+         </vivo:Authorship>
+      </vivo:foreachConferencePosterRelatedByIterator>
+      </ol>
+   </vivo:ConferencePoster>
+
+<jsp:include page="/footer.jsp" flush="true" /></div></div></body>
+</html>
+

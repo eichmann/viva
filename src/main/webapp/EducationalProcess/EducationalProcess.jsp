@@ -36,12 +36,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachEducationalProcessBFO_0000055Iterator>
-         <tr><td>BFO_0000055</td><td><a href="../<vivo:EducationalProcessBFO_0000055Type/>/<vivo:EducationalProcessBFO_0000055Type/>.jsp?uri=<vivo:EducationalProcessBFO_0000055/>"><vivo:EducationalProcessBFO_0000055 /></a></td></tr>
-      </vivo:foreachEducationalProcessBFO_0000055Iterator>
       <vivo:foreachEducationalProcessRO_0000057Iterator>
          <tr><td>RO_0000057</td><td><a href="../<vivo:EducationalProcessRO_0000057Type/>/<vivo:EducationalProcessRO_0000057Type/>.jsp?uri=<vivo:EducationalProcessRO_0000057/>"><vivo:EducationalProcessRO_0000057 /></a></td></tr>
       </vivo:foreachEducationalProcessRO_0000057Iterator>
+      <vivo:foreachEducationalProcessBFO_0000055Iterator>
+         <tr><td>BFO_0000055</td><td><a href="../<vivo:EducationalProcessBFO_0000055Type/>/<vivo:EducationalProcessBFO_0000055Type/>.jsp?uri=<vivo:EducationalProcessBFO_0000055/>"><vivo:EducationalProcessBFO_0000055 /></a></td></tr>
+      </vivo:foreachEducationalProcessBFO_0000055Iterator>
    </table>
    </vivo:EducationalProcess>
 

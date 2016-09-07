@@ -26,12 +26,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachDatabaseTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:DatabaseTheAbstract /></td></tr>
-      </vivo:foreachDatabaseTheAbstractIterator>
-      <vivo:foreachDatabaseDoiIterator>
-         <tr><td>doi</td><td><vivo:DatabaseDoi /></td></tr>
-      </vivo:foreachDatabaseDoiIterator>
       <vivo:foreachDatabasePmidIterator>
          <tr><td>pmid</td><td><vivo:DatabasePmid /></td></tr>
       </vivo:foreachDatabasePmidIterator>
@@ -41,22 +35,19 @@
       <vivo:foreachDatabaseVolumeIterator>
          <tr><td>volume</td><td><vivo:DatabaseVolume /></td></tr>
       </vivo:foreachDatabaseVolumeIterator>
+      <vivo:foreachDatabaseTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:DatabaseTheAbstract /></td></tr>
+      </vivo:foreachDatabaseTheAbstractIterator>
+      <vivo:foreachDatabaseDoiIterator>
+         <tr><td>doi</td><td><vivo:DatabaseDoi /></td></tr>
+      </vivo:foreachDatabaseDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachDatabaseTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:DatabaseTranslatorType/>/<vivo:DatabaseTranslatorType/>.jsp?uri=<vivo:DatabaseTranslator/>"><vivo:DatabaseTranslator /></a></td></tr>
-      </vivo:foreachDatabaseTranslatorIterator>
-      <vivo:foreachDatabaseFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:DatabaseFeaturesType/>/<vivo:DatabaseFeaturesType/>.jsp?uri=<vivo:DatabaseFeatures/>"><vivo:DatabaseFeatures /></a></td></tr>
-      </vivo:foreachDatabaseFeaturesIterator>
-      <vivo:foreachDatabaseInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:DatabaseInformationResourceSupportedByType/>/<vivo:DatabaseInformationResourceSupportedByType/>.jsp?uri=<vivo:DatabaseInformationResourceSupportedBy/>"><vivo:DatabaseInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachDatabaseInformationResourceSupportedByIterator>
-      <vivo:foreachDatabaseIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:DatabaseIAO_0000136Type/>/<vivo:DatabaseIAO_0000136Type/>.jsp?uri=<vivo:DatabaseIAO_0000136/>"><vivo:DatabaseIAO_0000136 /></a></td></tr>
-      </vivo:foreachDatabaseIAO_0000136Iterator>
+      <vivo:foreachDatabaseRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:DatabaseRO_0000056Type/>/<vivo:DatabaseRO_0000056Type/>.jsp?uri=<vivo:DatabaseRO_0000056/>"><vivo:DatabaseRO_0000056 /></a></td></tr>
+      </vivo:foreachDatabaseRO_0000056Iterator>
       <vivo:foreachDatabaseDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<vivo:DatabaseDocumentationForType/>/<vivo:DatabaseDocumentationForType/>.jsp?uri=<vivo:DatabaseDocumentationFor/>"><vivo:DatabaseDocumentationFor /></a></td></tr>
       </vivo:foreachDatabaseDocumentationForIterator>
@@ -84,9 +75,18 @@
       <vivo:foreachDatabaseCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:DatabaseCitesType/>/<vivo:DatabaseCitesType/>.jsp?uri=<vivo:DatabaseCites/>"><vivo:DatabaseCites /></a></td></tr>
       </vivo:foreachDatabaseCitesIterator>
-      <vivo:foreachDatabaseRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:DatabaseRO_0000056Type/>/<vivo:DatabaseRO_0000056Type/>.jsp?uri=<vivo:DatabaseRO_0000056/>"><vivo:DatabaseRO_0000056 /></a></td></tr>
-      </vivo:foreachDatabaseRO_0000056Iterator>
+      <vivo:foreachDatabaseTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:DatabaseTranslatorType/>/<vivo:DatabaseTranslatorType/>.jsp?uri=<vivo:DatabaseTranslator/>"><vivo:DatabaseTranslator /></a></td></tr>
+      </vivo:foreachDatabaseTranslatorIterator>
+      <vivo:foreachDatabaseFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:DatabaseFeaturesType/>/<vivo:DatabaseFeaturesType/>.jsp?uri=<vivo:DatabaseFeatures/>"><vivo:DatabaseFeatures /></a></td></tr>
+      </vivo:foreachDatabaseFeaturesIterator>
+      <vivo:foreachDatabaseInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:DatabaseInformationResourceSupportedByType/>/<vivo:DatabaseInformationResourceSupportedByType/>.jsp?uri=<vivo:DatabaseInformationResourceSupportedBy/>"><vivo:DatabaseInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachDatabaseInformationResourceSupportedByIterator>
+      <vivo:foreachDatabaseIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:DatabaseIAO_0000136Type/>/<vivo:DatabaseIAO_0000136Type/>.jsp?uri=<vivo:DatabaseIAO_0000136/>"><vivo:DatabaseIAO_0000136 /></a></td></tr>
+      </vivo:foreachDatabaseIAO_0000136Iterator>
    </table>
    </vivo:Database>
 

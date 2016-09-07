@@ -111,12 +111,15 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachgeographical_regionHasMemberIterator>
-         <tr><td>hasMember</td><td><a href="../<vivo:geographical_regionHasMemberType/>/<vivo:geographical_regionHasMemberType/>.jsp?uri=<vivo:geographical_regionHasMember/>"><vivo:geographical_regionHasMember /></a></td></tr>
-      </vivo:foreachgeographical_regionHasMemberIterator>
       <vivo:foreachgeographical_regionGeographicFocusOfIterator>
          <tr><td>geographicFocusOf</td><td><a href="../<vivo:geographical_regionGeographicFocusOfType/>/<vivo:geographical_regionGeographicFocusOfType/>.jsp?uri=<vivo:geographical_regionGeographicFocusOf/>"><vivo:geographical_regionGeographicFocusOf /></a></td></tr>
       </vivo:foreachgeographical_regionGeographicFocusOfIterator>
+      <vivo:foreachgeographical_regionHasMemberIterator>
+         <tr><td>hasMember</td><td><a href="../<vivo:geographical_regionHasMemberType/>/<vivo:geographical_regionHasMemberType/>.jsp?uri=<vivo:geographical_regionHasMember/>"><vivo:geographical_regionHasMember /></a></td></tr>
+      </vivo:foreachgeographical_regionHasMemberIterator>
+      <vivo:foreachgeographical_regionRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:geographical_regionRO_0000056Type/>/<vivo:geographical_regionRO_0000056Type/>.jsp?uri=<vivo:geographical_regionRO_0000056/>"><vivo:geographical_regionRO_0000056 /></a></td></tr>
+      </vivo:foreachgeographical_regionRO_0000056Iterator>
       <vivo:foreachgeographical_regionRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:geographical_regionRO_0000053Type/>/<vivo:geographical_regionRO_0000053Type/>.jsp?uri=<vivo:geographical_regionRO_0000053/>"><vivo:geographical_regionRO_0000053 /></a></td></tr>
       </vivo:foreachgeographical_regionRO_0000053Iterator>
@@ -126,9 +129,6 @@
       <vivo:foreachgeographical_regionIsPredecessorOfIterator>
          <tr><td>isPredecessorOf</td><td><a href="../<vivo:geographical_regionIsPredecessorOfType/>/<vivo:geographical_regionIsPredecessorOfType/>.jsp?uri=<vivo:geographical_regionIsPredecessorOf/>"><vivo:geographical_regionIsPredecessorOf /></a></td></tr>
       </vivo:foreachgeographical_regionIsPredecessorOfIterator>
-      <vivo:foreachgeographical_regionRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:geographical_regionRO_0000056Type/>/<vivo:geographical_regionRO_0000056Type/>.jsp?uri=<vivo:geographical_regionRO_0000056/>"><vivo:geographical_regionRO_0000056 /></a></td></tr>
-      </vivo:foreachgeographical_regionRO_0000056Iterator>
    </table>
    </vivo:geographical_region>
 

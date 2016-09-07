@@ -30,15 +30,15 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachAdministratorRoleRO_0000052Iterator>
-         <tr><td>RO_0000052</td><td><a href="../<vivo:AdministratorRoleRO_0000052Type/>/<vivo:AdministratorRoleRO_0000052Type/>.jsp?uri=<vivo:AdministratorRoleRO_0000052/>"><vivo:AdministratorRoleRO_0000052 /></a></td></tr>
-      </vivo:foreachAdministratorRoleRO_0000052Iterator>
       <vivo:foreachAdministratorRoleRoleContributesToIterator>
          <tr><td>roleContributesTo</td><td><a href="../<vivo:AdministratorRoleRoleContributesToType/>/<vivo:AdministratorRoleRoleContributesToType/>.jsp?uri=<vivo:AdministratorRoleRoleContributesTo/>"><vivo:AdministratorRoleRoleContributesTo /></a></td></tr>
       </vivo:foreachAdministratorRoleRoleContributesToIterator>
       <vivo:foreachAdministratorRoleBFO_0000054Iterator>
          <tr><td>BFO_0000054</td><td><a href="../<vivo:AdministratorRoleBFO_0000054Type/>/<vivo:AdministratorRoleBFO_0000054Type/>.jsp?uri=<vivo:AdministratorRoleBFO_0000054/>"><vivo:AdministratorRoleBFO_0000054 /></a></td></tr>
       </vivo:foreachAdministratorRoleBFO_0000054Iterator>
+      <vivo:foreachAdministratorRoleRO_0000052Iterator>
+         <tr><td>RO_0000052</td><td><a href="../<vivo:AdministratorRoleRO_0000052Type/>/<vivo:AdministratorRoleRO_0000052Type/>.jsp?uri=<vivo:AdministratorRoleRO_0000052/>"><vivo:AdministratorRoleRO_0000052 /></a></td></tr>
+      </vivo:foreachAdministratorRoleRO_0000052Iterator>
       <vivo:foreachAdministratorRoleRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:AdministratorRoleRO_0000056Type/>/<vivo:AdministratorRoleRO_0000056Type/>.jsp?uri=<vivo:AdministratorRoleRO_0000056/>"><vivo:AdministratorRoleRO_0000056 /></a></td></tr>
       </vivo:foreachAdministratorRoleRO_0000056Iterator>

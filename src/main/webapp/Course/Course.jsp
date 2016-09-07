@@ -36,12 +36,12 @@
       <vivo:foreachCoursePrerequisiteForIterator>
          <tr><td>prerequisiteFor</td><td><a href="../<vivo:CoursePrerequisiteForType/>/<vivo:CoursePrerequisiteForType/>.jsp?uri=<vivo:CoursePrerequisiteFor/>"><vivo:CoursePrerequisiteFor /></a></td></tr>
       </vivo:foreachCoursePrerequisiteForIterator>
-      <vivo:foreachCourseBFO_0000055Iterator>
-         <tr><td>BFO_0000055</td><td><a href="../<vivo:CourseBFO_0000055Type/>/<vivo:CourseBFO_0000055Type/>.jsp?uri=<vivo:CourseBFO_0000055/>"><vivo:CourseBFO_0000055 /></a></td></tr>
-      </vivo:foreachCourseBFO_0000055Iterator>
       <vivo:foreachCourseRO_0000057Iterator>
          <tr><td>RO_0000057</td><td><a href="../<vivo:CourseRO_0000057Type/>/<vivo:CourseRO_0000057Type/>.jsp?uri=<vivo:CourseRO_0000057/>"><vivo:CourseRO_0000057 /></a></td></tr>
       </vivo:foreachCourseRO_0000057Iterator>
+      <vivo:foreachCourseBFO_0000055Iterator>
+         <tr><td>BFO_0000055</td><td><a href="../<vivo:CourseBFO_0000055Type/>/<vivo:CourseBFO_0000055Type/>.jsp?uri=<vivo:CourseBFO_0000055/>"><vivo:CourseBFO_0000055 /></a></td></tr>
+      </vivo:foreachCourseBFO_0000055Iterator>
    </table>
    </vivo:Course>
 

@@ -35,12 +35,6 @@
       <vivo:foreachArticleNihmsidIterator>
          <tr><td>nihmsid</td><td><vivo:ArticleNihmsid /></td></tr>
       </vivo:foreachArticleNihmsidIterator>
-      <vivo:foreachArticleTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:ArticleTheAbstract /></td></tr>
-      </vivo:foreachArticleTheAbstractIterator>
-      <vivo:foreachArticleDoiIterator>
-         <tr><td>doi</td><td><vivo:ArticleDoi /></td></tr>
-      </vivo:foreachArticleDoiIterator>
       <vivo:foreachArticlePmidIterator>
          <tr><td>pmid</td><td><vivo:ArticlePmid /></td></tr>
       </vivo:foreachArticlePmidIterator>
@@ -50,6 +44,12 @@
       <vivo:foreachArticleVolumeIterator>
          <tr><td>volume</td><td><vivo:ArticleVolume /></td></tr>
       </vivo:foreachArticleVolumeIterator>
+      <vivo:foreachArticleTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:ArticleTheAbstract /></td></tr>
+      </vivo:foreachArticleTheAbstractIterator>
+      <vivo:foreachArticleDoiIterator>
+         <tr><td>doi</td><td><vivo:ArticleDoi /></td></tr>
+      </vivo:foreachArticleDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -69,18 +69,9 @@
       <vivo:foreachArticleRelatesIterator>
          <tr><td>relates</td><td><a href="../<vivo:ArticleRelatesType/>/<vivo:ArticleRelatesType/>.jsp?uri=<vivo:ArticleRelates/>"><vivo:ArticleRelates /></a></td></tr>
       </vivo:foreachArticleRelatesIterator>
-      <vivo:foreachArticleTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:ArticleTranslatorType/>/<vivo:ArticleTranslatorType/>.jsp?uri=<vivo:ArticleTranslator/>"><vivo:ArticleTranslator /></a></td></tr>
-      </vivo:foreachArticleTranslatorIterator>
-      <vivo:foreachArticleFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:ArticleFeaturesType/>/<vivo:ArticleFeaturesType/>.jsp?uri=<vivo:ArticleFeatures/>"><vivo:ArticleFeatures /></a></td></tr>
-      </vivo:foreachArticleFeaturesIterator>
-      <vivo:foreachArticleInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ArticleInformationResourceSupportedByType/>/<vivo:ArticleInformationResourceSupportedByType/>.jsp?uri=<vivo:ArticleInformationResourceSupportedBy/>"><vivo:ArticleInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachArticleInformationResourceSupportedByIterator>
-      <vivo:foreachArticleIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:ArticleIAO_0000136Type/>/<vivo:ArticleIAO_0000136Type/>.jsp?uri=<vivo:ArticleIAO_0000136/>"><vivo:ArticleIAO_0000136 /></a></td></tr>
-      </vivo:foreachArticleIAO_0000136Iterator>
+      <vivo:foreachArticleRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:ArticleRO_0000056Type/>/<vivo:ArticleRO_0000056Type/>.jsp?uri=<vivo:ArticleRO_0000056/>"><vivo:ArticleRO_0000056 /></a></td></tr>
+      </vivo:foreachArticleRO_0000056Iterator>
       <vivo:foreachArticleDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<vivo:ArticleDocumentationForType/>/<vivo:ArticleDocumentationForType/>.jsp?uri=<vivo:ArticleDocumentationFor/>"><vivo:ArticleDocumentationFor /></a></td></tr>
       </vivo:foreachArticleDocumentationForIterator>
@@ -108,9 +99,18 @@
       <vivo:foreachArticleCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:ArticleCitesType/>/<vivo:ArticleCitesType/>.jsp?uri=<vivo:ArticleCites/>"><vivo:ArticleCites /></a></td></tr>
       </vivo:foreachArticleCitesIterator>
-      <vivo:foreachArticleRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:ArticleRO_0000056Type/>/<vivo:ArticleRO_0000056Type/>.jsp?uri=<vivo:ArticleRO_0000056/>"><vivo:ArticleRO_0000056 /></a></td></tr>
-      </vivo:foreachArticleRO_0000056Iterator>
+      <vivo:foreachArticleTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:ArticleTranslatorType/>/<vivo:ArticleTranslatorType/>.jsp?uri=<vivo:ArticleTranslator/>"><vivo:ArticleTranslator /></a></td></tr>
+      </vivo:foreachArticleTranslatorIterator>
+      <vivo:foreachArticleFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:ArticleFeaturesType/>/<vivo:ArticleFeaturesType/>.jsp?uri=<vivo:ArticleFeatures/>"><vivo:ArticleFeatures /></a></td></tr>
+      </vivo:foreachArticleFeaturesIterator>
+      <vivo:foreachArticleInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ArticleInformationResourceSupportedByType/>/<vivo:ArticleInformationResourceSupportedByType/>.jsp?uri=<vivo:ArticleInformationResourceSupportedBy/>"><vivo:ArticleInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachArticleInformationResourceSupportedByIterator>
+      <vivo:foreachArticleIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:ArticleIAO_0000136Type/>/<vivo:ArticleIAO_0000136Type/>.jsp?uri=<vivo:ArticleIAO_0000136/>"><vivo:ArticleIAO_0000136 /></a></td></tr>
+      </vivo:foreachArticleIAO_0000136Iterator>
    </table>
    </vivo:Article>
 

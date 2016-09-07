@@ -32,6 +32,9 @@
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachFoundationRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:FoundationRO_0000053Type/>/<vivo:FoundationRO_0000053Type/>.jsp?uri=<vivo:FoundationRO_0000053/>"><vivo:FoundationRO_0000053 /></a></td></tr>
+      </vivo:foreachFoundationRO_0000053Iterator>
       <vivo:foreachFoundationAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:FoundationAssigneeForType/>/<vivo:FoundationAssigneeForType/>.jsp?uri=<vivo:FoundationAssigneeFor/>"><vivo:FoundationAssigneeFor /></a></td></tr>
       </vivo:foreachFoundationAssigneeForIterator>
@@ -74,9 +77,6 @@
       <vivo:foreachFoundationAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:FoundationAffiliatedOrganizationType/>/<vivo:FoundationAffiliatedOrganizationType/>.jsp?uri=<vivo:FoundationAffiliatedOrganization/>"><vivo:FoundationAffiliatedOrganization /></a></td></tr>
       </vivo:foreachFoundationAffiliatedOrganizationIterator>
-      <vivo:foreachFoundationRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:FoundationRO_0000053Type/>/<vivo:FoundationRO_0000053Type/>.jsp?uri=<vivo:FoundationRO_0000053/>"><vivo:FoundationRO_0000053 /></a></td></tr>
-      </vivo:foreachFoundationRO_0000053Iterator>
       <vivo:foreachFoundationRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:FoundationRO_0000056Type/>/<vivo:FoundationRO_0000056Type/>.jsp?uri=<vivo:FoundationRO_0000056/>"><vivo:FoundationRO_0000056 /></a></td></tr>
       </vivo:foreachFoundationRO_0000056Iterator>

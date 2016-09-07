@@ -36,6 +36,9 @@
       <vivo:foreachGovernmentAgencyRelatedByIterator>
          <tr><td>relatedBy</td><td><a href="../<vivo:GovernmentAgencyRelatedByType/>/<vivo:GovernmentAgencyRelatedByType/>.jsp?uri=<vivo:GovernmentAgencyRelatedBy/>"><vivo:GovernmentAgencyRelatedBy /></a></td></tr>
       </vivo:foreachGovernmentAgencyRelatedByIterator>
+      <vivo:foreachGovernmentAgencyRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:GovernmentAgencyRO_0000053Type/>/<vivo:GovernmentAgencyRO_0000053Type/>.jsp?uri=<vivo:GovernmentAgencyRO_0000053/>"><vivo:GovernmentAgencyRO_0000053 /></a></td></tr>
+      </vivo:foreachGovernmentAgencyRO_0000053Iterator>
       <vivo:foreachGovernmentAgencyAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:GovernmentAgencyAssigneeForType/>/<vivo:GovernmentAgencyAssigneeForType/>.jsp?uri=<vivo:GovernmentAgencyAssigneeFor/>"><vivo:GovernmentAgencyAssigneeFor /></a></td></tr>
       </vivo:foreachGovernmentAgencyAssigneeForIterator>
@@ -78,9 +81,6 @@
       <vivo:foreachGovernmentAgencyAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:GovernmentAgencyAffiliatedOrganizationType/>/<vivo:GovernmentAgencyAffiliatedOrganizationType/>.jsp?uri=<vivo:GovernmentAgencyAffiliatedOrganization/>"><vivo:GovernmentAgencyAffiliatedOrganization /></a></td></tr>
       </vivo:foreachGovernmentAgencyAffiliatedOrganizationIterator>
-      <vivo:foreachGovernmentAgencyRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:GovernmentAgencyRO_0000053Type/>/<vivo:GovernmentAgencyRO_0000053Type/>.jsp?uri=<vivo:GovernmentAgencyRO_0000053/>"><vivo:GovernmentAgencyRO_0000053 /></a></td></tr>
-      </vivo:foreachGovernmentAgencyRO_0000053Iterator>
       <vivo:foreachGovernmentAgencyRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:GovernmentAgencyRO_0000056Type/>/<vivo:GovernmentAgencyRO_0000056Type/>.jsp?uri=<vivo:GovernmentAgencyRO_0000056/>"><vivo:GovernmentAgencyRO_0000056 /></a></td></tr>
       </vivo:foreachGovernmentAgencyRO_0000056Iterator>

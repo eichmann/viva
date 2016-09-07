@@ -32,6 +32,9 @@
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachResearchOrganizationRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:ResearchOrganizationRO_0000053Type/>/<vivo:ResearchOrganizationRO_0000053Type/>.jsp?uri=<vivo:ResearchOrganizationRO_0000053/>"><vivo:ResearchOrganizationRO_0000053 /></a></td></tr>
+      </vivo:foreachResearchOrganizationRO_0000053Iterator>
       <vivo:foreachResearchOrganizationAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:ResearchOrganizationAssigneeForType/>/<vivo:ResearchOrganizationAssigneeForType/>.jsp?uri=<vivo:ResearchOrganizationAssigneeFor/>"><vivo:ResearchOrganizationAssigneeFor /></a></td></tr>
       </vivo:foreachResearchOrganizationAssigneeForIterator>
@@ -74,9 +77,6 @@
       <vivo:foreachResearchOrganizationAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:ResearchOrganizationAffiliatedOrganizationType/>/<vivo:ResearchOrganizationAffiliatedOrganizationType/>.jsp?uri=<vivo:ResearchOrganizationAffiliatedOrganization/>"><vivo:ResearchOrganizationAffiliatedOrganization /></a></td></tr>
       </vivo:foreachResearchOrganizationAffiliatedOrganizationIterator>
-      <vivo:foreachResearchOrganizationRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:ResearchOrganizationRO_0000053Type/>/<vivo:ResearchOrganizationRO_0000053Type/>.jsp?uri=<vivo:ResearchOrganizationRO_0000053/>"><vivo:ResearchOrganizationRO_0000053 /></a></td></tr>
-      </vivo:foreachResearchOrganizationRO_0000053Iterator>
       <vivo:foreachResearchOrganizationRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:ResearchOrganizationRO_0000056Type/>/<vivo:ResearchOrganizationRO_0000056Type/>.jsp?uri=<vivo:ResearchOrganizationRO_0000056/>"><vivo:ResearchOrganizationRO_0000056 /></a></td></tr>
       </vivo:foreachResearchOrganizationRO_0000056Iterator>

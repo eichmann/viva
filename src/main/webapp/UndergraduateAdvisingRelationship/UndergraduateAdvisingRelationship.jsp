@@ -30,12 +30,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachUndergraduateAdvisingRelationshipRO_0000052Iterator>
-         <tr><td>RO_0000052</td><td><a href="../<vivo:UndergraduateAdvisingRelationshipRO_0000052Type/>/<vivo:UndergraduateAdvisingRelationshipRO_0000052Type/>.jsp?uri=<vivo:UndergraduateAdvisingRelationshipRO_0000052/>"><vivo:UndergraduateAdvisingRelationshipRO_0000052 /></a></td></tr>
-      </vivo:foreachUndergraduateAdvisingRelationshipRO_0000052Iterator>
       <vivo:foreachUndergraduateAdvisingRelationshipDegreeCandidacyIterator>
          <tr><td>degreeCandidacy</td><td><a href="../<vivo:UndergraduateAdvisingRelationshipDegreeCandidacyType/>/<vivo:UndergraduateAdvisingRelationshipDegreeCandidacyType/>.jsp?uri=<vivo:UndergraduateAdvisingRelationshipDegreeCandidacy/>"><vivo:UndergraduateAdvisingRelationshipDegreeCandidacy /></a></td></tr>
       </vivo:foreachUndergraduateAdvisingRelationshipDegreeCandidacyIterator>
+      <vivo:foreachUndergraduateAdvisingRelationshipRO_0000052Iterator>
+         <tr><td>RO_0000052</td><td><a href="../<vivo:UndergraduateAdvisingRelationshipRO_0000052Type/>/<vivo:UndergraduateAdvisingRelationshipRO_0000052Type/>.jsp?uri=<vivo:UndergraduateAdvisingRelationshipRO_0000052/>"><vivo:UndergraduateAdvisingRelationshipRO_0000052 /></a></td></tr>
+      </vivo:foreachUndergraduateAdvisingRelationshipRO_0000052Iterator>
       <vivo:foreachUndergraduateAdvisingRelationshipRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:UndergraduateAdvisingRelationshipRO_0000056Type/>/<vivo:UndergraduateAdvisingRelationshipRO_0000056Type/>.jsp?uri=<vivo:UndergraduateAdvisingRelationshipRO_0000056/>"><vivo:UndergraduateAdvisingRelationshipRO_0000056 /></a></td></tr>
       </vivo:foreachUndergraduateAdvisingRelationshipRO_0000056Iterator>

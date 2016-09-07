@@ -32,6 +32,9 @@
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachAcademicDepartmentRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:AcademicDepartmentRO_0000053Type/>/<vivo:AcademicDepartmentRO_0000053Type/>.jsp?uri=<vivo:AcademicDepartmentRO_0000053/>"><vivo:AcademicDepartmentRO_0000053 /></a></td></tr>
+      </vivo:foreachAcademicDepartmentRO_0000053Iterator>
       <vivo:foreachAcademicDepartmentAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:AcademicDepartmentAssigneeForType/>/<vivo:AcademicDepartmentAssigneeForType/>.jsp?uri=<vivo:AcademicDepartmentAssigneeFor/>"><vivo:AcademicDepartmentAssigneeFor /></a></td></tr>
       </vivo:foreachAcademicDepartmentAssigneeForIterator>
@@ -74,9 +77,6 @@
       <vivo:foreachAcademicDepartmentAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:AcademicDepartmentAffiliatedOrganizationType/>/<vivo:AcademicDepartmentAffiliatedOrganizationType/>.jsp?uri=<vivo:AcademicDepartmentAffiliatedOrganization/>"><vivo:AcademicDepartmentAffiliatedOrganization /></a></td></tr>
       </vivo:foreachAcademicDepartmentAffiliatedOrganizationIterator>
-      <vivo:foreachAcademicDepartmentRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:AcademicDepartmentRO_0000053Type/>/<vivo:AcademicDepartmentRO_0000053Type/>.jsp?uri=<vivo:AcademicDepartmentRO_0000053/>"><vivo:AcademicDepartmentRO_0000053 /></a></td></tr>
-      </vivo:foreachAcademicDepartmentRO_0000053Iterator>
       <vivo:foreachAcademicDepartmentRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:AcademicDepartmentRO_0000056Type/>/<vivo:AcademicDepartmentRO_0000056Type/>.jsp?uri=<vivo:AcademicDepartmentRO_0000056/>"><vivo:AcademicDepartmentRO_0000056 /></a></td></tr>
       </vivo:foreachAcademicDepartmentRO_0000056Iterator>

@@ -52,6 +52,9 @@
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachStudentRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:StudentRO_0000053Type/>/<vivo:StudentRO_0000053Type/>.jsp?uri=<vivo:StudentRO_0000053/>"><vivo:StudentRO_0000053 /></a></td></tr>
+      </vivo:foreachStudentRO_0000053Iterator>
       <vivo:foreachStudentAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:StudentAssigneeForType/>/<vivo:StudentAssigneeForType/>.jsp?uri=<vivo:StudentAssigneeFor/>"><vivo:StudentAssigneeFor /></a></td></tr>
       </vivo:foreachStudentAssigneeForIterator>
@@ -61,9 +64,6 @@
       <vivo:foreachStudentTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<vivo:StudentTranslatorOfType/>/<vivo:StudentTranslatorOfType/>.jsp?uri=<vivo:StudentTranslatorOf/>"><vivo:StudentTranslatorOf /></a></td></tr>
       </vivo:foreachStudentTranslatorOfIterator>
-      <vivo:foreachStudentRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:StudentRO_0000053Type/>/<vivo:StudentRO_0000053Type/>.jsp?uri=<vivo:StudentRO_0000053/>"><vivo:StudentRO_0000053 /></a></td></tr>
-      </vivo:foreachStudentRO_0000053Iterator>
       <vivo:foreachStudentRO_0001025Iterator>
          <tr><td>RO_0001025</td><td><a href="../<vivo:StudentRO_0001025Type/>/<vivo:StudentRO_0001025Type/>.jsp?uri=<vivo:StudentRO_0001025/>"><vivo:StudentRO_0001025 /></a></td></tr>
       </vivo:foreachStudentRO_0001025Iterator>

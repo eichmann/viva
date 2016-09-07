@@ -26,12 +26,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachStatuteTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:StatuteTheAbstract /></td></tr>
-      </vivo:foreachStatuteTheAbstractIterator>
-      <vivo:foreachStatuteDoiIterator>
-         <tr><td>doi</td><td><vivo:StatuteDoi /></td></tr>
-      </vivo:foreachStatuteDoiIterator>
       <vivo:foreachStatutePmidIterator>
          <tr><td>pmid</td><td><vivo:StatutePmid /></td></tr>
       </vivo:foreachStatutePmidIterator>
@@ -41,22 +35,19 @@
       <vivo:foreachStatuteVolumeIterator>
          <tr><td>volume</td><td><vivo:StatuteVolume /></td></tr>
       </vivo:foreachStatuteVolumeIterator>
+      <vivo:foreachStatuteTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:StatuteTheAbstract /></td></tr>
+      </vivo:foreachStatuteTheAbstractIterator>
+      <vivo:foreachStatuteDoiIterator>
+         <tr><td>doi</td><td><vivo:StatuteDoi /></td></tr>
+      </vivo:foreachStatuteDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachStatuteTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:StatuteTranslatorType/>/<vivo:StatuteTranslatorType/>.jsp?uri=<vivo:StatuteTranslator/>"><vivo:StatuteTranslator /></a></td></tr>
-      </vivo:foreachStatuteTranslatorIterator>
-      <vivo:foreachStatuteFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:StatuteFeaturesType/>/<vivo:StatuteFeaturesType/>.jsp?uri=<vivo:StatuteFeatures/>"><vivo:StatuteFeatures /></a></td></tr>
-      </vivo:foreachStatuteFeaturesIterator>
-      <vivo:foreachStatuteInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:StatuteInformationResourceSupportedByType/>/<vivo:StatuteInformationResourceSupportedByType/>.jsp?uri=<vivo:StatuteInformationResourceSupportedBy/>"><vivo:StatuteInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachStatuteInformationResourceSupportedByIterator>
-      <vivo:foreachStatuteIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:StatuteIAO_0000136Type/>/<vivo:StatuteIAO_0000136Type/>.jsp?uri=<vivo:StatuteIAO_0000136/>"><vivo:StatuteIAO_0000136 /></a></td></tr>
-      </vivo:foreachStatuteIAO_0000136Iterator>
+      <vivo:foreachStatuteRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:StatuteRO_0000056Type/>/<vivo:StatuteRO_0000056Type/>.jsp?uri=<vivo:StatuteRO_0000056/>"><vivo:StatuteRO_0000056 /></a></td></tr>
+      </vivo:foreachStatuteRO_0000056Iterator>
       <vivo:foreachStatuteDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<vivo:StatuteDocumentationForType/>/<vivo:StatuteDocumentationForType/>.jsp?uri=<vivo:StatuteDocumentationFor/>"><vivo:StatuteDocumentationFor /></a></td></tr>
       </vivo:foreachStatuteDocumentationForIterator>
@@ -84,9 +75,18 @@
       <vivo:foreachStatuteCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:StatuteCitesType/>/<vivo:StatuteCitesType/>.jsp?uri=<vivo:StatuteCites/>"><vivo:StatuteCites /></a></td></tr>
       </vivo:foreachStatuteCitesIterator>
-      <vivo:foreachStatuteRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:StatuteRO_0000056Type/>/<vivo:StatuteRO_0000056Type/>.jsp?uri=<vivo:StatuteRO_0000056/>"><vivo:StatuteRO_0000056 /></a></td></tr>
-      </vivo:foreachStatuteRO_0000056Iterator>
+      <vivo:foreachStatuteTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:StatuteTranslatorType/>/<vivo:StatuteTranslatorType/>.jsp?uri=<vivo:StatuteTranslator/>"><vivo:StatuteTranslator /></a></td></tr>
+      </vivo:foreachStatuteTranslatorIterator>
+      <vivo:foreachStatuteFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:StatuteFeaturesType/>/<vivo:StatuteFeaturesType/>.jsp?uri=<vivo:StatuteFeatures/>"><vivo:StatuteFeatures /></a></td></tr>
+      </vivo:foreachStatuteFeaturesIterator>
+      <vivo:foreachStatuteInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:StatuteInformationResourceSupportedByType/>/<vivo:StatuteInformationResourceSupportedByType/>.jsp?uri=<vivo:StatuteInformationResourceSupportedBy/>"><vivo:StatuteInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachStatuteInformationResourceSupportedByIterator>
+      <vivo:foreachStatuteIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:StatuteIAO_0000136Type/>/<vivo:StatuteIAO_0000136Type/>.jsp?uri=<vivo:StatuteIAO_0000136/>"><vivo:StatuteIAO_0000136 /></a></td></tr>
+      </vivo:foreachStatuteIAO_0000136Iterator>
    </table>
    </vivo:Statute>
 

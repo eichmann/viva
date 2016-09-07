@@ -30,12 +30,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachGraduateAdvisingRelationshipRO_0000052Iterator>
-         <tr><td>RO_0000052</td><td><a href="../<vivo:GraduateAdvisingRelationshipRO_0000052Type/>/<vivo:GraduateAdvisingRelationshipRO_0000052Type/>.jsp?uri=<vivo:GraduateAdvisingRelationshipRO_0000052/>"><vivo:GraduateAdvisingRelationshipRO_0000052 /></a></td></tr>
-      </vivo:foreachGraduateAdvisingRelationshipRO_0000052Iterator>
       <vivo:foreachGraduateAdvisingRelationshipDegreeCandidacyIterator>
          <tr><td>degreeCandidacy</td><td><a href="../<vivo:GraduateAdvisingRelationshipDegreeCandidacyType/>/<vivo:GraduateAdvisingRelationshipDegreeCandidacyType/>.jsp?uri=<vivo:GraduateAdvisingRelationshipDegreeCandidacy/>"><vivo:GraduateAdvisingRelationshipDegreeCandidacy /></a></td></tr>
       </vivo:foreachGraduateAdvisingRelationshipDegreeCandidacyIterator>
+      <vivo:foreachGraduateAdvisingRelationshipRO_0000052Iterator>
+         <tr><td>RO_0000052</td><td><a href="../<vivo:GraduateAdvisingRelationshipRO_0000052Type/>/<vivo:GraduateAdvisingRelationshipRO_0000052Type/>.jsp?uri=<vivo:GraduateAdvisingRelationshipRO_0000052/>"><vivo:GraduateAdvisingRelationshipRO_0000052 /></a></td></tr>
+      </vivo:foreachGraduateAdvisingRelationshipRO_0000052Iterator>
       <vivo:foreachGraduateAdvisingRelationshipRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:GraduateAdvisingRelationshipRO_0000056Type/>/<vivo:GraduateAdvisingRelationshipRO_0000056Type/>.jsp?uri=<vivo:GraduateAdvisingRelationshipRO_0000056/>"><vivo:GraduateAdvisingRelationshipRO_0000056 /></a></td></tr>
       </vivo:foreachGraduateAdvisingRelationshipRO_0000056Iterator>

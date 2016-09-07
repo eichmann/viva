@@ -73,6 +73,9 @@
       <vivo:foreachPersonOrcidIdIterator>
          <tr><td>orcidId</td><td><a href="../<vivo:PersonOrcidIdType/>/<vivo:PersonOrcidIdType/>.jsp?uri=<vivo:PersonOrcidId/>"><vivo:PersonOrcidId /></a></td></tr>
       </vivo:foreachPersonOrcidIdIterator>
+      <vivo:foreachPersonRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:PersonRO_0000053Type/>/<vivo:PersonRO_0000053Type/>.jsp?uri=<vivo:PersonRO_0000053/>"><vivo:PersonRO_0000053 /></a></td></tr>
+      </vivo:foreachPersonRO_0000053Iterator>
       <vivo:foreachPersonAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:PersonAssigneeForType/>/<vivo:PersonAssigneeForType/>.jsp?uri=<vivo:PersonAssigneeFor/>"><vivo:PersonAssigneeFor /></a></td></tr>
       </vivo:foreachPersonAssigneeForIterator>
@@ -82,9 +85,6 @@
       <vivo:foreachPersonTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<vivo:PersonTranslatorOfType/>/<vivo:PersonTranslatorOfType/>.jsp?uri=<vivo:PersonTranslatorOf/>"><vivo:PersonTranslatorOf /></a></td></tr>
       </vivo:foreachPersonTranslatorOfIterator>
-      <vivo:foreachPersonRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:PersonRO_0000053Type/>/<vivo:PersonRO_0000053Type/>.jsp?uri=<vivo:PersonRO_0000053/>"><vivo:PersonRO_0000053 /></a></td></tr>
-      </vivo:foreachPersonRO_0000053Iterator>
       <vivo:foreachPersonRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:PersonRO_0000056Type/>/<vivo:PersonRO_0000056Type/>.jsp?uri=<vivo:PersonRO_0000056/>"><vivo:PersonRO_0000056 /></a></td></tr>
       </vivo:foreachPersonRO_0000056Iterator>

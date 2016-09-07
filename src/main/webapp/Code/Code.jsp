@@ -36,18 +36,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachCodeTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:CodeTranslatorType/>/<vivo:CodeTranslatorType/>.jsp?uri=<vivo:CodeTranslator/>"><vivo:CodeTranslator /></a></td></tr>
-      </vivo:foreachCodeTranslatorIterator>
-      <vivo:foreachCodeFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:CodeFeaturesType/>/<vivo:CodeFeaturesType/>.jsp?uri=<vivo:CodeFeatures/>"><vivo:CodeFeatures /></a></td></tr>
-      </vivo:foreachCodeFeaturesIterator>
-      <vivo:foreachCodeInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:CodeInformationResourceSupportedByType/>/<vivo:CodeInformationResourceSupportedByType/>.jsp?uri=<vivo:CodeInformationResourceSupportedBy/>"><vivo:CodeInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachCodeInformationResourceSupportedByIterator>
-      <vivo:foreachCodeIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:CodeIAO_0000136Type/>/<vivo:CodeIAO_0000136Type/>.jsp?uri=<vivo:CodeIAO_0000136/>"><vivo:CodeIAO_0000136 /></a></td></tr>
-      </vivo:foreachCodeIAO_0000136Iterator>
       <vivo:foreachCodeDateTimeValueIterator>
          <tr><td>dateTimeValue</td><td><a href="../<vivo:CodeDateTimeValueType/>/<vivo:CodeDateTimeValueType/>.jsp?uri=<vivo:CodeDateTimeValue/>"><vivo:CodeDateTimeValue /></a></td></tr>
       </vivo:foreachCodeDateTimeValueIterator>
@@ -63,6 +51,18 @@
       <vivo:foreachCodeRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:CodeRO_0000056Type/>/<vivo:CodeRO_0000056Type/>.jsp?uri=<vivo:CodeRO_0000056/>"><vivo:CodeRO_0000056 /></a></td></tr>
       </vivo:foreachCodeRO_0000056Iterator>
+      <vivo:foreachCodeTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:CodeTranslatorType/>/<vivo:CodeTranslatorType/>.jsp?uri=<vivo:CodeTranslator/>"><vivo:CodeTranslator /></a></td></tr>
+      </vivo:foreachCodeTranslatorIterator>
+      <vivo:foreachCodeFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:CodeFeaturesType/>/<vivo:CodeFeaturesType/>.jsp?uri=<vivo:CodeFeatures/>"><vivo:CodeFeatures /></a></td></tr>
+      </vivo:foreachCodeFeaturesIterator>
+      <vivo:foreachCodeInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:CodeInformationResourceSupportedByType/>/<vivo:CodeInformationResourceSupportedByType/>.jsp?uri=<vivo:CodeInformationResourceSupportedBy/>"><vivo:CodeInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachCodeInformationResourceSupportedByIterator>
+      <vivo:foreachCodeIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:CodeIAO_0000136Type/>/<vivo:CodeIAO_0000136Type/>.jsp?uri=<vivo:CodeIAO_0000136/>"><vivo:CodeIAO_0000136 /></a></td></tr>
+      </vivo:foreachCodeIAO_0000136Iterator>
    </table>
    </vivo:Code>
 

@@ -57,6 +57,9 @@
       <vivo:foreachKindHasURLIterator>
          <tr><td>hasURL</td><td><a href="../<vivo:KindHasURLType/>/<vivo:KindHasURLType/>.jsp?uri=<vivo:KindHasURL/>"><vivo:KindHasURL /></a></td></tr>
       </vivo:foreachKindHasURLIterator>
+      <vivo:foreachKindARG_2000029Iterator>
+         <tr><td>ARG_2000029</td><td><a href="../<vivo:KindARG_2000029Type/>/<vivo:KindARG_2000029Type/>.jsp?uri=<vivo:KindARG_2000029/>"><vivo:KindARG_2000029 /></a></td></tr>
+      </vivo:foreachKindARG_2000029Iterator>
       <vivo:foreachKindTranslatorIterator>
          <tr><td>translator</td><td><a href="../<vivo:KindTranslatorType/>/<vivo:KindTranslatorType/>.jsp?uri=<vivo:KindTranslator/>"><vivo:KindTranslator /></a></td></tr>
       </vivo:foreachKindTranslatorIterator>
@@ -72,9 +75,6 @@
       <vivo:foreachKindRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:KindRO_0000056Type/>/<vivo:KindRO_0000056Type/>.jsp?uri=<vivo:KindRO_0000056/>"><vivo:KindRO_0000056 /></a></td></tr>
       </vivo:foreachKindRO_0000056Iterator>
-      <vivo:foreachKindARG_2000029Iterator>
-         <tr><td>ARG_2000029</td><td><a href="../<vivo:KindARG_2000029Type/>/<vivo:KindARG_2000029Type/>.jsp?uri=<vivo:KindARG_2000029/>"><vivo:KindARG_2000029 /></a></td></tr>
-      </vivo:foreachKindARG_2000029Iterator>
    </table>
    </vivo:Kind>
 

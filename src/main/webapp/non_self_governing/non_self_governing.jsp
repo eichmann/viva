@@ -240,6 +240,9 @@
       <vivo:foreachnon_self_governingGeographicFocusOfIterator>
          <tr><td>geographicFocusOf</td><td><a href="../<vivo:non_self_governingGeographicFocusOfType/>/<vivo:non_self_governingGeographicFocusOfType/>.jsp?uri=<vivo:non_self_governingGeographicFocusOf/>"><vivo:non_self_governingGeographicFocusOf /></a></td></tr>
       </vivo:foreachnon_self_governingGeographicFocusOfIterator>
+      <vivo:foreachnon_self_governingIsInGroupIterator>
+         <tr><td>isInGroup</td><td><a href="../<vivo:non_self_governingIsInGroupType/>/<vivo:non_self_governingIsInGroupType/>.jsp?uri=<vivo:non_self_governingIsInGroup/>"><vivo:non_self_governingIsInGroup /></a></td></tr>
+      </vivo:foreachnon_self_governingIsInGroupIterator>
       <vivo:foreachnon_self_governingIsSuccessorOfIterator>
          <tr><td>isSuccessorOf</td><td><a href="../<vivo:non_self_governingIsSuccessorOfType/>/<vivo:non_self_governingIsSuccessorOfType/>.jsp?uri=<vivo:non_self_governingIsSuccessorOf/>"><vivo:non_self_governingIsSuccessorOf /></a></td></tr>
       </vivo:foreachnon_self_governingIsSuccessorOfIterator>
@@ -249,9 +252,6 @@
       <vivo:foreachnon_self_governingRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:non_self_governingRO_0000056Type/>/<vivo:non_self_governingRO_0000056Type/>.jsp?uri=<vivo:non_self_governingRO_0000056/>"><vivo:non_self_governingRO_0000056 /></a></td></tr>
       </vivo:foreachnon_self_governingRO_0000056Iterator>
-      <vivo:foreachnon_self_governingIsInGroupIterator>
-         <tr><td>isInGroup</td><td><a href="../<vivo:non_self_governingIsInGroupType/>/<vivo:non_self_governingIsInGroupType/>.jsp?uri=<vivo:non_self_governingIsInGroup/>"><vivo:non_self_governingIsInGroup /></a></td></tr>
-      </vivo:foreachnon_self_governingIsInGroupIterator>
       <vivo:foreachnon_self_governingRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:non_self_governingRO_0000053Type/>/<vivo:non_self_governingRO_0000053Type/>.jsp?uri=<vivo:non_self_governingRO_0000053/>"><vivo:non_self_governingRO_0000053 /></a></td></tr>
       </vivo:foreachnon_self_governingRO_0000053Iterator>

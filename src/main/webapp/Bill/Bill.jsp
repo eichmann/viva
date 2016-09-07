@@ -26,12 +26,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachBillTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:BillTheAbstract /></td></tr>
-      </vivo:foreachBillTheAbstractIterator>
-      <vivo:foreachBillDoiIterator>
-         <tr><td>doi</td><td><vivo:BillDoi /></td></tr>
-      </vivo:foreachBillDoiIterator>
       <vivo:foreachBillPmidIterator>
          <tr><td>pmid</td><td><vivo:BillPmid /></td></tr>
       </vivo:foreachBillPmidIterator>
@@ -41,22 +35,19 @@
       <vivo:foreachBillVolumeIterator>
          <tr><td>volume</td><td><vivo:BillVolume /></td></tr>
       </vivo:foreachBillVolumeIterator>
+      <vivo:foreachBillTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:BillTheAbstract /></td></tr>
+      </vivo:foreachBillTheAbstractIterator>
+      <vivo:foreachBillDoiIterator>
+         <tr><td>doi</td><td><vivo:BillDoi /></td></tr>
+      </vivo:foreachBillDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachBillTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:BillTranslatorType/>/<vivo:BillTranslatorType/>.jsp?uri=<vivo:BillTranslator/>"><vivo:BillTranslator /></a></td></tr>
-      </vivo:foreachBillTranslatorIterator>
-      <vivo:foreachBillFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:BillFeaturesType/>/<vivo:BillFeaturesType/>.jsp?uri=<vivo:BillFeatures/>"><vivo:BillFeatures /></a></td></tr>
-      </vivo:foreachBillFeaturesIterator>
-      <vivo:foreachBillInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:BillInformationResourceSupportedByType/>/<vivo:BillInformationResourceSupportedByType/>.jsp?uri=<vivo:BillInformationResourceSupportedBy/>"><vivo:BillInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachBillInformationResourceSupportedByIterator>
-      <vivo:foreachBillIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:BillIAO_0000136Type/>/<vivo:BillIAO_0000136Type/>.jsp?uri=<vivo:BillIAO_0000136/>"><vivo:BillIAO_0000136 /></a></td></tr>
-      </vivo:foreachBillIAO_0000136Iterator>
+      <vivo:foreachBillRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:BillRO_0000056Type/>/<vivo:BillRO_0000056Type/>.jsp?uri=<vivo:BillRO_0000056/>"><vivo:BillRO_0000056 /></a></td></tr>
+      </vivo:foreachBillRO_0000056Iterator>
       <vivo:foreachBillDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<vivo:BillDocumentationForType/>/<vivo:BillDocumentationForType/>.jsp?uri=<vivo:BillDocumentationFor/>"><vivo:BillDocumentationFor /></a></td></tr>
       </vivo:foreachBillDocumentationForIterator>
@@ -84,9 +75,18 @@
       <vivo:foreachBillCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:BillCitesType/>/<vivo:BillCitesType/>.jsp?uri=<vivo:BillCites/>"><vivo:BillCites /></a></td></tr>
       </vivo:foreachBillCitesIterator>
-      <vivo:foreachBillRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:BillRO_0000056Type/>/<vivo:BillRO_0000056Type/>.jsp?uri=<vivo:BillRO_0000056/>"><vivo:BillRO_0000056 /></a></td></tr>
-      </vivo:foreachBillRO_0000056Iterator>
+      <vivo:foreachBillTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:BillTranslatorType/>/<vivo:BillTranslatorType/>.jsp?uri=<vivo:BillTranslator/>"><vivo:BillTranslator /></a></td></tr>
+      </vivo:foreachBillTranslatorIterator>
+      <vivo:foreachBillFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:BillFeaturesType/>/<vivo:BillFeaturesType/>.jsp?uri=<vivo:BillFeatures/>"><vivo:BillFeatures /></a></td></tr>
+      </vivo:foreachBillFeaturesIterator>
+      <vivo:foreachBillInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:BillInformationResourceSupportedByType/>/<vivo:BillInformationResourceSupportedByType/>.jsp?uri=<vivo:BillInformationResourceSupportedBy/>"><vivo:BillInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachBillInformationResourceSupportedByIterator>
+      <vivo:foreachBillIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:BillIAO_0000136Type/>/<vivo:BillIAO_0000136Type/>.jsp?uri=<vivo:BillIAO_0000136/>"><vivo:BillIAO_0000136 /></a></td></tr>
+      </vivo:foreachBillIAO_0000136Iterator>
    </table>
    </vivo:Bill>
 

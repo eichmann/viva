@@ -30,12 +30,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachSubnationalRegionGeographicFocusOfIterator>
-         <tr><td>geographicFocusOf</td><td><a href="../<vivo:SubnationalRegionGeographicFocusOfType/>/<vivo:SubnationalRegionGeographicFocusOfType/>.jsp?uri=<vivo:SubnationalRegionGeographicFocusOf/>"><vivo:SubnationalRegionGeographicFocusOf /></a></td></tr>
-      </vivo:foreachSubnationalRegionGeographicFocusOfIterator>
       <vivo:foreachSubnationalRegionRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:SubnationalRegionRO_0000053Type/>/<vivo:SubnationalRegionRO_0000053Type/>.jsp?uri=<vivo:SubnationalRegionRO_0000053/>"><vivo:SubnationalRegionRO_0000053 /></a></td></tr>
       </vivo:foreachSubnationalRegionRO_0000053Iterator>
+      <vivo:foreachSubnationalRegionGeographicFocusOfIterator>
+         <tr><td>geographicFocusOf</td><td><a href="../<vivo:SubnationalRegionGeographicFocusOfType/>/<vivo:SubnationalRegionGeographicFocusOfType/>.jsp?uri=<vivo:SubnationalRegionGeographicFocusOf/>"><vivo:SubnationalRegionGeographicFocusOf /></a></td></tr>
+      </vivo:foreachSubnationalRegionGeographicFocusOfIterator>
       <vivo:foreachSubnationalRegionRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:SubnationalRegionRO_0000056Type/>/<vivo:SubnationalRegionRO_0000056Type/>.jsp?uri=<vivo:SubnationalRegionRO_0000056/>"><vivo:SubnationalRegionRO_0000056 /></a></td></tr>
       </vivo:foreachSubnationalRegionRO_0000056Iterator>

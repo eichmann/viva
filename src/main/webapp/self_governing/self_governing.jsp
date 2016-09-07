@@ -264,6 +264,9 @@
       <vivo:foreachself_governingGeographicFocusOfIterator>
          <tr><td>geographicFocusOf</td><td><a href="../<vivo:self_governingGeographicFocusOfType/>/<vivo:self_governingGeographicFocusOfType/>.jsp?uri=<vivo:self_governingGeographicFocusOf/>"><vivo:self_governingGeographicFocusOf /></a></td></tr>
       </vivo:foreachself_governingGeographicFocusOfIterator>
+      <vivo:foreachself_governingIsInGroupIterator>
+         <tr><td>isInGroup</td><td><a href="../<vivo:self_governingIsInGroupType/>/<vivo:self_governingIsInGroupType/>.jsp?uri=<vivo:self_governingIsInGroup/>"><vivo:self_governingIsInGroup /></a></td></tr>
+      </vivo:foreachself_governingIsInGroupIterator>
       <vivo:foreachself_governingIsSuccessorOfIterator>
          <tr><td>isSuccessorOf</td><td><a href="../<vivo:self_governingIsSuccessorOfType/>/<vivo:self_governingIsSuccessorOfType/>.jsp?uri=<vivo:self_governingIsSuccessorOf/>"><vivo:self_governingIsSuccessorOf /></a></td></tr>
       </vivo:foreachself_governingIsSuccessorOfIterator>
@@ -273,9 +276,6 @@
       <vivo:foreachself_governingRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:self_governingRO_0000056Type/>/<vivo:self_governingRO_0000056Type/>.jsp?uri=<vivo:self_governingRO_0000056/>"><vivo:self_governingRO_0000056 /></a></td></tr>
       </vivo:foreachself_governingRO_0000056Iterator>
-      <vivo:foreachself_governingIsInGroupIterator>
-         <tr><td>isInGroup</td><td><a href="../<vivo:self_governingIsInGroupType/>/<vivo:self_governingIsInGroupType/>.jsp?uri=<vivo:self_governingIsInGroup/>"><vivo:self_governingIsInGroup /></a></td></tr>
-      </vivo:foreachself_governingIsInGroupIterator>
       <vivo:foreachself_governingRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:self_governingRO_0000053Type/>/<vivo:self_governingRO_0000053Type/>.jsp?uri=<vivo:self_governingRO_0000053/>"><vivo:self_governingRO_0000053 /></a></td></tr>
       </vivo:foreachself_governingRO_0000053Iterator>

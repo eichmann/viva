@@ -30,15 +30,15 @@
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachAcademicTermRO_0000057Iterator>
+         <tr><td>RO_0000057</td><td><a href="../<vivo:AcademicTermRO_0000057Type/>/<vivo:AcademicTermRO_0000057Type/>.jsp?uri=<vivo:AcademicTermRO_0000057/>"><vivo:AcademicTermRO_0000057 /></a></td></tr>
+      </vivo:foreachAcademicTermRO_0000057Iterator>
       <vivo:foreachAcademicTermEndIterator>
          <tr><td>end</td><td><a href="../<vivo:AcademicTermEndType/>/<vivo:AcademicTermEndType/>.jsp?uri=<vivo:AcademicTermEnd/>"><vivo:AcademicTermEnd /></a></td></tr>
       </vivo:foreachAcademicTermEndIterator>
       <vivo:foreachAcademicTermStartIterator>
          <tr><td>start</td><td><a href="../<vivo:AcademicTermStartType/>/<vivo:AcademicTermStartType/>.jsp?uri=<vivo:AcademicTermStart/>"><vivo:AcademicTermStart /></a></td></tr>
       </vivo:foreachAcademicTermStartIterator>
-      <vivo:foreachAcademicTermRO_0000057Iterator>
-         <tr><td>RO_0000057</td><td><a href="../<vivo:AcademicTermRO_0000057Type/>/<vivo:AcademicTermRO_0000057Type/>.jsp?uri=<vivo:AcademicTermRO_0000057/>"><vivo:AcademicTermRO_0000057 /></a></td></tr>
-      </vivo:foreachAcademicTermRO_0000057Iterator>
    </table>
    </vivo:AcademicTerm>
 

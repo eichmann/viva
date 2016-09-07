@@ -35,6 +35,7 @@ src/main/webapp/Abstract/Abstract.jsp -text
 src/main/webapp/Abstract/AbstractList.jsp -text
 src/main/webapp/AcademicArticle/AcademicArticle.jsp -text
 src/main/webapp/AcademicArticle/AcademicArticleList.jsp -text
+src/main/webapp/AcademicArticle/altAcademicArticle.jsp -text
 src/main/webapp/AcademicDegree/AcademicDegree.jsp -text
 src/main/webapp/AcademicDegree/AcademicDegreeList.jsp -text
 src/main/webapp/AcademicDepartment/AcademicDepartment.jsp -text
@@ -197,8 +198,10 @@ src/main/webapp/Conference/Conference.jsp -text
 src/main/webapp/Conference/ConferenceList.jsp -text
 src/main/webapp/ConferencePaper/ConferencePaper.jsp -text
 src/main/webapp/ConferencePaper/ConferencePaperList.jsp -text
+src/main/webapp/ConferencePaper/altConferencePaper.jsp -text
 src/main/webapp/ConferencePoster/ConferencePoster.jsp -text
 src/main/webapp/ConferencePoster/ConferencePosterList.jsp -text
+src/main/webapp/ConferencePoster/altConferencePoster.jsp -text
 src/main/webapp/ConferenceSeries/ConferenceSeries.jsp -text
 src/main/webapp/ConferenceSeries/ConferenceSeriesList.jsp -text
 src/main/webapp/Consortium/Consortium.jsp -text
@@ -722,6 +725,7 @@ src/main/webapp/Slide/Slide.jsp -text
 src/main/webapp/Slide/SlideList.jsp -text
 src/main/webapp/Slideshow/Slideshow.jsp -text
 src/main/webapp/Slideshow/SlideshowList.jsp -text
+src/main/webapp/Slideshow/altSlideshow.jsp -text
 src/main/webapp/Sound/Sound.jsp -text
 src/main/webapp/Sound/SoundList.jsp -text
 src/main/webapp/Speech/Speech.jsp -text

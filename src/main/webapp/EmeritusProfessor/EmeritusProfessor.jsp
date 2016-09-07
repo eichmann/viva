@@ -52,6 +52,9 @@
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachEmeritusProfessorRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:EmeritusProfessorRO_0000053Type/>/<vivo:EmeritusProfessorRO_0000053Type/>.jsp?uri=<vivo:EmeritusProfessorRO_0000053/>"><vivo:EmeritusProfessorRO_0000053 /></a></td></tr>
+      </vivo:foreachEmeritusProfessorRO_0000053Iterator>
       <vivo:foreachEmeritusProfessorAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:EmeritusProfessorAssigneeForType/>/<vivo:EmeritusProfessorAssigneeForType/>.jsp?uri=<vivo:EmeritusProfessorAssigneeFor/>"><vivo:EmeritusProfessorAssigneeFor /></a></td></tr>
       </vivo:foreachEmeritusProfessorAssigneeForIterator>
@@ -61,9 +64,6 @@
       <vivo:foreachEmeritusProfessorTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<vivo:EmeritusProfessorTranslatorOfType/>/<vivo:EmeritusProfessorTranslatorOfType/>.jsp?uri=<vivo:EmeritusProfessorTranslatorOf/>"><vivo:EmeritusProfessorTranslatorOf /></a></td></tr>
       </vivo:foreachEmeritusProfessorTranslatorOfIterator>
-      <vivo:foreachEmeritusProfessorRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:EmeritusProfessorRO_0000053Type/>/<vivo:EmeritusProfessorRO_0000053Type/>.jsp?uri=<vivo:EmeritusProfessorRO_0000053/>"><vivo:EmeritusProfessorRO_0000053 /></a></td></tr>
-      </vivo:foreachEmeritusProfessorRO_0000053Iterator>
       <vivo:foreachEmeritusProfessorRO_0001025Iterator>
          <tr><td>RO_0001025</td><td><a href="../<vivo:EmeritusProfessorRO_0001025Type/>/<vivo:EmeritusProfessorRO_0001025Type/>.jsp?uri=<vivo:EmeritusProfessorRO_0001025/>"><vivo:EmeritusProfessorRO_0001025 /></a></td></tr>
       </vivo:foreachEmeritusProfessorRO_0001025Iterator>

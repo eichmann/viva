@@ -26,12 +26,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachMapTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:MapTheAbstract /></td></tr>
-      </vivo:foreachMapTheAbstractIterator>
-      <vivo:foreachMapDoiIterator>
-         <tr><td>doi</td><td><vivo:MapDoi /></td></tr>
-      </vivo:foreachMapDoiIterator>
       <vivo:foreachMapPmidIterator>
          <tr><td>pmid</td><td><vivo:MapPmid /></td></tr>
       </vivo:foreachMapPmidIterator>
@@ -41,22 +35,19 @@
       <vivo:foreachMapVolumeIterator>
          <tr><td>volume</td><td><vivo:MapVolume /></td></tr>
       </vivo:foreachMapVolumeIterator>
+      <vivo:foreachMapTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:MapTheAbstract /></td></tr>
+      </vivo:foreachMapTheAbstractIterator>
+      <vivo:foreachMapDoiIterator>
+         <tr><td>doi</td><td><vivo:MapDoi /></td></tr>
+      </vivo:foreachMapDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachMapTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:MapTranslatorType/>/<vivo:MapTranslatorType/>.jsp?uri=<vivo:MapTranslator/>"><vivo:MapTranslator /></a></td></tr>
-      </vivo:foreachMapTranslatorIterator>
-      <vivo:foreachMapFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:MapFeaturesType/>/<vivo:MapFeaturesType/>.jsp?uri=<vivo:MapFeatures/>"><vivo:MapFeatures /></a></td></tr>
-      </vivo:foreachMapFeaturesIterator>
-      <vivo:foreachMapInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:MapInformationResourceSupportedByType/>/<vivo:MapInformationResourceSupportedByType/>.jsp?uri=<vivo:MapInformationResourceSupportedBy/>"><vivo:MapInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachMapInformationResourceSupportedByIterator>
-      <vivo:foreachMapIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:MapIAO_0000136Type/>/<vivo:MapIAO_0000136Type/>.jsp?uri=<vivo:MapIAO_0000136/>"><vivo:MapIAO_0000136 /></a></td></tr>
-      </vivo:foreachMapIAO_0000136Iterator>
+      <vivo:foreachMapRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:MapRO_0000056Type/>/<vivo:MapRO_0000056Type/>.jsp?uri=<vivo:MapRO_0000056/>"><vivo:MapRO_0000056 /></a></td></tr>
+      </vivo:foreachMapRO_0000056Iterator>
       <vivo:foreachMapDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<vivo:MapDocumentationForType/>/<vivo:MapDocumentationForType/>.jsp?uri=<vivo:MapDocumentationFor/>"><vivo:MapDocumentationFor /></a></td></tr>
       </vivo:foreachMapDocumentationForIterator>
@@ -84,9 +75,18 @@
       <vivo:foreachMapCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:MapCitesType/>/<vivo:MapCitesType/>.jsp?uri=<vivo:MapCites/>"><vivo:MapCites /></a></td></tr>
       </vivo:foreachMapCitesIterator>
-      <vivo:foreachMapRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:MapRO_0000056Type/>/<vivo:MapRO_0000056Type/>.jsp?uri=<vivo:MapRO_0000056/>"><vivo:MapRO_0000056 /></a></td></tr>
-      </vivo:foreachMapRO_0000056Iterator>
+      <vivo:foreachMapTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:MapTranslatorType/>/<vivo:MapTranslatorType/>.jsp?uri=<vivo:MapTranslator/>"><vivo:MapTranslator /></a></td></tr>
+      </vivo:foreachMapTranslatorIterator>
+      <vivo:foreachMapFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:MapFeaturesType/>/<vivo:MapFeaturesType/>.jsp?uri=<vivo:MapFeatures/>"><vivo:MapFeatures /></a></td></tr>
+      </vivo:foreachMapFeaturesIterator>
+      <vivo:foreachMapInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:MapInformationResourceSupportedByType/>/<vivo:MapInformationResourceSupportedByType/>.jsp?uri=<vivo:MapInformationResourceSupportedBy/>"><vivo:MapInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachMapInformationResourceSupportedByIterator>
+      <vivo:foreachMapIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:MapIAO_0000136Type/>/<vivo:MapIAO_0000136Type/>.jsp?uri=<vivo:MapIAO_0000136/>"><vivo:MapIAO_0000136 /></a></td></tr>
+      </vivo:foreachMapIAO_0000136Iterator>
    </table>
    </vivo:Map>
 

@@ -36,12 +36,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachMedicalResidencyBFO_0000055Iterator>
-         <tr><td>BFO_0000055</td><td><a href="../<vivo:MedicalResidencyBFO_0000055Type/>/<vivo:MedicalResidencyBFO_0000055Type/>.jsp?uri=<vivo:MedicalResidencyBFO_0000055/>"><vivo:MedicalResidencyBFO_0000055 /></a></td></tr>
-      </vivo:foreachMedicalResidencyBFO_0000055Iterator>
       <vivo:foreachMedicalResidencyRO_0000057Iterator>
          <tr><td>RO_0000057</td><td><a href="../<vivo:MedicalResidencyRO_0000057Type/>/<vivo:MedicalResidencyRO_0000057Type/>.jsp?uri=<vivo:MedicalResidencyRO_0000057/>"><vivo:MedicalResidencyRO_0000057 /></a></td></tr>
       </vivo:foreachMedicalResidencyRO_0000057Iterator>
+      <vivo:foreachMedicalResidencyBFO_0000055Iterator>
+         <tr><td>BFO_0000055</td><td><a href="../<vivo:MedicalResidencyBFO_0000055Type/>/<vivo:MedicalResidencyBFO_0000055Type/>.jsp?uri=<vivo:MedicalResidencyBFO_0000055/>"><vivo:MedicalResidencyBFO_0000055 /></a></td></tr>
+      </vivo:foreachMedicalResidencyBFO_0000055Iterator>
    </table>
    </vivo:MedicalResidency>
 

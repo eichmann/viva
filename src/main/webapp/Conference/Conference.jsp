@@ -49,12 +49,12 @@
       <vivo:foreachConferenceDateTimeIntervalIterator>
          <tr><td>dateTimeInterval</td><td><a href="../<vivo:ConferenceDateTimeIntervalType/>/<vivo:ConferenceDateTimeIntervalType/>.jsp?uri=<vivo:ConferenceDateTimeInterval/>"><vivo:ConferenceDateTimeInterval /></a></td></tr>
       </vivo:foreachConferenceDateTimeIntervalIterator>
-      <vivo:foreachConferenceBFO_0000055Iterator>
-         <tr><td>BFO_0000055</td><td><a href="../<vivo:ConferenceBFO_0000055Type/>/<vivo:ConferenceBFO_0000055Type/>.jsp?uri=<vivo:ConferenceBFO_0000055/>"><vivo:ConferenceBFO_0000055 /></a></td></tr>
-      </vivo:foreachConferenceBFO_0000055Iterator>
       <vivo:foreachConferenceRO_0000057Iterator>
          <tr><td>RO_0000057</td><td><a href="../<vivo:ConferenceRO_0000057Type/>/<vivo:ConferenceRO_0000057Type/>.jsp?uri=<vivo:ConferenceRO_0000057/>"><vivo:ConferenceRO_0000057 /></a></td></tr>
       </vivo:foreachConferenceRO_0000057Iterator>
+      <vivo:foreachConferenceBFO_0000055Iterator>
+         <tr><td>BFO_0000055</td><td><a href="../<vivo:ConferenceBFO_0000055Type/>/<vivo:ConferenceBFO_0000055Type/>.jsp?uri=<vivo:ConferenceBFO_0000055/>"><vivo:ConferenceBFO_0000055 /></a></td></tr>
+      </vivo:foreachConferenceBFO_0000055Iterator>
    </table>
    </vivo:Conference>
 

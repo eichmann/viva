@@ -26,12 +26,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachThesisTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:ThesisTheAbstract /></td></tr>
-      </vivo:foreachThesisTheAbstractIterator>
-      <vivo:foreachThesisDoiIterator>
-         <tr><td>doi</td><td><vivo:ThesisDoi /></td></tr>
-      </vivo:foreachThesisDoiIterator>
       <vivo:foreachThesisPmidIterator>
          <tr><td>pmid</td><td><vivo:ThesisPmid /></td></tr>
       </vivo:foreachThesisPmidIterator>
@@ -41,22 +35,19 @@
       <vivo:foreachThesisVolumeIterator>
          <tr><td>volume</td><td><vivo:ThesisVolume /></td></tr>
       </vivo:foreachThesisVolumeIterator>
+      <vivo:foreachThesisTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:ThesisTheAbstract /></td></tr>
+      </vivo:foreachThesisTheAbstractIterator>
+      <vivo:foreachThesisDoiIterator>
+         <tr><td>doi</td><td><vivo:ThesisDoi /></td></tr>
+      </vivo:foreachThesisDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachThesisTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:ThesisTranslatorType/>/<vivo:ThesisTranslatorType/>.jsp?uri=<vivo:ThesisTranslator/>"><vivo:ThesisTranslator /></a></td></tr>
-      </vivo:foreachThesisTranslatorIterator>
-      <vivo:foreachThesisFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:ThesisFeaturesType/>/<vivo:ThesisFeaturesType/>.jsp?uri=<vivo:ThesisFeatures/>"><vivo:ThesisFeatures /></a></td></tr>
-      </vivo:foreachThesisFeaturesIterator>
-      <vivo:foreachThesisInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ThesisInformationResourceSupportedByType/>/<vivo:ThesisInformationResourceSupportedByType/>.jsp?uri=<vivo:ThesisInformationResourceSupportedBy/>"><vivo:ThesisInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachThesisInformationResourceSupportedByIterator>
-      <vivo:foreachThesisIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:ThesisIAO_0000136Type/>/<vivo:ThesisIAO_0000136Type/>.jsp?uri=<vivo:ThesisIAO_0000136/>"><vivo:ThesisIAO_0000136 /></a></td></tr>
-      </vivo:foreachThesisIAO_0000136Iterator>
+      <vivo:foreachThesisRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:ThesisRO_0000056Type/>/<vivo:ThesisRO_0000056Type/>.jsp?uri=<vivo:ThesisRO_0000056/>"><vivo:ThesisRO_0000056 /></a></td></tr>
+      </vivo:foreachThesisRO_0000056Iterator>
       <vivo:foreachThesisDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<vivo:ThesisDocumentationForType/>/<vivo:ThesisDocumentationForType/>.jsp?uri=<vivo:ThesisDocumentationFor/>"><vivo:ThesisDocumentationFor /></a></td></tr>
       </vivo:foreachThesisDocumentationForIterator>
@@ -84,9 +75,18 @@
       <vivo:foreachThesisCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:ThesisCitesType/>/<vivo:ThesisCitesType/>.jsp?uri=<vivo:ThesisCites/>"><vivo:ThesisCites /></a></td></tr>
       </vivo:foreachThesisCitesIterator>
-      <vivo:foreachThesisRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:ThesisRO_0000056Type/>/<vivo:ThesisRO_0000056Type/>.jsp?uri=<vivo:ThesisRO_0000056/>"><vivo:ThesisRO_0000056 /></a></td></tr>
-      </vivo:foreachThesisRO_0000056Iterator>
+      <vivo:foreachThesisTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:ThesisTranslatorType/>/<vivo:ThesisTranslatorType/>.jsp?uri=<vivo:ThesisTranslator/>"><vivo:ThesisTranslator /></a></td></tr>
+      </vivo:foreachThesisTranslatorIterator>
+      <vivo:foreachThesisFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:ThesisFeaturesType/>/<vivo:ThesisFeaturesType/>.jsp?uri=<vivo:ThesisFeatures/>"><vivo:ThesisFeatures /></a></td></tr>
+      </vivo:foreachThesisFeaturesIterator>
+      <vivo:foreachThesisInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ThesisInformationResourceSupportedByType/>/<vivo:ThesisInformationResourceSupportedByType/>.jsp?uri=<vivo:ThesisInformationResourceSupportedBy/>"><vivo:ThesisInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachThesisInformationResourceSupportedByIterator>
+      <vivo:foreachThesisIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:ThesisIAO_0000136Type/>/<vivo:ThesisIAO_0000136Type/>.jsp?uri=<vivo:ThesisIAO_0000136/>"><vivo:ThesisIAO_0000136 /></a></td></tr>
+      </vivo:foreachThesisIAO_0000136Iterator>
    </table>
    </vivo:Thesis>
 

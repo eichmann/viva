@@ -27,6 +27,9 @@
                 <p>Email: <vivo:Email subjectURI="${email}"><vivo:foreachEmailEmailIterator><vivo:EmailEmail/></vivo:foreachEmailEmailIterator></vivo:Email>
             </vivo:foreachIndividualHasEmailIterator>
          </vivo:Individual>
+     <vivo:foreachPersonOrcidIdIterator>
+         <p>ORCiD ID: <a href="<vivo:PersonOrcidId/>"><vivo:PersonOrcidId/></a>
+      </vivo:foreachPersonOrcidIdIterator>
          
          <p><b>Keywords:</b>
          <vivo:foreachPersonFreetextKeywordIterator>
@@ -35,16 +38,63 @@
       </vivo:foreachPersonARG_2000028Iterator>
       <h4>Overview</h4><vivo:PersonOverview/>
 
-      <H4>Publications</H4>
-      <ol>
+      <h3>Publications</h3>
+
+      <h4>Academic Article</h4>
+      <ol class=bulletedList>
       <vivo:foreachPersonRelatedByIterator classFilter="Authorship">
          <c:set var="auth"><vivo:PersonRelatedBy/></c:set>
          <vivo:Authorship subjectURI="${auth}">
             <vivo:foreachAuthorshipRelatesIterator classFilter="AcademicArticle">
                <c:set var="pub"><vivo:AuthorshipRelates/></c:set>
                <vivo:AcademicArticle subjectURI="${pub}">
-                  <li><a href="../AcademicArticle/AcademicArticle.jsp?uri=<vivo:AcademicArticleSubjectURI/>"><vivo:AcademicArticleLabel/></a> (Academic Article)
+                  <li><a href="../AcademicArticle/altAcademicArticle.jsp?uri=<vivo:AcademicArticleSubjectURI/>"><vivo:AcademicArticleLabel/></a>
                </vivo:AcademicArticle>
+            </vivo:foreachAuthorshipRelatesIterator>
+         </vivo:Authorship>
+      </vivo:foreachPersonRelatedByIterator>
+      </ol>
+
+      <h4>Conference Paper</h4>
+      <ol class=bulletedList>
+      <vivo:foreachPersonRelatedByIterator classFilter="Authorship">
+         <c:set var="auth"><vivo:PersonRelatedBy/></c:set>
+         <vivo:Authorship subjectURI="${auth}">
+            <vivo:foreachAuthorshipRelatesIterator classFilter="ConferencePaper">
+               <c:set var="pub"><vivo:AuthorshipRelates/></c:set>
+               <vivo:ConferencePaper subjectURI="${pub}">
+                  <li><a href="../ConferencePaper/altConferencePaper.jsp?uri=<vivo:ConferencePaperSubjectURI/>"><vivo:ConferencePaperLabel/></a>
+               </vivo:ConferencePaper>
+            </vivo:foreachAuthorshipRelatesIterator>
+         </vivo:Authorship>
+      </vivo:foreachPersonRelatedByIterator>
+      </ol>
+
+      <h4>Slideshow</h4>
+      <ol class=bulletedList>
+      <vivo:foreachPersonRelatedByIterator classFilter="Authorship">
+         <c:set var="auth"><vivo:PersonRelatedBy/></c:set>
+         <vivo:Authorship subjectURI="${auth}">
+            <vivo:foreachAuthorshipRelatesIterator classFilter="Slideshow">
+               <c:set var="pub"><vivo:AuthorshipRelates/></c:set>
+               <vivo:Slideshow subjectURI="${pub}">
+                  <li><a href="../Slideshow/altSlideshow.jsp?uri=<vivo:SlideshowSubjectURI/>"><vivo:SlideshowLabel/></a>
+               </vivo:Slideshow>
+            </vivo:foreachAuthorshipRelatesIterator>
+         </vivo:Authorship>
+      </vivo:foreachPersonRelatedByIterator>
+      </ol>
+
+      <h4>Conference Poster</h4>
+      <ol class=bulletedList>
+      <vivo:foreachPersonRelatedByIterator classFilter="Authorship">
+         <c:set var="auth"><vivo:PersonRelatedBy/></c:set>
+         <vivo:Authorship subjectURI="${auth}">
+            <vivo:foreachAuthorshipRelatesIterator classFilter="ConferencePoster">
+               <c:set var="pub"><vivo:AuthorshipRelates/></c:set>
+               <vivo:ConferencePoster subjectURI="${pub}">
+                  <li><a href="../ConferencePoster/altConferencePoster.jsp?uri=<vivo:ConferencePosterSubjectURI/>"><vivo:ConferencePosterLabel/></a>
+               </vivo:ConferencePoster>
             </vivo:foreachAuthorshipRelatesIterator>
          </vivo:Authorship>
       </vivo:foreachPersonRelatedByIterator>

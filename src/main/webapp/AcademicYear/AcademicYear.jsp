@@ -30,15 +30,15 @@
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachAcademicYearRO_0000057Iterator>
+         <tr><td>RO_0000057</td><td><a href="../<vivo:AcademicYearRO_0000057Type/>/<vivo:AcademicYearRO_0000057Type/>.jsp?uri=<vivo:AcademicYearRO_0000057/>"><vivo:AcademicYearRO_0000057 /></a></td></tr>
+      </vivo:foreachAcademicYearRO_0000057Iterator>
       <vivo:foreachAcademicYearEndIterator>
          <tr><td>end</td><td><a href="../<vivo:AcademicYearEndType/>/<vivo:AcademicYearEndType/>.jsp?uri=<vivo:AcademicYearEnd/>"><vivo:AcademicYearEnd /></a></td></tr>
       </vivo:foreachAcademicYearEndIterator>
       <vivo:foreachAcademicYearStartIterator>
          <tr><td>start</td><td><a href="../<vivo:AcademicYearStartType/>/<vivo:AcademicYearStartType/>.jsp?uri=<vivo:AcademicYearStart/>"><vivo:AcademicYearStart /></a></td></tr>
       </vivo:foreachAcademicYearStartIterator>
-      <vivo:foreachAcademicYearRO_0000057Iterator>
-         <tr><td>RO_0000057</td><td><a href="../<vivo:AcademicYearRO_0000057Type/>/<vivo:AcademicYearRO_0000057Type/>.jsp?uri=<vivo:AcademicYearRO_0000057/>"><vivo:AcademicYearRO_0000057 /></a></td></tr>
-      </vivo:foreachAcademicYearRO_0000057Iterator>
    </table>
    </vivo:AcademicYear>
 

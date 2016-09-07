@@ -31,12 +31,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachRoomRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:RoomRO_0000053Type/>/<vivo:RoomRO_0000053Type/>.jsp?uri=<vivo:RoomRO_0000053/>"><vivo:RoomRO_0000053 /></a></td></tr>
-      </vivo:foreachRoomRO_0000053Iterator>
       <vivo:foreachRoomFacilityForIterator>
          <tr><td>facilityFor</td><td><a href="../<vivo:RoomFacilityForType/>/<vivo:RoomFacilityForType/>.jsp?uri=<vivo:RoomFacilityFor/>"><vivo:RoomFacilityFor /></a></td></tr>
       </vivo:foreachRoomFacilityForIterator>
+      <vivo:foreachRoomRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:RoomRO_0000053Type/>/<vivo:RoomRO_0000053Type/>.jsp?uri=<vivo:RoomRO_0000053/>"><vivo:RoomRO_0000053 /></a></td></tr>
+      </vivo:foreachRoomRO_0000053Iterator>
       <vivo:foreachRoomRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:RoomRO_0000056Type/>/<vivo:RoomRO_0000056Type/>.jsp?uri=<vivo:RoomRO_0000056/>"><vivo:RoomRO_0000056 /></a></td></tr>
       </vivo:foreachRoomRO_0000056Iterator>

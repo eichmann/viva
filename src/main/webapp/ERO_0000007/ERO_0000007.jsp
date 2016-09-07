@@ -33,6 +33,9 @@
       <vivo:foreachERO_0000007ERO_0000398Iterator>
          <tr><td>ERO_0000398</td><td><a href="../<vivo:ERO_0000007ERO_0000398Type/>/<vivo:ERO_0000007ERO_0000398Type/>.jsp?uri=<vivo:ERO_0000007ERO_0000398/>"><vivo:ERO_0000007ERO_0000398 /></a></td></tr>
       </vivo:foreachERO_0000007ERO_0000398Iterator>
+      <vivo:foreachERO_0000007RO_0000057Iterator>
+         <tr><td>RO_0000057</td><td><a href="../<vivo:ERO_0000007RO_0000057Type/>/<vivo:ERO_0000007RO_0000057Type/>.jsp?uri=<vivo:ERO_0000007RO_0000057/>"><vivo:ERO_0000007RO_0000057 /></a></td></tr>
+      </vivo:foreachERO_0000007RO_0000057Iterator>
       <vivo:foreachERO_0000007BFO_0000055Iterator>
          <tr><td>BFO_0000055</td><td><a href="../<vivo:ERO_0000007BFO_0000055Type/>/<vivo:ERO_0000007BFO_0000055Type/>.jsp?uri=<vivo:ERO_0000007BFO_0000055/>"><vivo:ERO_0000007BFO_0000055 /></a></td></tr>
       </vivo:foreachERO_0000007BFO_0000055Iterator>
@@ -45,9 +48,6 @@
       <vivo:foreachERO_0000007OBI_0000299Iterator>
          <tr><td>OBI_0000299</td><td><a href="../<vivo:ERO_0000007OBI_0000299Type/>/<vivo:ERO_0000007OBI_0000299Type/>.jsp?uri=<vivo:ERO_0000007OBI_0000299/>"><vivo:ERO_0000007OBI_0000299 /></a></td></tr>
       </vivo:foreachERO_0000007OBI_0000299Iterator>
-      <vivo:foreachERO_0000007RO_0000057Iterator>
-         <tr><td>RO_0000057</td><td><a href="../<vivo:ERO_0000007RO_0000057Type/>/<vivo:ERO_0000007RO_0000057Type/>.jsp?uri=<vivo:ERO_0000007RO_0000057/>"><vivo:ERO_0000007RO_0000057 /></a></td></tr>
-      </vivo:foreachERO_0000007RO_0000057Iterator>
    </table>
    </vivo:ERO_0000007>
 

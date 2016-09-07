@@ -26,12 +26,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachDatasetTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:DatasetTheAbstract /></td></tr>
-      </vivo:foreachDatasetTheAbstractIterator>
-      <vivo:foreachDatasetDoiIterator>
-         <tr><td>doi</td><td><vivo:DatasetDoi /></td></tr>
-      </vivo:foreachDatasetDoiIterator>
       <vivo:foreachDatasetPmidIterator>
          <tr><td>pmid</td><td><vivo:DatasetPmid /></td></tr>
       </vivo:foreachDatasetPmidIterator>
@@ -41,6 +35,12 @@
       <vivo:foreachDatasetVolumeIterator>
          <tr><td>volume</td><td><vivo:DatasetVolume /></td></tr>
       </vivo:foreachDatasetVolumeIterator>
+      <vivo:foreachDatasetTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:DatasetTheAbstract /></td></tr>
+      </vivo:foreachDatasetTheAbstractIterator>
+      <vivo:foreachDatasetDoiIterator>
+         <tr><td>doi</td><td><vivo:DatasetDoi /></td></tr>
+      </vivo:foreachDatasetDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -60,18 +60,9 @@
       <vivo:foreachDatasetRelatesIterator>
          <tr><td>relates</td><td><a href="../<vivo:DatasetRelatesType/>/<vivo:DatasetRelatesType/>.jsp?uri=<vivo:DatasetRelates/>"><vivo:DatasetRelates /></a></td></tr>
       </vivo:foreachDatasetRelatesIterator>
-      <vivo:foreachDatasetTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:DatasetTranslatorType/>/<vivo:DatasetTranslatorType/>.jsp?uri=<vivo:DatasetTranslator/>"><vivo:DatasetTranslator /></a></td></tr>
-      </vivo:foreachDatasetTranslatorIterator>
-      <vivo:foreachDatasetFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:DatasetFeaturesType/>/<vivo:DatasetFeaturesType/>.jsp?uri=<vivo:DatasetFeatures/>"><vivo:DatasetFeatures /></a></td></tr>
-      </vivo:foreachDatasetFeaturesIterator>
-      <vivo:foreachDatasetInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:DatasetInformationResourceSupportedByType/>/<vivo:DatasetInformationResourceSupportedByType/>.jsp?uri=<vivo:DatasetInformationResourceSupportedBy/>"><vivo:DatasetInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachDatasetInformationResourceSupportedByIterator>
-      <vivo:foreachDatasetIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:DatasetIAO_0000136Type/>/<vivo:DatasetIAO_0000136Type/>.jsp?uri=<vivo:DatasetIAO_0000136/>"><vivo:DatasetIAO_0000136 /></a></td></tr>
-      </vivo:foreachDatasetIAO_0000136Iterator>
+      <vivo:foreachDatasetRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:DatasetRO_0000056Type/>/<vivo:DatasetRO_0000056Type/>.jsp?uri=<vivo:DatasetRO_0000056/>"><vivo:DatasetRO_0000056 /></a></td></tr>
+      </vivo:foreachDatasetRO_0000056Iterator>
       <vivo:foreachDatasetDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<vivo:DatasetDocumentationForType/>/<vivo:DatasetDocumentationForType/>.jsp?uri=<vivo:DatasetDocumentationFor/>"><vivo:DatasetDocumentationFor /></a></td></tr>
       </vivo:foreachDatasetDocumentationForIterator>
@@ -99,9 +90,18 @@
       <vivo:foreachDatasetCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:DatasetCitesType/>/<vivo:DatasetCitesType/>.jsp?uri=<vivo:DatasetCites/>"><vivo:DatasetCites /></a></td></tr>
       </vivo:foreachDatasetCitesIterator>
-      <vivo:foreachDatasetRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:DatasetRO_0000056Type/>/<vivo:DatasetRO_0000056Type/>.jsp?uri=<vivo:DatasetRO_0000056/>"><vivo:DatasetRO_0000056 /></a></td></tr>
-      </vivo:foreachDatasetRO_0000056Iterator>
+      <vivo:foreachDatasetTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:DatasetTranslatorType/>/<vivo:DatasetTranslatorType/>.jsp?uri=<vivo:DatasetTranslator/>"><vivo:DatasetTranslator /></a></td></tr>
+      </vivo:foreachDatasetTranslatorIterator>
+      <vivo:foreachDatasetFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:DatasetFeaturesType/>/<vivo:DatasetFeaturesType/>.jsp?uri=<vivo:DatasetFeatures/>"><vivo:DatasetFeatures /></a></td></tr>
+      </vivo:foreachDatasetFeaturesIterator>
+      <vivo:foreachDatasetInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:DatasetInformationResourceSupportedByType/>/<vivo:DatasetInformationResourceSupportedByType/>.jsp?uri=<vivo:DatasetInformationResourceSupportedBy/>"><vivo:DatasetInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachDatasetInformationResourceSupportedByIterator>
+      <vivo:foreachDatasetIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:DatasetIAO_0000136Type/>/<vivo:DatasetIAO_0000136Type/>.jsp?uri=<vivo:DatasetIAO_0000136/>"><vivo:DatasetIAO_0000136 /></a></td></tr>
+      </vivo:foreachDatasetIAO_0000136Iterator>
    </table>
    </vivo:Dataset>
 

@@ -36,15 +36,6 @@
       <vivo:foreachChapterNumPagesIterator>
          <tr><td>numPages</td><td><vivo:ChapterNumPages /></td></tr>
       </vivo:foreachChapterNumPagesIterator>
-      <vivo:foreachChapterPmidIterator>
-         <tr><td>pmid</td><td><vivo:ChapterPmid /></td></tr>
-      </vivo:foreachChapterPmidIterator>
-      <vivo:foreachChapterARG_0000001Iterator>
-         <tr><td>ARG_0000001</td><td><vivo:ChapterARG_0000001 /></td></tr>
-      </vivo:foreachChapterARG_0000001Iterator>
-      <vivo:foreachChapterVolumeIterator>
-         <tr><td>volume</td><td><vivo:ChapterVolume /></td></tr>
-      </vivo:foreachChapterVolumeIterator>
       <vivo:foreachChapterTheAbstractIterator>
          <tr><td>theAbstract</td><td><vivo:ChapterTheAbstract /></td></tr>
       </vivo:foreachChapterTheAbstractIterator>
@@ -54,6 +45,15 @@
       <vivo:foreachChapterChapterIterator>
          <tr><td>chapter</td><td><vivo:ChapterChapter /></td></tr>
       </vivo:foreachChapterChapterIterator>
+      <vivo:foreachChapterPmidIterator>
+         <tr><td>pmid</td><td><vivo:ChapterPmid /></td></tr>
+      </vivo:foreachChapterPmidIterator>
+      <vivo:foreachChapterARG_0000001Iterator>
+         <tr><td>ARG_0000001</td><td><vivo:ChapterARG_0000001 /></td></tr>
+      </vivo:foreachChapterARG_0000001Iterator>
+      <vivo:foreachChapterVolumeIterator>
+         <tr><td>volume</td><td><vivo:ChapterVolume /></td></tr>
+      </vivo:foreachChapterVolumeIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -79,6 +79,21 @@
       <vivo:foreachChapterRelatesIterator>
          <tr><td>relates</td><td><a href="../<vivo:ChapterRelatesType/>/<vivo:ChapterRelatesType/>.jsp?uri=<vivo:ChapterRelates/>"><vivo:ChapterRelates /></a></td></tr>
       </vivo:foreachChapterRelatesIterator>
+      <vivo:foreachChapterTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:ChapterTranslatorType/>/<vivo:ChapterTranslatorType/>.jsp?uri=<vivo:ChapterTranslator/>"><vivo:ChapterTranslator /></a></td></tr>
+      </vivo:foreachChapterTranslatorIterator>
+      <vivo:foreachChapterFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:ChapterFeaturesType/>/<vivo:ChapterFeaturesType/>.jsp?uri=<vivo:ChapterFeatures/>"><vivo:ChapterFeatures /></a></td></tr>
+      </vivo:foreachChapterFeaturesIterator>
+      <vivo:foreachChapterInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ChapterInformationResourceSupportedByType/>/<vivo:ChapterInformationResourceSupportedByType/>.jsp?uri=<vivo:ChapterInformationResourceSupportedBy/>"><vivo:ChapterInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachChapterInformationResourceSupportedByIterator>
+      <vivo:foreachChapterIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:ChapterIAO_0000136Type/>/<vivo:ChapterIAO_0000136Type/>.jsp?uri=<vivo:ChapterIAO_0000136/>"><vivo:ChapterIAO_0000136 /></a></td></tr>
+      </vivo:foreachChapterIAO_0000136Iterator>
+      <vivo:foreachChapterRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:ChapterRO_0000056Type/>/<vivo:ChapterRO_0000056Type/>.jsp?uri=<vivo:ChapterRO_0000056/>"><vivo:ChapterRO_0000056 /></a></td></tr>
+      </vivo:foreachChapterRO_0000056Iterator>
       <vivo:foreachChapterDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<vivo:ChapterDocumentationForType/>/<vivo:ChapterDocumentationForType/>.jsp?uri=<vivo:ChapterDocumentationFor/>"><vivo:ChapterDocumentationFor /></a></td></tr>
       </vivo:foreachChapterDocumentationForIterator>
@@ -106,21 +121,6 @@
       <vivo:foreachChapterCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:ChapterCitesType/>/<vivo:ChapterCitesType/>.jsp?uri=<vivo:ChapterCites/>"><vivo:ChapterCites /></a></td></tr>
       </vivo:foreachChapterCitesIterator>
-      <vivo:foreachChapterTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:ChapterTranslatorType/>/<vivo:ChapterTranslatorType/>.jsp?uri=<vivo:ChapterTranslator/>"><vivo:ChapterTranslator /></a></td></tr>
-      </vivo:foreachChapterTranslatorIterator>
-      <vivo:foreachChapterFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:ChapterFeaturesType/>/<vivo:ChapterFeaturesType/>.jsp?uri=<vivo:ChapterFeatures/>"><vivo:ChapterFeatures /></a></td></tr>
-      </vivo:foreachChapterFeaturesIterator>
-      <vivo:foreachChapterInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ChapterInformationResourceSupportedByType/>/<vivo:ChapterInformationResourceSupportedByType/>.jsp?uri=<vivo:ChapterInformationResourceSupportedBy/>"><vivo:ChapterInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachChapterInformationResourceSupportedByIterator>
-      <vivo:foreachChapterIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:ChapterIAO_0000136Type/>/<vivo:ChapterIAO_0000136Type/>.jsp?uri=<vivo:ChapterIAO_0000136/>"><vivo:ChapterIAO_0000136 /></a></td></tr>
-      </vivo:foreachChapterIAO_0000136Iterator>
-      <vivo:foreachChapterRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:ChapterRO_0000056Type/>/<vivo:ChapterRO_0000056Type/>.jsp?uri=<vivo:ChapterRO_0000056/>"><vivo:ChapterRO_0000056 /></a></td></tr>
-      </vivo:foreachChapterRO_0000056Iterator>
    </table>
    </vivo:Chapter>
 

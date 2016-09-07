@@ -32,6 +32,9 @@
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachERO_0000565RO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<vivo:ERO_0000565RO_0000053Type/>/<vivo:ERO_0000565RO_0000053Type/>.jsp?uri=<vivo:ERO_0000565RO_0000053/>"><vivo:ERO_0000565RO_0000053 /></a></td></tr>
+      </vivo:foreachERO_0000565RO_0000053Iterator>
       <vivo:foreachERO_0000565AssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:ERO_0000565AssigneeForType/>/<vivo:ERO_0000565AssigneeForType/>.jsp?uri=<vivo:ERO_0000565AssigneeFor/>"><vivo:ERO_0000565AssigneeFor /></a></td></tr>
       </vivo:foreachERO_0000565AssigneeForIterator>
@@ -74,9 +77,6 @@
       <vivo:foreachERO_0000565AffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:ERO_0000565AffiliatedOrganizationType/>/<vivo:ERO_0000565AffiliatedOrganizationType/>.jsp?uri=<vivo:ERO_0000565AffiliatedOrganization/>"><vivo:ERO_0000565AffiliatedOrganization /></a></td></tr>
       </vivo:foreachERO_0000565AffiliatedOrganizationIterator>
-      <vivo:foreachERO_0000565RO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:ERO_0000565RO_0000053Type/>/<vivo:ERO_0000565RO_0000053Type/>.jsp?uri=<vivo:ERO_0000565RO_0000053/>"><vivo:ERO_0000565RO_0000053 /></a></td></tr>
-      </vivo:foreachERO_0000565RO_0000053Iterator>
       <vivo:foreachERO_0000565RO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:ERO_0000565RO_0000056Type/>/<vivo:ERO_0000565RO_0000056Type/>.jsp?uri=<vivo:ERO_0000565RO_0000056/>"><vivo:ERO_0000565RO_0000056 /></a></td></tr>
       </vivo:foreachERO_0000565RO_0000056Iterator>

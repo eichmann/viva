@@ -30,12 +30,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachExhibitBFO_0000055Iterator>
-         <tr><td>BFO_0000055</td><td><a href="../<vivo:ExhibitBFO_0000055Type/>/<vivo:ExhibitBFO_0000055Type/>.jsp?uri=<vivo:ExhibitBFO_0000055/>"><vivo:ExhibitBFO_0000055 /></a></td></tr>
-      </vivo:foreachExhibitBFO_0000055Iterator>
       <vivo:foreachExhibitRO_0000057Iterator>
          <tr><td>RO_0000057</td><td><a href="../<vivo:ExhibitRO_0000057Type/>/<vivo:ExhibitRO_0000057Type/>.jsp?uri=<vivo:ExhibitRO_0000057/>"><vivo:ExhibitRO_0000057 /></a></td></tr>
       </vivo:foreachExhibitRO_0000057Iterator>
+      <vivo:foreachExhibitBFO_0000055Iterator>
+         <tr><td>BFO_0000055</td><td><a href="../<vivo:ExhibitBFO_0000055Type/>/<vivo:ExhibitBFO_0000055Type/>.jsp?uri=<vivo:ExhibitBFO_0000055/>"><vivo:ExhibitBFO_0000055 /></a></td></tr>
+      </vivo:foreachExhibitBFO_0000055Iterator>
    </table>
    </vivo:Exhibit>
 

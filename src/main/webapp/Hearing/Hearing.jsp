@@ -30,12 +30,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachHearingBFO_0000055Iterator>
-         <tr><td>BFO_0000055</td><td><a href="../<vivo:HearingBFO_0000055Type/>/<vivo:HearingBFO_0000055Type/>.jsp?uri=<vivo:HearingBFO_0000055/>"><vivo:HearingBFO_0000055 /></a></td></tr>
-      </vivo:foreachHearingBFO_0000055Iterator>
       <vivo:foreachHearingRO_0000057Iterator>
          <tr><td>RO_0000057</td><td><a href="../<vivo:HearingRO_0000057Type/>/<vivo:HearingRO_0000057Type/>.jsp?uri=<vivo:HearingRO_0000057/>"><vivo:HearingRO_0000057 /></a></td></tr>
       </vivo:foreachHearingRO_0000057Iterator>
+      <vivo:foreachHearingBFO_0000055Iterator>
+         <tr><td>BFO_0000055</td><td><a href="../<vivo:HearingBFO_0000055Type/>/<vivo:HearingBFO_0000055Type/>.jsp?uri=<vivo:HearingBFO_0000055/>"><vivo:HearingBFO_0000055 /></a></td></tr>
+      </vivo:foreachHearingBFO_0000055Iterator>
    </table>
    </vivo:Hearing>
 

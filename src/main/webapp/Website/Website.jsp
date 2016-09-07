@@ -36,6 +36,18 @@
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachWebsiteDateTimeValueIterator>
+         <tr><td>dateTimeValue</td><td><a href="../<vivo:WebsiteDateTimeValueType/>/<vivo:WebsiteDateTimeValueType/>.jsp?uri=<vivo:WebsiteDateTimeValue/>"><vivo:WebsiteDateTimeValue /></a></td></tr>
+      </vivo:foreachWebsiteDateTimeValueIterator>
+      <vivo:foreachWebsiteRO_0002353Iterator>
+         <tr><td>RO_0002353</td><td><a href="../<vivo:WebsiteRO_0002353Type/>/<vivo:WebsiteRO_0002353Type/>.jsp?uri=<vivo:WebsiteRO_0002353/>"><vivo:WebsiteRO_0002353 /></a></td></tr>
+      </vivo:foreachWebsiteRO_0002353Iterator>
+      <vivo:foreachWebsiteARG_2000028Iterator>
+         <tr><td>ARG_2000028</td><td><a href="../<vivo:WebsiteARG_2000028Type/>/<vivo:WebsiteARG_2000028Type/>.jsp?uri=<vivo:WebsiteARG_2000028/>"><vivo:WebsiteARG_2000028 /></a></td></tr>
+      </vivo:foreachWebsiteARG_2000028Iterator>
+      <vivo:foreachWebsiteRelatedByIterator>
+         <tr><td>relatedBy</td><td><a href="../<vivo:WebsiteRelatedByType/>/<vivo:WebsiteRelatedByType/>.jsp?uri=<vivo:WebsiteRelatedBy/>"><vivo:WebsiteRelatedBy /></a></td></tr>
+      </vivo:foreachWebsiteRelatedByIterator>
       <vivo:foreachWebsiteTranslatorIterator>
          <tr><td>translator</td><td><a href="../<vivo:WebsiteTranslatorType/>/<vivo:WebsiteTranslatorType/>.jsp?uri=<vivo:WebsiteTranslator/>"><vivo:WebsiteTranslator /></a></td></tr>
       </vivo:foreachWebsiteTranslatorIterator>
@@ -51,18 +63,6 @@
       <vivo:foreachWebsiteRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:WebsiteRO_0000056Type/>/<vivo:WebsiteRO_0000056Type/>.jsp?uri=<vivo:WebsiteRO_0000056/>"><vivo:WebsiteRO_0000056 /></a></td></tr>
       </vivo:foreachWebsiteRO_0000056Iterator>
-      <vivo:foreachWebsiteDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<vivo:WebsiteDateTimeValueType/>/<vivo:WebsiteDateTimeValueType/>.jsp?uri=<vivo:WebsiteDateTimeValue/>"><vivo:WebsiteDateTimeValue /></a></td></tr>
-      </vivo:foreachWebsiteDateTimeValueIterator>
-      <vivo:foreachWebsiteRO_0002353Iterator>
-         <tr><td>RO_0002353</td><td><a href="../<vivo:WebsiteRO_0002353Type/>/<vivo:WebsiteRO_0002353Type/>.jsp?uri=<vivo:WebsiteRO_0002353/>"><vivo:WebsiteRO_0002353 /></a></td></tr>
-      </vivo:foreachWebsiteRO_0002353Iterator>
-      <vivo:foreachWebsiteARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<vivo:WebsiteARG_2000028Type/>/<vivo:WebsiteARG_2000028Type/>.jsp?uri=<vivo:WebsiteARG_2000028/>"><vivo:WebsiteARG_2000028 /></a></td></tr>
-      </vivo:foreachWebsiteARG_2000028Iterator>
-      <vivo:foreachWebsiteRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<vivo:WebsiteRelatedByType/>/<vivo:WebsiteRelatedByType/>.jsp?uri=<vivo:WebsiteRelatedBy/>"><vivo:WebsiteRelatedBy /></a></td></tr>
-      </vivo:foreachWebsiteRelatedByIterator>
    </table>
    </vivo:Website>
 

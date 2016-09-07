@@ -33,12 +33,6 @@
       <vivo:foreachPatentIclCodeIterator>
          <tr><td>iclCode</td><td><vivo:PatentIclCode /></td></tr>
       </vivo:foreachPatentIclCodeIterator>
-      <vivo:foreachPatentTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:PatentTheAbstract /></td></tr>
-      </vivo:foreachPatentTheAbstractIterator>
-      <vivo:foreachPatentDoiIterator>
-         <tr><td>doi</td><td><vivo:PatentDoi /></td></tr>
-      </vivo:foreachPatentDoiIterator>
       <vivo:foreachPatentPmidIterator>
          <tr><td>pmid</td><td><vivo:PatentPmid /></td></tr>
       </vivo:foreachPatentPmidIterator>
@@ -48,6 +42,12 @@
       <vivo:foreachPatentVolumeIterator>
          <tr><td>volume</td><td><vivo:PatentVolume /></td></tr>
       </vivo:foreachPatentVolumeIterator>
+      <vivo:foreachPatentTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:PatentTheAbstract /></td></tr>
+      </vivo:foreachPatentTheAbstractIterator>
+      <vivo:foreachPatentDoiIterator>
+         <tr><td>doi</td><td><vivo:PatentDoi /></td></tr>
+      </vivo:foreachPatentDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -58,18 +58,9 @@
       <vivo:foreachPatentDateFiledIterator>
          <tr><td>dateFiled</td><td><a href="../<vivo:PatentDateFiledType/>/<vivo:PatentDateFiledType/>.jsp?uri=<vivo:PatentDateFiled/>"><vivo:PatentDateFiled /></a></td></tr>
       </vivo:foreachPatentDateFiledIterator>
-      <vivo:foreachPatentTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:PatentTranslatorType/>/<vivo:PatentTranslatorType/>.jsp?uri=<vivo:PatentTranslator/>"><vivo:PatentTranslator /></a></td></tr>
-      </vivo:foreachPatentTranslatorIterator>
-      <vivo:foreachPatentFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:PatentFeaturesType/>/<vivo:PatentFeaturesType/>.jsp?uri=<vivo:PatentFeatures/>"><vivo:PatentFeatures /></a></td></tr>
-      </vivo:foreachPatentFeaturesIterator>
-      <vivo:foreachPatentInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:PatentInformationResourceSupportedByType/>/<vivo:PatentInformationResourceSupportedByType/>.jsp?uri=<vivo:PatentInformationResourceSupportedBy/>"><vivo:PatentInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachPatentInformationResourceSupportedByIterator>
-      <vivo:foreachPatentIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:PatentIAO_0000136Type/>/<vivo:PatentIAO_0000136Type/>.jsp?uri=<vivo:PatentIAO_0000136/>"><vivo:PatentIAO_0000136 /></a></td></tr>
-      </vivo:foreachPatentIAO_0000136Iterator>
+      <vivo:foreachPatentRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:PatentRO_0000056Type/>/<vivo:PatentRO_0000056Type/>.jsp?uri=<vivo:PatentRO_0000056/>"><vivo:PatentRO_0000056 /></a></td></tr>
+      </vivo:foreachPatentRO_0000056Iterator>
       <vivo:foreachPatentDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<vivo:PatentDocumentationForType/>/<vivo:PatentDocumentationForType/>.jsp?uri=<vivo:PatentDocumentationFor/>"><vivo:PatentDocumentationFor /></a></td></tr>
       </vivo:foreachPatentDocumentationForIterator>
@@ -97,9 +88,18 @@
       <vivo:foreachPatentCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:PatentCitesType/>/<vivo:PatentCitesType/>.jsp?uri=<vivo:PatentCites/>"><vivo:PatentCites /></a></td></tr>
       </vivo:foreachPatentCitesIterator>
-      <vivo:foreachPatentRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:PatentRO_0000056Type/>/<vivo:PatentRO_0000056Type/>.jsp?uri=<vivo:PatentRO_0000056/>"><vivo:PatentRO_0000056 /></a></td></tr>
-      </vivo:foreachPatentRO_0000056Iterator>
+      <vivo:foreachPatentTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:PatentTranslatorType/>/<vivo:PatentTranslatorType/>.jsp?uri=<vivo:PatentTranslator/>"><vivo:PatentTranslator /></a></td></tr>
+      </vivo:foreachPatentTranslatorIterator>
+      <vivo:foreachPatentFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:PatentFeaturesType/>/<vivo:PatentFeaturesType/>.jsp?uri=<vivo:PatentFeatures/>"><vivo:PatentFeatures /></a></td></tr>
+      </vivo:foreachPatentFeaturesIterator>
+      <vivo:foreachPatentInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:PatentInformationResourceSupportedByType/>/<vivo:PatentInformationResourceSupportedByType/>.jsp?uri=<vivo:PatentInformationResourceSupportedBy/>"><vivo:PatentInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachPatentInformationResourceSupportedByIterator>
+      <vivo:foreachPatentIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:PatentIAO_0000136Type/>/<vivo:PatentIAO_0000136Type/>.jsp?uri=<vivo:PatentIAO_0000136/>"><vivo:PatentIAO_0000136 /></a></td></tr>
+      </vivo:foreachPatentIAO_0000136Iterator>
    </table>
    </vivo:Patent>
 

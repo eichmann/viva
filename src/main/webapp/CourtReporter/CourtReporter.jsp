@@ -36,18 +36,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachCourtReporterTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:CourtReporterTranslatorType/>/<vivo:CourtReporterTranslatorType/>.jsp?uri=<vivo:CourtReporterTranslator/>"><vivo:CourtReporterTranslator /></a></td></tr>
-      </vivo:foreachCourtReporterTranslatorIterator>
-      <vivo:foreachCourtReporterFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:CourtReporterFeaturesType/>/<vivo:CourtReporterFeaturesType/>.jsp?uri=<vivo:CourtReporterFeatures/>"><vivo:CourtReporterFeatures /></a></td></tr>
-      </vivo:foreachCourtReporterFeaturesIterator>
-      <vivo:foreachCourtReporterInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:CourtReporterInformationResourceSupportedByType/>/<vivo:CourtReporterInformationResourceSupportedByType/>.jsp?uri=<vivo:CourtReporterInformationResourceSupportedBy/>"><vivo:CourtReporterInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachCourtReporterInformationResourceSupportedByIterator>
-      <vivo:foreachCourtReporterIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:CourtReporterIAO_0000136Type/>/<vivo:CourtReporterIAO_0000136Type/>.jsp?uri=<vivo:CourtReporterIAO_0000136/>"><vivo:CourtReporterIAO_0000136 /></a></td></tr>
-      </vivo:foreachCourtReporterIAO_0000136Iterator>
       <vivo:foreachCourtReporterDateTimeValueIterator>
          <tr><td>dateTimeValue</td><td><a href="../<vivo:CourtReporterDateTimeValueType/>/<vivo:CourtReporterDateTimeValueType/>.jsp?uri=<vivo:CourtReporterDateTimeValue/>"><vivo:CourtReporterDateTimeValue /></a></td></tr>
       </vivo:foreachCourtReporterDateTimeValueIterator>
@@ -63,6 +51,18 @@
       <vivo:foreachCourtReporterRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:CourtReporterRO_0000056Type/>/<vivo:CourtReporterRO_0000056Type/>.jsp?uri=<vivo:CourtReporterRO_0000056/>"><vivo:CourtReporterRO_0000056 /></a></td></tr>
       </vivo:foreachCourtReporterRO_0000056Iterator>
+      <vivo:foreachCourtReporterTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:CourtReporterTranslatorType/>/<vivo:CourtReporterTranslatorType/>.jsp?uri=<vivo:CourtReporterTranslator/>"><vivo:CourtReporterTranslator /></a></td></tr>
+      </vivo:foreachCourtReporterTranslatorIterator>
+      <vivo:foreachCourtReporterFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:CourtReporterFeaturesType/>/<vivo:CourtReporterFeaturesType/>.jsp?uri=<vivo:CourtReporterFeatures/>"><vivo:CourtReporterFeatures /></a></td></tr>
+      </vivo:foreachCourtReporterFeaturesIterator>
+      <vivo:foreachCourtReporterInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:CourtReporterInformationResourceSupportedByType/>/<vivo:CourtReporterInformationResourceSupportedByType/>.jsp?uri=<vivo:CourtReporterInformationResourceSupportedBy/>"><vivo:CourtReporterInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachCourtReporterInformationResourceSupportedByIterator>
+      <vivo:foreachCourtReporterIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:CourtReporterIAO_0000136Type/>/<vivo:CourtReporterIAO_0000136Type/>.jsp?uri=<vivo:CourtReporterIAO_0000136/>"><vivo:CourtReporterIAO_0000136 /></a></td></tr>
+      </vivo:foreachCourtReporterIAO_0000136Iterator>
    </table>
    </vivo:CourtReporter>
 

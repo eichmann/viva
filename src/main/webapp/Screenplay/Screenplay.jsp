@@ -26,12 +26,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachScreenplayTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:ScreenplayTheAbstract /></td></tr>
-      </vivo:foreachScreenplayTheAbstractIterator>
-      <vivo:foreachScreenplayDoiIterator>
-         <tr><td>doi</td><td><vivo:ScreenplayDoi /></td></tr>
-      </vivo:foreachScreenplayDoiIterator>
       <vivo:foreachScreenplayPmidIterator>
          <tr><td>pmid</td><td><vivo:ScreenplayPmid /></td></tr>
       </vivo:foreachScreenplayPmidIterator>
@@ -41,22 +35,19 @@
       <vivo:foreachScreenplayVolumeIterator>
          <tr><td>volume</td><td><vivo:ScreenplayVolume /></td></tr>
       </vivo:foreachScreenplayVolumeIterator>
+      <vivo:foreachScreenplayTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:ScreenplayTheAbstract /></td></tr>
+      </vivo:foreachScreenplayTheAbstractIterator>
+      <vivo:foreachScreenplayDoiIterator>
+         <tr><td>doi</td><td><vivo:ScreenplayDoi /></td></tr>
+      </vivo:foreachScreenplayDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachScreenplayTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:ScreenplayTranslatorType/>/<vivo:ScreenplayTranslatorType/>.jsp?uri=<vivo:ScreenplayTranslator/>"><vivo:ScreenplayTranslator /></a></td></tr>
-      </vivo:foreachScreenplayTranslatorIterator>
-      <vivo:foreachScreenplayFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:ScreenplayFeaturesType/>/<vivo:ScreenplayFeaturesType/>.jsp?uri=<vivo:ScreenplayFeatures/>"><vivo:ScreenplayFeatures /></a></td></tr>
-      </vivo:foreachScreenplayFeaturesIterator>
-      <vivo:foreachScreenplayInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ScreenplayInformationResourceSupportedByType/>/<vivo:ScreenplayInformationResourceSupportedByType/>.jsp?uri=<vivo:ScreenplayInformationResourceSupportedBy/>"><vivo:ScreenplayInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachScreenplayInformationResourceSupportedByIterator>
-      <vivo:foreachScreenplayIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:ScreenplayIAO_0000136Type/>/<vivo:ScreenplayIAO_0000136Type/>.jsp?uri=<vivo:ScreenplayIAO_0000136/>"><vivo:ScreenplayIAO_0000136 /></a></td></tr>
-      </vivo:foreachScreenplayIAO_0000136Iterator>
+      <vivo:foreachScreenplayRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:ScreenplayRO_0000056Type/>/<vivo:ScreenplayRO_0000056Type/>.jsp?uri=<vivo:ScreenplayRO_0000056/>"><vivo:ScreenplayRO_0000056 /></a></td></tr>
+      </vivo:foreachScreenplayRO_0000056Iterator>
       <vivo:foreachScreenplayDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<vivo:ScreenplayDocumentationForType/>/<vivo:ScreenplayDocumentationForType/>.jsp?uri=<vivo:ScreenplayDocumentationFor/>"><vivo:ScreenplayDocumentationFor /></a></td></tr>
       </vivo:foreachScreenplayDocumentationForIterator>
@@ -84,9 +75,18 @@
       <vivo:foreachScreenplayCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:ScreenplayCitesType/>/<vivo:ScreenplayCitesType/>.jsp?uri=<vivo:ScreenplayCites/>"><vivo:ScreenplayCites /></a></td></tr>
       </vivo:foreachScreenplayCitesIterator>
-      <vivo:foreachScreenplayRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:ScreenplayRO_0000056Type/>/<vivo:ScreenplayRO_0000056Type/>.jsp?uri=<vivo:ScreenplayRO_0000056/>"><vivo:ScreenplayRO_0000056 /></a></td></tr>
-      </vivo:foreachScreenplayRO_0000056Iterator>
+      <vivo:foreachScreenplayTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:ScreenplayTranslatorType/>/<vivo:ScreenplayTranslatorType/>.jsp?uri=<vivo:ScreenplayTranslator/>"><vivo:ScreenplayTranslator /></a></td></tr>
+      </vivo:foreachScreenplayTranslatorIterator>
+      <vivo:foreachScreenplayFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:ScreenplayFeaturesType/>/<vivo:ScreenplayFeaturesType/>.jsp?uri=<vivo:ScreenplayFeatures/>"><vivo:ScreenplayFeatures /></a></td></tr>
+      </vivo:foreachScreenplayFeaturesIterator>
+      <vivo:foreachScreenplayInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ScreenplayInformationResourceSupportedByType/>/<vivo:ScreenplayInformationResourceSupportedByType/>.jsp?uri=<vivo:ScreenplayInformationResourceSupportedBy/>"><vivo:ScreenplayInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachScreenplayInformationResourceSupportedByIterator>
+      <vivo:foreachScreenplayIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:ScreenplayIAO_0000136Type/>/<vivo:ScreenplayIAO_0000136Type/>.jsp?uri=<vivo:ScreenplayIAO_0000136/>"><vivo:ScreenplayIAO_0000136 /></a></td></tr>
+      </vivo:foreachScreenplayIAO_0000136Iterator>
    </table>
    </vivo:Screenplay>
 

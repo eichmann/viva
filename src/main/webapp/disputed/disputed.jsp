@@ -33,6 +33,9 @@
       <vivo:foreachdisputedGeographicFocusOfIterator>
          <tr><td>geographicFocusOf</td><td><a href="../<vivo:disputedGeographicFocusOfType/>/<vivo:disputedGeographicFocusOfType/>.jsp?uri=<vivo:disputedGeographicFocusOf/>"><vivo:disputedGeographicFocusOf /></a></td></tr>
       </vivo:foreachdisputedGeographicFocusOfIterator>
+      <vivo:foreachdisputedIsInGroupIterator>
+         <tr><td>isInGroup</td><td><a href="../<vivo:disputedIsInGroupType/>/<vivo:disputedIsInGroupType/>.jsp?uri=<vivo:disputedIsInGroup/>"><vivo:disputedIsInGroup /></a></td></tr>
+      </vivo:foreachdisputedIsInGroupIterator>
       <vivo:foreachdisputedIsSuccessorOfIterator>
          <tr><td>isSuccessorOf</td><td><a href="../<vivo:disputedIsSuccessorOfType/>/<vivo:disputedIsSuccessorOfType/>.jsp?uri=<vivo:disputedIsSuccessorOf/>"><vivo:disputedIsSuccessorOf /></a></td></tr>
       </vivo:foreachdisputedIsSuccessorOfIterator>
@@ -42,9 +45,6 @@
       <vivo:foreachdisputedRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:disputedRO_0000056Type/>/<vivo:disputedRO_0000056Type/>.jsp?uri=<vivo:disputedRO_0000056/>"><vivo:disputedRO_0000056 /></a></td></tr>
       </vivo:foreachdisputedRO_0000056Iterator>
-      <vivo:foreachdisputedIsInGroupIterator>
-         <tr><td>isInGroup</td><td><a href="../<vivo:disputedIsInGroupType/>/<vivo:disputedIsInGroupType/>.jsp?uri=<vivo:disputedIsInGroup/>"><vivo:disputedIsInGroup /></a></td></tr>
-      </vivo:foreachdisputedIsInGroupIterator>
       <vivo:foreachdisputedRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:disputedRO_0000053Type/>/<vivo:disputedRO_0000053Type/>.jsp?uri=<vivo:disputedRO_0000053/>"><vivo:disputedRO_0000053 /></a></td></tr>
       </vivo:foreachdisputedRO_0000053Iterator>
