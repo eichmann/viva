@@ -36,6 +36,9 @@
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachOBI_0500000RO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:OBI_0500000RO_0000056Type/>/<vivo:OBI_0500000RO_0000056Type/>.jsp?uri=<vivo:OBI_0500000RO_0000056/>"><vivo:OBI_0500000RO_0000056 /></a></td></tr>
+      </vivo:foreachOBI_0500000RO_0000056Iterator>
       <vivo:foreachOBI_0500000TranslatorIterator>
          <tr><td>translator</td><td><a href="../<vivo:OBI_0500000TranslatorType/>/<vivo:OBI_0500000TranslatorType/>.jsp?uri=<vivo:OBI_0500000Translator/>"><vivo:OBI_0500000Translator /></a></td></tr>
       </vivo:foreachOBI_0500000TranslatorIterator>
@@ -48,9 +51,6 @@
       <vivo:foreachOBI_0500000IAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<vivo:OBI_0500000IAO_0000136Type/>/<vivo:OBI_0500000IAO_0000136Type/>.jsp?uri=<vivo:OBI_0500000IAO_0000136/>"><vivo:OBI_0500000IAO_0000136 /></a></td></tr>
       </vivo:foreachOBI_0500000IAO_0000136Iterator>
-      <vivo:foreachOBI_0500000RO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:OBI_0500000RO_0000056Type/>/<vivo:OBI_0500000RO_0000056Type/>.jsp?uri=<vivo:OBI_0500000RO_0000056/>"><vivo:OBI_0500000RO_0000056 /></a></td></tr>
-      </vivo:foreachOBI_0500000RO_0000056Iterator>
    </table>
    </vivo:OBI_0500000>
 

@@ -48,6 +48,9 @@
       <vivo:foreachCollectionRelatedByIterator>
          <tr><td>relatedBy</td><td><a href="../<vivo:CollectionRelatedByType/>/<vivo:CollectionRelatedByType/>.jsp?uri=<vivo:CollectionRelatedBy/>"><vivo:CollectionRelatedBy /></a></td></tr>
       </vivo:foreachCollectionRelatedByIterator>
+      <vivo:foreachCollectionRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:CollectionRO_0000056Type/>/<vivo:CollectionRO_0000056Type/>.jsp?uri=<vivo:CollectionRO_0000056/>"><vivo:CollectionRO_0000056 /></a></td></tr>
+      </vivo:foreachCollectionRO_0000056Iterator>
       <vivo:foreachCollectionTranslatorIterator>
          <tr><td>translator</td><td><a href="../<vivo:CollectionTranslatorType/>/<vivo:CollectionTranslatorType/>.jsp?uri=<vivo:CollectionTranslator/>"><vivo:CollectionTranslator /></a></td></tr>
       </vivo:foreachCollectionTranslatorIterator>
@@ -60,9 +63,6 @@
       <vivo:foreachCollectionIAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<vivo:CollectionIAO_0000136Type/>/<vivo:CollectionIAO_0000136Type/>.jsp?uri=<vivo:CollectionIAO_0000136/>"><vivo:CollectionIAO_0000136 /></a></td></tr>
       </vivo:foreachCollectionIAO_0000136Iterator>
-      <vivo:foreachCollectionRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:CollectionRO_0000056Type/>/<vivo:CollectionRO_0000056Type/>.jsp?uri=<vivo:CollectionRO_0000056/>"><vivo:CollectionRO_0000056 /></a></td></tr>
-      </vivo:foreachCollectionRO_0000056Iterator>
    </table>
    </vivo:Collection>
 

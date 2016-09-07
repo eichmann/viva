@@ -36,7 +36,7 @@
             <vivo:PersonFreetextKeyword/>,
          </vivo:foreachPersonFreetextKeywordIterator>
       </vivo:foreachPersonARG_2000028Iterator>
-      <h4>Overview</h4><vivo:PersonOverview/>
+      <h4>Overview</h4><vivo:PersonOverview/><p>
 
       <h3>Publications</h3>
 
@@ -50,6 +50,36 @@
                <vivo:AcademicArticle subjectURI="${pub}">
                   <li><a href="../AcademicArticle/altAcademicArticle.jsp?uri=<vivo:AcademicArticleSubjectURI/>"><vivo:AcademicArticleLabel/></a>
                </vivo:AcademicArticle>
+            </vivo:foreachAuthorshipRelatesIterator>
+         </vivo:Authorship>
+      </vivo:foreachPersonRelatedByIterator>
+      </ol>
+
+      <h4>Book</h4>
+      <ol class=bulletedList>
+      <vivo:foreachPersonRelatedByIterator classFilter="Authorship">
+         <c:set var="auth"><vivo:PersonRelatedBy/></c:set>
+         <vivo:Authorship subjectURI="${auth}">
+            <vivo:foreachAuthorshipRelatesIterator classFilter="Book">
+               <c:set var="pub"><vivo:AuthorshipRelates/></c:set>
+               <vivo:Book subjectURI="${pub}">
+                  <li><a href="../Book/altBook.jsp?uri=<vivo:BookSubjectURI/>"><vivo:BookLabel/></a>
+               </vivo:Book>
+            </vivo:foreachAuthorshipRelatesIterator>
+         </vivo:Authorship>
+      </vivo:foreachPersonRelatedByIterator>
+      </ol>
+
+      <h4>Book Chapter</h4>
+      <ol class=bulletedList>
+      <vivo:foreachPersonRelatedByIterator classFilter="Authorship">
+         <c:set var="auth"><vivo:PersonRelatedBy/></c:set>
+         <vivo:Authorship subjectURI="${auth}">
+            <vivo:foreachAuthorshipRelatesIterator classFilter="Chapter">
+               <c:set var="pub"><vivo:AuthorshipRelates/></c:set>
+               <vivo:Chapter subjectURI="${pub}">
+                  <li><a href="../Chapter/altChapter.jsp?uri=<vivo:ChapterSubjectURI/>"><vivo:ChapterLabel/></a>
+               </vivo:Chapter>
             </vivo:foreachAuthorshipRelatesIterator>
          </vivo:Authorship>
       </vivo:foreachPersonRelatedByIterator>

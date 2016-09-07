@@ -36,6 +36,18 @@
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachBlogTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:BlogTranslatorType/>/<vivo:BlogTranslatorType/>.jsp?uri=<vivo:BlogTranslator/>"><vivo:BlogTranslator /></a></td></tr>
+      </vivo:foreachBlogTranslatorIterator>
+      <vivo:foreachBlogFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:BlogFeaturesType/>/<vivo:BlogFeaturesType/>.jsp?uri=<vivo:BlogFeatures/>"><vivo:BlogFeatures /></a></td></tr>
+      </vivo:foreachBlogFeaturesIterator>
+      <vivo:foreachBlogInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:BlogInformationResourceSupportedByType/>/<vivo:BlogInformationResourceSupportedByType/>.jsp?uri=<vivo:BlogInformationResourceSupportedBy/>"><vivo:BlogInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachBlogInformationResourceSupportedByIterator>
+      <vivo:foreachBlogIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:BlogIAO_0000136Type/>/<vivo:BlogIAO_0000136Type/>.jsp?uri=<vivo:BlogIAO_0000136/>"><vivo:BlogIAO_0000136 /></a></td></tr>
+      </vivo:foreachBlogIAO_0000136Iterator>
       <vivo:foreachBlogDateTimeValueIterator>
          <tr><td>dateTimeValue</td><td><a href="../<vivo:BlogDateTimeValueType/>/<vivo:BlogDateTimeValueType/>.jsp?uri=<vivo:BlogDateTimeValue/>"><vivo:BlogDateTimeValue /></a></td></tr>
       </vivo:foreachBlogDateTimeValueIterator>
@@ -51,18 +63,6 @@
       <vivo:foreachBlogRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:BlogRO_0000056Type/>/<vivo:BlogRO_0000056Type/>.jsp?uri=<vivo:BlogRO_0000056/>"><vivo:BlogRO_0000056 /></a></td></tr>
       </vivo:foreachBlogRO_0000056Iterator>
-      <vivo:foreachBlogTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:BlogTranslatorType/>/<vivo:BlogTranslatorType/>.jsp?uri=<vivo:BlogTranslator/>"><vivo:BlogTranslator /></a></td></tr>
-      </vivo:foreachBlogTranslatorIterator>
-      <vivo:foreachBlogFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:BlogFeaturesType/>/<vivo:BlogFeaturesType/>.jsp?uri=<vivo:BlogFeatures/>"><vivo:BlogFeatures /></a></td></tr>
-      </vivo:foreachBlogFeaturesIterator>
-      <vivo:foreachBlogInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:BlogInformationResourceSupportedByType/>/<vivo:BlogInformationResourceSupportedByType/>.jsp?uri=<vivo:BlogInformationResourceSupportedBy/>"><vivo:BlogInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachBlogInformationResourceSupportedByIterator>
-      <vivo:foreachBlogIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:BlogIAO_0000136Type/>/<vivo:BlogIAO_0000136Type/>.jsp?uri=<vivo:BlogIAO_0000136/>"><vivo:BlogIAO_0000136 /></a></td></tr>
-      </vivo:foreachBlogIAO_0000136Iterator>
    </table>
    </vivo:Blog>
 

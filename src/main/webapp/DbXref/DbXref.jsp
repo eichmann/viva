@@ -36,6 +36,9 @@
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachDbXrefRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:DbXrefRO_0000056Type/>/<vivo:DbXrefRO_0000056Type/>.jsp?uri=<vivo:DbXrefRO_0000056/>"><vivo:DbXrefRO_0000056 /></a></td></tr>
+      </vivo:foreachDbXrefRO_0000056Iterator>
       <vivo:foreachDbXrefTranslatorIterator>
          <tr><td>translator</td><td><a href="../<vivo:DbXrefTranslatorType/>/<vivo:DbXrefTranslatorType/>.jsp?uri=<vivo:DbXrefTranslator/>"><vivo:DbXrefTranslator /></a></td></tr>
       </vivo:foreachDbXrefTranslatorIterator>
@@ -48,9 +51,6 @@
       <vivo:foreachDbXrefIAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<vivo:DbXrefIAO_0000136Type/>/<vivo:DbXrefIAO_0000136Type/>.jsp?uri=<vivo:DbXrefIAO_0000136/>"><vivo:DbXrefIAO_0000136 /></a></td></tr>
       </vivo:foreachDbXrefIAO_0000136Iterator>
-      <vivo:foreachDbXrefRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:DbXrefRO_0000056Type/>/<vivo:DbXrefRO_0000056Type/>.jsp?uri=<vivo:DbXrefRO_0000056/>"><vivo:DbXrefRO_0000056 /></a></td></tr>
-      </vivo:foreachDbXrefRO_0000056Iterator>
    </table>
    </vivo:DbXref>
 

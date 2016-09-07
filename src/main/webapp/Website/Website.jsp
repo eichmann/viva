@@ -48,6 +48,9 @@
       <vivo:foreachWebsiteRelatedByIterator>
          <tr><td>relatedBy</td><td><a href="../<vivo:WebsiteRelatedByType/>/<vivo:WebsiteRelatedByType/>.jsp?uri=<vivo:WebsiteRelatedBy/>"><vivo:WebsiteRelatedBy /></a></td></tr>
       </vivo:foreachWebsiteRelatedByIterator>
+      <vivo:foreachWebsiteRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:WebsiteRO_0000056Type/>/<vivo:WebsiteRO_0000056Type/>.jsp?uri=<vivo:WebsiteRO_0000056/>"><vivo:WebsiteRO_0000056 /></a></td></tr>
+      </vivo:foreachWebsiteRO_0000056Iterator>
       <vivo:foreachWebsiteTranslatorIterator>
          <tr><td>translator</td><td><a href="../<vivo:WebsiteTranslatorType/>/<vivo:WebsiteTranslatorType/>.jsp?uri=<vivo:WebsiteTranslator/>"><vivo:WebsiteTranslator /></a></td></tr>
       </vivo:foreachWebsiteTranslatorIterator>
@@ -60,9 +63,6 @@
       <vivo:foreachWebsiteIAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<vivo:WebsiteIAO_0000136Type/>/<vivo:WebsiteIAO_0000136Type/>.jsp?uri=<vivo:WebsiteIAO_0000136/>"><vivo:WebsiteIAO_0000136 /></a></td></tr>
       </vivo:foreachWebsiteIAO_0000136Iterator>
-      <vivo:foreachWebsiteRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:WebsiteRO_0000056Type/>/<vivo:WebsiteRO_0000056Type/>.jsp?uri=<vivo:WebsiteRO_0000056/>"><vivo:WebsiteRO_0000056 /></a></td></tr>
-      </vivo:foreachWebsiteRO_0000056Iterator>
    </table>
    </vivo:Website>
 

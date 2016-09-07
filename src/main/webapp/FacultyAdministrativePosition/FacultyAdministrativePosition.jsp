@@ -39,18 +39,18 @@
       <vivo:foreachFacultyAdministrativePositionRelatesIterator>
          <tr><td>relates</td><td><a href="../<vivo:FacultyAdministrativePositionRelatesType/>/<vivo:FacultyAdministrativePositionRelatesType/>.jsp?uri=<vivo:FacultyAdministrativePositionRelates/>"><vivo:FacultyAdministrativePositionRelates /></a></td></tr>
       </vivo:foreachFacultyAdministrativePositionRelatesIterator>
-      <vivo:foreachFacultyAdministrativePositionDateTimeIntervalIterator>
-         <tr><td>dateTimeInterval</td><td><a href="../<vivo:FacultyAdministrativePositionDateTimeIntervalType/>/<vivo:FacultyAdministrativePositionDateTimeIntervalType/>.jsp?uri=<vivo:FacultyAdministrativePositionDateTimeInterval/>"><vivo:FacultyAdministrativePositionDateTimeInterval /></a></td></tr>
-      </vivo:foreachFacultyAdministrativePositionDateTimeIntervalIterator>
-      <vivo:foreachFacultyAdministrativePositionRelatesIterator>
-         <tr><td>relates</td><td><a href="../<vivo:FacultyAdministrativePositionRelatesType/>/<vivo:FacultyAdministrativePositionRelatesType/>.jsp?uri=<vivo:FacultyAdministrativePositionRelates/>"><vivo:FacultyAdministrativePositionRelates /></a></td></tr>
-      </vivo:foreachFacultyAdministrativePositionRelatesIterator>
       <vivo:foreachFacultyAdministrativePositionRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<vivo:FacultyAdministrativePositionRO_0000052Type/>/<vivo:FacultyAdministrativePositionRO_0000052Type/>.jsp?uri=<vivo:FacultyAdministrativePositionRO_0000052/>"><vivo:FacultyAdministrativePositionRO_0000052 /></a></td></tr>
       </vivo:foreachFacultyAdministrativePositionRO_0000052Iterator>
       <vivo:foreachFacultyAdministrativePositionRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:FacultyAdministrativePositionRO_0000056Type/>/<vivo:FacultyAdministrativePositionRO_0000056Type/>.jsp?uri=<vivo:FacultyAdministrativePositionRO_0000056/>"><vivo:FacultyAdministrativePositionRO_0000056 /></a></td></tr>
       </vivo:foreachFacultyAdministrativePositionRO_0000056Iterator>
+      <vivo:foreachFacultyAdministrativePositionDateTimeIntervalIterator>
+         <tr><td>dateTimeInterval</td><td><a href="../<vivo:FacultyAdministrativePositionDateTimeIntervalType/>/<vivo:FacultyAdministrativePositionDateTimeIntervalType/>.jsp?uri=<vivo:FacultyAdministrativePositionDateTimeInterval/>"><vivo:FacultyAdministrativePositionDateTimeInterval /></a></td></tr>
+      </vivo:foreachFacultyAdministrativePositionDateTimeIntervalIterator>
+      <vivo:foreachFacultyAdministrativePositionRelatesIterator>
+         <tr><td>relates</td><td><a href="../<vivo:FacultyAdministrativePositionRelatesType/>/<vivo:FacultyAdministrativePositionRelatesType/>.jsp?uri=<vivo:FacultyAdministrativePositionRelates/>"><vivo:FacultyAdministrativePositionRelates /></a></td></tr>
+      </vivo:foreachFacultyAdministrativePositionRelatesIterator>
    </table>
    </vivo:FacultyAdministrativePosition>
 

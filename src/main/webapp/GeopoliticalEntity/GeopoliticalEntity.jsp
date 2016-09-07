@@ -33,12 +33,12 @@
       <vivo:foreachGeopoliticalEntityRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:GeopoliticalEntityRO_0000053Type/>/<vivo:GeopoliticalEntityRO_0000053Type/>.jsp?uri=<vivo:GeopoliticalEntityRO_0000053/>"><vivo:GeopoliticalEntityRO_0000053 /></a></td></tr>
       </vivo:foreachGeopoliticalEntityRO_0000053Iterator>
-      <vivo:foreachGeopoliticalEntityGeographicFocusOfIterator>
-         <tr><td>geographicFocusOf</td><td><a href="../<vivo:GeopoliticalEntityGeographicFocusOfType/>/<vivo:GeopoliticalEntityGeographicFocusOfType/>.jsp?uri=<vivo:GeopoliticalEntityGeographicFocusOf/>"><vivo:GeopoliticalEntityGeographicFocusOf /></a></td></tr>
-      </vivo:foreachGeopoliticalEntityGeographicFocusOfIterator>
       <vivo:foreachGeopoliticalEntityRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:GeopoliticalEntityRO_0000056Type/>/<vivo:GeopoliticalEntityRO_0000056Type/>.jsp?uri=<vivo:GeopoliticalEntityRO_0000056/>"><vivo:GeopoliticalEntityRO_0000056 /></a></td></tr>
       </vivo:foreachGeopoliticalEntityRO_0000056Iterator>
+      <vivo:foreachGeopoliticalEntityGeographicFocusOfIterator>
+         <tr><td>geographicFocusOf</td><td><a href="../<vivo:GeopoliticalEntityGeographicFocusOfType/>/<vivo:GeopoliticalEntityGeographicFocusOfType/>.jsp?uri=<vivo:GeopoliticalEntityGeographicFocusOf/>"><vivo:GeopoliticalEntityGeographicFocusOf /></a></td></tr>
+      </vivo:foreachGeopoliticalEntityGeographicFocusOfIterator>
    </table>
    </vivo:GeopoliticalEntity>
 

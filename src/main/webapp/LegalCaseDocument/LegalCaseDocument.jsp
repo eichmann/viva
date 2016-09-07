@@ -26,6 +26,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <vivo:foreachLegalCaseDocumentTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:LegalCaseDocumentTheAbstract /></td></tr>
+      </vivo:foreachLegalCaseDocumentTheAbstractIterator>
+      <vivo:foreachLegalCaseDocumentDoiIterator>
+         <tr><td>doi</td><td><vivo:LegalCaseDocumentDoi /></td></tr>
+      </vivo:foreachLegalCaseDocumentDoiIterator>
       <vivo:foreachLegalCaseDocumentPmidIterator>
          <tr><td>pmid</td><td><vivo:LegalCaseDocumentPmid /></td></tr>
       </vivo:foreachLegalCaseDocumentPmidIterator>
@@ -35,16 +41,22 @@
       <vivo:foreachLegalCaseDocumentVolumeIterator>
          <tr><td>volume</td><td><vivo:LegalCaseDocumentVolume /></td></tr>
       </vivo:foreachLegalCaseDocumentVolumeIterator>
-      <vivo:foreachLegalCaseDocumentTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:LegalCaseDocumentTheAbstract /></td></tr>
-      </vivo:foreachLegalCaseDocumentTheAbstractIterator>
-      <vivo:foreachLegalCaseDocumentDoiIterator>
-         <tr><td>doi</td><td><vivo:LegalCaseDocumentDoi /></td></tr>
-      </vivo:foreachLegalCaseDocumentDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachLegalCaseDocumentTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:LegalCaseDocumentTranslatorType/>/<vivo:LegalCaseDocumentTranslatorType/>.jsp?uri=<vivo:LegalCaseDocumentTranslator/>"><vivo:LegalCaseDocumentTranslator /></a></td></tr>
+      </vivo:foreachLegalCaseDocumentTranslatorIterator>
+      <vivo:foreachLegalCaseDocumentFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:LegalCaseDocumentFeaturesType/>/<vivo:LegalCaseDocumentFeaturesType/>.jsp?uri=<vivo:LegalCaseDocumentFeatures/>"><vivo:LegalCaseDocumentFeatures /></a></td></tr>
+      </vivo:foreachLegalCaseDocumentFeaturesIterator>
+      <vivo:foreachLegalCaseDocumentInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:LegalCaseDocumentInformationResourceSupportedByType/>/<vivo:LegalCaseDocumentInformationResourceSupportedByType/>.jsp?uri=<vivo:LegalCaseDocumentInformationResourceSupportedBy/>"><vivo:LegalCaseDocumentInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachLegalCaseDocumentInformationResourceSupportedByIterator>
+      <vivo:foreachLegalCaseDocumentIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:LegalCaseDocumentIAO_0000136Type/>/<vivo:LegalCaseDocumentIAO_0000136Type/>.jsp?uri=<vivo:LegalCaseDocumentIAO_0000136/>"><vivo:LegalCaseDocumentIAO_0000136 /></a></td></tr>
+      </vivo:foreachLegalCaseDocumentIAO_0000136Iterator>
       <vivo:foreachLegalCaseDocumentRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:LegalCaseDocumentRO_0000056Type/>/<vivo:LegalCaseDocumentRO_0000056Type/>.jsp?uri=<vivo:LegalCaseDocumentRO_0000056/>"><vivo:LegalCaseDocumentRO_0000056 /></a></td></tr>
       </vivo:foreachLegalCaseDocumentRO_0000056Iterator>
@@ -75,18 +87,6 @@
       <vivo:foreachLegalCaseDocumentCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:LegalCaseDocumentCitesType/>/<vivo:LegalCaseDocumentCitesType/>.jsp?uri=<vivo:LegalCaseDocumentCites/>"><vivo:LegalCaseDocumentCites /></a></td></tr>
       </vivo:foreachLegalCaseDocumentCitesIterator>
-      <vivo:foreachLegalCaseDocumentTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:LegalCaseDocumentTranslatorType/>/<vivo:LegalCaseDocumentTranslatorType/>.jsp?uri=<vivo:LegalCaseDocumentTranslator/>"><vivo:LegalCaseDocumentTranslator /></a></td></tr>
-      </vivo:foreachLegalCaseDocumentTranslatorIterator>
-      <vivo:foreachLegalCaseDocumentFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:LegalCaseDocumentFeaturesType/>/<vivo:LegalCaseDocumentFeaturesType/>.jsp?uri=<vivo:LegalCaseDocumentFeatures/>"><vivo:LegalCaseDocumentFeatures /></a></td></tr>
-      </vivo:foreachLegalCaseDocumentFeaturesIterator>
-      <vivo:foreachLegalCaseDocumentInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:LegalCaseDocumentInformationResourceSupportedByType/>/<vivo:LegalCaseDocumentInformationResourceSupportedByType/>.jsp?uri=<vivo:LegalCaseDocumentInformationResourceSupportedBy/>"><vivo:LegalCaseDocumentInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachLegalCaseDocumentInformationResourceSupportedByIterator>
-      <vivo:foreachLegalCaseDocumentIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:LegalCaseDocumentIAO_0000136Type/>/<vivo:LegalCaseDocumentIAO_0000136Type/>.jsp?uri=<vivo:LegalCaseDocumentIAO_0000136/>"><vivo:LegalCaseDocumentIAO_0000136 /></a></td></tr>
-      </vivo:foreachLegalCaseDocumentIAO_0000136Iterator>
    </table>
    </vivo:LegalCaseDocument>
 

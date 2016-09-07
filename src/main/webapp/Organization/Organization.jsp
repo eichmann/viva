@@ -26,19 +26,34 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachOrganizationRankIterator>
-         <tr><td>rank</td><td><vivo:OrganizationRank /></td></tr>
-      </vivo:foreachOrganizationRankIterator>
       <vivo:foreachOrganizationTheAbstractIterator>
          <tr><td>theAbstract</td><td><vivo:OrganizationTheAbstract /></td></tr>
       </vivo:foreachOrganizationTheAbstractIterator>
       <vivo:foreachOrganizationDoiIterator>
          <tr><td>doi</td><td><vivo:OrganizationDoi /></td></tr>
       </vivo:foreachOrganizationDoiIterator>
+      <vivo:foreachOrganizationRankIterator>
+         <tr><td>rank</td><td><vivo:OrganizationRank /></td></tr>
+      </vivo:foreachOrganizationRankIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachOrganizationRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:OrganizationRO_0000056Type/>/<vivo:OrganizationRO_0000056Type/>.jsp?uri=<vivo:OrganizationRO_0000056/>"><vivo:OrganizationRO_0000056 /></a></td></tr>
+      </vivo:foreachOrganizationRO_0000056Iterator>
+      <vivo:foreachOrganizationTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:OrganizationTranslatorType/>/<vivo:OrganizationTranslatorType/>.jsp?uri=<vivo:OrganizationTranslator/>"><vivo:OrganizationTranslator /></a></td></tr>
+      </vivo:foreachOrganizationTranslatorIterator>
+      <vivo:foreachOrganizationFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:OrganizationFeaturesType/>/<vivo:OrganizationFeaturesType/>.jsp?uri=<vivo:OrganizationFeatures/>"><vivo:OrganizationFeatures /></a></td></tr>
+      </vivo:foreachOrganizationFeaturesIterator>
+      <vivo:foreachOrganizationInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:OrganizationInformationResourceSupportedByType/>/<vivo:OrganizationInformationResourceSupportedByType/>.jsp?uri=<vivo:OrganizationInformationResourceSupportedBy/>"><vivo:OrganizationInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachOrganizationInformationResourceSupportedByIterator>
+      <vivo:foreachOrganizationIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:OrganizationIAO_0000136Type/>/<vivo:OrganizationIAO_0000136Type/>.jsp?uri=<vivo:OrganizationIAO_0000136/>"><vivo:OrganizationIAO_0000136 /></a></td></tr>
+      </vivo:foreachOrganizationIAO_0000136Iterator>
       <vivo:foreachOrganizationHasAddressIterator>
          <tr><td>hasAddress</td><td><a href="../<vivo:OrganizationHasAddressType/>/<vivo:OrganizationHasAddressType/>.jsp?uri=<vivo:OrganizationHasAddress/>"><vivo:OrganizationHasAddress /></a></td></tr>
       </vivo:foreachOrganizationHasAddressIterator>
@@ -60,21 +75,6 @@
       <vivo:foreachOrganizationARG_2000029Iterator>
          <tr><td>ARG_2000029</td><td><a href="../<vivo:OrganizationARG_2000029Type/>/<vivo:OrganizationARG_2000029Type/>.jsp?uri=<vivo:OrganizationARG_2000029/>"><vivo:OrganizationARG_2000029 /></a></td></tr>
       </vivo:foreachOrganizationARG_2000029Iterator>
-      <vivo:foreachOrganizationTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:OrganizationTranslatorType/>/<vivo:OrganizationTranslatorType/>.jsp?uri=<vivo:OrganizationTranslator/>"><vivo:OrganizationTranslator /></a></td></tr>
-      </vivo:foreachOrganizationTranslatorIterator>
-      <vivo:foreachOrganizationFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:OrganizationFeaturesType/>/<vivo:OrganizationFeaturesType/>.jsp?uri=<vivo:OrganizationFeatures/>"><vivo:OrganizationFeatures /></a></td></tr>
-      </vivo:foreachOrganizationFeaturesIterator>
-      <vivo:foreachOrganizationInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:OrganizationInformationResourceSupportedByType/>/<vivo:OrganizationInformationResourceSupportedByType/>.jsp?uri=<vivo:OrganizationInformationResourceSupportedBy/>"><vivo:OrganizationInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachOrganizationInformationResourceSupportedByIterator>
-      <vivo:foreachOrganizationIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:OrganizationIAO_0000136Type/>/<vivo:OrganizationIAO_0000136Type/>.jsp?uri=<vivo:OrganizationIAO_0000136/>"><vivo:OrganizationIAO_0000136 /></a></td></tr>
-      </vivo:foreachOrganizationIAO_0000136Iterator>
-      <vivo:foreachOrganizationRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:OrganizationRO_0000056Type/>/<vivo:OrganizationRO_0000056Type/>.jsp?uri=<vivo:OrganizationRO_0000056/>"><vivo:OrganizationRO_0000056 /></a></td></tr>
-      </vivo:foreachOrganizationRO_0000056Iterator>
    </table>
    </vivo:Organization>
 

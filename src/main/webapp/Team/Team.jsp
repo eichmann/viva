@@ -34,6 +34,9 @@
       <vivo:foreachTeamRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:TeamRO_0000053Type/>/<vivo:TeamRO_0000053Type/>.jsp?uri=<vivo:TeamRO_0000053/>"><vivo:TeamRO_0000053 /></a></td></tr>
       </vivo:foreachTeamRO_0000053Iterator>
+      <vivo:foreachTeamRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:TeamRO_0000056Type/>/<vivo:TeamRO_0000056Type/>.jsp?uri=<vivo:TeamRO_0000056/>"><vivo:TeamRO_0000056 /></a></td></tr>
+      </vivo:foreachTeamRO_0000056Iterator>
       <vivo:foreachTeamAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:TeamAssigneeForType/>/<vivo:TeamAssigneeForType/>.jsp?uri=<vivo:TeamAssigneeFor/>"><vivo:TeamAssigneeFor /></a></td></tr>
       </vivo:foreachTeamAssigneeForIterator>
@@ -43,9 +46,6 @@
       <vivo:foreachTeamTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<vivo:TeamTranslatorOfType/>/<vivo:TeamTranslatorOfType/>.jsp?uri=<vivo:TeamTranslatorOf/>"><vivo:TeamTranslatorOf /></a></td></tr>
       </vivo:foreachTeamTranslatorOfIterator>
-      <vivo:foreachTeamRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:TeamRO_0000056Type/>/<vivo:TeamRO_0000056Type/>.jsp?uri=<vivo:TeamRO_0000056/>"><vivo:TeamRO_0000056 /></a></td></tr>
-      </vivo:foreachTeamRO_0000056Iterator>
    </table>
    </vivo:Team>
 

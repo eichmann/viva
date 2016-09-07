@@ -26,6 +26,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <vivo:foreachErratumTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:ErratumTheAbstract /></td></tr>
+      </vivo:foreachErratumTheAbstractIterator>
+      <vivo:foreachErratumDoiIterator>
+         <tr><td>doi</td><td><vivo:ErratumDoi /></td></tr>
+      </vivo:foreachErratumDoiIterator>
       <vivo:foreachErratumPmidIterator>
          <tr><td>pmid</td><td><vivo:ErratumPmid /></td></tr>
       </vivo:foreachErratumPmidIterator>
@@ -35,16 +41,22 @@
       <vivo:foreachErratumVolumeIterator>
          <tr><td>volume</td><td><vivo:ErratumVolume /></td></tr>
       </vivo:foreachErratumVolumeIterator>
-      <vivo:foreachErratumTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:ErratumTheAbstract /></td></tr>
-      </vivo:foreachErratumTheAbstractIterator>
-      <vivo:foreachErratumDoiIterator>
-         <tr><td>doi</td><td><vivo:ErratumDoi /></td></tr>
-      </vivo:foreachErratumDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachErratumTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:ErratumTranslatorType/>/<vivo:ErratumTranslatorType/>.jsp?uri=<vivo:ErratumTranslator/>"><vivo:ErratumTranslator /></a></td></tr>
+      </vivo:foreachErratumTranslatorIterator>
+      <vivo:foreachErratumFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:ErratumFeaturesType/>/<vivo:ErratumFeaturesType/>.jsp?uri=<vivo:ErratumFeatures/>"><vivo:ErratumFeatures /></a></td></tr>
+      </vivo:foreachErratumFeaturesIterator>
+      <vivo:foreachErratumInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ErratumInformationResourceSupportedByType/>/<vivo:ErratumInformationResourceSupportedByType/>.jsp?uri=<vivo:ErratumInformationResourceSupportedBy/>"><vivo:ErratumInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachErratumInformationResourceSupportedByIterator>
+      <vivo:foreachErratumIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:ErratumIAO_0000136Type/>/<vivo:ErratumIAO_0000136Type/>.jsp?uri=<vivo:ErratumIAO_0000136/>"><vivo:ErratumIAO_0000136 /></a></td></tr>
+      </vivo:foreachErratumIAO_0000136Iterator>
       <vivo:foreachErratumRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:ErratumRO_0000056Type/>/<vivo:ErratumRO_0000056Type/>.jsp?uri=<vivo:ErratumRO_0000056/>"><vivo:ErratumRO_0000056 /></a></td></tr>
       </vivo:foreachErratumRO_0000056Iterator>
@@ -75,18 +87,6 @@
       <vivo:foreachErratumCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:ErratumCitesType/>/<vivo:ErratumCitesType/>.jsp?uri=<vivo:ErratumCites/>"><vivo:ErratumCites /></a></td></tr>
       </vivo:foreachErratumCitesIterator>
-      <vivo:foreachErratumTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:ErratumTranslatorType/>/<vivo:ErratumTranslatorType/>.jsp?uri=<vivo:ErratumTranslator/>"><vivo:ErratumTranslator /></a></td></tr>
-      </vivo:foreachErratumTranslatorIterator>
-      <vivo:foreachErratumFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:ErratumFeaturesType/>/<vivo:ErratumFeaturesType/>.jsp?uri=<vivo:ErratumFeatures/>"><vivo:ErratumFeatures /></a></td></tr>
-      </vivo:foreachErratumFeaturesIterator>
-      <vivo:foreachErratumInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ErratumInformationResourceSupportedByType/>/<vivo:ErratumInformationResourceSupportedByType/>.jsp?uri=<vivo:ErratumInformationResourceSupportedBy/>"><vivo:ErratumInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachErratumInformationResourceSupportedByIterator>
-      <vivo:foreachErratumIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:ErratumIAO_0000136Type/>/<vivo:ErratumIAO_0000136Type/>.jsp?uri=<vivo:ErratumIAO_0000136/>"><vivo:ErratumIAO_0000136 /></a></td></tr>
-      </vivo:foreachErratumIAO_0000136Iterator>
    </table>
    </vivo:Erratum>
 

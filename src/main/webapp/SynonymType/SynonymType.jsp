@@ -36,6 +36,9 @@
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachSynonymTypeRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:SynonymTypeRO_0000056Type/>/<vivo:SynonymTypeRO_0000056Type/>.jsp?uri=<vivo:SynonymTypeRO_0000056/>"><vivo:SynonymTypeRO_0000056 /></a></td></tr>
+      </vivo:foreachSynonymTypeRO_0000056Iterator>
       <vivo:foreachSynonymTypeTranslatorIterator>
          <tr><td>translator</td><td><a href="../<vivo:SynonymTypeTranslatorType/>/<vivo:SynonymTypeTranslatorType/>.jsp?uri=<vivo:SynonymTypeTranslator/>"><vivo:SynonymTypeTranslator /></a></td></tr>
       </vivo:foreachSynonymTypeTranslatorIterator>
@@ -48,9 +51,6 @@
       <vivo:foreachSynonymTypeIAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<vivo:SynonymTypeIAO_0000136Type/>/<vivo:SynonymTypeIAO_0000136Type/>.jsp?uri=<vivo:SynonymTypeIAO_0000136/>"><vivo:SynonymTypeIAO_0000136 /></a></td></tr>
       </vivo:foreachSynonymTypeIAO_0000136Iterator>
-      <vivo:foreachSynonymTypeRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:SynonymTypeRO_0000056Type/>/<vivo:SynonymTypeRO_0000056Type/>.jsp?uri=<vivo:SynonymTypeRO_0000056/>"><vivo:SynonymTypeRO_0000056 /></a></td></tr>
-      </vivo:foreachSynonymTypeRO_0000056Iterator>
    </table>
    </vivo:SynonymType>
 

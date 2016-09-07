@@ -26,6 +26,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <vivo:foreachImageTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:ImageTheAbstract /></td></tr>
+      </vivo:foreachImageTheAbstractIterator>
+      <vivo:foreachImageDoiIterator>
+         <tr><td>doi</td><td><vivo:ImageDoi /></td></tr>
+      </vivo:foreachImageDoiIterator>
       <vivo:foreachImagePmidIterator>
          <tr><td>pmid</td><td><vivo:ImagePmid /></td></tr>
       </vivo:foreachImagePmidIterator>
@@ -35,16 +41,22 @@
       <vivo:foreachImageVolumeIterator>
          <tr><td>volume</td><td><vivo:ImageVolume /></td></tr>
       </vivo:foreachImageVolumeIterator>
-      <vivo:foreachImageTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:ImageTheAbstract /></td></tr>
-      </vivo:foreachImageTheAbstractIterator>
-      <vivo:foreachImageDoiIterator>
-         <tr><td>doi</td><td><vivo:ImageDoi /></td></tr>
-      </vivo:foreachImageDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachImageTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:ImageTranslatorType/>/<vivo:ImageTranslatorType/>.jsp?uri=<vivo:ImageTranslator/>"><vivo:ImageTranslator /></a></td></tr>
+      </vivo:foreachImageTranslatorIterator>
+      <vivo:foreachImageFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:ImageFeaturesType/>/<vivo:ImageFeaturesType/>.jsp?uri=<vivo:ImageFeatures/>"><vivo:ImageFeatures /></a></td></tr>
+      </vivo:foreachImageFeaturesIterator>
+      <vivo:foreachImageInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ImageInformationResourceSupportedByType/>/<vivo:ImageInformationResourceSupportedByType/>.jsp?uri=<vivo:ImageInformationResourceSupportedBy/>"><vivo:ImageInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachImageInformationResourceSupportedByIterator>
+      <vivo:foreachImageIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:ImageIAO_0000136Type/>/<vivo:ImageIAO_0000136Type/>.jsp?uri=<vivo:ImageIAO_0000136/>"><vivo:ImageIAO_0000136 /></a></td></tr>
+      </vivo:foreachImageIAO_0000136Iterator>
       <vivo:foreachImageRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:ImageRO_0000056Type/>/<vivo:ImageRO_0000056Type/>.jsp?uri=<vivo:ImageRO_0000056/>"><vivo:ImageRO_0000056 /></a></td></tr>
       </vivo:foreachImageRO_0000056Iterator>
@@ -75,18 +87,6 @@
       <vivo:foreachImageCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:ImageCitesType/>/<vivo:ImageCitesType/>.jsp?uri=<vivo:ImageCites/>"><vivo:ImageCites /></a></td></tr>
       </vivo:foreachImageCitesIterator>
-      <vivo:foreachImageTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:ImageTranslatorType/>/<vivo:ImageTranslatorType/>.jsp?uri=<vivo:ImageTranslator/>"><vivo:ImageTranslator /></a></td></tr>
-      </vivo:foreachImageTranslatorIterator>
-      <vivo:foreachImageFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:ImageFeaturesType/>/<vivo:ImageFeaturesType/>.jsp?uri=<vivo:ImageFeatures/>"><vivo:ImageFeatures /></a></td></tr>
-      </vivo:foreachImageFeaturesIterator>
-      <vivo:foreachImageInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ImageInformationResourceSupportedByType/>/<vivo:ImageInformationResourceSupportedByType/>.jsp?uri=<vivo:ImageInformationResourceSupportedBy/>"><vivo:ImageInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachImageInformationResourceSupportedByIterator>
-      <vivo:foreachImageIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:ImageIAO_0000136Type/>/<vivo:ImageIAO_0000136Type/>.jsp?uri=<vivo:ImageIAO_0000136/>"><vivo:ImageIAO_0000136 /></a></td></tr>
-      </vivo:foreachImageIAO_0000136Iterator>
    </table>
    </vivo:Image>
 

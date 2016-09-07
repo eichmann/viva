@@ -29,6 +29,12 @@
       <vivo:foreachBookSectionChapterIterator>
          <tr><td>chapter</td><td><vivo:BookSectionChapter /></td></tr>
       </vivo:foreachBookSectionChapterIterator>
+      <vivo:foreachBookSectionTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:BookSectionTheAbstract /></td></tr>
+      </vivo:foreachBookSectionTheAbstractIterator>
+      <vivo:foreachBookSectionDoiIterator>
+         <tr><td>doi</td><td><vivo:BookSectionDoi /></td></tr>
+      </vivo:foreachBookSectionDoiIterator>
       <vivo:foreachBookSectionPmidIterator>
          <tr><td>pmid</td><td><vivo:BookSectionPmid /></td></tr>
       </vivo:foreachBookSectionPmidIterator>
@@ -38,16 +44,22 @@
       <vivo:foreachBookSectionVolumeIterator>
          <tr><td>volume</td><td><vivo:BookSectionVolume /></td></tr>
       </vivo:foreachBookSectionVolumeIterator>
-      <vivo:foreachBookSectionTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:BookSectionTheAbstract /></td></tr>
-      </vivo:foreachBookSectionTheAbstractIterator>
-      <vivo:foreachBookSectionDoiIterator>
-         <tr><td>doi</td><td><vivo:BookSectionDoi /></td></tr>
-      </vivo:foreachBookSectionDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachBookSectionTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:BookSectionTranslatorType/>/<vivo:BookSectionTranslatorType/>.jsp?uri=<vivo:BookSectionTranslator/>"><vivo:BookSectionTranslator /></a></td></tr>
+      </vivo:foreachBookSectionTranslatorIterator>
+      <vivo:foreachBookSectionFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:BookSectionFeaturesType/>/<vivo:BookSectionFeaturesType/>.jsp?uri=<vivo:BookSectionFeatures/>"><vivo:BookSectionFeatures /></a></td></tr>
+      </vivo:foreachBookSectionFeaturesIterator>
+      <vivo:foreachBookSectionInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:BookSectionInformationResourceSupportedByType/>/<vivo:BookSectionInformationResourceSupportedByType/>.jsp?uri=<vivo:BookSectionInformationResourceSupportedBy/>"><vivo:BookSectionInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachBookSectionInformationResourceSupportedByIterator>
+      <vivo:foreachBookSectionIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:BookSectionIAO_0000136Type/>/<vivo:BookSectionIAO_0000136Type/>.jsp?uri=<vivo:BookSectionIAO_0000136/>"><vivo:BookSectionIAO_0000136 /></a></td></tr>
+      </vivo:foreachBookSectionIAO_0000136Iterator>
       <vivo:foreachBookSectionRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:BookSectionRO_0000056Type/>/<vivo:BookSectionRO_0000056Type/>.jsp?uri=<vivo:BookSectionRO_0000056/>"><vivo:BookSectionRO_0000056 /></a></td></tr>
       </vivo:foreachBookSectionRO_0000056Iterator>
@@ -78,18 +90,6 @@
       <vivo:foreachBookSectionCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:BookSectionCitesType/>/<vivo:BookSectionCitesType/>.jsp?uri=<vivo:BookSectionCites/>"><vivo:BookSectionCites /></a></td></tr>
       </vivo:foreachBookSectionCitesIterator>
-      <vivo:foreachBookSectionTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:BookSectionTranslatorType/>/<vivo:BookSectionTranslatorType/>.jsp?uri=<vivo:BookSectionTranslator/>"><vivo:BookSectionTranslator /></a></td></tr>
-      </vivo:foreachBookSectionTranslatorIterator>
-      <vivo:foreachBookSectionFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:BookSectionFeaturesType/>/<vivo:BookSectionFeaturesType/>.jsp?uri=<vivo:BookSectionFeatures/>"><vivo:BookSectionFeatures /></a></td></tr>
-      </vivo:foreachBookSectionFeaturesIterator>
-      <vivo:foreachBookSectionInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:BookSectionInformationResourceSupportedByType/>/<vivo:BookSectionInformationResourceSupportedByType/>.jsp?uri=<vivo:BookSectionInformationResourceSupportedBy/>"><vivo:BookSectionInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachBookSectionInformationResourceSupportedByIterator>
-      <vivo:foreachBookSectionIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:BookSectionIAO_0000136Type/>/<vivo:BookSectionIAO_0000136Type/>.jsp?uri=<vivo:BookSectionIAO_0000136/>"><vivo:BookSectionIAO_0000136 /></a></td></tr>
-      </vivo:foreachBookSectionIAO_0000136Iterator>
    </table>
    </vivo:BookSection>
 

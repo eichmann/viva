@@ -35,6 +35,9 @@
       <vivo:foreachLaboratoryRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:LaboratoryRO_0000053Type/>/<vivo:LaboratoryRO_0000053Type/>.jsp?uri=<vivo:LaboratoryRO_0000053/>"><vivo:LaboratoryRO_0000053 /></a></td></tr>
       </vivo:foreachLaboratoryRO_0000053Iterator>
+      <vivo:foreachLaboratoryRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:LaboratoryRO_0000056Type/>/<vivo:LaboratoryRO_0000056Type/>.jsp?uri=<vivo:LaboratoryRO_0000056/>"><vivo:LaboratoryRO_0000056 /></a></td></tr>
+      </vivo:foreachLaboratoryRO_0000056Iterator>
       <vivo:foreachLaboratoryAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:LaboratoryAssigneeForType/>/<vivo:LaboratoryAssigneeForType/>.jsp?uri=<vivo:LaboratoryAssigneeFor/>"><vivo:LaboratoryAssigneeFor /></a></td></tr>
       </vivo:foreachLaboratoryAssigneeForIterator>
@@ -77,9 +80,6 @@
       <vivo:foreachLaboratoryAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:LaboratoryAffiliatedOrganizationType/>/<vivo:LaboratoryAffiliatedOrganizationType/>.jsp?uri=<vivo:LaboratoryAffiliatedOrganization/>"><vivo:LaboratoryAffiliatedOrganization /></a></td></tr>
       </vivo:foreachLaboratoryAffiliatedOrganizationIterator>
-      <vivo:foreachLaboratoryRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:LaboratoryRO_0000056Type/>/<vivo:LaboratoryRO_0000056Type/>.jsp?uri=<vivo:LaboratoryRO_0000056/>"><vivo:LaboratoryRO_0000056 /></a></td></tr>
-      </vivo:foreachLaboratoryRO_0000056Iterator>
    </table>
    </vivo:Laboratory>
 

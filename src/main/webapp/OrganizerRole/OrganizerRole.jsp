@@ -30,18 +30,18 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachOrganizerRoleRoleContributesToIterator>
-         <tr><td>roleContributesTo</td><td><a href="../<vivo:OrganizerRoleRoleContributesToType/>/<vivo:OrganizerRoleRoleContributesToType/>.jsp?uri=<vivo:OrganizerRoleRoleContributesTo/>"><vivo:OrganizerRoleRoleContributesTo /></a></td></tr>
-      </vivo:foreachOrganizerRoleRoleContributesToIterator>
-      <vivo:foreachOrganizerRoleBFO_0000054Iterator>
-         <tr><td>BFO_0000054</td><td><a href="../<vivo:OrganizerRoleBFO_0000054Type/>/<vivo:OrganizerRoleBFO_0000054Type/>.jsp?uri=<vivo:OrganizerRoleBFO_0000054/>"><vivo:OrganizerRoleBFO_0000054 /></a></td></tr>
-      </vivo:foreachOrganizerRoleBFO_0000054Iterator>
       <vivo:foreachOrganizerRoleRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<vivo:OrganizerRoleRO_0000052Type/>/<vivo:OrganizerRoleRO_0000052Type/>.jsp?uri=<vivo:OrganizerRoleRO_0000052/>"><vivo:OrganizerRoleRO_0000052 /></a></td></tr>
       </vivo:foreachOrganizerRoleRO_0000052Iterator>
       <vivo:foreachOrganizerRoleRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:OrganizerRoleRO_0000056Type/>/<vivo:OrganizerRoleRO_0000056Type/>.jsp?uri=<vivo:OrganizerRoleRO_0000056/>"><vivo:OrganizerRoleRO_0000056 /></a></td></tr>
       </vivo:foreachOrganizerRoleRO_0000056Iterator>
+      <vivo:foreachOrganizerRoleRoleContributesToIterator>
+         <tr><td>roleContributesTo</td><td><a href="../<vivo:OrganizerRoleRoleContributesToType/>/<vivo:OrganizerRoleRoleContributesToType/>.jsp?uri=<vivo:OrganizerRoleRoleContributesTo/>"><vivo:OrganizerRoleRoleContributesTo /></a></td></tr>
+      </vivo:foreachOrganizerRoleRoleContributesToIterator>
+      <vivo:foreachOrganizerRoleBFO_0000054Iterator>
+         <tr><td>BFO_0000054</td><td><a href="../<vivo:OrganizerRoleBFO_0000054Type/>/<vivo:OrganizerRoleBFO_0000054Type/>.jsp?uri=<vivo:OrganizerRoleBFO_0000054/>"><vivo:OrganizerRoleBFO_0000054 /></a></td></tr>
+      </vivo:foreachOrganizerRoleBFO_0000054Iterator>
    </table>
    </vivo:OrganizerRole>
 

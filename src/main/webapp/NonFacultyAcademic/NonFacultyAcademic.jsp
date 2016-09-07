@@ -55,6 +55,9 @@
       <vivo:foreachNonFacultyAcademicRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:NonFacultyAcademicRO_0000053Type/>/<vivo:NonFacultyAcademicRO_0000053Type/>.jsp?uri=<vivo:NonFacultyAcademicRO_0000053/>"><vivo:NonFacultyAcademicRO_0000053 /></a></td></tr>
       </vivo:foreachNonFacultyAcademicRO_0000053Iterator>
+      <vivo:foreachNonFacultyAcademicRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:NonFacultyAcademicRO_0000056Type/>/<vivo:NonFacultyAcademicRO_0000056Type/>.jsp?uri=<vivo:NonFacultyAcademicRO_0000056/>"><vivo:NonFacultyAcademicRO_0000056 /></a></td></tr>
+      </vivo:foreachNonFacultyAcademicRO_0000056Iterator>
       <vivo:foreachNonFacultyAcademicAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:NonFacultyAcademicAssigneeForType/>/<vivo:NonFacultyAcademicAssigneeForType/>.jsp?uri=<vivo:NonFacultyAcademicAssigneeFor/>"><vivo:NonFacultyAcademicAssigneeFor /></a></td></tr>
       </vivo:foreachNonFacultyAcademicAssigneeForIterator>
@@ -85,9 +88,6 @@
       <vivo:foreachNonFacultyAcademicOrcidIdIterator>
          <tr><td>orcidId</td><td><a href="../<vivo:NonFacultyAcademicOrcidIdType/>/<vivo:NonFacultyAcademicOrcidIdType/>.jsp?uri=<vivo:NonFacultyAcademicOrcidId/>"><vivo:NonFacultyAcademicOrcidId /></a></td></tr>
       </vivo:foreachNonFacultyAcademicOrcidIdIterator>
-      <vivo:foreachNonFacultyAcademicRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:NonFacultyAcademicRO_0000056Type/>/<vivo:NonFacultyAcademicRO_0000056Type/>.jsp?uri=<vivo:NonFacultyAcademicRO_0000056/>"><vivo:NonFacultyAcademicRO_0000056 /></a></td></tr>
-      </vivo:foreachNonFacultyAcademicRO_0000056Iterator>
    </table>
    </vivo:NonFacultyAcademic>
 

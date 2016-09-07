@@ -26,6 +26,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <vivo:foreachWorkingPaperTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:WorkingPaperTheAbstract /></td></tr>
+      </vivo:foreachWorkingPaperTheAbstractIterator>
+      <vivo:foreachWorkingPaperDoiIterator>
+         <tr><td>doi</td><td><vivo:WorkingPaperDoi /></td></tr>
+      </vivo:foreachWorkingPaperDoiIterator>
       <vivo:foreachWorkingPaperPmidIterator>
          <tr><td>pmid</td><td><vivo:WorkingPaperPmid /></td></tr>
       </vivo:foreachWorkingPaperPmidIterator>
@@ -35,16 +41,22 @@
       <vivo:foreachWorkingPaperVolumeIterator>
          <tr><td>volume</td><td><vivo:WorkingPaperVolume /></td></tr>
       </vivo:foreachWorkingPaperVolumeIterator>
-      <vivo:foreachWorkingPaperTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:WorkingPaperTheAbstract /></td></tr>
-      </vivo:foreachWorkingPaperTheAbstractIterator>
-      <vivo:foreachWorkingPaperDoiIterator>
-         <tr><td>doi</td><td><vivo:WorkingPaperDoi /></td></tr>
-      </vivo:foreachWorkingPaperDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachWorkingPaperTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:WorkingPaperTranslatorType/>/<vivo:WorkingPaperTranslatorType/>.jsp?uri=<vivo:WorkingPaperTranslator/>"><vivo:WorkingPaperTranslator /></a></td></tr>
+      </vivo:foreachWorkingPaperTranslatorIterator>
+      <vivo:foreachWorkingPaperFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:WorkingPaperFeaturesType/>/<vivo:WorkingPaperFeaturesType/>.jsp?uri=<vivo:WorkingPaperFeatures/>"><vivo:WorkingPaperFeatures /></a></td></tr>
+      </vivo:foreachWorkingPaperFeaturesIterator>
+      <vivo:foreachWorkingPaperInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:WorkingPaperInformationResourceSupportedByType/>/<vivo:WorkingPaperInformationResourceSupportedByType/>.jsp?uri=<vivo:WorkingPaperInformationResourceSupportedBy/>"><vivo:WorkingPaperInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachWorkingPaperInformationResourceSupportedByIterator>
+      <vivo:foreachWorkingPaperIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:WorkingPaperIAO_0000136Type/>/<vivo:WorkingPaperIAO_0000136Type/>.jsp?uri=<vivo:WorkingPaperIAO_0000136/>"><vivo:WorkingPaperIAO_0000136 /></a></td></tr>
+      </vivo:foreachWorkingPaperIAO_0000136Iterator>
       <vivo:foreachWorkingPaperRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:WorkingPaperRO_0000056Type/>/<vivo:WorkingPaperRO_0000056Type/>.jsp?uri=<vivo:WorkingPaperRO_0000056/>"><vivo:WorkingPaperRO_0000056 /></a></td></tr>
       </vivo:foreachWorkingPaperRO_0000056Iterator>
@@ -75,18 +87,6 @@
       <vivo:foreachWorkingPaperCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:WorkingPaperCitesType/>/<vivo:WorkingPaperCitesType/>.jsp?uri=<vivo:WorkingPaperCites/>"><vivo:WorkingPaperCites /></a></td></tr>
       </vivo:foreachWorkingPaperCitesIterator>
-      <vivo:foreachWorkingPaperTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:WorkingPaperTranslatorType/>/<vivo:WorkingPaperTranslatorType/>.jsp?uri=<vivo:WorkingPaperTranslator/>"><vivo:WorkingPaperTranslator /></a></td></tr>
-      </vivo:foreachWorkingPaperTranslatorIterator>
-      <vivo:foreachWorkingPaperFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:WorkingPaperFeaturesType/>/<vivo:WorkingPaperFeaturesType/>.jsp?uri=<vivo:WorkingPaperFeatures/>"><vivo:WorkingPaperFeatures /></a></td></tr>
-      </vivo:foreachWorkingPaperFeaturesIterator>
-      <vivo:foreachWorkingPaperInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:WorkingPaperInformationResourceSupportedByType/>/<vivo:WorkingPaperInformationResourceSupportedByType/>.jsp?uri=<vivo:WorkingPaperInformationResourceSupportedBy/>"><vivo:WorkingPaperInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachWorkingPaperInformationResourceSupportedByIterator>
-      <vivo:foreachWorkingPaperIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:WorkingPaperIAO_0000136Type/>/<vivo:WorkingPaperIAO_0000136Type/>.jsp?uri=<vivo:WorkingPaperIAO_0000136/>"><vivo:WorkingPaperIAO_0000136 /></a></td></tr>
-      </vivo:foreachWorkingPaperIAO_0000136Iterator>
    </table>
    </vivo:WorkingPaper>
 

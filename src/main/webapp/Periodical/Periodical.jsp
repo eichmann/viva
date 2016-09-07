@@ -36,6 +36,18 @@
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachPeriodicalTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:PeriodicalTranslatorType/>/<vivo:PeriodicalTranslatorType/>.jsp?uri=<vivo:PeriodicalTranslator/>"><vivo:PeriodicalTranslator /></a></td></tr>
+      </vivo:foreachPeriodicalTranslatorIterator>
+      <vivo:foreachPeriodicalFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:PeriodicalFeaturesType/>/<vivo:PeriodicalFeaturesType/>.jsp?uri=<vivo:PeriodicalFeatures/>"><vivo:PeriodicalFeatures /></a></td></tr>
+      </vivo:foreachPeriodicalFeaturesIterator>
+      <vivo:foreachPeriodicalInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:PeriodicalInformationResourceSupportedByType/>/<vivo:PeriodicalInformationResourceSupportedByType/>.jsp?uri=<vivo:PeriodicalInformationResourceSupportedBy/>"><vivo:PeriodicalInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachPeriodicalInformationResourceSupportedByIterator>
+      <vivo:foreachPeriodicalIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:PeriodicalIAO_0000136Type/>/<vivo:PeriodicalIAO_0000136Type/>.jsp?uri=<vivo:PeriodicalIAO_0000136/>"><vivo:PeriodicalIAO_0000136 /></a></td></tr>
+      </vivo:foreachPeriodicalIAO_0000136Iterator>
       <vivo:foreachPeriodicalDateTimeValueIterator>
          <tr><td>dateTimeValue</td><td><a href="../<vivo:PeriodicalDateTimeValueType/>/<vivo:PeriodicalDateTimeValueType/>.jsp?uri=<vivo:PeriodicalDateTimeValue/>"><vivo:PeriodicalDateTimeValue /></a></td></tr>
       </vivo:foreachPeriodicalDateTimeValueIterator>
@@ -51,18 +63,6 @@
       <vivo:foreachPeriodicalRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:PeriodicalRO_0000056Type/>/<vivo:PeriodicalRO_0000056Type/>.jsp?uri=<vivo:PeriodicalRO_0000056/>"><vivo:PeriodicalRO_0000056 /></a></td></tr>
       </vivo:foreachPeriodicalRO_0000056Iterator>
-      <vivo:foreachPeriodicalTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:PeriodicalTranslatorType/>/<vivo:PeriodicalTranslatorType/>.jsp?uri=<vivo:PeriodicalTranslator/>"><vivo:PeriodicalTranslator /></a></td></tr>
-      </vivo:foreachPeriodicalTranslatorIterator>
-      <vivo:foreachPeriodicalFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:PeriodicalFeaturesType/>/<vivo:PeriodicalFeaturesType/>.jsp?uri=<vivo:PeriodicalFeatures/>"><vivo:PeriodicalFeatures /></a></td></tr>
-      </vivo:foreachPeriodicalFeaturesIterator>
-      <vivo:foreachPeriodicalInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:PeriodicalInformationResourceSupportedByType/>/<vivo:PeriodicalInformationResourceSupportedByType/>.jsp?uri=<vivo:PeriodicalInformationResourceSupportedBy/>"><vivo:PeriodicalInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachPeriodicalInformationResourceSupportedByIterator>
-      <vivo:foreachPeriodicalIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:PeriodicalIAO_0000136Type/>/<vivo:PeriodicalIAO_0000136Type/>.jsp?uri=<vivo:PeriodicalIAO_0000136/>"><vivo:PeriodicalIAO_0000136 /></a></td></tr>
-      </vivo:foreachPeriodicalIAO_0000136Iterator>
    </table>
    </vivo:Periodical>
 

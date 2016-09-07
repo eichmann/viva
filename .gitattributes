@@ -130,6 +130,7 @@ src/main/webapp/BlogPosting/BlogPosting.jsp -text
 src/main/webapp/BlogPosting/BlogPostingList.jsp -text
 src/main/webapp/Book/Book.jsp -text
 src/main/webapp/Book/BookList.jsp -text
+src/main/webapp/Book/altBook.jsp -text
 src/main/webapp/BookSection/BookSection.jsp -text
 src/main/webapp/BookSection/BookSectionList.jsp -text
 src/main/webapp/Brief/Brief.jsp -text
@@ -162,6 +163,7 @@ src/main/webapp/Certification/Certification.jsp -text
 src/main/webapp/Certification/CertificationList.jsp -text
 src/main/webapp/Chapter/Chapter.jsp -text
 src/main/webapp/Chapter/ChapterList.jsp -text
+src/main/webapp/Chapter/altChapter.jsp -text
 src/main/webapp/Child/Child.jsp -text
 src/main/webapp/Child/ChildList.jsp -text
 src/main/webapp/ClinicalGuideline/ClinicalGuideline.jsp -text

@@ -264,12 +264,12 @@
       <vivo:foreachCountryRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:CountryRO_0000053Type/>/<vivo:CountryRO_0000053Type/>.jsp?uri=<vivo:CountryRO_0000053/>"><vivo:CountryRO_0000053 /></a></td></tr>
       </vivo:foreachCountryRO_0000053Iterator>
-      <vivo:foreachCountryGeographicFocusOfIterator>
-         <tr><td>geographicFocusOf</td><td><a href="../<vivo:CountryGeographicFocusOfType/>/<vivo:CountryGeographicFocusOfType/>.jsp?uri=<vivo:CountryGeographicFocusOf/>"><vivo:CountryGeographicFocusOf /></a></td></tr>
-      </vivo:foreachCountryGeographicFocusOfIterator>
       <vivo:foreachCountryRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:CountryRO_0000056Type/>/<vivo:CountryRO_0000056Type/>.jsp?uri=<vivo:CountryRO_0000056/>"><vivo:CountryRO_0000056 /></a></td></tr>
       </vivo:foreachCountryRO_0000056Iterator>
+      <vivo:foreachCountryGeographicFocusOfIterator>
+         <tr><td>geographicFocusOf</td><td><a href="../<vivo:CountryGeographicFocusOfType/>/<vivo:CountryGeographicFocusOfType/>.jsp?uri=<vivo:CountryGeographicFocusOf/>"><vivo:CountryGeographicFocusOf /></a></td></tr>
+      </vivo:foreachCountryGeographicFocusOfIterator>
    </table>
    </vivo:Country>
 

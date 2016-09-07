@@ -48,6 +48,9 @@
       <vivo:foreachERO_0000005ERO_0000390Iterator>
          <tr><td>ERO_0000390</td><td><a href="../<vivo:ERO_0000005ERO_0000390Type/>/<vivo:ERO_0000005ERO_0000390Type/>.jsp?uri=<vivo:ERO_0000005ERO_0000390/>"><vivo:ERO_0000005ERO_0000390 /></a></td></tr>
       </vivo:foreachERO_0000005ERO_0000390Iterator>
+      <vivo:foreachERO_0000005RO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:ERO_0000005RO_0000056Type/>/<vivo:ERO_0000005RO_0000056Type/>.jsp?uri=<vivo:ERO_0000005RO_0000056/>"><vivo:ERO_0000005RO_0000056 /></a></td></tr>
+      </vivo:foreachERO_0000005RO_0000056Iterator>
       <vivo:foreachERO_0000005TranslatorIterator>
          <tr><td>translator</td><td><a href="../<vivo:ERO_0000005TranslatorType/>/<vivo:ERO_0000005TranslatorType/>.jsp?uri=<vivo:ERO_0000005Translator/>"><vivo:ERO_0000005Translator /></a></td></tr>
       </vivo:foreachERO_0000005TranslatorIterator>
@@ -60,9 +63,6 @@
       <vivo:foreachERO_0000005IAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<vivo:ERO_0000005IAO_0000136Type/>/<vivo:ERO_0000005IAO_0000136Type/>.jsp?uri=<vivo:ERO_0000005IAO_0000136/>"><vivo:ERO_0000005IAO_0000136 /></a></td></tr>
       </vivo:foreachERO_0000005IAO_0000136Iterator>
-      <vivo:foreachERO_0000005RO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:ERO_0000005RO_0000056Type/>/<vivo:ERO_0000005RO_0000056Type/>.jsp?uri=<vivo:ERO_0000005RO_0000056/>"><vivo:ERO_0000005RO_0000056 /></a></td></tr>
-      </vivo:foreachERO_0000005RO_0000056Iterator>
    </table>
    </vivo:ERO_0000005>
 

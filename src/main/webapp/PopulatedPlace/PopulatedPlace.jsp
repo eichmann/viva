@@ -33,12 +33,12 @@
       <vivo:foreachPopulatedPlaceRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:PopulatedPlaceRO_0000053Type/>/<vivo:PopulatedPlaceRO_0000053Type/>.jsp?uri=<vivo:PopulatedPlaceRO_0000053/>"><vivo:PopulatedPlaceRO_0000053 /></a></td></tr>
       </vivo:foreachPopulatedPlaceRO_0000053Iterator>
-      <vivo:foreachPopulatedPlaceGeographicFocusOfIterator>
-         <tr><td>geographicFocusOf</td><td><a href="../<vivo:PopulatedPlaceGeographicFocusOfType/>/<vivo:PopulatedPlaceGeographicFocusOfType/>.jsp?uri=<vivo:PopulatedPlaceGeographicFocusOf/>"><vivo:PopulatedPlaceGeographicFocusOf /></a></td></tr>
-      </vivo:foreachPopulatedPlaceGeographicFocusOfIterator>
       <vivo:foreachPopulatedPlaceRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:PopulatedPlaceRO_0000056Type/>/<vivo:PopulatedPlaceRO_0000056Type/>.jsp?uri=<vivo:PopulatedPlaceRO_0000056/>"><vivo:PopulatedPlaceRO_0000056 /></a></td></tr>
       </vivo:foreachPopulatedPlaceRO_0000056Iterator>
+      <vivo:foreachPopulatedPlaceGeographicFocusOfIterator>
+         <tr><td>geographicFocusOf</td><td><a href="../<vivo:PopulatedPlaceGeographicFocusOfType/>/<vivo:PopulatedPlaceGeographicFocusOfType/>.jsp?uri=<vivo:PopulatedPlaceGeographicFocusOf/>"><vivo:PopulatedPlaceGeographicFocusOf /></a></td></tr>
+      </vivo:foreachPopulatedPlaceGeographicFocusOfIterator>
    </table>
    </vivo:PopulatedPlace>
 

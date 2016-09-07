@@ -36,6 +36,9 @@
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachIAO_0000300RO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:IAO_0000300RO_0000056Type/>/<vivo:IAO_0000300RO_0000056Type/>.jsp?uri=<vivo:IAO_0000300RO_0000056/>"><vivo:IAO_0000300RO_0000056 /></a></td></tr>
+      </vivo:foreachIAO_0000300RO_0000056Iterator>
       <vivo:foreachIAO_0000300TranslatorIterator>
          <tr><td>translator</td><td><a href="../<vivo:IAO_0000300TranslatorType/>/<vivo:IAO_0000300TranslatorType/>.jsp?uri=<vivo:IAO_0000300Translator/>"><vivo:IAO_0000300Translator /></a></td></tr>
       </vivo:foreachIAO_0000300TranslatorIterator>
@@ -48,9 +51,6 @@
       <vivo:foreachIAO_0000300IAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<vivo:IAO_0000300IAO_0000136Type/>/<vivo:IAO_0000300IAO_0000136Type/>.jsp?uri=<vivo:IAO_0000300IAO_0000136/>"><vivo:IAO_0000300IAO_0000136 /></a></td></tr>
       </vivo:foreachIAO_0000300IAO_0000136Iterator>
-      <vivo:foreachIAO_0000300RO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:IAO_0000300RO_0000056Type/>/<vivo:IAO_0000300RO_0000056Type/>.jsp?uri=<vivo:IAO_0000300RO_0000056/>"><vivo:IAO_0000300RO_0000056 /></a></td></tr>
-      </vivo:foreachIAO_0000300RO_0000056Iterator>
    </table>
    </vivo:IAO_0000300>
 

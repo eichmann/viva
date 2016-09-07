@@ -30,18 +30,18 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachReviewerRoleRoleContributesToIterator>
-         <tr><td>roleContributesTo</td><td><a href="../<vivo:ReviewerRoleRoleContributesToType/>/<vivo:ReviewerRoleRoleContributesToType/>.jsp?uri=<vivo:ReviewerRoleRoleContributesTo/>"><vivo:ReviewerRoleRoleContributesTo /></a></td></tr>
-      </vivo:foreachReviewerRoleRoleContributesToIterator>
-      <vivo:foreachReviewerRoleBFO_0000054Iterator>
-         <tr><td>BFO_0000054</td><td><a href="../<vivo:ReviewerRoleBFO_0000054Type/>/<vivo:ReviewerRoleBFO_0000054Type/>.jsp?uri=<vivo:ReviewerRoleBFO_0000054/>"><vivo:ReviewerRoleBFO_0000054 /></a></td></tr>
-      </vivo:foreachReviewerRoleBFO_0000054Iterator>
       <vivo:foreachReviewerRoleRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<vivo:ReviewerRoleRO_0000052Type/>/<vivo:ReviewerRoleRO_0000052Type/>.jsp?uri=<vivo:ReviewerRoleRO_0000052/>"><vivo:ReviewerRoleRO_0000052 /></a></td></tr>
       </vivo:foreachReviewerRoleRO_0000052Iterator>
       <vivo:foreachReviewerRoleRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:ReviewerRoleRO_0000056Type/>/<vivo:ReviewerRoleRO_0000056Type/>.jsp?uri=<vivo:ReviewerRoleRO_0000056/>"><vivo:ReviewerRoleRO_0000056 /></a></td></tr>
       </vivo:foreachReviewerRoleRO_0000056Iterator>
+      <vivo:foreachReviewerRoleRoleContributesToIterator>
+         <tr><td>roleContributesTo</td><td><a href="../<vivo:ReviewerRoleRoleContributesToType/>/<vivo:ReviewerRoleRoleContributesToType/>.jsp?uri=<vivo:ReviewerRoleRoleContributesTo/>"><vivo:ReviewerRoleRoleContributesTo /></a></td></tr>
+      </vivo:foreachReviewerRoleRoleContributesToIterator>
+      <vivo:foreachReviewerRoleBFO_0000054Iterator>
+         <tr><td>BFO_0000054</td><td><a href="../<vivo:ReviewerRoleBFO_0000054Type/>/<vivo:ReviewerRoleBFO_0000054Type/>.jsp?uri=<vivo:ReviewerRoleBFO_0000054/>"><vivo:ReviewerRoleBFO_0000054 /></a></td></tr>
+      </vivo:foreachReviewerRoleBFO_0000054Iterator>
    </table>
    </vivo:ReviewerRole>
 

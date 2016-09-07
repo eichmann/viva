@@ -26,6 +26,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <vivo:foreachDocumentPartTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:DocumentPartTheAbstract /></td></tr>
+      </vivo:foreachDocumentPartTheAbstractIterator>
+      <vivo:foreachDocumentPartDoiIterator>
+         <tr><td>doi</td><td><vivo:DocumentPartDoi /></td></tr>
+      </vivo:foreachDocumentPartDoiIterator>
       <vivo:foreachDocumentPartPmidIterator>
          <tr><td>pmid</td><td><vivo:DocumentPartPmid /></td></tr>
       </vivo:foreachDocumentPartPmidIterator>
@@ -35,16 +41,22 @@
       <vivo:foreachDocumentPartVolumeIterator>
          <tr><td>volume</td><td><vivo:DocumentPartVolume /></td></tr>
       </vivo:foreachDocumentPartVolumeIterator>
-      <vivo:foreachDocumentPartTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:DocumentPartTheAbstract /></td></tr>
-      </vivo:foreachDocumentPartTheAbstractIterator>
-      <vivo:foreachDocumentPartDoiIterator>
-         <tr><td>doi</td><td><vivo:DocumentPartDoi /></td></tr>
-      </vivo:foreachDocumentPartDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachDocumentPartTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:DocumentPartTranslatorType/>/<vivo:DocumentPartTranslatorType/>.jsp?uri=<vivo:DocumentPartTranslator/>"><vivo:DocumentPartTranslator /></a></td></tr>
+      </vivo:foreachDocumentPartTranslatorIterator>
+      <vivo:foreachDocumentPartFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:DocumentPartFeaturesType/>/<vivo:DocumentPartFeaturesType/>.jsp?uri=<vivo:DocumentPartFeatures/>"><vivo:DocumentPartFeatures /></a></td></tr>
+      </vivo:foreachDocumentPartFeaturesIterator>
+      <vivo:foreachDocumentPartInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:DocumentPartInformationResourceSupportedByType/>/<vivo:DocumentPartInformationResourceSupportedByType/>.jsp?uri=<vivo:DocumentPartInformationResourceSupportedBy/>"><vivo:DocumentPartInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachDocumentPartInformationResourceSupportedByIterator>
+      <vivo:foreachDocumentPartIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:DocumentPartIAO_0000136Type/>/<vivo:DocumentPartIAO_0000136Type/>.jsp?uri=<vivo:DocumentPartIAO_0000136/>"><vivo:DocumentPartIAO_0000136 /></a></td></tr>
+      </vivo:foreachDocumentPartIAO_0000136Iterator>
       <vivo:foreachDocumentPartRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:DocumentPartRO_0000056Type/>/<vivo:DocumentPartRO_0000056Type/>.jsp?uri=<vivo:DocumentPartRO_0000056/>"><vivo:DocumentPartRO_0000056 /></a></td></tr>
       </vivo:foreachDocumentPartRO_0000056Iterator>
@@ -75,18 +87,6 @@
       <vivo:foreachDocumentPartCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:DocumentPartCitesType/>/<vivo:DocumentPartCitesType/>.jsp?uri=<vivo:DocumentPartCites/>"><vivo:DocumentPartCites /></a></td></tr>
       </vivo:foreachDocumentPartCitesIterator>
-      <vivo:foreachDocumentPartTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:DocumentPartTranslatorType/>/<vivo:DocumentPartTranslatorType/>.jsp?uri=<vivo:DocumentPartTranslator/>"><vivo:DocumentPartTranslator /></a></td></tr>
-      </vivo:foreachDocumentPartTranslatorIterator>
-      <vivo:foreachDocumentPartFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:DocumentPartFeaturesType/>/<vivo:DocumentPartFeaturesType/>.jsp?uri=<vivo:DocumentPartFeatures/>"><vivo:DocumentPartFeatures /></a></td></tr>
-      </vivo:foreachDocumentPartFeaturesIterator>
-      <vivo:foreachDocumentPartInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:DocumentPartInformationResourceSupportedByType/>/<vivo:DocumentPartInformationResourceSupportedByType/>.jsp?uri=<vivo:DocumentPartInformationResourceSupportedBy/>"><vivo:DocumentPartInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachDocumentPartInformationResourceSupportedByIterator>
-      <vivo:foreachDocumentPartIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:DocumentPartIAO_0000136Type/>/<vivo:DocumentPartIAO_0000136Type/>.jsp?uri=<vivo:DocumentPartIAO_0000136/>"><vivo:DocumentPartIAO_0000136 /></a></td></tr>
-      </vivo:foreachDocumentPartIAO_0000136Iterator>
    </table>
    </vivo:DocumentPart>
 

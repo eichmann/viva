@@ -31,18 +31,18 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachInvestigatorRoleRoleContributesToIterator>
-         <tr><td>roleContributesTo</td><td><a href="../<vivo:InvestigatorRoleRoleContributesToType/>/<vivo:InvestigatorRoleRoleContributesToType/>.jsp?uri=<vivo:InvestigatorRoleRoleContributesTo/>"><vivo:InvestigatorRoleRoleContributesTo /></a></td></tr>
-      </vivo:foreachInvestigatorRoleRoleContributesToIterator>
-      <vivo:foreachInvestigatorRoleBFO_0000054Iterator>
-         <tr><td>BFO_0000054</td><td><a href="../<vivo:InvestigatorRoleBFO_0000054Type/>/<vivo:InvestigatorRoleBFO_0000054Type/>.jsp?uri=<vivo:InvestigatorRoleBFO_0000054/>"><vivo:InvestigatorRoleBFO_0000054 /></a></td></tr>
-      </vivo:foreachInvestigatorRoleBFO_0000054Iterator>
       <vivo:foreachInvestigatorRoleRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<vivo:InvestigatorRoleRO_0000052Type/>/<vivo:InvestigatorRoleRO_0000052Type/>.jsp?uri=<vivo:InvestigatorRoleRO_0000052/>"><vivo:InvestigatorRoleRO_0000052 /></a></td></tr>
       </vivo:foreachInvestigatorRoleRO_0000052Iterator>
       <vivo:foreachInvestigatorRoleRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:InvestigatorRoleRO_0000056Type/>/<vivo:InvestigatorRoleRO_0000056Type/>.jsp?uri=<vivo:InvestigatorRoleRO_0000056/>"><vivo:InvestigatorRoleRO_0000056 /></a></td></tr>
       </vivo:foreachInvestigatorRoleRO_0000056Iterator>
+      <vivo:foreachInvestigatorRoleRoleContributesToIterator>
+         <tr><td>roleContributesTo</td><td><a href="../<vivo:InvestigatorRoleRoleContributesToType/>/<vivo:InvestigatorRoleRoleContributesToType/>.jsp?uri=<vivo:InvestigatorRoleRoleContributesTo/>"><vivo:InvestigatorRoleRoleContributesTo /></a></td></tr>
+      </vivo:foreachInvestigatorRoleRoleContributesToIterator>
+      <vivo:foreachInvestigatorRoleBFO_0000054Iterator>
+         <tr><td>BFO_0000054</td><td><a href="../<vivo:InvestigatorRoleBFO_0000054Type/>/<vivo:InvestigatorRoleBFO_0000054Type/>.jsp?uri=<vivo:InvestigatorRoleBFO_0000054/>"><vivo:InvestigatorRoleBFO_0000054 /></a></td></tr>
+      </vivo:foreachInvestigatorRoleBFO_0000054Iterator>
    </table>
    </vivo:InvestigatorRole>
 

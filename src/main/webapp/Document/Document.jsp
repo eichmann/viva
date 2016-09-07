@@ -72,9 +72,6 @@
       <vivo:foreachDocumentCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:DocumentCitesType/>/<vivo:DocumentCitesType/>.jsp?uri=<vivo:DocumentCites/>"><vivo:DocumentCites /></a></td></tr>
       </vivo:foreachDocumentCitesIterator>
-      <vivo:foreachDocumentRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:DocumentRO_0000056Type/>/<vivo:DocumentRO_0000056Type/>.jsp?uri=<vivo:DocumentRO_0000056/>"><vivo:DocumentRO_0000056 /></a></td></tr>
-      </vivo:foreachDocumentRO_0000056Iterator>
       <vivo:foreachDocumentTranslatorIterator>
          <tr><td>translator</td><td><a href="../<vivo:DocumentTranslatorType/>/<vivo:DocumentTranslatorType/>.jsp?uri=<vivo:DocumentTranslator/>"><vivo:DocumentTranslator /></a></td></tr>
       </vivo:foreachDocumentTranslatorIterator>
@@ -87,6 +84,9 @@
       <vivo:foreachDocumentIAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<vivo:DocumentIAO_0000136Type/>/<vivo:DocumentIAO_0000136Type/>.jsp?uri=<vivo:DocumentIAO_0000136/>"><vivo:DocumentIAO_0000136 /></a></td></tr>
       </vivo:foreachDocumentIAO_0000136Iterator>
+      <vivo:foreachDocumentRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:DocumentRO_0000056Type/>/<vivo:DocumentRO_0000056Type/>.jsp?uri=<vivo:DocumentRO_0000056/>"><vivo:DocumentRO_0000056 /></a></td></tr>
+      </vivo:foreachDocumentRO_0000056Iterator>
    </table>
    </vivo:Document>
 

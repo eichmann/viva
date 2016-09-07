@@ -35,6 +35,9 @@
       <vivo:foreachProgramRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:ProgramRO_0000053Type/>/<vivo:ProgramRO_0000053Type/>.jsp?uri=<vivo:ProgramRO_0000053/>"><vivo:ProgramRO_0000053 /></a></td></tr>
       </vivo:foreachProgramRO_0000053Iterator>
+      <vivo:foreachProgramRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:ProgramRO_0000056Type/>/<vivo:ProgramRO_0000056Type/>.jsp?uri=<vivo:ProgramRO_0000056/>"><vivo:ProgramRO_0000056 /></a></td></tr>
+      </vivo:foreachProgramRO_0000056Iterator>
       <vivo:foreachProgramAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:ProgramAssigneeForType/>/<vivo:ProgramAssigneeForType/>.jsp?uri=<vivo:ProgramAssigneeFor/>"><vivo:ProgramAssigneeFor /></a></td></tr>
       </vivo:foreachProgramAssigneeForIterator>
@@ -77,9 +80,6 @@
       <vivo:foreachProgramAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:ProgramAffiliatedOrganizationType/>/<vivo:ProgramAffiliatedOrganizationType/>.jsp?uri=<vivo:ProgramAffiliatedOrganization/>"><vivo:ProgramAffiliatedOrganization /></a></td></tr>
       </vivo:foreachProgramAffiliatedOrganizationIterator>
-      <vivo:foreachProgramRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:ProgramRO_0000056Type/>/<vivo:ProgramRO_0000056Type/>.jsp?uri=<vivo:ProgramRO_0000056/>"><vivo:ProgramRO_0000056 /></a></td></tr>
-      </vivo:foreachProgramRO_0000056Iterator>
    </table>
    </vivo:Program>
 

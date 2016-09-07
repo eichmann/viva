@@ -36,12 +36,12 @@
       <vivo:foreachStateOrProvinceRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:StateOrProvinceRO_0000053Type/>/<vivo:StateOrProvinceRO_0000053Type/>.jsp?uri=<vivo:StateOrProvinceRO_0000053/>"><vivo:StateOrProvinceRO_0000053 /></a></td></tr>
       </vivo:foreachStateOrProvinceRO_0000053Iterator>
-      <vivo:foreachStateOrProvinceGeographicFocusOfIterator>
-         <tr><td>geographicFocusOf</td><td><a href="../<vivo:StateOrProvinceGeographicFocusOfType/>/<vivo:StateOrProvinceGeographicFocusOfType/>.jsp?uri=<vivo:StateOrProvinceGeographicFocusOf/>"><vivo:StateOrProvinceGeographicFocusOf /></a></td></tr>
-      </vivo:foreachStateOrProvinceGeographicFocusOfIterator>
       <vivo:foreachStateOrProvinceRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:StateOrProvinceRO_0000056Type/>/<vivo:StateOrProvinceRO_0000056Type/>.jsp?uri=<vivo:StateOrProvinceRO_0000056/>"><vivo:StateOrProvinceRO_0000056 /></a></td></tr>
       </vivo:foreachStateOrProvinceRO_0000056Iterator>
+      <vivo:foreachStateOrProvinceGeographicFocusOfIterator>
+         <tr><td>geographicFocusOf</td><td><a href="../<vivo:StateOrProvinceGeographicFocusOfType/>/<vivo:StateOrProvinceGeographicFocusOfType/>.jsp?uri=<vivo:StateOrProvinceGeographicFocusOf/>"><vivo:StateOrProvinceGeographicFocusOf /></a></td></tr>
+      </vivo:foreachStateOrProvinceGeographicFocusOfIterator>
    </table>
    </vivo:StateOrProvince>
 

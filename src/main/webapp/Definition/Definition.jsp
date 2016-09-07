@@ -36,6 +36,9 @@
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachDefinitionRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:DefinitionRO_0000056Type/>/<vivo:DefinitionRO_0000056Type/>.jsp?uri=<vivo:DefinitionRO_0000056/>"><vivo:DefinitionRO_0000056 /></a></td></tr>
+      </vivo:foreachDefinitionRO_0000056Iterator>
       <vivo:foreachDefinitionTranslatorIterator>
          <tr><td>translator</td><td><a href="../<vivo:DefinitionTranslatorType/>/<vivo:DefinitionTranslatorType/>.jsp?uri=<vivo:DefinitionTranslator/>"><vivo:DefinitionTranslator /></a></td></tr>
       </vivo:foreachDefinitionTranslatorIterator>
@@ -48,9 +51,6 @@
       <vivo:foreachDefinitionIAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<vivo:DefinitionIAO_0000136Type/>/<vivo:DefinitionIAO_0000136Type/>.jsp?uri=<vivo:DefinitionIAO_0000136/>"><vivo:DefinitionIAO_0000136 /></a></td></tr>
       </vivo:foreachDefinitionIAO_0000136Iterator>
-      <vivo:foreachDefinitionRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:DefinitionRO_0000056Type/>/<vivo:DefinitionRO_0000056Type/>.jsp?uri=<vivo:DefinitionRO_0000056/>"><vivo:DefinitionRO_0000056 /></a></td></tr>
-      </vivo:foreachDefinitionRO_0000056Iterator>
    </table>
    </vivo:Definition>
 

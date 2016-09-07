@@ -14,21 +14,41 @@
    <p><a href="AcademicArticle.jsp?uri=${param.uri}">generated view</a></p>
    <vivo:AcademicArticle subjectURI="${param.uri}">
 
-      <h1><vivo:AcademicArticleLabel /></h1>
+      <h2><vivo:AcademicArticleLabel /></h2>
       <vivo:foreachAcademicArticleHasPublicationVenueIterator>
          <vivo:AcademicArticleHasPublicationVenue />
       </vivo:foreachAcademicArticleHasPublicationVenueIterator>
+      <p>
+      <vivo:foreachAcademicArticleDoiIterator>
+         <b>DOI:</b> <a href="http://dx.doi.org/<vivo:AcademicArticleDoi />"><vivo:AcademicArticleDoi /></a>
+      </vivo:foreachAcademicArticleDoiIterator>
+      
    <h3>Authors</h3>
       <ol class=bulletedList>
       <vivo:foreachAcademicArticleRelatedByIterator classFilter="Authorship">
          <c:set var="auth"><vivo:AcademicArticleRelatedBy/></c:set>
          <vivo:Authorship subjectURI="${auth}">
-            <vivo:foreachAuthorshipRelatesIterator classFilter="Person">
+            <vivo:foreachAuthorshipRelatesIterator classFilter="Person Individual">
+               <c:set var="type"><vivo:AuthorshipRelatesType/></c:set>
                <c:set var="person"><vivo:AuthorshipRelates/></c:set>
-               <vivo:Person subjectURI="${person}">
-                  <li><a href="../Person/altPerson.jsp?uri=<vivo:PersonSubjectURI/>"><vivo:PersonLabel/></a>
-               </vivo:Person>
-            </vivo:foreachAuthorshipRelatesIterator>
+               <c:choose>
+               	<c:when test="${type == 'Person'}">
+	               <vivo:Person subjectURI="${person}">
+	                  <li><a href="../Person/altPerson.jsp?uri=<vivo:PersonSubjectURI/>"><vivo:PersonLabel/></a>
+	               </vivo:Person>
+               	</c:when>
+               	<c:when test="${type == 'Individual'}">
+               		<vivo:Individual subjectURI="${person}">
+               			<vivo:foreachIndividualHasNameIterator>
+           					<c:set var="name"><vivo:IndividualHasName/></c:set>
+               				<vivo:Name subjectURI="${name}">
+               					<li><vivo:foreachNameFamilyNameIterator><vivo:NameFamilyName/></vivo:foreachNameFamilyNameIterator>, <vivo:foreachNameGivenNameIterator><vivo:NameGivenName/></vivo:foreachNameGivenNameIterator>
+               				</vivo:Name>
+               			</vivo:foreachIndividualHasNameIterator>
+               		</vivo:Individual>
+               	</c:when>
+               </c:choose>
+             </vivo:foreachAuthorshipRelatesIterator>
          </vivo:Authorship>
       </vivo:foreachAcademicArticleRelatedByIterator>
       </ol>

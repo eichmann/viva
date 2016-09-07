@@ -7,26 +7,26 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
-<title>ConferencePaper - http://vivoweb.org/ontology/core#ConferencePaper</title>
+<title>Chapter - http://purl.org/ontology/bibo/Chapter</title>
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
-   <p><a href="ConferencePaper.jsp?uri=${param.uri}">generated view</a></p>
-   <vivo:ConferencePaper subjectURI="${param.uri}">
+   <p><a href="Chapter.jsp?uri=${param.uri}">generated view</a></p>
+   <vivo:Chapter subjectURI="${param.uri}">
 
-      <h2><vivo:ConferencePaperLabel /></h2>
-      <vivo:foreachConferencePaperHasPublicationVenueIterator>
-         <vivo:ConferencePaperHasPublicationVenue />
-      </vivo:foreachConferencePaperHasPublicationVenueIterator>
+      <h2><vivo:ChapterLabel /></h2>
+      <vivo:foreachChapterHasPublicationVenueIterator>
+         <vivo:ChapterHasPublicationVenue />
+      </vivo:foreachChapterHasPublicationVenueIterator>
       <p>
-      <vivo:foreachConferencePaperDoiIterator>
-         <b>DOI:</b> <a href="http://dx.doi.org/<vivo:ConferencePaperDoi />"><vivo:ConferencePaperDoi /></a>
-      </vivo:foreachConferencePaperDoiIterator>
+      <vivo:foreachChapterDoiIterator>
+         <b>DOI:</b> <a href="http://dx.doi.org/<vivo:ChapterDoi />"><vivo:ChapterDoi /></a>
+      </vivo:foreachChapterDoiIterator>
       
    <h3>Authors</h3>
       <ol class=bulletedList>
-      <vivo:foreachConferencePaperRelatedByIterator classFilter="Authorship">
-         <c:set var="auth"><vivo:ConferencePaperRelatedBy/></c:set>
+      <vivo:foreachChapterRelatedByIterator classFilter="Authorship">
+         <c:set var="auth"><vivo:ChapterRelatedBy/></c:set>
          <vivo:Authorship subjectURI="${auth}">
             <vivo:foreachAuthorshipRelatesIterator classFilter="Person">
                <c:set var="person"><vivo:AuthorshipRelates/></c:set>
@@ -35,9 +35,9 @@
                </vivo:Person>
             </vivo:foreachAuthorshipRelatesIterator>
          </vivo:Authorship>
-      </vivo:foreachConferencePaperRelatedByIterator>
+      </vivo:foreachChapterRelatedByIterator>
       </ol>
-   </vivo:ConferencePaper>
+   </vivo:Chapter>
 
 <jsp:include page="/footer.jsp" flush="true" /></div></div></body>
 </html>

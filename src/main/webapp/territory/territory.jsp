@@ -36,18 +36,18 @@
       <vivo:foreachterritoryGeographicFocusOfIterator>
          <tr><td>geographicFocusOf</td><td><a href="../<vivo:territoryGeographicFocusOfType/>/<vivo:territoryGeographicFocusOfType/>.jsp?uri=<vivo:territoryGeographicFocusOf/>"><vivo:territoryGeographicFocusOf /></a></td></tr>
       </vivo:foreachterritoryGeographicFocusOfIterator>
-      <vivo:foreachterritoryIsSuccessorOfIterator>
-         <tr><td>isSuccessorOf</td><td><a href="../<vivo:territoryIsSuccessorOfType/>/<vivo:territoryIsSuccessorOfType/>.jsp?uri=<vivo:territoryIsSuccessorOf/>"><vivo:territoryIsSuccessorOf /></a></td></tr>
-      </vivo:foreachterritoryIsSuccessorOfIterator>
-      <vivo:foreachterritoryIsPredecessorOfIterator>
-         <tr><td>isPredecessorOf</td><td><a href="../<vivo:territoryIsPredecessorOfType/>/<vivo:territoryIsPredecessorOfType/>.jsp?uri=<vivo:territoryIsPredecessorOf/>"><vivo:territoryIsPredecessorOf /></a></td></tr>
-      </vivo:foreachterritoryIsPredecessorOfIterator>
       <vivo:foreachterritoryRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:territoryRO_0000056Type/>/<vivo:territoryRO_0000056Type/>.jsp?uri=<vivo:territoryRO_0000056/>"><vivo:territoryRO_0000056 /></a></td></tr>
       </vivo:foreachterritoryRO_0000056Iterator>
       <vivo:foreachterritoryRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:territoryRO_0000053Type/>/<vivo:territoryRO_0000053Type/>.jsp?uri=<vivo:territoryRO_0000053/>"><vivo:territoryRO_0000053 /></a></td></tr>
       </vivo:foreachterritoryRO_0000053Iterator>
+      <vivo:foreachterritoryIsSuccessorOfIterator>
+         <tr><td>isSuccessorOf</td><td><a href="../<vivo:territoryIsSuccessorOfType/>/<vivo:territoryIsSuccessorOfType/>.jsp?uri=<vivo:territoryIsSuccessorOf/>"><vivo:territoryIsSuccessorOf /></a></td></tr>
+      </vivo:foreachterritoryIsSuccessorOfIterator>
+      <vivo:foreachterritoryIsPredecessorOfIterator>
+         <tr><td>isPredecessorOf</td><td><a href="../<vivo:territoryIsPredecessorOfType/>/<vivo:territoryIsPredecessorOfType/>.jsp?uri=<vivo:territoryIsPredecessorOf/>"><vivo:territoryIsPredecessorOf /></a></td></tr>
+      </vivo:foreachterritoryIsPredecessorOfIterator>
    </table>
    </vivo:territory>
 

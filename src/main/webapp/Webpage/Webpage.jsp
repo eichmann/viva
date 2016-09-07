@@ -26,6 +26,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <vivo:foreachWebpageTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:WebpageTheAbstract /></td></tr>
+      </vivo:foreachWebpageTheAbstractIterator>
+      <vivo:foreachWebpageDoiIterator>
+         <tr><td>doi</td><td><vivo:WebpageDoi /></td></tr>
+      </vivo:foreachWebpageDoiIterator>
       <vivo:foreachWebpagePmidIterator>
          <tr><td>pmid</td><td><vivo:WebpagePmid /></td></tr>
       </vivo:foreachWebpagePmidIterator>
@@ -35,16 +41,22 @@
       <vivo:foreachWebpageVolumeIterator>
          <tr><td>volume</td><td><vivo:WebpageVolume /></td></tr>
       </vivo:foreachWebpageVolumeIterator>
-      <vivo:foreachWebpageTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:WebpageTheAbstract /></td></tr>
-      </vivo:foreachWebpageTheAbstractIterator>
-      <vivo:foreachWebpageDoiIterator>
-         <tr><td>doi</td><td><vivo:WebpageDoi /></td></tr>
-      </vivo:foreachWebpageDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachWebpageTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:WebpageTranslatorType/>/<vivo:WebpageTranslatorType/>.jsp?uri=<vivo:WebpageTranslator/>"><vivo:WebpageTranslator /></a></td></tr>
+      </vivo:foreachWebpageTranslatorIterator>
+      <vivo:foreachWebpageFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:WebpageFeaturesType/>/<vivo:WebpageFeaturesType/>.jsp?uri=<vivo:WebpageFeatures/>"><vivo:WebpageFeatures /></a></td></tr>
+      </vivo:foreachWebpageFeaturesIterator>
+      <vivo:foreachWebpageInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:WebpageInformationResourceSupportedByType/>/<vivo:WebpageInformationResourceSupportedByType/>.jsp?uri=<vivo:WebpageInformationResourceSupportedBy/>"><vivo:WebpageInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachWebpageInformationResourceSupportedByIterator>
+      <vivo:foreachWebpageIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:WebpageIAO_0000136Type/>/<vivo:WebpageIAO_0000136Type/>.jsp?uri=<vivo:WebpageIAO_0000136/>"><vivo:WebpageIAO_0000136 /></a></td></tr>
+      </vivo:foreachWebpageIAO_0000136Iterator>
       <vivo:foreachWebpageRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:WebpageRO_0000056Type/>/<vivo:WebpageRO_0000056Type/>.jsp?uri=<vivo:WebpageRO_0000056/>"><vivo:WebpageRO_0000056 /></a></td></tr>
       </vivo:foreachWebpageRO_0000056Iterator>
@@ -75,18 +87,6 @@
       <vivo:foreachWebpageCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:WebpageCitesType/>/<vivo:WebpageCitesType/>.jsp?uri=<vivo:WebpageCites/>"><vivo:WebpageCites /></a></td></tr>
       </vivo:foreachWebpageCitesIterator>
-      <vivo:foreachWebpageTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:WebpageTranslatorType/>/<vivo:WebpageTranslatorType/>.jsp?uri=<vivo:WebpageTranslator/>"><vivo:WebpageTranslator /></a></td></tr>
-      </vivo:foreachWebpageTranslatorIterator>
-      <vivo:foreachWebpageFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:WebpageFeaturesType/>/<vivo:WebpageFeaturesType/>.jsp?uri=<vivo:WebpageFeatures/>"><vivo:WebpageFeatures /></a></td></tr>
-      </vivo:foreachWebpageFeaturesIterator>
-      <vivo:foreachWebpageInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:WebpageInformationResourceSupportedByType/>/<vivo:WebpageInformationResourceSupportedByType/>.jsp?uri=<vivo:WebpageInformationResourceSupportedBy/>"><vivo:WebpageInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachWebpageInformationResourceSupportedByIterator>
-      <vivo:foreachWebpageIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:WebpageIAO_0000136Type/>/<vivo:WebpageIAO_0000136Type/>.jsp?uri=<vivo:WebpageIAO_0000136/>"><vivo:WebpageIAO_0000136 /></a></td></tr>
-      </vivo:foreachWebpageIAO_0000136Iterator>
    </table>
    </vivo:Webpage>
 

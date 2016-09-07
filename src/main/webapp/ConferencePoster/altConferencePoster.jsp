@@ -7,14 +7,19 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
-<title>ConferencePoster - http://purl.org/ontology/bibo/ConferencePoster</title>
+<title>ConferencePoster - http://vivoweb.org/ontology/core#ConferencePoster</title>
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="ConferencePoster.jsp?uri=${param.uri}">generated view</a></p>
    <vivo:ConferencePoster subjectURI="${param.uri}">
 
-      <h1><vivo:ConferencePosterLabel /></h1>
+      <h2><vivo:ConferencePosterLabel /></h2>
+      <p>
+      <vivo:foreachConferencePosterDoiIterator>
+         <b>DOI:</b> <a href="http://dx.doi.org/<vivo:ConferencePosterDoi />"><vivo:ConferencePosterDoi /></a>
+      </vivo:foreachConferencePosterDoiIterator>
+      
   <h3>Authors</h3>
       <ol class=bulletedList>
       <vivo:foreachConferencePosterRelatedByIterator classFilter="Authorship">

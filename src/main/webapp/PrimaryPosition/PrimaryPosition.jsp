@@ -39,18 +39,18 @@
       <vivo:foreachPrimaryPositionRelatesIterator>
          <tr><td>relates</td><td><a href="../<vivo:PrimaryPositionRelatesType/>/<vivo:PrimaryPositionRelatesType/>.jsp?uri=<vivo:PrimaryPositionRelates/>"><vivo:PrimaryPositionRelates /></a></td></tr>
       </vivo:foreachPrimaryPositionRelatesIterator>
-      <vivo:foreachPrimaryPositionDateTimeIntervalIterator>
-         <tr><td>dateTimeInterval</td><td><a href="../<vivo:PrimaryPositionDateTimeIntervalType/>/<vivo:PrimaryPositionDateTimeIntervalType/>.jsp?uri=<vivo:PrimaryPositionDateTimeInterval/>"><vivo:PrimaryPositionDateTimeInterval /></a></td></tr>
-      </vivo:foreachPrimaryPositionDateTimeIntervalIterator>
-      <vivo:foreachPrimaryPositionRelatesIterator>
-         <tr><td>relates</td><td><a href="../<vivo:PrimaryPositionRelatesType/>/<vivo:PrimaryPositionRelatesType/>.jsp?uri=<vivo:PrimaryPositionRelates/>"><vivo:PrimaryPositionRelates /></a></td></tr>
-      </vivo:foreachPrimaryPositionRelatesIterator>
       <vivo:foreachPrimaryPositionRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<vivo:PrimaryPositionRO_0000052Type/>/<vivo:PrimaryPositionRO_0000052Type/>.jsp?uri=<vivo:PrimaryPositionRO_0000052/>"><vivo:PrimaryPositionRO_0000052 /></a></td></tr>
       </vivo:foreachPrimaryPositionRO_0000052Iterator>
       <vivo:foreachPrimaryPositionRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:PrimaryPositionRO_0000056Type/>/<vivo:PrimaryPositionRO_0000056Type/>.jsp?uri=<vivo:PrimaryPositionRO_0000056/>"><vivo:PrimaryPositionRO_0000056 /></a></td></tr>
       </vivo:foreachPrimaryPositionRO_0000056Iterator>
+      <vivo:foreachPrimaryPositionDateTimeIntervalIterator>
+         <tr><td>dateTimeInterval</td><td><a href="../<vivo:PrimaryPositionDateTimeIntervalType/>/<vivo:PrimaryPositionDateTimeIntervalType/>.jsp?uri=<vivo:PrimaryPositionDateTimeInterval/>"><vivo:PrimaryPositionDateTimeInterval /></a></td></tr>
+      </vivo:foreachPrimaryPositionDateTimeIntervalIterator>
+      <vivo:foreachPrimaryPositionRelatesIterator>
+         <tr><td>relates</td><td><a href="../<vivo:PrimaryPositionRelatesType/>/<vivo:PrimaryPositionRelatesType/>.jsp?uri=<vivo:PrimaryPositionRelates/>"><vivo:PrimaryPositionRelates /></a></td></tr>
+      </vivo:foreachPrimaryPositionRelatesIterator>
    </table>
    </vivo:PrimaryPosition>
 

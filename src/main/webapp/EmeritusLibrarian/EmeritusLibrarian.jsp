@@ -55,6 +55,9 @@
       <vivo:foreachEmeritusLibrarianRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:EmeritusLibrarianRO_0000053Type/>/<vivo:EmeritusLibrarianRO_0000053Type/>.jsp?uri=<vivo:EmeritusLibrarianRO_0000053/>"><vivo:EmeritusLibrarianRO_0000053 /></a></td></tr>
       </vivo:foreachEmeritusLibrarianRO_0000053Iterator>
+      <vivo:foreachEmeritusLibrarianRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:EmeritusLibrarianRO_0000056Type/>/<vivo:EmeritusLibrarianRO_0000056Type/>.jsp?uri=<vivo:EmeritusLibrarianRO_0000056/>"><vivo:EmeritusLibrarianRO_0000056 /></a></td></tr>
+      </vivo:foreachEmeritusLibrarianRO_0000056Iterator>
       <vivo:foreachEmeritusLibrarianAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:EmeritusLibrarianAssigneeForType/>/<vivo:EmeritusLibrarianAssigneeForType/>.jsp?uri=<vivo:EmeritusLibrarianAssigneeFor/>"><vivo:EmeritusLibrarianAssigneeFor /></a></td></tr>
       </vivo:foreachEmeritusLibrarianAssigneeForIterator>
@@ -85,9 +88,6 @@
       <vivo:foreachEmeritusLibrarianOrcidIdIterator>
          <tr><td>orcidId</td><td><a href="../<vivo:EmeritusLibrarianOrcidIdType/>/<vivo:EmeritusLibrarianOrcidIdType/>.jsp?uri=<vivo:EmeritusLibrarianOrcidId/>"><vivo:EmeritusLibrarianOrcidId /></a></td></tr>
       </vivo:foreachEmeritusLibrarianOrcidIdIterator>
-      <vivo:foreachEmeritusLibrarianRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:EmeritusLibrarianRO_0000056Type/>/<vivo:EmeritusLibrarianRO_0000056Type/>.jsp?uri=<vivo:EmeritusLibrarianRO_0000056/>"><vivo:EmeritusLibrarianRO_0000056 /></a></td></tr>
-      </vivo:foreachEmeritusLibrarianRO_0000056Iterator>
    </table>
    </vivo:EmeritusLibrarian>
 

@@ -26,6 +26,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <vivo:foreachManualTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:ManualTheAbstract /></td></tr>
+      </vivo:foreachManualTheAbstractIterator>
+      <vivo:foreachManualDoiIterator>
+         <tr><td>doi</td><td><vivo:ManualDoi /></td></tr>
+      </vivo:foreachManualDoiIterator>
       <vivo:foreachManualPmidIterator>
          <tr><td>pmid</td><td><vivo:ManualPmid /></td></tr>
       </vivo:foreachManualPmidIterator>
@@ -35,16 +41,22 @@
       <vivo:foreachManualVolumeIterator>
          <tr><td>volume</td><td><vivo:ManualVolume /></td></tr>
       </vivo:foreachManualVolumeIterator>
-      <vivo:foreachManualTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:ManualTheAbstract /></td></tr>
-      </vivo:foreachManualTheAbstractIterator>
-      <vivo:foreachManualDoiIterator>
-         <tr><td>doi</td><td><vivo:ManualDoi /></td></tr>
-      </vivo:foreachManualDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachManualTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:ManualTranslatorType/>/<vivo:ManualTranslatorType/>.jsp?uri=<vivo:ManualTranslator/>"><vivo:ManualTranslator /></a></td></tr>
+      </vivo:foreachManualTranslatorIterator>
+      <vivo:foreachManualFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:ManualFeaturesType/>/<vivo:ManualFeaturesType/>.jsp?uri=<vivo:ManualFeatures/>"><vivo:ManualFeatures /></a></td></tr>
+      </vivo:foreachManualFeaturesIterator>
+      <vivo:foreachManualInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ManualInformationResourceSupportedByType/>/<vivo:ManualInformationResourceSupportedByType/>.jsp?uri=<vivo:ManualInformationResourceSupportedBy/>"><vivo:ManualInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachManualInformationResourceSupportedByIterator>
+      <vivo:foreachManualIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:ManualIAO_0000136Type/>/<vivo:ManualIAO_0000136Type/>.jsp?uri=<vivo:ManualIAO_0000136/>"><vivo:ManualIAO_0000136 /></a></td></tr>
+      </vivo:foreachManualIAO_0000136Iterator>
       <vivo:foreachManualRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:ManualRO_0000056Type/>/<vivo:ManualRO_0000056Type/>.jsp?uri=<vivo:ManualRO_0000056/>"><vivo:ManualRO_0000056 /></a></td></tr>
       </vivo:foreachManualRO_0000056Iterator>
@@ -75,18 +87,6 @@
       <vivo:foreachManualCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:ManualCitesType/>/<vivo:ManualCitesType/>.jsp?uri=<vivo:ManualCites/>"><vivo:ManualCites /></a></td></tr>
       </vivo:foreachManualCitesIterator>
-      <vivo:foreachManualTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:ManualTranslatorType/>/<vivo:ManualTranslatorType/>.jsp?uri=<vivo:ManualTranslator/>"><vivo:ManualTranslator /></a></td></tr>
-      </vivo:foreachManualTranslatorIterator>
-      <vivo:foreachManualFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:ManualFeaturesType/>/<vivo:ManualFeaturesType/>.jsp?uri=<vivo:ManualFeatures/>"><vivo:ManualFeatures /></a></td></tr>
-      </vivo:foreachManualFeaturesIterator>
-      <vivo:foreachManualInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ManualInformationResourceSupportedByType/>/<vivo:ManualInformationResourceSupportedByType/>.jsp?uri=<vivo:ManualInformationResourceSupportedBy/>"><vivo:ManualInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachManualInformationResourceSupportedByIterator>
-      <vivo:foreachManualIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:ManualIAO_0000136Type/>/<vivo:ManualIAO_0000136Type/>.jsp?uri=<vivo:ManualIAO_0000136/>"><vivo:ManualIAO_0000136 /></a></td></tr>
-      </vivo:foreachManualIAO_0000136Iterator>
    </table>
    </vivo:Manual>
 

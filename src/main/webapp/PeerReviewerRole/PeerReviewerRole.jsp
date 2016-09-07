@@ -30,18 +30,18 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachPeerReviewerRoleRoleContributesToIterator>
-         <tr><td>roleContributesTo</td><td><a href="../<vivo:PeerReviewerRoleRoleContributesToType/>/<vivo:PeerReviewerRoleRoleContributesToType/>.jsp?uri=<vivo:PeerReviewerRoleRoleContributesTo/>"><vivo:PeerReviewerRoleRoleContributesTo /></a></td></tr>
-      </vivo:foreachPeerReviewerRoleRoleContributesToIterator>
-      <vivo:foreachPeerReviewerRoleBFO_0000054Iterator>
-         <tr><td>BFO_0000054</td><td><a href="../<vivo:PeerReviewerRoleBFO_0000054Type/>/<vivo:PeerReviewerRoleBFO_0000054Type/>.jsp?uri=<vivo:PeerReviewerRoleBFO_0000054/>"><vivo:PeerReviewerRoleBFO_0000054 /></a></td></tr>
-      </vivo:foreachPeerReviewerRoleBFO_0000054Iterator>
       <vivo:foreachPeerReviewerRoleRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<vivo:PeerReviewerRoleRO_0000052Type/>/<vivo:PeerReviewerRoleRO_0000052Type/>.jsp?uri=<vivo:PeerReviewerRoleRO_0000052/>"><vivo:PeerReviewerRoleRO_0000052 /></a></td></tr>
       </vivo:foreachPeerReviewerRoleRO_0000052Iterator>
       <vivo:foreachPeerReviewerRoleRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:PeerReviewerRoleRO_0000056Type/>/<vivo:PeerReviewerRoleRO_0000056Type/>.jsp?uri=<vivo:PeerReviewerRoleRO_0000056/>"><vivo:PeerReviewerRoleRO_0000056 /></a></td></tr>
       </vivo:foreachPeerReviewerRoleRO_0000056Iterator>
+      <vivo:foreachPeerReviewerRoleRoleContributesToIterator>
+         <tr><td>roleContributesTo</td><td><a href="../<vivo:PeerReviewerRoleRoleContributesToType/>/<vivo:PeerReviewerRoleRoleContributesToType/>.jsp?uri=<vivo:PeerReviewerRoleRoleContributesTo/>"><vivo:PeerReviewerRoleRoleContributesTo /></a></td></tr>
+      </vivo:foreachPeerReviewerRoleRoleContributesToIterator>
+      <vivo:foreachPeerReviewerRoleBFO_0000054Iterator>
+         <tr><td>BFO_0000054</td><td><a href="../<vivo:PeerReviewerRoleBFO_0000054Type/>/<vivo:PeerReviewerRoleBFO_0000054Type/>.jsp?uri=<vivo:PeerReviewerRoleBFO_0000054/>"><vivo:PeerReviewerRoleBFO_0000054 /></a></td></tr>
+      </vivo:foreachPeerReviewerRoleBFO_0000054Iterator>
    </table>
    </vivo:PeerReviewerRole>
 

@@ -52,6 +52,18 @@
       <vivo:foreachJournalPublisherIterator>
          <tr><td>publisher</td><td><a href="../<vivo:JournalPublisherType/>/<vivo:JournalPublisherType/>.jsp?uri=<vivo:JournalPublisher/>"><vivo:JournalPublisher /></a></td></tr>
       </vivo:foreachJournalPublisherIterator>
+      <vivo:foreachJournalTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:JournalTranslatorType/>/<vivo:JournalTranslatorType/>.jsp?uri=<vivo:JournalTranslator/>"><vivo:JournalTranslator /></a></td></tr>
+      </vivo:foreachJournalTranslatorIterator>
+      <vivo:foreachJournalFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:JournalFeaturesType/>/<vivo:JournalFeaturesType/>.jsp?uri=<vivo:JournalFeatures/>"><vivo:JournalFeatures /></a></td></tr>
+      </vivo:foreachJournalFeaturesIterator>
+      <vivo:foreachJournalInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:JournalInformationResourceSupportedByType/>/<vivo:JournalInformationResourceSupportedByType/>.jsp?uri=<vivo:JournalInformationResourceSupportedBy/>"><vivo:JournalInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachJournalInformationResourceSupportedByIterator>
+      <vivo:foreachJournalIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:JournalIAO_0000136Type/>/<vivo:JournalIAO_0000136Type/>.jsp?uri=<vivo:JournalIAO_0000136/>"><vivo:JournalIAO_0000136 /></a></td></tr>
+      </vivo:foreachJournalIAO_0000136Iterator>
       <vivo:foreachJournalDateTimeValueIterator>
          <tr><td>dateTimeValue</td><td><a href="../<vivo:JournalDateTimeValueType/>/<vivo:JournalDateTimeValueType/>.jsp?uri=<vivo:JournalDateTimeValue/>"><vivo:JournalDateTimeValue /></a></td></tr>
       </vivo:foreachJournalDateTimeValueIterator>
@@ -67,18 +79,6 @@
       <vivo:foreachJournalRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:JournalRO_0000056Type/>/<vivo:JournalRO_0000056Type/>.jsp?uri=<vivo:JournalRO_0000056/>"><vivo:JournalRO_0000056 /></a></td></tr>
       </vivo:foreachJournalRO_0000056Iterator>
-      <vivo:foreachJournalTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:JournalTranslatorType/>/<vivo:JournalTranslatorType/>.jsp?uri=<vivo:JournalTranslator/>"><vivo:JournalTranslator /></a></td></tr>
-      </vivo:foreachJournalTranslatorIterator>
-      <vivo:foreachJournalFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:JournalFeaturesType/>/<vivo:JournalFeaturesType/>.jsp?uri=<vivo:JournalFeatures/>"><vivo:JournalFeatures /></a></td></tr>
-      </vivo:foreachJournalFeaturesIterator>
-      <vivo:foreachJournalInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:JournalInformationResourceSupportedByType/>/<vivo:JournalInformationResourceSupportedByType/>.jsp?uri=<vivo:JournalInformationResourceSupportedBy/>"><vivo:JournalInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachJournalInformationResourceSupportedByIterator>
-      <vivo:foreachJournalIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:JournalIAO_0000136Type/>/<vivo:JournalIAO_0000136Type/>.jsp?uri=<vivo:JournalIAO_0000136/>"><vivo:JournalIAO_0000136 /></a></td></tr>
-      </vivo:foreachJournalIAO_0000136Iterator>
    </table>
    </vivo:Journal>
 

@@ -35,6 +35,9 @@
       <vivo:foreachMuseumRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:MuseumRO_0000053Type/>/<vivo:MuseumRO_0000053Type/>.jsp?uri=<vivo:MuseumRO_0000053/>"><vivo:MuseumRO_0000053 /></a></td></tr>
       </vivo:foreachMuseumRO_0000053Iterator>
+      <vivo:foreachMuseumRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:MuseumRO_0000056Type/>/<vivo:MuseumRO_0000056Type/>.jsp?uri=<vivo:MuseumRO_0000056/>"><vivo:MuseumRO_0000056 /></a></td></tr>
+      </vivo:foreachMuseumRO_0000056Iterator>
       <vivo:foreachMuseumAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:MuseumAssigneeForType/>/<vivo:MuseumAssigneeForType/>.jsp?uri=<vivo:MuseumAssigneeFor/>"><vivo:MuseumAssigneeFor /></a></td></tr>
       </vivo:foreachMuseumAssigneeForIterator>
@@ -77,9 +80,6 @@
       <vivo:foreachMuseumAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:MuseumAffiliatedOrganizationType/>/<vivo:MuseumAffiliatedOrganizationType/>.jsp?uri=<vivo:MuseumAffiliatedOrganization/>"><vivo:MuseumAffiliatedOrganization /></a></td></tr>
       </vivo:foreachMuseumAffiliatedOrganizationIterator>
-      <vivo:foreachMuseumRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:MuseumRO_0000056Type/>/<vivo:MuseumRO_0000056Type/>.jsp?uri=<vivo:MuseumRO_0000056/>"><vivo:MuseumRO_0000056 /></a></td></tr>
-      </vivo:foreachMuseumRO_0000056Iterator>
    </table>
    </vivo:Museum>
 

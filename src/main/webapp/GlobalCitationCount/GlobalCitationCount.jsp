@@ -45,9 +45,9 @@
       <vivo:foreachGlobalCitationCountHasGlobalCountDateIterator>
          <tr><td>hasGlobalCountDate</td><td><a href="../<vivo:GlobalCitationCountHasGlobalCountDateType/>/<vivo:GlobalCitationCountHasGlobalCountDateType/>.jsp?uri=<vivo:GlobalCitationCountHasGlobalCountDate/>"><vivo:GlobalCitationCountHasGlobalCountDate /></a></td></tr>
       </vivo:foreachGlobalCitationCountHasGlobalCountDateIterator>
-      <vivo:foreachGlobalCitationCountIAO_0000221Iterator>
-         <tr><td>IAO_0000221</td><td><a href="../<vivo:GlobalCitationCountIAO_0000221Type/>/<vivo:GlobalCitationCountIAO_0000221Type/>.jsp?uri=<vivo:GlobalCitationCountIAO_0000221/>"><vivo:GlobalCitationCountIAO_0000221 /></a></td></tr>
-      </vivo:foreachGlobalCitationCountIAO_0000221Iterator>
+      <vivo:foreachGlobalCitationCountRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:GlobalCitationCountRO_0000056Type/>/<vivo:GlobalCitationCountRO_0000056Type/>.jsp?uri=<vivo:GlobalCitationCountRO_0000056/>"><vivo:GlobalCitationCountRO_0000056 /></a></td></tr>
+      </vivo:foreachGlobalCitationCountRO_0000056Iterator>
       <vivo:foreachGlobalCitationCountTranslatorIterator>
          <tr><td>translator</td><td><a href="../<vivo:GlobalCitationCountTranslatorType/>/<vivo:GlobalCitationCountTranslatorType/>.jsp?uri=<vivo:GlobalCitationCountTranslator/>"><vivo:GlobalCitationCountTranslator /></a></td></tr>
       </vivo:foreachGlobalCitationCountTranslatorIterator>
@@ -60,9 +60,9 @@
       <vivo:foreachGlobalCitationCountIAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<vivo:GlobalCitationCountIAO_0000136Type/>/<vivo:GlobalCitationCountIAO_0000136Type/>.jsp?uri=<vivo:GlobalCitationCountIAO_0000136/>"><vivo:GlobalCitationCountIAO_0000136 /></a></td></tr>
       </vivo:foreachGlobalCitationCountIAO_0000136Iterator>
-      <vivo:foreachGlobalCitationCountRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:GlobalCitationCountRO_0000056Type/>/<vivo:GlobalCitationCountRO_0000056Type/>.jsp?uri=<vivo:GlobalCitationCountRO_0000056/>"><vivo:GlobalCitationCountRO_0000056 /></a></td></tr>
-      </vivo:foreachGlobalCitationCountRO_0000056Iterator>
+      <vivo:foreachGlobalCitationCountIAO_0000221Iterator>
+         <tr><td>IAO_0000221</td><td><a href="../<vivo:GlobalCitationCountIAO_0000221Type/>/<vivo:GlobalCitationCountIAO_0000221Type/>.jsp?uri=<vivo:GlobalCitationCountIAO_0000221/>"><vivo:GlobalCitationCountIAO_0000221 /></a></td></tr>
+      </vivo:foreachGlobalCitationCountIAO_0000221Iterator>
    </table>
    </vivo:GlobalCitationCount>
 

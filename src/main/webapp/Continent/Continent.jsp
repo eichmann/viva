@@ -120,12 +120,12 @@
       <vivo:foreachContinentRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:ContinentRO_0000053Type/>/<vivo:ContinentRO_0000053Type/>.jsp?uri=<vivo:ContinentRO_0000053/>"><vivo:ContinentRO_0000053 /></a></td></tr>
       </vivo:foreachContinentRO_0000053Iterator>
-      <vivo:foreachContinentGeographicFocusOfIterator>
-         <tr><td>geographicFocusOf</td><td><a href="../<vivo:ContinentGeographicFocusOfType/>/<vivo:ContinentGeographicFocusOfType/>.jsp?uri=<vivo:ContinentGeographicFocusOf/>"><vivo:ContinentGeographicFocusOf /></a></td></tr>
-      </vivo:foreachContinentGeographicFocusOfIterator>
       <vivo:foreachContinentRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:ContinentRO_0000056Type/>/<vivo:ContinentRO_0000056Type/>.jsp?uri=<vivo:ContinentRO_0000056/>"><vivo:ContinentRO_0000056 /></a></td></tr>
       </vivo:foreachContinentRO_0000056Iterator>
+      <vivo:foreachContinentGeographicFocusOfIterator>
+         <tr><td>geographicFocusOf</td><td><a href="../<vivo:ContinentGeographicFocusOfType/>/<vivo:ContinentGeographicFocusOfType/>.jsp?uri=<vivo:ContinentGeographicFocusOf/>"><vivo:ContinentGeographicFocusOf /></a></td></tr>
+      </vivo:foreachContinentGeographicFocusOfIterator>
    </table>
    </vivo:Continent>
 

@@ -14,7 +14,12 @@
    <p><a href="Slideshow.jsp?uri=${param.uri}">generated view</a></p>
    <vivo:Slideshow subjectURI="${param.uri}">
 
-      <h1><vivo:SlideshowLabel /></h1>
+      <h2><vivo:SlideshowLabel /></h2>
+      <p>
+      <vivo:foreachSlideshowDoiIterator>
+         <b>DOI:</b> <a href="http://dx.doi.org/<vivo:SlideshowDoi />"><vivo:SlideshowDoi /></a>
+      </vivo:foreachSlideshowDoiIterator>
+      
     <h3>Authors</h3>
       <ol class=bulletedList>
       <vivo:foreachSlideshowRelatedByIterator classFilter="Authorship">

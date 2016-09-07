@@ -26,6 +26,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <vivo:foreachCaseStudyTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:CaseStudyTheAbstract /></td></tr>
+      </vivo:foreachCaseStudyTheAbstractIterator>
+      <vivo:foreachCaseStudyDoiIterator>
+         <tr><td>doi</td><td><vivo:CaseStudyDoi /></td></tr>
+      </vivo:foreachCaseStudyDoiIterator>
       <vivo:foreachCaseStudyPmidIterator>
          <tr><td>pmid</td><td><vivo:CaseStudyPmid /></td></tr>
       </vivo:foreachCaseStudyPmidIterator>
@@ -35,16 +41,22 @@
       <vivo:foreachCaseStudyVolumeIterator>
          <tr><td>volume</td><td><vivo:CaseStudyVolume /></td></tr>
       </vivo:foreachCaseStudyVolumeIterator>
-      <vivo:foreachCaseStudyTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:CaseStudyTheAbstract /></td></tr>
-      </vivo:foreachCaseStudyTheAbstractIterator>
-      <vivo:foreachCaseStudyDoiIterator>
-         <tr><td>doi</td><td><vivo:CaseStudyDoi /></td></tr>
-      </vivo:foreachCaseStudyDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachCaseStudyTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:CaseStudyTranslatorType/>/<vivo:CaseStudyTranslatorType/>.jsp?uri=<vivo:CaseStudyTranslator/>"><vivo:CaseStudyTranslator /></a></td></tr>
+      </vivo:foreachCaseStudyTranslatorIterator>
+      <vivo:foreachCaseStudyFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:CaseStudyFeaturesType/>/<vivo:CaseStudyFeaturesType/>.jsp?uri=<vivo:CaseStudyFeatures/>"><vivo:CaseStudyFeatures /></a></td></tr>
+      </vivo:foreachCaseStudyFeaturesIterator>
+      <vivo:foreachCaseStudyInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:CaseStudyInformationResourceSupportedByType/>/<vivo:CaseStudyInformationResourceSupportedByType/>.jsp?uri=<vivo:CaseStudyInformationResourceSupportedBy/>"><vivo:CaseStudyInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachCaseStudyInformationResourceSupportedByIterator>
+      <vivo:foreachCaseStudyIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:CaseStudyIAO_0000136Type/>/<vivo:CaseStudyIAO_0000136Type/>.jsp?uri=<vivo:CaseStudyIAO_0000136/>"><vivo:CaseStudyIAO_0000136 /></a></td></tr>
+      </vivo:foreachCaseStudyIAO_0000136Iterator>
       <vivo:foreachCaseStudyRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:CaseStudyRO_0000056Type/>/<vivo:CaseStudyRO_0000056Type/>.jsp?uri=<vivo:CaseStudyRO_0000056/>"><vivo:CaseStudyRO_0000056 /></a></td></tr>
       </vivo:foreachCaseStudyRO_0000056Iterator>
@@ -75,18 +87,6 @@
       <vivo:foreachCaseStudyCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:CaseStudyCitesType/>/<vivo:CaseStudyCitesType/>.jsp?uri=<vivo:CaseStudyCites/>"><vivo:CaseStudyCites /></a></td></tr>
       </vivo:foreachCaseStudyCitesIterator>
-      <vivo:foreachCaseStudyTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:CaseStudyTranslatorType/>/<vivo:CaseStudyTranslatorType/>.jsp?uri=<vivo:CaseStudyTranslator/>"><vivo:CaseStudyTranslator /></a></td></tr>
-      </vivo:foreachCaseStudyTranslatorIterator>
-      <vivo:foreachCaseStudyFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:CaseStudyFeaturesType/>/<vivo:CaseStudyFeaturesType/>.jsp?uri=<vivo:CaseStudyFeatures/>"><vivo:CaseStudyFeatures /></a></td></tr>
-      </vivo:foreachCaseStudyFeaturesIterator>
-      <vivo:foreachCaseStudyInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:CaseStudyInformationResourceSupportedByType/>/<vivo:CaseStudyInformationResourceSupportedByType/>.jsp?uri=<vivo:CaseStudyInformationResourceSupportedBy/>"><vivo:CaseStudyInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachCaseStudyInformationResourceSupportedByIterator>
-      <vivo:foreachCaseStudyIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:CaseStudyIAO_0000136Type/>/<vivo:CaseStudyIAO_0000136Type/>.jsp?uri=<vivo:CaseStudyIAO_0000136/>"><vivo:CaseStudyIAO_0000136 /></a></td></tr>
-      </vivo:foreachCaseStudyIAO_0000136Iterator>
    </table>
    </vivo:CaseStudy>
 

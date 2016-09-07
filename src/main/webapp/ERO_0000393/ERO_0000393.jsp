@@ -26,31 +26,19 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <vivo:foreachERO_0000393ERO_0000046Iterator>
+         <tr><td>ERO_0000046</td><td><vivo:ERO_0000393ERO_0000046 /></td></tr>
+      </vivo:foreachERO_0000393ERO_0000046Iterator>
       <vivo:foreachERO_0000393TheAbstractIterator>
          <tr><td>theAbstract</td><td><vivo:ERO_0000393TheAbstract /></td></tr>
       </vivo:foreachERO_0000393TheAbstractIterator>
       <vivo:foreachERO_0000393DoiIterator>
          <tr><td>doi</td><td><vivo:ERO_0000393Doi /></td></tr>
       </vivo:foreachERO_0000393DoiIterator>
-      <vivo:foreachERO_0000393ERO_0000046Iterator>
-         <tr><td>ERO_0000046</td><td><vivo:ERO_0000393ERO_0000046 /></td></tr>
-      </vivo:foreachERO_0000393ERO_0000046Iterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachERO_0000393TranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:ERO_0000393TranslatorType/>/<vivo:ERO_0000393TranslatorType/>.jsp?uri=<vivo:ERO_0000393Translator/>"><vivo:ERO_0000393Translator /></a></td></tr>
-      </vivo:foreachERO_0000393TranslatorIterator>
-      <vivo:foreachERO_0000393FeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:ERO_0000393FeaturesType/>/<vivo:ERO_0000393FeaturesType/>.jsp?uri=<vivo:ERO_0000393Features/>"><vivo:ERO_0000393Features /></a></td></tr>
-      </vivo:foreachERO_0000393FeaturesIterator>
-      <vivo:foreachERO_0000393InformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ERO_0000393InformationResourceSupportedByType/>/<vivo:ERO_0000393InformationResourceSupportedByType/>.jsp?uri=<vivo:ERO_0000393InformationResourceSupportedBy/>"><vivo:ERO_0000393InformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachERO_0000393InformationResourceSupportedByIterator>
-      <vivo:foreachERO_0000393IAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:ERO_0000393IAO_0000136Type/>/<vivo:ERO_0000393IAO_0000136Type/>.jsp?uri=<vivo:ERO_0000393IAO_0000136/>"><vivo:ERO_0000393IAO_0000136 /></a></td></tr>
-      </vivo:foreachERO_0000393IAO_0000136Iterator>
       <vivo:foreachERO_0000393ERO_0000029Iterator>
          <tr><td>ERO_0000029</td><td><a href="../<vivo:ERO_0000393ERO_0000029Type/>/<vivo:ERO_0000393ERO_0000029Type/>.jsp?uri=<vivo:ERO_0000393ERO_0000029/>"><vivo:ERO_0000393ERO_0000029 /></a></td></tr>
       </vivo:foreachERO_0000393ERO_0000029Iterator>
@@ -63,6 +51,18 @@
       <vivo:foreachERO_0000393RO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:ERO_0000393RO_0000056Type/>/<vivo:ERO_0000393RO_0000056Type/>.jsp?uri=<vivo:ERO_0000393RO_0000056/>"><vivo:ERO_0000393RO_0000056 /></a></td></tr>
       </vivo:foreachERO_0000393RO_0000056Iterator>
+      <vivo:foreachERO_0000393TranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:ERO_0000393TranslatorType/>/<vivo:ERO_0000393TranslatorType/>.jsp?uri=<vivo:ERO_0000393Translator/>"><vivo:ERO_0000393Translator /></a></td></tr>
+      </vivo:foreachERO_0000393TranslatorIterator>
+      <vivo:foreachERO_0000393FeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:ERO_0000393FeaturesType/>/<vivo:ERO_0000393FeaturesType/>.jsp?uri=<vivo:ERO_0000393Features/>"><vivo:ERO_0000393Features /></a></td></tr>
+      </vivo:foreachERO_0000393FeaturesIterator>
+      <vivo:foreachERO_0000393InformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ERO_0000393InformationResourceSupportedByType/>/<vivo:ERO_0000393InformationResourceSupportedByType/>.jsp?uri=<vivo:ERO_0000393InformationResourceSupportedBy/>"><vivo:ERO_0000393InformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachERO_0000393InformationResourceSupportedByIterator>
+      <vivo:foreachERO_0000393IAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:ERO_0000393IAO_0000136Type/>/<vivo:ERO_0000393IAO_0000136Type/>.jsp?uri=<vivo:ERO_0000393IAO_0000136/>"><vivo:ERO_0000393IAO_0000136 /></a></td></tr>
+      </vivo:foreachERO_0000393IAO_0000136Iterator>
    </table>
    </vivo:ERO_0000393>
 

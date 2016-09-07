@@ -26,6 +26,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <vivo:foreachCollectedDocumentTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:CollectedDocumentTheAbstract /></td></tr>
+      </vivo:foreachCollectedDocumentTheAbstractIterator>
+      <vivo:foreachCollectedDocumentDoiIterator>
+         <tr><td>doi</td><td><vivo:CollectedDocumentDoi /></td></tr>
+      </vivo:foreachCollectedDocumentDoiIterator>
       <vivo:foreachCollectedDocumentPmidIterator>
          <tr><td>pmid</td><td><vivo:CollectedDocumentPmid /></td></tr>
       </vivo:foreachCollectedDocumentPmidIterator>
@@ -35,16 +41,22 @@
       <vivo:foreachCollectedDocumentVolumeIterator>
          <tr><td>volume</td><td><vivo:CollectedDocumentVolume /></td></tr>
       </vivo:foreachCollectedDocumentVolumeIterator>
-      <vivo:foreachCollectedDocumentTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:CollectedDocumentTheAbstract /></td></tr>
-      </vivo:foreachCollectedDocumentTheAbstractIterator>
-      <vivo:foreachCollectedDocumentDoiIterator>
-         <tr><td>doi</td><td><vivo:CollectedDocumentDoi /></td></tr>
-      </vivo:foreachCollectedDocumentDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachCollectedDocumentTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:CollectedDocumentTranslatorType/>/<vivo:CollectedDocumentTranslatorType/>.jsp?uri=<vivo:CollectedDocumentTranslator/>"><vivo:CollectedDocumentTranslator /></a></td></tr>
+      </vivo:foreachCollectedDocumentTranslatorIterator>
+      <vivo:foreachCollectedDocumentFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:CollectedDocumentFeaturesType/>/<vivo:CollectedDocumentFeaturesType/>.jsp?uri=<vivo:CollectedDocumentFeatures/>"><vivo:CollectedDocumentFeatures /></a></td></tr>
+      </vivo:foreachCollectedDocumentFeaturesIterator>
+      <vivo:foreachCollectedDocumentInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:CollectedDocumentInformationResourceSupportedByType/>/<vivo:CollectedDocumentInformationResourceSupportedByType/>.jsp?uri=<vivo:CollectedDocumentInformationResourceSupportedBy/>"><vivo:CollectedDocumentInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachCollectedDocumentInformationResourceSupportedByIterator>
+      <vivo:foreachCollectedDocumentIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:CollectedDocumentIAO_0000136Type/>/<vivo:CollectedDocumentIAO_0000136Type/>.jsp?uri=<vivo:CollectedDocumentIAO_0000136/>"><vivo:CollectedDocumentIAO_0000136 /></a></td></tr>
+      </vivo:foreachCollectedDocumentIAO_0000136Iterator>
       <vivo:foreachCollectedDocumentRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:CollectedDocumentRO_0000056Type/>/<vivo:CollectedDocumentRO_0000056Type/>.jsp?uri=<vivo:CollectedDocumentRO_0000056/>"><vivo:CollectedDocumentRO_0000056 /></a></td></tr>
       </vivo:foreachCollectedDocumentRO_0000056Iterator>
@@ -75,18 +87,6 @@
       <vivo:foreachCollectedDocumentCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:CollectedDocumentCitesType/>/<vivo:CollectedDocumentCitesType/>.jsp?uri=<vivo:CollectedDocumentCites/>"><vivo:CollectedDocumentCites /></a></td></tr>
       </vivo:foreachCollectedDocumentCitesIterator>
-      <vivo:foreachCollectedDocumentTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:CollectedDocumentTranslatorType/>/<vivo:CollectedDocumentTranslatorType/>.jsp?uri=<vivo:CollectedDocumentTranslator/>"><vivo:CollectedDocumentTranslator /></a></td></tr>
-      </vivo:foreachCollectedDocumentTranslatorIterator>
-      <vivo:foreachCollectedDocumentFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:CollectedDocumentFeaturesType/>/<vivo:CollectedDocumentFeaturesType/>.jsp?uri=<vivo:CollectedDocumentFeatures/>"><vivo:CollectedDocumentFeatures /></a></td></tr>
-      </vivo:foreachCollectedDocumentFeaturesIterator>
-      <vivo:foreachCollectedDocumentInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:CollectedDocumentInformationResourceSupportedByType/>/<vivo:CollectedDocumentInformationResourceSupportedByType/>.jsp?uri=<vivo:CollectedDocumentInformationResourceSupportedBy/>"><vivo:CollectedDocumentInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachCollectedDocumentInformationResourceSupportedByIterator>
-      <vivo:foreachCollectedDocumentIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:CollectedDocumentIAO_0000136Type/>/<vivo:CollectedDocumentIAO_0000136Type/>.jsp?uri=<vivo:CollectedDocumentIAO_0000136/>"><vivo:CollectedDocumentIAO_0000136 /></a></td></tr>
-      </vivo:foreachCollectedDocumentIAO_0000136Iterator>
    </table>
    </vivo:CollectedDocument>
 

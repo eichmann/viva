@@ -26,6 +26,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <vivo:foreachNewsReleaseTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:NewsReleaseTheAbstract /></td></tr>
+      </vivo:foreachNewsReleaseTheAbstractIterator>
+      <vivo:foreachNewsReleaseDoiIterator>
+         <tr><td>doi</td><td><vivo:NewsReleaseDoi /></td></tr>
+      </vivo:foreachNewsReleaseDoiIterator>
       <vivo:foreachNewsReleasePmidIterator>
          <tr><td>pmid</td><td><vivo:NewsReleasePmid /></td></tr>
       </vivo:foreachNewsReleasePmidIterator>
@@ -35,16 +41,22 @@
       <vivo:foreachNewsReleaseVolumeIterator>
          <tr><td>volume</td><td><vivo:NewsReleaseVolume /></td></tr>
       </vivo:foreachNewsReleaseVolumeIterator>
-      <vivo:foreachNewsReleaseTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:NewsReleaseTheAbstract /></td></tr>
-      </vivo:foreachNewsReleaseTheAbstractIterator>
-      <vivo:foreachNewsReleaseDoiIterator>
-         <tr><td>doi</td><td><vivo:NewsReleaseDoi /></td></tr>
-      </vivo:foreachNewsReleaseDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachNewsReleaseTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:NewsReleaseTranslatorType/>/<vivo:NewsReleaseTranslatorType/>.jsp?uri=<vivo:NewsReleaseTranslator/>"><vivo:NewsReleaseTranslator /></a></td></tr>
+      </vivo:foreachNewsReleaseTranslatorIterator>
+      <vivo:foreachNewsReleaseFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:NewsReleaseFeaturesType/>/<vivo:NewsReleaseFeaturesType/>.jsp?uri=<vivo:NewsReleaseFeatures/>"><vivo:NewsReleaseFeatures /></a></td></tr>
+      </vivo:foreachNewsReleaseFeaturesIterator>
+      <vivo:foreachNewsReleaseInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:NewsReleaseInformationResourceSupportedByType/>/<vivo:NewsReleaseInformationResourceSupportedByType/>.jsp?uri=<vivo:NewsReleaseInformationResourceSupportedBy/>"><vivo:NewsReleaseInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachNewsReleaseInformationResourceSupportedByIterator>
+      <vivo:foreachNewsReleaseIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:NewsReleaseIAO_0000136Type/>/<vivo:NewsReleaseIAO_0000136Type/>.jsp?uri=<vivo:NewsReleaseIAO_0000136/>"><vivo:NewsReleaseIAO_0000136 /></a></td></tr>
+      </vivo:foreachNewsReleaseIAO_0000136Iterator>
       <vivo:foreachNewsReleaseRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:NewsReleaseRO_0000056Type/>/<vivo:NewsReleaseRO_0000056Type/>.jsp?uri=<vivo:NewsReleaseRO_0000056/>"><vivo:NewsReleaseRO_0000056 /></a></td></tr>
       </vivo:foreachNewsReleaseRO_0000056Iterator>
@@ -75,18 +87,6 @@
       <vivo:foreachNewsReleaseCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:NewsReleaseCitesType/>/<vivo:NewsReleaseCitesType/>.jsp?uri=<vivo:NewsReleaseCites/>"><vivo:NewsReleaseCites /></a></td></tr>
       </vivo:foreachNewsReleaseCitesIterator>
-      <vivo:foreachNewsReleaseTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:NewsReleaseTranslatorType/>/<vivo:NewsReleaseTranslatorType/>.jsp?uri=<vivo:NewsReleaseTranslator/>"><vivo:NewsReleaseTranslator /></a></td></tr>
-      </vivo:foreachNewsReleaseTranslatorIterator>
-      <vivo:foreachNewsReleaseFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:NewsReleaseFeaturesType/>/<vivo:NewsReleaseFeaturesType/>.jsp?uri=<vivo:NewsReleaseFeatures/>"><vivo:NewsReleaseFeatures /></a></td></tr>
-      </vivo:foreachNewsReleaseFeaturesIterator>
-      <vivo:foreachNewsReleaseInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:NewsReleaseInformationResourceSupportedByType/>/<vivo:NewsReleaseInformationResourceSupportedByType/>.jsp?uri=<vivo:NewsReleaseInformationResourceSupportedBy/>"><vivo:NewsReleaseInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachNewsReleaseInformationResourceSupportedByIterator>
-      <vivo:foreachNewsReleaseIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:NewsReleaseIAO_0000136Type/>/<vivo:NewsReleaseIAO_0000136Type/>.jsp?uri=<vivo:NewsReleaseIAO_0000136/>"><vivo:NewsReleaseIAO_0000136 /></a></td></tr>
-      </vivo:foreachNewsReleaseIAO_0000136Iterator>
    </table>
    </vivo:NewsRelease>
 

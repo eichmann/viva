@@ -41,6 +41,9 @@
       <vivo:foreachFundingOrganizationRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:FundingOrganizationRO_0000053Type/>/<vivo:FundingOrganizationRO_0000053Type/>.jsp?uri=<vivo:FundingOrganizationRO_0000053/>"><vivo:FundingOrganizationRO_0000053 /></a></td></tr>
       </vivo:foreachFundingOrganizationRO_0000053Iterator>
+      <vivo:foreachFundingOrganizationRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:FundingOrganizationRO_0000056Type/>/<vivo:FundingOrganizationRO_0000056Type/>.jsp?uri=<vivo:FundingOrganizationRO_0000056/>"><vivo:FundingOrganizationRO_0000056 /></a></td></tr>
+      </vivo:foreachFundingOrganizationRO_0000056Iterator>
       <vivo:foreachFundingOrganizationAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:FundingOrganizationAssigneeForType/>/<vivo:FundingOrganizationAssigneeForType/>.jsp?uri=<vivo:FundingOrganizationAssigneeFor/>"><vivo:FundingOrganizationAssigneeFor /></a></td></tr>
       </vivo:foreachFundingOrganizationAssigneeForIterator>
@@ -83,9 +86,6 @@
       <vivo:foreachFundingOrganizationAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:FundingOrganizationAffiliatedOrganizationType/>/<vivo:FundingOrganizationAffiliatedOrganizationType/>.jsp?uri=<vivo:FundingOrganizationAffiliatedOrganization/>"><vivo:FundingOrganizationAffiliatedOrganization /></a></td></tr>
       </vivo:foreachFundingOrganizationAffiliatedOrganizationIterator>
-      <vivo:foreachFundingOrganizationRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:FundingOrganizationRO_0000056Type/>/<vivo:FundingOrganizationRO_0000056Type/>.jsp?uri=<vivo:FundingOrganizationRO_0000056/>"><vivo:FundingOrganizationRO_0000056 /></a></td></tr>
-      </vivo:foreachFundingOrganizationRO_0000056Iterator>
    </table>
    </vivo:FundingOrganization>
 

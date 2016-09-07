@@ -35,6 +35,9 @@
       <vivo:foreachCenterRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:CenterRO_0000053Type/>/<vivo:CenterRO_0000053Type/>.jsp?uri=<vivo:CenterRO_0000053/>"><vivo:CenterRO_0000053 /></a></td></tr>
       </vivo:foreachCenterRO_0000053Iterator>
+      <vivo:foreachCenterRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:CenterRO_0000056Type/>/<vivo:CenterRO_0000056Type/>.jsp?uri=<vivo:CenterRO_0000056/>"><vivo:CenterRO_0000056 /></a></td></tr>
+      </vivo:foreachCenterRO_0000056Iterator>
       <vivo:foreachCenterAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:CenterAssigneeForType/>/<vivo:CenterAssigneeForType/>.jsp?uri=<vivo:CenterAssigneeFor/>"><vivo:CenterAssigneeFor /></a></td></tr>
       </vivo:foreachCenterAssigneeForIterator>
@@ -77,9 +80,6 @@
       <vivo:foreachCenterAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:CenterAffiliatedOrganizationType/>/<vivo:CenterAffiliatedOrganizationType/>.jsp?uri=<vivo:CenterAffiliatedOrganization/>"><vivo:CenterAffiliatedOrganization /></a></td></tr>
       </vivo:foreachCenterAffiliatedOrganizationIterator>
-      <vivo:foreachCenterRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:CenterRO_0000056Type/>/<vivo:CenterRO_0000056Type/>.jsp?uri=<vivo:CenterRO_0000056/>"><vivo:CenterRO_0000056 /></a></td></tr>
-      </vivo:foreachCenterRO_0000056Iterator>
    </table>
    </vivo:Center>
 

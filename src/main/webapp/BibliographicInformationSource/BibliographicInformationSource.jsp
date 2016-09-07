@@ -36,6 +36,9 @@
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachBibliographicInformationSourceRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:BibliographicInformationSourceRO_0000056Type/>/<vivo:BibliographicInformationSourceRO_0000056Type/>.jsp?uri=<vivo:BibliographicInformationSourceRO_0000056/>"><vivo:BibliographicInformationSourceRO_0000056 /></a></td></tr>
+      </vivo:foreachBibliographicInformationSourceRO_0000056Iterator>
       <vivo:foreachBibliographicInformationSourceTranslatorIterator>
          <tr><td>translator</td><td><a href="../<vivo:BibliographicInformationSourceTranslatorType/>/<vivo:BibliographicInformationSourceTranslatorType/>.jsp?uri=<vivo:BibliographicInformationSourceTranslator/>"><vivo:BibliographicInformationSourceTranslator /></a></td></tr>
       </vivo:foreachBibliographicInformationSourceTranslatorIterator>
@@ -48,9 +51,6 @@
       <vivo:foreachBibliographicInformationSourceIAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<vivo:BibliographicInformationSourceIAO_0000136Type/>/<vivo:BibliographicInformationSourceIAO_0000136Type/>.jsp?uri=<vivo:BibliographicInformationSourceIAO_0000136/>"><vivo:BibliographicInformationSourceIAO_0000136 /></a></td></tr>
       </vivo:foreachBibliographicInformationSourceIAO_0000136Iterator>
-      <vivo:foreachBibliographicInformationSourceRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:BibliographicInformationSourceRO_0000056Type/>/<vivo:BibliographicInformationSourceRO_0000056Type/>.jsp?uri=<vivo:BibliographicInformationSourceRO_0000056/>"><vivo:BibliographicInformationSourceRO_0000056 /></a></td></tr>
-      </vivo:foreachBibliographicInformationSourceRO_0000056Iterator>
    </table>
    </vivo:BibliographicInformationSource>
 

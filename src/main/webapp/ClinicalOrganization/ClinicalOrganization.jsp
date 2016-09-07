@@ -35,6 +35,9 @@
       <vivo:foreachClinicalOrganizationRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:ClinicalOrganizationRO_0000053Type/>/<vivo:ClinicalOrganizationRO_0000053Type/>.jsp?uri=<vivo:ClinicalOrganizationRO_0000053/>"><vivo:ClinicalOrganizationRO_0000053 /></a></td></tr>
       </vivo:foreachClinicalOrganizationRO_0000053Iterator>
+      <vivo:foreachClinicalOrganizationRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:ClinicalOrganizationRO_0000056Type/>/<vivo:ClinicalOrganizationRO_0000056Type/>.jsp?uri=<vivo:ClinicalOrganizationRO_0000056/>"><vivo:ClinicalOrganizationRO_0000056 /></a></td></tr>
+      </vivo:foreachClinicalOrganizationRO_0000056Iterator>
       <vivo:foreachClinicalOrganizationAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:ClinicalOrganizationAssigneeForType/>/<vivo:ClinicalOrganizationAssigneeForType/>.jsp?uri=<vivo:ClinicalOrganizationAssigneeFor/>"><vivo:ClinicalOrganizationAssigneeFor /></a></td></tr>
       </vivo:foreachClinicalOrganizationAssigneeForIterator>
@@ -77,9 +80,6 @@
       <vivo:foreachClinicalOrganizationAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:ClinicalOrganizationAffiliatedOrganizationType/>/<vivo:ClinicalOrganizationAffiliatedOrganizationType/>.jsp?uri=<vivo:ClinicalOrganizationAffiliatedOrganization/>"><vivo:ClinicalOrganizationAffiliatedOrganization /></a></td></tr>
       </vivo:foreachClinicalOrganizationAffiliatedOrganizationIterator>
-      <vivo:foreachClinicalOrganizationRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:ClinicalOrganizationRO_0000056Type/>/<vivo:ClinicalOrganizationRO_0000056Type/>.jsp?uri=<vivo:ClinicalOrganizationRO_0000056/>"><vivo:ClinicalOrganizationRO_0000056 /></a></td></tr>
-      </vivo:foreachClinicalOrganizationRO_0000056Iterator>
    </table>
    </vivo:ClinicalOrganization>
 

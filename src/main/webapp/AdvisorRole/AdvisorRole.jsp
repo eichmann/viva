@@ -30,18 +30,18 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachAdvisorRoleRoleContributesToIterator>
-         <tr><td>roleContributesTo</td><td><a href="../<vivo:AdvisorRoleRoleContributesToType/>/<vivo:AdvisorRoleRoleContributesToType/>.jsp?uri=<vivo:AdvisorRoleRoleContributesTo/>"><vivo:AdvisorRoleRoleContributesTo /></a></td></tr>
-      </vivo:foreachAdvisorRoleRoleContributesToIterator>
-      <vivo:foreachAdvisorRoleBFO_0000054Iterator>
-         <tr><td>BFO_0000054</td><td><a href="../<vivo:AdvisorRoleBFO_0000054Type/>/<vivo:AdvisorRoleBFO_0000054Type/>.jsp?uri=<vivo:AdvisorRoleBFO_0000054/>"><vivo:AdvisorRoleBFO_0000054 /></a></td></tr>
-      </vivo:foreachAdvisorRoleBFO_0000054Iterator>
       <vivo:foreachAdvisorRoleRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<vivo:AdvisorRoleRO_0000052Type/>/<vivo:AdvisorRoleRO_0000052Type/>.jsp?uri=<vivo:AdvisorRoleRO_0000052/>"><vivo:AdvisorRoleRO_0000052 /></a></td></tr>
       </vivo:foreachAdvisorRoleRO_0000052Iterator>
       <vivo:foreachAdvisorRoleRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:AdvisorRoleRO_0000056Type/>/<vivo:AdvisorRoleRO_0000056Type/>.jsp?uri=<vivo:AdvisorRoleRO_0000056/>"><vivo:AdvisorRoleRO_0000056 /></a></td></tr>
       </vivo:foreachAdvisorRoleRO_0000056Iterator>
+      <vivo:foreachAdvisorRoleRoleContributesToIterator>
+         <tr><td>roleContributesTo</td><td><a href="../<vivo:AdvisorRoleRoleContributesToType/>/<vivo:AdvisorRoleRoleContributesToType/>.jsp?uri=<vivo:AdvisorRoleRoleContributesTo/>"><vivo:AdvisorRoleRoleContributesTo /></a></td></tr>
+      </vivo:foreachAdvisorRoleRoleContributesToIterator>
+      <vivo:foreachAdvisorRoleBFO_0000054Iterator>
+         <tr><td>BFO_0000054</td><td><a href="../<vivo:AdvisorRoleBFO_0000054Type/>/<vivo:AdvisorRoleBFO_0000054Type/>.jsp?uri=<vivo:AdvisorRoleBFO_0000054/>"><vivo:AdvisorRoleBFO_0000054 /></a></td></tr>
+      </vivo:foreachAdvisorRoleBFO_0000054Iterator>
    </table>
    </vivo:AdvisorRole>
 

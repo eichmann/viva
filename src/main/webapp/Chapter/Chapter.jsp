@@ -36,15 +36,15 @@
       <vivo:foreachChapterNumPagesIterator>
          <tr><td>numPages</td><td><vivo:ChapterNumPages /></td></tr>
       </vivo:foreachChapterNumPagesIterator>
+      <vivo:foreachChapterChapterIterator>
+         <tr><td>chapter</td><td><vivo:ChapterChapter /></td></tr>
+      </vivo:foreachChapterChapterIterator>
       <vivo:foreachChapterTheAbstractIterator>
          <tr><td>theAbstract</td><td><vivo:ChapterTheAbstract /></td></tr>
       </vivo:foreachChapterTheAbstractIterator>
       <vivo:foreachChapterDoiIterator>
          <tr><td>doi</td><td><vivo:ChapterDoi /></td></tr>
       </vivo:foreachChapterDoiIterator>
-      <vivo:foreachChapterChapterIterator>
-         <tr><td>chapter</td><td><vivo:ChapterChapter /></td></tr>
-      </vivo:foreachChapterChapterIterator>
       <vivo:foreachChapterPmidIterator>
          <tr><td>pmid</td><td><vivo:ChapterPmid /></td></tr>
       </vivo:foreachChapterPmidIterator>

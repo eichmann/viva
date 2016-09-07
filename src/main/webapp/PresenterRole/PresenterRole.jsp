@@ -30,18 +30,18 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachPresenterRoleRoleContributesToIterator>
-         <tr><td>roleContributesTo</td><td><a href="../<vivo:PresenterRoleRoleContributesToType/>/<vivo:PresenterRoleRoleContributesToType/>.jsp?uri=<vivo:PresenterRoleRoleContributesTo/>"><vivo:PresenterRoleRoleContributesTo /></a></td></tr>
-      </vivo:foreachPresenterRoleRoleContributesToIterator>
-      <vivo:foreachPresenterRoleBFO_0000054Iterator>
-         <tr><td>BFO_0000054</td><td><a href="../<vivo:PresenterRoleBFO_0000054Type/>/<vivo:PresenterRoleBFO_0000054Type/>.jsp?uri=<vivo:PresenterRoleBFO_0000054/>"><vivo:PresenterRoleBFO_0000054 /></a></td></tr>
-      </vivo:foreachPresenterRoleBFO_0000054Iterator>
       <vivo:foreachPresenterRoleRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<vivo:PresenterRoleRO_0000052Type/>/<vivo:PresenterRoleRO_0000052Type/>.jsp?uri=<vivo:PresenterRoleRO_0000052/>"><vivo:PresenterRoleRO_0000052 /></a></td></tr>
       </vivo:foreachPresenterRoleRO_0000052Iterator>
       <vivo:foreachPresenterRoleRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:PresenterRoleRO_0000056Type/>/<vivo:PresenterRoleRO_0000056Type/>.jsp?uri=<vivo:PresenterRoleRO_0000056/>"><vivo:PresenterRoleRO_0000056 /></a></td></tr>
       </vivo:foreachPresenterRoleRO_0000056Iterator>
+      <vivo:foreachPresenterRoleRoleContributesToIterator>
+         <tr><td>roleContributesTo</td><td><a href="../<vivo:PresenterRoleRoleContributesToType/>/<vivo:PresenterRoleRoleContributesToType/>.jsp?uri=<vivo:PresenterRoleRoleContributesTo/>"><vivo:PresenterRoleRoleContributesTo /></a></td></tr>
+      </vivo:foreachPresenterRoleRoleContributesToIterator>
+      <vivo:foreachPresenterRoleBFO_0000054Iterator>
+         <tr><td>BFO_0000054</td><td><a href="../<vivo:PresenterRoleBFO_0000054Type/>/<vivo:PresenterRoleBFO_0000054Type/>.jsp?uri=<vivo:PresenterRoleBFO_0000054/>"><vivo:PresenterRoleBFO_0000054 /></a></td></tr>
+      </vivo:foreachPresenterRoleBFO_0000054Iterator>
    </table>
    </vivo:PresenterRole>
 

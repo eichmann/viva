@@ -35,6 +35,9 @@
       <vivo:foreachServiceProvidingLaboratoryRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:ServiceProvidingLaboratoryRO_0000053Type/>/<vivo:ServiceProvidingLaboratoryRO_0000053Type/>.jsp?uri=<vivo:ServiceProvidingLaboratoryRO_0000053/>"><vivo:ServiceProvidingLaboratoryRO_0000053 /></a></td></tr>
       </vivo:foreachServiceProvidingLaboratoryRO_0000053Iterator>
+      <vivo:foreachServiceProvidingLaboratoryRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:ServiceProvidingLaboratoryRO_0000056Type/>/<vivo:ServiceProvidingLaboratoryRO_0000056Type/>.jsp?uri=<vivo:ServiceProvidingLaboratoryRO_0000056/>"><vivo:ServiceProvidingLaboratoryRO_0000056 /></a></td></tr>
+      </vivo:foreachServiceProvidingLaboratoryRO_0000056Iterator>
       <vivo:foreachServiceProvidingLaboratoryAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:ServiceProvidingLaboratoryAssigneeForType/>/<vivo:ServiceProvidingLaboratoryAssigneeForType/>.jsp?uri=<vivo:ServiceProvidingLaboratoryAssigneeFor/>"><vivo:ServiceProvidingLaboratoryAssigneeFor /></a></td></tr>
       </vivo:foreachServiceProvidingLaboratoryAssigneeForIterator>
@@ -77,9 +80,6 @@
       <vivo:foreachServiceProvidingLaboratoryAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:ServiceProvidingLaboratoryAffiliatedOrganizationType/>/<vivo:ServiceProvidingLaboratoryAffiliatedOrganizationType/>.jsp?uri=<vivo:ServiceProvidingLaboratoryAffiliatedOrganization/>"><vivo:ServiceProvidingLaboratoryAffiliatedOrganization /></a></td></tr>
       </vivo:foreachServiceProvidingLaboratoryAffiliatedOrganizationIterator>
-      <vivo:foreachServiceProvidingLaboratoryRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:ServiceProvidingLaboratoryRO_0000056Type/>/<vivo:ServiceProvidingLaboratoryRO_0000056Type/>.jsp?uri=<vivo:ServiceProvidingLaboratoryRO_0000056/>"><vivo:ServiceProvidingLaboratoryRO_0000056 /></a></td></tr>
-      </vivo:foreachServiceProvidingLaboratoryRO_0000056Iterator>
    </table>
    </vivo:ServiceProvidingLaboratory>
 

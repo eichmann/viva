@@ -35,6 +35,9 @@
       <vivo:foreachInstituteRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:InstituteRO_0000053Type/>/<vivo:InstituteRO_0000053Type/>.jsp?uri=<vivo:InstituteRO_0000053/>"><vivo:InstituteRO_0000053 /></a></td></tr>
       </vivo:foreachInstituteRO_0000053Iterator>
+      <vivo:foreachInstituteRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:InstituteRO_0000056Type/>/<vivo:InstituteRO_0000056Type/>.jsp?uri=<vivo:InstituteRO_0000056/>"><vivo:InstituteRO_0000056 /></a></td></tr>
+      </vivo:foreachInstituteRO_0000056Iterator>
       <vivo:foreachInstituteAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:InstituteAssigneeForType/>/<vivo:InstituteAssigneeForType/>.jsp?uri=<vivo:InstituteAssigneeFor/>"><vivo:InstituteAssigneeFor /></a></td></tr>
       </vivo:foreachInstituteAssigneeForIterator>
@@ -77,9 +80,6 @@
       <vivo:foreachInstituteAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:InstituteAffiliatedOrganizationType/>/<vivo:InstituteAffiliatedOrganizationType/>.jsp?uri=<vivo:InstituteAffiliatedOrganization/>"><vivo:InstituteAffiliatedOrganization /></a></td></tr>
       </vivo:foreachInstituteAffiliatedOrganizationIterator>
-      <vivo:foreachInstituteRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:InstituteRO_0000056Type/>/<vivo:InstituteRO_0000056Type/>.jsp?uri=<vivo:InstituteRO_0000056/>"><vivo:InstituteRO_0000056 /></a></td></tr>
-      </vivo:foreachInstituteRO_0000056Iterator>
    </table>
    </vivo:Institute>
 

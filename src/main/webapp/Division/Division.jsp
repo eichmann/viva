@@ -35,6 +35,9 @@
       <vivo:foreachDivisionRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:DivisionRO_0000053Type/>/<vivo:DivisionRO_0000053Type/>.jsp?uri=<vivo:DivisionRO_0000053/>"><vivo:DivisionRO_0000053 /></a></td></tr>
       </vivo:foreachDivisionRO_0000053Iterator>
+      <vivo:foreachDivisionRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:DivisionRO_0000056Type/>/<vivo:DivisionRO_0000056Type/>.jsp?uri=<vivo:DivisionRO_0000056/>"><vivo:DivisionRO_0000056 /></a></td></tr>
+      </vivo:foreachDivisionRO_0000056Iterator>
       <vivo:foreachDivisionAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:DivisionAssigneeForType/>/<vivo:DivisionAssigneeForType/>.jsp?uri=<vivo:DivisionAssigneeFor/>"><vivo:DivisionAssigneeFor /></a></td></tr>
       </vivo:foreachDivisionAssigneeForIterator>
@@ -77,9 +80,6 @@
       <vivo:foreachDivisionAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:DivisionAffiliatedOrganizationType/>/<vivo:DivisionAffiliatedOrganizationType/>.jsp?uri=<vivo:DivisionAffiliatedOrganization/>"><vivo:DivisionAffiliatedOrganization /></a></td></tr>
       </vivo:foreachDivisionAffiliatedOrganizationIterator>
-      <vivo:foreachDivisionRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:DivisionRO_0000056Type/>/<vivo:DivisionRO_0000056Type/>.jsp?uri=<vivo:DivisionRO_0000056/>"><vivo:DivisionRO_0000056 /></a></td></tr>
-      </vivo:foreachDivisionRO_0000056Iterator>
    </table>
    </vivo:Division>
 

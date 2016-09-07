@@ -35,6 +35,9 @@
       <vivo:foreachSchoolRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:SchoolRO_0000053Type/>/<vivo:SchoolRO_0000053Type/>.jsp?uri=<vivo:SchoolRO_0000053/>"><vivo:SchoolRO_0000053 /></a></td></tr>
       </vivo:foreachSchoolRO_0000053Iterator>
+      <vivo:foreachSchoolRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:SchoolRO_0000056Type/>/<vivo:SchoolRO_0000056Type/>.jsp?uri=<vivo:SchoolRO_0000056/>"><vivo:SchoolRO_0000056 /></a></td></tr>
+      </vivo:foreachSchoolRO_0000056Iterator>
       <vivo:foreachSchoolAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:SchoolAssigneeForType/>/<vivo:SchoolAssigneeForType/>.jsp?uri=<vivo:SchoolAssigneeFor/>"><vivo:SchoolAssigneeFor /></a></td></tr>
       </vivo:foreachSchoolAssigneeForIterator>
@@ -77,9 +80,6 @@
       <vivo:foreachSchoolAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:SchoolAffiliatedOrganizationType/>/<vivo:SchoolAffiliatedOrganizationType/>.jsp?uri=<vivo:SchoolAffiliatedOrganization/>"><vivo:SchoolAffiliatedOrganization /></a></td></tr>
       </vivo:foreachSchoolAffiliatedOrganizationIterator>
-      <vivo:foreachSchoolRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:SchoolRO_0000056Type/>/<vivo:SchoolRO_0000056Type/>.jsp?uri=<vivo:SchoolRO_0000056/>"><vivo:SchoolRO_0000056 /></a></td></tr>
-      </vivo:foreachSchoolRO_0000056Iterator>
    </table>
    </vivo:School>
 

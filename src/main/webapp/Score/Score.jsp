@@ -26,6 +26,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <vivo:foreachScoreTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:ScoreTheAbstract /></td></tr>
+      </vivo:foreachScoreTheAbstractIterator>
+      <vivo:foreachScoreDoiIterator>
+         <tr><td>doi</td><td><vivo:ScoreDoi /></td></tr>
+      </vivo:foreachScoreDoiIterator>
       <vivo:foreachScorePmidIterator>
          <tr><td>pmid</td><td><vivo:ScorePmid /></td></tr>
       </vivo:foreachScorePmidIterator>
@@ -35,16 +41,22 @@
       <vivo:foreachScoreVolumeIterator>
          <tr><td>volume</td><td><vivo:ScoreVolume /></td></tr>
       </vivo:foreachScoreVolumeIterator>
-      <vivo:foreachScoreTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:ScoreTheAbstract /></td></tr>
-      </vivo:foreachScoreTheAbstractIterator>
-      <vivo:foreachScoreDoiIterator>
-         <tr><td>doi</td><td><vivo:ScoreDoi /></td></tr>
-      </vivo:foreachScoreDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachScoreTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:ScoreTranslatorType/>/<vivo:ScoreTranslatorType/>.jsp?uri=<vivo:ScoreTranslator/>"><vivo:ScoreTranslator /></a></td></tr>
+      </vivo:foreachScoreTranslatorIterator>
+      <vivo:foreachScoreFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:ScoreFeaturesType/>/<vivo:ScoreFeaturesType/>.jsp?uri=<vivo:ScoreFeatures/>"><vivo:ScoreFeatures /></a></td></tr>
+      </vivo:foreachScoreFeaturesIterator>
+      <vivo:foreachScoreInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ScoreInformationResourceSupportedByType/>/<vivo:ScoreInformationResourceSupportedByType/>.jsp?uri=<vivo:ScoreInformationResourceSupportedBy/>"><vivo:ScoreInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachScoreInformationResourceSupportedByIterator>
+      <vivo:foreachScoreIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:ScoreIAO_0000136Type/>/<vivo:ScoreIAO_0000136Type/>.jsp?uri=<vivo:ScoreIAO_0000136/>"><vivo:ScoreIAO_0000136 /></a></td></tr>
+      </vivo:foreachScoreIAO_0000136Iterator>
       <vivo:foreachScoreRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:ScoreRO_0000056Type/>/<vivo:ScoreRO_0000056Type/>.jsp?uri=<vivo:ScoreRO_0000056/>"><vivo:ScoreRO_0000056 /></a></td></tr>
       </vivo:foreachScoreRO_0000056Iterator>
@@ -75,18 +87,6 @@
       <vivo:foreachScoreCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:ScoreCitesType/>/<vivo:ScoreCitesType/>.jsp?uri=<vivo:ScoreCites/>"><vivo:ScoreCites /></a></td></tr>
       </vivo:foreachScoreCitesIterator>
-      <vivo:foreachScoreTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:ScoreTranslatorType/>/<vivo:ScoreTranslatorType/>.jsp?uri=<vivo:ScoreTranslator/>"><vivo:ScoreTranslator /></a></td></tr>
-      </vivo:foreachScoreTranslatorIterator>
-      <vivo:foreachScoreFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:ScoreFeaturesType/>/<vivo:ScoreFeaturesType/>.jsp?uri=<vivo:ScoreFeatures/>"><vivo:ScoreFeatures /></a></td></tr>
-      </vivo:foreachScoreFeaturesIterator>
-      <vivo:foreachScoreInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ScoreInformationResourceSupportedByType/>/<vivo:ScoreInformationResourceSupportedByType/>.jsp?uri=<vivo:ScoreInformationResourceSupportedBy/>"><vivo:ScoreInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachScoreInformationResourceSupportedByIterator>
-      <vivo:foreachScoreIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:ScoreIAO_0000136Type/>/<vivo:ScoreIAO_0000136Type/>.jsp?uri=<vivo:ScoreIAO_0000136/>"><vivo:ScoreIAO_0000136 /></a></td></tr>
-      </vivo:foreachScoreIAO_0000136Iterator>
    </table>
    </vivo:Score>
 

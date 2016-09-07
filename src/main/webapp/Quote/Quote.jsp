@@ -26,6 +26,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <vivo:foreachQuoteTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:QuoteTheAbstract /></td></tr>
+      </vivo:foreachQuoteTheAbstractIterator>
+      <vivo:foreachQuoteDoiIterator>
+         <tr><td>doi</td><td><vivo:QuoteDoi /></td></tr>
+      </vivo:foreachQuoteDoiIterator>
       <vivo:foreachQuotePmidIterator>
          <tr><td>pmid</td><td><vivo:QuotePmid /></td></tr>
       </vivo:foreachQuotePmidIterator>
@@ -35,16 +41,22 @@
       <vivo:foreachQuoteVolumeIterator>
          <tr><td>volume</td><td><vivo:QuoteVolume /></td></tr>
       </vivo:foreachQuoteVolumeIterator>
-      <vivo:foreachQuoteTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:QuoteTheAbstract /></td></tr>
-      </vivo:foreachQuoteTheAbstractIterator>
-      <vivo:foreachQuoteDoiIterator>
-         <tr><td>doi</td><td><vivo:QuoteDoi /></td></tr>
-      </vivo:foreachQuoteDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <vivo:foreachQuoteTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:QuoteTranslatorType/>/<vivo:QuoteTranslatorType/>.jsp?uri=<vivo:QuoteTranslator/>"><vivo:QuoteTranslator /></a></td></tr>
+      </vivo:foreachQuoteTranslatorIterator>
+      <vivo:foreachQuoteFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:QuoteFeaturesType/>/<vivo:QuoteFeaturesType/>.jsp?uri=<vivo:QuoteFeatures/>"><vivo:QuoteFeatures /></a></td></tr>
+      </vivo:foreachQuoteFeaturesIterator>
+      <vivo:foreachQuoteInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:QuoteInformationResourceSupportedByType/>/<vivo:QuoteInformationResourceSupportedByType/>.jsp?uri=<vivo:QuoteInformationResourceSupportedBy/>"><vivo:QuoteInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachQuoteInformationResourceSupportedByIterator>
+      <vivo:foreachQuoteIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:QuoteIAO_0000136Type/>/<vivo:QuoteIAO_0000136Type/>.jsp?uri=<vivo:QuoteIAO_0000136/>"><vivo:QuoteIAO_0000136 /></a></td></tr>
+      </vivo:foreachQuoteIAO_0000136Iterator>
       <vivo:foreachQuoteRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:QuoteRO_0000056Type/>/<vivo:QuoteRO_0000056Type/>.jsp?uri=<vivo:QuoteRO_0000056/>"><vivo:QuoteRO_0000056 /></a></td></tr>
       </vivo:foreachQuoteRO_0000056Iterator>
@@ -75,18 +87,6 @@
       <vivo:foreachQuoteCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:QuoteCitesType/>/<vivo:QuoteCitesType/>.jsp?uri=<vivo:QuoteCites/>"><vivo:QuoteCites /></a></td></tr>
       </vivo:foreachQuoteCitesIterator>
-      <vivo:foreachQuoteTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:QuoteTranslatorType/>/<vivo:QuoteTranslatorType/>.jsp?uri=<vivo:QuoteTranslator/>"><vivo:QuoteTranslator /></a></td></tr>
-      </vivo:foreachQuoteTranslatorIterator>
-      <vivo:foreachQuoteFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:QuoteFeaturesType/>/<vivo:QuoteFeaturesType/>.jsp?uri=<vivo:QuoteFeatures/>"><vivo:QuoteFeatures /></a></td></tr>
-      </vivo:foreachQuoteFeaturesIterator>
-      <vivo:foreachQuoteInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:QuoteInformationResourceSupportedByType/>/<vivo:QuoteInformationResourceSupportedByType/>.jsp?uri=<vivo:QuoteInformationResourceSupportedBy/>"><vivo:QuoteInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachQuoteInformationResourceSupportedByIterator>
-      <vivo:foreachQuoteIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:QuoteIAO_0000136Type/>/<vivo:QuoteIAO_0000136Type/>.jsp?uri=<vivo:QuoteIAO_0000136/>"><vivo:QuoteIAO_0000136 /></a></td></tr>
-      </vivo:foreachQuoteIAO_0000136Iterator>
    </table>
    </vivo:Quote>
 

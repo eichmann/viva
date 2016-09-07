@@ -27,6 +27,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <vivo:foreachReportTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:ReportTheAbstract /></td></tr>
+      </vivo:foreachReportTheAbstractIterator>
+      <vivo:foreachReportDoiIterator>
+         <tr><td>doi</td><td><vivo:ReportDoi /></td></tr>
+      </vivo:foreachReportDoiIterator>
       <vivo:foreachReportPmidIterator>
          <tr><td>pmid</td><td><vivo:ReportPmid /></td></tr>
       </vivo:foreachReportPmidIterator>
@@ -36,12 +42,6 @@
       <vivo:foreachReportVolumeIterator>
          <tr><td>volume</td><td><vivo:ReportVolume /></td></tr>
       </vivo:foreachReportVolumeIterator>
-      <vivo:foreachReportTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:ReportTheAbstract /></td></tr>
-      </vivo:foreachReportTheAbstractIterator>
-      <vivo:foreachReportDoiIterator>
-         <tr><td>doi</td><td><vivo:ReportDoi /></td></tr>
-      </vivo:foreachReportDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -58,6 +58,18 @@
       <vivo:foreachReportRelatesIterator>
          <tr><td>relates</td><td><a href="../<vivo:ReportRelatesType/>/<vivo:ReportRelatesType/>.jsp?uri=<vivo:ReportRelates/>"><vivo:ReportRelates /></a></td></tr>
       </vivo:foreachReportRelatesIterator>
+      <vivo:foreachReportTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:ReportTranslatorType/>/<vivo:ReportTranslatorType/>.jsp?uri=<vivo:ReportTranslator/>"><vivo:ReportTranslator /></a></td></tr>
+      </vivo:foreachReportTranslatorIterator>
+      <vivo:foreachReportFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:ReportFeaturesType/>/<vivo:ReportFeaturesType/>.jsp?uri=<vivo:ReportFeatures/>"><vivo:ReportFeatures /></a></td></tr>
+      </vivo:foreachReportFeaturesIterator>
+      <vivo:foreachReportInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ReportInformationResourceSupportedByType/>/<vivo:ReportInformationResourceSupportedByType/>.jsp?uri=<vivo:ReportInformationResourceSupportedBy/>"><vivo:ReportInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachReportInformationResourceSupportedByIterator>
+      <vivo:foreachReportIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:ReportIAO_0000136Type/>/<vivo:ReportIAO_0000136Type/>.jsp?uri=<vivo:ReportIAO_0000136/>"><vivo:ReportIAO_0000136 /></a></td></tr>
+      </vivo:foreachReportIAO_0000136Iterator>
       <vivo:foreachReportRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:ReportRO_0000056Type/>/<vivo:ReportRO_0000056Type/>.jsp?uri=<vivo:ReportRO_0000056/>"><vivo:ReportRO_0000056 /></a></td></tr>
       </vivo:foreachReportRO_0000056Iterator>
@@ -88,18 +100,6 @@
       <vivo:foreachReportCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:ReportCitesType/>/<vivo:ReportCitesType/>.jsp?uri=<vivo:ReportCites/>"><vivo:ReportCites /></a></td></tr>
       </vivo:foreachReportCitesIterator>
-      <vivo:foreachReportTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:ReportTranslatorType/>/<vivo:ReportTranslatorType/>.jsp?uri=<vivo:ReportTranslator/>"><vivo:ReportTranslator /></a></td></tr>
-      </vivo:foreachReportTranslatorIterator>
-      <vivo:foreachReportFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:ReportFeaturesType/>/<vivo:ReportFeaturesType/>.jsp?uri=<vivo:ReportFeatures/>"><vivo:ReportFeatures /></a></td></tr>
-      </vivo:foreachReportFeaturesIterator>
-      <vivo:foreachReportInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ReportInformationResourceSupportedByType/>/<vivo:ReportInformationResourceSupportedByType/>.jsp?uri=<vivo:ReportInformationResourceSupportedBy/>"><vivo:ReportInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachReportInformationResourceSupportedByIterator>
-      <vivo:foreachReportIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:ReportIAO_0000136Type/>/<vivo:ReportIAO_0000136Type/>.jsp?uri=<vivo:ReportIAO_0000136/>"><vivo:ReportIAO_0000136 /></a></td></tr>
-      </vivo:foreachReportIAO_0000136Iterator>
    </table>
    </vivo:Report>
 
