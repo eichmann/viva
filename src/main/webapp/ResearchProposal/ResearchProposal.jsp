@@ -26,12 +26,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachResearchProposalTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:ResearchProposalTheAbstract /></td></tr>
-      </vivo:foreachResearchProposalTheAbstractIterator>
-      <vivo:foreachResearchProposalDoiIterator>
-         <tr><td>doi</td><td><vivo:ResearchProposalDoi /></td></tr>
-      </vivo:foreachResearchProposalDoiIterator>
       <vivo:foreachResearchProposalPmidIterator>
          <tr><td>pmid</td><td><vivo:ResearchProposalPmid /></td></tr>
       </vivo:foreachResearchProposalPmidIterator>
@@ -41,22 +35,16 @@
       <vivo:foreachResearchProposalVolumeIterator>
          <tr><td>volume</td><td><vivo:ResearchProposalVolume /></td></tr>
       </vivo:foreachResearchProposalVolumeIterator>
+      <vivo:foreachResearchProposalTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:ResearchProposalTheAbstract /></td></tr>
+      </vivo:foreachResearchProposalTheAbstractIterator>
+      <vivo:foreachResearchProposalDoiIterator>
+         <tr><td>doi</td><td><vivo:ResearchProposalDoi /></td></tr>
+      </vivo:foreachResearchProposalDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachResearchProposalTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:ResearchProposalTranslatorType/>/<vivo:ResearchProposalTranslatorType/>.jsp?uri=<vivo:ResearchProposalTranslator/>"><vivo:ResearchProposalTranslator /></a></td></tr>
-      </vivo:foreachResearchProposalTranslatorIterator>
-      <vivo:foreachResearchProposalFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:ResearchProposalFeaturesType/>/<vivo:ResearchProposalFeaturesType/>.jsp?uri=<vivo:ResearchProposalFeatures/>"><vivo:ResearchProposalFeatures /></a></td></tr>
-      </vivo:foreachResearchProposalFeaturesIterator>
-      <vivo:foreachResearchProposalInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ResearchProposalInformationResourceSupportedByType/>/<vivo:ResearchProposalInformationResourceSupportedByType/>.jsp?uri=<vivo:ResearchProposalInformationResourceSupportedBy/>"><vivo:ResearchProposalInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachResearchProposalInformationResourceSupportedByIterator>
-      <vivo:foreachResearchProposalIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:ResearchProposalIAO_0000136Type/>/<vivo:ResearchProposalIAO_0000136Type/>.jsp?uri=<vivo:ResearchProposalIAO_0000136/>"><vivo:ResearchProposalIAO_0000136 /></a></td></tr>
-      </vivo:foreachResearchProposalIAO_0000136Iterator>
       <vivo:foreachResearchProposalRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:ResearchProposalRO_0000056Type/>/<vivo:ResearchProposalRO_0000056Type/>.jsp?uri=<vivo:ResearchProposalRO_0000056/>"><vivo:ResearchProposalRO_0000056 /></a></td></tr>
       </vivo:foreachResearchProposalRO_0000056Iterator>
@@ -87,6 +75,18 @@
       <vivo:foreachResearchProposalCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:ResearchProposalCitesType/>/<vivo:ResearchProposalCitesType/>.jsp?uri=<vivo:ResearchProposalCites/>"><vivo:ResearchProposalCites /></a></td></tr>
       </vivo:foreachResearchProposalCitesIterator>
+      <vivo:foreachResearchProposalTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:ResearchProposalTranslatorType/>/<vivo:ResearchProposalTranslatorType/>.jsp?uri=<vivo:ResearchProposalTranslator/>"><vivo:ResearchProposalTranslator /></a></td></tr>
+      </vivo:foreachResearchProposalTranslatorIterator>
+      <vivo:foreachResearchProposalFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:ResearchProposalFeaturesType/>/<vivo:ResearchProposalFeaturesType/>.jsp?uri=<vivo:ResearchProposalFeatures/>"><vivo:ResearchProposalFeatures /></a></td></tr>
+      </vivo:foreachResearchProposalFeaturesIterator>
+      <vivo:foreachResearchProposalInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ResearchProposalInformationResourceSupportedByType/>/<vivo:ResearchProposalInformationResourceSupportedByType/>.jsp?uri=<vivo:ResearchProposalInformationResourceSupportedBy/>"><vivo:ResearchProposalInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachResearchProposalInformationResourceSupportedByIterator>
+      <vivo:foreachResearchProposalIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:ResearchProposalIAO_0000136Type/>/<vivo:ResearchProposalIAO_0000136Type/>.jsp?uri=<vivo:ResearchProposalIAO_0000136/>"><vivo:ResearchProposalIAO_0000136 /></a></td></tr>
+      </vivo:foreachResearchProposalIAO_0000136Iterator>
    </table>
    </vivo:ResearchProposal>
 

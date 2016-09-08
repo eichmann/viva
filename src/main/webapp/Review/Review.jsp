@@ -35,12 +35,6 @@
       <vivo:foreachReviewNihmsidIterator>
          <tr><td>nihmsid</td><td><vivo:ReviewNihmsid /></td></tr>
       </vivo:foreachReviewNihmsidIterator>
-      <vivo:foreachReviewTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:ReviewTheAbstract /></td></tr>
-      </vivo:foreachReviewTheAbstractIterator>
-      <vivo:foreachReviewDoiIterator>
-         <tr><td>doi</td><td><vivo:ReviewDoi /></td></tr>
-      </vivo:foreachReviewDoiIterator>
       <vivo:foreachReviewPmidIterator>
          <tr><td>pmid</td><td><vivo:ReviewPmid /></td></tr>
       </vivo:foreachReviewPmidIterator>
@@ -50,6 +44,12 @@
       <vivo:foreachReviewVolumeIterator>
          <tr><td>volume</td><td><vivo:ReviewVolume /></td></tr>
       </vivo:foreachReviewVolumeIterator>
+      <vivo:foreachReviewTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:ReviewTheAbstract /></td></tr>
+      </vivo:foreachReviewTheAbstractIterator>
+      <vivo:foreachReviewDoiIterator>
+         <tr><td>doi</td><td><vivo:ReviewDoi /></td></tr>
+      </vivo:foreachReviewDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -69,18 +69,6 @@
       <vivo:foreachReviewRelatesIterator>
          <tr><td>relates</td><td><a href="../<vivo:ReviewRelatesType/>/<vivo:ReviewRelatesType/>.jsp?uri=<vivo:ReviewRelates/>"><vivo:ReviewRelates /></a></td></tr>
       </vivo:foreachReviewRelatesIterator>
-      <vivo:foreachReviewTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:ReviewTranslatorType/>/<vivo:ReviewTranslatorType/>.jsp?uri=<vivo:ReviewTranslator/>"><vivo:ReviewTranslator /></a></td></tr>
-      </vivo:foreachReviewTranslatorIterator>
-      <vivo:foreachReviewFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:ReviewFeaturesType/>/<vivo:ReviewFeaturesType/>.jsp?uri=<vivo:ReviewFeatures/>"><vivo:ReviewFeatures /></a></td></tr>
-      </vivo:foreachReviewFeaturesIterator>
-      <vivo:foreachReviewInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ReviewInformationResourceSupportedByType/>/<vivo:ReviewInformationResourceSupportedByType/>.jsp?uri=<vivo:ReviewInformationResourceSupportedBy/>"><vivo:ReviewInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachReviewInformationResourceSupportedByIterator>
-      <vivo:foreachReviewIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:ReviewIAO_0000136Type/>/<vivo:ReviewIAO_0000136Type/>.jsp?uri=<vivo:ReviewIAO_0000136/>"><vivo:ReviewIAO_0000136 /></a></td></tr>
-      </vivo:foreachReviewIAO_0000136Iterator>
       <vivo:foreachReviewRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:ReviewRO_0000056Type/>/<vivo:ReviewRO_0000056Type/>.jsp?uri=<vivo:ReviewRO_0000056/>"><vivo:ReviewRO_0000056 /></a></td></tr>
       </vivo:foreachReviewRO_0000056Iterator>
@@ -111,6 +99,18 @@
       <vivo:foreachReviewCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:ReviewCitesType/>/<vivo:ReviewCitesType/>.jsp?uri=<vivo:ReviewCites/>"><vivo:ReviewCites /></a></td></tr>
       </vivo:foreachReviewCitesIterator>
+      <vivo:foreachReviewTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:ReviewTranslatorType/>/<vivo:ReviewTranslatorType/>.jsp?uri=<vivo:ReviewTranslator/>"><vivo:ReviewTranslator /></a></td></tr>
+      </vivo:foreachReviewTranslatorIterator>
+      <vivo:foreachReviewFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:ReviewFeaturesType/>/<vivo:ReviewFeaturesType/>.jsp?uri=<vivo:ReviewFeatures/>"><vivo:ReviewFeatures /></a></td></tr>
+      </vivo:foreachReviewFeaturesIterator>
+      <vivo:foreachReviewInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ReviewInformationResourceSupportedByType/>/<vivo:ReviewInformationResourceSupportedByType/>.jsp?uri=<vivo:ReviewInformationResourceSupportedBy/>"><vivo:ReviewInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachReviewInformationResourceSupportedByIterator>
+      <vivo:foreachReviewIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:ReviewIAO_0000136Type/>/<vivo:ReviewIAO_0000136Type/>.jsp?uri=<vivo:ReviewIAO_0000136/>"><vivo:ReviewIAO_0000136 /></a></td></tr>
+      </vivo:foreachReviewIAO_0000136Iterator>
    </table>
    </vivo:Review>
 

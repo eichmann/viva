@@ -26,12 +26,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachConferencePosterTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:ConferencePosterTheAbstract /></td></tr>
-      </vivo:foreachConferencePosterTheAbstractIterator>
-      <vivo:foreachConferencePosterDoiIterator>
-         <tr><td>doi</td><td><vivo:ConferencePosterDoi /></td></tr>
-      </vivo:foreachConferencePosterDoiIterator>
       <vivo:foreachConferencePosterPmidIterator>
          <tr><td>pmid</td><td><vivo:ConferencePosterPmid /></td></tr>
       </vivo:foreachConferencePosterPmidIterator>
@@ -41,6 +35,12 @@
       <vivo:foreachConferencePosterVolumeIterator>
          <tr><td>volume</td><td><vivo:ConferencePosterVolume /></td></tr>
       </vivo:foreachConferencePosterVolumeIterator>
+      <vivo:foreachConferencePosterTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:ConferencePosterTheAbstract /></td></tr>
+      </vivo:foreachConferencePosterTheAbstractIterator>
+      <vivo:foreachConferencePosterDoiIterator>
+         <tr><td>doi</td><td><vivo:ConferencePosterDoi /></td></tr>
+      </vivo:foreachConferencePosterDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -60,18 +60,6 @@
       <vivo:foreachConferencePosterRelatesIterator>
          <tr><td>relates</td><td><a href="../<vivo:ConferencePosterRelatesType/>/<vivo:ConferencePosterRelatesType/>.jsp?uri=<vivo:ConferencePosterRelates/>"><vivo:ConferencePosterRelates /></a></td></tr>
       </vivo:foreachConferencePosterRelatesIterator>
-      <vivo:foreachConferencePosterTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:ConferencePosterTranslatorType/>/<vivo:ConferencePosterTranslatorType/>.jsp?uri=<vivo:ConferencePosterTranslator/>"><vivo:ConferencePosterTranslator /></a></td></tr>
-      </vivo:foreachConferencePosterTranslatorIterator>
-      <vivo:foreachConferencePosterFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:ConferencePosterFeaturesType/>/<vivo:ConferencePosterFeaturesType/>.jsp?uri=<vivo:ConferencePosterFeatures/>"><vivo:ConferencePosterFeatures /></a></td></tr>
-      </vivo:foreachConferencePosterFeaturesIterator>
-      <vivo:foreachConferencePosterInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ConferencePosterInformationResourceSupportedByType/>/<vivo:ConferencePosterInformationResourceSupportedByType/>.jsp?uri=<vivo:ConferencePosterInformationResourceSupportedBy/>"><vivo:ConferencePosterInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachConferencePosterInformationResourceSupportedByIterator>
-      <vivo:foreachConferencePosterIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:ConferencePosterIAO_0000136Type/>/<vivo:ConferencePosterIAO_0000136Type/>.jsp?uri=<vivo:ConferencePosterIAO_0000136/>"><vivo:ConferencePosterIAO_0000136 /></a></td></tr>
-      </vivo:foreachConferencePosterIAO_0000136Iterator>
       <vivo:foreachConferencePosterRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:ConferencePosterRO_0000056Type/>/<vivo:ConferencePosterRO_0000056Type/>.jsp?uri=<vivo:ConferencePosterRO_0000056/>"><vivo:ConferencePosterRO_0000056 /></a></td></tr>
       </vivo:foreachConferencePosterRO_0000056Iterator>
@@ -102,6 +90,18 @@
       <vivo:foreachConferencePosterCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:ConferencePosterCitesType/>/<vivo:ConferencePosterCitesType/>.jsp?uri=<vivo:ConferencePosterCites/>"><vivo:ConferencePosterCites /></a></td></tr>
       </vivo:foreachConferencePosterCitesIterator>
+      <vivo:foreachConferencePosterTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:ConferencePosterTranslatorType/>/<vivo:ConferencePosterTranslatorType/>.jsp?uri=<vivo:ConferencePosterTranslator/>"><vivo:ConferencePosterTranslator /></a></td></tr>
+      </vivo:foreachConferencePosterTranslatorIterator>
+      <vivo:foreachConferencePosterFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:ConferencePosterFeaturesType/>/<vivo:ConferencePosterFeaturesType/>.jsp?uri=<vivo:ConferencePosterFeatures/>"><vivo:ConferencePosterFeatures /></a></td></tr>
+      </vivo:foreachConferencePosterFeaturesIterator>
+      <vivo:foreachConferencePosterInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ConferencePosterInformationResourceSupportedByType/>/<vivo:ConferencePosterInformationResourceSupportedByType/>.jsp?uri=<vivo:ConferencePosterInformationResourceSupportedBy/>"><vivo:ConferencePosterInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachConferencePosterInformationResourceSupportedByIterator>
+      <vivo:foreachConferencePosterIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:ConferencePosterIAO_0000136Type/>/<vivo:ConferencePosterIAO_0000136Type/>.jsp?uri=<vivo:ConferencePosterIAO_0000136/>"><vivo:ConferencePosterIAO_0000136 /></a></td></tr>
+      </vivo:foreachConferencePosterIAO_0000136Iterator>
    </table>
    </vivo:ConferencePoster>
 

@@ -26,12 +26,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachCatalogTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:CatalogTheAbstract /></td></tr>
-      </vivo:foreachCatalogTheAbstractIterator>
-      <vivo:foreachCatalogDoiIterator>
-         <tr><td>doi</td><td><vivo:CatalogDoi /></td></tr>
-      </vivo:foreachCatalogDoiIterator>
       <vivo:foreachCatalogPmidIterator>
          <tr><td>pmid</td><td><vivo:CatalogPmid /></td></tr>
       </vivo:foreachCatalogPmidIterator>
@@ -41,22 +35,16 @@
       <vivo:foreachCatalogVolumeIterator>
          <tr><td>volume</td><td><vivo:CatalogVolume /></td></tr>
       </vivo:foreachCatalogVolumeIterator>
+      <vivo:foreachCatalogTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:CatalogTheAbstract /></td></tr>
+      </vivo:foreachCatalogTheAbstractIterator>
+      <vivo:foreachCatalogDoiIterator>
+         <tr><td>doi</td><td><vivo:CatalogDoi /></td></tr>
+      </vivo:foreachCatalogDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachCatalogTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:CatalogTranslatorType/>/<vivo:CatalogTranslatorType/>.jsp?uri=<vivo:CatalogTranslator/>"><vivo:CatalogTranslator /></a></td></tr>
-      </vivo:foreachCatalogTranslatorIterator>
-      <vivo:foreachCatalogFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:CatalogFeaturesType/>/<vivo:CatalogFeaturesType/>.jsp?uri=<vivo:CatalogFeatures/>"><vivo:CatalogFeatures /></a></td></tr>
-      </vivo:foreachCatalogFeaturesIterator>
-      <vivo:foreachCatalogInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:CatalogInformationResourceSupportedByType/>/<vivo:CatalogInformationResourceSupportedByType/>.jsp?uri=<vivo:CatalogInformationResourceSupportedBy/>"><vivo:CatalogInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachCatalogInformationResourceSupportedByIterator>
-      <vivo:foreachCatalogIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:CatalogIAO_0000136Type/>/<vivo:CatalogIAO_0000136Type/>.jsp?uri=<vivo:CatalogIAO_0000136/>"><vivo:CatalogIAO_0000136 /></a></td></tr>
-      </vivo:foreachCatalogIAO_0000136Iterator>
       <vivo:foreachCatalogRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:CatalogRO_0000056Type/>/<vivo:CatalogRO_0000056Type/>.jsp?uri=<vivo:CatalogRO_0000056/>"><vivo:CatalogRO_0000056 /></a></td></tr>
       </vivo:foreachCatalogRO_0000056Iterator>
@@ -87,6 +75,18 @@
       <vivo:foreachCatalogCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:CatalogCitesType/>/<vivo:CatalogCitesType/>.jsp?uri=<vivo:CatalogCites/>"><vivo:CatalogCites /></a></td></tr>
       </vivo:foreachCatalogCitesIterator>
+      <vivo:foreachCatalogTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:CatalogTranslatorType/>/<vivo:CatalogTranslatorType/>.jsp?uri=<vivo:CatalogTranslator/>"><vivo:CatalogTranslator /></a></td></tr>
+      </vivo:foreachCatalogTranslatorIterator>
+      <vivo:foreachCatalogFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:CatalogFeaturesType/>/<vivo:CatalogFeaturesType/>.jsp?uri=<vivo:CatalogFeatures/>"><vivo:CatalogFeatures /></a></td></tr>
+      </vivo:foreachCatalogFeaturesIterator>
+      <vivo:foreachCatalogInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:CatalogInformationResourceSupportedByType/>/<vivo:CatalogInformationResourceSupportedByType/>.jsp?uri=<vivo:CatalogInformationResourceSupportedBy/>"><vivo:CatalogInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachCatalogInformationResourceSupportedByIterator>
+      <vivo:foreachCatalogIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:CatalogIAO_0000136Type/>/<vivo:CatalogIAO_0000136Type/>.jsp?uri=<vivo:CatalogIAO_0000136/>"><vivo:CatalogIAO_0000136 /></a></td></tr>
+      </vivo:foreachCatalogIAO_0000136Iterator>
    </table>
    </vivo:Catalog>
 

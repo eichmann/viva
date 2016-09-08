@@ -26,12 +26,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachLegalDecisionTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:LegalDecisionTheAbstract /></td></tr>
-      </vivo:foreachLegalDecisionTheAbstractIterator>
-      <vivo:foreachLegalDecisionDoiIterator>
-         <tr><td>doi</td><td><vivo:LegalDecisionDoi /></td></tr>
-      </vivo:foreachLegalDecisionDoiIterator>
       <vivo:foreachLegalDecisionPmidIterator>
          <tr><td>pmid</td><td><vivo:LegalDecisionPmid /></td></tr>
       </vivo:foreachLegalDecisionPmidIterator>
@@ -41,22 +35,16 @@
       <vivo:foreachLegalDecisionVolumeIterator>
          <tr><td>volume</td><td><vivo:LegalDecisionVolume /></td></tr>
       </vivo:foreachLegalDecisionVolumeIterator>
+      <vivo:foreachLegalDecisionTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:LegalDecisionTheAbstract /></td></tr>
+      </vivo:foreachLegalDecisionTheAbstractIterator>
+      <vivo:foreachLegalDecisionDoiIterator>
+         <tr><td>doi</td><td><vivo:LegalDecisionDoi /></td></tr>
+      </vivo:foreachLegalDecisionDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachLegalDecisionTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:LegalDecisionTranslatorType/>/<vivo:LegalDecisionTranslatorType/>.jsp?uri=<vivo:LegalDecisionTranslator/>"><vivo:LegalDecisionTranslator /></a></td></tr>
-      </vivo:foreachLegalDecisionTranslatorIterator>
-      <vivo:foreachLegalDecisionFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:LegalDecisionFeaturesType/>/<vivo:LegalDecisionFeaturesType/>.jsp?uri=<vivo:LegalDecisionFeatures/>"><vivo:LegalDecisionFeatures /></a></td></tr>
-      </vivo:foreachLegalDecisionFeaturesIterator>
-      <vivo:foreachLegalDecisionInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:LegalDecisionInformationResourceSupportedByType/>/<vivo:LegalDecisionInformationResourceSupportedByType/>.jsp?uri=<vivo:LegalDecisionInformationResourceSupportedBy/>"><vivo:LegalDecisionInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachLegalDecisionInformationResourceSupportedByIterator>
-      <vivo:foreachLegalDecisionIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:LegalDecisionIAO_0000136Type/>/<vivo:LegalDecisionIAO_0000136Type/>.jsp?uri=<vivo:LegalDecisionIAO_0000136/>"><vivo:LegalDecisionIAO_0000136 /></a></td></tr>
-      </vivo:foreachLegalDecisionIAO_0000136Iterator>
       <vivo:foreachLegalDecisionRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:LegalDecisionRO_0000056Type/>/<vivo:LegalDecisionRO_0000056Type/>.jsp?uri=<vivo:LegalDecisionRO_0000056/>"><vivo:LegalDecisionRO_0000056 /></a></td></tr>
       </vivo:foreachLegalDecisionRO_0000056Iterator>
@@ -87,6 +75,18 @@
       <vivo:foreachLegalDecisionCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:LegalDecisionCitesType/>/<vivo:LegalDecisionCitesType/>.jsp?uri=<vivo:LegalDecisionCites/>"><vivo:LegalDecisionCites /></a></td></tr>
       </vivo:foreachLegalDecisionCitesIterator>
+      <vivo:foreachLegalDecisionTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:LegalDecisionTranslatorType/>/<vivo:LegalDecisionTranslatorType/>.jsp?uri=<vivo:LegalDecisionTranslator/>"><vivo:LegalDecisionTranslator /></a></td></tr>
+      </vivo:foreachLegalDecisionTranslatorIterator>
+      <vivo:foreachLegalDecisionFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:LegalDecisionFeaturesType/>/<vivo:LegalDecisionFeaturesType/>.jsp?uri=<vivo:LegalDecisionFeatures/>"><vivo:LegalDecisionFeatures /></a></td></tr>
+      </vivo:foreachLegalDecisionFeaturesIterator>
+      <vivo:foreachLegalDecisionInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:LegalDecisionInformationResourceSupportedByType/>/<vivo:LegalDecisionInformationResourceSupportedByType/>.jsp?uri=<vivo:LegalDecisionInformationResourceSupportedBy/>"><vivo:LegalDecisionInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachLegalDecisionInformationResourceSupportedByIterator>
+      <vivo:foreachLegalDecisionIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:LegalDecisionIAO_0000136Type/>/<vivo:LegalDecisionIAO_0000136Type/>.jsp?uri=<vivo:LegalDecisionIAO_0000136/>"><vivo:LegalDecisionIAO_0000136 /></a></td></tr>
+      </vivo:foreachLegalDecisionIAO_0000136Iterator>
    </table>
    </vivo:LegalDecision>
 

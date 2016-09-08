@@ -22,8 +22,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>overview</td><td><vivo:ProgramOverview /></td></tr>
       <tr><td>abbreviation</td><td><vivo:ProgramAbbreviation /></td></tr>
+      <tr><td>overview</td><td><vivo:ProgramOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -38,15 +38,6 @@
       <vivo:foreachProgramRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:ProgramRO_0000056Type/>/<vivo:ProgramRO_0000056Type/>.jsp?uri=<vivo:ProgramRO_0000056/>"><vivo:ProgramRO_0000056 /></a></td></tr>
       </vivo:foreachProgramRO_0000056Iterator>
-      <vivo:foreachProgramAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<vivo:ProgramAssigneeForType/>/<vivo:ProgramAssigneeForType/>.jsp?uri=<vivo:ProgramAssigneeFor/>"><vivo:ProgramAssigneeFor /></a></td></tr>
-      </vivo:foreachProgramAssigneeForIterator>
-      <vivo:foreachProgramHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<vivo:ProgramHasCollaboratorType/>/<vivo:ProgramHasCollaboratorType/>.jsp?uri=<vivo:ProgramHasCollaborator/>"><vivo:ProgramHasCollaborator /></a></td></tr>
-      </vivo:foreachProgramHasCollaboratorIterator>
-      <vivo:foreachProgramTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<vivo:ProgramTranslatorOfType/>/<vivo:ProgramTranslatorOfType/>.jsp?uri=<vivo:ProgramTranslatorOf/>"><vivo:ProgramTranslatorOf /></a></td></tr>
-      </vivo:foreachProgramTranslatorOfIterator>
       <vivo:foreachProgramSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<vivo:ProgramSponsorsType/>/<vivo:ProgramSponsorsType/>.jsp?uri=<vivo:ProgramSponsors/>"><vivo:ProgramSponsors /></a></td></tr>
       </vivo:foreachProgramSponsorsIterator>
@@ -80,6 +71,15 @@
       <vivo:foreachProgramAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:ProgramAffiliatedOrganizationType/>/<vivo:ProgramAffiliatedOrganizationType/>.jsp?uri=<vivo:ProgramAffiliatedOrganization/>"><vivo:ProgramAffiliatedOrganization /></a></td></tr>
       </vivo:foreachProgramAffiliatedOrganizationIterator>
+      <vivo:foreachProgramAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<vivo:ProgramAssigneeForType/>/<vivo:ProgramAssigneeForType/>.jsp?uri=<vivo:ProgramAssigneeFor/>"><vivo:ProgramAssigneeFor /></a></td></tr>
+      </vivo:foreachProgramAssigneeForIterator>
+      <vivo:foreachProgramHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<vivo:ProgramHasCollaboratorType/>/<vivo:ProgramHasCollaboratorType/>.jsp?uri=<vivo:ProgramHasCollaborator/>"><vivo:ProgramHasCollaborator /></a></td></tr>
+      </vivo:foreachProgramHasCollaboratorIterator>
+      <vivo:foreachProgramTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<vivo:ProgramTranslatorOfType/>/<vivo:ProgramTranslatorOfType/>.jsp?uri=<vivo:ProgramTranslatorOf/>"><vivo:ProgramTranslatorOf /></a></td></tr>
+      </vivo:foreachProgramTranslatorOfIterator>
    </table>
    </vivo:Program>
 

@@ -23,8 +23,8 @@
    <h3>Functional Datatype Properties</h3>
    <table>
       <tr><td>abbreviation</td><td><vivo:CompanyAbbreviation /></td></tr>
-      <tr><td>overview</td><td><vivo:CompanyOverview /></td></tr>
       <tr><td>abbreviation</td><td><vivo:CompanyAbbreviation /></td></tr>
+      <tr><td>overview</td><td><vivo:CompanyOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -42,15 +42,6 @@
       <vivo:foreachCompanyRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:CompanyRO_0000056Type/>/<vivo:CompanyRO_0000056Type/>.jsp?uri=<vivo:CompanyRO_0000056/>"><vivo:CompanyRO_0000056 /></a></td></tr>
       </vivo:foreachCompanyRO_0000056Iterator>
-      <vivo:foreachCompanyAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<vivo:CompanyAssigneeForType/>/<vivo:CompanyAssigneeForType/>.jsp?uri=<vivo:CompanyAssigneeFor/>"><vivo:CompanyAssigneeFor /></a></td></tr>
-      </vivo:foreachCompanyAssigneeForIterator>
-      <vivo:foreachCompanyHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<vivo:CompanyHasCollaboratorType/>/<vivo:CompanyHasCollaboratorType/>.jsp?uri=<vivo:CompanyHasCollaborator/>"><vivo:CompanyHasCollaborator /></a></td></tr>
-      </vivo:foreachCompanyHasCollaboratorIterator>
-      <vivo:foreachCompanyTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<vivo:CompanyTranslatorOfType/>/<vivo:CompanyTranslatorOfType/>.jsp?uri=<vivo:CompanyTranslatorOf/>"><vivo:CompanyTranslatorOf /></a></td></tr>
-      </vivo:foreachCompanyTranslatorOfIterator>
       <vivo:foreachCompanySponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<vivo:CompanySponsorsType/>/<vivo:CompanySponsorsType/>.jsp?uri=<vivo:CompanySponsors/>"><vivo:CompanySponsors /></a></td></tr>
       </vivo:foreachCompanySponsorsIterator>
@@ -84,6 +75,15 @@
       <vivo:foreachCompanyAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:CompanyAffiliatedOrganizationType/>/<vivo:CompanyAffiliatedOrganizationType/>.jsp?uri=<vivo:CompanyAffiliatedOrganization/>"><vivo:CompanyAffiliatedOrganization /></a></td></tr>
       </vivo:foreachCompanyAffiliatedOrganizationIterator>
+      <vivo:foreachCompanyAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<vivo:CompanyAssigneeForType/>/<vivo:CompanyAssigneeForType/>.jsp?uri=<vivo:CompanyAssigneeFor/>"><vivo:CompanyAssigneeFor /></a></td></tr>
+      </vivo:foreachCompanyAssigneeForIterator>
+      <vivo:foreachCompanyHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<vivo:CompanyHasCollaboratorType/>/<vivo:CompanyHasCollaboratorType/>.jsp?uri=<vivo:CompanyHasCollaborator/>"><vivo:CompanyHasCollaborator /></a></td></tr>
+      </vivo:foreachCompanyHasCollaboratorIterator>
+      <vivo:foreachCompanyTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<vivo:CompanyTranslatorOfType/>/<vivo:CompanyTranslatorOfType/>.jsp?uri=<vivo:CompanyTranslatorOf/>"><vivo:CompanyTranslatorOf /></a></td></tr>
+      </vivo:foreachCompanyTranslatorOfIterator>
    </table>
    </vivo:Company>
 

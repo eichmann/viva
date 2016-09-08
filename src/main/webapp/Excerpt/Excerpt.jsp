@@ -26,12 +26,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachExcerptTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:ExcerptTheAbstract /></td></tr>
-      </vivo:foreachExcerptTheAbstractIterator>
-      <vivo:foreachExcerptDoiIterator>
-         <tr><td>doi</td><td><vivo:ExcerptDoi /></td></tr>
-      </vivo:foreachExcerptDoiIterator>
       <vivo:foreachExcerptPmidIterator>
          <tr><td>pmid</td><td><vivo:ExcerptPmid /></td></tr>
       </vivo:foreachExcerptPmidIterator>
@@ -41,22 +35,16 @@
       <vivo:foreachExcerptVolumeIterator>
          <tr><td>volume</td><td><vivo:ExcerptVolume /></td></tr>
       </vivo:foreachExcerptVolumeIterator>
+      <vivo:foreachExcerptTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:ExcerptTheAbstract /></td></tr>
+      </vivo:foreachExcerptTheAbstractIterator>
+      <vivo:foreachExcerptDoiIterator>
+         <tr><td>doi</td><td><vivo:ExcerptDoi /></td></tr>
+      </vivo:foreachExcerptDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachExcerptTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:ExcerptTranslatorType/>/<vivo:ExcerptTranslatorType/>.jsp?uri=<vivo:ExcerptTranslator/>"><vivo:ExcerptTranslator /></a></td></tr>
-      </vivo:foreachExcerptTranslatorIterator>
-      <vivo:foreachExcerptFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:ExcerptFeaturesType/>/<vivo:ExcerptFeaturesType/>.jsp?uri=<vivo:ExcerptFeatures/>"><vivo:ExcerptFeatures /></a></td></tr>
-      </vivo:foreachExcerptFeaturesIterator>
-      <vivo:foreachExcerptInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ExcerptInformationResourceSupportedByType/>/<vivo:ExcerptInformationResourceSupportedByType/>.jsp?uri=<vivo:ExcerptInformationResourceSupportedBy/>"><vivo:ExcerptInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachExcerptInformationResourceSupportedByIterator>
-      <vivo:foreachExcerptIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:ExcerptIAO_0000136Type/>/<vivo:ExcerptIAO_0000136Type/>.jsp?uri=<vivo:ExcerptIAO_0000136/>"><vivo:ExcerptIAO_0000136 /></a></td></tr>
-      </vivo:foreachExcerptIAO_0000136Iterator>
       <vivo:foreachExcerptRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:ExcerptRO_0000056Type/>/<vivo:ExcerptRO_0000056Type/>.jsp?uri=<vivo:ExcerptRO_0000056/>"><vivo:ExcerptRO_0000056 /></a></td></tr>
       </vivo:foreachExcerptRO_0000056Iterator>
@@ -87,6 +75,18 @@
       <vivo:foreachExcerptCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:ExcerptCitesType/>/<vivo:ExcerptCitesType/>.jsp?uri=<vivo:ExcerptCites/>"><vivo:ExcerptCites /></a></td></tr>
       </vivo:foreachExcerptCitesIterator>
+      <vivo:foreachExcerptTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:ExcerptTranslatorType/>/<vivo:ExcerptTranslatorType/>.jsp?uri=<vivo:ExcerptTranslator/>"><vivo:ExcerptTranslator /></a></td></tr>
+      </vivo:foreachExcerptTranslatorIterator>
+      <vivo:foreachExcerptFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:ExcerptFeaturesType/>/<vivo:ExcerptFeaturesType/>.jsp?uri=<vivo:ExcerptFeatures/>"><vivo:ExcerptFeatures /></a></td></tr>
+      </vivo:foreachExcerptFeaturesIterator>
+      <vivo:foreachExcerptInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ExcerptInformationResourceSupportedByType/>/<vivo:ExcerptInformationResourceSupportedByType/>.jsp?uri=<vivo:ExcerptInformationResourceSupportedBy/>"><vivo:ExcerptInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachExcerptInformationResourceSupportedByIterator>
+      <vivo:foreachExcerptIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:ExcerptIAO_0000136Type/>/<vivo:ExcerptIAO_0000136Type/>.jsp?uri=<vivo:ExcerptIAO_0000136/>"><vivo:ExcerptIAO_0000136 /></a></td></tr>
+      </vivo:foreachExcerptIAO_0000136Iterator>
    </table>
    </vivo:Excerpt>
 

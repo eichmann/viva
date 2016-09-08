@@ -36,18 +36,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachSeriesTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:SeriesTranslatorType/>/<vivo:SeriesTranslatorType/>.jsp?uri=<vivo:SeriesTranslator/>"><vivo:SeriesTranslator /></a></td></tr>
-      </vivo:foreachSeriesTranslatorIterator>
-      <vivo:foreachSeriesFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:SeriesFeaturesType/>/<vivo:SeriesFeaturesType/>.jsp?uri=<vivo:SeriesFeatures/>"><vivo:SeriesFeatures /></a></td></tr>
-      </vivo:foreachSeriesFeaturesIterator>
-      <vivo:foreachSeriesInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:SeriesInformationResourceSupportedByType/>/<vivo:SeriesInformationResourceSupportedByType/>.jsp?uri=<vivo:SeriesInformationResourceSupportedBy/>"><vivo:SeriesInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachSeriesInformationResourceSupportedByIterator>
-      <vivo:foreachSeriesIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:SeriesIAO_0000136Type/>/<vivo:SeriesIAO_0000136Type/>.jsp?uri=<vivo:SeriesIAO_0000136/>"><vivo:SeriesIAO_0000136 /></a></td></tr>
-      </vivo:foreachSeriesIAO_0000136Iterator>
       <vivo:foreachSeriesDateTimeValueIterator>
          <tr><td>dateTimeValue</td><td><a href="../<vivo:SeriesDateTimeValueType/>/<vivo:SeriesDateTimeValueType/>.jsp?uri=<vivo:SeriesDateTimeValue/>"><vivo:SeriesDateTimeValue /></a></td></tr>
       </vivo:foreachSeriesDateTimeValueIterator>
@@ -63,6 +51,18 @@
       <vivo:foreachSeriesRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:SeriesRO_0000056Type/>/<vivo:SeriesRO_0000056Type/>.jsp?uri=<vivo:SeriesRO_0000056/>"><vivo:SeriesRO_0000056 /></a></td></tr>
       </vivo:foreachSeriesRO_0000056Iterator>
+      <vivo:foreachSeriesTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:SeriesTranslatorType/>/<vivo:SeriesTranslatorType/>.jsp?uri=<vivo:SeriesTranslator/>"><vivo:SeriesTranslator /></a></td></tr>
+      </vivo:foreachSeriesTranslatorIterator>
+      <vivo:foreachSeriesFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:SeriesFeaturesType/>/<vivo:SeriesFeaturesType/>.jsp?uri=<vivo:SeriesFeatures/>"><vivo:SeriesFeatures /></a></td></tr>
+      </vivo:foreachSeriesFeaturesIterator>
+      <vivo:foreachSeriesInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:SeriesInformationResourceSupportedByType/>/<vivo:SeriesInformationResourceSupportedByType/>.jsp?uri=<vivo:SeriesInformationResourceSupportedBy/>"><vivo:SeriesInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachSeriesInformationResourceSupportedByIterator>
+      <vivo:foreachSeriesIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:SeriesIAO_0000136Type/>/<vivo:SeriesIAO_0000136Type/>.jsp?uri=<vivo:SeriesIAO_0000136/>"><vivo:SeriesIAO_0000136 /></a></td></tr>
+      </vivo:foreachSeriesIAO_0000136Iterator>
    </table>
    </vivo:Series>
 

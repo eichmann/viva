@@ -26,12 +26,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachIssueTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:IssueTheAbstract /></td></tr>
-      </vivo:foreachIssueTheAbstractIterator>
-      <vivo:foreachIssueDoiIterator>
-         <tr><td>doi</td><td><vivo:IssueDoi /></td></tr>
-      </vivo:foreachIssueDoiIterator>
       <vivo:foreachIssuePmidIterator>
          <tr><td>pmid</td><td><vivo:IssuePmid /></td></tr>
       </vivo:foreachIssuePmidIterator>
@@ -41,22 +35,16 @@
       <vivo:foreachIssueVolumeIterator>
          <tr><td>volume</td><td><vivo:IssueVolume /></td></tr>
       </vivo:foreachIssueVolumeIterator>
+      <vivo:foreachIssueTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:IssueTheAbstract /></td></tr>
+      </vivo:foreachIssueTheAbstractIterator>
+      <vivo:foreachIssueDoiIterator>
+         <tr><td>doi</td><td><vivo:IssueDoi /></td></tr>
+      </vivo:foreachIssueDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachIssueTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:IssueTranslatorType/>/<vivo:IssueTranslatorType/>.jsp?uri=<vivo:IssueTranslator/>"><vivo:IssueTranslator /></a></td></tr>
-      </vivo:foreachIssueTranslatorIterator>
-      <vivo:foreachIssueFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:IssueFeaturesType/>/<vivo:IssueFeaturesType/>.jsp?uri=<vivo:IssueFeatures/>"><vivo:IssueFeatures /></a></td></tr>
-      </vivo:foreachIssueFeaturesIterator>
-      <vivo:foreachIssueInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:IssueInformationResourceSupportedByType/>/<vivo:IssueInformationResourceSupportedByType/>.jsp?uri=<vivo:IssueInformationResourceSupportedBy/>"><vivo:IssueInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachIssueInformationResourceSupportedByIterator>
-      <vivo:foreachIssueIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:IssueIAO_0000136Type/>/<vivo:IssueIAO_0000136Type/>.jsp?uri=<vivo:IssueIAO_0000136/>"><vivo:IssueIAO_0000136 /></a></td></tr>
-      </vivo:foreachIssueIAO_0000136Iterator>
       <vivo:foreachIssueRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:IssueRO_0000056Type/>/<vivo:IssueRO_0000056Type/>.jsp?uri=<vivo:IssueRO_0000056/>"><vivo:IssueRO_0000056 /></a></td></tr>
       </vivo:foreachIssueRO_0000056Iterator>
@@ -87,6 +75,18 @@
       <vivo:foreachIssueCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:IssueCitesType/>/<vivo:IssueCitesType/>.jsp?uri=<vivo:IssueCites/>"><vivo:IssueCites /></a></td></tr>
       </vivo:foreachIssueCitesIterator>
+      <vivo:foreachIssueTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:IssueTranslatorType/>/<vivo:IssueTranslatorType/>.jsp?uri=<vivo:IssueTranslator/>"><vivo:IssueTranslator /></a></td></tr>
+      </vivo:foreachIssueTranslatorIterator>
+      <vivo:foreachIssueFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:IssueFeaturesType/>/<vivo:IssueFeaturesType/>.jsp?uri=<vivo:IssueFeatures/>"><vivo:IssueFeatures /></a></td></tr>
+      </vivo:foreachIssueFeaturesIterator>
+      <vivo:foreachIssueInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:IssueInformationResourceSupportedByType/>/<vivo:IssueInformationResourceSupportedByType/>.jsp?uri=<vivo:IssueInformationResourceSupportedBy/>"><vivo:IssueInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachIssueInformationResourceSupportedByIterator>
+      <vivo:foreachIssueIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:IssueIAO_0000136Type/>/<vivo:IssueIAO_0000136Type/>.jsp?uri=<vivo:IssueIAO_0000136/>"><vivo:IssueIAO_0000136 /></a></td></tr>
+      </vivo:foreachIssueIAO_0000136Iterator>
    </table>
    </vivo:Issue>
 

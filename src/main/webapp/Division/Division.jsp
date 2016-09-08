@@ -22,8 +22,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>overview</td><td><vivo:DivisionOverview /></td></tr>
       <tr><td>abbreviation</td><td><vivo:DivisionAbbreviation /></td></tr>
+      <tr><td>overview</td><td><vivo:DivisionOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -38,15 +38,6 @@
       <vivo:foreachDivisionRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:DivisionRO_0000056Type/>/<vivo:DivisionRO_0000056Type/>.jsp?uri=<vivo:DivisionRO_0000056/>"><vivo:DivisionRO_0000056 /></a></td></tr>
       </vivo:foreachDivisionRO_0000056Iterator>
-      <vivo:foreachDivisionAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<vivo:DivisionAssigneeForType/>/<vivo:DivisionAssigneeForType/>.jsp?uri=<vivo:DivisionAssigneeFor/>"><vivo:DivisionAssigneeFor /></a></td></tr>
-      </vivo:foreachDivisionAssigneeForIterator>
-      <vivo:foreachDivisionHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<vivo:DivisionHasCollaboratorType/>/<vivo:DivisionHasCollaboratorType/>.jsp?uri=<vivo:DivisionHasCollaborator/>"><vivo:DivisionHasCollaborator /></a></td></tr>
-      </vivo:foreachDivisionHasCollaboratorIterator>
-      <vivo:foreachDivisionTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<vivo:DivisionTranslatorOfType/>/<vivo:DivisionTranslatorOfType/>.jsp?uri=<vivo:DivisionTranslatorOf/>"><vivo:DivisionTranslatorOf /></a></td></tr>
-      </vivo:foreachDivisionTranslatorOfIterator>
       <vivo:foreachDivisionSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<vivo:DivisionSponsorsType/>/<vivo:DivisionSponsorsType/>.jsp?uri=<vivo:DivisionSponsors/>"><vivo:DivisionSponsors /></a></td></tr>
       </vivo:foreachDivisionSponsorsIterator>
@@ -80,6 +71,15 @@
       <vivo:foreachDivisionAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:DivisionAffiliatedOrganizationType/>/<vivo:DivisionAffiliatedOrganizationType/>.jsp?uri=<vivo:DivisionAffiliatedOrganization/>"><vivo:DivisionAffiliatedOrganization /></a></td></tr>
       </vivo:foreachDivisionAffiliatedOrganizationIterator>
+      <vivo:foreachDivisionAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<vivo:DivisionAssigneeForType/>/<vivo:DivisionAssigneeForType/>.jsp?uri=<vivo:DivisionAssigneeFor/>"><vivo:DivisionAssigneeFor /></a></td></tr>
+      </vivo:foreachDivisionAssigneeForIterator>
+      <vivo:foreachDivisionHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<vivo:DivisionHasCollaboratorType/>/<vivo:DivisionHasCollaboratorType/>.jsp?uri=<vivo:DivisionHasCollaborator/>"><vivo:DivisionHasCollaborator /></a></td></tr>
+      </vivo:foreachDivisionHasCollaboratorIterator>
+      <vivo:foreachDivisionTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<vivo:DivisionTranslatorOfType/>/<vivo:DivisionTranslatorOfType/>.jsp?uri=<vivo:DivisionTranslatorOf/>"><vivo:DivisionTranslatorOf /></a></td></tr>
+      </vivo:foreachDivisionTranslatorOfIterator>
    </table>
    </vivo:Division>
 

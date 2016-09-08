@@ -26,12 +26,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachAudioVisualDocumentTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:AudioVisualDocumentTheAbstract /></td></tr>
-      </vivo:foreachAudioVisualDocumentTheAbstractIterator>
-      <vivo:foreachAudioVisualDocumentDoiIterator>
-         <tr><td>doi</td><td><vivo:AudioVisualDocumentDoi /></td></tr>
-      </vivo:foreachAudioVisualDocumentDoiIterator>
       <vivo:foreachAudioVisualDocumentPmidIterator>
          <tr><td>pmid</td><td><vivo:AudioVisualDocumentPmid /></td></tr>
       </vivo:foreachAudioVisualDocumentPmidIterator>
@@ -41,6 +35,12 @@
       <vivo:foreachAudioVisualDocumentVolumeIterator>
          <tr><td>volume</td><td><vivo:AudioVisualDocumentVolume /></td></tr>
       </vivo:foreachAudioVisualDocumentVolumeIterator>
+      <vivo:foreachAudioVisualDocumentTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:AudioVisualDocumentTheAbstract /></td></tr>
+      </vivo:foreachAudioVisualDocumentTheAbstractIterator>
+      <vivo:foreachAudioVisualDocumentDoiIterator>
+         <tr><td>doi</td><td><vivo:AudioVisualDocumentDoi /></td></tr>
+      </vivo:foreachAudioVisualDocumentDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -57,18 +57,6 @@
       <vivo:foreachAudioVisualDocumentRelatedByIterator>
          <tr><td>relatedBy</td><td><a href="../<vivo:AudioVisualDocumentRelatedByType/>/<vivo:AudioVisualDocumentRelatedByType/>.jsp?uri=<vivo:AudioVisualDocumentRelatedBy/>"><vivo:AudioVisualDocumentRelatedBy /></a></td></tr>
       </vivo:foreachAudioVisualDocumentRelatedByIterator>
-      <vivo:foreachAudioVisualDocumentTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:AudioVisualDocumentTranslatorType/>/<vivo:AudioVisualDocumentTranslatorType/>.jsp?uri=<vivo:AudioVisualDocumentTranslator/>"><vivo:AudioVisualDocumentTranslator /></a></td></tr>
-      </vivo:foreachAudioVisualDocumentTranslatorIterator>
-      <vivo:foreachAudioVisualDocumentFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:AudioVisualDocumentFeaturesType/>/<vivo:AudioVisualDocumentFeaturesType/>.jsp?uri=<vivo:AudioVisualDocumentFeatures/>"><vivo:AudioVisualDocumentFeatures /></a></td></tr>
-      </vivo:foreachAudioVisualDocumentFeaturesIterator>
-      <vivo:foreachAudioVisualDocumentInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:AudioVisualDocumentInformationResourceSupportedByType/>/<vivo:AudioVisualDocumentInformationResourceSupportedByType/>.jsp?uri=<vivo:AudioVisualDocumentInformationResourceSupportedBy/>"><vivo:AudioVisualDocumentInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachAudioVisualDocumentInformationResourceSupportedByIterator>
-      <vivo:foreachAudioVisualDocumentIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:AudioVisualDocumentIAO_0000136Type/>/<vivo:AudioVisualDocumentIAO_0000136Type/>.jsp?uri=<vivo:AudioVisualDocumentIAO_0000136/>"><vivo:AudioVisualDocumentIAO_0000136 /></a></td></tr>
-      </vivo:foreachAudioVisualDocumentIAO_0000136Iterator>
       <vivo:foreachAudioVisualDocumentRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:AudioVisualDocumentRO_0000056Type/>/<vivo:AudioVisualDocumentRO_0000056Type/>.jsp?uri=<vivo:AudioVisualDocumentRO_0000056/>"><vivo:AudioVisualDocumentRO_0000056 /></a></td></tr>
       </vivo:foreachAudioVisualDocumentRO_0000056Iterator>
@@ -99,6 +87,18 @@
       <vivo:foreachAudioVisualDocumentCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:AudioVisualDocumentCitesType/>/<vivo:AudioVisualDocumentCitesType/>.jsp?uri=<vivo:AudioVisualDocumentCites/>"><vivo:AudioVisualDocumentCites /></a></td></tr>
       </vivo:foreachAudioVisualDocumentCitesIterator>
+      <vivo:foreachAudioVisualDocumentTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:AudioVisualDocumentTranslatorType/>/<vivo:AudioVisualDocumentTranslatorType/>.jsp?uri=<vivo:AudioVisualDocumentTranslator/>"><vivo:AudioVisualDocumentTranslator /></a></td></tr>
+      </vivo:foreachAudioVisualDocumentTranslatorIterator>
+      <vivo:foreachAudioVisualDocumentFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:AudioVisualDocumentFeaturesType/>/<vivo:AudioVisualDocumentFeaturesType/>.jsp?uri=<vivo:AudioVisualDocumentFeatures/>"><vivo:AudioVisualDocumentFeatures /></a></td></tr>
+      </vivo:foreachAudioVisualDocumentFeaturesIterator>
+      <vivo:foreachAudioVisualDocumentInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:AudioVisualDocumentInformationResourceSupportedByType/>/<vivo:AudioVisualDocumentInformationResourceSupportedByType/>.jsp?uri=<vivo:AudioVisualDocumentInformationResourceSupportedBy/>"><vivo:AudioVisualDocumentInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachAudioVisualDocumentInformationResourceSupportedByIterator>
+      <vivo:foreachAudioVisualDocumentIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:AudioVisualDocumentIAO_0000136Type/>/<vivo:AudioVisualDocumentIAO_0000136Type/>.jsp?uri=<vivo:AudioVisualDocumentIAO_0000136/>"><vivo:AudioVisualDocumentIAO_0000136 /></a></td></tr>
+      </vivo:foreachAudioVisualDocumentIAO_0000136Iterator>
    </table>
    </vivo:AudioVisualDocument>
 

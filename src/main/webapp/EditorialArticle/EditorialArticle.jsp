@@ -26,12 +26,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachEditorialArticleTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:EditorialArticleTheAbstract /></td></tr>
-      </vivo:foreachEditorialArticleTheAbstractIterator>
-      <vivo:foreachEditorialArticleDoiIterator>
-         <tr><td>doi</td><td><vivo:EditorialArticleDoi /></td></tr>
-      </vivo:foreachEditorialArticleDoiIterator>
       <vivo:foreachEditorialArticlePmcidIterator>
          <tr><td>pmcid</td><td><vivo:EditorialArticlePmcid /></td></tr>
       </vivo:foreachEditorialArticlePmcidIterator>
@@ -50,22 +44,16 @@
       <vivo:foreachEditorialArticleVolumeIterator>
          <tr><td>volume</td><td><vivo:EditorialArticleVolume /></td></tr>
       </vivo:foreachEditorialArticleVolumeIterator>
+      <vivo:foreachEditorialArticleTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:EditorialArticleTheAbstract /></td></tr>
+      </vivo:foreachEditorialArticleTheAbstractIterator>
+      <vivo:foreachEditorialArticleDoiIterator>
+         <tr><td>doi</td><td><vivo:EditorialArticleDoi /></td></tr>
+      </vivo:foreachEditorialArticleDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachEditorialArticleTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:EditorialArticleTranslatorType/>/<vivo:EditorialArticleTranslatorType/>.jsp?uri=<vivo:EditorialArticleTranslator/>"><vivo:EditorialArticleTranslator /></a></td></tr>
-      </vivo:foreachEditorialArticleTranslatorIterator>
-      <vivo:foreachEditorialArticleFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:EditorialArticleFeaturesType/>/<vivo:EditorialArticleFeaturesType/>.jsp?uri=<vivo:EditorialArticleFeatures/>"><vivo:EditorialArticleFeatures /></a></td></tr>
-      </vivo:foreachEditorialArticleFeaturesIterator>
-      <vivo:foreachEditorialArticleInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:EditorialArticleInformationResourceSupportedByType/>/<vivo:EditorialArticleInformationResourceSupportedByType/>.jsp?uri=<vivo:EditorialArticleInformationResourceSupportedBy/>"><vivo:EditorialArticleInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachEditorialArticleInformationResourceSupportedByIterator>
-      <vivo:foreachEditorialArticleIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:EditorialArticleIAO_0000136Type/>/<vivo:EditorialArticleIAO_0000136Type/>.jsp?uri=<vivo:EditorialArticleIAO_0000136/>"><vivo:EditorialArticleIAO_0000136 /></a></td></tr>
-      </vivo:foreachEditorialArticleIAO_0000136Iterator>
       <vivo:foreachEditorialArticleDateTimeValueIterator>
          <tr><td>dateTimeValue</td><td><a href="../<vivo:EditorialArticleDateTimeValueType/>/<vivo:EditorialArticleDateTimeValueType/>.jsp?uri=<vivo:EditorialArticleDateTimeValue/>"><vivo:EditorialArticleDateTimeValue /></a></td></tr>
       </vivo:foreachEditorialArticleDateTimeValueIterator>
@@ -111,6 +99,18 @@
       <vivo:foreachEditorialArticleCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:EditorialArticleCitesType/>/<vivo:EditorialArticleCitesType/>.jsp?uri=<vivo:EditorialArticleCites/>"><vivo:EditorialArticleCites /></a></td></tr>
       </vivo:foreachEditorialArticleCitesIterator>
+      <vivo:foreachEditorialArticleTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:EditorialArticleTranslatorType/>/<vivo:EditorialArticleTranslatorType/>.jsp?uri=<vivo:EditorialArticleTranslator/>"><vivo:EditorialArticleTranslator /></a></td></tr>
+      </vivo:foreachEditorialArticleTranslatorIterator>
+      <vivo:foreachEditorialArticleFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:EditorialArticleFeaturesType/>/<vivo:EditorialArticleFeaturesType/>.jsp?uri=<vivo:EditorialArticleFeatures/>"><vivo:EditorialArticleFeatures /></a></td></tr>
+      </vivo:foreachEditorialArticleFeaturesIterator>
+      <vivo:foreachEditorialArticleInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:EditorialArticleInformationResourceSupportedByType/>/<vivo:EditorialArticleInformationResourceSupportedByType/>.jsp?uri=<vivo:EditorialArticleInformationResourceSupportedBy/>"><vivo:EditorialArticleInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachEditorialArticleInformationResourceSupportedByIterator>
+      <vivo:foreachEditorialArticleIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:EditorialArticleIAO_0000136Type/>/<vivo:EditorialArticleIAO_0000136Type/>.jsp?uri=<vivo:EditorialArticleIAO_0000136/>"><vivo:EditorialArticleIAO_0000136 /></a></td></tr>
+      </vivo:foreachEditorialArticleIAO_0000136Iterator>
    </table>
    </vivo:EditorialArticle>
 

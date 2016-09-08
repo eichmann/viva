@@ -35,12 +35,6 @@
       <vivo:foreachIAO_0000013NihmsidIterator>
          <tr><td>nihmsid</td><td><vivo:IAO_0000013Nihmsid /></td></tr>
       </vivo:foreachIAO_0000013NihmsidIterator>
-      <vivo:foreachIAO_0000013TheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:IAO_0000013TheAbstract /></td></tr>
-      </vivo:foreachIAO_0000013TheAbstractIterator>
-      <vivo:foreachIAO_0000013DoiIterator>
-         <tr><td>doi</td><td><vivo:IAO_0000013Doi /></td></tr>
-      </vivo:foreachIAO_0000013DoiIterator>
       <vivo:foreachIAO_0000013PageStartIterator>
          <tr><td>pageStart</td><td><vivo:IAO_0000013PageStart /></td></tr>
       </vivo:foreachIAO_0000013PageStartIterator>
@@ -59,6 +53,12 @@
       <vivo:foreachIAO_0000013VolumeIterator>
          <tr><td>volume</td><td><vivo:IAO_0000013Volume /></td></tr>
       </vivo:foreachIAO_0000013VolumeIterator>
+      <vivo:foreachIAO_0000013TheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:IAO_0000013TheAbstract /></td></tr>
+      </vivo:foreachIAO_0000013TheAbstractIterator>
+      <vivo:foreachIAO_0000013DoiIterator>
+         <tr><td>doi</td><td><vivo:IAO_0000013Doi /></td></tr>
+      </vivo:foreachIAO_0000013DoiIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -78,21 +78,6 @@
       <vivo:foreachIAO_0000013RelatesIterator>
          <tr><td>relates</td><td><a href="../<vivo:IAO_0000013RelatesType/>/<vivo:IAO_0000013RelatesType/>.jsp?uri=<vivo:IAO_0000013Relates/>"><vivo:IAO_0000013Relates /></a></td></tr>
       </vivo:foreachIAO_0000013RelatesIterator>
-      <vivo:foreachIAO_0000013TranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:IAO_0000013TranslatorType/>/<vivo:IAO_0000013TranslatorType/>.jsp?uri=<vivo:IAO_0000013Translator/>"><vivo:IAO_0000013Translator /></a></td></tr>
-      </vivo:foreachIAO_0000013TranslatorIterator>
-      <vivo:foreachIAO_0000013FeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:IAO_0000013FeaturesType/>/<vivo:IAO_0000013FeaturesType/>.jsp?uri=<vivo:IAO_0000013Features/>"><vivo:IAO_0000013Features /></a></td></tr>
-      </vivo:foreachIAO_0000013FeaturesIterator>
-      <vivo:foreachIAO_0000013InformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:IAO_0000013InformationResourceSupportedByType/>/<vivo:IAO_0000013InformationResourceSupportedByType/>.jsp?uri=<vivo:IAO_0000013InformationResourceSupportedBy/>"><vivo:IAO_0000013InformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachIAO_0000013InformationResourceSupportedByIterator>
-      <vivo:foreachIAO_0000013IAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:IAO_0000013IAO_0000136Type/>/<vivo:IAO_0000013IAO_0000136Type/>.jsp?uri=<vivo:IAO_0000013IAO_0000136/>"><vivo:IAO_0000013IAO_0000136 /></a></td></tr>
-      </vivo:foreachIAO_0000013IAO_0000136Iterator>
-      <vivo:foreachIAO_0000013RO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:IAO_0000013RO_0000056Type/>/<vivo:IAO_0000013RO_0000056Type/>.jsp?uri=<vivo:IAO_0000013RO_0000056/>"><vivo:IAO_0000013RO_0000056 /></a></td></tr>
-      </vivo:foreachIAO_0000013RO_0000056Iterator>
       <vivo:foreachIAO_0000013DateTimeValueIterator>
          <tr><td>dateTimeValue</td><td><a href="../<vivo:IAO_0000013DateTimeValueType/>/<vivo:IAO_0000013DateTimeValueType/>.jsp?uri=<vivo:IAO_0000013DateTimeValue/>"><vivo:IAO_0000013DateTimeValue /></a></td></tr>
       </vivo:foreachIAO_0000013DateTimeValueIterator>
@@ -111,6 +96,9 @@
       <vivo:foreachIAO_0000013RelatesIterator>
          <tr><td>relates</td><td><a href="../<vivo:IAO_0000013RelatesType/>/<vivo:IAO_0000013RelatesType/>.jsp?uri=<vivo:IAO_0000013Relates/>"><vivo:IAO_0000013Relates /></a></td></tr>
       </vivo:foreachIAO_0000013RelatesIterator>
+      <vivo:foreachIAO_0000013RO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:IAO_0000013RO_0000056Type/>/<vivo:IAO_0000013RO_0000056Type/>.jsp?uri=<vivo:IAO_0000013RO_0000056/>"><vivo:IAO_0000013RO_0000056 /></a></td></tr>
+      </vivo:foreachIAO_0000013RO_0000056Iterator>
       <vivo:foreachIAO_0000013DocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<vivo:IAO_0000013DocumentationForType/>/<vivo:IAO_0000013DocumentationForType/>.jsp?uri=<vivo:IAO_0000013DocumentationFor/>"><vivo:IAO_0000013DocumentationFor /></a></td></tr>
       </vivo:foreachIAO_0000013DocumentationForIterator>
@@ -138,6 +126,18 @@
       <vivo:foreachIAO_0000013CitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:IAO_0000013CitesType/>/<vivo:IAO_0000013CitesType/>.jsp?uri=<vivo:IAO_0000013Cites/>"><vivo:IAO_0000013Cites /></a></td></tr>
       </vivo:foreachIAO_0000013CitesIterator>
+      <vivo:foreachIAO_0000013TranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:IAO_0000013TranslatorType/>/<vivo:IAO_0000013TranslatorType/>.jsp?uri=<vivo:IAO_0000013Translator/>"><vivo:IAO_0000013Translator /></a></td></tr>
+      </vivo:foreachIAO_0000013TranslatorIterator>
+      <vivo:foreachIAO_0000013FeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:IAO_0000013FeaturesType/>/<vivo:IAO_0000013FeaturesType/>.jsp?uri=<vivo:IAO_0000013Features/>"><vivo:IAO_0000013Features /></a></td></tr>
+      </vivo:foreachIAO_0000013FeaturesIterator>
+      <vivo:foreachIAO_0000013InformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:IAO_0000013InformationResourceSupportedByType/>/<vivo:IAO_0000013InformationResourceSupportedByType/>.jsp?uri=<vivo:IAO_0000013InformationResourceSupportedBy/>"><vivo:IAO_0000013InformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachIAO_0000013InformationResourceSupportedByIterator>
+      <vivo:foreachIAO_0000013IAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:IAO_0000013IAO_0000136Type/>/<vivo:IAO_0000013IAO_0000136Type/>.jsp?uri=<vivo:IAO_0000013IAO_0000136/>"><vivo:IAO_0000013IAO_0000136 /></a></td></tr>
+      </vivo:foreachIAO_0000013IAO_0000136Iterator>
    </table>
    </vivo:IAO_0000013>
 

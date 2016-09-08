@@ -34,15 +34,15 @@
       <vivo:foreachPrincipalInvestigatorRoleRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<vivo:PrincipalInvestigatorRoleRO_0000052Type/>/<vivo:PrincipalInvestigatorRoleRO_0000052Type/>.jsp?uri=<vivo:PrincipalInvestigatorRoleRO_0000052/>"><vivo:PrincipalInvestigatorRoleRO_0000052 /></a></td></tr>
       </vivo:foreachPrincipalInvestigatorRoleRO_0000052Iterator>
+      <vivo:foreachPrincipalInvestigatorRoleBFO_0000054Iterator>
+         <tr><td>BFO_0000054</td><td><a href="../<vivo:PrincipalInvestigatorRoleBFO_0000054Type/>/<vivo:PrincipalInvestigatorRoleBFO_0000054Type/>.jsp?uri=<vivo:PrincipalInvestigatorRoleBFO_0000054/>"><vivo:PrincipalInvestigatorRoleBFO_0000054 /></a></td></tr>
+      </vivo:foreachPrincipalInvestigatorRoleBFO_0000054Iterator>
       <vivo:foreachPrincipalInvestigatorRoleRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:PrincipalInvestigatorRoleRO_0000056Type/>/<vivo:PrincipalInvestigatorRoleRO_0000056Type/>.jsp?uri=<vivo:PrincipalInvestigatorRoleRO_0000056/>"><vivo:PrincipalInvestigatorRoleRO_0000056 /></a></td></tr>
       </vivo:foreachPrincipalInvestigatorRoleRO_0000056Iterator>
       <vivo:foreachPrincipalInvestigatorRoleRoleContributesToIterator>
          <tr><td>roleContributesTo</td><td><a href="../<vivo:PrincipalInvestigatorRoleRoleContributesToType/>/<vivo:PrincipalInvestigatorRoleRoleContributesToType/>.jsp?uri=<vivo:PrincipalInvestigatorRoleRoleContributesTo/>"><vivo:PrincipalInvestigatorRoleRoleContributesTo /></a></td></tr>
       </vivo:foreachPrincipalInvestigatorRoleRoleContributesToIterator>
-      <vivo:foreachPrincipalInvestigatorRoleBFO_0000054Iterator>
-         <tr><td>BFO_0000054</td><td><a href="../<vivo:PrincipalInvestigatorRoleBFO_0000054Type/>/<vivo:PrincipalInvestigatorRoleBFO_0000054Type/>.jsp?uri=<vivo:PrincipalInvestigatorRoleBFO_0000054/>"><vivo:PrincipalInvestigatorRoleBFO_0000054 /></a></td></tr>
-      </vivo:foreachPrincipalInvestigatorRoleBFO_0000054Iterator>
    </table>
    </vivo:PrincipalInvestigatorRole>
 

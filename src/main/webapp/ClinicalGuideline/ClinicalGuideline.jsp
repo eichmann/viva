@@ -26,12 +26,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachClinicalGuidelineTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:ClinicalGuidelineTheAbstract /></td></tr>
-      </vivo:foreachClinicalGuidelineTheAbstractIterator>
-      <vivo:foreachClinicalGuidelineDoiIterator>
-         <tr><td>doi</td><td><vivo:ClinicalGuidelineDoi /></td></tr>
-      </vivo:foreachClinicalGuidelineDoiIterator>
       <vivo:foreachClinicalGuidelinePmidIterator>
          <tr><td>pmid</td><td><vivo:ClinicalGuidelinePmid /></td></tr>
       </vivo:foreachClinicalGuidelinePmidIterator>
@@ -41,22 +35,16 @@
       <vivo:foreachClinicalGuidelineVolumeIterator>
          <tr><td>volume</td><td><vivo:ClinicalGuidelineVolume /></td></tr>
       </vivo:foreachClinicalGuidelineVolumeIterator>
+      <vivo:foreachClinicalGuidelineTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:ClinicalGuidelineTheAbstract /></td></tr>
+      </vivo:foreachClinicalGuidelineTheAbstractIterator>
+      <vivo:foreachClinicalGuidelineDoiIterator>
+         <tr><td>doi</td><td><vivo:ClinicalGuidelineDoi /></td></tr>
+      </vivo:foreachClinicalGuidelineDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachClinicalGuidelineTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:ClinicalGuidelineTranslatorType/>/<vivo:ClinicalGuidelineTranslatorType/>.jsp?uri=<vivo:ClinicalGuidelineTranslator/>"><vivo:ClinicalGuidelineTranslator /></a></td></tr>
-      </vivo:foreachClinicalGuidelineTranslatorIterator>
-      <vivo:foreachClinicalGuidelineFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:ClinicalGuidelineFeaturesType/>/<vivo:ClinicalGuidelineFeaturesType/>.jsp?uri=<vivo:ClinicalGuidelineFeatures/>"><vivo:ClinicalGuidelineFeatures /></a></td></tr>
-      </vivo:foreachClinicalGuidelineFeaturesIterator>
-      <vivo:foreachClinicalGuidelineInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ClinicalGuidelineInformationResourceSupportedByType/>/<vivo:ClinicalGuidelineInformationResourceSupportedByType/>.jsp?uri=<vivo:ClinicalGuidelineInformationResourceSupportedBy/>"><vivo:ClinicalGuidelineInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachClinicalGuidelineInformationResourceSupportedByIterator>
-      <vivo:foreachClinicalGuidelineIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:ClinicalGuidelineIAO_0000136Type/>/<vivo:ClinicalGuidelineIAO_0000136Type/>.jsp?uri=<vivo:ClinicalGuidelineIAO_0000136/>"><vivo:ClinicalGuidelineIAO_0000136 /></a></td></tr>
-      </vivo:foreachClinicalGuidelineIAO_0000136Iterator>
       <vivo:foreachClinicalGuidelineRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:ClinicalGuidelineRO_0000056Type/>/<vivo:ClinicalGuidelineRO_0000056Type/>.jsp?uri=<vivo:ClinicalGuidelineRO_0000056/>"><vivo:ClinicalGuidelineRO_0000056 /></a></td></tr>
       </vivo:foreachClinicalGuidelineRO_0000056Iterator>
@@ -87,6 +75,18 @@
       <vivo:foreachClinicalGuidelineCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:ClinicalGuidelineCitesType/>/<vivo:ClinicalGuidelineCitesType/>.jsp?uri=<vivo:ClinicalGuidelineCites/>"><vivo:ClinicalGuidelineCites /></a></td></tr>
       </vivo:foreachClinicalGuidelineCitesIterator>
+      <vivo:foreachClinicalGuidelineTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:ClinicalGuidelineTranslatorType/>/<vivo:ClinicalGuidelineTranslatorType/>.jsp?uri=<vivo:ClinicalGuidelineTranslator/>"><vivo:ClinicalGuidelineTranslator /></a></td></tr>
+      </vivo:foreachClinicalGuidelineTranslatorIterator>
+      <vivo:foreachClinicalGuidelineFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:ClinicalGuidelineFeaturesType/>/<vivo:ClinicalGuidelineFeaturesType/>.jsp?uri=<vivo:ClinicalGuidelineFeatures/>"><vivo:ClinicalGuidelineFeatures /></a></td></tr>
+      </vivo:foreachClinicalGuidelineFeaturesIterator>
+      <vivo:foreachClinicalGuidelineInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ClinicalGuidelineInformationResourceSupportedByType/>/<vivo:ClinicalGuidelineInformationResourceSupportedByType/>.jsp?uri=<vivo:ClinicalGuidelineInformationResourceSupportedBy/>"><vivo:ClinicalGuidelineInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachClinicalGuidelineInformationResourceSupportedByIterator>
+      <vivo:foreachClinicalGuidelineIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:ClinicalGuidelineIAO_0000136Type/>/<vivo:ClinicalGuidelineIAO_0000136Type/>.jsp?uri=<vivo:ClinicalGuidelineIAO_0000136/>"><vivo:ClinicalGuidelineIAO_0000136 /></a></td></tr>
+      </vivo:foreachClinicalGuidelineIAO_0000136Iterator>
    </table>
    </vivo:ClinicalGuideline>
 

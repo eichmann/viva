@@ -22,8 +22,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>overview</td><td><vivo:SchoolOverview /></td></tr>
       <tr><td>abbreviation</td><td><vivo:SchoolAbbreviation /></td></tr>
+      <tr><td>overview</td><td><vivo:SchoolOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -38,15 +38,6 @@
       <vivo:foreachSchoolRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:SchoolRO_0000056Type/>/<vivo:SchoolRO_0000056Type/>.jsp?uri=<vivo:SchoolRO_0000056/>"><vivo:SchoolRO_0000056 /></a></td></tr>
       </vivo:foreachSchoolRO_0000056Iterator>
-      <vivo:foreachSchoolAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<vivo:SchoolAssigneeForType/>/<vivo:SchoolAssigneeForType/>.jsp?uri=<vivo:SchoolAssigneeFor/>"><vivo:SchoolAssigneeFor /></a></td></tr>
-      </vivo:foreachSchoolAssigneeForIterator>
-      <vivo:foreachSchoolHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<vivo:SchoolHasCollaboratorType/>/<vivo:SchoolHasCollaboratorType/>.jsp?uri=<vivo:SchoolHasCollaborator/>"><vivo:SchoolHasCollaborator /></a></td></tr>
-      </vivo:foreachSchoolHasCollaboratorIterator>
-      <vivo:foreachSchoolTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<vivo:SchoolTranslatorOfType/>/<vivo:SchoolTranslatorOfType/>.jsp?uri=<vivo:SchoolTranslatorOf/>"><vivo:SchoolTranslatorOf /></a></td></tr>
-      </vivo:foreachSchoolTranslatorOfIterator>
       <vivo:foreachSchoolSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<vivo:SchoolSponsorsType/>/<vivo:SchoolSponsorsType/>.jsp?uri=<vivo:SchoolSponsors/>"><vivo:SchoolSponsors /></a></td></tr>
       </vivo:foreachSchoolSponsorsIterator>
@@ -80,6 +71,15 @@
       <vivo:foreachSchoolAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:SchoolAffiliatedOrganizationType/>/<vivo:SchoolAffiliatedOrganizationType/>.jsp?uri=<vivo:SchoolAffiliatedOrganization/>"><vivo:SchoolAffiliatedOrganization /></a></td></tr>
       </vivo:foreachSchoolAffiliatedOrganizationIterator>
+      <vivo:foreachSchoolAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<vivo:SchoolAssigneeForType/>/<vivo:SchoolAssigneeForType/>.jsp?uri=<vivo:SchoolAssigneeFor/>"><vivo:SchoolAssigneeFor /></a></td></tr>
+      </vivo:foreachSchoolAssigneeForIterator>
+      <vivo:foreachSchoolHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<vivo:SchoolHasCollaboratorType/>/<vivo:SchoolHasCollaboratorType/>.jsp?uri=<vivo:SchoolHasCollaborator/>"><vivo:SchoolHasCollaborator /></a></td></tr>
+      </vivo:foreachSchoolHasCollaboratorIterator>
+      <vivo:foreachSchoolTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<vivo:SchoolTranslatorOfType/>/<vivo:SchoolTranslatorOfType/>.jsp?uri=<vivo:SchoolTranslatorOf/>"><vivo:SchoolTranslatorOf /></a></td></tr>
+      </vivo:foreachSchoolTranslatorOfIterator>
    </table>
    </vivo:School>
 

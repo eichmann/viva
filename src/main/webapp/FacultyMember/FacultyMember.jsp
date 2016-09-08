@@ -22,10 +22,10 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>overview</td><td><vivo:FacultyMemberOverview /></td></tr>
       <tr><td>teachingOverview</td><td><vivo:FacultyMemberTeachingOverview /></td></tr>
       <tr><td>outreachOverview</td><td><vivo:FacultyMemberOutreachOverview /></td></tr>
       <tr><td>researchOverview</td><td><vivo:FacultyMemberResearchOverview /></td></tr>
+      <tr><td>overview</td><td><vivo:FacultyMemberOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -55,18 +55,6 @@
       <vivo:foreachFacultyMemberRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:FacultyMemberRO_0000053Type/>/<vivo:FacultyMemberRO_0000053Type/>.jsp?uri=<vivo:FacultyMemberRO_0000053/>"><vivo:FacultyMemberRO_0000053 /></a></td></tr>
       </vivo:foreachFacultyMemberRO_0000053Iterator>
-      <vivo:foreachFacultyMemberRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:FacultyMemberRO_0000056Type/>/<vivo:FacultyMemberRO_0000056Type/>.jsp?uri=<vivo:FacultyMemberRO_0000056/>"><vivo:FacultyMemberRO_0000056 /></a></td></tr>
-      </vivo:foreachFacultyMemberRO_0000056Iterator>
-      <vivo:foreachFacultyMemberAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<vivo:FacultyMemberAssigneeForType/>/<vivo:FacultyMemberAssigneeForType/>.jsp?uri=<vivo:FacultyMemberAssigneeFor/>"><vivo:FacultyMemberAssigneeFor /></a></td></tr>
-      </vivo:foreachFacultyMemberAssigneeForIterator>
-      <vivo:foreachFacultyMemberHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<vivo:FacultyMemberHasCollaboratorType/>/<vivo:FacultyMemberHasCollaboratorType/>.jsp?uri=<vivo:FacultyMemberHasCollaborator/>"><vivo:FacultyMemberHasCollaborator /></a></td></tr>
-      </vivo:foreachFacultyMemberHasCollaboratorIterator>
-      <vivo:foreachFacultyMemberTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<vivo:FacultyMemberTranslatorOfType/>/<vivo:FacultyMemberTranslatorOfType/>.jsp?uri=<vivo:FacultyMemberTranslatorOf/>"><vivo:FacultyMemberTranslatorOf /></a></td></tr>
-      </vivo:foreachFacultyMemberTranslatorOfIterator>
       <vivo:foreachFacultyMemberRO_0001025Iterator>
          <tr><td>RO_0001025</td><td><a href="../<vivo:FacultyMemberRO_0001025Type/>/<vivo:FacultyMemberRO_0001025Type/>.jsp?uri=<vivo:FacultyMemberRO_0001025/>"><vivo:FacultyMemberRO_0001025 /></a></td></tr>
       </vivo:foreachFacultyMemberRO_0001025Iterator>
@@ -88,6 +76,18 @@
       <vivo:foreachFacultyMemberOrcidIdIterator>
          <tr><td>orcidId</td><td><a href="../<vivo:FacultyMemberOrcidIdType/>/<vivo:FacultyMemberOrcidIdType/>.jsp?uri=<vivo:FacultyMemberOrcidId/>"><vivo:FacultyMemberOrcidId /></a></td></tr>
       </vivo:foreachFacultyMemberOrcidIdIterator>
+      <vivo:foreachFacultyMemberRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:FacultyMemberRO_0000056Type/>/<vivo:FacultyMemberRO_0000056Type/>.jsp?uri=<vivo:FacultyMemberRO_0000056/>"><vivo:FacultyMemberRO_0000056 /></a></td></tr>
+      </vivo:foreachFacultyMemberRO_0000056Iterator>
+      <vivo:foreachFacultyMemberAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<vivo:FacultyMemberAssigneeForType/>/<vivo:FacultyMemberAssigneeForType/>.jsp?uri=<vivo:FacultyMemberAssigneeFor/>"><vivo:FacultyMemberAssigneeFor /></a></td></tr>
+      </vivo:foreachFacultyMemberAssigneeForIterator>
+      <vivo:foreachFacultyMemberHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<vivo:FacultyMemberHasCollaboratorType/>/<vivo:FacultyMemberHasCollaboratorType/>.jsp?uri=<vivo:FacultyMemberHasCollaborator/>"><vivo:FacultyMemberHasCollaborator /></a></td></tr>
+      </vivo:foreachFacultyMemberHasCollaboratorIterator>
+      <vivo:foreachFacultyMemberTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<vivo:FacultyMemberTranslatorOfType/>/<vivo:FacultyMemberTranslatorOfType/>.jsp?uri=<vivo:FacultyMemberTranslatorOf/>"><vivo:FacultyMemberTranslatorOf /></a></td></tr>
+      </vivo:foreachFacultyMemberTranslatorOfIterator>
    </table>
    </vivo:FacultyMember>
 

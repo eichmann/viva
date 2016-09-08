@@ -26,12 +26,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachLegislationTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:LegislationTheAbstract /></td></tr>
-      </vivo:foreachLegislationTheAbstractIterator>
-      <vivo:foreachLegislationDoiIterator>
-         <tr><td>doi</td><td><vivo:LegislationDoi /></td></tr>
-      </vivo:foreachLegislationDoiIterator>
       <vivo:foreachLegislationPmidIterator>
          <tr><td>pmid</td><td><vivo:LegislationPmid /></td></tr>
       </vivo:foreachLegislationPmidIterator>
@@ -41,22 +35,16 @@
       <vivo:foreachLegislationVolumeIterator>
          <tr><td>volume</td><td><vivo:LegislationVolume /></td></tr>
       </vivo:foreachLegislationVolumeIterator>
+      <vivo:foreachLegislationTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:LegislationTheAbstract /></td></tr>
+      </vivo:foreachLegislationTheAbstractIterator>
+      <vivo:foreachLegislationDoiIterator>
+         <tr><td>doi</td><td><vivo:LegislationDoi /></td></tr>
+      </vivo:foreachLegislationDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachLegislationTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:LegislationTranslatorType/>/<vivo:LegislationTranslatorType/>.jsp?uri=<vivo:LegislationTranslator/>"><vivo:LegislationTranslator /></a></td></tr>
-      </vivo:foreachLegislationTranslatorIterator>
-      <vivo:foreachLegislationFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:LegislationFeaturesType/>/<vivo:LegislationFeaturesType/>.jsp?uri=<vivo:LegislationFeatures/>"><vivo:LegislationFeatures /></a></td></tr>
-      </vivo:foreachLegislationFeaturesIterator>
-      <vivo:foreachLegislationInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:LegislationInformationResourceSupportedByType/>/<vivo:LegislationInformationResourceSupportedByType/>.jsp?uri=<vivo:LegislationInformationResourceSupportedBy/>"><vivo:LegislationInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachLegislationInformationResourceSupportedByIterator>
-      <vivo:foreachLegislationIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:LegislationIAO_0000136Type/>/<vivo:LegislationIAO_0000136Type/>.jsp?uri=<vivo:LegislationIAO_0000136/>"><vivo:LegislationIAO_0000136 /></a></td></tr>
-      </vivo:foreachLegislationIAO_0000136Iterator>
       <vivo:foreachLegislationRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:LegislationRO_0000056Type/>/<vivo:LegislationRO_0000056Type/>.jsp?uri=<vivo:LegislationRO_0000056/>"><vivo:LegislationRO_0000056 /></a></td></tr>
       </vivo:foreachLegislationRO_0000056Iterator>
@@ -87,6 +75,18 @@
       <vivo:foreachLegislationCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:LegislationCitesType/>/<vivo:LegislationCitesType/>.jsp?uri=<vivo:LegislationCites/>"><vivo:LegislationCites /></a></td></tr>
       </vivo:foreachLegislationCitesIterator>
+      <vivo:foreachLegislationTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:LegislationTranslatorType/>/<vivo:LegislationTranslatorType/>.jsp?uri=<vivo:LegislationTranslator/>"><vivo:LegislationTranslator /></a></td></tr>
+      </vivo:foreachLegislationTranslatorIterator>
+      <vivo:foreachLegislationFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:LegislationFeaturesType/>/<vivo:LegislationFeaturesType/>.jsp?uri=<vivo:LegislationFeatures/>"><vivo:LegislationFeatures /></a></td></tr>
+      </vivo:foreachLegislationFeaturesIterator>
+      <vivo:foreachLegislationInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:LegislationInformationResourceSupportedByType/>/<vivo:LegislationInformationResourceSupportedByType/>.jsp?uri=<vivo:LegislationInformationResourceSupportedBy/>"><vivo:LegislationInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachLegislationInformationResourceSupportedByIterator>
+      <vivo:foreachLegislationIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:LegislationIAO_0000136Type/>/<vivo:LegislationIAO_0000136Type/>.jsp?uri=<vivo:LegislationIAO_0000136/>"><vivo:LegislationIAO_0000136 /></a></td></tr>
+      </vivo:foreachLegislationIAO_0000136Iterator>
    </table>
    </vivo:Legislation>
 

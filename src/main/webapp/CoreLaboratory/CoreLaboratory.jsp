@@ -68,9 +68,6 @@
       <vivo:foreachCoreLaboratoryAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:CoreLaboratoryAffiliatedOrganizationType/>/<vivo:CoreLaboratoryAffiliatedOrganizationType/>.jsp?uri=<vivo:CoreLaboratoryAffiliatedOrganization/>"><vivo:CoreLaboratoryAffiliatedOrganization /></a></td></tr>
       </vivo:foreachCoreLaboratoryAffiliatedOrganizationIterator>
-      <vivo:foreachCoreLaboratoryRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:CoreLaboratoryRO_0000056Type/>/<vivo:CoreLaboratoryRO_0000056Type/>.jsp?uri=<vivo:CoreLaboratoryRO_0000056/>"><vivo:CoreLaboratoryRO_0000056 /></a></td></tr>
-      </vivo:foreachCoreLaboratoryRO_0000056Iterator>
       <vivo:foreachCoreLaboratoryAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<vivo:CoreLaboratoryAssigneeForType/>/<vivo:CoreLaboratoryAssigneeForType/>.jsp?uri=<vivo:CoreLaboratoryAssigneeFor/>"><vivo:CoreLaboratoryAssigneeFor /></a></td></tr>
       </vivo:foreachCoreLaboratoryAssigneeForIterator>
@@ -80,6 +77,9 @@
       <vivo:foreachCoreLaboratoryTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<vivo:CoreLaboratoryTranslatorOfType/>/<vivo:CoreLaboratoryTranslatorOfType/>.jsp?uri=<vivo:CoreLaboratoryTranslatorOf/>"><vivo:CoreLaboratoryTranslatorOf /></a></td></tr>
       </vivo:foreachCoreLaboratoryTranslatorOfIterator>
+      <vivo:foreachCoreLaboratoryRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:CoreLaboratoryRO_0000056Type/>/<vivo:CoreLaboratoryRO_0000056Type/>.jsp?uri=<vivo:CoreLaboratoryRO_0000056/>"><vivo:CoreLaboratoryRO_0000056 /></a></td></tr>
+      </vivo:foreachCoreLaboratoryRO_0000056Iterator>
    </table>
    </vivo:CoreLaboratory>
 

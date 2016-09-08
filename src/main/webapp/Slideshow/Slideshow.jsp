@@ -26,12 +26,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachSlideshowTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:SlideshowTheAbstract /></td></tr>
-      </vivo:foreachSlideshowTheAbstractIterator>
-      <vivo:foreachSlideshowDoiIterator>
-         <tr><td>doi</td><td><vivo:SlideshowDoi /></td></tr>
-      </vivo:foreachSlideshowDoiIterator>
       <vivo:foreachSlideshowPmidIterator>
          <tr><td>pmid</td><td><vivo:SlideshowPmid /></td></tr>
       </vivo:foreachSlideshowPmidIterator>
@@ -41,6 +35,12 @@
       <vivo:foreachSlideshowVolumeIterator>
          <tr><td>volume</td><td><vivo:SlideshowVolume /></td></tr>
       </vivo:foreachSlideshowVolumeIterator>
+      <vivo:foreachSlideshowTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:SlideshowTheAbstract /></td></tr>
+      </vivo:foreachSlideshowTheAbstractIterator>
+      <vivo:foreachSlideshowDoiIterator>
+         <tr><td>doi</td><td><vivo:SlideshowDoi /></td></tr>
+      </vivo:foreachSlideshowDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -57,18 +57,6 @@
       <vivo:foreachSlideshowRelatedByIterator>
          <tr><td>relatedBy</td><td><a href="../<vivo:SlideshowRelatedByType/>/<vivo:SlideshowRelatedByType/>.jsp?uri=<vivo:SlideshowRelatedBy/>"><vivo:SlideshowRelatedBy /></a></td></tr>
       </vivo:foreachSlideshowRelatedByIterator>
-      <vivo:foreachSlideshowTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:SlideshowTranslatorType/>/<vivo:SlideshowTranslatorType/>.jsp?uri=<vivo:SlideshowTranslator/>"><vivo:SlideshowTranslator /></a></td></tr>
-      </vivo:foreachSlideshowTranslatorIterator>
-      <vivo:foreachSlideshowFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:SlideshowFeaturesType/>/<vivo:SlideshowFeaturesType/>.jsp?uri=<vivo:SlideshowFeatures/>"><vivo:SlideshowFeatures /></a></td></tr>
-      </vivo:foreachSlideshowFeaturesIterator>
-      <vivo:foreachSlideshowInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:SlideshowInformationResourceSupportedByType/>/<vivo:SlideshowInformationResourceSupportedByType/>.jsp?uri=<vivo:SlideshowInformationResourceSupportedBy/>"><vivo:SlideshowInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachSlideshowInformationResourceSupportedByIterator>
-      <vivo:foreachSlideshowIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:SlideshowIAO_0000136Type/>/<vivo:SlideshowIAO_0000136Type/>.jsp?uri=<vivo:SlideshowIAO_0000136/>"><vivo:SlideshowIAO_0000136 /></a></td></tr>
-      </vivo:foreachSlideshowIAO_0000136Iterator>
       <vivo:foreachSlideshowRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:SlideshowRO_0000056Type/>/<vivo:SlideshowRO_0000056Type/>.jsp?uri=<vivo:SlideshowRO_0000056/>"><vivo:SlideshowRO_0000056 /></a></td></tr>
       </vivo:foreachSlideshowRO_0000056Iterator>
@@ -99,6 +87,18 @@
       <vivo:foreachSlideshowCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:SlideshowCitesType/>/<vivo:SlideshowCitesType/>.jsp?uri=<vivo:SlideshowCites/>"><vivo:SlideshowCites /></a></td></tr>
       </vivo:foreachSlideshowCitesIterator>
+      <vivo:foreachSlideshowTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:SlideshowTranslatorType/>/<vivo:SlideshowTranslatorType/>.jsp?uri=<vivo:SlideshowTranslator/>"><vivo:SlideshowTranslator /></a></td></tr>
+      </vivo:foreachSlideshowTranslatorIterator>
+      <vivo:foreachSlideshowFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:SlideshowFeaturesType/>/<vivo:SlideshowFeaturesType/>.jsp?uri=<vivo:SlideshowFeatures/>"><vivo:SlideshowFeatures /></a></td></tr>
+      </vivo:foreachSlideshowFeaturesIterator>
+      <vivo:foreachSlideshowInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:SlideshowInformationResourceSupportedByType/>/<vivo:SlideshowInformationResourceSupportedByType/>.jsp?uri=<vivo:SlideshowInformationResourceSupportedBy/>"><vivo:SlideshowInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachSlideshowInformationResourceSupportedByIterator>
+      <vivo:foreachSlideshowIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:SlideshowIAO_0000136Type/>/<vivo:SlideshowIAO_0000136Type/>.jsp?uri=<vivo:SlideshowIAO_0000136/>"><vivo:SlideshowIAO_0000136 /></a></td></tr>
+      </vivo:foreachSlideshowIAO_0000136Iterator>
    </table>
    </vivo:Slideshow>
 

@@ -41,12 +41,6 @@
       <vivo:foreachBookNumPagesIterator>
          <tr><td>numPages</td><td><vivo:BookNumPages /></td></tr>
       </vivo:foreachBookNumPagesIterator>
-      <vivo:foreachBookTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:BookTheAbstract /></td></tr>
-      </vivo:foreachBookTheAbstractIterator>
-      <vivo:foreachBookDoiIterator>
-         <tr><td>doi</td><td><vivo:BookDoi /></td></tr>
-      </vivo:foreachBookDoiIterator>
       <vivo:foreachBookPmidIterator>
          <tr><td>pmid</td><td><vivo:BookPmid /></td></tr>
       </vivo:foreachBookPmidIterator>
@@ -56,6 +50,12 @@
       <vivo:foreachBookVolumeIterator>
          <tr><td>volume</td><td><vivo:BookVolume /></td></tr>
       </vivo:foreachBookVolumeIterator>
+      <vivo:foreachBookTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:BookTheAbstract /></td></tr>
+      </vivo:foreachBookTheAbstractIterator>
+      <vivo:foreachBookDoiIterator>
+         <tr><td>doi</td><td><vivo:BookDoi /></td></tr>
+      </vivo:foreachBookDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -81,18 +81,6 @@
       <vivo:foreachBookRelatesIterator>
          <tr><td>relates</td><td><a href="../<vivo:BookRelatesType/>/<vivo:BookRelatesType/>.jsp?uri=<vivo:BookRelates/>"><vivo:BookRelates /></a></td></tr>
       </vivo:foreachBookRelatesIterator>
-      <vivo:foreachBookTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:BookTranslatorType/>/<vivo:BookTranslatorType/>.jsp?uri=<vivo:BookTranslator/>"><vivo:BookTranslator /></a></td></tr>
-      </vivo:foreachBookTranslatorIterator>
-      <vivo:foreachBookFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:BookFeaturesType/>/<vivo:BookFeaturesType/>.jsp?uri=<vivo:BookFeatures/>"><vivo:BookFeatures /></a></td></tr>
-      </vivo:foreachBookFeaturesIterator>
-      <vivo:foreachBookInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:BookInformationResourceSupportedByType/>/<vivo:BookInformationResourceSupportedByType/>.jsp?uri=<vivo:BookInformationResourceSupportedBy/>"><vivo:BookInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachBookInformationResourceSupportedByIterator>
-      <vivo:foreachBookIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:BookIAO_0000136Type/>/<vivo:BookIAO_0000136Type/>.jsp?uri=<vivo:BookIAO_0000136/>"><vivo:BookIAO_0000136 /></a></td></tr>
-      </vivo:foreachBookIAO_0000136Iterator>
       <vivo:foreachBookRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:BookRO_0000056Type/>/<vivo:BookRO_0000056Type/>.jsp?uri=<vivo:BookRO_0000056/>"><vivo:BookRO_0000056 /></a></td></tr>
       </vivo:foreachBookRO_0000056Iterator>
@@ -123,6 +111,18 @@
       <vivo:foreachBookCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:BookCitesType/>/<vivo:BookCitesType/>.jsp?uri=<vivo:BookCites/>"><vivo:BookCites /></a></td></tr>
       </vivo:foreachBookCitesIterator>
+      <vivo:foreachBookTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:BookTranslatorType/>/<vivo:BookTranslatorType/>.jsp?uri=<vivo:BookTranslator/>"><vivo:BookTranslator /></a></td></tr>
+      </vivo:foreachBookTranslatorIterator>
+      <vivo:foreachBookFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:BookFeaturesType/>/<vivo:BookFeaturesType/>.jsp?uri=<vivo:BookFeatures/>"><vivo:BookFeatures /></a></td></tr>
+      </vivo:foreachBookFeaturesIterator>
+      <vivo:foreachBookInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:BookInformationResourceSupportedByType/>/<vivo:BookInformationResourceSupportedByType/>.jsp?uri=<vivo:BookInformationResourceSupportedBy/>"><vivo:BookInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachBookInformationResourceSupportedByIterator>
+      <vivo:foreachBookIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:BookIAO_0000136Type/>/<vivo:BookIAO_0000136Type/>.jsp?uri=<vivo:BookIAO_0000136/>"><vivo:BookIAO_0000136 /></a></td></tr>
+      </vivo:foreachBookIAO_0000136Iterator>
    </table>
    </vivo:Book>
 

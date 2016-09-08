@@ -35,12 +35,6 @@
       <vivo:foreachConferencePaperNihmsidIterator>
          <tr><td>nihmsid</td><td><vivo:ConferencePaperNihmsid /></td></tr>
       </vivo:foreachConferencePaperNihmsidIterator>
-      <vivo:foreachConferencePaperTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:ConferencePaperTheAbstract /></td></tr>
-      </vivo:foreachConferencePaperTheAbstractIterator>
-      <vivo:foreachConferencePaperDoiIterator>
-         <tr><td>doi</td><td><vivo:ConferencePaperDoi /></td></tr>
-      </vivo:foreachConferencePaperDoiIterator>
       <vivo:foreachConferencePaperPmidIterator>
          <tr><td>pmid</td><td><vivo:ConferencePaperPmid /></td></tr>
       </vivo:foreachConferencePaperPmidIterator>
@@ -50,6 +44,12 @@
       <vivo:foreachConferencePaperVolumeIterator>
          <tr><td>volume</td><td><vivo:ConferencePaperVolume /></td></tr>
       </vivo:foreachConferencePaperVolumeIterator>
+      <vivo:foreachConferencePaperTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:ConferencePaperTheAbstract /></td></tr>
+      </vivo:foreachConferencePaperTheAbstractIterator>
+      <vivo:foreachConferencePaperDoiIterator>
+         <tr><td>doi</td><td><vivo:ConferencePaperDoi /></td></tr>
+      </vivo:foreachConferencePaperDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -87,18 +87,6 @@
       <vivo:foreachConferencePaperRelatesIterator>
          <tr><td>relates</td><td><a href="../<vivo:ConferencePaperRelatesType/>/<vivo:ConferencePaperRelatesType/>.jsp?uri=<vivo:ConferencePaperRelates/>"><vivo:ConferencePaperRelates /></a></td></tr>
       </vivo:foreachConferencePaperRelatesIterator>
-      <vivo:foreachConferencePaperTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:ConferencePaperTranslatorType/>/<vivo:ConferencePaperTranslatorType/>.jsp?uri=<vivo:ConferencePaperTranslator/>"><vivo:ConferencePaperTranslator /></a></td></tr>
-      </vivo:foreachConferencePaperTranslatorIterator>
-      <vivo:foreachConferencePaperFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:ConferencePaperFeaturesType/>/<vivo:ConferencePaperFeaturesType/>.jsp?uri=<vivo:ConferencePaperFeatures/>"><vivo:ConferencePaperFeatures /></a></td></tr>
-      </vivo:foreachConferencePaperFeaturesIterator>
-      <vivo:foreachConferencePaperInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ConferencePaperInformationResourceSupportedByType/>/<vivo:ConferencePaperInformationResourceSupportedByType/>.jsp?uri=<vivo:ConferencePaperInformationResourceSupportedBy/>"><vivo:ConferencePaperInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachConferencePaperInformationResourceSupportedByIterator>
-      <vivo:foreachConferencePaperIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:ConferencePaperIAO_0000136Type/>/<vivo:ConferencePaperIAO_0000136Type/>.jsp?uri=<vivo:ConferencePaperIAO_0000136/>"><vivo:ConferencePaperIAO_0000136 /></a></td></tr>
-      </vivo:foreachConferencePaperIAO_0000136Iterator>
       <vivo:foreachConferencePaperRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:ConferencePaperRO_0000056Type/>/<vivo:ConferencePaperRO_0000056Type/>.jsp?uri=<vivo:ConferencePaperRO_0000056/>"><vivo:ConferencePaperRO_0000056 /></a></td></tr>
       </vivo:foreachConferencePaperRO_0000056Iterator>
@@ -129,6 +117,18 @@
       <vivo:foreachConferencePaperCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:ConferencePaperCitesType/>/<vivo:ConferencePaperCitesType/>.jsp?uri=<vivo:ConferencePaperCites/>"><vivo:ConferencePaperCites /></a></td></tr>
       </vivo:foreachConferencePaperCitesIterator>
+      <vivo:foreachConferencePaperTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:ConferencePaperTranslatorType/>/<vivo:ConferencePaperTranslatorType/>.jsp?uri=<vivo:ConferencePaperTranslator/>"><vivo:ConferencePaperTranslator /></a></td></tr>
+      </vivo:foreachConferencePaperTranslatorIterator>
+      <vivo:foreachConferencePaperFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:ConferencePaperFeaturesType/>/<vivo:ConferencePaperFeaturesType/>.jsp?uri=<vivo:ConferencePaperFeatures/>"><vivo:ConferencePaperFeatures /></a></td></tr>
+      </vivo:foreachConferencePaperFeaturesIterator>
+      <vivo:foreachConferencePaperInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ConferencePaperInformationResourceSupportedByType/>/<vivo:ConferencePaperInformationResourceSupportedByType/>.jsp?uri=<vivo:ConferencePaperInformationResourceSupportedBy/>"><vivo:ConferencePaperInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachConferencePaperInformationResourceSupportedByIterator>
+      <vivo:foreachConferencePaperIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:ConferencePaperIAO_0000136Type/>/<vivo:ConferencePaperIAO_0000136Type/>.jsp?uri=<vivo:ConferencePaperIAO_0000136/>"><vivo:ConferencePaperIAO_0000136 /></a></td></tr>
+      </vivo:foreachConferencePaperIAO_0000136Iterator>
    </table>
    </vivo:ConferencePaper>
 

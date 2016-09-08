@@ -22,8 +22,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>overview</td><td><vivo:FoundationOverview /></td></tr>
       <tr><td>abbreviation</td><td><vivo:FoundationAbbreviation /></td></tr>
+      <tr><td>overview</td><td><vivo:FoundationOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -38,15 +38,6 @@
       <vivo:foreachFoundationRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:FoundationRO_0000056Type/>/<vivo:FoundationRO_0000056Type/>.jsp?uri=<vivo:FoundationRO_0000056/>"><vivo:FoundationRO_0000056 /></a></td></tr>
       </vivo:foreachFoundationRO_0000056Iterator>
-      <vivo:foreachFoundationAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<vivo:FoundationAssigneeForType/>/<vivo:FoundationAssigneeForType/>.jsp?uri=<vivo:FoundationAssigneeFor/>"><vivo:FoundationAssigneeFor /></a></td></tr>
-      </vivo:foreachFoundationAssigneeForIterator>
-      <vivo:foreachFoundationHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<vivo:FoundationHasCollaboratorType/>/<vivo:FoundationHasCollaboratorType/>.jsp?uri=<vivo:FoundationHasCollaborator/>"><vivo:FoundationHasCollaborator /></a></td></tr>
-      </vivo:foreachFoundationHasCollaboratorIterator>
-      <vivo:foreachFoundationTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<vivo:FoundationTranslatorOfType/>/<vivo:FoundationTranslatorOfType/>.jsp?uri=<vivo:FoundationTranslatorOf/>"><vivo:FoundationTranslatorOf /></a></td></tr>
-      </vivo:foreachFoundationTranslatorOfIterator>
       <vivo:foreachFoundationSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<vivo:FoundationSponsorsType/>/<vivo:FoundationSponsorsType/>.jsp?uri=<vivo:FoundationSponsors/>"><vivo:FoundationSponsors /></a></td></tr>
       </vivo:foreachFoundationSponsorsIterator>
@@ -80,6 +71,15 @@
       <vivo:foreachFoundationAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:FoundationAffiliatedOrganizationType/>/<vivo:FoundationAffiliatedOrganizationType/>.jsp?uri=<vivo:FoundationAffiliatedOrganization/>"><vivo:FoundationAffiliatedOrganization /></a></td></tr>
       </vivo:foreachFoundationAffiliatedOrganizationIterator>
+      <vivo:foreachFoundationAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<vivo:FoundationAssigneeForType/>/<vivo:FoundationAssigneeForType/>.jsp?uri=<vivo:FoundationAssigneeFor/>"><vivo:FoundationAssigneeFor /></a></td></tr>
+      </vivo:foreachFoundationAssigneeForIterator>
+      <vivo:foreachFoundationHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<vivo:FoundationHasCollaboratorType/>/<vivo:FoundationHasCollaboratorType/>.jsp?uri=<vivo:FoundationHasCollaborator/>"><vivo:FoundationHasCollaborator /></a></td></tr>
+      </vivo:foreachFoundationHasCollaboratorIterator>
+      <vivo:foreachFoundationTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<vivo:FoundationTranslatorOfType/>/<vivo:FoundationTranslatorOfType/>.jsp?uri=<vivo:FoundationTranslatorOf/>"><vivo:FoundationTranslatorOf /></a></td></tr>
+      </vivo:foreachFoundationTranslatorOfIterator>
    </table>
    </vivo:Foundation>
 

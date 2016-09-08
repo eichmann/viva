@@ -22,8 +22,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>overview</td><td><vivo:LaboratoryOverview /></td></tr>
       <tr><td>abbreviation</td><td><vivo:LaboratoryAbbreviation /></td></tr>
+      <tr><td>overview</td><td><vivo:LaboratoryOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -38,15 +38,6 @@
       <vivo:foreachLaboratoryRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:LaboratoryRO_0000056Type/>/<vivo:LaboratoryRO_0000056Type/>.jsp?uri=<vivo:LaboratoryRO_0000056/>"><vivo:LaboratoryRO_0000056 /></a></td></tr>
       </vivo:foreachLaboratoryRO_0000056Iterator>
-      <vivo:foreachLaboratoryAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<vivo:LaboratoryAssigneeForType/>/<vivo:LaboratoryAssigneeForType/>.jsp?uri=<vivo:LaboratoryAssigneeFor/>"><vivo:LaboratoryAssigneeFor /></a></td></tr>
-      </vivo:foreachLaboratoryAssigneeForIterator>
-      <vivo:foreachLaboratoryHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<vivo:LaboratoryHasCollaboratorType/>/<vivo:LaboratoryHasCollaboratorType/>.jsp?uri=<vivo:LaboratoryHasCollaborator/>"><vivo:LaboratoryHasCollaborator /></a></td></tr>
-      </vivo:foreachLaboratoryHasCollaboratorIterator>
-      <vivo:foreachLaboratoryTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<vivo:LaboratoryTranslatorOfType/>/<vivo:LaboratoryTranslatorOfType/>.jsp?uri=<vivo:LaboratoryTranslatorOf/>"><vivo:LaboratoryTranslatorOf /></a></td></tr>
-      </vivo:foreachLaboratoryTranslatorOfIterator>
       <vivo:foreachLaboratorySponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<vivo:LaboratorySponsorsType/>/<vivo:LaboratorySponsorsType/>.jsp?uri=<vivo:LaboratorySponsors/>"><vivo:LaboratorySponsors /></a></td></tr>
       </vivo:foreachLaboratorySponsorsIterator>
@@ -80,6 +71,15 @@
       <vivo:foreachLaboratoryAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:LaboratoryAffiliatedOrganizationType/>/<vivo:LaboratoryAffiliatedOrganizationType/>.jsp?uri=<vivo:LaboratoryAffiliatedOrganization/>"><vivo:LaboratoryAffiliatedOrganization /></a></td></tr>
       </vivo:foreachLaboratoryAffiliatedOrganizationIterator>
+      <vivo:foreachLaboratoryAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<vivo:LaboratoryAssigneeForType/>/<vivo:LaboratoryAssigneeForType/>.jsp?uri=<vivo:LaboratoryAssigneeFor/>"><vivo:LaboratoryAssigneeFor /></a></td></tr>
+      </vivo:foreachLaboratoryAssigneeForIterator>
+      <vivo:foreachLaboratoryHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<vivo:LaboratoryHasCollaboratorType/>/<vivo:LaboratoryHasCollaboratorType/>.jsp?uri=<vivo:LaboratoryHasCollaborator/>"><vivo:LaboratoryHasCollaborator /></a></td></tr>
+      </vivo:foreachLaboratoryHasCollaboratorIterator>
+      <vivo:foreachLaboratoryTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<vivo:LaboratoryTranslatorOfType/>/<vivo:LaboratoryTranslatorOfType/>.jsp?uri=<vivo:LaboratoryTranslatorOf/>"><vivo:LaboratoryTranslatorOf /></a></td></tr>
+      </vivo:foreachLaboratoryTranslatorOfIterator>
    </table>
    </vivo:Laboratory>
 

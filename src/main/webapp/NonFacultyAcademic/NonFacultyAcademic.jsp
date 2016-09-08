@@ -22,10 +22,10 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>overview</td><td><vivo:NonFacultyAcademicOverview /></td></tr>
       <tr><td>teachingOverview</td><td><vivo:NonFacultyAcademicTeachingOverview /></td></tr>
       <tr><td>outreachOverview</td><td><vivo:NonFacultyAcademicOutreachOverview /></td></tr>
       <tr><td>researchOverview</td><td><vivo:NonFacultyAcademicResearchOverview /></td></tr>
+      <tr><td>overview</td><td><vivo:NonFacultyAcademicOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -55,18 +55,6 @@
       <vivo:foreachNonFacultyAcademicRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:NonFacultyAcademicRO_0000053Type/>/<vivo:NonFacultyAcademicRO_0000053Type/>.jsp?uri=<vivo:NonFacultyAcademicRO_0000053/>"><vivo:NonFacultyAcademicRO_0000053 /></a></td></tr>
       </vivo:foreachNonFacultyAcademicRO_0000053Iterator>
-      <vivo:foreachNonFacultyAcademicRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:NonFacultyAcademicRO_0000056Type/>/<vivo:NonFacultyAcademicRO_0000056Type/>.jsp?uri=<vivo:NonFacultyAcademicRO_0000056/>"><vivo:NonFacultyAcademicRO_0000056 /></a></td></tr>
-      </vivo:foreachNonFacultyAcademicRO_0000056Iterator>
-      <vivo:foreachNonFacultyAcademicAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<vivo:NonFacultyAcademicAssigneeForType/>/<vivo:NonFacultyAcademicAssigneeForType/>.jsp?uri=<vivo:NonFacultyAcademicAssigneeFor/>"><vivo:NonFacultyAcademicAssigneeFor /></a></td></tr>
-      </vivo:foreachNonFacultyAcademicAssigneeForIterator>
-      <vivo:foreachNonFacultyAcademicHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<vivo:NonFacultyAcademicHasCollaboratorType/>/<vivo:NonFacultyAcademicHasCollaboratorType/>.jsp?uri=<vivo:NonFacultyAcademicHasCollaborator/>"><vivo:NonFacultyAcademicHasCollaborator /></a></td></tr>
-      </vivo:foreachNonFacultyAcademicHasCollaboratorIterator>
-      <vivo:foreachNonFacultyAcademicTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<vivo:NonFacultyAcademicTranslatorOfType/>/<vivo:NonFacultyAcademicTranslatorOfType/>.jsp?uri=<vivo:NonFacultyAcademicTranslatorOf/>"><vivo:NonFacultyAcademicTranslatorOf /></a></td></tr>
-      </vivo:foreachNonFacultyAcademicTranslatorOfIterator>
       <vivo:foreachNonFacultyAcademicRO_0001025Iterator>
          <tr><td>RO_0001025</td><td><a href="../<vivo:NonFacultyAcademicRO_0001025Type/>/<vivo:NonFacultyAcademicRO_0001025Type/>.jsp?uri=<vivo:NonFacultyAcademicRO_0001025/>"><vivo:NonFacultyAcademicRO_0001025 /></a></td></tr>
       </vivo:foreachNonFacultyAcademicRO_0001025Iterator>
@@ -88,6 +76,18 @@
       <vivo:foreachNonFacultyAcademicOrcidIdIterator>
          <tr><td>orcidId</td><td><a href="../<vivo:NonFacultyAcademicOrcidIdType/>/<vivo:NonFacultyAcademicOrcidIdType/>.jsp?uri=<vivo:NonFacultyAcademicOrcidId/>"><vivo:NonFacultyAcademicOrcidId /></a></td></tr>
       </vivo:foreachNonFacultyAcademicOrcidIdIterator>
+      <vivo:foreachNonFacultyAcademicRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:NonFacultyAcademicRO_0000056Type/>/<vivo:NonFacultyAcademicRO_0000056Type/>.jsp?uri=<vivo:NonFacultyAcademicRO_0000056/>"><vivo:NonFacultyAcademicRO_0000056 /></a></td></tr>
+      </vivo:foreachNonFacultyAcademicRO_0000056Iterator>
+      <vivo:foreachNonFacultyAcademicAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<vivo:NonFacultyAcademicAssigneeForType/>/<vivo:NonFacultyAcademicAssigneeForType/>.jsp?uri=<vivo:NonFacultyAcademicAssigneeFor/>"><vivo:NonFacultyAcademicAssigneeFor /></a></td></tr>
+      </vivo:foreachNonFacultyAcademicAssigneeForIterator>
+      <vivo:foreachNonFacultyAcademicHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<vivo:NonFacultyAcademicHasCollaboratorType/>/<vivo:NonFacultyAcademicHasCollaboratorType/>.jsp?uri=<vivo:NonFacultyAcademicHasCollaborator/>"><vivo:NonFacultyAcademicHasCollaborator /></a></td></tr>
+      </vivo:foreachNonFacultyAcademicHasCollaboratorIterator>
+      <vivo:foreachNonFacultyAcademicTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<vivo:NonFacultyAcademicTranslatorOfType/>/<vivo:NonFacultyAcademicTranslatorOfType/>.jsp?uri=<vivo:NonFacultyAcademicTranslatorOf/>"><vivo:NonFacultyAcademicTranslatorOf /></a></td></tr>
+      </vivo:foreachNonFacultyAcademicTranslatorOfIterator>
    </table>
    </vivo:NonFacultyAcademic>
 

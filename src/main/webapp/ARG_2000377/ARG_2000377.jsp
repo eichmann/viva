@@ -39,6 +39,9 @@
       <vivo:foreachARG_2000377RO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:ARG_2000377RO_0000056Type/>/<vivo:ARG_2000377RO_0000056Type/>.jsp?uri=<vivo:ARG_2000377RO_0000056/>"><vivo:ARG_2000377RO_0000056 /></a></td></tr>
       </vivo:foreachARG_2000377RO_0000056Iterator>
+      <vivo:foreachARG_2000377ARG_2000029Iterator>
+         <tr><td>ARG_2000029</td><td><a href="../<vivo:ARG_2000377ARG_2000029Type/>/<vivo:ARG_2000377ARG_2000029Type/>.jsp?uri=<vivo:ARG_2000377ARG_2000029/>"><vivo:ARG_2000377ARG_2000029 /></a></td></tr>
+      </vivo:foreachARG_2000377ARG_2000029Iterator>
       <vivo:foreachARG_2000377TranslatorIterator>
          <tr><td>translator</td><td><a href="../<vivo:ARG_2000377TranslatorType/>/<vivo:ARG_2000377TranslatorType/>.jsp?uri=<vivo:ARG_2000377Translator/>"><vivo:ARG_2000377Translator /></a></td></tr>
       </vivo:foreachARG_2000377TranslatorIterator>
@@ -51,9 +54,6 @@
       <vivo:foreachARG_2000377IAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<vivo:ARG_2000377IAO_0000136Type/>/<vivo:ARG_2000377IAO_0000136Type/>.jsp?uri=<vivo:ARG_2000377IAO_0000136/>"><vivo:ARG_2000377IAO_0000136 /></a></td></tr>
       </vivo:foreachARG_2000377IAO_0000136Iterator>
-      <vivo:foreachARG_2000377ARG_2000029Iterator>
-         <tr><td>ARG_2000029</td><td><a href="../<vivo:ARG_2000377ARG_2000029Type/>/<vivo:ARG_2000377ARG_2000029Type/>.jsp?uri=<vivo:ARG_2000377ARG_2000029/>"><vivo:ARG_2000377ARG_2000029 /></a></td></tr>
-      </vivo:foreachARG_2000377ARG_2000029Iterator>
    </table>
    </vivo:ARG_2000377>
 

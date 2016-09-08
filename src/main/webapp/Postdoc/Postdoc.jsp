@@ -22,10 +22,10 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>overview</td><td><vivo:PostdocOverview /></td></tr>
       <tr><td>teachingOverview</td><td><vivo:PostdocTeachingOverview /></td></tr>
       <tr><td>outreachOverview</td><td><vivo:PostdocOutreachOverview /></td></tr>
       <tr><td>researchOverview</td><td><vivo:PostdocResearchOverview /></td></tr>
+      <tr><td>overview</td><td><vivo:PostdocOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -55,18 +55,6 @@
       <vivo:foreachPostdocRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:PostdocRO_0000053Type/>/<vivo:PostdocRO_0000053Type/>.jsp?uri=<vivo:PostdocRO_0000053/>"><vivo:PostdocRO_0000053 /></a></td></tr>
       </vivo:foreachPostdocRO_0000053Iterator>
-      <vivo:foreachPostdocRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:PostdocRO_0000056Type/>/<vivo:PostdocRO_0000056Type/>.jsp?uri=<vivo:PostdocRO_0000056/>"><vivo:PostdocRO_0000056 /></a></td></tr>
-      </vivo:foreachPostdocRO_0000056Iterator>
-      <vivo:foreachPostdocAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<vivo:PostdocAssigneeForType/>/<vivo:PostdocAssigneeForType/>.jsp?uri=<vivo:PostdocAssigneeFor/>"><vivo:PostdocAssigneeFor /></a></td></tr>
-      </vivo:foreachPostdocAssigneeForIterator>
-      <vivo:foreachPostdocHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<vivo:PostdocHasCollaboratorType/>/<vivo:PostdocHasCollaboratorType/>.jsp?uri=<vivo:PostdocHasCollaborator/>"><vivo:PostdocHasCollaborator /></a></td></tr>
-      </vivo:foreachPostdocHasCollaboratorIterator>
-      <vivo:foreachPostdocTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<vivo:PostdocTranslatorOfType/>/<vivo:PostdocTranslatorOfType/>.jsp?uri=<vivo:PostdocTranslatorOf/>"><vivo:PostdocTranslatorOf /></a></td></tr>
-      </vivo:foreachPostdocTranslatorOfIterator>
       <vivo:foreachPostdocRO_0001025Iterator>
          <tr><td>RO_0001025</td><td><a href="../<vivo:PostdocRO_0001025Type/>/<vivo:PostdocRO_0001025Type/>.jsp?uri=<vivo:PostdocRO_0001025/>"><vivo:PostdocRO_0001025 /></a></td></tr>
       </vivo:foreachPostdocRO_0001025Iterator>
@@ -88,6 +76,18 @@
       <vivo:foreachPostdocOrcidIdIterator>
          <tr><td>orcidId</td><td><a href="../<vivo:PostdocOrcidIdType/>/<vivo:PostdocOrcidIdType/>.jsp?uri=<vivo:PostdocOrcidId/>"><vivo:PostdocOrcidId /></a></td></tr>
       </vivo:foreachPostdocOrcidIdIterator>
+      <vivo:foreachPostdocRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:PostdocRO_0000056Type/>/<vivo:PostdocRO_0000056Type/>.jsp?uri=<vivo:PostdocRO_0000056/>"><vivo:PostdocRO_0000056 /></a></td></tr>
+      </vivo:foreachPostdocRO_0000056Iterator>
+      <vivo:foreachPostdocAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<vivo:PostdocAssigneeForType/>/<vivo:PostdocAssigneeForType/>.jsp?uri=<vivo:PostdocAssigneeFor/>"><vivo:PostdocAssigneeFor /></a></td></tr>
+      </vivo:foreachPostdocAssigneeForIterator>
+      <vivo:foreachPostdocHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<vivo:PostdocHasCollaboratorType/>/<vivo:PostdocHasCollaboratorType/>.jsp?uri=<vivo:PostdocHasCollaborator/>"><vivo:PostdocHasCollaborator /></a></td></tr>
+      </vivo:foreachPostdocHasCollaboratorIterator>
+      <vivo:foreachPostdocTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<vivo:PostdocTranslatorOfType/>/<vivo:PostdocTranslatorOfType/>.jsp?uri=<vivo:PostdocTranslatorOf/>"><vivo:PostdocTranslatorOf /></a></td></tr>
+      </vivo:foreachPostdocTranslatorOfIterator>
    </table>
    </vivo:Postdoc>
 

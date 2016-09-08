@@ -33,12 +33,12 @@
       <vivo:foreachBuildingRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:BuildingRO_0000053Type/>/<vivo:BuildingRO_0000053Type/>.jsp?uri=<vivo:BuildingRO_0000053/>"><vivo:BuildingRO_0000053 /></a></td></tr>
       </vivo:foreachBuildingRO_0000053Iterator>
-      <vivo:foreachBuildingRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:BuildingRO_0000056Type/>/<vivo:BuildingRO_0000056Type/>.jsp?uri=<vivo:BuildingRO_0000056/>"><vivo:BuildingRO_0000056 /></a></td></tr>
-      </vivo:foreachBuildingRO_0000056Iterator>
       <vivo:foreachBuildingFacilityForIterator>
          <tr><td>facilityFor</td><td><a href="../<vivo:BuildingFacilityForType/>/<vivo:BuildingFacilityForType/>.jsp?uri=<vivo:BuildingFacilityFor/>"><vivo:BuildingFacilityFor /></a></td></tr>
       </vivo:foreachBuildingFacilityForIterator>
+      <vivo:foreachBuildingRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:BuildingRO_0000056Type/>/<vivo:BuildingRO_0000056Type/>.jsp?uri=<vivo:BuildingRO_0000056/>"><vivo:BuildingRO_0000056 /></a></td></tr>
+      </vivo:foreachBuildingRO_0000056Iterator>
    </table>
    </vivo:Building>
 

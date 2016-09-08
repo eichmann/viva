@@ -22,8 +22,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>overview</td><td><vivo:ExtensionUnitOverview /></td></tr>
       <tr><td>abbreviation</td><td><vivo:ExtensionUnitAbbreviation /></td></tr>
+      <tr><td>overview</td><td><vivo:ExtensionUnitOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -38,15 +38,6 @@
       <vivo:foreachExtensionUnitRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:ExtensionUnitRO_0000056Type/>/<vivo:ExtensionUnitRO_0000056Type/>.jsp?uri=<vivo:ExtensionUnitRO_0000056/>"><vivo:ExtensionUnitRO_0000056 /></a></td></tr>
       </vivo:foreachExtensionUnitRO_0000056Iterator>
-      <vivo:foreachExtensionUnitAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<vivo:ExtensionUnitAssigneeForType/>/<vivo:ExtensionUnitAssigneeForType/>.jsp?uri=<vivo:ExtensionUnitAssigneeFor/>"><vivo:ExtensionUnitAssigneeFor /></a></td></tr>
-      </vivo:foreachExtensionUnitAssigneeForIterator>
-      <vivo:foreachExtensionUnitHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<vivo:ExtensionUnitHasCollaboratorType/>/<vivo:ExtensionUnitHasCollaboratorType/>.jsp?uri=<vivo:ExtensionUnitHasCollaborator/>"><vivo:ExtensionUnitHasCollaborator /></a></td></tr>
-      </vivo:foreachExtensionUnitHasCollaboratorIterator>
-      <vivo:foreachExtensionUnitTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<vivo:ExtensionUnitTranslatorOfType/>/<vivo:ExtensionUnitTranslatorOfType/>.jsp?uri=<vivo:ExtensionUnitTranslatorOf/>"><vivo:ExtensionUnitTranslatorOf /></a></td></tr>
-      </vivo:foreachExtensionUnitTranslatorOfIterator>
       <vivo:foreachExtensionUnitSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<vivo:ExtensionUnitSponsorsType/>/<vivo:ExtensionUnitSponsorsType/>.jsp?uri=<vivo:ExtensionUnitSponsors/>"><vivo:ExtensionUnitSponsors /></a></td></tr>
       </vivo:foreachExtensionUnitSponsorsIterator>
@@ -80,6 +71,15 @@
       <vivo:foreachExtensionUnitAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:ExtensionUnitAffiliatedOrganizationType/>/<vivo:ExtensionUnitAffiliatedOrganizationType/>.jsp?uri=<vivo:ExtensionUnitAffiliatedOrganization/>"><vivo:ExtensionUnitAffiliatedOrganization /></a></td></tr>
       </vivo:foreachExtensionUnitAffiliatedOrganizationIterator>
+      <vivo:foreachExtensionUnitAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<vivo:ExtensionUnitAssigneeForType/>/<vivo:ExtensionUnitAssigneeForType/>.jsp?uri=<vivo:ExtensionUnitAssigneeFor/>"><vivo:ExtensionUnitAssigneeFor /></a></td></tr>
+      </vivo:foreachExtensionUnitAssigneeForIterator>
+      <vivo:foreachExtensionUnitHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<vivo:ExtensionUnitHasCollaboratorType/>/<vivo:ExtensionUnitHasCollaboratorType/>.jsp?uri=<vivo:ExtensionUnitHasCollaborator/>"><vivo:ExtensionUnitHasCollaborator /></a></td></tr>
+      </vivo:foreachExtensionUnitHasCollaboratorIterator>
+      <vivo:foreachExtensionUnitTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<vivo:ExtensionUnitTranslatorOfType/>/<vivo:ExtensionUnitTranslatorOfType/>.jsp?uri=<vivo:ExtensionUnitTranslatorOf/>"><vivo:ExtensionUnitTranslatorOf /></a></td></tr>
+      </vivo:foreachExtensionUnitTranslatorOfIterator>
    </table>
    </vivo:ExtensionUnit>
 

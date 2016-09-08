@@ -26,12 +26,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachCommentTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:CommentTheAbstract /></td></tr>
-      </vivo:foreachCommentTheAbstractIterator>
-      <vivo:foreachCommentDoiIterator>
-         <tr><td>doi</td><td><vivo:CommentDoi /></td></tr>
-      </vivo:foreachCommentDoiIterator>
       <vivo:foreachCommentPmidIterator>
          <tr><td>pmid</td><td><vivo:CommentPmid /></td></tr>
       </vivo:foreachCommentPmidIterator>
@@ -41,22 +35,16 @@
       <vivo:foreachCommentVolumeIterator>
          <tr><td>volume</td><td><vivo:CommentVolume /></td></tr>
       </vivo:foreachCommentVolumeIterator>
+      <vivo:foreachCommentTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:CommentTheAbstract /></td></tr>
+      </vivo:foreachCommentTheAbstractIterator>
+      <vivo:foreachCommentDoiIterator>
+         <tr><td>doi</td><td><vivo:CommentDoi /></td></tr>
+      </vivo:foreachCommentDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachCommentTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:CommentTranslatorType/>/<vivo:CommentTranslatorType/>.jsp?uri=<vivo:CommentTranslator/>"><vivo:CommentTranslator /></a></td></tr>
-      </vivo:foreachCommentTranslatorIterator>
-      <vivo:foreachCommentFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:CommentFeaturesType/>/<vivo:CommentFeaturesType/>.jsp?uri=<vivo:CommentFeatures/>"><vivo:CommentFeatures /></a></td></tr>
-      </vivo:foreachCommentFeaturesIterator>
-      <vivo:foreachCommentInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:CommentInformationResourceSupportedByType/>/<vivo:CommentInformationResourceSupportedByType/>.jsp?uri=<vivo:CommentInformationResourceSupportedBy/>"><vivo:CommentInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachCommentInformationResourceSupportedByIterator>
-      <vivo:foreachCommentIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:CommentIAO_0000136Type/>/<vivo:CommentIAO_0000136Type/>.jsp?uri=<vivo:CommentIAO_0000136/>"><vivo:CommentIAO_0000136 /></a></td></tr>
-      </vivo:foreachCommentIAO_0000136Iterator>
       <vivo:foreachCommentRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:CommentRO_0000056Type/>/<vivo:CommentRO_0000056Type/>.jsp?uri=<vivo:CommentRO_0000056/>"><vivo:CommentRO_0000056 /></a></td></tr>
       </vivo:foreachCommentRO_0000056Iterator>
@@ -87,6 +75,18 @@
       <vivo:foreachCommentCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:CommentCitesType/>/<vivo:CommentCitesType/>.jsp?uri=<vivo:CommentCites/>"><vivo:CommentCites /></a></td></tr>
       </vivo:foreachCommentCitesIterator>
+      <vivo:foreachCommentTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:CommentTranslatorType/>/<vivo:CommentTranslatorType/>.jsp?uri=<vivo:CommentTranslator/>"><vivo:CommentTranslator /></a></td></tr>
+      </vivo:foreachCommentTranslatorIterator>
+      <vivo:foreachCommentFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:CommentFeaturesType/>/<vivo:CommentFeaturesType/>.jsp?uri=<vivo:CommentFeatures/>"><vivo:CommentFeatures /></a></td></tr>
+      </vivo:foreachCommentFeaturesIterator>
+      <vivo:foreachCommentInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:CommentInformationResourceSupportedByType/>/<vivo:CommentInformationResourceSupportedByType/>.jsp?uri=<vivo:CommentInformationResourceSupportedBy/>"><vivo:CommentInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachCommentInformationResourceSupportedByIterator>
+      <vivo:foreachCommentIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:CommentIAO_0000136Type/>/<vivo:CommentIAO_0000136Type/>.jsp?uri=<vivo:CommentIAO_0000136/>"><vivo:CommentIAO_0000136 /></a></td></tr>
+      </vivo:foreachCommentIAO_0000136Iterator>
    </table>
    </vivo:Comment>
 

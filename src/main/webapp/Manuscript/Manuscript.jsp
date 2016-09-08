@@ -26,12 +26,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachManuscriptTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:ManuscriptTheAbstract /></td></tr>
-      </vivo:foreachManuscriptTheAbstractIterator>
-      <vivo:foreachManuscriptDoiIterator>
-         <tr><td>doi</td><td><vivo:ManuscriptDoi /></td></tr>
-      </vivo:foreachManuscriptDoiIterator>
       <vivo:foreachManuscriptPmidIterator>
          <tr><td>pmid</td><td><vivo:ManuscriptPmid /></td></tr>
       </vivo:foreachManuscriptPmidIterator>
@@ -41,22 +35,16 @@
       <vivo:foreachManuscriptVolumeIterator>
          <tr><td>volume</td><td><vivo:ManuscriptVolume /></td></tr>
       </vivo:foreachManuscriptVolumeIterator>
+      <vivo:foreachManuscriptTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:ManuscriptTheAbstract /></td></tr>
+      </vivo:foreachManuscriptTheAbstractIterator>
+      <vivo:foreachManuscriptDoiIterator>
+         <tr><td>doi</td><td><vivo:ManuscriptDoi /></td></tr>
+      </vivo:foreachManuscriptDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachManuscriptTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:ManuscriptTranslatorType/>/<vivo:ManuscriptTranslatorType/>.jsp?uri=<vivo:ManuscriptTranslator/>"><vivo:ManuscriptTranslator /></a></td></tr>
-      </vivo:foreachManuscriptTranslatorIterator>
-      <vivo:foreachManuscriptFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:ManuscriptFeaturesType/>/<vivo:ManuscriptFeaturesType/>.jsp?uri=<vivo:ManuscriptFeatures/>"><vivo:ManuscriptFeatures /></a></td></tr>
-      </vivo:foreachManuscriptFeaturesIterator>
-      <vivo:foreachManuscriptInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ManuscriptInformationResourceSupportedByType/>/<vivo:ManuscriptInformationResourceSupportedByType/>.jsp?uri=<vivo:ManuscriptInformationResourceSupportedBy/>"><vivo:ManuscriptInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachManuscriptInformationResourceSupportedByIterator>
-      <vivo:foreachManuscriptIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:ManuscriptIAO_0000136Type/>/<vivo:ManuscriptIAO_0000136Type/>.jsp?uri=<vivo:ManuscriptIAO_0000136/>"><vivo:ManuscriptIAO_0000136 /></a></td></tr>
-      </vivo:foreachManuscriptIAO_0000136Iterator>
       <vivo:foreachManuscriptRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:ManuscriptRO_0000056Type/>/<vivo:ManuscriptRO_0000056Type/>.jsp?uri=<vivo:ManuscriptRO_0000056/>"><vivo:ManuscriptRO_0000056 /></a></td></tr>
       </vivo:foreachManuscriptRO_0000056Iterator>
@@ -87,6 +75,18 @@
       <vivo:foreachManuscriptCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:ManuscriptCitesType/>/<vivo:ManuscriptCitesType/>.jsp?uri=<vivo:ManuscriptCites/>"><vivo:ManuscriptCites /></a></td></tr>
       </vivo:foreachManuscriptCitesIterator>
+      <vivo:foreachManuscriptTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:ManuscriptTranslatorType/>/<vivo:ManuscriptTranslatorType/>.jsp?uri=<vivo:ManuscriptTranslator/>"><vivo:ManuscriptTranslator /></a></td></tr>
+      </vivo:foreachManuscriptTranslatorIterator>
+      <vivo:foreachManuscriptFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:ManuscriptFeaturesType/>/<vivo:ManuscriptFeaturesType/>.jsp?uri=<vivo:ManuscriptFeatures/>"><vivo:ManuscriptFeatures /></a></td></tr>
+      </vivo:foreachManuscriptFeaturesIterator>
+      <vivo:foreachManuscriptInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ManuscriptInformationResourceSupportedByType/>/<vivo:ManuscriptInformationResourceSupportedByType/>.jsp?uri=<vivo:ManuscriptInformationResourceSupportedBy/>"><vivo:ManuscriptInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachManuscriptInformationResourceSupportedByIterator>
+      <vivo:foreachManuscriptIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:ManuscriptIAO_0000136Type/>/<vivo:ManuscriptIAO_0000136Type/>.jsp?uri=<vivo:ManuscriptIAO_0000136/>"><vivo:ManuscriptIAO_0000136 /></a></td></tr>
+      </vivo:foreachManuscriptIAO_0000136Iterator>
    </table>
    </vivo:Manuscript>
 

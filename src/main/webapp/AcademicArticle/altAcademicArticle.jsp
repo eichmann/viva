@@ -26,22 +26,19 @@
    <h3>Authors</h3>
       <ol class=bulletedList>
       <vivo:foreachAcademicArticleRelatedByIterator classFilter="Authorship">
-         <c:set var="auth"><vivo:AcademicArticleRelatedBy/></c:set>
-         <vivo:Authorship subjectURI="${auth}">
+         <vivo:Authorship>
             <vivo:foreachAuthorshipRelatesIterator classFilter="Person Individual">
                <c:set var="type"><vivo:AuthorshipRelatesType/></c:set>
-               <c:set var="person"><vivo:AuthorshipRelates/></c:set>
                <c:choose>
                	<c:when test="${type == 'Person'}">
-	               <vivo:Person subjectURI="${person}">
+	               <vivo:Person>
 	                  <li><a href="../Person/altPerson.jsp?uri=<vivo:PersonSubjectURI/>"><vivo:PersonLabel/></a>
 	               </vivo:Person>
                	</c:when>
                	<c:when test="${type == 'Individual'}">
-               		<vivo:Individual subjectURI="${person}">
+               		<vivo:Individual>
                			<vivo:foreachIndividualHasNameIterator>
-           					<c:set var="name"><vivo:IndividualHasName/></c:set>
-               				<vivo:Name subjectURI="${name}">
+               				<vivo:Name>
                					<li><vivo:foreachNameFamilyNameIterator><vivo:NameFamilyName/></vivo:foreachNameFamilyNameIterator>, <vivo:foreachNameGivenNameIterator><vivo:NameGivenName/></vivo:foreachNameGivenNameIterator>
                				</vivo:Name>
                			</vivo:foreachIndividualHasNameIterator>

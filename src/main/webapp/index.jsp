@@ -11,7 +11,7 @@
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
-This is the body.
+<h3><a href="Person/PersonList.jsp">Person List</a></h3>
 
 <jsp:include page="/footer.jsp" flush="true" /></div></div></body>
 </html>

@@ -22,8 +22,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>overview</td><td><vivo:ServiceProvidingLaboratoryOverview /></td></tr>
       <tr><td>abbreviation</td><td><vivo:ServiceProvidingLaboratoryAbbreviation /></td></tr>
+      <tr><td>overview</td><td><vivo:ServiceProvidingLaboratoryOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -38,15 +38,6 @@
       <vivo:foreachServiceProvidingLaboratoryRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:ServiceProvidingLaboratoryRO_0000056Type/>/<vivo:ServiceProvidingLaboratoryRO_0000056Type/>.jsp?uri=<vivo:ServiceProvidingLaboratoryRO_0000056/>"><vivo:ServiceProvidingLaboratoryRO_0000056 /></a></td></tr>
       </vivo:foreachServiceProvidingLaboratoryRO_0000056Iterator>
-      <vivo:foreachServiceProvidingLaboratoryAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<vivo:ServiceProvidingLaboratoryAssigneeForType/>/<vivo:ServiceProvidingLaboratoryAssigneeForType/>.jsp?uri=<vivo:ServiceProvidingLaboratoryAssigneeFor/>"><vivo:ServiceProvidingLaboratoryAssigneeFor /></a></td></tr>
-      </vivo:foreachServiceProvidingLaboratoryAssigneeForIterator>
-      <vivo:foreachServiceProvidingLaboratoryHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<vivo:ServiceProvidingLaboratoryHasCollaboratorType/>/<vivo:ServiceProvidingLaboratoryHasCollaboratorType/>.jsp?uri=<vivo:ServiceProvidingLaboratoryHasCollaborator/>"><vivo:ServiceProvidingLaboratoryHasCollaborator /></a></td></tr>
-      </vivo:foreachServiceProvidingLaboratoryHasCollaboratorIterator>
-      <vivo:foreachServiceProvidingLaboratoryTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<vivo:ServiceProvidingLaboratoryTranslatorOfType/>/<vivo:ServiceProvidingLaboratoryTranslatorOfType/>.jsp?uri=<vivo:ServiceProvidingLaboratoryTranslatorOf/>"><vivo:ServiceProvidingLaboratoryTranslatorOf /></a></td></tr>
-      </vivo:foreachServiceProvidingLaboratoryTranslatorOfIterator>
       <vivo:foreachServiceProvidingLaboratorySponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<vivo:ServiceProvidingLaboratorySponsorsType/>/<vivo:ServiceProvidingLaboratorySponsorsType/>.jsp?uri=<vivo:ServiceProvidingLaboratorySponsors/>"><vivo:ServiceProvidingLaboratorySponsors /></a></td></tr>
       </vivo:foreachServiceProvidingLaboratorySponsorsIterator>
@@ -80,6 +71,15 @@
       <vivo:foreachServiceProvidingLaboratoryAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:ServiceProvidingLaboratoryAffiliatedOrganizationType/>/<vivo:ServiceProvidingLaboratoryAffiliatedOrganizationType/>.jsp?uri=<vivo:ServiceProvidingLaboratoryAffiliatedOrganization/>"><vivo:ServiceProvidingLaboratoryAffiliatedOrganization /></a></td></tr>
       </vivo:foreachServiceProvidingLaboratoryAffiliatedOrganizationIterator>
+      <vivo:foreachServiceProvidingLaboratoryAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<vivo:ServiceProvidingLaboratoryAssigneeForType/>/<vivo:ServiceProvidingLaboratoryAssigneeForType/>.jsp?uri=<vivo:ServiceProvidingLaboratoryAssigneeFor/>"><vivo:ServiceProvidingLaboratoryAssigneeFor /></a></td></tr>
+      </vivo:foreachServiceProvidingLaboratoryAssigneeForIterator>
+      <vivo:foreachServiceProvidingLaboratoryHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<vivo:ServiceProvidingLaboratoryHasCollaboratorType/>/<vivo:ServiceProvidingLaboratoryHasCollaboratorType/>.jsp?uri=<vivo:ServiceProvidingLaboratoryHasCollaborator/>"><vivo:ServiceProvidingLaboratoryHasCollaborator /></a></td></tr>
+      </vivo:foreachServiceProvidingLaboratoryHasCollaboratorIterator>
+      <vivo:foreachServiceProvidingLaboratoryTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<vivo:ServiceProvidingLaboratoryTranslatorOfType/>/<vivo:ServiceProvidingLaboratoryTranslatorOfType/>.jsp?uri=<vivo:ServiceProvidingLaboratoryTranslatorOf/>"><vivo:ServiceProvidingLaboratoryTranslatorOf /></a></td></tr>
+      </vivo:foreachServiceProvidingLaboratoryTranslatorOfIterator>
    </table>
    </vivo:ServiceProvidingLaboratory>
 

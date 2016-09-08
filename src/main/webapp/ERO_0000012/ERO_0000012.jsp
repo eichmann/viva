@@ -33,15 +33,15 @@
       <vivo:foreachERO_0000012RO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<vivo:ERO_0000012RO_0000052Type/>/<vivo:ERO_0000012RO_0000052Type/>.jsp?uri=<vivo:ERO_0000012RO_0000052/>"><vivo:ERO_0000012RO_0000052 /></a></td></tr>
       </vivo:foreachERO_0000012RO_0000052Iterator>
+      <vivo:foreachERO_0000012BFO_0000054Iterator>
+         <tr><td>BFO_0000054</td><td><a href="../<vivo:ERO_0000012BFO_0000054Type/>/<vivo:ERO_0000012BFO_0000054Type/>.jsp?uri=<vivo:ERO_0000012BFO_0000054/>"><vivo:ERO_0000012BFO_0000054 /></a></td></tr>
+      </vivo:foreachERO_0000012BFO_0000054Iterator>
       <vivo:foreachERO_0000012RO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:ERO_0000012RO_0000056Type/>/<vivo:ERO_0000012RO_0000056Type/>.jsp?uri=<vivo:ERO_0000012RO_0000056/>"><vivo:ERO_0000012RO_0000056 /></a></td></tr>
       </vivo:foreachERO_0000012RO_0000056Iterator>
       <vivo:foreachERO_0000012RoleContributesToIterator>
          <tr><td>roleContributesTo</td><td><a href="../<vivo:ERO_0000012RoleContributesToType/>/<vivo:ERO_0000012RoleContributesToType/>.jsp?uri=<vivo:ERO_0000012RoleContributesTo/>"><vivo:ERO_0000012RoleContributesTo /></a></td></tr>
       </vivo:foreachERO_0000012RoleContributesToIterator>
-      <vivo:foreachERO_0000012BFO_0000054Iterator>
-         <tr><td>BFO_0000054</td><td><a href="../<vivo:ERO_0000012BFO_0000054Type/>/<vivo:ERO_0000012BFO_0000054Type/>.jsp?uri=<vivo:ERO_0000012BFO_0000054/>"><vivo:ERO_0000012BFO_0000054 /></a></td></tr>
-      </vivo:foreachERO_0000012BFO_0000054Iterator>
    </table>
    </vivo:ERO_0000012>
 

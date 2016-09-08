@@ -26,12 +26,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachFilmTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:FilmTheAbstract /></td></tr>
-      </vivo:foreachFilmTheAbstractIterator>
-      <vivo:foreachFilmDoiIterator>
-         <tr><td>doi</td><td><vivo:FilmDoi /></td></tr>
-      </vivo:foreachFilmDoiIterator>
       <vivo:foreachFilmPmidIterator>
          <tr><td>pmid</td><td><vivo:FilmPmid /></td></tr>
       </vivo:foreachFilmPmidIterator>
@@ -41,34 +35,16 @@
       <vivo:foreachFilmVolumeIterator>
          <tr><td>volume</td><td><vivo:FilmVolume /></td></tr>
       </vivo:foreachFilmVolumeIterator>
+      <vivo:foreachFilmTheAbstractIterator>
+         <tr><td>theAbstract</td><td><vivo:FilmTheAbstract /></td></tr>
+      </vivo:foreachFilmTheAbstractIterator>
+      <vivo:foreachFilmDoiIterator>
+         <tr><td>doi</td><td><vivo:FilmDoi /></td></tr>
+      </vivo:foreachFilmDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachFilmTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:FilmTranslatorType/>/<vivo:FilmTranslatorType/>.jsp?uri=<vivo:FilmTranslator/>"><vivo:FilmTranslator /></a></td></tr>
-      </vivo:foreachFilmTranslatorIterator>
-      <vivo:foreachFilmFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:FilmFeaturesType/>/<vivo:FilmFeaturesType/>.jsp?uri=<vivo:FilmFeatures/>"><vivo:FilmFeatures /></a></td></tr>
-      </vivo:foreachFilmFeaturesIterator>
-      <vivo:foreachFilmInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:FilmInformationResourceSupportedByType/>/<vivo:FilmInformationResourceSupportedByType/>.jsp?uri=<vivo:FilmInformationResourceSupportedBy/>"><vivo:FilmInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachFilmInformationResourceSupportedByIterator>
-      <vivo:foreachFilmIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:FilmIAO_0000136Type/>/<vivo:FilmIAO_0000136Type/>.jsp?uri=<vivo:FilmIAO_0000136/>"><vivo:FilmIAO_0000136 /></a></td></tr>
-      </vivo:foreachFilmIAO_0000136Iterator>
-      <vivo:foreachFilmDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<vivo:FilmDateTimeValueType/>/<vivo:FilmDateTimeValueType/>.jsp?uri=<vivo:FilmDateTimeValue/>"><vivo:FilmDateTimeValue /></a></td></tr>
-      </vivo:foreachFilmDateTimeValueIterator>
-      <vivo:foreachFilmRO_0002353Iterator>
-         <tr><td>RO_0002353</td><td><a href="../<vivo:FilmRO_0002353Type/>/<vivo:FilmRO_0002353Type/>.jsp?uri=<vivo:FilmRO_0002353/>"><vivo:FilmRO_0002353 /></a></td></tr>
-      </vivo:foreachFilmRO_0002353Iterator>
-      <vivo:foreachFilmARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<vivo:FilmARG_2000028Type/>/<vivo:FilmARG_2000028Type/>.jsp?uri=<vivo:FilmARG_2000028/>"><vivo:FilmARG_2000028 /></a></td></tr>
-      </vivo:foreachFilmARG_2000028Iterator>
-      <vivo:foreachFilmRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<vivo:FilmRelatedByType/>/<vivo:FilmRelatedByType/>.jsp?uri=<vivo:FilmRelatedBy/>"><vivo:FilmRelatedBy /></a></td></tr>
-      </vivo:foreachFilmRelatedByIterator>
       <vivo:foreachFilmRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:FilmRO_0000056Type/>/<vivo:FilmRO_0000056Type/>.jsp?uri=<vivo:FilmRO_0000056/>"><vivo:FilmRO_0000056 /></a></td></tr>
       </vivo:foreachFilmRO_0000056Iterator>
@@ -99,6 +75,30 @@
       <vivo:foreachFilmCitesIterator>
          <tr><td>cites</td><td><a href="../<vivo:FilmCitesType/>/<vivo:FilmCitesType/>.jsp?uri=<vivo:FilmCites/>"><vivo:FilmCites /></a></td></tr>
       </vivo:foreachFilmCitesIterator>
+      <vivo:foreachFilmTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:FilmTranslatorType/>/<vivo:FilmTranslatorType/>.jsp?uri=<vivo:FilmTranslator/>"><vivo:FilmTranslator /></a></td></tr>
+      </vivo:foreachFilmTranslatorIterator>
+      <vivo:foreachFilmFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:FilmFeaturesType/>/<vivo:FilmFeaturesType/>.jsp?uri=<vivo:FilmFeatures/>"><vivo:FilmFeatures /></a></td></tr>
+      </vivo:foreachFilmFeaturesIterator>
+      <vivo:foreachFilmInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:FilmInformationResourceSupportedByType/>/<vivo:FilmInformationResourceSupportedByType/>.jsp?uri=<vivo:FilmInformationResourceSupportedBy/>"><vivo:FilmInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachFilmInformationResourceSupportedByIterator>
+      <vivo:foreachFilmIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:FilmIAO_0000136Type/>/<vivo:FilmIAO_0000136Type/>.jsp?uri=<vivo:FilmIAO_0000136/>"><vivo:FilmIAO_0000136 /></a></td></tr>
+      </vivo:foreachFilmIAO_0000136Iterator>
+      <vivo:foreachFilmDateTimeValueIterator>
+         <tr><td>dateTimeValue</td><td><a href="../<vivo:FilmDateTimeValueType/>/<vivo:FilmDateTimeValueType/>.jsp?uri=<vivo:FilmDateTimeValue/>"><vivo:FilmDateTimeValue /></a></td></tr>
+      </vivo:foreachFilmDateTimeValueIterator>
+      <vivo:foreachFilmRO_0002353Iterator>
+         <tr><td>RO_0002353</td><td><a href="../<vivo:FilmRO_0002353Type/>/<vivo:FilmRO_0002353Type/>.jsp?uri=<vivo:FilmRO_0002353/>"><vivo:FilmRO_0002353 /></a></td></tr>
+      </vivo:foreachFilmRO_0002353Iterator>
+      <vivo:foreachFilmARG_2000028Iterator>
+         <tr><td>ARG_2000028</td><td><a href="../<vivo:FilmARG_2000028Type/>/<vivo:FilmARG_2000028Type/>.jsp?uri=<vivo:FilmARG_2000028/>"><vivo:FilmARG_2000028 /></a></td></tr>
+      </vivo:foreachFilmARG_2000028Iterator>
+      <vivo:foreachFilmRelatedByIterator>
+         <tr><td>relatedBy</td><td><a href="../<vivo:FilmRelatedByType/>/<vivo:FilmRelatedByType/>.jsp?uri=<vivo:FilmRelatedBy/>"><vivo:FilmRelatedBy /></a></td></tr>
+      </vivo:foreachFilmRelatedByIterator>
    </table>
    </vivo:Film>
 

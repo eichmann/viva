@@ -22,8 +22,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>overview</td><td><vivo:DepartmentOverview /></td></tr>
       <tr><td>abbreviation</td><td><vivo:DepartmentAbbreviation /></td></tr>
+      <tr><td>overview</td><td><vivo:DepartmentOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -38,15 +38,6 @@
       <vivo:foreachDepartmentRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:DepartmentRO_0000056Type/>/<vivo:DepartmentRO_0000056Type/>.jsp?uri=<vivo:DepartmentRO_0000056/>"><vivo:DepartmentRO_0000056 /></a></td></tr>
       </vivo:foreachDepartmentRO_0000056Iterator>
-      <vivo:foreachDepartmentAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<vivo:DepartmentAssigneeForType/>/<vivo:DepartmentAssigneeForType/>.jsp?uri=<vivo:DepartmentAssigneeFor/>"><vivo:DepartmentAssigneeFor /></a></td></tr>
-      </vivo:foreachDepartmentAssigneeForIterator>
-      <vivo:foreachDepartmentHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<vivo:DepartmentHasCollaboratorType/>/<vivo:DepartmentHasCollaboratorType/>.jsp?uri=<vivo:DepartmentHasCollaborator/>"><vivo:DepartmentHasCollaborator /></a></td></tr>
-      </vivo:foreachDepartmentHasCollaboratorIterator>
-      <vivo:foreachDepartmentTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<vivo:DepartmentTranslatorOfType/>/<vivo:DepartmentTranslatorOfType/>.jsp?uri=<vivo:DepartmentTranslatorOf/>"><vivo:DepartmentTranslatorOf /></a></td></tr>
-      </vivo:foreachDepartmentTranslatorOfIterator>
       <vivo:foreachDepartmentSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<vivo:DepartmentSponsorsType/>/<vivo:DepartmentSponsorsType/>.jsp?uri=<vivo:DepartmentSponsors/>"><vivo:DepartmentSponsors /></a></td></tr>
       </vivo:foreachDepartmentSponsorsIterator>
@@ -80,6 +71,15 @@
       <vivo:foreachDepartmentAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:DepartmentAffiliatedOrganizationType/>/<vivo:DepartmentAffiliatedOrganizationType/>.jsp?uri=<vivo:DepartmentAffiliatedOrganization/>"><vivo:DepartmentAffiliatedOrganization /></a></td></tr>
       </vivo:foreachDepartmentAffiliatedOrganizationIterator>
+      <vivo:foreachDepartmentAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<vivo:DepartmentAssigneeForType/>/<vivo:DepartmentAssigneeForType/>.jsp?uri=<vivo:DepartmentAssigneeFor/>"><vivo:DepartmentAssigneeFor /></a></td></tr>
+      </vivo:foreachDepartmentAssigneeForIterator>
+      <vivo:foreachDepartmentHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<vivo:DepartmentHasCollaboratorType/>/<vivo:DepartmentHasCollaboratorType/>.jsp?uri=<vivo:DepartmentHasCollaborator/>"><vivo:DepartmentHasCollaborator /></a></td></tr>
+      </vivo:foreachDepartmentHasCollaboratorIterator>
+      <vivo:foreachDepartmentTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<vivo:DepartmentTranslatorOfType/>/<vivo:DepartmentTranslatorOfType/>.jsp?uri=<vivo:DepartmentTranslatorOf/>"><vivo:DepartmentTranslatorOf /></a></td></tr>
+      </vivo:foreachDepartmentTranslatorOfIterator>
    </table>
    </vivo:Department>
 

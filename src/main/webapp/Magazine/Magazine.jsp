@@ -36,18 +36,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachMagazineTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:MagazineTranslatorType/>/<vivo:MagazineTranslatorType/>.jsp?uri=<vivo:MagazineTranslator/>"><vivo:MagazineTranslator /></a></td></tr>
-      </vivo:foreachMagazineTranslatorIterator>
-      <vivo:foreachMagazineFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:MagazineFeaturesType/>/<vivo:MagazineFeaturesType/>.jsp?uri=<vivo:MagazineFeatures/>"><vivo:MagazineFeatures /></a></td></tr>
-      </vivo:foreachMagazineFeaturesIterator>
-      <vivo:foreachMagazineInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:MagazineInformationResourceSupportedByType/>/<vivo:MagazineInformationResourceSupportedByType/>.jsp?uri=<vivo:MagazineInformationResourceSupportedBy/>"><vivo:MagazineInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachMagazineInformationResourceSupportedByIterator>
-      <vivo:foreachMagazineIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:MagazineIAO_0000136Type/>/<vivo:MagazineIAO_0000136Type/>.jsp?uri=<vivo:MagazineIAO_0000136/>"><vivo:MagazineIAO_0000136 /></a></td></tr>
-      </vivo:foreachMagazineIAO_0000136Iterator>
       <vivo:foreachMagazineDateTimeValueIterator>
          <tr><td>dateTimeValue</td><td><a href="../<vivo:MagazineDateTimeValueType/>/<vivo:MagazineDateTimeValueType/>.jsp?uri=<vivo:MagazineDateTimeValue/>"><vivo:MagazineDateTimeValue /></a></td></tr>
       </vivo:foreachMagazineDateTimeValueIterator>
@@ -63,6 +51,18 @@
       <vivo:foreachMagazineRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:MagazineRO_0000056Type/>/<vivo:MagazineRO_0000056Type/>.jsp?uri=<vivo:MagazineRO_0000056/>"><vivo:MagazineRO_0000056 /></a></td></tr>
       </vivo:foreachMagazineRO_0000056Iterator>
+      <vivo:foreachMagazineTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:MagazineTranslatorType/>/<vivo:MagazineTranslatorType/>.jsp?uri=<vivo:MagazineTranslator/>"><vivo:MagazineTranslator /></a></td></tr>
+      </vivo:foreachMagazineTranslatorIterator>
+      <vivo:foreachMagazineFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:MagazineFeaturesType/>/<vivo:MagazineFeaturesType/>.jsp?uri=<vivo:MagazineFeatures/>"><vivo:MagazineFeatures /></a></td></tr>
+      </vivo:foreachMagazineFeaturesIterator>
+      <vivo:foreachMagazineInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:MagazineInformationResourceSupportedByType/>/<vivo:MagazineInformationResourceSupportedByType/>.jsp?uri=<vivo:MagazineInformationResourceSupportedBy/>"><vivo:MagazineInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachMagazineInformationResourceSupportedByIterator>
+      <vivo:foreachMagazineIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:MagazineIAO_0000136Type/>/<vivo:MagazineIAO_0000136Type/>.jsp?uri=<vivo:MagazineIAO_0000136/>"><vivo:MagazineIAO_0000136 /></a></td></tr>
+      </vivo:foreachMagazineIAO_0000136Iterator>
    </table>
    </vivo:Magazine>
 

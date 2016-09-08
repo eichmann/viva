@@ -22,8 +22,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>overview</td><td><vivo:ERO_0000565Overview /></td></tr>
       <tr><td>abbreviation</td><td><vivo:ERO_0000565Abbreviation /></td></tr>
+      <tr><td>overview</td><td><vivo:ERO_0000565Overview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -38,15 +38,6 @@
       <vivo:foreachERO_0000565RO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:ERO_0000565RO_0000056Type/>/<vivo:ERO_0000565RO_0000056Type/>.jsp?uri=<vivo:ERO_0000565RO_0000056/>"><vivo:ERO_0000565RO_0000056 /></a></td></tr>
       </vivo:foreachERO_0000565RO_0000056Iterator>
-      <vivo:foreachERO_0000565AssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<vivo:ERO_0000565AssigneeForType/>/<vivo:ERO_0000565AssigneeForType/>.jsp?uri=<vivo:ERO_0000565AssigneeFor/>"><vivo:ERO_0000565AssigneeFor /></a></td></tr>
-      </vivo:foreachERO_0000565AssigneeForIterator>
-      <vivo:foreachERO_0000565HasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<vivo:ERO_0000565HasCollaboratorType/>/<vivo:ERO_0000565HasCollaboratorType/>.jsp?uri=<vivo:ERO_0000565HasCollaborator/>"><vivo:ERO_0000565HasCollaborator /></a></td></tr>
-      </vivo:foreachERO_0000565HasCollaboratorIterator>
-      <vivo:foreachERO_0000565TranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<vivo:ERO_0000565TranslatorOfType/>/<vivo:ERO_0000565TranslatorOfType/>.jsp?uri=<vivo:ERO_0000565TranslatorOf/>"><vivo:ERO_0000565TranslatorOf /></a></td></tr>
-      </vivo:foreachERO_0000565TranslatorOfIterator>
       <vivo:foreachERO_0000565SponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<vivo:ERO_0000565SponsorsType/>/<vivo:ERO_0000565SponsorsType/>.jsp?uri=<vivo:ERO_0000565Sponsors/>"><vivo:ERO_0000565Sponsors /></a></td></tr>
       </vivo:foreachERO_0000565SponsorsIterator>
@@ -80,6 +71,15 @@
       <vivo:foreachERO_0000565AffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:ERO_0000565AffiliatedOrganizationType/>/<vivo:ERO_0000565AffiliatedOrganizationType/>.jsp?uri=<vivo:ERO_0000565AffiliatedOrganization/>"><vivo:ERO_0000565AffiliatedOrganization /></a></td></tr>
       </vivo:foreachERO_0000565AffiliatedOrganizationIterator>
+      <vivo:foreachERO_0000565AssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<vivo:ERO_0000565AssigneeForType/>/<vivo:ERO_0000565AssigneeForType/>.jsp?uri=<vivo:ERO_0000565AssigneeFor/>"><vivo:ERO_0000565AssigneeFor /></a></td></tr>
+      </vivo:foreachERO_0000565AssigneeForIterator>
+      <vivo:foreachERO_0000565HasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<vivo:ERO_0000565HasCollaboratorType/>/<vivo:ERO_0000565HasCollaboratorType/>.jsp?uri=<vivo:ERO_0000565HasCollaborator/>"><vivo:ERO_0000565HasCollaborator /></a></td></tr>
+      </vivo:foreachERO_0000565HasCollaboratorIterator>
+      <vivo:foreachERO_0000565TranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<vivo:ERO_0000565TranslatorOfType/>/<vivo:ERO_0000565TranslatorOfType/>.jsp?uri=<vivo:ERO_0000565TranslatorOf/>"><vivo:ERO_0000565TranslatorOf /></a></td></tr>
+      </vivo:foreachERO_0000565TranslatorOfIterator>
    </table>
    </vivo:ERO_0000565>
 

@@ -23,8 +23,8 @@
    <h3>Functional Datatype Properties</h3>
    <table>
       <tr><td>abbreviation</td><td><vivo:GovernmentAgencyAbbreviation /></td></tr>
-      <tr><td>overview</td><td><vivo:GovernmentAgencyOverview /></td></tr>
       <tr><td>abbreviation</td><td><vivo:GovernmentAgencyAbbreviation /></td></tr>
+      <tr><td>overview</td><td><vivo:GovernmentAgencyOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -42,15 +42,6 @@
       <vivo:foreachGovernmentAgencyRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:GovernmentAgencyRO_0000056Type/>/<vivo:GovernmentAgencyRO_0000056Type/>.jsp?uri=<vivo:GovernmentAgencyRO_0000056/>"><vivo:GovernmentAgencyRO_0000056 /></a></td></tr>
       </vivo:foreachGovernmentAgencyRO_0000056Iterator>
-      <vivo:foreachGovernmentAgencyAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<vivo:GovernmentAgencyAssigneeForType/>/<vivo:GovernmentAgencyAssigneeForType/>.jsp?uri=<vivo:GovernmentAgencyAssigneeFor/>"><vivo:GovernmentAgencyAssigneeFor /></a></td></tr>
-      </vivo:foreachGovernmentAgencyAssigneeForIterator>
-      <vivo:foreachGovernmentAgencyHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<vivo:GovernmentAgencyHasCollaboratorType/>/<vivo:GovernmentAgencyHasCollaboratorType/>.jsp?uri=<vivo:GovernmentAgencyHasCollaborator/>"><vivo:GovernmentAgencyHasCollaborator /></a></td></tr>
-      </vivo:foreachGovernmentAgencyHasCollaboratorIterator>
-      <vivo:foreachGovernmentAgencyTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<vivo:GovernmentAgencyTranslatorOfType/>/<vivo:GovernmentAgencyTranslatorOfType/>.jsp?uri=<vivo:GovernmentAgencyTranslatorOf/>"><vivo:GovernmentAgencyTranslatorOf /></a></td></tr>
-      </vivo:foreachGovernmentAgencyTranslatorOfIterator>
       <vivo:foreachGovernmentAgencySponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<vivo:GovernmentAgencySponsorsType/>/<vivo:GovernmentAgencySponsorsType/>.jsp?uri=<vivo:GovernmentAgencySponsors/>"><vivo:GovernmentAgencySponsors /></a></td></tr>
       </vivo:foreachGovernmentAgencySponsorsIterator>
@@ -84,6 +75,15 @@
       <vivo:foreachGovernmentAgencyAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<vivo:GovernmentAgencyAffiliatedOrganizationType/>/<vivo:GovernmentAgencyAffiliatedOrganizationType/>.jsp?uri=<vivo:GovernmentAgencyAffiliatedOrganization/>"><vivo:GovernmentAgencyAffiliatedOrganization /></a></td></tr>
       </vivo:foreachGovernmentAgencyAffiliatedOrganizationIterator>
+      <vivo:foreachGovernmentAgencyAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<vivo:GovernmentAgencyAssigneeForType/>/<vivo:GovernmentAgencyAssigneeForType/>.jsp?uri=<vivo:GovernmentAgencyAssigneeFor/>"><vivo:GovernmentAgencyAssigneeFor /></a></td></tr>
+      </vivo:foreachGovernmentAgencyAssigneeForIterator>
+      <vivo:foreachGovernmentAgencyHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<vivo:GovernmentAgencyHasCollaboratorType/>/<vivo:GovernmentAgencyHasCollaboratorType/>.jsp?uri=<vivo:GovernmentAgencyHasCollaborator/>"><vivo:GovernmentAgencyHasCollaborator /></a></td></tr>
+      </vivo:foreachGovernmentAgencyHasCollaboratorIterator>
+      <vivo:foreachGovernmentAgencyTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<vivo:GovernmentAgencyTranslatorOfType/>/<vivo:GovernmentAgencyTranslatorOfType/>.jsp?uri=<vivo:GovernmentAgencyTranslatorOf/>"><vivo:GovernmentAgencyTranslatorOf /></a></td></tr>
+      </vivo:foreachGovernmentAgencyTranslatorOfIterator>
    </table>
    </vivo:GovernmentAgency>
 

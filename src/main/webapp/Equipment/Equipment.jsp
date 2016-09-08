@@ -36,9 +36,6 @@
       <vivo:foreachEquipmentRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<vivo:EquipmentRO_0000053Type/>/<vivo:EquipmentRO_0000053Type/>.jsp?uri=<vivo:EquipmentRO_0000053/>"><vivo:EquipmentRO_0000053 /></a></td></tr>
       </vivo:foreachEquipmentRO_0000053Iterator>
-      <vivo:foreachEquipmentRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:EquipmentRO_0000056Type/>/<vivo:EquipmentRO_0000056Type/>.jsp?uri=<vivo:EquipmentRO_0000056/>"><vivo:EquipmentRO_0000056 /></a></td></tr>
-      </vivo:foreachEquipmentRO_0000056Iterator>
       <vivo:foreachEquipmentRO_0003000Iterator>
          <tr><td>RO_0003000</td><td><a href="../<vivo:EquipmentRO_0003000Type/>/<vivo:EquipmentRO_0003000Type/>.jsp?uri=<vivo:EquipmentRO_0003000/>"><vivo:EquipmentRO_0003000 /></a></td></tr>
       </vivo:foreachEquipmentRO_0003000Iterator>
@@ -48,6 +45,9 @@
       <vivo:foreachEquipmentOBI_0000304Iterator>
          <tr><td>OBI_0000304</td><td><a href="../<vivo:EquipmentOBI_0000304Type/>/<vivo:EquipmentOBI_0000304Type/>.jsp?uri=<vivo:EquipmentOBI_0000304/>"><vivo:EquipmentOBI_0000304 /></a></td></tr>
       </vivo:foreachEquipmentOBI_0000304Iterator>
+      <vivo:foreachEquipmentRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<vivo:EquipmentRO_0000056Type/>/<vivo:EquipmentRO_0000056Type/>.jsp?uri=<vivo:EquipmentRO_0000056/>"><vivo:EquipmentRO_0000056 /></a></td></tr>
+      </vivo:foreachEquipmentRO_0000056Iterator>
    </table>
    </vivo:Equipment>
 

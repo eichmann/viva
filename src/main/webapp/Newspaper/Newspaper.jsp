@@ -36,18 +36,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachNewspaperTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:NewspaperTranslatorType/>/<vivo:NewspaperTranslatorType/>.jsp?uri=<vivo:NewspaperTranslator/>"><vivo:NewspaperTranslator /></a></td></tr>
-      </vivo:foreachNewspaperTranslatorIterator>
-      <vivo:foreachNewspaperFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:NewspaperFeaturesType/>/<vivo:NewspaperFeaturesType/>.jsp?uri=<vivo:NewspaperFeatures/>"><vivo:NewspaperFeatures /></a></td></tr>
-      </vivo:foreachNewspaperFeaturesIterator>
-      <vivo:foreachNewspaperInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:NewspaperInformationResourceSupportedByType/>/<vivo:NewspaperInformationResourceSupportedByType/>.jsp?uri=<vivo:NewspaperInformationResourceSupportedBy/>"><vivo:NewspaperInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachNewspaperInformationResourceSupportedByIterator>
-      <vivo:foreachNewspaperIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:NewspaperIAO_0000136Type/>/<vivo:NewspaperIAO_0000136Type/>.jsp?uri=<vivo:NewspaperIAO_0000136/>"><vivo:NewspaperIAO_0000136 /></a></td></tr>
-      </vivo:foreachNewspaperIAO_0000136Iterator>
       <vivo:foreachNewspaperDateTimeValueIterator>
          <tr><td>dateTimeValue</td><td><a href="../<vivo:NewspaperDateTimeValueType/>/<vivo:NewspaperDateTimeValueType/>.jsp?uri=<vivo:NewspaperDateTimeValue/>"><vivo:NewspaperDateTimeValue /></a></td></tr>
       </vivo:foreachNewspaperDateTimeValueIterator>
@@ -63,6 +51,18 @@
       <vivo:foreachNewspaperRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:NewspaperRO_0000056Type/>/<vivo:NewspaperRO_0000056Type/>.jsp?uri=<vivo:NewspaperRO_0000056/>"><vivo:NewspaperRO_0000056 /></a></td></tr>
       </vivo:foreachNewspaperRO_0000056Iterator>
+      <vivo:foreachNewspaperTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<vivo:NewspaperTranslatorType/>/<vivo:NewspaperTranslatorType/>.jsp?uri=<vivo:NewspaperTranslator/>"><vivo:NewspaperTranslator /></a></td></tr>
+      </vivo:foreachNewspaperTranslatorIterator>
+      <vivo:foreachNewspaperFeaturesIterator>
+         <tr><td>features</td><td><a href="../<vivo:NewspaperFeaturesType/>/<vivo:NewspaperFeaturesType/>.jsp?uri=<vivo:NewspaperFeatures/>"><vivo:NewspaperFeatures /></a></td></tr>
+      </vivo:foreachNewspaperFeaturesIterator>
+      <vivo:foreachNewspaperInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:NewspaperInformationResourceSupportedByType/>/<vivo:NewspaperInformationResourceSupportedByType/>.jsp?uri=<vivo:NewspaperInformationResourceSupportedBy/>"><vivo:NewspaperInformationResourceSupportedBy /></a></td></tr>
+      </vivo:foreachNewspaperInformationResourceSupportedByIterator>
+      <vivo:foreachNewspaperIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<vivo:NewspaperIAO_0000136Type/>/<vivo:NewspaperIAO_0000136Type/>.jsp?uri=<vivo:NewspaperIAO_0000136/>"><vivo:NewspaperIAO_0000136 /></a></td></tr>
+      </vivo:foreachNewspaperIAO_0000136Iterator>
    </table>
    </vivo:Newspaper>
 

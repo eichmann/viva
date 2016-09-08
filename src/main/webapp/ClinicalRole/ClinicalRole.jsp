@@ -33,15 +33,15 @@
       <vivo:foreachClinicalRoleRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<vivo:ClinicalRoleRO_0000052Type/>/<vivo:ClinicalRoleRO_0000052Type/>.jsp?uri=<vivo:ClinicalRoleRO_0000052/>"><vivo:ClinicalRoleRO_0000052 /></a></td></tr>
       </vivo:foreachClinicalRoleRO_0000052Iterator>
+      <vivo:foreachClinicalRoleBFO_0000054Iterator>
+         <tr><td>BFO_0000054</td><td><a href="../<vivo:ClinicalRoleBFO_0000054Type/>/<vivo:ClinicalRoleBFO_0000054Type/>.jsp?uri=<vivo:ClinicalRoleBFO_0000054/>"><vivo:ClinicalRoleBFO_0000054 /></a></td></tr>
+      </vivo:foreachClinicalRoleBFO_0000054Iterator>
       <vivo:foreachClinicalRoleRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<vivo:ClinicalRoleRO_0000056Type/>/<vivo:ClinicalRoleRO_0000056Type/>.jsp?uri=<vivo:ClinicalRoleRO_0000056/>"><vivo:ClinicalRoleRO_0000056 /></a></td></tr>
       </vivo:foreachClinicalRoleRO_0000056Iterator>
       <vivo:foreachClinicalRoleRoleContributesToIterator>
          <tr><td>roleContributesTo</td><td><a href="../<vivo:ClinicalRoleRoleContributesToType/>/<vivo:ClinicalRoleRoleContributesToType/>.jsp?uri=<vivo:ClinicalRoleRoleContributesTo/>"><vivo:ClinicalRoleRoleContributesTo /></a></td></tr>
       </vivo:foreachClinicalRoleRoleContributesToIterator>
-      <vivo:foreachClinicalRoleBFO_0000054Iterator>
-         <tr><td>BFO_0000054</td><td><a href="../<vivo:ClinicalRoleBFO_0000054Type/>/<vivo:ClinicalRoleBFO_0000054Type/>.jsp?uri=<vivo:ClinicalRoleBFO_0000054/>"><vivo:ClinicalRoleBFO_0000054 /></a></td></tr>
-      </vivo:foreachClinicalRoleBFO_0000054Iterator>
    </table>
    </vivo:ClinicalRole>
 
