@@ -1,23 +1,24 @@
-<%@ page language="java" contentType="text/html; charset=US-ASCII" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="vivo" uri="http://slis.uiowa.edu/VIVOISF"%>
+<%@ taglib prefix="viva" uri="http://slis.uiowa.edu/VIVOISF"%>
 <%@ taglib prefix="util" uri="http://icts.uiowa.edu/tagUtil"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Kind - http://www.w3.org/2006/vcard/ns#Kind</title>
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altKind.jsp?uri=${param.uri}">alternate view</a></p>
-   <vivo:Kind subjectURI="${param.uri}">
+   <p><a href="../utility/sparqlDump.jsp?type=Kind&uri=${param.uri}">RDF dump</a></p>
+   <viva:Kind subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
    <table>
-      <tr><td>URI</td><td><a href="<vivo:KindSubjectURI/>"><vivo:KindSubjectURI /></a></td></tr>
-      <tr><td>Label</td><td><vivo:KindLabel /></td></tr>
+      <tr><td>URI</td><td><a href="<viva:KindSubjectURI/>"><viva:KindSubjectURI /></a></td></tr>
+      <tr><td>Label</td><td><viva:KindLabel /></td></tr>
    </table>
 
    <h3>Functional Datatype Properties</h3>
@@ -26,57 +27,61 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachKindRankIterator>
-         <tr><td>rank</td><td><vivo:KindRank /></td></tr>
-      </vivo:foreachKindRankIterator>
-      <vivo:foreachKindTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:KindTheAbstract /></td></tr>
-      </vivo:foreachKindTheAbstractIterator>
-      <vivo:foreachKindDoiIterator>
-         <tr><td>doi</td><td><vivo:KindDoi /></td></tr>
-      </vivo:foreachKindDoiIterator>
+      <viva:foreachKindRankIterator>
+         <tr><td>rank</td><td><viva:KindRank /></td></tr>
+      </viva:foreachKindRankIterator>
+      <viva:foreachKindTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:KindTheAbstract /></td></tr>
+      </viva:foreachKindTheAbstractIterator>
+      <viva:foreachKindDoiIterator>
+         <tr><td>doi</td><td><viva:KindDoi /></td></tr>
+      </viva:foreachKindDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachKindHasAddressIterator>
-         <tr><td>hasAddress</td><td><a href="../<vivo:KindHasAddressType/>/<vivo:KindHasAddressType/>.jsp?uri=<vivo:KindHasAddress/>"><vivo:KindHasAddress /></a></td></tr>
-      </vivo:foreachKindHasAddressIterator>
-      <vivo:foreachKindHasGeoIterator>
-         <tr><td>hasGeo</td><td><a href="../<vivo:KindHasGeoType/>/<vivo:KindHasGeoType/>.jsp?uri=<vivo:KindHasGeo/>"><vivo:KindHasGeo /></a></td></tr>
-      </vivo:foreachKindHasGeoIterator>
-      <vivo:foreachKindRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<vivo:KindRelatedByType/>/<vivo:KindRelatedByType/>.jsp?uri=<vivo:KindRelatedBy/>"><vivo:KindRelatedBy /></a></td></tr>
-      </vivo:foreachKindRelatedByIterator>
-      <vivo:foreachKindHasEmailIterator>
-         <tr><td>hasEmail</td><td><a href="../<vivo:KindHasEmailType/>/<vivo:KindHasEmailType/>.jsp?uri=<vivo:KindHasEmail/>"><vivo:KindHasEmail /></a></td></tr>
-      </vivo:foreachKindHasEmailIterator>
-      <vivo:foreachKindRelatesIterator>
-         <tr><td>relates</td><td><a href="../<vivo:KindRelatesType/>/<vivo:KindRelatesType/>.jsp?uri=<vivo:KindRelates/>"><vivo:KindRelates /></a></td></tr>
-      </vivo:foreachKindRelatesIterator>
-      <vivo:foreachKindHasURLIterator>
-         <tr><td>hasURL</td><td><a href="../<vivo:KindHasURLType/>/<vivo:KindHasURLType/>.jsp?uri=<vivo:KindHasURL/>"><vivo:KindHasURL /></a></td></tr>
-      </vivo:foreachKindHasURLIterator>
-      <vivo:foreachKindRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:KindRO_0000056Type/>/<vivo:KindRO_0000056Type/>.jsp?uri=<vivo:KindRO_0000056/>"><vivo:KindRO_0000056 /></a></td></tr>
-      </vivo:foreachKindRO_0000056Iterator>
-      <vivo:foreachKindARG_2000029Iterator>
-         <tr><td>ARG_2000029</td><td><a href="../<vivo:KindARG_2000029Type/>/<vivo:KindARG_2000029Type/>.jsp?uri=<vivo:KindARG_2000029/>"><vivo:KindARG_2000029 /></a></td></tr>
-      </vivo:foreachKindARG_2000029Iterator>
-      <vivo:foreachKindTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:KindTranslatorType/>/<vivo:KindTranslatorType/>.jsp?uri=<vivo:KindTranslator/>"><vivo:KindTranslator /></a></td></tr>
-      </vivo:foreachKindTranslatorIterator>
-      <vivo:foreachKindFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:KindFeaturesType/>/<vivo:KindFeaturesType/>.jsp?uri=<vivo:KindFeatures/>"><vivo:KindFeatures /></a></td></tr>
-      </vivo:foreachKindFeaturesIterator>
-      <vivo:foreachKindInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:KindInformationResourceSupportedByType/>/<vivo:KindInformationResourceSupportedByType/>.jsp?uri=<vivo:KindInformationResourceSupportedBy/>"><vivo:KindInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachKindInformationResourceSupportedByIterator>
-      <vivo:foreachKindIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:KindIAO_0000136Type/>/<vivo:KindIAO_0000136Type/>.jsp?uri=<vivo:KindIAO_0000136/>"><vivo:KindIAO_0000136 /></a></td></tr>
-      </vivo:foreachKindIAO_0000136Iterator>
+      <viva:foreachKindHasAddressIterator>
+         <tr><td>hasAddress</td><td><a href="../<viva:KindHasAddressType/>/<viva:KindHasAddressType/>.jsp?uri=<viva:KindHasAddress/>"><viva:KindHasAddress /></a></td></tr>
+      </viva:foreachKindHasAddressIterator>
+      <viva:foreachKindHasGeoIterator>
+         <tr><td>hasGeo</td><td><a href="../<viva:KindHasGeoType/>/<viva:KindHasGeoType/>.jsp?uri=<viva:KindHasGeo/>"><viva:KindHasGeo /></a></td></tr>
+      </viva:foreachKindHasGeoIterator>
+      <viva:foreachKindRelatedByIterator>
+         <tr><td>relatedBy</td><td><a href="../<viva:KindRelatedByType/>/<viva:KindRelatedByType/>.jsp?uri=<viva:KindRelatedBy/>"><viva:KindRelatedBy /></a></td></tr>
+      </viva:foreachKindRelatedByIterator>
+      <viva:foreachKindHasEmailIterator>
+         <tr><td>hasEmail</td><td><a href="../<viva:KindHasEmailType/>/<viva:KindHasEmailType/>.jsp?uri=<viva:KindHasEmail/>"><viva:KindHasEmail /></a></td></tr>
+      </viva:foreachKindHasEmailIterator>
+      <viva:foreachKindRelatesIterator>
+         <tr><td>relates</td><td><a href="../<viva:KindRelatesType/>/<viva:KindRelatesType/>.jsp?uri=<viva:KindRelates/>"><viva:KindRelates /></a></td></tr>
+      </viva:foreachKindRelatesIterator>
+      <viva:foreachKindHasURLIterator>
+         <tr><td>hasURL</td><td><a href="../<viva:KindHasURLType/>/<viva:KindHasURLType/>.jsp?uri=<viva:KindHasURL/>"><viva:KindHasURL /></a></td></tr>
+      </viva:foreachKindHasURLIterator>
+      <viva:foreachKindARG_2000029Iterator>
+         <tr><td>ARG_2000029</td><td><a href="../<viva:KindARG_2000029Type/>/<viva:KindARG_2000029Type/>.jsp?uri=<viva:KindARG_2000029/>"><viva:KindARG_2000029 /></a></td></tr>
+      </viva:foreachKindARG_2000029Iterator>
+      <viva:foreachKindRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:KindRO_0000056Type/>/<viva:KindRO_0000056Type/>.jsp?uri=<viva:KindRO_0000056/>"><viva:KindRO_0000056 /></a></td></tr>
+      </viva:foreachKindRO_0000056Iterator>
+      <viva:foreachKindTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:KindTranslatorType/>/<viva:KindTranslatorType/>.jsp?uri=<viva:KindTranslator/>"><viva:KindTranslator /></a></td></tr>
+      </viva:foreachKindTranslatorIterator>
+      <viva:foreachKindFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:KindFeaturesType/>/<viva:KindFeaturesType/>.jsp?uri=<viva:KindFeatures/>"><viva:KindFeatures /></a></td></tr>
+      </viva:foreachKindFeaturesIterator>
+      <viva:foreachKindInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:KindInformationResourceSupportedByType/>/<viva:KindInformationResourceSupportedByType/>.jsp?uri=<viva:KindInformationResourceSupportedBy/>"><viva:KindInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachKindInformationResourceSupportedByIterator>
+      <viva:foreachKindIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:KindIAO_0000136Type/>/<viva:KindIAO_0000136Type/>.jsp?uri=<viva:KindIAO_0000136/>"><viva:KindIAO_0000136 /></a></td></tr>
+      </viva:foreachKindIAO_0000136Iterator>
    </table>
-   </vivo:Kind>
+
+   <h3>Inverse Object Properties (these do not have declared inverses)</h3>
+   <table>
+   </table>
+   </viva:Kind>
 
 <jsp:include page="/footer.jsp" flush="true" /></div></div></body>
 </html>

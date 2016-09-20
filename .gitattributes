@@ -827,5 +827,6 @@ src/main/webapp/special_group/special_group.jsp -text
 src/main/webapp/special_group/special_groupList.jsp -text
 src/main/webapp/territory/territory.jsp -text
 src/main/webapp/territory/territoryList.jsp -text
+src/main/webapp/utility/sparqlDump.jsp -text
 src/test/java/edu/uiowa/slis/viva/DemoTest.java -text
 src/test/resources/README.txt -text

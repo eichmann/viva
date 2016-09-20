@@ -1,23 +1,24 @@
-<%@ page language="java" contentType="text/html; charset=US-ASCII" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="vivo" uri="http://slis.uiowa.edu/VIVOISF"%>
+<%@ taglib prefix="viva" uri="http://slis.uiowa.edu/VIVOISF"%>
 <%@ taglib prefix="util" uri="http://icts.uiowa.edu/tagUtil"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>CalendarLink - http://www.w3.org/2006/vcard/ns#CalendarLink</title>
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altCalendarLink.jsp?uri=${param.uri}">alternate view</a></p>
-   <vivo:CalendarLink subjectURI="${param.uri}">
+   <p><a href="../utility/sparqlDump.jsp?type=CalendarLink&uri=${param.uri}">RDF dump</a></p>
+   <viva:CalendarLink subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
    <table>
-      <tr><td>URI</td><td><a href="<vivo:CalendarLinkSubjectURI/>"><vivo:CalendarLinkSubjectURI /></a></td></tr>
-      <tr><td>Label</td><td><vivo:CalendarLinkLabel /></td></tr>
+      <tr><td>URI</td><td><a href="<viva:CalendarLinkSubjectURI/>"><viva:CalendarLinkSubjectURI /></a></td></tr>
+      <tr><td>Label</td><td><viva:CalendarLinkLabel /></td></tr>
    </table>
 
    <h3>Functional Datatype Properties</h3>
@@ -26,15 +27,22 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachCalendarLinkCalendarLinkIterator>
-         <tr><td>calendarLink</td><td><vivo:CalendarLinkCalendarLink /></td></tr>
-      </vivo:foreachCalendarLinkCalendarLinkIterator>
+      <viva:foreachCalendarLinkCalendarLinkIterator>
+         <tr><td>calendarLink</td><td><viva:CalendarLinkCalendarLink /></td></tr>
+      </viva:foreachCalendarLinkCalendarLinkIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
    </table>
-   </vivo:CalendarLink>
+
+   <h3>Inverse Object Properties (these do not have declared inverses)</h3>
+   <table>
+      <viva:foreachCalendarLinkHasCalendarLinkInverseIterator>
+         <tr><td>hasCalendarLink</td><td><a href="../<viva:CalendarLinkHasCalendarLinkInverseType/>/<viva:CalendarLinkHasCalendarLinkInverseType/>.jsp?uri=<viva:CalendarLinkHasCalendarLinkInverse/>"><viva:CalendarLinkHasCalendarLinkInverse/></a></td></tr>
+      </viva:foreachCalendarLinkHasCalendarLinkInverseIterator>
+   </table>
+   </viva:CalendarLink>
 
 <jsp:include page="/footer.jsp" flush="true" /></div></div></body>
 </html>

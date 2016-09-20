@@ -1,23 +1,24 @@
-<%@ page language="java" contentType="text/html; charset=US-ASCII" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="vivo" uri="http://slis.uiowa.edu/VIVOISF"%>
+<%@ taglib prefix="viva" uri="http://slis.uiowa.edu/VIVOISF"%>
 <%@ taglib prefix="util" uri="http://icts.uiowa.edu/tagUtil"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Erratum - http://purl.org/spar/fabio/Erratum</title>
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altErratum.jsp?uri=${param.uri}">alternate view</a></p>
-   <vivo:Erratum subjectURI="${param.uri}">
+   <p><a href="../utility/sparqlDump.jsp?type=Erratum&uri=${param.uri}">RDF dump</a></p>
+   <viva:Erratum subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
    <table>
-      <tr><td>URI</td><td><a href="<vivo:ErratumSubjectURI/>"><vivo:ErratumSubjectURI /></a></td></tr>
-      <tr><td>Label</td><td><vivo:ErratumLabel /></td></tr>
+      <tr><td>URI</td><td><a href="<viva:ErratumSubjectURI/>"><viva:ErratumSubjectURI /></a></td></tr>
+      <tr><td>Label</td><td><viva:ErratumLabel /></td></tr>
    </table>
 
    <h3>Functional Datatype Properties</h3>
@@ -26,69 +27,76 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachErratumPmidIterator>
-         <tr><td>pmid</td><td><vivo:ErratumPmid /></td></tr>
-      </vivo:foreachErratumPmidIterator>
-      <vivo:foreachErratumARG_0000001Iterator>
-         <tr><td>ARG_0000001</td><td><vivo:ErratumARG_0000001 /></td></tr>
-      </vivo:foreachErratumARG_0000001Iterator>
-      <vivo:foreachErratumVolumeIterator>
-         <tr><td>volume</td><td><vivo:ErratumVolume /></td></tr>
-      </vivo:foreachErratumVolumeIterator>
-      <vivo:foreachErratumTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:ErratumTheAbstract /></td></tr>
-      </vivo:foreachErratumTheAbstractIterator>
-      <vivo:foreachErratumDoiIterator>
-         <tr><td>doi</td><td><vivo:ErratumDoi /></td></tr>
-      </vivo:foreachErratumDoiIterator>
+      <viva:foreachErratumTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:ErratumTheAbstract /></td></tr>
+      </viva:foreachErratumTheAbstractIterator>
+      <viva:foreachErratumDoiIterator>
+         <tr><td>doi</td><td><viva:ErratumDoi /></td></tr>
+      </viva:foreachErratumDoiIterator>
+      <viva:foreachErratumPmidIterator>
+         <tr><td>pmid</td><td><viva:ErratumPmid /></td></tr>
+      </viva:foreachErratumPmidIterator>
+      <viva:foreachErratumARG_0000001Iterator>
+         <tr><td>ARG_0000001</td><td><viva:ErratumARG_0000001 /></td></tr>
+      </viva:foreachErratumARG_0000001Iterator>
+      <viva:foreachErratumVolumeIterator>
+         <tr><td>volume</td><td><viva:ErratumVolume /></td></tr>
+      </viva:foreachErratumVolumeIterator>
+      <viva:foreachErratumERO_0000045Iterator>
+         <tr><td>ERO_0000045</td><td><viva:ErratumERO_0000045 /></td></tr>
+      </viva:foreachErratumERO_0000045Iterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachErratumRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:ErratumRO_0000056Type/>/<vivo:ErratumRO_0000056Type/>.jsp?uri=<vivo:ErratumRO_0000056/>"><vivo:ErratumRO_0000056 /></a></td></tr>
-      </vivo:foreachErratumRO_0000056Iterator>
-      <vivo:foreachErratumDocumentationForIterator>
-         <tr><td>documentationFor</td><td><a href="../<vivo:ErratumDocumentationForType/>/<vivo:ErratumDocumentationForType/>.jsp?uri=<vivo:ErratumDocumentationFor/>"><vivo:ErratumDocumentationFor /></a></td></tr>
-      </vivo:foreachErratumDocumentationForIterator>
-      <vivo:foreachErratumCitedByIterator>
-         <tr><td>citedBy</td><td><a href="../<vivo:ErratumCitedByType/>/<vivo:ErratumCitedByType/>.jsp?uri=<vivo:ErratumCitedBy/>"><vivo:ErratumCitedBy /></a></td></tr>
-      </vivo:foreachErratumCitedByIterator>
-      <vivo:foreachErratumTranslationOfIterator>
-         <tr><td>translationOf</td><td><a href="../<vivo:ErratumTranslationOfType/>/<vivo:ErratumTranslationOfType/>.jsp?uri=<vivo:ErratumTranslationOf/>"><vivo:ErratumTranslationOf /></a></td></tr>
-      </vivo:foreachErratumTranslationOfIterator>
-      <vivo:foreachErratumReproducesIterator>
-         <tr><td>reproduces</td><td><a href="../<vivo:ErratumReproducesType/>/<vivo:ErratumReproducesType/>.jsp?uri=<vivo:ErratumReproduces/>"><vivo:ErratumReproduces /></a></td></tr>
-      </vivo:foreachErratumReproducesIterator>
-      <vivo:foreachErratumStatusIterator>
-         <tr><td>status</td><td><a href="../<vivo:ErratumStatusType/>/<vivo:ErratumStatusType/>.jsp?uri=<vivo:ErratumStatus/>"><vivo:ErratumStatus /></a></td></tr>
-      </vivo:foreachErratumStatusIterator>
-      <vivo:foreachErratumReproducedInIterator>
-         <tr><td>reproducedIn</td><td><a href="../<vivo:ErratumReproducedInType/>/<vivo:ErratumReproducedInType/>.jsp?uri=<vivo:ErratumReproducedIn/>"><vivo:ErratumReproducedIn /></a></td></tr>
-      </vivo:foreachErratumReproducedInIterator>
-      <vivo:foreachErratumPresentedAtIterator>
-         <tr><td>presentedAt</td><td><a href="../<vivo:ErratumPresentedAtType/>/<vivo:ErratumPresentedAtType/>.jsp?uri=<vivo:ErratumPresentedAt/>"><vivo:ErratumPresentedAt /></a></td></tr>
-      </vivo:foreachErratumPresentedAtIterator>
-      <vivo:foreachErratumHasTranslationIterator>
-         <tr><td>hasTranslation</td><td><a href="../<vivo:ErratumHasTranslationType/>/<vivo:ErratumHasTranslationType/>.jsp?uri=<vivo:ErratumHasTranslation/>"><vivo:ErratumHasTranslation /></a></td></tr>
-      </vivo:foreachErratumHasTranslationIterator>
-      <vivo:foreachErratumCitesIterator>
-         <tr><td>cites</td><td><a href="../<vivo:ErratumCitesType/>/<vivo:ErratumCitesType/>.jsp?uri=<vivo:ErratumCites/>"><vivo:ErratumCites /></a></td></tr>
-      </vivo:foreachErratumCitesIterator>
-      <vivo:foreachErratumTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:ErratumTranslatorType/>/<vivo:ErratumTranslatorType/>.jsp?uri=<vivo:ErratumTranslator/>"><vivo:ErratumTranslator /></a></td></tr>
-      </vivo:foreachErratumTranslatorIterator>
-      <vivo:foreachErratumFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:ErratumFeaturesType/>/<vivo:ErratumFeaturesType/>.jsp?uri=<vivo:ErratumFeatures/>"><vivo:ErratumFeatures /></a></td></tr>
-      </vivo:foreachErratumFeaturesIterator>
-      <vivo:foreachErratumInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ErratumInformationResourceSupportedByType/>/<vivo:ErratumInformationResourceSupportedByType/>.jsp?uri=<vivo:ErratumInformationResourceSupportedBy/>"><vivo:ErratumInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachErratumInformationResourceSupportedByIterator>
-      <vivo:foreachErratumIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:ErratumIAO_0000136Type/>/<vivo:ErratumIAO_0000136Type/>.jsp?uri=<vivo:ErratumIAO_0000136/>"><vivo:ErratumIAO_0000136 /></a></td></tr>
-      </vivo:foreachErratumIAO_0000136Iterator>
+      <viva:foreachErratumRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:ErratumRO_0000056Type/>/<viva:ErratumRO_0000056Type/>.jsp?uri=<viva:ErratumRO_0000056/>"><viva:ErratumRO_0000056 /></a></td></tr>
+      </viva:foreachErratumRO_0000056Iterator>
+      <viva:foreachErratumTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:ErratumTranslatorType/>/<viva:ErratumTranslatorType/>.jsp?uri=<viva:ErratumTranslator/>"><viva:ErratumTranslator /></a></td></tr>
+      </viva:foreachErratumTranslatorIterator>
+      <viva:foreachErratumFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:ErratumFeaturesType/>/<viva:ErratumFeaturesType/>.jsp?uri=<viva:ErratumFeatures/>"><viva:ErratumFeatures /></a></td></tr>
+      </viva:foreachErratumFeaturesIterator>
+      <viva:foreachErratumInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ErratumInformationResourceSupportedByType/>/<viva:ErratumInformationResourceSupportedByType/>.jsp?uri=<viva:ErratumInformationResourceSupportedBy/>"><viva:ErratumInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachErratumInformationResourceSupportedByIterator>
+      <viva:foreachErratumIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:ErratumIAO_0000136Type/>/<viva:ErratumIAO_0000136Type/>.jsp?uri=<viva:ErratumIAO_0000136/>"><viva:ErratumIAO_0000136 /></a></td></tr>
+      </viva:foreachErratumIAO_0000136Iterator>
+      <viva:foreachErratumDocumentationForIterator>
+         <tr><td>documentationFor</td><td><a href="../<viva:ErratumDocumentationForType/>/<viva:ErratumDocumentationForType/>.jsp?uri=<viva:ErratumDocumentationFor/>"><viva:ErratumDocumentationFor /></a></td></tr>
+      </viva:foreachErratumDocumentationForIterator>
+      <viva:foreachErratumCitedByIterator>
+         <tr><td>citedBy</td><td><a href="../<viva:ErratumCitedByType/>/<viva:ErratumCitedByType/>.jsp?uri=<viva:ErratumCitedBy/>"><viva:ErratumCitedBy /></a></td></tr>
+      </viva:foreachErratumCitedByIterator>
+      <viva:foreachErratumTranslationOfIterator>
+         <tr><td>translationOf</td><td><a href="../<viva:ErratumTranslationOfType/>/<viva:ErratumTranslationOfType/>.jsp?uri=<viva:ErratumTranslationOf/>"><viva:ErratumTranslationOf /></a></td></tr>
+      </viva:foreachErratumTranslationOfIterator>
+      <viva:foreachErratumReproducesIterator>
+         <tr><td>reproduces</td><td><a href="../<viva:ErratumReproducesType/>/<viva:ErratumReproducesType/>.jsp?uri=<viva:ErratumReproduces/>"><viva:ErratumReproduces /></a></td></tr>
+      </viva:foreachErratumReproducesIterator>
+      <viva:foreachErratumStatusIterator>
+         <tr><td>status</td><td><a href="../<viva:ErratumStatusType/>/<viva:ErratumStatusType/>.jsp?uri=<viva:ErratumStatus/>"><viva:ErratumStatus /></a></td></tr>
+      </viva:foreachErratumStatusIterator>
+      <viva:foreachErratumReproducedInIterator>
+         <tr><td>reproducedIn</td><td><a href="../<viva:ErratumReproducedInType/>/<viva:ErratumReproducedInType/>.jsp?uri=<viva:ErratumReproducedIn/>"><viva:ErratumReproducedIn /></a></td></tr>
+      </viva:foreachErratumReproducedInIterator>
+      <viva:foreachErratumPresentedAtIterator>
+         <tr><td>presentedAt</td><td><a href="../<viva:ErratumPresentedAtType/>/<viva:ErratumPresentedAtType/>.jsp?uri=<viva:ErratumPresentedAt/>"><viva:ErratumPresentedAt /></a></td></tr>
+      </viva:foreachErratumPresentedAtIterator>
+      <viva:foreachErratumHasTranslationIterator>
+         <tr><td>hasTranslation</td><td><a href="../<viva:ErratumHasTranslationType/>/<viva:ErratumHasTranslationType/>.jsp?uri=<viva:ErratumHasTranslation/>"><viva:ErratumHasTranslation /></a></td></tr>
+      </viva:foreachErratumHasTranslationIterator>
+      <viva:foreachErratumCitesIterator>
+         <tr><td>cites</td><td><a href="../<viva:ErratumCitesType/>/<viva:ErratumCitesType/>.jsp?uri=<viva:ErratumCites/>"><viva:ErratumCites /></a></td></tr>
+      </viva:foreachErratumCitesIterator>
    </table>
-   </vivo:Erratum>
+
+   <h3>Inverse Object Properties (these do not have declared inverses)</h3>
+   <table>
+   </table>
+   </viva:Erratum>
 
 <jsp:include page="/footer.jsp" flush="true" /></div></div></body>
 </html>

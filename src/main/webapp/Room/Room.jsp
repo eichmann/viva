@@ -1,28 +1,29 @@
-<%@ page language="java" contentType="text/html; charset=US-ASCII" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="vivo" uri="http://slis.uiowa.edu/VIVOISF"%>
+<%@ taglib prefix="viva" uri="http://slis.uiowa.edu/VIVOISF"%>
 <%@ taglib prefix="util" uri="http://icts.uiowa.edu/tagUtil"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Room - http://vivoweb.org/ontology/core#Room</title>
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altRoom.jsp?uri=${param.uri}">alternate view</a></p>
-   <vivo:Room subjectURI="${param.uri}">
+   <p><a href="../utility/sparqlDump.jsp?type=Room&uri=${param.uri}">RDF dump</a></p>
+   <viva:Room subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
    <table>
-      <tr><td>URI</td><td><a href="<vivo:RoomSubjectURI/>"><vivo:RoomSubjectURI /></a></td></tr>
-      <tr><td>Label</td><td><vivo:RoomLabel /></td></tr>
+      <tr><td>URI</td><td><a href="<viva:RoomSubjectURI/>"><viva:RoomSubjectURI /></a></td></tr>
+      <tr><td>Label</td><td><viva:RoomLabel /></td></tr>
    </table>
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>seatingCapacity</td><td><vivo:RoomSeatingCapacity /></td></tr>
+      <tr><td>seatingCapacity</td><td><viva:RoomSeatingCapacity /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -31,17 +32,21 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachRoomRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:RoomRO_0000053Type/>/<vivo:RoomRO_0000053Type/>.jsp?uri=<vivo:RoomRO_0000053/>"><vivo:RoomRO_0000053 /></a></td></tr>
-      </vivo:foreachRoomRO_0000053Iterator>
-      <vivo:foreachRoomRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:RoomRO_0000056Type/>/<vivo:RoomRO_0000056Type/>.jsp?uri=<vivo:RoomRO_0000056/>"><vivo:RoomRO_0000056 /></a></td></tr>
-      </vivo:foreachRoomRO_0000056Iterator>
-      <vivo:foreachRoomFacilityForIterator>
-         <tr><td>facilityFor</td><td><a href="../<vivo:RoomFacilityForType/>/<vivo:RoomFacilityForType/>.jsp?uri=<vivo:RoomFacilityFor/>"><vivo:RoomFacilityFor /></a></td></tr>
-      </vivo:foreachRoomFacilityForIterator>
+      <viva:foreachRoomRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:RoomRO_0000053Type/>/<viva:RoomRO_0000053Type/>.jsp?uri=<viva:RoomRO_0000053/>"><viva:RoomRO_0000053 /></a></td></tr>
+      </viva:foreachRoomRO_0000053Iterator>
+      <viva:foreachRoomFacilityForIterator>
+         <tr><td>facilityFor</td><td><a href="../<viva:RoomFacilityForType/>/<viva:RoomFacilityForType/>.jsp?uri=<viva:RoomFacilityFor/>"><viva:RoomFacilityFor /></a></td></tr>
+      </viva:foreachRoomFacilityForIterator>
+      <viva:foreachRoomRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:RoomRO_0000056Type/>/<viva:RoomRO_0000056Type/>.jsp?uri=<viva:RoomRO_0000056/>"><viva:RoomRO_0000056 /></a></td></tr>
+      </viva:foreachRoomRO_0000056Iterator>
    </table>
-   </vivo:Room>
+
+   <h3>Inverse Object Properties (these do not have declared inverses)</h3>
+   <table>
+   </table>
+   </viva:Room>
 
 <jsp:include page="/footer.jsp" flush="true" /></div></div></body>
 </html>

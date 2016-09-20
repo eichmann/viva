@@ -6,6 +6,10 @@
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
   <name>viva</name>
+  
+  <properties>
+    <failOnMissingWebXml>false</failOnMissingWebXml>
+  </properties>
 
   <url>http://www.icts.uiowa.edu/confluence/display/apps/viva</url>
   <scm>
@@ -126,7 +130,6 @@
         <executions>
           <execution>
             <goals>
-              <goal>WebApp</goal>
             </goals>
 
           </execution>

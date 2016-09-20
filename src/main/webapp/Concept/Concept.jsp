@@ -1,23 +1,24 @@
-<%@ page language="java" contentType="text/html; charset=US-ASCII" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="vivo" uri="http://slis.uiowa.edu/VIVOISF"%>
+<%@ taglib prefix="viva" uri="http://slis.uiowa.edu/VIVOISF"%>
 <%@ taglib prefix="util" uri="http://icts.uiowa.edu/tagUtil"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Concept - http://www.w3.org/2004/02/skos/core#Concept</title>
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altConcept.jsp?uri=${param.uri}">alternate view</a></p>
-   <vivo:Concept subjectURI="${param.uri}">
+   <p><a href="../utility/sparqlDump.jsp?type=Concept&uri=${param.uri}">RDF dump</a></p>
+   <viva:Concept subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
    <table>
-      <tr><td>URI</td><td><a href="<vivo:ConceptSubjectURI/>"><vivo:ConceptSubjectURI /></a></td></tr>
-      <tr><td>Label</td><td><vivo:ConceptLabel /></td></tr>
+      <tr><td>URI</td><td><a href="<viva:ConceptSubjectURI/>"><viva:ConceptSubjectURI /></a></td></tr>
+      <tr><td>Label</td><td><viva:ConceptLabel /></td></tr>
    </table>
 
    <h3>Functional Datatype Properties</h3>
@@ -30,23 +31,27 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachConceptResearchAreaOfIterator>
-         <tr><td>researchAreaOf</td><td><a href="../<vivo:ConceptResearchAreaOfType/>/<vivo:ConceptResearchAreaOfType/>.jsp?uri=<vivo:ConceptResearchAreaOf/>"><vivo:ConceptResearchAreaOf /></a></td></tr>
-      </vivo:foreachConceptResearchAreaOfIterator>
-      <vivo:foreachConceptSubjectAreaOfIterator>
-         <tr><td>subjectAreaOf</td><td><a href="../<vivo:ConceptSubjectAreaOfType/>/<vivo:ConceptSubjectAreaOfType/>.jsp?uri=<vivo:ConceptSubjectAreaOf/>"><vivo:ConceptSubjectAreaOf /></a></td></tr>
-      </vivo:foreachConceptSubjectAreaOfIterator>
-      <vivo:foreachConceptRelatedIterator>
-         <tr><td>related</td><td><a href="../<vivo:ConceptRelatedType/>/<vivo:ConceptRelatedType/>.jsp?uri=<vivo:ConceptRelated/>"><vivo:ConceptRelated /></a></td></tr>
-      </vivo:foreachConceptRelatedIterator>
-      <vivo:foreachConceptNarrowerIterator>
-         <tr><td>narrower</td><td><a href="../<vivo:ConceptNarrowerType/>/<vivo:ConceptNarrowerType/>.jsp?uri=<vivo:ConceptNarrower/>"><vivo:ConceptNarrower /></a></td></tr>
-      </vivo:foreachConceptNarrowerIterator>
-      <vivo:foreachConceptBroaderIterator>
-         <tr><td>broader</td><td><a href="../<vivo:ConceptBroaderType/>/<vivo:ConceptBroaderType/>.jsp?uri=<vivo:ConceptBroader/>"><vivo:ConceptBroader /></a></td></tr>
-      </vivo:foreachConceptBroaderIterator>
+      <viva:foreachConceptResearchAreaOfIterator>
+         <tr><td>researchAreaOf</td><td><a href="../<viva:ConceptResearchAreaOfType/>/<viva:ConceptResearchAreaOfType/>.jsp?uri=<viva:ConceptResearchAreaOf/>"><viva:ConceptResearchAreaOf /></a></td></tr>
+      </viva:foreachConceptResearchAreaOfIterator>
+      <viva:foreachConceptSubjectAreaOfIterator>
+         <tr><td>subjectAreaOf</td><td><a href="../<viva:ConceptSubjectAreaOfType/>/<viva:ConceptSubjectAreaOfType/>.jsp?uri=<viva:ConceptSubjectAreaOf/>"><viva:ConceptSubjectAreaOf /></a></td></tr>
+      </viva:foreachConceptSubjectAreaOfIterator>
+      <viva:foreachConceptRelatedIterator>
+         <tr><td>related</td><td><a href="../<viva:ConceptRelatedType/>/<viva:ConceptRelatedType/>.jsp?uri=<viva:ConceptRelated/>"><viva:ConceptRelated /></a></td></tr>
+      </viva:foreachConceptRelatedIterator>
+      <viva:foreachConceptNarrowerIterator>
+         <tr><td>narrower</td><td><a href="../<viva:ConceptNarrowerType/>/<viva:ConceptNarrowerType/>.jsp?uri=<viva:ConceptNarrower/>"><viva:ConceptNarrower /></a></td></tr>
+      </viva:foreachConceptNarrowerIterator>
+      <viva:foreachConceptBroaderIterator>
+         <tr><td>broader</td><td><a href="../<viva:ConceptBroaderType/>/<viva:ConceptBroaderType/>.jsp?uri=<viva:ConceptBroader/>"><viva:ConceptBroader /></a></td></tr>
+      </viva:foreachConceptBroaderIterator>
    </table>
-   </vivo:Concept>
+
+   <h3>Inverse Object Properties (these do not have declared inverses)</h3>
+   <table>
+   </table>
+   </viva:Concept>
 
 <jsp:include page="/footer.jsp" flush="true" /></div></div></body>
 </html>

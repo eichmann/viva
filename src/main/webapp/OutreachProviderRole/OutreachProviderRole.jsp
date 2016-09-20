@@ -1,23 +1,24 @@
-<%@ page language="java" contentType="text/html; charset=US-ASCII" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="vivo" uri="http://slis.uiowa.edu/VIVOISF"%>
+<%@ taglib prefix="viva" uri="http://slis.uiowa.edu/VIVOISF"%>
 <%@ taglib prefix="util" uri="http://icts.uiowa.edu/tagUtil"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>OutreachProviderRole - http://vivoweb.org/ontology/core#OutreachProviderRole</title>
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altOutreachProviderRole.jsp?uri=${param.uri}">alternate view</a></p>
-   <vivo:OutreachProviderRole subjectURI="${param.uri}">
+   <p><a href="../utility/sparqlDump.jsp?type=OutreachProviderRole&uri=${param.uri}">RDF dump</a></p>
+   <viva:OutreachProviderRole subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
    <table>
-      <tr><td>URI</td><td><a href="<vivo:OutreachProviderRoleSubjectURI/>"><vivo:OutreachProviderRoleSubjectURI /></a></td></tr>
-      <tr><td>Label</td><td><vivo:OutreachProviderRoleLabel /></td></tr>
+      <tr><td>URI</td><td><a href="<viva:OutreachProviderRoleSubjectURI/>"><viva:OutreachProviderRoleSubjectURI /></a></td></tr>
+      <tr><td>Label</td><td><viva:OutreachProviderRoleLabel /></td></tr>
    </table>
 
    <h3>Functional Datatype Properties</h3>
@@ -30,20 +31,24 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachOutreachProviderRoleRO_0000052Iterator>
-         <tr><td>RO_0000052</td><td><a href="../<vivo:OutreachProviderRoleRO_0000052Type/>/<vivo:OutreachProviderRoleRO_0000052Type/>.jsp?uri=<vivo:OutreachProviderRoleRO_0000052/>"><vivo:OutreachProviderRoleRO_0000052 /></a></td></tr>
-      </vivo:foreachOutreachProviderRoleRO_0000052Iterator>
-      <vivo:foreachOutreachProviderRoleBFO_0000054Iterator>
-         <tr><td>BFO_0000054</td><td><a href="../<vivo:OutreachProviderRoleBFO_0000054Type/>/<vivo:OutreachProviderRoleBFO_0000054Type/>.jsp?uri=<vivo:OutreachProviderRoleBFO_0000054/>"><vivo:OutreachProviderRoleBFO_0000054 /></a></td></tr>
-      </vivo:foreachOutreachProviderRoleBFO_0000054Iterator>
-      <vivo:foreachOutreachProviderRoleRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:OutreachProviderRoleRO_0000056Type/>/<vivo:OutreachProviderRoleRO_0000056Type/>.jsp?uri=<vivo:OutreachProviderRoleRO_0000056/>"><vivo:OutreachProviderRoleRO_0000056 /></a></td></tr>
-      </vivo:foreachOutreachProviderRoleRO_0000056Iterator>
-      <vivo:foreachOutreachProviderRoleRoleContributesToIterator>
-         <tr><td>roleContributesTo</td><td><a href="../<vivo:OutreachProviderRoleRoleContributesToType/>/<vivo:OutreachProviderRoleRoleContributesToType/>.jsp?uri=<vivo:OutreachProviderRoleRoleContributesTo/>"><vivo:OutreachProviderRoleRoleContributesTo /></a></td></tr>
-      </vivo:foreachOutreachProviderRoleRoleContributesToIterator>
+      <viva:foreachOutreachProviderRoleRO_0000052Iterator>
+         <tr><td>RO_0000052</td><td><a href="../<viva:OutreachProviderRoleRO_0000052Type/>/<viva:OutreachProviderRoleRO_0000052Type/>.jsp?uri=<viva:OutreachProviderRoleRO_0000052/>"><viva:OutreachProviderRoleRO_0000052 /></a></td></tr>
+      </viva:foreachOutreachProviderRoleRO_0000052Iterator>
+      <viva:foreachOutreachProviderRoleBFO_0000054Iterator>
+         <tr><td>BFO_0000054</td><td><a href="../<viva:OutreachProviderRoleBFO_0000054Type/>/<viva:OutreachProviderRoleBFO_0000054Type/>.jsp?uri=<viva:OutreachProviderRoleBFO_0000054/>"><viva:OutreachProviderRoleBFO_0000054 /></a></td></tr>
+      </viva:foreachOutreachProviderRoleBFO_0000054Iterator>
+      <viva:foreachOutreachProviderRoleRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:OutreachProviderRoleRO_0000056Type/>/<viva:OutreachProviderRoleRO_0000056Type/>.jsp?uri=<viva:OutreachProviderRoleRO_0000056/>"><viva:OutreachProviderRoleRO_0000056 /></a></td></tr>
+      </viva:foreachOutreachProviderRoleRO_0000056Iterator>
+      <viva:foreachOutreachProviderRoleRoleContributesToIterator>
+         <tr><td>roleContributesTo</td><td><a href="../<viva:OutreachProviderRoleRoleContributesToType/>/<viva:OutreachProviderRoleRoleContributesToType/>.jsp?uri=<viva:OutreachProviderRoleRoleContributesTo/>"><viva:OutreachProviderRoleRoleContributesTo /></a></td></tr>
+      </viva:foreachOutreachProviderRoleRoleContributesToIterator>
    </table>
-   </vivo:OutreachProviderRole>
+
+   <h3>Inverse Object Properties (these do not have declared inverses)</h3>
+   <table>
+   </table>
+   </viva:OutreachProviderRole>
 
 <jsp:include page="/footer.jsp" flush="true" /></div></div></body>
 </html>

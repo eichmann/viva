@@ -1,23 +1,24 @@
-<%@ page language="java" contentType="text/html; charset=US-ASCII" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="vivo" uri="http://slis.uiowa.edu/VIVOISF"%>
+<%@ taglib prefix="viva" uri="http://slis.uiowa.edu/VIVOISF"%>
 <%@ taglib prefix="util" uri="http://icts.uiowa.edu/tagUtil"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>ERO_0000779 - http://purl.obolibrary.org/obo/ERO_0000779</title>
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altERO_0000779.jsp?uri=${param.uri}">alternate view</a></p>
-   <vivo:ERO_0000779 subjectURI="${param.uri}">
+   <p><a href="../utility/sparqlDump.jsp?type=ERO_0000779&uri=${param.uri}">RDF dump</a></p>
+   <viva:ERO_0000779 subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
    <table>
-      <tr><td>URI</td><td><a href="<vivo:ERO_0000779SubjectURI/>"><vivo:ERO_0000779SubjectURI /></a></td></tr>
-      <tr><td>Label</td><td><vivo:ERO_0000779Label /></td></tr>
+      <tr><td>URI</td><td><a href="<viva:ERO_0000779SubjectURI/>"><viva:ERO_0000779SubjectURI /></a></td></tr>
+      <tr><td>Label</td><td><viva:ERO_0000779Label /></td></tr>
    </table>
 
    <h3>Functional Datatype Properties</h3>
@@ -30,20 +31,27 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachERO_0000779RO_0000052Iterator>
-         <tr><td>RO_0000052</td><td><a href="../<vivo:ERO_0000779RO_0000052Type/>/<vivo:ERO_0000779RO_0000052Type/>.jsp?uri=<vivo:ERO_0000779RO_0000052/>"><vivo:ERO_0000779RO_0000052 /></a></td></tr>
-      </vivo:foreachERO_0000779RO_0000052Iterator>
-      <vivo:foreachERO_0000779BFO_0000054Iterator>
-         <tr><td>BFO_0000054</td><td><a href="../<vivo:ERO_0000779BFO_0000054Type/>/<vivo:ERO_0000779BFO_0000054Type/>.jsp?uri=<vivo:ERO_0000779BFO_0000054/>"><vivo:ERO_0000779BFO_0000054 /></a></td></tr>
-      </vivo:foreachERO_0000779BFO_0000054Iterator>
-      <vivo:foreachERO_0000779RO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:ERO_0000779RO_0000056Type/>/<vivo:ERO_0000779RO_0000056Type/>.jsp?uri=<vivo:ERO_0000779RO_0000056/>"><vivo:ERO_0000779RO_0000056 /></a></td></tr>
-      </vivo:foreachERO_0000779RO_0000056Iterator>
-      <vivo:foreachERO_0000779RoleContributesToIterator>
-         <tr><td>roleContributesTo</td><td><a href="../<vivo:ERO_0000779RoleContributesToType/>/<vivo:ERO_0000779RoleContributesToType/>.jsp?uri=<vivo:ERO_0000779RoleContributesTo/>"><vivo:ERO_0000779RoleContributesTo /></a></td></tr>
-      </vivo:foreachERO_0000779RoleContributesToIterator>
+      <viva:foreachERO_0000779RO_0000052Iterator>
+         <tr><td>RO_0000052</td><td><a href="../<viva:ERO_0000779RO_0000052Type/>/<viva:ERO_0000779RO_0000052Type/>.jsp?uri=<viva:ERO_0000779RO_0000052/>"><viva:ERO_0000779RO_0000052 /></a></td></tr>
+      </viva:foreachERO_0000779RO_0000052Iterator>
+      <viva:foreachERO_0000779BFO_0000054Iterator>
+         <tr><td>BFO_0000054</td><td><a href="../<viva:ERO_0000779BFO_0000054Type/>/<viva:ERO_0000779BFO_0000054Type/>.jsp?uri=<viva:ERO_0000779BFO_0000054/>"><viva:ERO_0000779BFO_0000054 /></a></td></tr>
+      </viva:foreachERO_0000779BFO_0000054Iterator>
+      <viva:foreachERO_0000779RO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:ERO_0000779RO_0000056Type/>/<viva:ERO_0000779RO_0000056Type/>.jsp?uri=<viva:ERO_0000779RO_0000056/>"><viva:ERO_0000779RO_0000056 /></a></td></tr>
+      </viva:foreachERO_0000779RO_0000056Iterator>
+      <viva:foreachERO_0000779RoleContributesToIterator>
+         <tr><td>roleContributesTo</td><td><a href="../<viva:ERO_0000779RoleContributesToType/>/<viva:ERO_0000779RoleContributesToType/>.jsp?uri=<viva:ERO_0000779RoleContributesTo/>"><viva:ERO_0000779RoleContributesTo /></a></td></tr>
+      </viva:foreachERO_0000779RoleContributesToIterator>
    </table>
-   </vivo:ERO_0000779>
+
+   <h3>Inverse Object Properties (these do not have declared inverses)</h3>
+   <table>
+      <viva:foreachERO_0000779ERO_0000775InverseIterator>
+         <tr><td>ERO_0000775</td><td><a href="../<viva:ERO_0000779ERO_0000775InverseType/>/<viva:ERO_0000779ERO_0000775InverseType/>.jsp?uri=<viva:ERO_0000779ERO_0000775Inverse/>"><viva:ERO_0000779ERO_0000775Inverse/></a></td></tr>
+      </viva:foreachERO_0000779ERO_0000775InverseIterator>
+   </table>
+   </viva:ERO_0000779>
 
 <jsp:include page="/footer.jsp" flush="true" /></div></div></body>
 </html>

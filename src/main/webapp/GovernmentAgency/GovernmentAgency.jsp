@@ -1,30 +1,30 @@
-<%@ page language="java" contentType="text/html; charset=US-ASCII" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="vivo" uri="http://slis.uiowa.edu/VIVOISF"%>
+<%@ taglib prefix="viva" uri="http://slis.uiowa.edu/VIVOISF"%>
 <%@ taglib prefix="util" uri="http://icts.uiowa.edu/tagUtil"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>GovernmentAgency - http://vivoweb.org/ontology/core#GovernmentAgency</title>
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altGovernmentAgency.jsp?uri=${param.uri}">alternate view</a></p>
-   <vivo:GovernmentAgency subjectURI="${param.uri}">
+   <p><a href="../utility/sparqlDump.jsp?type=GovernmentAgency&uri=${param.uri}">RDF dump</a></p>
+   <viva:GovernmentAgency subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
    <table>
-      <tr><td>URI</td><td><a href="<vivo:GovernmentAgencySubjectURI/>"><vivo:GovernmentAgencySubjectURI /></a></td></tr>
-      <tr><td>Label</td><td><vivo:GovernmentAgencyLabel /></td></tr>
+      <tr><td>URI</td><td><a href="<viva:GovernmentAgencySubjectURI/>"><viva:GovernmentAgencySubjectURI /></a></td></tr>
+      <tr><td>Label</td><td><viva:GovernmentAgencyLabel /></td></tr>
    </table>
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>abbreviation</td><td><vivo:GovernmentAgencyAbbreviation /></td></tr>
-      <tr><td>abbreviation</td><td><vivo:GovernmentAgencyAbbreviation /></td></tr>
-      <tr><td>overview</td><td><vivo:GovernmentAgencyOverview /></td></tr>
+      <tr><td>abbreviation</td><td><viva:GovernmentAgencyAbbreviation /></td></tr>
+      <tr><td>overview</td><td><viva:GovernmentAgencyOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -33,59 +33,69 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachGovernmentAgencyRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<vivo:GovernmentAgencyRelatedByType/>/<vivo:GovernmentAgencyRelatedByType/>.jsp?uri=<vivo:GovernmentAgencyRelatedBy/>"><vivo:GovernmentAgencyRelatedBy /></a></td></tr>
-      </vivo:foreachGovernmentAgencyRelatedByIterator>
-      <vivo:foreachGovernmentAgencyRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:GovernmentAgencyRO_0000053Type/>/<vivo:GovernmentAgencyRO_0000053Type/>.jsp?uri=<vivo:GovernmentAgencyRO_0000053/>"><vivo:GovernmentAgencyRO_0000053 /></a></td></tr>
-      </vivo:foreachGovernmentAgencyRO_0000053Iterator>
-      <vivo:foreachGovernmentAgencyRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:GovernmentAgencyRO_0000056Type/>/<vivo:GovernmentAgencyRO_0000056Type/>.jsp?uri=<vivo:GovernmentAgencyRO_0000056/>"><vivo:GovernmentAgencyRO_0000056 /></a></td></tr>
-      </vivo:foreachGovernmentAgencyRO_0000056Iterator>
-      <vivo:foreachGovernmentAgencySponsorsIterator>
-         <tr><td>sponsors</td><td><a href="../<vivo:GovernmentAgencySponsorsType/>/<vivo:GovernmentAgencySponsorsType/>.jsp?uri=<vivo:GovernmentAgencySponsors/>"><vivo:GovernmentAgencySponsors /></a></td></tr>
-      </vivo:foreachGovernmentAgencySponsorsIterator>
-      <vivo:foreachGovernmentAgencyPublisherOfIterator>
-         <tr><td>publisherOf</td><td><a href="../<vivo:GovernmentAgencyPublisherOfType/>/<vivo:GovernmentAgencyPublisherOfType/>.jsp?uri=<vivo:GovernmentAgencyPublisherOf/>"><vivo:GovernmentAgencyPublisherOf /></a></td></tr>
-      </vivo:foreachGovernmentAgencyPublisherOfIterator>
-      <vivo:foreachGovernmentAgencyERO_0000031Iterator>
-         <tr><td>ERO_0000031</td><td><a href="../<vivo:GovernmentAgencyERO_0000031Type/>/<vivo:GovernmentAgencyERO_0000031Type/>.jsp?uri=<vivo:GovernmentAgencyERO_0000031/>"><vivo:GovernmentAgencyERO_0000031 /></a></td></tr>
-      </vivo:foreachGovernmentAgencyERO_0000031Iterator>
-      <vivo:foreachGovernmentAgencyGoverningAuthorityForIterator>
-         <tr><td>governingAuthorityFor</td><td><a href="../<vivo:GovernmentAgencyGoverningAuthorityForType/>/<vivo:GovernmentAgencyGoverningAuthorityForType/>.jsp?uri=<vivo:GovernmentAgencyGoverningAuthorityFor/>"><vivo:GovernmentAgencyGoverningAuthorityFor /></a></td></tr>
-      </vivo:foreachGovernmentAgencyGoverningAuthorityForIterator>
-      <vivo:foreachGovernmentAgencyERO_0001520Iterator>
-         <tr><td>ERO_0001520</td><td><a href="../<vivo:GovernmentAgencyERO_0001520Type/>/<vivo:GovernmentAgencyERO_0001520Type/>.jsp?uri=<vivo:GovernmentAgencyERO_0001520/>"><vivo:GovernmentAgencyERO_0001520 /></a></td></tr>
-      </vivo:foreachGovernmentAgencyERO_0001520Iterator>
-      <vivo:foreachGovernmentAgencyRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<vivo:GovernmentAgencyRelatedByType/>/<vivo:GovernmentAgencyRelatedByType/>.jsp?uri=<vivo:GovernmentAgencyRelatedBy/>"><vivo:GovernmentAgencyRelatedBy /></a></td></tr>
-      </vivo:foreachGovernmentAgencyRelatedByIterator>
-      <vivo:foreachGovernmentAgencySubcontractsGrantIterator>
-         <tr><td>subcontractsGrant</td><td><a href="../<vivo:GovernmentAgencySubcontractsGrantType/>/<vivo:GovernmentAgencySubcontractsGrantType/>.jsp?uri=<vivo:GovernmentAgencySubcontractsGrant/>"><vivo:GovernmentAgencySubcontractsGrant /></a></td></tr>
-      </vivo:foreachGovernmentAgencySubcontractsGrantIterator>
-      <vivo:foreachGovernmentAgencyHasSuccessorOrganizationIterator>
-         <tr><td>hasSuccessorOrganization</td><td><a href="../<vivo:GovernmentAgencyHasSuccessorOrganizationType/>/<vivo:GovernmentAgencyHasSuccessorOrganizationType/>.jsp?uri=<vivo:GovernmentAgencyHasSuccessorOrganization/>"><vivo:GovernmentAgencyHasSuccessorOrganization /></a></td></tr>
-      </vivo:foreachGovernmentAgencyHasSuccessorOrganizationIterator>
-      <vivo:foreachGovernmentAgencyHasPredecessorOrganizationIterator>
-         <tr><td>hasPredecessorOrganization</td><td><a href="../<vivo:GovernmentAgencyHasPredecessorOrganizationType/>/<vivo:GovernmentAgencyHasPredecessorOrganizationType/>.jsp?uri=<vivo:GovernmentAgencyHasPredecessorOrganization/>"><vivo:GovernmentAgencyHasPredecessorOrganization /></a></td></tr>
-      </vivo:foreachGovernmentAgencyHasPredecessorOrganizationIterator>
-      <vivo:foreachGovernmentAgencyHasEquipmentIterator>
-         <tr><td>hasEquipment</td><td><a href="../<vivo:GovernmentAgencyHasEquipmentType/>/<vivo:GovernmentAgencyHasEquipmentType/>.jsp?uri=<vivo:GovernmentAgencyHasEquipment/>"><vivo:GovernmentAgencyHasEquipment /></a></td></tr>
-      </vivo:foreachGovernmentAgencyHasEquipmentIterator>
-      <vivo:foreachGovernmentAgencyAffiliatedOrganizationIterator>
-         <tr><td>affiliatedOrganization</td><td><a href="../<vivo:GovernmentAgencyAffiliatedOrganizationType/>/<vivo:GovernmentAgencyAffiliatedOrganizationType/>.jsp?uri=<vivo:GovernmentAgencyAffiliatedOrganization/>"><vivo:GovernmentAgencyAffiliatedOrganization /></a></td></tr>
-      </vivo:foreachGovernmentAgencyAffiliatedOrganizationIterator>
-      <vivo:foreachGovernmentAgencyAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<vivo:GovernmentAgencyAssigneeForType/>/<vivo:GovernmentAgencyAssigneeForType/>.jsp?uri=<vivo:GovernmentAgencyAssigneeFor/>"><vivo:GovernmentAgencyAssigneeFor /></a></td></tr>
-      </vivo:foreachGovernmentAgencyAssigneeForIterator>
-      <vivo:foreachGovernmentAgencyHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<vivo:GovernmentAgencyHasCollaboratorType/>/<vivo:GovernmentAgencyHasCollaboratorType/>.jsp?uri=<vivo:GovernmentAgencyHasCollaborator/>"><vivo:GovernmentAgencyHasCollaborator /></a></td></tr>
-      </vivo:foreachGovernmentAgencyHasCollaboratorIterator>
-      <vivo:foreachGovernmentAgencyTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<vivo:GovernmentAgencyTranslatorOfType/>/<vivo:GovernmentAgencyTranslatorOfType/>.jsp?uri=<vivo:GovernmentAgencyTranslatorOf/>"><vivo:GovernmentAgencyTranslatorOf /></a></td></tr>
-      </vivo:foreachGovernmentAgencyTranslatorOfIterator>
+      <viva:foreachGovernmentAgencyRelatedByIterator>
+         <tr><td>relatedBy</td><td><a href="../<viva:GovernmentAgencyRelatedByType/>/<viva:GovernmentAgencyRelatedByType/>.jsp?uri=<viva:GovernmentAgencyRelatedBy/>"><viva:GovernmentAgencyRelatedBy /></a></td></tr>
+      </viva:foreachGovernmentAgencyRelatedByIterator>
+      <viva:foreachGovernmentAgencyRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:GovernmentAgencyRO_0000053Type/>/<viva:GovernmentAgencyRO_0000053Type/>.jsp?uri=<viva:GovernmentAgencyRO_0000053/>"><viva:GovernmentAgencyRO_0000053 /></a></td></tr>
+      </viva:foreachGovernmentAgencyRO_0000053Iterator>
+      <viva:foreachGovernmentAgencyAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<viva:GovernmentAgencyAssigneeForType/>/<viva:GovernmentAgencyAssigneeForType/>.jsp?uri=<viva:GovernmentAgencyAssigneeFor/>"><viva:GovernmentAgencyAssigneeFor /></a></td></tr>
+      </viva:foreachGovernmentAgencyAssigneeForIterator>
+      <viva:foreachGovernmentAgencyHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<viva:GovernmentAgencyHasCollaboratorType/>/<viva:GovernmentAgencyHasCollaboratorType/>.jsp?uri=<viva:GovernmentAgencyHasCollaborator/>"><viva:GovernmentAgencyHasCollaborator /></a></td></tr>
+      </viva:foreachGovernmentAgencyHasCollaboratorIterator>
+      <viva:foreachGovernmentAgencyTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<viva:GovernmentAgencyTranslatorOfType/>/<viva:GovernmentAgencyTranslatorOfType/>.jsp?uri=<viva:GovernmentAgencyTranslatorOf/>"><viva:GovernmentAgencyTranslatorOf /></a></td></tr>
+      </viva:foreachGovernmentAgencyTranslatorOfIterator>
+      <viva:foreachGovernmentAgencyRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:GovernmentAgencyRO_0000056Type/>/<viva:GovernmentAgencyRO_0000056Type/>.jsp?uri=<viva:GovernmentAgencyRO_0000056/>"><viva:GovernmentAgencyRO_0000056 /></a></td></tr>
+      </viva:foreachGovernmentAgencyRO_0000056Iterator>
+      <viva:foreachGovernmentAgencySponsorsIterator>
+         <tr><td>sponsors</td><td><a href="../<viva:GovernmentAgencySponsorsType/>/<viva:GovernmentAgencySponsorsType/>.jsp?uri=<viva:GovernmentAgencySponsors/>"><viva:GovernmentAgencySponsors /></a></td></tr>
+      </viva:foreachGovernmentAgencySponsorsIterator>
+      <viva:foreachGovernmentAgencyPublisherOfIterator>
+         <tr><td>publisherOf</td><td><a href="../<viva:GovernmentAgencyPublisherOfType/>/<viva:GovernmentAgencyPublisherOfType/>.jsp?uri=<viva:GovernmentAgencyPublisherOf/>"><viva:GovernmentAgencyPublisherOf /></a></td></tr>
+      </viva:foreachGovernmentAgencyPublisherOfIterator>
+      <viva:foreachGovernmentAgencyERO_0000031Iterator>
+         <tr><td>ERO_0000031</td><td><a href="../<viva:GovernmentAgencyERO_0000031Type/>/<viva:GovernmentAgencyERO_0000031Type/>.jsp?uri=<viva:GovernmentAgencyERO_0000031/>"><viva:GovernmentAgencyERO_0000031 /></a></td></tr>
+      </viva:foreachGovernmentAgencyERO_0000031Iterator>
+      <viva:foreachGovernmentAgencyGoverningAuthorityForIterator>
+         <tr><td>governingAuthorityFor</td><td><a href="../<viva:GovernmentAgencyGoverningAuthorityForType/>/<viva:GovernmentAgencyGoverningAuthorityForType/>.jsp?uri=<viva:GovernmentAgencyGoverningAuthorityFor/>"><viva:GovernmentAgencyGoverningAuthorityFor /></a></td></tr>
+      </viva:foreachGovernmentAgencyGoverningAuthorityForIterator>
+      <viva:foreachGovernmentAgencyERO_0000037Iterator>
+         <tr><td>ERO_0000037</td><td><a href="../<viva:GovernmentAgencyERO_0000037Type/>/<viva:GovernmentAgencyERO_0000037Type/>.jsp?uri=<viva:GovernmentAgencyERO_0000037/>"><viva:GovernmentAgencyERO_0000037 /></a></td></tr>
+      </viva:foreachGovernmentAgencyERO_0000037Iterator>
+      <viva:foreachGovernmentAgencyERO_0001520Iterator>
+         <tr><td>ERO_0001520</td><td><a href="../<viva:GovernmentAgencyERO_0001520Type/>/<viva:GovernmentAgencyERO_0001520Type/>.jsp?uri=<viva:GovernmentAgencyERO_0001520/>"><viva:GovernmentAgencyERO_0001520 /></a></td></tr>
+      </viva:foreachGovernmentAgencyERO_0001520Iterator>
+      <viva:foreachGovernmentAgencySubcontractsGrantIterator>
+         <tr><td>subcontractsGrant</td><td><a href="../<viva:GovernmentAgencySubcontractsGrantType/>/<viva:GovernmentAgencySubcontractsGrantType/>.jsp?uri=<viva:GovernmentAgencySubcontractsGrant/>"><viva:GovernmentAgencySubcontractsGrant /></a></td></tr>
+      </viva:foreachGovernmentAgencySubcontractsGrantIterator>
+      <viva:foreachGovernmentAgencyHasSuccessorOrganizationIterator>
+         <tr><td>hasSuccessorOrganization</td><td><a href="../<viva:GovernmentAgencyHasSuccessorOrganizationType/>/<viva:GovernmentAgencyHasSuccessorOrganizationType/>.jsp?uri=<viva:GovernmentAgencyHasSuccessorOrganization/>"><viva:GovernmentAgencyHasSuccessorOrganization /></a></td></tr>
+      </viva:foreachGovernmentAgencyHasSuccessorOrganizationIterator>
+      <viva:foreachGovernmentAgencyHasPredecessorOrganizationIterator>
+         <tr><td>hasPredecessorOrganization</td><td><a href="../<viva:GovernmentAgencyHasPredecessorOrganizationType/>/<viva:GovernmentAgencyHasPredecessorOrganizationType/>.jsp?uri=<viva:GovernmentAgencyHasPredecessorOrganization/>"><viva:GovernmentAgencyHasPredecessorOrganization /></a></td></tr>
+      </viva:foreachGovernmentAgencyHasPredecessorOrganizationIterator>
+      <viva:foreachGovernmentAgencyHasEquipmentIterator>
+         <tr><td>hasEquipment</td><td><a href="../<viva:GovernmentAgencyHasEquipmentType/>/<viva:GovernmentAgencyHasEquipmentType/>.jsp?uri=<viva:GovernmentAgencyHasEquipment/>"><viva:GovernmentAgencyHasEquipment /></a></td></tr>
+      </viva:foreachGovernmentAgencyHasEquipmentIterator>
+      <viva:foreachGovernmentAgencyAffiliatedOrganizationIterator>
+         <tr><td>affiliatedOrganization</td><td><a href="../<viva:GovernmentAgencyAffiliatedOrganizationType/>/<viva:GovernmentAgencyAffiliatedOrganizationType/>.jsp?uri=<viva:GovernmentAgencyAffiliatedOrganization/>"><viva:GovernmentAgencyAffiliatedOrganization /></a></td></tr>
+      </viva:foreachGovernmentAgencyAffiliatedOrganizationIterator>
    </table>
-   </vivo:GovernmentAgency>
+
+   <h3>Inverse Object Properties (these do not have declared inverses)</h3>
+   <table>
+      <viva:foreachGovernmentAgencyIssuerInverseIterator>
+         <tr><td>issuer</td><td><a href="../<viva:GovernmentAgencyIssuerInverseType/>/<viva:GovernmentAgencyIssuerInverseType/>.jsp?uri=<viva:GovernmentAgencyIssuerInverse/>"><viva:GovernmentAgencyIssuerInverse/></a></td></tr>
+      </viva:foreachGovernmentAgencyIssuerInverseIterator>
+      <viva:foreachGovernmentAgencyOBI_0000304InverseIterator>
+         <tr><td>OBI_0000304</td><td><a href="../<viva:GovernmentAgencyOBI_0000304InverseType/>/<viva:GovernmentAgencyOBI_0000304InverseType/>.jsp?uri=<viva:GovernmentAgencyOBI_0000304Inverse/>"><viva:GovernmentAgencyOBI_0000304Inverse/></a></td></tr>
+      </viva:foreachGovernmentAgencyOBI_0000304InverseIterator>
+   </table>
+   </viva:GovernmentAgency>
 
 <jsp:include page="/footer.jsp" flush="true" /></div></div></body>
 </html>

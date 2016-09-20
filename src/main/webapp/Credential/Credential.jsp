@@ -1,23 +1,24 @@
-<%@ page language="java" contentType="text/html; charset=US-ASCII" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="vivo" uri="http://slis.uiowa.edu/VIVOISF"%>
+<%@ taglib prefix="viva" uri="http://slis.uiowa.edu/VIVOISF"%>
 <%@ taglib prefix="util" uri="http://icts.uiowa.edu/tagUtil"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Credential - http://vivoweb.org/ontology/core#Credential</title>
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altCredential.jsp?uri=${param.uri}">alternate view</a></p>
-   <vivo:Credential subjectURI="${param.uri}">
+   <p><a href="../utility/sparqlDump.jsp?type=Credential&uri=${param.uri}">RDF dump</a></p>
+   <viva:Credential subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
    <table>
-      <tr><td>URI</td><td><a href="<vivo:CredentialSubjectURI/>"><vivo:CredentialSubjectURI /></a></td></tr>
-      <tr><td>Label</td><td><vivo:CredentialLabel /></td></tr>
+      <tr><td>URI</td><td><a href="<viva:CredentialSubjectURI/>"><viva:CredentialSubjectURI /></a></td></tr>
+      <tr><td>Label</td><td><viva:CredentialLabel /></td></tr>
    </table>
 
    <h3>Functional Datatype Properties</h3>
@@ -30,23 +31,30 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachCredentialResearchAreaOfIterator>
-         <tr><td>researchAreaOf</td><td><a href="../<vivo:CredentialResearchAreaOfType/>/<vivo:CredentialResearchAreaOfType/>.jsp?uri=<vivo:CredentialResearchAreaOf/>"><vivo:CredentialResearchAreaOf /></a></td></tr>
-      </vivo:foreachCredentialResearchAreaOfIterator>
-      <vivo:foreachCredentialSubjectAreaOfIterator>
-         <tr><td>subjectAreaOf</td><td><a href="../<vivo:CredentialSubjectAreaOfType/>/<vivo:CredentialSubjectAreaOfType/>.jsp?uri=<vivo:CredentialSubjectAreaOf/>"><vivo:CredentialSubjectAreaOf /></a></td></tr>
-      </vivo:foreachCredentialSubjectAreaOfIterator>
-      <vivo:foreachCredentialRelatedIterator>
-         <tr><td>related</td><td><a href="../<vivo:CredentialRelatedType/>/<vivo:CredentialRelatedType/>.jsp?uri=<vivo:CredentialRelated/>"><vivo:CredentialRelated /></a></td></tr>
-      </vivo:foreachCredentialRelatedIterator>
-      <vivo:foreachCredentialNarrowerIterator>
-         <tr><td>narrower</td><td><a href="../<vivo:CredentialNarrowerType/>/<vivo:CredentialNarrowerType/>.jsp?uri=<vivo:CredentialNarrower/>"><vivo:CredentialNarrower /></a></td></tr>
-      </vivo:foreachCredentialNarrowerIterator>
-      <vivo:foreachCredentialBroaderIterator>
-         <tr><td>broader</td><td><a href="../<vivo:CredentialBroaderType/>/<vivo:CredentialBroaderType/>.jsp?uri=<vivo:CredentialBroader/>"><vivo:CredentialBroader /></a></td></tr>
-      </vivo:foreachCredentialBroaderIterator>
+      <viva:foreachCredentialResearchAreaOfIterator>
+         <tr><td>researchAreaOf</td><td><a href="../<viva:CredentialResearchAreaOfType/>/<viva:CredentialResearchAreaOfType/>.jsp?uri=<viva:CredentialResearchAreaOf/>"><viva:CredentialResearchAreaOf /></a></td></tr>
+      </viva:foreachCredentialResearchAreaOfIterator>
+      <viva:foreachCredentialSubjectAreaOfIterator>
+         <tr><td>subjectAreaOf</td><td><a href="../<viva:CredentialSubjectAreaOfType/>/<viva:CredentialSubjectAreaOfType/>.jsp?uri=<viva:CredentialSubjectAreaOf/>"><viva:CredentialSubjectAreaOf /></a></td></tr>
+      </viva:foreachCredentialSubjectAreaOfIterator>
+      <viva:foreachCredentialRelatedIterator>
+         <tr><td>related</td><td><a href="../<viva:CredentialRelatedType/>/<viva:CredentialRelatedType/>.jsp?uri=<viva:CredentialRelated/>"><viva:CredentialRelated /></a></td></tr>
+      </viva:foreachCredentialRelatedIterator>
+      <viva:foreachCredentialNarrowerIterator>
+         <tr><td>narrower</td><td><a href="../<viva:CredentialNarrowerType/>/<viva:CredentialNarrowerType/>.jsp?uri=<viva:CredentialNarrower/>"><viva:CredentialNarrower /></a></td></tr>
+      </viva:foreachCredentialNarrowerIterator>
+      <viva:foreachCredentialBroaderIterator>
+         <tr><td>broader</td><td><a href="../<viva:CredentialBroaderType/>/<viva:CredentialBroaderType/>.jsp?uri=<viva:CredentialBroader/>"><viva:CredentialBroader /></a></td></tr>
+      </viva:foreachCredentialBroaderIterator>
    </table>
-   </vivo:Credential>
+
+   <h3>Inverse Object Properties (these do not have declared inverses)</h3>
+   <table>
+      <viva:foreachCredentialEligibleForInverseIterator>
+         <tr><td>eligibleFor</td><td><a href="../<viva:CredentialEligibleForInverseType/>/<viva:CredentialEligibleForInverseType/>.jsp?uri=<viva:CredentialEligibleForInverse/>"><viva:CredentialEligibleForInverse/></a></td></tr>
+      </viva:foreachCredentialEligibleForInverseIterator>
+   </table>
+   </viva:Credential>
 
 <jsp:include page="/footer.jsp" flush="true" /></div></div></body>
 </html>

@@ -1,23 +1,24 @@
-<%@ page language="java" contentType="text/html; charset=US-ASCII" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="vivo" uri="http://slis.uiowa.edu/VIVOISF"%>
+<%@ taglib prefix="viva" uri="http://slis.uiowa.edu/VIVOISF"%>
 <%@ taglib prefix="util" uri="http://icts.uiowa.edu/tagUtil"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>MemberRole - http://vivoweb.org/ontology/core#MemberRole</title>
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altMemberRole.jsp?uri=${param.uri}">alternate view</a></p>
-   <vivo:MemberRole subjectURI="${param.uri}">
+   <p><a href="../utility/sparqlDump.jsp?type=MemberRole&uri=${param.uri}">RDF dump</a></p>
+   <viva:MemberRole subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
    <table>
-      <tr><td>URI</td><td><a href="<vivo:MemberRoleSubjectURI/>"><vivo:MemberRoleSubjectURI /></a></td></tr>
-      <tr><td>Label</td><td><vivo:MemberRoleLabel /></td></tr>
+      <tr><td>URI</td><td><a href="<viva:MemberRoleSubjectURI/>"><viva:MemberRoleSubjectURI /></a></td></tr>
+      <tr><td>Label</td><td><viva:MemberRoleLabel /></td></tr>
    </table>
 
    <h3>Functional Datatype Properties</h3>
@@ -30,20 +31,24 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachMemberRoleRO_0000052Iterator>
-         <tr><td>RO_0000052</td><td><a href="../<vivo:MemberRoleRO_0000052Type/>/<vivo:MemberRoleRO_0000052Type/>.jsp?uri=<vivo:MemberRoleRO_0000052/>"><vivo:MemberRoleRO_0000052 /></a></td></tr>
-      </vivo:foreachMemberRoleRO_0000052Iterator>
-      <vivo:foreachMemberRoleBFO_0000054Iterator>
-         <tr><td>BFO_0000054</td><td><a href="../<vivo:MemberRoleBFO_0000054Type/>/<vivo:MemberRoleBFO_0000054Type/>.jsp?uri=<vivo:MemberRoleBFO_0000054/>"><vivo:MemberRoleBFO_0000054 /></a></td></tr>
-      </vivo:foreachMemberRoleBFO_0000054Iterator>
-      <vivo:foreachMemberRoleRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:MemberRoleRO_0000056Type/>/<vivo:MemberRoleRO_0000056Type/>.jsp?uri=<vivo:MemberRoleRO_0000056/>"><vivo:MemberRoleRO_0000056 /></a></td></tr>
-      </vivo:foreachMemberRoleRO_0000056Iterator>
-      <vivo:foreachMemberRoleRoleContributesToIterator>
-         <tr><td>roleContributesTo</td><td><a href="../<vivo:MemberRoleRoleContributesToType/>/<vivo:MemberRoleRoleContributesToType/>.jsp?uri=<vivo:MemberRoleRoleContributesTo/>"><vivo:MemberRoleRoleContributesTo /></a></td></tr>
-      </vivo:foreachMemberRoleRoleContributesToIterator>
+      <viva:foreachMemberRoleRO_0000052Iterator>
+         <tr><td>RO_0000052</td><td><a href="../<viva:MemberRoleRO_0000052Type/>/<viva:MemberRoleRO_0000052Type/>.jsp?uri=<viva:MemberRoleRO_0000052/>"><viva:MemberRoleRO_0000052 /></a></td></tr>
+      </viva:foreachMemberRoleRO_0000052Iterator>
+      <viva:foreachMemberRoleBFO_0000054Iterator>
+         <tr><td>BFO_0000054</td><td><a href="../<viva:MemberRoleBFO_0000054Type/>/<viva:MemberRoleBFO_0000054Type/>.jsp?uri=<viva:MemberRoleBFO_0000054/>"><viva:MemberRoleBFO_0000054 /></a></td></tr>
+      </viva:foreachMemberRoleBFO_0000054Iterator>
+      <viva:foreachMemberRoleRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:MemberRoleRO_0000056Type/>/<viva:MemberRoleRO_0000056Type/>.jsp?uri=<viva:MemberRoleRO_0000056/>"><viva:MemberRoleRO_0000056 /></a></td></tr>
+      </viva:foreachMemberRoleRO_0000056Iterator>
+      <viva:foreachMemberRoleRoleContributesToIterator>
+         <tr><td>roleContributesTo</td><td><a href="../<viva:MemberRoleRoleContributesToType/>/<viva:MemberRoleRoleContributesToType/>.jsp?uri=<viva:MemberRoleRoleContributesTo/>"><viva:MemberRoleRoleContributesTo /></a></td></tr>
+      </viva:foreachMemberRoleRoleContributesToIterator>
    </table>
-   </vivo:MemberRole>
+
+   <h3>Inverse Object Properties (these do not have declared inverses)</h3>
+   <table>
+   </table>
+   </viva:MemberRole>
 
 <jsp:include page="/footer.jsp" flush="true" /></div></div></body>
 </html>

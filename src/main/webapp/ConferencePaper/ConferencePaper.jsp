@@ -1,23 +1,24 @@
-<%@ page language="java" contentType="text/html; charset=US-ASCII" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="vivo" uri="http://slis.uiowa.edu/VIVOISF"%>
+<%@ taglib prefix="viva" uri="http://slis.uiowa.edu/VIVOISF"%>
 <%@ taglib prefix="util" uri="http://icts.uiowa.edu/tagUtil"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>ConferencePaper - http://vivoweb.org/ontology/core#ConferencePaper</title>
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altConferencePaper.jsp?uri=${param.uri}">alternate view</a></p>
-   <vivo:ConferencePaper subjectURI="${param.uri}">
+   <p><a href="../utility/sparqlDump.jsp?type=ConferencePaper&uri=${param.uri}">RDF dump</a></p>
+   <viva:ConferencePaper subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
    <table>
-      <tr><td>URI</td><td><a href="<vivo:ConferencePaperSubjectURI/>"><vivo:ConferencePaperSubjectURI /></a></td></tr>
-      <tr><td>Label</td><td><vivo:ConferencePaperLabel /></td></tr>
+      <tr><td>URI</td><td><a href="<viva:ConferencePaperSubjectURI/>"><viva:ConferencePaperSubjectURI /></a></td></tr>
+      <tr><td>Label</td><td><viva:ConferencePaperLabel /></td></tr>
    </table>
 
    <h3>Functional Datatype Properties</h3>
@@ -26,111 +27,103 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachConferencePaperPmcidIterator>
-         <tr><td>pmcid</td><td><vivo:ConferencePaperPmcid /></td></tr>
-      </vivo:foreachConferencePaperPmcidIterator>
-      <vivo:foreachConferencePaperIssueIterator>
-         <tr><td>issue</td><td><vivo:ConferencePaperIssue /></td></tr>
-      </vivo:foreachConferencePaperIssueIterator>
-      <vivo:foreachConferencePaperNihmsidIterator>
-         <tr><td>nihmsid</td><td><vivo:ConferencePaperNihmsid /></td></tr>
-      </vivo:foreachConferencePaperNihmsidIterator>
-      <vivo:foreachConferencePaperPmidIterator>
-         <tr><td>pmid</td><td><vivo:ConferencePaperPmid /></td></tr>
-      </vivo:foreachConferencePaperPmidIterator>
-      <vivo:foreachConferencePaperARG_0000001Iterator>
-         <tr><td>ARG_0000001</td><td><vivo:ConferencePaperARG_0000001 /></td></tr>
-      </vivo:foreachConferencePaperARG_0000001Iterator>
-      <vivo:foreachConferencePaperVolumeIterator>
-         <tr><td>volume</td><td><vivo:ConferencePaperVolume /></td></tr>
-      </vivo:foreachConferencePaperVolumeIterator>
-      <vivo:foreachConferencePaperTheAbstractIterator>
-         <tr><td>theAbstract</td><td><vivo:ConferencePaperTheAbstract /></td></tr>
-      </vivo:foreachConferencePaperTheAbstractIterator>
-      <vivo:foreachConferencePaperDoiIterator>
-         <tr><td>doi</td><td><vivo:ConferencePaperDoi /></td></tr>
-      </vivo:foreachConferencePaperDoiIterator>
+      <viva:foreachConferencePaperPmcidIterator>
+         <tr><td>pmcid</td><td><viva:ConferencePaperPmcid /></td></tr>
+      </viva:foreachConferencePaperPmcidIterator>
+      <viva:foreachConferencePaperIssueIterator>
+         <tr><td>issue</td><td><viva:ConferencePaperIssue /></td></tr>
+      </viva:foreachConferencePaperIssueIterator>
+      <viva:foreachConferencePaperNihmsidIterator>
+         <tr><td>nihmsid</td><td><viva:ConferencePaperNihmsid /></td></tr>
+      </viva:foreachConferencePaperNihmsidIterator>
+      <viva:foreachConferencePaperTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:ConferencePaperTheAbstract /></td></tr>
+      </viva:foreachConferencePaperTheAbstractIterator>
+      <viva:foreachConferencePaperDoiIterator>
+         <tr><td>doi</td><td><viva:ConferencePaperDoi /></td></tr>
+      </viva:foreachConferencePaperDoiIterator>
+      <viva:foreachConferencePaperPmidIterator>
+         <tr><td>pmid</td><td><viva:ConferencePaperPmid /></td></tr>
+      </viva:foreachConferencePaperPmidIterator>
+      <viva:foreachConferencePaperARG_0000001Iterator>
+         <tr><td>ARG_0000001</td><td><viva:ConferencePaperARG_0000001 /></td></tr>
+      </viva:foreachConferencePaperARG_0000001Iterator>
+      <viva:foreachConferencePaperVolumeIterator>
+         <tr><td>volume</td><td><viva:ConferencePaperVolume /></td></tr>
+      </viva:foreachConferencePaperVolumeIterator>
+      <viva:foreachConferencePaperERO_0000045Iterator>
+         <tr><td>ERO_0000045</td><td><viva:ConferencePaperERO_0000045 /></td></tr>
+      </viva:foreachConferencePaperERO_0000045Iterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachConferencePaperDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<vivo:ConferencePaperDateTimeValueType/>/<vivo:ConferencePaperDateTimeValueType/>.jsp?uri=<vivo:ConferencePaperDateTimeValue/>"><vivo:ConferencePaperDateTimeValue /></a></td></tr>
-      </vivo:foreachConferencePaperDateTimeValueIterator>
-      <vivo:foreachConferencePaperRO_0002353Iterator>
-         <tr><td>RO_0002353</td><td><a href="../<vivo:ConferencePaperRO_0002353Type/>/<vivo:ConferencePaperRO_0002353Type/>.jsp?uri=<vivo:ConferencePaperRO_0002353/>"><vivo:ConferencePaperRO_0002353 /></a></td></tr>
-      </vivo:foreachConferencePaperRO_0002353Iterator>
-      <vivo:foreachConferencePaperHasPublicationVenueIterator>
-         <tr><td>hasPublicationVenue</td><td><a href="../<vivo:ConferencePaperHasPublicationVenueType/>/<vivo:ConferencePaperHasPublicationVenueType/>.jsp?uri=<vivo:ConferencePaperHasPublicationVenue/>"><vivo:ConferencePaperHasPublicationVenue /></a></td></tr>
-      </vivo:foreachConferencePaperHasPublicationVenueIterator>
-      <vivo:foreachConferencePaperARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<vivo:ConferencePaperARG_2000028Type/>/<vivo:ConferencePaperARG_2000028Type/>.jsp?uri=<vivo:ConferencePaperARG_2000028/>"><vivo:ConferencePaperARG_2000028 /></a></td></tr>
-      </vivo:foreachConferencePaperARG_2000028Iterator>
-      <vivo:foreachConferencePaperRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<vivo:ConferencePaperRelatedByType/>/<vivo:ConferencePaperRelatedByType/>.jsp?uri=<vivo:ConferencePaperRelatedBy/>"><vivo:ConferencePaperRelatedBy /></a></td></tr>
-      </vivo:foreachConferencePaperRelatedByIterator>
-      <vivo:foreachConferencePaperRelatesIterator>
-         <tr><td>relates</td><td><a href="../<vivo:ConferencePaperRelatesType/>/<vivo:ConferencePaperRelatesType/>.jsp?uri=<vivo:ConferencePaperRelates/>"><vivo:ConferencePaperRelates /></a></td></tr>
-      </vivo:foreachConferencePaperRelatesIterator>
-      <vivo:foreachConferencePaperDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<vivo:ConferencePaperDateTimeValueType/>/<vivo:ConferencePaperDateTimeValueType/>.jsp?uri=<vivo:ConferencePaperDateTimeValue/>"><vivo:ConferencePaperDateTimeValue /></a></td></tr>
-      </vivo:foreachConferencePaperDateTimeValueIterator>
-      <vivo:foreachConferencePaperHasPublicationVenueIterator>
-         <tr><td>hasPublicationVenue</td><td><a href="../<vivo:ConferencePaperHasPublicationVenueType/>/<vivo:ConferencePaperHasPublicationVenueType/>.jsp?uri=<vivo:ConferencePaperHasPublicationVenue/>"><vivo:ConferencePaperHasPublicationVenue /></a></td></tr>
-      </vivo:foreachConferencePaperHasPublicationVenueIterator>
-      <vivo:foreachConferencePaperARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<vivo:ConferencePaperARG_2000028Type/>/<vivo:ConferencePaperARG_2000028Type/>.jsp?uri=<vivo:ConferencePaperARG_2000028/>"><vivo:ConferencePaperARG_2000028 /></a></td></tr>
-      </vivo:foreachConferencePaperARG_2000028Iterator>
-      <vivo:foreachConferencePaperRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<vivo:ConferencePaperRelatedByType/>/<vivo:ConferencePaperRelatedByType/>.jsp?uri=<vivo:ConferencePaperRelatedBy/>"><vivo:ConferencePaperRelatedBy /></a></td></tr>
-      </vivo:foreachConferencePaperRelatedByIterator>
-      <vivo:foreachConferencePaperRelatesIterator>
-         <tr><td>relates</td><td><a href="../<vivo:ConferencePaperRelatesType/>/<vivo:ConferencePaperRelatesType/>.jsp?uri=<vivo:ConferencePaperRelates/>"><vivo:ConferencePaperRelates /></a></td></tr>
-      </vivo:foreachConferencePaperRelatesIterator>
-      <vivo:foreachConferencePaperRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:ConferencePaperRO_0000056Type/>/<vivo:ConferencePaperRO_0000056Type/>.jsp?uri=<vivo:ConferencePaperRO_0000056/>"><vivo:ConferencePaperRO_0000056 /></a></td></tr>
-      </vivo:foreachConferencePaperRO_0000056Iterator>
-      <vivo:foreachConferencePaperDocumentationForIterator>
-         <tr><td>documentationFor</td><td><a href="../<vivo:ConferencePaperDocumentationForType/>/<vivo:ConferencePaperDocumentationForType/>.jsp?uri=<vivo:ConferencePaperDocumentationFor/>"><vivo:ConferencePaperDocumentationFor /></a></td></tr>
-      </vivo:foreachConferencePaperDocumentationForIterator>
-      <vivo:foreachConferencePaperCitedByIterator>
-         <tr><td>citedBy</td><td><a href="../<vivo:ConferencePaperCitedByType/>/<vivo:ConferencePaperCitedByType/>.jsp?uri=<vivo:ConferencePaperCitedBy/>"><vivo:ConferencePaperCitedBy /></a></td></tr>
-      </vivo:foreachConferencePaperCitedByIterator>
-      <vivo:foreachConferencePaperTranslationOfIterator>
-         <tr><td>translationOf</td><td><a href="../<vivo:ConferencePaperTranslationOfType/>/<vivo:ConferencePaperTranslationOfType/>.jsp?uri=<vivo:ConferencePaperTranslationOf/>"><vivo:ConferencePaperTranslationOf /></a></td></tr>
-      </vivo:foreachConferencePaperTranslationOfIterator>
-      <vivo:foreachConferencePaperReproducesIterator>
-         <tr><td>reproduces</td><td><a href="../<vivo:ConferencePaperReproducesType/>/<vivo:ConferencePaperReproducesType/>.jsp?uri=<vivo:ConferencePaperReproduces/>"><vivo:ConferencePaperReproduces /></a></td></tr>
-      </vivo:foreachConferencePaperReproducesIterator>
-      <vivo:foreachConferencePaperStatusIterator>
-         <tr><td>status</td><td><a href="../<vivo:ConferencePaperStatusType/>/<vivo:ConferencePaperStatusType/>.jsp?uri=<vivo:ConferencePaperStatus/>"><vivo:ConferencePaperStatus /></a></td></tr>
-      </vivo:foreachConferencePaperStatusIterator>
-      <vivo:foreachConferencePaperReproducedInIterator>
-         <tr><td>reproducedIn</td><td><a href="../<vivo:ConferencePaperReproducedInType/>/<vivo:ConferencePaperReproducedInType/>.jsp?uri=<vivo:ConferencePaperReproducedIn/>"><vivo:ConferencePaperReproducedIn /></a></td></tr>
-      </vivo:foreachConferencePaperReproducedInIterator>
-      <vivo:foreachConferencePaperPresentedAtIterator>
-         <tr><td>presentedAt</td><td><a href="../<vivo:ConferencePaperPresentedAtType/>/<vivo:ConferencePaperPresentedAtType/>.jsp?uri=<vivo:ConferencePaperPresentedAt/>"><vivo:ConferencePaperPresentedAt /></a></td></tr>
-      </vivo:foreachConferencePaperPresentedAtIterator>
-      <vivo:foreachConferencePaperHasTranslationIterator>
-         <tr><td>hasTranslation</td><td><a href="../<vivo:ConferencePaperHasTranslationType/>/<vivo:ConferencePaperHasTranslationType/>.jsp?uri=<vivo:ConferencePaperHasTranslation/>"><vivo:ConferencePaperHasTranslation /></a></td></tr>
-      </vivo:foreachConferencePaperHasTranslationIterator>
-      <vivo:foreachConferencePaperCitesIterator>
-         <tr><td>cites</td><td><a href="../<vivo:ConferencePaperCitesType/>/<vivo:ConferencePaperCitesType/>.jsp?uri=<vivo:ConferencePaperCites/>"><vivo:ConferencePaperCites /></a></td></tr>
-      </vivo:foreachConferencePaperCitesIterator>
-      <vivo:foreachConferencePaperTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<vivo:ConferencePaperTranslatorType/>/<vivo:ConferencePaperTranslatorType/>.jsp?uri=<vivo:ConferencePaperTranslator/>"><vivo:ConferencePaperTranslator /></a></td></tr>
-      </vivo:foreachConferencePaperTranslatorIterator>
-      <vivo:foreachConferencePaperFeaturesIterator>
-         <tr><td>features</td><td><a href="../<vivo:ConferencePaperFeaturesType/>/<vivo:ConferencePaperFeaturesType/>.jsp?uri=<vivo:ConferencePaperFeatures/>"><vivo:ConferencePaperFeatures /></a></td></tr>
-      </vivo:foreachConferencePaperFeaturesIterator>
-      <vivo:foreachConferencePaperInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<vivo:ConferencePaperInformationResourceSupportedByType/>/<vivo:ConferencePaperInformationResourceSupportedByType/>.jsp?uri=<vivo:ConferencePaperInformationResourceSupportedBy/>"><vivo:ConferencePaperInformationResourceSupportedBy /></a></td></tr>
-      </vivo:foreachConferencePaperInformationResourceSupportedByIterator>
-      <vivo:foreachConferencePaperIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<vivo:ConferencePaperIAO_0000136Type/>/<vivo:ConferencePaperIAO_0000136Type/>.jsp?uri=<vivo:ConferencePaperIAO_0000136/>"><vivo:ConferencePaperIAO_0000136 /></a></td></tr>
-      </vivo:foreachConferencePaperIAO_0000136Iterator>
+      <viva:foreachConferencePaperDateTimeValueIterator>
+         <tr><td>dateTimeValue</td><td><a href="../<viva:ConferencePaperDateTimeValueType/>/<viva:ConferencePaperDateTimeValueType/>.jsp?uri=<viva:ConferencePaperDateTimeValue/>"><viva:ConferencePaperDateTimeValue /></a></td></tr>
+      </viva:foreachConferencePaperDateTimeValueIterator>
+      <viva:foreachConferencePaperRO_0002353Iterator>
+         <tr><td>RO_0002353</td><td><a href="../<viva:ConferencePaperRO_0002353Type/>/<viva:ConferencePaperRO_0002353Type/>.jsp?uri=<viva:ConferencePaperRO_0002353/>"><viva:ConferencePaperRO_0002353 /></a></td></tr>
+      </viva:foreachConferencePaperRO_0002353Iterator>
+      <viva:foreachConferencePaperHasPublicationVenueIterator>
+         <tr><td>hasPublicationVenue</td><td><a href="../<viva:ConferencePaperHasPublicationVenueType/>/<viva:ConferencePaperHasPublicationVenueType/>.jsp?uri=<viva:ConferencePaperHasPublicationVenue/>"><viva:ConferencePaperHasPublicationVenue /></a></td></tr>
+      </viva:foreachConferencePaperHasPublicationVenueIterator>
+      <viva:foreachConferencePaperARG_2000028Iterator>
+         <tr><td>ARG_2000028</td><td><a href="../<viva:ConferencePaperARG_2000028Type/>/<viva:ConferencePaperARG_2000028Type/>.jsp?uri=<viva:ConferencePaperARG_2000028/>"><viva:ConferencePaperARG_2000028 /></a></td></tr>
+      </viva:foreachConferencePaperARG_2000028Iterator>
+      <viva:foreachConferencePaperRelatedByIterator>
+         <tr><td>relatedBy</td><td><a href="../<viva:ConferencePaperRelatedByType/>/<viva:ConferencePaperRelatedByType/>.jsp?uri=<viva:ConferencePaperRelatedBy/>"><viva:ConferencePaperRelatedBy /></a></td></tr>
+      </viva:foreachConferencePaperRelatedByIterator>
+      <viva:foreachConferencePaperRelatesIterator>
+         <tr><td>relates</td><td><a href="../<viva:ConferencePaperRelatesType/>/<viva:ConferencePaperRelatesType/>.jsp?uri=<viva:ConferencePaperRelates/>"><viva:ConferencePaperRelates /></a></td></tr>
+      </viva:foreachConferencePaperRelatesIterator>
+      <viva:foreachConferencePaperRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:ConferencePaperRO_0000056Type/>/<viva:ConferencePaperRO_0000056Type/>.jsp?uri=<viva:ConferencePaperRO_0000056/>"><viva:ConferencePaperRO_0000056 /></a></td></tr>
+      </viva:foreachConferencePaperRO_0000056Iterator>
+      <viva:foreachConferencePaperTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:ConferencePaperTranslatorType/>/<viva:ConferencePaperTranslatorType/>.jsp?uri=<viva:ConferencePaperTranslator/>"><viva:ConferencePaperTranslator /></a></td></tr>
+      </viva:foreachConferencePaperTranslatorIterator>
+      <viva:foreachConferencePaperFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:ConferencePaperFeaturesType/>/<viva:ConferencePaperFeaturesType/>.jsp?uri=<viva:ConferencePaperFeatures/>"><viva:ConferencePaperFeatures /></a></td></tr>
+      </viva:foreachConferencePaperFeaturesIterator>
+      <viva:foreachConferencePaperInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ConferencePaperInformationResourceSupportedByType/>/<viva:ConferencePaperInformationResourceSupportedByType/>.jsp?uri=<viva:ConferencePaperInformationResourceSupportedBy/>"><viva:ConferencePaperInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachConferencePaperInformationResourceSupportedByIterator>
+      <viva:foreachConferencePaperIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:ConferencePaperIAO_0000136Type/>/<viva:ConferencePaperIAO_0000136Type/>.jsp?uri=<viva:ConferencePaperIAO_0000136/>"><viva:ConferencePaperIAO_0000136 /></a></td></tr>
+      </viva:foreachConferencePaperIAO_0000136Iterator>
+      <viva:foreachConferencePaperDocumentationForIterator>
+         <tr><td>documentationFor</td><td><a href="../<viva:ConferencePaperDocumentationForType/>/<viva:ConferencePaperDocumentationForType/>.jsp?uri=<viva:ConferencePaperDocumentationFor/>"><viva:ConferencePaperDocumentationFor /></a></td></tr>
+      </viva:foreachConferencePaperDocumentationForIterator>
+      <viva:foreachConferencePaperCitedByIterator>
+         <tr><td>citedBy</td><td><a href="../<viva:ConferencePaperCitedByType/>/<viva:ConferencePaperCitedByType/>.jsp?uri=<viva:ConferencePaperCitedBy/>"><viva:ConferencePaperCitedBy /></a></td></tr>
+      </viva:foreachConferencePaperCitedByIterator>
+      <viva:foreachConferencePaperTranslationOfIterator>
+         <tr><td>translationOf</td><td><a href="../<viva:ConferencePaperTranslationOfType/>/<viva:ConferencePaperTranslationOfType/>.jsp?uri=<viva:ConferencePaperTranslationOf/>"><viva:ConferencePaperTranslationOf /></a></td></tr>
+      </viva:foreachConferencePaperTranslationOfIterator>
+      <viva:foreachConferencePaperReproducesIterator>
+         <tr><td>reproduces</td><td><a href="../<viva:ConferencePaperReproducesType/>/<viva:ConferencePaperReproducesType/>.jsp?uri=<viva:ConferencePaperReproduces/>"><viva:ConferencePaperReproduces /></a></td></tr>
+      </viva:foreachConferencePaperReproducesIterator>
+      <viva:foreachConferencePaperStatusIterator>
+         <tr><td>status</td><td><a href="../<viva:ConferencePaperStatusType/>/<viva:ConferencePaperStatusType/>.jsp?uri=<viva:ConferencePaperStatus/>"><viva:ConferencePaperStatus /></a></td></tr>
+      </viva:foreachConferencePaperStatusIterator>
+      <viva:foreachConferencePaperReproducedInIterator>
+         <tr><td>reproducedIn</td><td><a href="../<viva:ConferencePaperReproducedInType/>/<viva:ConferencePaperReproducedInType/>.jsp?uri=<viva:ConferencePaperReproducedIn/>"><viva:ConferencePaperReproducedIn /></a></td></tr>
+      </viva:foreachConferencePaperReproducedInIterator>
+      <viva:foreachConferencePaperPresentedAtIterator>
+         <tr><td>presentedAt</td><td><a href="../<viva:ConferencePaperPresentedAtType/>/<viva:ConferencePaperPresentedAtType/>.jsp?uri=<viva:ConferencePaperPresentedAt/>"><viva:ConferencePaperPresentedAt /></a></td></tr>
+      </viva:foreachConferencePaperPresentedAtIterator>
+      <viva:foreachConferencePaperHasTranslationIterator>
+         <tr><td>hasTranslation</td><td><a href="../<viva:ConferencePaperHasTranslationType/>/<viva:ConferencePaperHasTranslationType/>.jsp?uri=<viva:ConferencePaperHasTranslation/>"><viva:ConferencePaperHasTranslation /></a></td></tr>
+      </viva:foreachConferencePaperHasTranslationIterator>
+      <viva:foreachConferencePaperCitesIterator>
+         <tr><td>cites</td><td><a href="../<viva:ConferencePaperCitesType/>/<viva:ConferencePaperCitesType/>.jsp?uri=<viva:ConferencePaperCites/>"><viva:ConferencePaperCites /></a></td></tr>
+      </viva:foreachConferencePaperCitesIterator>
    </table>
-   </vivo:ConferencePaper>
+
+   <h3>Inverse Object Properties (these do not have declared inverses)</h3>
+   <table>
+   </table>
+   </viva:ConferencePaper>
 
 <jsp:include page="/footer.jsp" flush="true" /></div></div></body>
 </html>

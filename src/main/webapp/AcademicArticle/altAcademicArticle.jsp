@@ -1,55 +1,55 @@
-<%@ page language="java" contentType="text/html; charset=US-ASCII" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="vivo" uri="http://slis.uiowa.edu/VIVOISF"%>
+<%@ taglib prefix="viva" uri="http://slis.uiowa.edu/VIVOISF"%>
 <%@ taglib prefix="util" uri="http://icts.uiowa.edu/tagUtil"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>AcademicArticle - http://purl.org/ontology/bibo/AcademicArticle</title>
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="AcademicArticle.jsp?uri=${param.uri}">generated view</a></p>
-   <vivo:AcademicArticle subjectURI="${param.uri}">
+   <viva:AcademicArticle subjectURI="${param.uri}">
 
-      <h2><vivo:AcademicArticleLabel /></h2>
-      <vivo:foreachAcademicArticleHasPublicationVenueIterator>
-         <vivo:AcademicArticleHasPublicationVenue />
-      </vivo:foreachAcademicArticleHasPublicationVenueIterator>
+      <h2><viva:AcademicArticleLabel /></h2>
+      <viva:foreachAcademicArticleHasPublicationVenueIterator>
+         <viva:AcademicArticleHasPublicationVenue />
+      </viva:foreachAcademicArticleHasPublicationVenueIterator>
       <p>
-      <vivo:foreachAcademicArticleDoiIterator>
-         <b>DOI:</b> <a href="http://dx.doi.org/<vivo:AcademicArticleDoi />"><vivo:AcademicArticleDoi /></a>
-      </vivo:foreachAcademicArticleDoiIterator>
+      <viva:foreachAcademicArticleDoiIterator>
+         <b>DOI:</b> <a href="http://dx.doi.org/<viva:AcademicArticleDoi />"><viva:AcademicArticleDoi /></a>
+      </viva:foreachAcademicArticleDoiIterator>
       
    <h3>Authors</h3>
       <ol class=bulletedList>
-      <vivo:foreachAcademicArticleRelatedByIterator classFilter="Authorship">
-         <vivo:Authorship>
-            <vivo:foreachAuthorshipRelatesIterator classFilter="Person Individual">
-               <c:set var="type"><vivo:AuthorshipRelatesType/></c:set>
+      <viva:foreachAcademicArticleRelatedByIterator classFilter="Authorship">
+         <viva:Authorship>
+            <viva:foreachAuthorshipRelatesIterator classFilter="Person Individual">
+               <c:set var="type"><viva:AuthorshipRelatesType/></c:set>
                <c:choose>
                	<c:when test="${type == 'Person'}">
-	               <vivo:Person>
-	                  <li><a href="../Person/altPerson.jsp?uri=<vivo:PersonSubjectURI/>"><vivo:PersonLabel/></a>
-	               </vivo:Person>
+	               <viva:Person>
+	                  <li><a href="../Person/altPerson.jsp?uri=<viva:PersonSubjectURI/>"><viva:PersonLabel/></a>
+	               </viva:Person>
                	</c:when>
                	<c:when test="${type == 'Individual'}">
-               		<vivo:Individual>
-               			<vivo:foreachIndividualHasNameIterator>
-               				<vivo:Name>
-               					<li><vivo:foreachNameFamilyNameIterator><vivo:NameFamilyName/></vivo:foreachNameFamilyNameIterator>, <vivo:foreachNameGivenNameIterator><vivo:NameGivenName/></vivo:foreachNameGivenNameIterator>
-               				</vivo:Name>
-               			</vivo:foreachIndividualHasNameIterator>
-               		</vivo:Individual>
+               		<viva:Individual>
+               			<viva:foreachIndividualHasNameIterator>
+               				<viva:Name>
+               					<li><viva:foreachNameFamilyNameIterator><viva:NameFamilyName/></viva:foreachNameFamilyNameIterator>, <viva:foreachNameGivenNameIterator><viva:NameGivenName/></viva:foreachNameGivenNameIterator>
+               				</viva:Name>
+               			</viva:foreachIndividualHasNameIterator>
+               		</viva:Individual>
                	</c:when>
                </c:choose>
-             </vivo:foreachAuthorshipRelatesIterator>
-         </vivo:Authorship>
-      </vivo:foreachAcademicArticleRelatedByIterator>
+             </viva:foreachAuthorshipRelatesIterator>
+         </viva:Authorship>
+      </viva:foreachAcademicArticleRelatedByIterator>
       </ol>
-   </vivo:AcademicArticle>
+   </viva:AcademicArticle>
 
 <jsp:include page="/footer.jsp" flush="true" /></div></div></body>
 </html>

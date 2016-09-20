@@ -1,23 +1,24 @@
-<%@ page language="java" contentType="text/html; charset=US-ASCII" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="vivo" uri="http://slis.uiowa.edu/VIVOISF"%>
+<%@ taglib prefix="viva" uri="http://slis.uiowa.edu/VIVOISF"%>
 <%@ taglib prefix="util" uri="http://icts.uiowa.edu/tagUtil"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>AttendeeRole - http://vivoweb.org/ontology/core#AttendeeRole</title>
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altAttendeeRole.jsp?uri=${param.uri}">alternate view</a></p>
-   <vivo:AttendeeRole subjectURI="${param.uri}">
+   <p><a href="../utility/sparqlDump.jsp?type=AttendeeRole&uri=${param.uri}">RDF dump</a></p>
+   <viva:AttendeeRole subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
    <table>
-      <tr><td>URI</td><td><a href="<vivo:AttendeeRoleSubjectURI/>"><vivo:AttendeeRoleSubjectURI /></a></td></tr>
-      <tr><td>Label</td><td><vivo:AttendeeRoleLabel /></td></tr>
+      <tr><td>URI</td><td><a href="<viva:AttendeeRoleSubjectURI/>"><viva:AttendeeRoleSubjectURI /></a></td></tr>
+      <tr><td>Label</td><td><viva:AttendeeRoleLabel /></td></tr>
    </table>
 
    <h3>Functional Datatype Properties</h3>
@@ -30,20 +31,24 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachAttendeeRoleRO_0000052Iterator>
-         <tr><td>RO_0000052</td><td><a href="../<vivo:AttendeeRoleRO_0000052Type/>/<vivo:AttendeeRoleRO_0000052Type/>.jsp?uri=<vivo:AttendeeRoleRO_0000052/>"><vivo:AttendeeRoleRO_0000052 /></a></td></tr>
-      </vivo:foreachAttendeeRoleRO_0000052Iterator>
-      <vivo:foreachAttendeeRoleBFO_0000054Iterator>
-         <tr><td>BFO_0000054</td><td><a href="../<vivo:AttendeeRoleBFO_0000054Type/>/<vivo:AttendeeRoleBFO_0000054Type/>.jsp?uri=<vivo:AttendeeRoleBFO_0000054/>"><vivo:AttendeeRoleBFO_0000054 /></a></td></tr>
-      </vivo:foreachAttendeeRoleBFO_0000054Iterator>
-      <vivo:foreachAttendeeRoleRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:AttendeeRoleRO_0000056Type/>/<vivo:AttendeeRoleRO_0000056Type/>.jsp?uri=<vivo:AttendeeRoleRO_0000056/>"><vivo:AttendeeRoleRO_0000056 /></a></td></tr>
-      </vivo:foreachAttendeeRoleRO_0000056Iterator>
-      <vivo:foreachAttendeeRoleRoleContributesToIterator>
-         <tr><td>roleContributesTo</td><td><a href="../<vivo:AttendeeRoleRoleContributesToType/>/<vivo:AttendeeRoleRoleContributesToType/>.jsp?uri=<vivo:AttendeeRoleRoleContributesTo/>"><vivo:AttendeeRoleRoleContributesTo /></a></td></tr>
-      </vivo:foreachAttendeeRoleRoleContributesToIterator>
+      <viva:foreachAttendeeRoleRO_0000052Iterator>
+         <tr><td>RO_0000052</td><td><a href="../<viva:AttendeeRoleRO_0000052Type/>/<viva:AttendeeRoleRO_0000052Type/>.jsp?uri=<viva:AttendeeRoleRO_0000052/>"><viva:AttendeeRoleRO_0000052 /></a></td></tr>
+      </viva:foreachAttendeeRoleRO_0000052Iterator>
+      <viva:foreachAttendeeRoleBFO_0000054Iterator>
+         <tr><td>BFO_0000054</td><td><a href="../<viva:AttendeeRoleBFO_0000054Type/>/<viva:AttendeeRoleBFO_0000054Type/>.jsp?uri=<viva:AttendeeRoleBFO_0000054/>"><viva:AttendeeRoleBFO_0000054 /></a></td></tr>
+      </viva:foreachAttendeeRoleBFO_0000054Iterator>
+      <viva:foreachAttendeeRoleRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:AttendeeRoleRO_0000056Type/>/<viva:AttendeeRoleRO_0000056Type/>.jsp?uri=<viva:AttendeeRoleRO_0000056/>"><viva:AttendeeRoleRO_0000056 /></a></td></tr>
+      </viva:foreachAttendeeRoleRO_0000056Iterator>
+      <viva:foreachAttendeeRoleRoleContributesToIterator>
+         <tr><td>roleContributesTo</td><td><a href="../<viva:AttendeeRoleRoleContributesToType/>/<viva:AttendeeRoleRoleContributesToType/>.jsp?uri=<viva:AttendeeRoleRoleContributesTo/>"><viva:AttendeeRoleRoleContributesTo /></a></td></tr>
+      </viva:foreachAttendeeRoleRoleContributesToIterator>
    </table>
-   </vivo:AttendeeRole>
+
+   <h3>Inverse Object Properties (these do not have declared inverses)</h3>
+   <table>
+   </table>
+   </viva:AttendeeRole>
 
 <jsp:include page="/footer.jsp" flush="true" /></div></div></body>
 </html>

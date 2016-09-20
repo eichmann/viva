@@ -1,23 +1,24 @@
-<%@ page language="java" contentType="text/html; charset=US-ASCII" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="vivo" uri="http://slis.uiowa.edu/VIVOISF"%>
+<%@ taglib prefix="viva" uri="http://slis.uiowa.edu/VIVOISF"%>
 <%@ taglib prefix="util" uri="http://icts.uiowa.edu/tagUtil"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Country - http://vivoweb.org/ontology/core#Country</title>
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altCountry.jsp?uri=${param.uri}">alternate view</a></p>
-   <vivo:Country subjectURI="${param.uri}">
+   <p><a href="../utility/sparqlDump.jsp?type=Country&uri=${param.uri}">RDF dump</a></p>
+   <viva:Country subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
    <table>
-      <tr><td>URI</td><td><a href="<vivo:CountrySubjectURI/>"><vivo:CountrySubjectURI /></a></td></tr>
-      <tr><td>Label</td><td><vivo:CountryLabel /></td></tr>
+      <tr><td>URI</td><td><a href="<viva:CountrySubjectURI/>"><viva:CountrySubjectURI /></a></td></tr>
+      <tr><td>Label</td><td><viva:CountryLabel /></td></tr>
    </table>
 
    <h3>Functional Datatype Properties</h3>
@@ -26,252 +27,262 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <vivo:foreachCountryAgriculturalAreaUnitIterator>
-         <tr><td>agriculturalAreaUnit</td><td><vivo:CountryAgriculturalAreaUnit /></td></tr>
-      </vivo:foreachCountryAgriculturalAreaUnitIterator>
-      <vivo:foreachCountryAgriculturalAreaTotalIterator>
-         <tr><td>agriculturalAreaTotal</td><td><vivo:CountryAgriculturalAreaTotal /></td></tr>
-      </vivo:foreachCountryAgriculturalAreaTotalIterator>
-      <vivo:foreachCountryNationalityITIterator>
-         <tr><td>nationalityIT</td><td><vivo:CountryNationalityIT /></td></tr>
-      </vivo:foreachCountryNationalityITIterator>
-      <vivo:foreachCountryNameOfficialRUIterator>
-         <tr><td>nameOfficialRU</td><td><vivo:CountryNameOfficialRU /></td></tr>
-      </vivo:foreachCountryNameOfficialRUIterator>
-      <vivo:foreachCountryAgriculturalAreaYearIterator>
-         <tr><td>agriculturalAreaYear</td><td><vivo:CountryAgriculturalAreaYear /></td></tr>
-      </vivo:foreachCountryAgriculturalAreaYearIterator>
-      <vivo:foreachCountryNameCurrencyFRIterator>
-         <tr><td>nameCurrencyFR</td><td><vivo:CountryNameCurrencyFR /></td></tr>
-      </vivo:foreachCountryNameCurrencyFRIterator>
-      <vivo:foreachCountryNameListENIterator>
-         <tr><td>nameListEN</td><td><vivo:CountryNameListEN /></td></tr>
-      </vivo:foreachCountryNameListENIterator>
-      <vivo:foreachCountryGDPNotesIterator>
-         <tr><td>GDPNotes</td><td><vivo:CountryGDPNotes /></td></tr>
-      </vivo:foreachCountryGDPNotesIterator>
-      <vivo:foreachCountryGDPTotalInCurrentPricesIterator>
-         <tr><td>GDPTotalInCurrentPrices</td><td><vivo:CountryGDPTotalInCurrentPrices /></td></tr>
-      </vivo:foreachCountryGDPTotalInCurrentPricesIterator>
-      <vivo:foreachCountryNameOfficialZHIterator>
-         <tr><td>nameOfficialZH</td><td><vivo:CountryNameOfficialZH /></td></tr>
-      </vivo:foreachCountryNameOfficialZHIterator>
-      <vivo:foreachCountryNationalityARIterator>
-         <tr><td>nationalityAR</td><td><vivo:CountryNationalityAR /></td></tr>
-      </vivo:foreachCountryNationalityARIterator>
-      <vivo:foreachCountryPopulationUnitIterator>
-         <tr><td>populationUnit</td><td><vivo:CountryPopulationUnit /></td></tr>
-      </vivo:foreachCountryPopulationUnitIterator>
-      <vivo:foreachCountryNationalityESIterator>
-         <tr><td>nationalityES</td><td><vivo:CountryNationalityES /></td></tr>
-      </vivo:foreachCountryNationalityESIterator>
-      <vivo:foreachCountryNameListARIterator>
-         <tr><td>nameListAR</td><td><vivo:CountryNameListAR /></td></tr>
-      </vivo:foreachCountryNameListARIterator>
-      <vivo:foreachCountryValidUntilIterator>
-         <tr><td>validUntil</td><td><vivo:CountryValidUntil /></td></tr>
-      </vivo:foreachCountryValidUntilIterator>
-      <vivo:foreachCountryCountryAreaTotalIterator>
-         <tr><td>countryAreaTotal</td><td><vivo:CountryCountryAreaTotal /></td></tr>
-      </vivo:foreachCountryCountryAreaTotalIterator>
-      <vivo:foreachCountryHasMinLatitudeIterator>
-         <tr><td>hasMinLatitude</td><td><vivo:CountryHasMinLatitude /></td></tr>
-      </vivo:foreachCountryHasMinLatitudeIterator>
-      <vivo:foreachCountryNameShortZHIterator>
-         <tr><td>nameShortZH</td><td><vivo:CountryNameShortZH /></td></tr>
-      </vivo:foreachCountryNameShortZHIterator>
-      <vivo:foreachCountryNameShortITIterator>
-         <tr><td>nameShortIT</td><td><vivo:CountryNameShortIT /></td></tr>
-      </vivo:foreachCountryNameShortITIterator>
-      <vivo:foreachCountryCodeISO3Iterator>
-         <tr><td>codeISO3</td><td><vivo:CountryCodeISO3 /></td></tr>
-      </vivo:foreachCountryCodeISO3Iterator>
-      <vivo:foreachCountryCodeAGROVOCIterator>
-         <tr><td>codeAGROVOC</td><td><vivo:CountryCodeAGROVOC /></td></tr>
-      </vivo:foreachCountryCodeAGROVOCIterator>
-      <vivo:foreachCountryNationalityRUIterator>
-         <tr><td>nationalityRU</td><td><vivo:CountryNationalityRU /></td></tr>
-      </vivo:foreachCountryNationalityRUIterator>
-      <vivo:foreachCountryHasMaxLongitudeIterator>
-         <tr><td>hasMaxLongitude</td><td><vivo:CountryHasMaxLongitude /></td></tr>
-      </vivo:foreachCountryHasMaxLongitudeIterator>
-      <vivo:foreachCountryNameCurrencyZHIterator>
-         <tr><td>nameCurrencyZH</td><td><vivo:CountryNameCurrencyZH /></td></tr>
-      </vivo:foreachCountryNameCurrencyZHIterator>
-      <vivo:foreachCountryNationalityENIterator>
-         <tr><td>nationalityEN</td><td><vivo:CountryNationalityEN /></td></tr>
-      </vivo:foreachCountryNationalityENIterator>
-      <vivo:foreachCountryAgriculturalAreaNotesIterator>
-         <tr><td>agriculturalAreaNotes</td><td><vivo:CountryAgriculturalAreaNotes /></td></tr>
-      </vivo:foreachCountryAgriculturalAreaNotesIterator>
-      <vivo:foreachCountryNameListFRIterator>
-         <tr><td>nameListFR</td><td><vivo:CountryNameListFR /></td></tr>
-      </vivo:foreachCountryNameListFRIterator>
-      <vivo:foreachCountryNameOfficialESIterator>
-         <tr><td>nameOfficialES</td><td><vivo:CountryNameOfficialES /></td></tr>
-      </vivo:foreachCountryNameOfficialESIterator>
-      <vivo:foreachCountryNameCurrencyENIterator>
-         <tr><td>nameCurrencyEN</td><td><vivo:CountryNameCurrencyEN /></td></tr>
-      </vivo:foreachCountryNameCurrencyENIterator>
-      <vivo:foreachCountryCountryAreaNotesIterator>
-         <tr><td>countryAreaNotes</td><td><vivo:CountryCountryAreaNotes /></td></tr>
-      </vivo:foreachCountryCountryAreaNotesIterator>
-      <vivo:foreachCountryCodeFAOTERMIterator>
-         <tr><td>codeFAOTERM</td><td><vivo:CountryCodeFAOTERM /></td></tr>
-      </vivo:foreachCountryCodeFAOTERMIterator>
-      <vivo:foreachCountryNameOfficialITIterator>
-         <tr><td>nameOfficialIT</td><td><vivo:CountryNameOfficialIT /></td></tr>
-      </vivo:foreachCountryNameOfficialITIterator>
-      <vivo:foreachCountryNameListRUIterator>
-         <tr><td>nameListRU</td><td><vivo:CountryNameListRU /></td></tr>
-      </vivo:foreachCountryNameListRUIterator>
-      <vivo:foreachCountryNameShortESIterator>
-         <tr><td>nameShortES</td><td><vivo:CountryNameShortES /></td></tr>
-      </vivo:foreachCountryNameShortESIterator>
-      <vivo:foreachCountryGDPYearIterator>
-         <tr><td>GDPYear</td><td><vivo:CountryGDPYear /></td></tr>
-      </vivo:foreachCountryGDPYearIterator>
-      <vivo:foreachCountryPopulationYearIterator>
-         <tr><td>populationYear</td><td><vivo:CountryPopulationYear /></td></tr>
-      </vivo:foreachCountryPopulationYearIterator>
-      <vivo:foreachCountryPopulationNotesIterator>
-         <tr><td>populationNotes</td><td><vivo:CountryPopulationNotes /></td></tr>
-      </vivo:foreachCountryPopulationNotesIterator>
-      <vivo:foreachCountryCountryAreaUnitIterator>
-         <tr><td>countryAreaUnit</td><td><vivo:CountryCountryAreaUnit /></td></tr>
-      </vivo:foreachCountryCountryAreaUnitIterator>
-      <vivo:foreachCountryHasMinLongitudeIterator>
-         <tr><td>hasMinLongitude</td><td><vivo:CountryHasMinLongitude /></td></tr>
-      </vivo:foreachCountryHasMinLongitudeIterator>
-      <vivo:foreachCountryNameCurrencyITIterator>
-         <tr><td>nameCurrencyIT</td><td><vivo:CountryNameCurrencyIT /></td></tr>
-      </vivo:foreachCountryNameCurrencyITIterator>
-      <vivo:foreachCountryCodeFAOSTATIterator>
-         <tr><td>codeFAOSTAT</td><td><vivo:CountryCodeFAOSTAT /></td></tr>
-      </vivo:foreachCountryCodeFAOSTATIterator>
-      <vivo:foreachCountryNameCurrencyARIterator>
-         <tr><td>nameCurrencyAR</td><td><vivo:CountryNameCurrencyAR /></td></tr>
-      </vivo:foreachCountryNameCurrencyARIterator>
-      <vivo:foreachCountryNameCurrencyESIterator>
-         <tr><td>nameCurrencyES</td><td><vivo:CountryNameCurrencyES /></td></tr>
-      </vivo:foreachCountryNameCurrencyESIterator>
-      <vivo:foreachCountryCodeDBPediaIDIterator>
-         <tr><td>codeDBPediaID</td><td><vivo:CountryCodeDBPediaID /></td></tr>
-      </vivo:foreachCountryCodeDBPediaIDIterator>
-      <vivo:foreachCountryNameListZHIterator>
-         <tr><td>nameListZH</td><td><vivo:CountryNameListZH /></td></tr>
-      </vivo:foreachCountryNameListZHIterator>
-      <vivo:foreachCountryNameShortENIterator>
-         <tr><td>nameShortEN</td><td><vivo:CountryNameShortEN /></td></tr>
-      </vivo:foreachCountryNameShortENIterator>
-      <vivo:foreachCountryNameOfficialARIterator>
-         <tr><td>nameOfficialAR</td><td><vivo:CountryNameOfficialAR /></td></tr>
-      </vivo:foreachCountryNameOfficialARIterator>
-      <vivo:foreachCountryHasMaxLatitudeIterator>
-         <tr><td>hasMaxLatitude</td><td><vivo:CountryHasMaxLatitude /></td></tr>
-      </vivo:foreachCountryHasMaxLatitudeIterator>
-      <vivo:foreachCountryNationalityFRIterator>
-         <tr><td>nationalityFR</td><td><vivo:CountryNationalityFR /></td></tr>
-      </vivo:foreachCountryNationalityFRIterator>
-      <vivo:foreachCountryNationalityZHIterator>
-         <tr><td>nationalityZH</td><td><vivo:CountryNationalityZH /></td></tr>
-      </vivo:foreachCountryNationalityZHIterator>
-      <vivo:foreachCountryGDPUnitIterator>
-         <tr><td>GDPUnit</td><td><vivo:CountryGDPUnit /></td></tr>
-      </vivo:foreachCountryGDPUnitIterator>
-      <vivo:foreachCountryHDINotesIterator>
-         <tr><td>HDINotes</td><td><vivo:CountryHDINotes /></td></tr>
-      </vivo:foreachCountryHDINotesIterator>
-      <vivo:foreachCountryLandAreaYearIterator>
-         <tr><td>landAreaYear</td><td><vivo:CountryLandAreaYear /></td></tr>
-      </vivo:foreachCountryLandAreaYearIterator>
-      <vivo:foreachCountryCountryAreaYearIterator>
-         <tr><td>countryAreaYear</td><td><vivo:CountryCountryAreaYear /></td></tr>
-      </vivo:foreachCountryCountryAreaYearIterator>
-      <vivo:foreachCountryNameShortARIterator>
-         <tr><td>nameShortAR</td><td><vivo:CountryNameShortAR /></td></tr>
-      </vivo:foreachCountryNameShortARIterator>
-      <vivo:foreachCountryValidSinceIterator>
-         <tr><td>validSince</td><td><vivo:CountryValidSince /></td></tr>
-      </vivo:foreachCountryValidSinceIterator>
-      <vivo:foreachCountryNameOfficialENIterator>
-         <tr><td>nameOfficialEN</td><td><vivo:CountryNameOfficialEN /></td></tr>
-      </vivo:foreachCountryNameOfficialENIterator>
-      <vivo:foreachCountryLandAreaUnitIterator>
-         <tr><td>landAreaUnit</td><td><vivo:CountryLandAreaUnit /></td></tr>
-      </vivo:foreachCountryLandAreaUnitIterator>
-      <vivo:foreachCountryPopulationTotalIterator>
-         <tr><td>populationTotal</td><td><vivo:CountryPopulationTotal /></td></tr>
-      </vivo:foreachCountryPopulationTotalIterator>
-      <vivo:foreachCountryNameShortFRIterator>
-         <tr><td>nameShortFR</td><td><vivo:CountryNameShortFR /></td></tr>
-      </vivo:foreachCountryNameShortFRIterator>
-      <vivo:foreachCountryCodeISO2Iterator>
-         <tr><td>codeISO2</td><td><vivo:CountryCodeISO2 /></td></tr>
-      </vivo:foreachCountryCodeISO2Iterator>
-      <vivo:foreachCountryCodeGAULIterator>
-         <tr><td>codeGAUL</td><td><vivo:CountryCodeGAUL /></td></tr>
-      </vivo:foreachCountryCodeGAULIterator>
-      <vivo:foreachCountryHDITotalIterator>
-         <tr><td>HDITotal</td><td><vivo:CountryHDITotal /></td></tr>
-      </vivo:foreachCountryHDITotalIterator>
-      <vivo:foreachCountryNameCurrencyRUIterator>
-         <tr><td>nameCurrencyRU</td><td><vivo:CountryNameCurrencyRU /></td></tr>
-      </vivo:foreachCountryNameCurrencyRUIterator>
-      <vivo:foreachCountryCodeCurrencyIterator>
-         <tr><td>codeCurrency</td><td><vivo:CountryCodeCurrency /></td></tr>
-      </vivo:foreachCountryCodeCurrencyIterator>
-      <vivo:foreachCountryNameOfficialFRIterator>
-         <tr><td>nameOfficialFR</td><td><vivo:CountryNameOfficialFR /></td></tr>
-      </vivo:foreachCountryNameOfficialFRIterator>
-      <vivo:foreachCountryLandAreaTotalIterator>
-         <tr><td>landAreaTotal</td><td><vivo:CountryLandAreaTotal /></td></tr>
-      </vivo:foreachCountryLandAreaTotalIterator>
-      <vivo:foreachCountryNameListESIterator>
-         <tr><td>nameListES</td><td><vivo:CountryNameListES /></td></tr>
-      </vivo:foreachCountryNameListESIterator>
-      <vivo:foreachCountryNameListITIterator>
-         <tr><td>nameListIT</td><td><vivo:CountryNameListIT /></td></tr>
-      </vivo:foreachCountryNameListITIterator>
-      <vivo:foreachCountryCodeUNIterator>
-         <tr><td>codeUN</td><td><vivo:CountryCodeUN /></td></tr>
-      </vivo:foreachCountryCodeUNIterator>
-      <vivo:foreachCountryNameShortRUIterator>
-         <tr><td>nameShortRU</td><td><vivo:CountryNameShortRU /></td></tr>
-      </vivo:foreachCountryNameShortRUIterator>
-      <vivo:foreachCountryHDIYearIterator>
-         <tr><td>HDIYear</td><td><vivo:CountryHDIYear /></td></tr>
-      </vivo:foreachCountryHDIYearIterator>
-      <vivo:foreachCountryCodeUNDPIterator>
-         <tr><td>codeUNDP</td><td><vivo:CountryCodeUNDP /></td></tr>
-      </vivo:foreachCountryCodeUNDPIterator>
-      <vivo:foreachCountryLandAreaNotesIterator>
-         <tr><td>landAreaNotes</td><td><vivo:CountryLandAreaNotes /></td></tr>
-      </vivo:foreachCountryLandAreaNotesIterator>
+      <viva:foreachCountryAgriculturalAreaUnitIterator>
+         <tr><td>agriculturalAreaUnit</td><td><viva:CountryAgriculturalAreaUnit /></td></tr>
+      </viva:foreachCountryAgriculturalAreaUnitIterator>
+      <viva:foreachCountryAgriculturalAreaTotalIterator>
+         <tr><td>agriculturalAreaTotal</td><td><viva:CountryAgriculturalAreaTotal /></td></tr>
+      </viva:foreachCountryAgriculturalAreaTotalIterator>
+      <viva:foreachCountryNationalityITIterator>
+         <tr><td>nationalityIT</td><td><viva:CountryNationalityIT /></td></tr>
+      </viva:foreachCountryNationalityITIterator>
+      <viva:foreachCountryNameOfficialRUIterator>
+         <tr><td>nameOfficialRU</td><td><viva:CountryNameOfficialRU /></td></tr>
+      </viva:foreachCountryNameOfficialRUIterator>
+      <viva:foreachCountryAgriculturalAreaYearIterator>
+         <tr><td>agriculturalAreaYear</td><td><viva:CountryAgriculturalAreaYear /></td></tr>
+      </viva:foreachCountryAgriculturalAreaYearIterator>
+      <viva:foreachCountryNameCurrencyFRIterator>
+         <tr><td>nameCurrencyFR</td><td><viva:CountryNameCurrencyFR /></td></tr>
+      </viva:foreachCountryNameCurrencyFRIterator>
+      <viva:foreachCountryNameListENIterator>
+         <tr><td>nameListEN</td><td><viva:CountryNameListEN /></td></tr>
+      </viva:foreachCountryNameListENIterator>
+      <viva:foreachCountryGDPNotesIterator>
+         <tr><td>GDPNotes</td><td><viva:CountryGDPNotes /></td></tr>
+      </viva:foreachCountryGDPNotesIterator>
+      <viva:foreachCountryGDPTotalInCurrentPricesIterator>
+         <tr><td>GDPTotalInCurrentPrices</td><td><viva:CountryGDPTotalInCurrentPrices /></td></tr>
+      </viva:foreachCountryGDPTotalInCurrentPricesIterator>
+      <viva:foreachCountryNameOfficialZHIterator>
+         <tr><td>nameOfficialZH</td><td><viva:CountryNameOfficialZH /></td></tr>
+      </viva:foreachCountryNameOfficialZHIterator>
+      <viva:foreachCountryNationalityARIterator>
+         <tr><td>nationalityAR</td><td><viva:CountryNationalityAR /></td></tr>
+      </viva:foreachCountryNationalityARIterator>
+      <viva:foreachCountryPopulationUnitIterator>
+         <tr><td>populationUnit</td><td><viva:CountryPopulationUnit /></td></tr>
+      </viva:foreachCountryPopulationUnitIterator>
+      <viva:foreachCountryNationalityESIterator>
+         <tr><td>nationalityES</td><td><viva:CountryNationalityES /></td></tr>
+      </viva:foreachCountryNationalityESIterator>
+      <viva:foreachCountryNameListARIterator>
+         <tr><td>nameListAR</td><td><viva:CountryNameListAR /></td></tr>
+      </viva:foreachCountryNameListARIterator>
+      <viva:foreachCountryValidUntilIterator>
+         <tr><td>validUntil</td><td><viva:CountryValidUntil /></td></tr>
+      </viva:foreachCountryValidUntilIterator>
+      <viva:foreachCountryCountryAreaTotalIterator>
+         <tr><td>countryAreaTotal</td><td><viva:CountryCountryAreaTotal /></td></tr>
+      </viva:foreachCountryCountryAreaTotalIterator>
+      <viva:foreachCountryHasMinLatitudeIterator>
+         <tr><td>hasMinLatitude</td><td><viva:CountryHasMinLatitude /></td></tr>
+      </viva:foreachCountryHasMinLatitudeIterator>
+      <viva:foreachCountryNameShortZHIterator>
+         <tr><td>nameShortZH</td><td><viva:CountryNameShortZH /></td></tr>
+      </viva:foreachCountryNameShortZHIterator>
+      <viva:foreachCountryNameShortITIterator>
+         <tr><td>nameShortIT</td><td><viva:CountryNameShortIT /></td></tr>
+      </viva:foreachCountryNameShortITIterator>
+      <viva:foreachCountryCodeISO3Iterator>
+         <tr><td>codeISO3</td><td><viva:CountryCodeISO3 /></td></tr>
+      </viva:foreachCountryCodeISO3Iterator>
+      <viva:foreachCountryCodeAGROVOCIterator>
+         <tr><td>codeAGROVOC</td><td><viva:CountryCodeAGROVOC /></td></tr>
+      </viva:foreachCountryCodeAGROVOCIterator>
+      <viva:foreachCountryNationalityRUIterator>
+         <tr><td>nationalityRU</td><td><viva:CountryNationalityRU /></td></tr>
+      </viva:foreachCountryNationalityRUIterator>
+      <viva:foreachCountryHasMaxLongitudeIterator>
+         <tr><td>hasMaxLongitude</td><td><viva:CountryHasMaxLongitude /></td></tr>
+      </viva:foreachCountryHasMaxLongitudeIterator>
+      <viva:foreachCountryNameCurrencyZHIterator>
+         <tr><td>nameCurrencyZH</td><td><viva:CountryNameCurrencyZH /></td></tr>
+      </viva:foreachCountryNameCurrencyZHIterator>
+      <viva:foreachCountryNationalityENIterator>
+         <tr><td>nationalityEN</td><td><viva:CountryNationalityEN /></td></tr>
+      </viva:foreachCountryNationalityENIterator>
+      <viva:foreachCountryAgriculturalAreaNotesIterator>
+         <tr><td>agriculturalAreaNotes</td><td><viva:CountryAgriculturalAreaNotes /></td></tr>
+      </viva:foreachCountryAgriculturalAreaNotesIterator>
+      <viva:foreachCountryNameListFRIterator>
+         <tr><td>nameListFR</td><td><viva:CountryNameListFR /></td></tr>
+      </viva:foreachCountryNameListFRIterator>
+      <viva:foreachCountryNameOfficialESIterator>
+         <tr><td>nameOfficialES</td><td><viva:CountryNameOfficialES /></td></tr>
+      </viva:foreachCountryNameOfficialESIterator>
+      <viva:foreachCountryNameCurrencyENIterator>
+         <tr><td>nameCurrencyEN</td><td><viva:CountryNameCurrencyEN /></td></tr>
+      </viva:foreachCountryNameCurrencyENIterator>
+      <viva:foreachCountryCountryAreaNotesIterator>
+         <tr><td>countryAreaNotes</td><td><viva:CountryCountryAreaNotes /></td></tr>
+      </viva:foreachCountryCountryAreaNotesIterator>
+      <viva:foreachCountryCodeFAOTERMIterator>
+         <tr><td>codeFAOTERM</td><td><viva:CountryCodeFAOTERM /></td></tr>
+      </viva:foreachCountryCodeFAOTERMIterator>
+      <viva:foreachCountryNameOfficialITIterator>
+         <tr><td>nameOfficialIT</td><td><viva:CountryNameOfficialIT /></td></tr>
+      </viva:foreachCountryNameOfficialITIterator>
+      <viva:foreachCountryNameListRUIterator>
+         <tr><td>nameListRU</td><td><viva:CountryNameListRU /></td></tr>
+      </viva:foreachCountryNameListRUIterator>
+      <viva:foreachCountryNameShortESIterator>
+         <tr><td>nameShortES</td><td><viva:CountryNameShortES /></td></tr>
+      </viva:foreachCountryNameShortESIterator>
+      <viva:foreachCountryGDPYearIterator>
+         <tr><td>GDPYear</td><td><viva:CountryGDPYear /></td></tr>
+      </viva:foreachCountryGDPYearIterator>
+      <viva:foreachCountryPopulationYearIterator>
+         <tr><td>populationYear</td><td><viva:CountryPopulationYear /></td></tr>
+      </viva:foreachCountryPopulationYearIterator>
+      <viva:foreachCountryPopulationNotesIterator>
+         <tr><td>populationNotes</td><td><viva:CountryPopulationNotes /></td></tr>
+      </viva:foreachCountryPopulationNotesIterator>
+      <viva:foreachCountryCountryAreaUnitIterator>
+         <tr><td>countryAreaUnit</td><td><viva:CountryCountryAreaUnit /></td></tr>
+      </viva:foreachCountryCountryAreaUnitIterator>
+      <viva:foreachCountryHasMinLongitudeIterator>
+         <tr><td>hasMinLongitude</td><td><viva:CountryHasMinLongitude /></td></tr>
+      </viva:foreachCountryHasMinLongitudeIterator>
+      <viva:foreachCountryNameCurrencyITIterator>
+         <tr><td>nameCurrencyIT</td><td><viva:CountryNameCurrencyIT /></td></tr>
+      </viva:foreachCountryNameCurrencyITIterator>
+      <viva:foreachCountryCodeFAOSTATIterator>
+         <tr><td>codeFAOSTAT</td><td><viva:CountryCodeFAOSTAT /></td></tr>
+      </viva:foreachCountryCodeFAOSTATIterator>
+      <viva:foreachCountryNameCurrencyARIterator>
+         <tr><td>nameCurrencyAR</td><td><viva:CountryNameCurrencyAR /></td></tr>
+      </viva:foreachCountryNameCurrencyARIterator>
+      <viva:foreachCountryNameCurrencyESIterator>
+         <tr><td>nameCurrencyES</td><td><viva:CountryNameCurrencyES /></td></tr>
+      </viva:foreachCountryNameCurrencyESIterator>
+      <viva:foreachCountryCodeDBPediaIDIterator>
+         <tr><td>codeDBPediaID</td><td><viva:CountryCodeDBPediaID /></td></tr>
+      </viva:foreachCountryCodeDBPediaIDIterator>
+      <viva:foreachCountryNameListZHIterator>
+         <tr><td>nameListZH</td><td><viva:CountryNameListZH /></td></tr>
+      </viva:foreachCountryNameListZHIterator>
+      <viva:foreachCountryNameShortENIterator>
+         <tr><td>nameShortEN</td><td><viva:CountryNameShortEN /></td></tr>
+      </viva:foreachCountryNameShortENIterator>
+      <viva:foreachCountryNameOfficialARIterator>
+         <tr><td>nameOfficialAR</td><td><viva:CountryNameOfficialAR /></td></tr>
+      </viva:foreachCountryNameOfficialARIterator>
+      <viva:foreachCountryHasMaxLatitudeIterator>
+         <tr><td>hasMaxLatitude</td><td><viva:CountryHasMaxLatitude /></td></tr>
+      </viva:foreachCountryHasMaxLatitudeIterator>
+      <viva:foreachCountryNationalityFRIterator>
+         <tr><td>nationalityFR</td><td><viva:CountryNationalityFR /></td></tr>
+      </viva:foreachCountryNationalityFRIterator>
+      <viva:foreachCountryNationalityZHIterator>
+         <tr><td>nationalityZH</td><td><viva:CountryNationalityZH /></td></tr>
+      </viva:foreachCountryNationalityZHIterator>
+      <viva:foreachCountryGDPUnitIterator>
+         <tr><td>GDPUnit</td><td><viva:CountryGDPUnit /></td></tr>
+      </viva:foreachCountryGDPUnitIterator>
+      <viva:foreachCountryHDINotesIterator>
+         <tr><td>HDINotes</td><td><viva:CountryHDINotes /></td></tr>
+      </viva:foreachCountryHDINotesIterator>
+      <viva:foreachCountryLandAreaYearIterator>
+         <tr><td>landAreaYear</td><td><viva:CountryLandAreaYear /></td></tr>
+      </viva:foreachCountryLandAreaYearIterator>
+      <viva:foreachCountryCountryAreaYearIterator>
+         <tr><td>countryAreaYear</td><td><viva:CountryCountryAreaYear /></td></tr>
+      </viva:foreachCountryCountryAreaYearIterator>
+      <viva:foreachCountryNameShortARIterator>
+         <tr><td>nameShortAR</td><td><viva:CountryNameShortAR /></td></tr>
+      </viva:foreachCountryNameShortARIterator>
+      <viva:foreachCountryValidSinceIterator>
+         <tr><td>validSince</td><td><viva:CountryValidSince /></td></tr>
+      </viva:foreachCountryValidSinceIterator>
+      <viva:foreachCountryNameOfficialENIterator>
+         <tr><td>nameOfficialEN</td><td><viva:CountryNameOfficialEN /></td></tr>
+      </viva:foreachCountryNameOfficialENIterator>
+      <viva:foreachCountryLandAreaUnitIterator>
+         <tr><td>landAreaUnit</td><td><viva:CountryLandAreaUnit /></td></tr>
+      </viva:foreachCountryLandAreaUnitIterator>
+      <viva:foreachCountryPopulationTotalIterator>
+         <tr><td>populationTotal</td><td><viva:CountryPopulationTotal /></td></tr>
+      </viva:foreachCountryPopulationTotalIterator>
+      <viva:foreachCountryNameShortFRIterator>
+         <tr><td>nameShortFR</td><td><viva:CountryNameShortFR /></td></tr>
+      </viva:foreachCountryNameShortFRIterator>
+      <viva:foreachCountryCodeISO2Iterator>
+         <tr><td>codeISO2</td><td><viva:CountryCodeISO2 /></td></tr>
+      </viva:foreachCountryCodeISO2Iterator>
+      <viva:foreachCountryCodeGAULIterator>
+         <tr><td>codeGAUL</td><td><viva:CountryCodeGAUL /></td></tr>
+      </viva:foreachCountryCodeGAULIterator>
+      <viva:foreachCountryHDITotalIterator>
+         <tr><td>HDITotal</td><td><viva:CountryHDITotal /></td></tr>
+      </viva:foreachCountryHDITotalIterator>
+      <viva:foreachCountryNameCurrencyRUIterator>
+         <tr><td>nameCurrencyRU</td><td><viva:CountryNameCurrencyRU /></td></tr>
+      </viva:foreachCountryNameCurrencyRUIterator>
+      <viva:foreachCountryCodeCurrencyIterator>
+         <tr><td>codeCurrency</td><td><viva:CountryCodeCurrency /></td></tr>
+      </viva:foreachCountryCodeCurrencyIterator>
+      <viva:foreachCountryNameOfficialFRIterator>
+         <tr><td>nameOfficialFR</td><td><viva:CountryNameOfficialFR /></td></tr>
+      </viva:foreachCountryNameOfficialFRIterator>
+      <viva:foreachCountryLandAreaTotalIterator>
+         <tr><td>landAreaTotal</td><td><viva:CountryLandAreaTotal /></td></tr>
+      </viva:foreachCountryLandAreaTotalIterator>
+      <viva:foreachCountryNameListESIterator>
+         <tr><td>nameListES</td><td><viva:CountryNameListES /></td></tr>
+      </viva:foreachCountryNameListESIterator>
+      <viva:foreachCountryNameListITIterator>
+         <tr><td>nameListIT</td><td><viva:CountryNameListIT /></td></tr>
+      </viva:foreachCountryNameListITIterator>
+      <viva:foreachCountryCodeUNIterator>
+         <tr><td>codeUN</td><td><viva:CountryCodeUN /></td></tr>
+      </viva:foreachCountryCodeUNIterator>
+      <viva:foreachCountryNameShortRUIterator>
+         <tr><td>nameShortRU</td><td><viva:CountryNameShortRU /></td></tr>
+      </viva:foreachCountryNameShortRUIterator>
+      <viva:foreachCountryHDIYearIterator>
+         <tr><td>HDIYear</td><td><viva:CountryHDIYear /></td></tr>
+      </viva:foreachCountryHDIYearIterator>
+      <viva:foreachCountryCodeUNDPIterator>
+         <tr><td>codeUNDP</td><td><viva:CountryCodeUNDP /></td></tr>
+      </viva:foreachCountryCodeUNDPIterator>
+      <viva:foreachCountryLandAreaNotesIterator>
+         <tr><td>landAreaNotes</td><td><viva:CountryLandAreaNotes /></td></tr>
+      </viva:foreachCountryLandAreaNotesIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachCountryBFO_0000051Iterator>
-         <tr><td>BFO_0000051</td><td><a href="../<vivo:CountryBFO_0000051Type/>/<vivo:CountryBFO_0000051Type/>.jsp?uri=<vivo:CountryBFO_0000051/>"><vivo:CountryBFO_0000051 /></a></td></tr>
-      </vivo:foreachCountryBFO_0000051Iterator>
-      <vivo:foreachCountryRO_0001015Iterator>
-         <tr><td>RO_0001015</td><td><a href="../<vivo:CountryRO_0001015Type/>/<vivo:CountryRO_0001015Type/>.jsp?uri=<vivo:CountryRO_0001015/>"><vivo:CountryRO_0001015 /></a></td></tr>
-      </vivo:foreachCountryRO_0001015Iterator>
-      <vivo:foreachCountryHasBorderWithIterator>
-         <tr><td>hasBorderWith</td><td><a href="../<vivo:CountryHasBorderWithType/>/<vivo:CountryHasBorderWithType/>.jsp?uri=<vivo:CountryHasBorderWith/>"><vivo:CountryHasBorderWith /></a></td></tr>
-      </vivo:foreachCountryHasBorderWithIterator>
-      <vivo:foreachCountryRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<vivo:CountryRO_0000053Type/>/<vivo:CountryRO_0000053Type/>.jsp?uri=<vivo:CountryRO_0000053/>"><vivo:CountryRO_0000053 /></a></td></tr>
-      </vivo:foreachCountryRO_0000053Iterator>
-      <vivo:foreachCountryRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:CountryRO_0000056Type/>/<vivo:CountryRO_0000056Type/>.jsp?uri=<vivo:CountryRO_0000056/>"><vivo:CountryRO_0000056 /></a></td></tr>
-      </vivo:foreachCountryRO_0000056Iterator>
-      <vivo:foreachCountryGeographicFocusOfIterator>
-         <tr><td>geographicFocusOf</td><td><a href="../<vivo:CountryGeographicFocusOfType/>/<vivo:CountryGeographicFocusOfType/>.jsp?uri=<vivo:CountryGeographicFocusOf/>"><vivo:CountryGeographicFocusOf /></a></td></tr>
-      </vivo:foreachCountryGeographicFocusOfIterator>
+      <viva:foreachCountryBFO_0000051Iterator>
+         <tr><td>BFO_0000051</td><td><a href="../<viva:CountryBFO_0000051Type/>/<viva:CountryBFO_0000051Type/>.jsp?uri=<viva:CountryBFO_0000051/>"><viva:CountryBFO_0000051 /></a></td></tr>
+      </viva:foreachCountryBFO_0000051Iterator>
+      <viva:foreachCountryRO_0001015Iterator>
+         <tr><td>RO_0001015</td><td><a href="../<viva:CountryRO_0001015Type/>/<viva:CountryRO_0001015Type/>.jsp?uri=<viva:CountryRO_0001015/>"><viva:CountryRO_0001015 /></a></td></tr>
+      </viva:foreachCountryRO_0001015Iterator>
+      <viva:foreachCountryHasBorderWithIterator>
+         <tr><td>hasBorderWith</td><td><a href="../<viva:CountryHasBorderWithType/>/<viva:CountryHasBorderWithType/>.jsp?uri=<viva:CountryHasBorderWith/>"><viva:CountryHasBorderWith /></a></td></tr>
+      </viva:foreachCountryHasBorderWithIterator>
+      <viva:foreachCountryRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:CountryRO_0000053Type/>/<viva:CountryRO_0000053Type/>.jsp?uri=<viva:CountryRO_0000053/>"><viva:CountryRO_0000053 /></a></td></tr>
+      </viva:foreachCountryRO_0000053Iterator>
+      <viva:foreachCountryGeographicFocusOfIterator>
+         <tr><td>geographicFocusOf</td><td><a href="../<viva:CountryGeographicFocusOfType/>/<viva:CountryGeographicFocusOfType/>.jsp?uri=<viva:CountryGeographicFocusOf/>"><viva:CountryGeographicFocusOf /></a></td></tr>
+      </viva:foreachCountryGeographicFocusOfIterator>
+      <viva:foreachCountryRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:CountryRO_0000056Type/>/<viva:CountryRO_0000056Type/>.jsp?uri=<viva:CountryRO_0000056/>"><viva:CountryRO_0000056 /></a></td></tr>
+      </viva:foreachCountryRO_0000056Iterator>
    </table>
-   </vivo:Country>
+
+   <h3>Inverse Object Properties (these do not have declared inverses)</h3>
+   <table>
+      <viva:foreachCountryIsAdministeredByInverseIterator>
+         <tr><td>isAdministeredBy</td><td><a href="../<viva:CountryIsAdministeredByInverseType/>/<viva:CountryIsAdministeredByInverseType/>.jsp?uri=<viva:CountryIsAdministeredByInverse/>"><viva:CountryIsAdministeredByInverse/></a></td></tr>
+      </viva:foreachCountryIsAdministeredByInverseIterator>
+      <viva:foreachCountryValidInInverseIterator>
+         <tr><td>validIn</td><td><a href="../<viva:CountryValidInInverseType/>/<viva:CountryValidInInverseType/>.jsp?uri=<viva:CountryValidInInverse/>"><viva:CountryValidInInverse/></a></td></tr>
+      </viva:foreachCountryValidInInverseIterator>
+   </table>
+   </viva:Country>
 
 <jsp:include page="/footer.jsp" flush="true" /></div></div></body>
 </html>

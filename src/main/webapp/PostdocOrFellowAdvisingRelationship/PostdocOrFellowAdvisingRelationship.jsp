@@ -1,23 +1,24 @@
-<%@ page language="java" contentType="text/html; charset=US-ASCII" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="vivo" uri="http://slis.uiowa.edu/VIVOISF"%>
+<%@ taglib prefix="viva" uri="http://slis.uiowa.edu/VIVOISF"%>
 <%@ taglib prefix="util" uri="http://icts.uiowa.edu/tagUtil"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>PostdocOrFellowAdvisingRelationship - http://vivoweb.org/ontology/core#PostdocOrFellowAdvisingRelationship</title>
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altPostdocOrFellowAdvisingRelationship.jsp?uri=${param.uri}">alternate view</a></p>
-   <vivo:PostdocOrFellowAdvisingRelationship subjectURI="${param.uri}">
+   <p><a href="../utility/sparqlDump.jsp?type=PostdocOrFellowAdvisingRelationship&uri=${param.uri}">RDF dump</a></p>
+   <viva:PostdocOrFellowAdvisingRelationship subjectURI="${param.uri}">
 
    <h3>Default Properties</h3>
    <table>
-      <tr><td>URI</td><td><a href="<vivo:PostdocOrFellowAdvisingRelationshipSubjectURI/>"><vivo:PostdocOrFellowAdvisingRelationshipSubjectURI /></a></td></tr>
-      <tr><td>Label</td><td><vivo:PostdocOrFellowAdvisingRelationshipLabel /></td></tr>
+      <tr><td>URI</td><td><a href="<viva:PostdocOrFellowAdvisingRelationshipSubjectURI/>"><viva:PostdocOrFellowAdvisingRelationshipSubjectURI /></a></td></tr>
+      <tr><td>Label</td><td><viva:PostdocOrFellowAdvisingRelationshipLabel /></td></tr>
    </table>
 
    <h3>Functional Datatype Properties</h3>
@@ -30,17 +31,21 @@
 
    <h3>Object Properties</h3>
    <table>
-      <vivo:foreachPostdocOrFellowAdvisingRelationshipDegreeCandidacyIterator>
-         <tr><td>degreeCandidacy</td><td><a href="../<vivo:PostdocOrFellowAdvisingRelationshipDegreeCandidacyType/>/<vivo:PostdocOrFellowAdvisingRelationshipDegreeCandidacyType/>.jsp?uri=<vivo:PostdocOrFellowAdvisingRelationshipDegreeCandidacy/>"><vivo:PostdocOrFellowAdvisingRelationshipDegreeCandidacy /></a></td></tr>
-      </vivo:foreachPostdocOrFellowAdvisingRelationshipDegreeCandidacyIterator>
-      <vivo:foreachPostdocOrFellowAdvisingRelationshipRO_0000052Iterator>
-         <tr><td>RO_0000052</td><td><a href="../<vivo:PostdocOrFellowAdvisingRelationshipRO_0000052Type/>/<vivo:PostdocOrFellowAdvisingRelationshipRO_0000052Type/>.jsp?uri=<vivo:PostdocOrFellowAdvisingRelationshipRO_0000052/>"><vivo:PostdocOrFellowAdvisingRelationshipRO_0000052 /></a></td></tr>
-      </vivo:foreachPostdocOrFellowAdvisingRelationshipRO_0000052Iterator>
-      <vivo:foreachPostdocOrFellowAdvisingRelationshipRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<vivo:PostdocOrFellowAdvisingRelationshipRO_0000056Type/>/<vivo:PostdocOrFellowAdvisingRelationshipRO_0000056Type/>.jsp?uri=<vivo:PostdocOrFellowAdvisingRelationshipRO_0000056/>"><vivo:PostdocOrFellowAdvisingRelationshipRO_0000056 /></a></td></tr>
-      </vivo:foreachPostdocOrFellowAdvisingRelationshipRO_0000056Iterator>
+      <viva:foreachPostdocOrFellowAdvisingRelationshipRO_0000052Iterator>
+         <tr><td>RO_0000052</td><td><a href="../<viva:PostdocOrFellowAdvisingRelationshipRO_0000052Type/>/<viva:PostdocOrFellowAdvisingRelationshipRO_0000052Type/>.jsp?uri=<viva:PostdocOrFellowAdvisingRelationshipRO_0000052/>"><viva:PostdocOrFellowAdvisingRelationshipRO_0000052 /></a></td></tr>
+      </viva:foreachPostdocOrFellowAdvisingRelationshipRO_0000052Iterator>
+      <viva:foreachPostdocOrFellowAdvisingRelationshipRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:PostdocOrFellowAdvisingRelationshipRO_0000056Type/>/<viva:PostdocOrFellowAdvisingRelationshipRO_0000056Type/>.jsp?uri=<viva:PostdocOrFellowAdvisingRelationshipRO_0000056/>"><viva:PostdocOrFellowAdvisingRelationshipRO_0000056 /></a></td></tr>
+      </viva:foreachPostdocOrFellowAdvisingRelationshipRO_0000056Iterator>
+      <viva:foreachPostdocOrFellowAdvisingRelationshipDegreeCandidacyIterator>
+         <tr><td>degreeCandidacy</td><td><a href="../<viva:PostdocOrFellowAdvisingRelationshipDegreeCandidacyType/>/<viva:PostdocOrFellowAdvisingRelationshipDegreeCandidacyType/>.jsp?uri=<viva:PostdocOrFellowAdvisingRelationshipDegreeCandidacy/>"><viva:PostdocOrFellowAdvisingRelationshipDegreeCandidacy /></a></td></tr>
+      </viva:foreachPostdocOrFellowAdvisingRelationshipDegreeCandidacyIterator>
    </table>
-   </vivo:PostdocOrFellowAdvisingRelationship>
+
+   <h3>Inverse Object Properties (these do not have declared inverses)</h3>
+   <table>
+   </table>
+   </viva:PostdocOrFellowAdvisingRelationship>
 
 <jsp:include page="/footer.jsp" flush="true" /></div></div></body>
 </html>
