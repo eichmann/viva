@@ -36,9 +36,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachCenterRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:CenterRO_0000053Type/>/<viva:CenterRO_0000053Type/>.jsp?uri=<viva:CenterRO_0000053/>"><viva:CenterRO_0000053 /></a></td></tr>
-      </viva:foreachCenterRO_0000053Iterator>
       <viva:foreachCenterAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<viva:CenterAssigneeForType/>/<viva:CenterAssigneeForType/>.jsp?uri=<viva:CenterAssigneeFor/>"><viva:CenterAssigneeFor /></a></td></tr>
       </viva:foreachCenterAssigneeForIterator>
@@ -48,9 +45,9 @@
       <viva:foreachCenterTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:CenterTranslatorOfType/>/<viva:CenterTranslatorOfType/>.jsp?uri=<viva:CenterTranslatorOf/>"><viva:CenterTranslatorOf /></a></td></tr>
       </viva:foreachCenterTranslatorOfIterator>
-      <viva:foreachCenterRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:CenterRO_0000056Type/>/<viva:CenterRO_0000056Type/>.jsp?uri=<viva:CenterRO_0000056/>"><viva:CenterRO_0000056 /></a></td></tr>
-      </viva:foreachCenterRO_0000056Iterator>
+      <viva:foreachCenterRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:CenterRO_0000053Type/>/<viva:CenterRO_0000053Type/>.jsp?uri=<viva:CenterRO_0000053/>"><viva:CenterRO_0000053 /></a></td></tr>
+      </viva:foreachCenterRO_0000053Iterator>
       <viva:foreachCenterSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:CenterSponsorsType/>/<viva:CenterSponsorsType/>.jsp?uri=<viva:CenterSponsors/>"><viva:CenterSponsors /></a></td></tr>
       </viva:foreachCenterSponsorsIterator>
@@ -87,6 +84,9 @@
       <viva:foreachCenterAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<viva:CenterAffiliatedOrganizationType/>/<viva:CenterAffiliatedOrganizationType/>.jsp?uri=<viva:CenterAffiliatedOrganization/>"><viva:CenterAffiliatedOrganization /></a></td></tr>
       </viva:foreachCenterAffiliatedOrganizationIterator>
+      <viva:foreachCenterRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:CenterRO_0000056Type/>/<viva:CenterRO_0000056Type/>.jsp?uri=<viva:CenterRO_0000056/>"><viva:CenterRO_0000056 /></a></td></tr>
+      </viva:foreachCenterRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

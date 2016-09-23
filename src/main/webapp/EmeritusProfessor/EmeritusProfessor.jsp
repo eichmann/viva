@@ -46,6 +46,9 @@
       <viva:foreachEmeritusProfessorResearcherIdIterator>
          <tr><td>researcherId</td><td><viva:EmeritusProfessorResearcherId /></td></tr>
       </viva:foreachEmeritusProfessorResearcherIdIterator>
+      <viva:foreachEmeritusProfessorSameAsIterator>
+         <tr><td>sameAs</td><td><viva:EmeritusProfessorSameAs /></td></tr>
+      </viva:foreachEmeritusProfessorSameAsIterator>
       <viva:foreachEmeritusProfessorFreetextKeywordIterator>
          <tr><td>freetextKeyword</td><td><viva:EmeritusProfessorFreetextKeyword /></td></tr>
       </viva:foreachEmeritusProfessorFreetextKeywordIterator>
@@ -53,9 +56,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachEmeritusProfessorRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:EmeritusProfessorRO_0000053Type/>/<viva:EmeritusProfessorRO_0000053Type/>.jsp?uri=<viva:EmeritusProfessorRO_0000053/>"><viva:EmeritusProfessorRO_0000053 /></a></td></tr>
-      </viva:foreachEmeritusProfessorRO_0000053Iterator>
       <viva:foreachEmeritusProfessorAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<viva:EmeritusProfessorAssigneeForType/>/<viva:EmeritusProfessorAssigneeForType/>.jsp?uri=<viva:EmeritusProfessorAssigneeFor/>"><viva:EmeritusProfessorAssigneeFor /></a></td></tr>
       </viva:foreachEmeritusProfessorAssigneeForIterator>
@@ -65,6 +65,9 @@
       <viva:foreachEmeritusProfessorTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:EmeritusProfessorTranslatorOfType/>/<viva:EmeritusProfessorTranslatorOfType/>.jsp?uri=<viva:EmeritusProfessorTranslatorOf/>"><viva:EmeritusProfessorTranslatorOf /></a></td></tr>
       </viva:foreachEmeritusProfessorTranslatorOfIterator>
+      <viva:foreachEmeritusProfessorRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:EmeritusProfessorRO_0000053Type/>/<viva:EmeritusProfessorRO_0000053Type/>.jsp?uri=<viva:EmeritusProfessorRO_0000053/>"><viva:EmeritusProfessorRO_0000053 /></a></td></tr>
+      </viva:foreachEmeritusProfessorRO_0000053Iterator>
       <viva:foreachEmeritusProfessorERO_0000397Iterator>
          <tr><td>ERO_0000397</td><td><a href="../<viva:EmeritusProfessorERO_0000397Type/>/<viva:EmeritusProfessorERO_0000397Type/>.jsp?uri=<viva:EmeritusProfessorERO_0000397/>"><viva:EmeritusProfessorERO_0000397 /></a></td></tr>
       </viva:foreachEmeritusProfessorERO_0000397Iterator>

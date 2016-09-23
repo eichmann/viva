@@ -46,6 +46,9 @@
       <viva:foreachStudentResearcherIdIterator>
          <tr><td>researcherId</td><td><viva:StudentResearcherId /></td></tr>
       </viva:foreachStudentResearcherIdIterator>
+      <viva:foreachStudentSameAsIterator>
+         <tr><td>sameAs</td><td><viva:StudentSameAs /></td></tr>
+      </viva:foreachStudentSameAsIterator>
       <viva:foreachStudentFreetextKeywordIterator>
          <tr><td>freetextKeyword</td><td><viva:StudentFreetextKeyword /></td></tr>
       </viva:foreachStudentFreetextKeywordIterator>
@@ -53,9 +56,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachStudentRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:StudentRO_0000053Type/>/<viva:StudentRO_0000053Type/>.jsp?uri=<viva:StudentRO_0000053/>"><viva:StudentRO_0000053 /></a></td></tr>
-      </viva:foreachStudentRO_0000053Iterator>
       <viva:foreachStudentAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<viva:StudentAssigneeForType/>/<viva:StudentAssigneeForType/>.jsp?uri=<viva:StudentAssigneeFor/>"><viva:StudentAssigneeFor /></a></td></tr>
       </viva:foreachStudentAssigneeForIterator>
@@ -65,6 +65,9 @@
       <viva:foreachStudentTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:StudentTranslatorOfType/>/<viva:StudentTranslatorOfType/>.jsp?uri=<viva:StudentTranslatorOf/>"><viva:StudentTranslatorOf /></a></td></tr>
       </viva:foreachStudentTranslatorOfIterator>
+      <viva:foreachStudentRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:StudentRO_0000053Type/>/<viva:StudentRO_0000053Type/>.jsp?uri=<viva:StudentRO_0000053/>"><viva:StudentRO_0000053 /></a></td></tr>
+      </viva:foreachStudentRO_0000053Iterator>
       <viva:foreachStudentERO_0000397Iterator>
          <tr><td>ERO_0000397</td><td><a href="../<viva:StudentERO_0000397Type/>/<viva:StudentERO_0000397Type/>.jsp?uri=<viva:StudentERO_0000397/>"><viva:StudentERO_0000397 /></a></td></tr>
       </viva:foreachStudentERO_0000397Iterator>

@@ -27,12 +27,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachWorkingPaperTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:WorkingPaperTheAbstract /></td></tr>
-      </viva:foreachWorkingPaperTheAbstractIterator>
-      <viva:foreachWorkingPaperDoiIterator>
-         <tr><td>doi</td><td><viva:WorkingPaperDoi /></td></tr>
-      </viva:foreachWorkingPaperDoiIterator>
       <viva:foreachWorkingPaperPmidIterator>
          <tr><td>pmid</td><td><viva:WorkingPaperPmid /></td></tr>
       </viva:foreachWorkingPaperPmidIterator>
@@ -45,25 +39,16 @@
       <viva:foreachWorkingPaperERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:WorkingPaperERO_0000045 /></td></tr>
       </viva:foreachWorkingPaperERO_0000045Iterator>
+      <viva:foreachWorkingPaperTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:WorkingPaperTheAbstract /></td></tr>
+      </viva:foreachWorkingPaperTheAbstractIterator>
+      <viva:foreachWorkingPaperDoiIterator>
+         <tr><td>doi</td><td><viva:WorkingPaperDoi /></td></tr>
+      </viva:foreachWorkingPaperDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachWorkingPaperRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:WorkingPaperRO_0000056Type/>/<viva:WorkingPaperRO_0000056Type/>.jsp?uri=<viva:WorkingPaperRO_0000056/>"><viva:WorkingPaperRO_0000056 /></a></td></tr>
-      </viva:foreachWorkingPaperRO_0000056Iterator>
-      <viva:foreachWorkingPaperTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:WorkingPaperTranslatorType/>/<viva:WorkingPaperTranslatorType/>.jsp?uri=<viva:WorkingPaperTranslator/>"><viva:WorkingPaperTranslator /></a></td></tr>
-      </viva:foreachWorkingPaperTranslatorIterator>
-      <viva:foreachWorkingPaperFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:WorkingPaperFeaturesType/>/<viva:WorkingPaperFeaturesType/>.jsp?uri=<viva:WorkingPaperFeatures/>"><viva:WorkingPaperFeatures /></a></td></tr>
-      </viva:foreachWorkingPaperFeaturesIterator>
-      <viva:foreachWorkingPaperInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:WorkingPaperInformationResourceSupportedByType/>/<viva:WorkingPaperInformationResourceSupportedByType/>.jsp?uri=<viva:WorkingPaperInformationResourceSupportedBy/>"><viva:WorkingPaperInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachWorkingPaperInformationResourceSupportedByIterator>
-      <viva:foreachWorkingPaperIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:WorkingPaperIAO_0000136Type/>/<viva:WorkingPaperIAO_0000136Type/>.jsp?uri=<viva:WorkingPaperIAO_0000136/>"><viva:WorkingPaperIAO_0000136 /></a></td></tr>
-      </viva:foreachWorkingPaperIAO_0000136Iterator>
       <viva:foreachWorkingPaperDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:WorkingPaperDocumentationForType/>/<viva:WorkingPaperDocumentationForType/>.jsp?uri=<viva:WorkingPaperDocumentationFor/>"><viva:WorkingPaperDocumentationFor /></a></td></tr>
       </viva:foreachWorkingPaperDocumentationForIterator>
@@ -91,6 +76,21 @@
       <viva:foreachWorkingPaperCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:WorkingPaperCitesType/>/<viva:WorkingPaperCitesType/>.jsp?uri=<viva:WorkingPaperCites/>"><viva:WorkingPaperCites /></a></td></tr>
       </viva:foreachWorkingPaperCitesIterator>
+      <viva:foreachWorkingPaperRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:WorkingPaperRO_0000056Type/>/<viva:WorkingPaperRO_0000056Type/>.jsp?uri=<viva:WorkingPaperRO_0000056/>"><viva:WorkingPaperRO_0000056 /></a></td></tr>
+      </viva:foreachWorkingPaperRO_0000056Iterator>
+      <viva:foreachWorkingPaperTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:WorkingPaperTranslatorType/>/<viva:WorkingPaperTranslatorType/>.jsp?uri=<viva:WorkingPaperTranslator/>"><viva:WorkingPaperTranslator /></a></td></tr>
+      </viva:foreachWorkingPaperTranslatorIterator>
+      <viva:foreachWorkingPaperFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:WorkingPaperFeaturesType/>/<viva:WorkingPaperFeaturesType/>.jsp?uri=<viva:WorkingPaperFeatures/>"><viva:WorkingPaperFeatures /></a></td></tr>
+      </viva:foreachWorkingPaperFeaturesIterator>
+      <viva:foreachWorkingPaperInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:WorkingPaperInformationResourceSupportedByType/>/<viva:WorkingPaperInformationResourceSupportedByType/>.jsp?uri=<viva:WorkingPaperInformationResourceSupportedBy/>"><viva:WorkingPaperInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachWorkingPaperInformationResourceSupportedByIterator>
+      <viva:foreachWorkingPaperIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:WorkingPaperIAO_0000136Type/>/<viva:WorkingPaperIAO_0000136Type/>.jsp?uri=<viva:WorkingPaperIAO_0000136/>"><viva:WorkingPaperIAO_0000136 /></a></td></tr>
+      </viva:foreachWorkingPaperIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

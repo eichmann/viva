@@ -27,12 +27,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachStatuteTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:StatuteTheAbstract /></td></tr>
-      </viva:foreachStatuteTheAbstractIterator>
-      <viva:foreachStatuteDoiIterator>
-         <tr><td>doi</td><td><viva:StatuteDoi /></td></tr>
-      </viva:foreachStatuteDoiIterator>
       <viva:foreachStatutePmidIterator>
          <tr><td>pmid</td><td><viva:StatutePmid /></td></tr>
       </viva:foreachStatutePmidIterator>
@@ -45,25 +39,16 @@
       <viva:foreachStatuteERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:StatuteERO_0000045 /></td></tr>
       </viva:foreachStatuteERO_0000045Iterator>
+      <viva:foreachStatuteTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:StatuteTheAbstract /></td></tr>
+      </viva:foreachStatuteTheAbstractIterator>
+      <viva:foreachStatuteDoiIterator>
+         <tr><td>doi</td><td><viva:StatuteDoi /></td></tr>
+      </viva:foreachStatuteDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachStatuteRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:StatuteRO_0000056Type/>/<viva:StatuteRO_0000056Type/>.jsp?uri=<viva:StatuteRO_0000056/>"><viva:StatuteRO_0000056 /></a></td></tr>
-      </viva:foreachStatuteRO_0000056Iterator>
-      <viva:foreachStatuteTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:StatuteTranslatorType/>/<viva:StatuteTranslatorType/>.jsp?uri=<viva:StatuteTranslator/>"><viva:StatuteTranslator /></a></td></tr>
-      </viva:foreachStatuteTranslatorIterator>
-      <viva:foreachStatuteFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:StatuteFeaturesType/>/<viva:StatuteFeaturesType/>.jsp?uri=<viva:StatuteFeatures/>"><viva:StatuteFeatures /></a></td></tr>
-      </viva:foreachStatuteFeaturesIterator>
-      <viva:foreachStatuteInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:StatuteInformationResourceSupportedByType/>/<viva:StatuteInformationResourceSupportedByType/>.jsp?uri=<viva:StatuteInformationResourceSupportedBy/>"><viva:StatuteInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachStatuteInformationResourceSupportedByIterator>
-      <viva:foreachStatuteIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:StatuteIAO_0000136Type/>/<viva:StatuteIAO_0000136Type/>.jsp?uri=<viva:StatuteIAO_0000136/>"><viva:StatuteIAO_0000136 /></a></td></tr>
-      </viva:foreachStatuteIAO_0000136Iterator>
       <viva:foreachStatuteDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:StatuteDocumentationForType/>/<viva:StatuteDocumentationForType/>.jsp?uri=<viva:StatuteDocumentationFor/>"><viva:StatuteDocumentationFor /></a></td></tr>
       </viva:foreachStatuteDocumentationForIterator>
@@ -91,6 +76,21 @@
       <viva:foreachStatuteCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:StatuteCitesType/>/<viva:StatuteCitesType/>.jsp?uri=<viva:StatuteCites/>"><viva:StatuteCites /></a></td></tr>
       </viva:foreachStatuteCitesIterator>
+      <viva:foreachStatuteRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:StatuteRO_0000056Type/>/<viva:StatuteRO_0000056Type/>.jsp?uri=<viva:StatuteRO_0000056/>"><viva:StatuteRO_0000056 /></a></td></tr>
+      </viva:foreachStatuteRO_0000056Iterator>
+      <viva:foreachStatuteTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:StatuteTranslatorType/>/<viva:StatuteTranslatorType/>.jsp?uri=<viva:StatuteTranslator/>"><viva:StatuteTranslator /></a></td></tr>
+      </viva:foreachStatuteTranslatorIterator>
+      <viva:foreachStatuteFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:StatuteFeaturesType/>/<viva:StatuteFeaturesType/>.jsp?uri=<viva:StatuteFeatures/>"><viva:StatuteFeatures /></a></td></tr>
+      </viva:foreachStatuteFeaturesIterator>
+      <viva:foreachStatuteInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:StatuteInformationResourceSupportedByType/>/<viva:StatuteInformationResourceSupportedByType/>.jsp?uri=<viva:StatuteInformationResourceSupportedBy/>"><viva:StatuteInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachStatuteInformationResourceSupportedByIterator>
+      <viva:foreachStatuteIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:StatuteIAO_0000136Type/>/<viva:StatuteIAO_0000136Type/>.jsp?uri=<viva:StatuteIAO_0000136/>"><viva:StatuteIAO_0000136 /></a></td></tr>
+      </viva:foreachStatuteIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

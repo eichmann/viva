@@ -37,9 +37,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachSynonymTypeRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:SynonymTypeRO_0000056Type/>/<viva:SynonymTypeRO_0000056Type/>.jsp?uri=<viva:SynonymTypeRO_0000056/>"><viva:SynonymTypeRO_0000056 /></a></td></tr>
-      </viva:foreachSynonymTypeRO_0000056Iterator>
       <viva:foreachSynonymTypeTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:SynonymTypeTranslatorType/>/<viva:SynonymTypeTranslatorType/>.jsp?uri=<viva:SynonymTypeTranslator/>"><viva:SynonymTypeTranslator /></a></td></tr>
       </viva:foreachSynonymTypeTranslatorIterator>
@@ -52,6 +49,9 @@
       <viva:foreachSynonymTypeIAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<viva:SynonymTypeIAO_0000136Type/>/<viva:SynonymTypeIAO_0000136Type/>.jsp?uri=<viva:SynonymTypeIAO_0000136/>"><viva:SynonymTypeIAO_0000136 /></a></td></tr>
       </viva:foreachSynonymTypeIAO_0000136Iterator>
+      <viva:foreachSynonymTypeRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:SynonymTypeRO_0000056Type/>/<viva:SynonymTypeRO_0000056Type/>.jsp?uri=<viva:SynonymTypeRO_0000056/>"><viva:SynonymTypeRO_0000056 /></a></td></tr>
+      </viva:foreachSynonymTypeRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

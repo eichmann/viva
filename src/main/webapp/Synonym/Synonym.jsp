@@ -37,9 +37,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachSynonymRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:SynonymRO_0000056Type/>/<viva:SynonymRO_0000056Type/>.jsp?uri=<viva:SynonymRO_0000056/>"><viva:SynonymRO_0000056 /></a></td></tr>
-      </viva:foreachSynonymRO_0000056Iterator>
       <viva:foreachSynonymTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:SynonymTranslatorType/>/<viva:SynonymTranslatorType/>.jsp?uri=<viva:SynonymTranslator/>"><viva:SynonymTranslator /></a></td></tr>
       </viva:foreachSynonymTranslatorIterator>
@@ -52,6 +49,9 @@
       <viva:foreachSynonymIAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<viva:SynonymIAO_0000136Type/>/<viva:SynonymIAO_0000136Type/>.jsp?uri=<viva:SynonymIAO_0000136/>"><viva:SynonymIAO_0000136 /></a></td></tr>
       </viva:foreachSynonymIAO_0000136Iterator>
+      <viva:foreachSynonymRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:SynonymRO_0000056Type/>/<viva:SynonymRO_0000056Type/>.jsp?uri=<viva:SynonymRO_0000056/>"><viva:SynonymRO_0000056 /></a></td></tr>
+      </viva:foreachSynonymRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

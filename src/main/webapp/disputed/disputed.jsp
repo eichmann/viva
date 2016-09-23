@@ -31,34 +31,34 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachdisputedIsInGroupIterator>
-         <tr><td>isInGroup</td><td><a href="../<viva:disputedIsInGroupType/>/<viva:disputedIsInGroupType/>.jsp?uri=<viva:disputedIsInGroup/>"><viva:disputedIsInGroup /></a></td></tr>
-      </viva:foreachdisputedIsInGroupIterator>
       <viva:foreachdisputedGeographicFocusOfIterator>
          <tr><td>geographicFocusOf</td><td><a href="../<viva:disputedGeographicFocusOfType/>/<viva:disputedGeographicFocusOfType/>.jsp?uri=<viva:disputedGeographicFocusOf/>"><viva:disputedGeographicFocusOf /></a></td></tr>
       </viva:foreachdisputedGeographicFocusOfIterator>
-      <viva:foreachdisputedRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:disputedRO_0000053Type/>/<viva:disputedRO_0000053Type/>.jsp?uri=<viva:disputedRO_0000053/>"><viva:disputedRO_0000053 /></a></td></tr>
-      </viva:foreachdisputedRO_0000053Iterator>
+      <viva:foreachdisputedIsInGroupIterator>
+         <tr><td>isInGroup</td><td><a href="../<viva:disputedIsInGroupType/>/<viva:disputedIsInGroupType/>.jsp?uri=<viva:disputedIsInGroup/>"><viva:disputedIsInGroup /></a></td></tr>
+      </viva:foreachdisputedIsInGroupIterator>
+      <viva:foreachdisputedRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:disputedRO_0000056Type/>/<viva:disputedRO_0000056Type/>.jsp?uri=<viva:disputedRO_0000056/>"><viva:disputedRO_0000056 /></a></td></tr>
+      </viva:foreachdisputedRO_0000056Iterator>
       <viva:foreachdisputedIsSuccessorOfIterator>
          <tr><td>isSuccessorOf</td><td><a href="../<viva:disputedIsSuccessorOfType/>/<viva:disputedIsSuccessorOfType/>.jsp?uri=<viva:disputedIsSuccessorOf/>"><viva:disputedIsSuccessorOf /></a></td></tr>
       </viva:foreachdisputedIsSuccessorOfIterator>
       <viva:foreachdisputedIsPredecessorOfIterator>
          <tr><td>isPredecessorOf</td><td><a href="../<viva:disputedIsPredecessorOfType/>/<viva:disputedIsPredecessorOfType/>.jsp?uri=<viva:disputedIsPredecessorOf/>"><viva:disputedIsPredecessorOf /></a></td></tr>
       </viva:foreachdisputedIsPredecessorOfIterator>
-      <viva:foreachdisputedRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:disputedRO_0000056Type/>/<viva:disputedRO_0000056Type/>.jsp?uri=<viva:disputedRO_0000056/>"><viva:disputedRO_0000056 /></a></td></tr>
-      </viva:foreachdisputedRO_0000056Iterator>
+      <viva:foreachdisputedRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:disputedRO_0000053Type/>/<viva:disputedRO_0000053Type/>.jsp?uri=<viva:disputedRO_0000053/>"><viva:disputedRO_0000053 /></a></td></tr>
+      </viva:foreachdisputedRO_0000053Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachdisputedValidInInverseIterator>
-         <tr><td>validIn</td><td><a href="../<viva:disputedValidInInverseType/>/<viva:disputedValidInInverseType/>.jsp?uri=<viva:disputedValidInInverse/>"><viva:disputedValidInInverse/></a></td></tr>
-      </viva:foreachdisputedValidInInverseIterator>
       <viva:foreachdisputedOrcidIdInverseIterator>
          <tr><td>orcidId</td><td><a href="../<viva:disputedOrcidIdInverseType/>/<viva:disputedOrcidIdInverseType/>.jsp?uri=<viva:disputedOrcidIdInverse/>"><viva:disputedOrcidIdInverse/></a></td></tr>
       </viva:foreachdisputedOrcidIdInverseIterator>
+      <viva:foreachdisputedValidInInverseIterator>
+         <tr><td>validIn</td><td><a href="../<viva:disputedValidInInverseType/>/<viva:disputedValidInInverseType/>.jsp?uri=<viva:disputedValidInInverse/>"><viva:disputedValidInInverse/></a></td></tr>
+      </viva:foreachdisputedValidInInverseIterator>
    </table>
    </viva:disputed>
 

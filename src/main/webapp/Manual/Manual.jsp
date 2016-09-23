@@ -49,9 +49,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachManualRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:ManualRO_0000056Type/>/<viva:ManualRO_0000056Type/>.jsp?uri=<viva:ManualRO_0000056/>"><viva:ManualRO_0000056 /></a></td></tr>
-      </viva:foreachManualRO_0000056Iterator>
       <viva:foreachManualDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:ManualDocumentationForType/>/<viva:ManualDocumentationForType/>.jsp?uri=<viva:ManualDocumentationFor/>"><viva:ManualDocumentationFor /></a></td></tr>
       </viva:foreachManualDocumentationForIterator>
@@ -79,6 +76,9 @@
       <viva:foreachManualCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:ManualCitesType/>/<viva:ManualCitesType/>.jsp?uri=<viva:ManualCites/>"><viva:ManualCites /></a></td></tr>
       </viva:foreachManualCitesIterator>
+      <viva:foreachManualRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:ManualRO_0000056Type/>/<viva:ManualRO_0000056Type/>.jsp?uri=<viva:ManualRO_0000056/>"><viva:ManualRO_0000056 /></a></td></tr>
+      </viva:foreachManualRO_0000056Iterator>
       <viva:foreachManualTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:ManualTranslatorType/>/<viva:ManualTranslatorType/>.jsp?uri=<viva:ManualTranslator/>"><viva:ManualTranslator /></a></td></tr>
       </viva:foreachManualTranslatorIterator>

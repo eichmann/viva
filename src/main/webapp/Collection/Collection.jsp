@@ -49,9 +49,6 @@
       <viva:foreachCollectionRelatedByIterator>
          <tr><td>relatedBy</td><td><a href="../<viva:CollectionRelatedByType/>/<viva:CollectionRelatedByType/>.jsp?uri=<viva:CollectionRelatedBy/>"><viva:CollectionRelatedBy /></a></td></tr>
       </viva:foreachCollectionRelatedByIterator>
-      <viva:foreachCollectionRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:CollectionRO_0000056Type/>/<viva:CollectionRO_0000056Type/>.jsp?uri=<viva:CollectionRO_0000056/>"><viva:CollectionRO_0000056 /></a></td></tr>
-      </viva:foreachCollectionRO_0000056Iterator>
       <viva:foreachCollectionTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:CollectionTranslatorType/>/<viva:CollectionTranslatorType/>.jsp?uri=<viva:CollectionTranslator/>"><viva:CollectionTranslator /></a></td></tr>
       </viva:foreachCollectionTranslatorIterator>
@@ -64,6 +61,9 @@
       <viva:foreachCollectionIAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<viva:CollectionIAO_0000136Type/>/<viva:CollectionIAO_0000136Type/>.jsp?uri=<viva:CollectionIAO_0000136/>"><viva:CollectionIAO_0000136 /></a></td></tr>
       </viva:foreachCollectionIAO_0000136Iterator>
+      <viva:foreachCollectionRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:CollectionRO_0000056Type/>/<viva:CollectionRO_0000056Type/>.jsp?uri=<viva:CollectionRO_0000056/>"><viva:CollectionRO_0000056 /></a></td></tr>
+      </viva:foreachCollectionRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

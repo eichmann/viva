@@ -46,6 +46,9 @@
       <viva:foreachPostdocResearcherIdIterator>
          <tr><td>researcherId</td><td><viva:PostdocResearcherId /></td></tr>
       </viva:foreachPostdocResearcherIdIterator>
+      <viva:foreachPostdocSameAsIterator>
+         <tr><td>sameAs</td><td><viva:PostdocSameAs /></td></tr>
+      </viva:foreachPostdocSameAsIterator>
       <viva:foreachPostdocFreetextKeywordIterator>
          <tr><td>freetextKeyword</td><td><viva:PostdocFreetextKeyword /></td></tr>
       </viva:foreachPostdocFreetextKeywordIterator>
@@ -53,9 +56,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachPostdocRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:PostdocRO_0000053Type/>/<viva:PostdocRO_0000053Type/>.jsp?uri=<viva:PostdocRO_0000053/>"><viva:PostdocRO_0000053 /></a></td></tr>
-      </viva:foreachPostdocRO_0000053Iterator>
       <viva:foreachPostdocAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<viva:PostdocAssigneeForType/>/<viva:PostdocAssigneeForType/>.jsp?uri=<viva:PostdocAssigneeFor/>"><viva:PostdocAssigneeFor /></a></td></tr>
       </viva:foreachPostdocAssigneeForIterator>
@@ -65,6 +65,9 @@
       <viva:foreachPostdocTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:PostdocTranslatorOfType/>/<viva:PostdocTranslatorOfType/>.jsp?uri=<viva:PostdocTranslatorOf/>"><viva:PostdocTranslatorOf /></a></td></tr>
       </viva:foreachPostdocTranslatorOfIterator>
+      <viva:foreachPostdocRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:PostdocRO_0000053Type/>/<viva:PostdocRO_0000053Type/>.jsp?uri=<viva:PostdocRO_0000053/>"><viva:PostdocRO_0000053 /></a></td></tr>
+      </viva:foreachPostdocRO_0000053Iterator>
       <viva:foreachPostdocERO_0000397Iterator>
          <tr><td>ERO_0000397</td><td><a href="../<viva:PostdocERO_0000397Type/>/<viva:PostdocERO_0000397Type/>.jsp?uri=<viva:PostdocERO_0000397/>"><viva:PostdocERO_0000397 /></a></td></tr>
       </viva:foreachPostdocERO_0000397Iterator>

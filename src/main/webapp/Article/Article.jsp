@@ -36,12 +36,6 @@
       <viva:foreachArticleNihmsidIterator>
          <tr><td>nihmsid</td><td><viva:ArticleNihmsid /></td></tr>
       </viva:foreachArticleNihmsidIterator>
-      <viva:foreachArticleTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:ArticleTheAbstract /></td></tr>
-      </viva:foreachArticleTheAbstractIterator>
-      <viva:foreachArticleDoiIterator>
-         <tr><td>doi</td><td><viva:ArticleDoi /></td></tr>
-      </viva:foreachArticleDoiIterator>
       <viva:foreachArticlePmidIterator>
          <tr><td>pmid</td><td><viva:ArticlePmid /></td></tr>
       </viva:foreachArticlePmidIterator>
@@ -54,6 +48,12 @@
       <viva:foreachArticleERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:ArticleERO_0000045 /></td></tr>
       </viva:foreachArticleERO_0000045Iterator>
+      <viva:foreachArticleTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:ArticleTheAbstract /></td></tr>
+      </viva:foreachArticleTheAbstractIterator>
+      <viva:foreachArticleDoiIterator>
+         <tr><td>doi</td><td><viva:ArticleDoi /></td></tr>
+      </viva:foreachArticleDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -73,21 +73,6 @@
       <viva:foreachArticleRelatesIterator>
          <tr><td>relates</td><td><a href="../<viva:ArticleRelatesType/>/<viva:ArticleRelatesType/>.jsp?uri=<viva:ArticleRelates/>"><viva:ArticleRelates /></a></td></tr>
       </viva:foreachArticleRelatesIterator>
-      <viva:foreachArticleRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:ArticleRO_0000056Type/>/<viva:ArticleRO_0000056Type/>.jsp?uri=<viva:ArticleRO_0000056/>"><viva:ArticleRO_0000056 /></a></td></tr>
-      </viva:foreachArticleRO_0000056Iterator>
-      <viva:foreachArticleTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:ArticleTranslatorType/>/<viva:ArticleTranslatorType/>.jsp?uri=<viva:ArticleTranslator/>"><viva:ArticleTranslator /></a></td></tr>
-      </viva:foreachArticleTranslatorIterator>
-      <viva:foreachArticleFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:ArticleFeaturesType/>/<viva:ArticleFeaturesType/>.jsp?uri=<viva:ArticleFeatures/>"><viva:ArticleFeatures /></a></td></tr>
-      </viva:foreachArticleFeaturesIterator>
-      <viva:foreachArticleInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ArticleInformationResourceSupportedByType/>/<viva:ArticleInformationResourceSupportedByType/>.jsp?uri=<viva:ArticleInformationResourceSupportedBy/>"><viva:ArticleInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachArticleInformationResourceSupportedByIterator>
-      <viva:foreachArticleIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ArticleIAO_0000136Type/>/<viva:ArticleIAO_0000136Type/>.jsp?uri=<viva:ArticleIAO_0000136/>"><viva:ArticleIAO_0000136 /></a></td></tr>
-      </viva:foreachArticleIAO_0000136Iterator>
       <viva:foreachArticleDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:ArticleDocumentationForType/>/<viva:ArticleDocumentationForType/>.jsp?uri=<viva:ArticleDocumentationFor/>"><viva:ArticleDocumentationFor /></a></td></tr>
       </viva:foreachArticleDocumentationForIterator>
@@ -115,6 +100,21 @@
       <viva:foreachArticleCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:ArticleCitesType/>/<viva:ArticleCitesType/>.jsp?uri=<viva:ArticleCites/>"><viva:ArticleCites /></a></td></tr>
       </viva:foreachArticleCitesIterator>
+      <viva:foreachArticleRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:ArticleRO_0000056Type/>/<viva:ArticleRO_0000056Type/>.jsp?uri=<viva:ArticleRO_0000056/>"><viva:ArticleRO_0000056 /></a></td></tr>
+      </viva:foreachArticleRO_0000056Iterator>
+      <viva:foreachArticleTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:ArticleTranslatorType/>/<viva:ArticleTranslatorType/>.jsp?uri=<viva:ArticleTranslator/>"><viva:ArticleTranslator /></a></td></tr>
+      </viva:foreachArticleTranslatorIterator>
+      <viva:foreachArticleFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:ArticleFeaturesType/>/<viva:ArticleFeaturesType/>.jsp?uri=<viva:ArticleFeatures/>"><viva:ArticleFeatures /></a></td></tr>
+      </viva:foreachArticleFeaturesIterator>
+      <viva:foreachArticleInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ArticleInformationResourceSupportedByType/>/<viva:ArticleInformationResourceSupportedByType/>.jsp?uri=<viva:ArticleInformationResourceSupportedBy/>"><viva:ArticleInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachArticleInformationResourceSupportedByIterator>
+      <viva:foreachArticleIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:ArticleIAO_0000136Type/>/<viva:ArticleIAO_0000136Type/>.jsp?uri=<viva:ArticleIAO_0000136/>"><viva:ArticleIAO_0000136 /></a></td></tr>
+      </viva:foreachArticleIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

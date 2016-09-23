@@ -36,12 +36,6 @@
       <viva:foreachConferencePaperNihmsidIterator>
          <tr><td>nihmsid</td><td><viva:ConferencePaperNihmsid /></td></tr>
       </viva:foreachConferencePaperNihmsidIterator>
-      <viva:foreachConferencePaperTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:ConferencePaperTheAbstract /></td></tr>
-      </viva:foreachConferencePaperTheAbstractIterator>
-      <viva:foreachConferencePaperDoiIterator>
-         <tr><td>doi</td><td><viva:ConferencePaperDoi /></td></tr>
-      </viva:foreachConferencePaperDoiIterator>
       <viva:foreachConferencePaperPmidIterator>
          <tr><td>pmid</td><td><viva:ConferencePaperPmid /></td></tr>
       </viva:foreachConferencePaperPmidIterator>
@@ -54,6 +48,12 @@
       <viva:foreachConferencePaperERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:ConferencePaperERO_0000045 /></td></tr>
       </viva:foreachConferencePaperERO_0000045Iterator>
+      <viva:foreachConferencePaperTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:ConferencePaperTheAbstract /></td></tr>
+      </viva:foreachConferencePaperTheAbstractIterator>
+      <viva:foreachConferencePaperDoiIterator>
+         <tr><td>doi</td><td><viva:ConferencePaperDoi /></td></tr>
+      </viva:foreachConferencePaperDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -76,21 +76,6 @@
       <viva:foreachConferencePaperRelatesIterator>
          <tr><td>relates</td><td><a href="../<viva:ConferencePaperRelatesType/>/<viva:ConferencePaperRelatesType/>.jsp?uri=<viva:ConferencePaperRelates/>"><viva:ConferencePaperRelates /></a></td></tr>
       </viva:foreachConferencePaperRelatesIterator>
-      <viva:foreachConferencePaperRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:ConferencePaperRO_0000056Type/>/<viva:ConferencePaperRO_0000056Type/>.jsp?uri=<viva:ConferencePaperRO_0000056/>"><viva:ConferencePaperRO_0000056 /></a></td></tr>
-      </viva:foreachConferencePaperRO_0000056Iterator>
-      <viva:foreachConferencePaperTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:ConferencePaperTranslatorType/>/<viva:ConferencePaperTranslatorType/>.jsp?uri=<viva:ConferencePaperTranslator/>"><viva:ConferencePaperTranslator /></a></td></tr>
-      </viva:foreachConferencePaperTranslatorIterator>
-      <viva:foreachConferencePaperFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:ConferencePaperFeaturesType/>/<viva:ConferencePaperFeaturesType/>.jsp?uri=<viva:ConferencePaperFeatures/>"><viva:ConferencePaperFeatures /></a></td></tr>
-      </viva:foreachConferencePaperFeaturesIterator>
-      <viva:foreachConferencePaperInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ConferencePaperInformationResourceSupportedByType/>/<viva:ConferencePaperInformationResourceSupportedByType/>.jsp?uri=<viva:ConferencePaperInformationResourceSupportedBy/>"><viva:ConferencePaperInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachConferencePaperInformationResourceSupportedByIterator>
-      <viva:foreachConferencePaperIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ConferencePaperIAO_0000136Type/>/<viva:ConferencePaperIAO_0000136Type/>.jsp?uri=<viva:ConferencePaperIAO_0000136/>"><viva:ConferencePaperIAO_0000136 /></a></td></tr>
-      </viva:foreachConferencePaperIAO_0000136Iterator>
       <viva:foreachConferencePaperDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:ConferencePaperDocumentationForType/>/<viva:ConferencePaperDocumentationForType/>.jsp?uri=<viva:ConferencePaperDocumentationFor/>"><viva:ConferencePaperDocumentationFor /></a></td></tr>
       </viva:foreachConferencePaperDocumentationForIterator>
@@ -118,6 +103,21 @@
       <viva:foreachConferencePaperCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:ConferencePaperCitesType/>/<viva:ConferencePaperCitesType/>.jsp?uri=<viva:ConferencePaperCites/>"><viva:ConferencePaperCites /></a></td></tr>
       </viva:foreachConferencePaperCitesIterator>
+      <viva:foreachConferencePaperRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:ConferencePaperRO_0000056Type/>/<viva:ConferencePaperRO_0000056Type/>.jsp?uri=<viva:ConferencePaperRO_0000056/>"><viva:ConferencePaperRO_0000056 /></a></td></tr>
+      </viva:foreachConferencePaperRO_0000056Iterator>
+      <viva:foreachConferencePaperTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:ConferencePaperTranslatorType/>/<viva:ConferencePaperTranslatorType/>.jsp?uri=<viva:ConferencePaperTranslator/>"><viva:ConferencePaperTranslator /></a></td></tr>
+      </viva:foreachConferencePaperTranslatorIterator>
+      <viva:foreachConferencePaperFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:ConferencePaperFeaturesType/>/<viva:ConferencePaperFeaturesType/>.jsp?uri=<viva:ConferencePaperFeatures/>"><viva:ConferencePaperFeatures /></a></td></tr>
+      </viva:foreachConferencePaperFeaturesIterator>
+      <viva:foreachConferencePaperInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ConferencePaperInformationResourceSupportedByType/>/<viva:ConferencePaperInformationResourceSupportedByType/>.jsp?uri=<viva:ConferencePaperInformationResourceSupportedBy/>"><viva:ConferencePaperInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachConferencePaperInformationResourceSupportedByIterator>
+      <viva:foreachConferencePaperIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:ConferencePaperIAO_0000136Type/>/<viva:ConferencePaperIAO_0000136Type/>.jsp?uri=<viva:ConferencePaperIAO_0000136/>"><viva:ConferencePaperIAO_0000136 /></a></td></tr>
+      </viva:foreachConferencePaperIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

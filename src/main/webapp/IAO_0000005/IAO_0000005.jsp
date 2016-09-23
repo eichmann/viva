@@ -40,9 +40,6 @@
       <viva:foreachIAO_0000005OBI_0000833Iterator>
          <tr><td>OBI_0000833</td><td><a href="../<viva:IAO_0000005OBI_0000833Type/>/<viva:IAO_0000005OBI_0000833Type/>.jsp?uri=<viva:IAO_0000005OBI_0000833/>"><viva:IAO_0000005OBI_0000833 /></a></td></tr>
       </viva:foreachIAO_0000005OBI_0000833Iterator>
-      <viva:foreachIAO_0000005RO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:IAO_0000005RO_0000056Type/>/<viva:IAO_0000005RO_0000056Type/>.jsp?uri=<viva:IAO_0000005RO_0000056/>"><viva:IAO_0000005RO_0000056 /></a></td></tr>
-      </viva:foreachIAO_0000005RO_0000056Iterator>
       <viva:foreachIAO_0000005TranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:IAO_0000005TranslatorType/>/<viva:IAO_0000005TranslatorType/>.jsp?uri=<viva:IAO_0000005Translator/>"><viva:IAO_0000005Translator /></a></td></tr>
       </viva:foreachIAO_0000005TranslatorIterator>
@@ -55,6 +52,9 @@
       <viva:foreachIAO_0000005IAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<viva:IAO_0000005IAO_0000136Type/>/<viva:IAO_0000005IAO_0000136Type/>.jsp?uri=<viva:IAO_0000005IAO_0000136/>"><viva:IAO_0000005IAO_0000136 /></a></td></tr>
       </viva:foreachIAO_0000005IAO_0000136Iterator>
+      <viva:foreachIAO_0000005RO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:IAO_0000005RO_0000056Type/>/<viva:IAO_0000005RO_0000056Type/>.jsp?uri=<viva:IAO_0000005RO_0000056/>"><viva:IAO_0000005RO_0000056 /></a></td></tr>
+      </viva:foreachIAO_0000005RO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

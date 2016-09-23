@@ -27,12 +27,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachDatasetTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:DatasetTheAbstract /></td></tr>
-      </viva:foreachDatasetTheAbstractIterator>
-      <viva:foreachDatasetDoiIterator>
-         <tr><td>doi</td><td><viva:DatasetDoi /></td></tr>
-      </viva:foreachDatasetDoiIterator>
       <viva:foreachDatasetPmidIterator>
          <tr><td>pmid</td><td><viva:DatasetPmid /></td></tr>
       </viva:foreachDatasetPmidIterator>
@@ -45,6 +39,12 @@
       <viva:foreachDatasetERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:DatasetERO_0000045 /></td></tr>
       </viva:foreachDatasetERO_0000045Iterator>
+      <viva:foreachDatasetTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:DatasetTheAbstract /></td></tr>
+      </viva:foreachDatasetTheAbstractIterator>
+      <viva:foreachDatasetDoiIterator>
+         <tr><td>doi</td><td><viva:DatasetDoi /></td></tr>
+      </viva:foreachDatasetDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -64,21 +64,6 @@
       <viva:foreachDatasetRelatesIterator>
          <tr><td>relates</td><td><a href="../<viva:DatasetRelatesType/>/<viva:DatasetRelatesType/>.jsp?uri=<viva:DatasetRelates/>"><viva:DatasetRelates /></a></td></tr>
       </viva:foreachDatasetRelatesIterator>
-      <viva:foreachDatasetRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:DatasetRO_0000056Type/>/<viva:DatasetRO_0000056Type/>.jsp?uri=<viva:DatasetRO_0000056/>"><viva:DatasetRO_0000056 /></a></td></tr>
-      </viva:foreachDatasetRO_0000056Iterator>
-      <viva:foreachDatasetTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:DatasetTranslatorType/>/<viva:DatasetTranslatorType/>.jsp?uri=<viva:DatasetTranslator/>"><viva:DatasetTranslator /></a></td></tr>
-      </viva:foreachDatasetTranslatorIterator>
-      <viva:foreachDatasetFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:DatasetFeaturesType/>/<viva:DatasetFeaturesType/>.jsp?uri=<viva:DatasetFeatures/>"><viva:DatasetFeatures /></a></td></tr>
-      </viva:foreachDatasetFeaturesIterator>
-      <viva:foreachDatasetInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:DatasetInformationResourceSupportedByType/>/<viva:DatasetInformationResourceSupportedByType/>.jsp?uri=<viva:DatasetInformationResourceSupportedBy/>"><viva:DatasetInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachDatasetInformationResourceSupportedByIterator>
-      <viva:foreachDatasetIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:DatasetIAO_0000136Type/>/<viva:DatasetIAO_0000136Type/>.jsp?uri=<viva:DatasetIAO_0000136/>"><viva:DatasetIAO_0000136 /></a></td></tr>
-      </viva:foreachDatasetIAO_0000136Iterator>
       <viva:foreachDatasetDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:DatasetDocumentationForType/>/<viva:DatasetDocumentationForType/>.jsp?uri=<viva:DatasetDocumentationFor/>"><viva:DatasetDocumentationFor /></a></td></tr>
       </viva:foreachDatasetDocumentationForIterator>
@@ -106,6 +91,21 @@
       <viva:foreachDatasetCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:DatasetCitesType/>/<viva:DatasetCitesType/>.jsp?uri=<viva:DatasetCites/>"><viva:DatasetCites /></a></td></tr>
       </viva:foreachDatasetCitesIterator>
+      <viva:foreachDatasetRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:DatasetRO_0000056Type/>/<viva:DatasetRO_0000056Type/>.jsp?uri=<viva:DatasetRO_0000056/>"><viva:DatasetRO_0000056 /></a></td></tr>
+      </viva:foreachDatasetRO_0000056Iterator>
+      <viva:foreachDatasetTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:DatasetTranslatorType/>/<viva:DatasetTranslatorType/>.jsp?uri=<viva:DatasetTranslator/>"><viva:DatasetTranslator /></a></td></tr>
+      </viva:foreachDatasetTranslatorIterator>
+      <viva:foreachDatasetFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:DatasetFeaturesType/>/<viva:DatasetFeaturesType/>.jsp?uri=<viva:DatasetFeatures/>"><viva:DatasetFeatures /></a></td></tr>
+      </viva:foreachDatasetFeaturesIterator>
+      <viva:foreachDatasetInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:DatasetInformationResourceSupportedByType/>/<viva:DatasetInformationResourceSupportedByType/>.jsp?uri=<viva:DatasetInformationResourceSupportedBy/>"><viva:DatasetInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachDatasetInformationResourceSupportedByIterator>
+      <viva:foreachDatasetIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:DatasetIAO_0000136Type/>/<viva:DatasetIAO_0000136Type/>.jsp?uri=<viva:DatasetIAO_0000136/>"><viva:DatasetIAO_0000136 /></a></td></tr>
+      </viva:foreachDatasetIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

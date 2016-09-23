@@ -37,12 +37,12 @@
       <viva:foreachCoursePrerequisiteForIterator>
          <tr><td>prerequisiteFor</td><td><a href="../<viva:CoursePrerequisiteForType/>/<viva:CoursePrerequisiteForType/>.jsp?uri=<viva:CoursePrerequisiteFor/>"><viva:CoursePrerequisiteFor /></a></td></tr>
       </viva:foreachCoursePrerequisiteForIterator>
-      <viva:foreachCourseRO_0000057Iterator>
-         <tr><td>RO_0000057</td><td><a href="../<viva:CourseRO_0000057Type/>/<viva:CourseRO_0000057Type/>.jsp?uri=<viva:CourseRO_0000057/>"><viva:CourseRO_0000057 /></a></td></tr>
-      </viva:foreachCourseRO_0000057Iterator>
       <viva:foreachCourseBFO_0000055Iterator>
          <tr><td>BFO_0000055</td><td><a href="../<viva:CourseBFO_0000055Type/>/<viva:CourseBFO_0000055Type/>.jsp?uri=<viva:CourseBFO_0000055/>"><viva:CourseBFO_0000055 /></a></td></tr>
       </viva:foreachCourseBFO_0000055Iterator>
+      <viva:foreachCourseRO_0000057Iterator>
+         <tr><td>RO_0000057</td><td><a href="../<viva:CourseRO_0000057Type/>/<viva:CourseRO_0000057Type/>.jsp?uri=<viva:CourseRO_0000057/>"><viva:CourseRO_0000057 /></a></td></tr>
+      </viva:foreachCourseRO_0000057Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

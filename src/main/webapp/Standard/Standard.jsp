@@ -27,12 +27,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachStandardTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:StandardTheAbstract /></td></tr>
-      </viva:foreachStandardTheAbstractIterator>
-      <viva:foreachStandardDoiIterator>
-         <tr><td>doi</td><td><viva:StandardDoi /></td></tr>
-      </viva:foreachStandardDoiIterator>
       <viva:foreachStandardPmidIterator>
          <tr><td>pmid</td><td><viva:StandardPmid /></td></tr>
       </viva:foreachStandardPmidIterator>
@@ -45,25 +39,16 @@
       <viva:foreachStandardERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:StandardERO_0000045 /></td></tr>
       </viva:foreachStandardERO_0000045Iterator>
+      <viva:foreachStandardTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:StandardTheAbstract /></td></tr>
+      </viva:foreachStandardTheAbstractIterator>
+      <viva:foreachStandardDoiIterator>
+         <tr><td>doi</td><td><viva:StandardDoi /></td></tr>
+      </viva:foreachStandardDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachStandardRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:StandardRO_0000056Type/>/<viva:StandardRO_0000056Type/>.jsp?uri=<viva:StandardRO_0000056/>"><viva:StandardRO_0000056 /></a></td></tr>
-      </viva:foreachStandardRO_0000056Iterator>
-      <viva:foreachStandardTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:StandardTranslatorType/>/<viva:StandardTranslatorType/>.jsp?uri=<viva:StandardTranslator/>"><viva:StandardTranslator /></a></td></tr>
-      </viva:foreachStandardTranslatorIterator>
-      <viva:foreachStandardFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:StandardFeaturesType/>/<viva:StandardFeaturesType/>.jsp?uri=<viva:StandardFeatures/>"><viva:StandardFeatures /></a></td></tr>
-      </viva:foreachStandardFeaturesIterator>
-      <viva:foreachStandardInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:StandardInformationResourceSupportedByType/>/<viva:StandardInformationResourceSupportedByType/>.jsp?uri=<viva:StandardInformationResourceSupportedBy/>"><viva:StandardInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachStandardInformationResourceSupportedByIterator>
-      <viva:foreachStandardIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:StandardIAO_0000136Type/>/<viva:StandardIAO_0000136Type/>.jsp?uri=<viva:StandardIAO_0000136/>"><viva:StandardIAO_0000136 /></a></td></tr>
-      </viva:foreachStandardIAO_0000136Iterator>
       <viva:foreachStandardDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:StandardDocumentationForType/>/<viva:StandardDocumentationForType/>.jsp?uri=<viva:StandardDocumentationFor/>"><viva:StandardDocumentationFor /></a></td></tr>
       </viva:foreachStandardDocumentationForIterator>
@@ -91,6 +76,21 @@
       <viva:foreachStandardCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:StandardCitesType/>/<viva:StandardCitesType/>.jsp?uri=<viva:StandardCites/>"><viva:StandardCites /></a></td></tr>
       </viva:foreachStandardCitesIterator>
+      <viva:foreachStandardRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:StandardRO_0000056Type/>/<viva:StandardRO_0000056Type/>.jsp?uri=<viva:StandardRO_0000056/>"><viva:StandardRO_0000056 /></a></td></tr>
+      </viva:foreachStandardRO_0000056Iterator>
+      <viva:foreachStandardTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:StandardTranslatorType/>/<viva:StandardTranslatorType/>.jsp?uri=<viva:StandardTranslator/>"><viva:StandardTranslator /></a></td></tr>
+      </viva:foreachStandardTranslatorIterator>
+      <viva:foreachStandardFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:StandardFeaturesType/>/<viva:StandardFeaturesType/>.jsp?uri=<viva:StandardFeatures/>"><viva:StandardFeatures /></a></td></tr>
+      </viva:foreachStandardFeaturesIterator>
+      <viva:foreachStandardInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:StandardInformationResourceSupportedByType/>/<viva:StandardInformationResourceSupportedByType/>.jsp?uri=<viva:StandardInformationResourceSupportedBy/>"><viva:StandardInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachStandardInformationResourceSupportedByIterator>
+      <viva:foreachStandardIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:StandardIAO_0000136Type/>/<viva:StandardIAO_0000136Type/>.jsp?uri=<viva:StandardIAO_0000136/>"><viva:StandardIAO_0000136 /></a></td></tr>
+      </viva:foreachStandardIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

@@ -49,9 +49,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachIssueRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:IssueRO_0000056Type/>/<viva:IssueRO_0000056Type/>.jsp?uri=<viva:IssueRO_0000056/>"><viva:IssueRO_0000056 /></a></td></tr>
-      </viva:foreachIssueRO_0000056Iterator>
       <viva:foreachIssueDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:IssueDocumentationForType/>/<viva:IssueDocumentationForType/>.jsp?uri=<viva:IssueDocumentationFor/>"><viva:IssueDocumentationFor /></a></td></tr>
       </viva:foreachIssueDocumentationForIterator>
@@ -79,6 +76,9 @@
       <viva:foreachIssueCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:IssueCitesType/>/<viva:IssueCitesType/>.jsp?uri=<viva:IssueCites/>"><viva:IssueCites /></a></td></tr>
       </viva:foreachIssueCitesIterator>
+      <viva:foreachIssueRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:IssueRO_0000056Type/>/<viva:IssueRO_0000056Type/>.jsp?uri=<viva:IssueRO_0000056/>"><viva:IssueRO_0000056 /></a></td></tr>
+      </viva:foreachIssueRO_0000056Iterator>
       <viva:foreachIssueTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:IssueTranslatorType/>/<viva:IssueTranslatorType/>.jsp?uri=<viva:IssueTranslator/>"><viva:IssueTranslator /></a></td></tr>
       </viva:foreachIssueTranslatorIterator>

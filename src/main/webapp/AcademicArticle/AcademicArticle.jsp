@@ -45,12 +45,6 @@
       <viva:foreachAcademicArticleNihmsidIterator>
          <tr><td>nihmsid</td><td><viva:AcademicArticleNihmsid /></td></tr>
       </viva:foreachAcademicArticleNihmsidIterator>
-      <viva:foreachAcademicArticleTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:AcademicArticleTheAbstract /></td></tr>
-      </viva:foreachAcademicArticleTheAbstractIterator>
-      <viva:foreachAcademicArticleDoiIterator>
-         <tr><td>doi</td><td><viva:AcademicArticleDoi /></td></tr>
-      </viva:foreachAcademicArticleDoiIterator>
       <viva:foreachAcademicArticlePmidIterator>
          <tr><td>pmid</td><td><viva:AcademicArticlePmid /></td></tr>
       </viva:foreachAcademicArticlePmidIterator>
@@ -63,6 +57,12 @@
       <viva:foreachAcademicArticleERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:AcademicArticleERO_0000045 /></td></tr>
       </viva:foreachAcademicArticleERO_0000045Iterator>
+      <viva:foreachAcademicArticleTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:AcademicArticleTheAbstract /></td></tr>
+      </viva:foreachAcademicArticleTheAbstractIterator>
+      <viva:foreachAcademicArticleDoiIterator>
+         <tr><td>doi</td><td><viva:AcademicArticleDoi /></td></tr>
+      </viva:foreachAcademicArticleDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -85,21 +85,6 @@
       <viva:foreachAcademicArticleRelatesIterator>
          <tr><td>relates</td><td><a href="../<viva:AcademicArticleRelatesType/>/<viva:AcademicArticleRelatesType/>.jsp?uri=<viva:AcademicArticleRelates/>"><viva:AcademicArticleRelates /></a></td></tr>
       </viva:foreachAcademicArticleRelatesIterator>
-      <viva:foreachAcademicArticleRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:AcademicArticleRO_0000056Type/>/<viva:AcademicArticleRO_0000056Type/>.jsp?uri=<viva:AcademicArticleRO_0000056/>"><viva:AcademicArticleRO_0000056 /></a></td></tr>
-      </viva:foreachAcademicArticleRO_0000056Iterator>
-      <viva:foreachAcademicArticleTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:AcademicArticleTranslatorType/>/<viva:AcademicArticleTranslatorType/>.jsp?uri=<viva:AcademicArticleTranslator/>"><viva:AcademicArticleTranslator /></a></td></tr>
-      </viva:foreachAcademicArticleTranslatorIterator>
-      <viva:foreachAcademicArticleFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:AcademicArticleFeaturesType/>/<viva:AcademicArticleFeaturesType/>.jsp?uri=<viva:AcademicArticleFeatures/>"><viva:AcademicArticleFeatures /></a></td></tr>
-      </viva:foreachAcademicArticleFeaturesIterator>
-      <viva:foreachAcademicArticleInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:AcademicArticleInformationResourceSupportedByType/>/<viva:AcademicArticleInformationResourceSupportedByType/>.jsp?uri=<viva:AcademicArticleInformationResourceSupportedBy/>"><viva:AcademicArticleInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachAcademicArticleInformationResourceSupportedByIterator>
-      <viva:foreachAcademicArticleIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:AcademicArticleIAO_0000136Type/>/<viva:AcademicArticleIAO_0000136Type/>.jsp?uri=<viva:AcademicArticleIAO_0000136/>"><viva:AcademicArticleIAO_0000136 /></a></td></tr>
-      </viva:foreachAcademicArticleIAO_0000136Iterator>
       <viva:foreachAcademicArticleDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:AcademicArticleDocumentationForType/>/<viva:AcademicArticleDocumentationForType/>.jsp?uri=<viva:AcademicArticleDocumentationFor/>"><viva:AcademicArticleDocumentationFor /></a></td></tr>
       </viva:foreachAcademicArticleDocumentationForIterator>
@@ -127,6 +112,21 @@
       <viva:foreachAcademicArticleCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:AcademicArticleCitesType/>/<viva:AcademicArticleCitesType/>.jsp?uri=<viva:AcademicArticleCites/>"><viva:AcademicArticleCites /></a></td></tr>
       </viva:foreachAcademicArticleCitesIterator>
+      <viva:foreachAcademicArticleRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:AcademicArticleRO_0000056Type/>/<viva:AcademicArticleRO_0000056Type/>.jsp?uri=<viva:AcademicArticleRO_0000056/>"><viva:AcademicArticleRO_0000056 /></a></td></tr>
+      </viva:foreachAcademicArticleRO_0000056Iterator>
+      <viva:foreachAcademicArticleTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:AcademicArticleTranslatorType/>/<viva:AcademicArticleTranslatorType/>.jsp?uri=<viva:AcademicArticleTranslator/>"><viva:AcademicArticleTranslator /></a></td></tr>
+      </viva:foreachAcademicArticleTranslatorIterator>
+      <viva:foreachAcademicArticleFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:AcademicArticleFeaturesType/>/<viva:AcademicArticleFeaturesType/>.jsp?uri=<viva:AcademicArticleFeatures/>"><viva:AcademicArticleFeatures /></a></td></tr>
+      </viva:foreachAcademicArticleFeaturesIterator>
+      <viva:foreachAcademicArticleInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:AcademicArticleInformationResourceSupportedByType/>/<viva:AcademicArticleInformationResourceSupportedByType/>.jsp?uri=<viva:AcademicArticleInformationResourceSupportedBy/>"><viva:AcademicArticleInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachAcademicArticleInformationResourceSupportedByIterator>
+      <viva:foreachAcademicArticleIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:AcademicArticleIAO_0000136Type/>/<viva:AcademicArticleIAO_0000136Type/>.jsp?uri=<viva:AcademicArticleIAO_0000136/>"><viva:AcademicArticleIAO_0000136 /></a></td></tr>
+      </viva:foreachAcademicArticleIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

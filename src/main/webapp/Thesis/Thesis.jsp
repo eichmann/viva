@@ -49,9 +49,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachThesisRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:ThesisRO_0000056Type/>/<viva:ThesisRO_0000056Type/>.jsp?uri=<viva:ThesisRO_0000056/>"><viva:ThesisRO_0000056 /></a></td></tr>
-      </viva:foreachThesisRO_0000056Iterator>
       <viva:foreachThesisDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:ThesisDocumentationForType/>/<viva:ThesisDocumentationForType/>.jsp?uri=<viva:ThesisDocumentationFor/>"><viva:ThesisDocumentationFor /></a></td></tr>
       </viva:foreachThesisDocumentationForIterator>
@@ -79,6 +76,9 @@
       <viva:foreachThesisCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:ThesisCitesType/>/<viva:ThesisCitesType/>.jsp?uri=<viva:ThesisCites/>"><viva:ThesisCites /></a></td></tr>
       </viva:foreachThesisCitesIterator>
+      <viva:foreachThesisRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:ThesisRO_0000056Type/>/<viva:ThesisRO_0000056Type/>.jsp?uri=<viva:ThesisRO_0000056/>"><viva:ThesisRO_0000056 /></a></td></tr>
+      </viva:foreachThesisRO_0000056Iterator>
       <viva:foreachThesisTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:ThesisTranslatorType/>/<viva:ThesisTranslatorType/>.jsp?uri=<viva:ThesisTranslator/>"><viva:ThesisTranslator /></a></td></tr>
       </viva:foreachThesisTranslatorIterator>

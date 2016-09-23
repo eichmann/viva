@@ -49,9 +49,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachCommentRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:CommentRO_0000056Type/>/<viva:CommentRO_0000056Type/>.jsp?uri=<viva:CommentRO_0000056/>"><viva:CommentRO_0000056 /></a></td></tr>
-      </viva:foreachCommentRO_0000056Iterator>
       <viva:foreachCommentDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:CommentDocumentationForType/>/<viva:CommentDocumentationForType/>.jsp?uri=<viva:CommentDocumentationFor/>"><viva:CommentDocumentationFor /></a></td></tr>
       </viva:foreachCommentDocumentationForIterator>
@@ -79,6 +76,9 @@
       <viva:foreachCommentCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:CommentCitesType/>/<viva:CommentCitesType/>.jsp?uri=<viva:CommentCites/>"><viva:CommentCites /></a></td></tr>
       </viva:foreachCommentCitesIterator>
+      <viva:foreachCommentRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:CommentRO_0000056Type/>/<viva:CommentRO_0000056Type/>.jsp?uri=<viva:CommentRO_0000056/>"><viva:CommentRO_0000056 /></a></td></tr>
+      </viva:foreachCommentRO_0000056Iterator>
       <viva:foreachCommentTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:CommentTranslatorType/>/<viva:CommentTranslatorType/>.jsp?uri=<viva:CommentTranslator/>"><viva:CommentTranslator /></a></td></tr>
       </viva:foreachCommentTranslatorIterator>

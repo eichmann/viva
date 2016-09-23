@@ -33,9 +33,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachFoundationRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:FoundationRO_0000053Type/>/<viva:FoundationRO_0000053Type/>.jsp?uri=<viva:FoundationRO_0000053/>"><viva:FoundationRO_0000053 /></a></td></tr>
-      </viva:foreachFoundationRO_0000053Iterator>
       <viva:foreachFoundationAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<viva:FoundationAssigneeForType/>/<viva:FoundationAssigneeForType/>.jsp?uri=<viva:FoundationAssigneeFor/>"><viva:FoundationAssigneeFor /></a></td></tr>
       </viva:foreachFoundationAssigneeForIterator>
@@ -45,9 +42,9 @@
       <viva:foreachFoundationTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:FoundationTranslatorOfType/>/<viva:FoundationTranslatorOfType/>.jsp?uri=<viva:FoundationTranslatorOf/>"><viva:FoundationTranslatorOf /></a></td></tr>
       </viva:foreachFoundationTranslatorOfIterator>
-      <viva:foreachFoundationRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:FoundationRO_0000056Type/>/<viva:FoundationRO_0000056Type/>.jsp?uri=<viva:FoundationRO_0000056/>"><viva:FoundationRO_0000056 /></a></td></tr>
-      </viva:foreachFoundationRO_0000056Iterator>
+      <viva:foreachFoundationRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:FoundationRO_0000053Type/>/<viva:FoundationRO_0000053Type/>.jsp?uri=<viva:FoundationRO_0000053/>"><viva:FoundationRO_0000053 /></a></td></tr>
+      </viva:foreachFoundationRO_0000053Iterator>
       <viva:foreachFoundationSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:FoundationSponsorsType/>/<viva:FoundationSponsorsType/>.jsp?uri=<viva:FoundationSponsors/>"><viva:FoundationSponsors /></a></td></tr>
       </viva:foreachFoundationSponsorsIterator>
@@ -84,6 +81,9 @@
       <viva:foreachFoundationAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<viva:FoundationAffiliatedOrganizationType/>/<viva:FoundationAffiliatedOrganizationType/>.jsp?uri=<viva:FoundationAffiliatedOrganization/>"><viva:FoundationAffiliatedOrganization /></a></td></tr>
       </viva:foreachFoundationAffiliatedOrganizationIterator>
+      <viva:foreachFoundationRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:FoundationRO_0000056Type/>/<viva:FoundationRO_0000056Type/>.jsp?uri=<viva:FoundationRO_0000056/>"><viva:FoundationRO_0000056 /></a></td></tr>
+      </viva:foreachFoundationRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

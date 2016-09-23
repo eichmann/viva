@@ -53,6 +53,9 @@
       <viva:foreachJournalPublisherIterator>
          <tr><td>publisher</td><td><a href="../<viva:JournalPublisherType/>/<viva:JournalPublisherType/>.jsp?uri=<viva:JournalPublisher/>"><viva:JournalPublisher /></a></td></tr>
       </viva:foreachJournalPublisherIterator>
+      <viva:foreachJournalRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:JournalRO_0000056Type/>/<viva:JournalRO_0000056Type/>.jsp?uri=<viva:JournalRO_0000056/>"><viva:JournalRO_0000056 /></a></td></tr>
+      </viva:foreachJournalRO_0000056Iterator>
       <viva:foreachJournalDateTimeValueIterator>
          <tr><td>dateTimeValue</td><td><a href="../<viva:JournalDateTimeValueType/>/<viva:JournalDateTimeValueType/>.jsp?uri=<viva:JournalDateTimeValue/>"><viva:JournalDateTimeValue /></a></td></tr>
       </viva:foreachJournalDateTimeValueIterator>
@@ -65,9 +68,6 @@
       <viva:foreachJournalRelatedByIterator>
          <tr><td>relatedBy</td><td><a href="../<viva:JournalRelatedByType/>/<viva:JournalRelatedByType/>.jsp?uri=<viva:JournalRelatedBy/>"><viva:JournalRelatedBy /></a></td></tr>
       </viva:foreachJournalRelatedByIterator>
-      <viva:foreachJournalRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:JournalRO_0000056Type/>/<viva:JournalRO_0000056Type/>.jsp?uri=<viva:JournalRO_0000056/>"><viva:JournalRO_0000056 /></a></td></tr>
-      </viva:foreachJournalRO_0000056Iterator>
       <viva:foreachJournalTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:JournalTranslatorType/>/<viva:JournalTranslatorType/>.jsp?uri=<viva:JournalTranslator/>"><viva:JournalTranslator /></a></td></tr>
       </viva:foreachJournalTranslatorIterator>

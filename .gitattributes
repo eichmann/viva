@@ -768,6 +768,8 @@ src/main/webapp/Thesis/Thesis.jsp -text
 src/main/webapp/Thesis/ThesisList.jsp -text
 src/main/webapp/ThesisDegree/ThesisDegree.jsp -text
 src/main/webapp/ThesisDegree/ThesisDegreeList.jsp -text
+src/main/webapp/Thing/Thing.jsp -text
+src/main/webapp/Thing/ThingList.jsp -text
 src/main/webapp/TimeZone/TimeZone.jsp -text
 src/main/webapp/TimeZone/TimeZoneList.jsp -text
 src/main/webapp/Title/Title.jsp -text

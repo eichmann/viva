@@ -36,9 +36,6 @@
       <viva:foreachPublisherRelatedByIterator>
          <tr><td>relatedBy</td><td><a href="../<viva:PublisherRelatedByType/>/<viva:PublisherRelatedByType/>.jsp?uri=<viva:PublisherRelatedBy/>"><viva:PublisherRelatedBy /></a></td></tr>
       </viva:foreachPublisherRelatedByIterator>
-      <viva:foreachPublisherRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:PublisherRO_0000053Type/>/<viva:PublisherRO_0000053Type/>.jsp?uri=<viva:PublisherRO_0000053/>"><viva:PublisherRO_0000053 /></a></td></tr>
-      </viva:foreachPublisherRO_0000053Iterator>
       <viva:foreachPublisherAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<viva:PublisherAssigneeForType/>/<viva:PublisherAssigneeForType/>.jsp?uri=<viva:PublisherAssigneeFor/>"><viva:PublisherAssigneeFor /></a></td></tr>
       </viva:foreachPublisherAssigneeForIterator>
@@ -48,9 +45,9 @@
       <viva:foreachPublisherTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:PublisherTranslatorOfType/>/<viva:PublisherTranslatorOfType/>.jsp?uri=<viva:PublisherTranslatorOf/>"><viva:PublisherTranslatorOf /></a></td></tr>
       </viva:foreachPublisherTranslatorOfIterator>
-      <viva:foreachPublisherRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:PublisherRO_0000056Type/>/<viva:PublisherRO_0000056Type/>.jsp?uri=<viva:PublisherRO_0000056/>"><viva:PublisherRO_0000056 /></a></td></tr>
-      </viva:foreachPublisherRO_0000056Iterator>
+      <viva:foreachPublisherRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:PublisherRO_0000053Type/>/<viva:PublisherRO_0000053Type/>.jsp?uri=<viva:PublisherRO_0000053/>"><viva:PublisherRO_0000053 /></a></td></tr>
+      </viva:foreachPublisherRO_0000053Iterator>
       <viva:foreachPublisherSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:PublisherSponsorsType/>/<viva:PublisherSponsorsType/>.jsp?uri=<viva:PublisherSponsors/>"><viva:PublisherSponsors /></a></td></tr>
       </viva:foreachPublisherSponsorsIterator>
@@ -84,6 +81,9 @@
       <viva:foreachPublisherAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<viva:PublisherAffiliatedOrganizationType/>/<viva:PublisherAffiliatedOrganizationType/>.jsp?uri=<viva:PublisherAffiliatedOrganization/>"><viva:PublisherAffiliatedOrganization /></a></td></tr>
       </viva:foreachPublisherAffiliatedOrganizationIterator>
+      <viva:foreachPublisherRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:PublisherRO_0000056Type/>/<viva:PublisherRO_0000056Type/>.jsp?uri=<viva:PublisherRO_0000056/>"><viva:PublisherRO_0000056 /></a></td></tr>
+      </viva:foreachPublisherRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

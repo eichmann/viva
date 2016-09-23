@@ -49,9 +49,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachPersonalCommunicationDocumentRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:PersonalCommunicationDocumentRO_0000056Type/>/<viva:PersonalCommunicationDocumentRO_0000056Type/>.jsp?uri=<viva:PersonalCommunicationDocumentRO_0000056/>"><viva:PersonalCommunicationDocumentRO_0000056 /></a></td></tr>
-      </viva:foreachPersonalCommunicationDocumentRO_0000056Iterator>
       <viva:foreachPersonalCommunicationDocumentDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:PersonalCommunicationDocumentDocumentationForType/>/<viva:PersonalCommunicationDocumentDocumentationForType/>.jsp?uri=<viva:PersonalCommunicationDocumentDocumentationFor/>"><viva:PersonalCommunicationDocumentDocumentationFor /></a></td></tr>
       </viva:foreachPersonalCommunicationDocumentDocumentationForIterator>
@@ -79,6 +76,9 @@
       <viva:foreachPersonalCommunicationDocumentCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:PersonalCommunicationDocumentCitesType/>/<viva:PersonalCommunicationDocumentCitesType/>.jsp?uri=<viva:PersonalCommunicationDocumentCites/>"><viva:PersonalCommunicationDocumentCites /></a></td></tr>
       </viva:foreachPersonalCommunicationDocumentCitesIterator>
+      <viva:foreachPersonalCommunicationDocumentRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:PersonalCommunicationDocumentRO_0000056Type/>/<viva:PersonalCommunicationDocumentRO_0000056Type/>.jsp?uri=<viva:PersonalCommunicationDocumentRO_0000056/>"><viva:PersonalCommunicationDocumentRO_0000056 /></a></td></tr>
+      </viva:foreachPersonalCommunicationDocumentRO_0000056Iterator>
       <viva:foreachPersonalCommunicationDocumentTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:PersonalCommunicationDocumentTranslatorType/>/<viva:PersonalCommunicationDocumentTranslatorType/>.jsp?uri=<viva:PersonalCommunicationDocumentTranslator/>"><viva:PersonalCommunicationDocumentTranslator /></a></td></tr>
       </viva:foreachPersonalCommunicationDocumentTranslatorIterator>

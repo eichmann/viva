@@ -49,9 +49,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachScreenplayRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:ScreenplayRO_0000056Type/>/<viva:ScreenplayRO_0000056Type/>.jsp?uri=<viva:ScreenplayRO_0000056/>"><viva:ScreenplayRO_0000056 /></a></td></tr>
-      </viva:foreachScreenplayRO_0000056Iterator>
       <viva:foreachScreenplayDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:ScreenplayDocumentationForType/>/<viva:ScreenplayDocumentationForType/>.jsp?uri=<viva:ScreenplayDocumentationFor/>"><viva:ScreenplayDocumentationFor /></a></td></tr>
       </viva:foreachScreenplayDocumentationForIterator>
@@ -79,6 +76,9 @@
       <viva:foreachScreenplayCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:ScreenplayCitesType/>/<viva:ScreenplayCitesType/>.jsp?uri=<viva:ScreenplayCites/>"><viva:ScreenplayCites /></a></td></tr>
       </viva:foreachScreenplayCitesIterator>
+      <viva:foreachScreenplayRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:ScreenplayRO_0000056Type/>/<viva:ScreenplayRO_0000056Type/>.jsp?uri=<viva:ScreenplayRO_0000056/>"><viva:ScreenplayRO_0000056 /></a></td></tr>
+      </viva:foreachScreenplayRO_0000056Iterator>
       <viva:foreachScreenplayTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:ScreenplayTranslatorType/>/<viva:ScreenplayTranslatorType/>.jsp?uri=<viva:ScreenplayTranslator/>"><viva:ScreenplayTranslator /></a></td></tr>
       </viva:foreachScreenplayTranslatorIterator>

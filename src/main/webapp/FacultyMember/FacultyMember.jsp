@@ -46,6 +46,9 @@
       <viva:foreachFacultyMemberResearcherIdIterator>
          <tr><td>researcherId</td><td><viva:FacultyMemberResearcherId /></td></tr>
       </viva:foreachFacultyMemberResearcherIdIterator>
+      <viva:foreachFacultyMemberSameAsIterator>
+         <tr><td>sameAs</td><td><viva:FacultyMemberSameAs /></td></tr>
+      </viva:foreachFacultyMemberSameAsIterator>
       <viva:foreachFacultyMemberFreetextKeywordIterator>
          <tr><td>freetextKeyword</td><td><viva:FacultyMemberFreetextKeyword /></td></tr>
       </viva:foreachFacultyMemberFreetextKeywordIterator>
@@ -53,9 +56,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachFacultyMemberRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:FacultyMemberRO_0000053Type/>/<viva:FacultyMemberRO_0000053Type/>.jsp?uri=<viva:FacultyMemberRO_0000053/>"><viva:FacultyMemberRO_0000053 /></a></td></tr>
-      </viva:foreachFacultyMemberRO_0000053Iterator>
       <viva:foreachFacultyMemberAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<viva:FacultyMemberAssigneeForType/>/<viva:FacultyMemberAssigneeForType/>.jsp?uri=<viva:FacultyMemberAssigneeFor/>"><viva:FacultyMemberAssigneeFor /></a></td></tr>
       </viva:foreachFacultyMemberAssigneeForIterator>
@@ -65,6 +65,9 @@
       <viva:foreachFacultyMemberTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:FacultyMemberTranslatorOfType/>/<viva:FacultyMemberTranslatorOfType/>.jsp?uri=<viva:FacultyMemberTranslatorOf/>"><viva:FacultyMemberTranslatorOf /></a></td></tr>
       </viva:foreachFacultyMemberTranslatorOfIterator>
+      <viva:foreachFacultyMemberRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:FacultyMemberRO_0000053Type/>/<viva:FacultyMemberRO_0000053Type/>.jsp?uri=<viva:FacultyMemberRO_0000053/>"><viva:FacultyMemberRO_0000053 /></a></td></tr>
+      </viva:foreachFacultyMemberRO_0000053Iterator>
       <viva:foreachFacultyMemberERO_0000397Iterator>
          <tr><td>ERO_0000397</td><td><a href="../<viva:FacultyMemberERO_0000397Type/>/<viva:FacultyMemberERO_0000397Type/>.jsp?uri=<viva:FacultyMemberERO_0000397/>"><viva:FacultyMemberERO_0000397 /></a></td></tr>
       </viva:foreachFacultyMemberERO_0000397Iterator>

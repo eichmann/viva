@@ -85,9 +85,6 @@
       <viva:foreachBookRelatesIterator>
          <tr><td>relates</td><td><a href="../<viva:BookRelatesType/>/<viva:BookRelatesType/>.jsp?uri=<viva:BookRelates/>"><viva:BookRelates /></a></td></tr>
       </viva:foreachBookRelatesIterator>
-      <viva:foreachBookRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:BookRO_0000056Type/>/<viva:BookRO_0000056Type/>.jsp?uri=<viva:BookRO_0000056/>"><viva:BookRO_0000056 /></a></td></tr>
-      </viva:foreachBookRO_0000056Iterator>
       <viva:foreachBookDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:BookDocumentationForType/>/<viva:BookDocumentationForType/>.jsp?uri=<viva:BookDocumentationFor/>"><viva:BookDocumentationFor /></a></td></tr>
       </viva:foreachBookDocumentationForIterator>
@@ -115,6 +112,9 @@
       <viva:foreachBookCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:BookCitesType/>/<viva:BookCitesType/>.jsp?uri=<viva:BookCites/>"><viva:BookCites /></a></td></tr>
       </viva:foreachBookCitesIterator>
+      <viva:foreachBookRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:BookRO_0000056Type/>/<viva:BookRO_0000056Type/>.jsp?uri=<viva:BookRO_0000056/>"><viva:BookRO_0000056 /></a></td></tr>
+      </viva:foreachBookRO_0000056Iterator>
       <viva:foreachBookTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:BookTranslatorType/>/<viva:BookTranslatorType/>.jsp?uri=<viva:BookTranslator/>"><viva:BookTranslator /></a></td></tr>
       </viva:foreachBookTranslatorIterator>

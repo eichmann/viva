@@ -33,9 +33,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachClinicalOrganizationRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:ClinicalOrganizationRO_0000053Type/>/<viva:ClinicalOrganizationRO_0000053Type/>.jsp?uri=<viva:ClinicalOrganizationRO_0000053/>"><viva:ClinicalOrganizationRO_0000053 /></a></td></tr>
-      </viva:foreachClinicalOrganizationRO_0000053Iterator>
       <viva:foreachClinicalOrganizationAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<viva:ClinicalOrganizationAssigneeForType/>/<viva:ClinicalOrganizationAssigneeForType/>.jsp?uri=<viva:ClinicalOrganizationAssigneeFor/>"><viva:ClinicalOrganizationAssigneeFor /></a></td></tr>
       </viva:foreachClinicalOrganizationAssigneeForIterator>
@@ -45,9 +42,9 @@
       <viva:foreachClinicalOrganizationTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:ClinicalOrganizationTranslatorOfType/>/<viva:ClinicalOrganizationTranslatorOfType/>.jsp?uri=<viva:ClinicalOrganizationTranslatorOf/>"><viva:ClinicalOrganizationTranslatorOf /></a></td></tr>
       </viva:foreachClinicalOrganizationTranslatorOfIterator>
-      <viva:foreachClinicalOrganizationRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:ClinicalOrganizationRO_0000056Type/>/<viva:ClinicalOrganizationRO_0000056Type/>.jsp?uri=<viva:ClinicalOrganizationRO_0000056/>"><viva:ClinicalOrganizationRO_0000056 /></a></td></tr>
-      </viva:foreachClinicalOrganizationRO_0000056Iterator>
+      <viva:foreachClinicalOrganizationRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:ClinicalOrganizationRO_0000053Type/>/<viva:ClinicalOrganizationRO_0000053Type/>.jsp?uri=<viva:ClinicalOrganizationRO_0000053/>"><viva:ClinicalOrganizationRO_0000053 /></a></td></tr>
+      </viva:foreachClinicalOrganizationRO_0000053Iterator>
       <viva:foreachClinicalOrganizationSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:ClinicalOrganizationSponsorsType/>/<viva:ClinicalOrganizationSponsorsType/>.jsp?uri=<viva:ClinicalOrganizationSponsors/>"><viva:ClinicalOrganizationSponsors /></a></td></tr>
       </viva:foreachClinicalOrganizationSponsorsIterator>
@@ -84,6 +81,9 @@
       <viva:foreachClinicalOrganizationAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<viva:ClinicalOrganizationAffiliatedOrganizationType/>/<viva:ClinicalOrganizationAffiliatedOrganizationType/>.jsp?uri=<viva:ClinicalOrganizationAffiliatedOrganization/>"><viva:ClinicalOrganizationAffiliatedOrganization /></a></td></tr>
       </viva:foreachClinicalOrganizationAffiliatedOrganizationIterator>
+      <viva:foreachClinicalOrganizationRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:ClinicalOrganizationRO_0000056Type/>/<viva:ClinicalOrganizationRO_0000056Type/>.jsp?uri=<viva:ClinicalOrganizationRO_0000056/>"><viva:ClinicalOrganizationRO_0000056 /></a></td></tr>
+      </viva:foreachClinicalOrganizationRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

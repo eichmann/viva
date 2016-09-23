@@ -27,12 +27,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachLegislationTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:LegislationTheAbstract /></td></tr>
-      </viva:foreachLegislationTheAbstractIterator>
-      <viva:foreachLegislationDoiIterator>
-         <tr><td>doi</td><td><viva:LegislationDoi /></td></tr>
-      </viva:foreachLegislationDoiIterator>
       <viva:foreachLegislationPmidIterator>
          <tr><td>pmid</td><td><viva:LegislationPmid /></td></tr>
       </viva:foreachLegislationPmidIterator>
@@ -45,25 +39,16 @@
       <viva:foreachLegislationERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:LegislationERO_0000045 /></td></tr>
       </viva:foreachLegislationERO_0000045Iterator>
+      <viva:foreachLegislationTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:LegislationTheAbstract /></td></tr>
+      </viva:foreachLegislationTheAbstractIterator>
+      <viva:foreachLegislationDoiIterator>
+         <tr><td>doi</td><td><viva:LegislationDoi /></td></tr>
+      </viva:foreachLegislationDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachLegislationRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:LegislationRO_0000056Type/>/<viva:LegislationRO_0000056Type/>.jsp?uri=<viva:LegislationRO_0000056/>"><viva:LegislationRO_0000056 /></a></td></tr>
-      </viva:foreachLegislationRO_0000056Iterator>
-      <viva:foreachLegislationTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:LegislationTranslatorType/>/<viva:LegislationTranslatorType/>.jsp?uri=<viva:LegislationTranslator/>"><viva:LegislationTranslator /></a></td></tr>
-      </viva:foreachLegislationTranslatorIterator>
-      <viva:foreachLegislationFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:LegislationFeaturesType/>/<viva:LegislationFeaturesType/>.jsp?uri=<viva:LegislationFeatures/>"><viva:LegislationFeatures /></a></td></tr>
-      </viva:foreachLegislationFeaturesIterator>
-      <viva:foreachLegislationInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:LegislationInformationResourceSupportedByType/>/<viva:LegislationInformationResourceSupportedByType/>.jsp?uri=<viva:LegislationInformationResourceSupportedBy/>"><viva:LegislationInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachLegislationInformationResourceSupportedByIterator>
-      <viva:foreachLegislationIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:LegislationIAO_0000136Type/>/<viva:LegislationIAO_0000136Type/>.jsp?uri=<viva:LegislationIAO_0000136/>"><viva:LegislationIAO_0000136 /></a></td></tr>
-      </viva:foreachLegislationIAO_0000136Iterator>
       <viva:foreachLegislationDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:LegislationDocumentationForType/>/<viva:LegislationDocumentationForType/>.jsp?uri=<viva:LegislationDocumentationFor/>"><viva:LegislationDocumentationFor /></a></td></tr>
       </viva:foreachLegislationDocumentationForIterator>
@@ -91,6 +76,21 @@
       <viva:foreachLegislationCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:LegislationCitesType/>/<viva:LegislationCitesType/>.jsp?uri=<viva:LegislationCites/>"><viva:LegislationCites /></a></td></tr>
       </viva:foreachLegislationCitesIterator>
+      <viva:foreachLegislationRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:LegislationRO_0000056Type/>/<viva:LegislationRO_0000056Type/>.jsp?uri=<viva:LegislationRO_0000056/>"><viva:LegislationRO_0000056 /></a></td></tr>
+      </viva:foreachLegislationRO_0000056Iterator>
+      <viva:foreachLegislationTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:LegislationTranslatorType/>/<viva:LegislationTranslatorType/>.jsp?uri=<viva:LegislationTranslator/>"><viva:LegislationTranslator /></a></td></tr>
+      </viva:foreachLegislationTranslatorIterator>
+      <viva:foreachLegislationFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:LegislationFeaturesType/>/<viva:LegislationFeaturesType/>.jsp?uri=<viva:LegislationFeatures/>"><viva:LegislationFeatures /></a></td></tr>
+      </viva:foreachLegislationFeaturesIterator>
+      <viva:foreachLegislationInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:LegislationInformationResourceSupportedByType/>/<viva:LegislationInformationResourceSupportedByType/>.jsp?uri=<viva:LegislationInformationResourceSupportedBy/>"><viva:LegislationInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachLegislationInformationResourceSupportedByIterator>
+      <viva:foreachLegislationIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:LegislationIAO_0000136Type/>/<viva:LegislationIAO_0000136Type/>.jsp?uri=<viva:LegislationIAO_0000136/>"><viva:LegislationIAO_0000136 /></a></td></tr>
+      </viva:foreachLegislationIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

@@ -31,12 +31,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachPerformanceRO_0000057Iterator>
-         <tr><td>RO_0000057</td><td><a href="../<viva:PerformanceRO_0000057Type/>/<viva:PerformanceRO_0000057Type/>.jsp?uri=<viva:PerformanceRO_0000057/>"><viva:PerformanceRO_0000057 /></a></td></tr>
-      </viva:foreachPerformanceRO_0000057Iterator>
       <viva:foreachPerformanceBFO_0000055Iterator>
          <tr><td>BFO_0000055</td><td><a href="../<viva:PerformanceBFO_0000055Type/>/<viva:PerformanceBFO_0000055Type/>.jsp?uri=<viva:PerformanceBFO_0000055/>"><viva:PerformanceBFO_0000055 /></a></td></tr>
       </viva:foreachPerformanceBFO_0000055Iterator>
+      <viva:foreachPerformanceRO_0000057Iterator>
+         <tr><td>RO_0000057</td><td><a href="../<viva:PerformanceRO_0000057Type/>/<viva:PerformanceRO_0000057Type/>.jsp?uri=<viva:PerformanceRO_0000057/>"><viva:PerformanceRO_0000057 /></a></td></tr>
+      </viva:foreachPerformanceRO_0000057Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

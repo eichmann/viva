@@ -31,15 +31,15 @@
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachUndergraduateAdvisingRelationshipDegreeCandidacyIterator>
+         <tr><td>degreeCandidacy</td><td><a href="../<viva:UndergraduateAdvisingRelationshipDegreeCandidacyType/>/<viva:UndergraduateAdvisingRelationshipDegreeCandidacyType/>.jsp?uri=<viva:UndergraduateAdvisingRelationshipDegreeCandidacy/>"><viva:UndergraduateAdvisingRelationshipDegreeCandidacy /></a></td></tr>
+      </viva:foreachUndergraduateAdvisingRelationshipDegreeCandidacyIterator>
       <viva:foreachUndergraduateAdvisingRelationshipRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<viva:UndergraduateAdvisingRelationshipRO_0000052Type/>/<viva:UndergraduateAdvisingRelationshipRO_0000052Type/>.jsp?uri=<viva:UndergraduateAdvisingRelationshipRO_0000052/>"><viva:UndergraduateAdvisingRelationshipRO_0000052 /></a></td></tr>
       </viva:foreachUndergraduateAdvisingRelationshipRO_0000052Iterator>
       <viva:foreachUndergraduateAdvisingRelationshipRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:UndergraduateAdvisingRelationshipRO_0000056Type/>/<viva:UndergraduateAdvisingRelationshipRO_0000056Type/>.jsp?uri=<viva:UndergraduateAdvisingRelationshipRO_0000056/>"><viva:UndergraduateAdvisingRelationshipRO_0000056 /></a></td></tr>
       </viva:foreachUndergraduateAdvisingRelationshipRO_0000056Iterator>
-      <viva:foreachUndergraduateAdvisingRelationshipDegreeCandidacyIterator>
-         <tr><td>degreeCandidacy</td><td><a href="../<viva:UndergraduateAdvisingRelationshipDegreeCandidacyType/>/<viva:UndergraduateAdvisingRelationshipDegreeCandidacyType/>.jsp?uri=<viva:UndergraduateAdvisingRelationshipDegreeCandidacy/>"><viva:UndergraduateAdvisingRelationshipDegreeCandidacy /></a></td></tr>
-      </viva:foreachUndergraduateAdvisingRelationshipDegreeCandidacyIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

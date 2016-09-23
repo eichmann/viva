@@ -32,9 +32,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachCommitteeRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:CommitteeRO_0000053Type/>/<viva:CommitteeRO_0000053Type/>.jsp?uri=<viva:CommitteeRO_0000053/>"><viva:CommitteeRO_0000053 /></a></td></tr>
-      </viva:foreachCommitteeRO_0000053Iterator>
       <viva:foreachCommitteeAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<viva:CommitteeAssigneeForType/>/<viva:CommitteeAssigneeForType/>.jsp?uri=<viva:CommitteeAssigneeFor/>"><viva:CommitteeAssigneeFor /></a></td></tr>
       </viva:foreachCommitteeAssigneeForIterator>
@@ -44,6 +41,9 @@
       <viva:foreachCommitteeTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:CommitteeTranslatorOfType/>/<viva:CommitteeTranslatorOfType/>.jsp?uri=<viva:CommitteeTranslatorOf/>"><viva:CommitteeTranslatorOf /></a></td></tr>
       </viva:foreachCommitteeTranslatorOfIterator>
+      <viva:foreachCommitteeRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:CommitteeRO_0000053Type/>/<viva:CommitteeRO_0000053Type/>.jsp?uri=<viva:CommitteeRO_0000053/>"><viva:CommitteeRO_0000053 /></a></td></tr>
+      </viva:foreachCommitteeRO_0000053Iterator>
       <viva:foreachCommitteeRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:CommitteeRO_0000056Type/>/<viva:CommitteeRO_0000056Type/>.jsp?uri=<viva:CommitteeRO_0000056/>"><viva:CommitteeRO_0000056 /></a></td></tr>
       </viva:foreachCommitteeRO_0000056Iterator>

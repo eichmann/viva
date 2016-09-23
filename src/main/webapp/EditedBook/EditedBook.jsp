@@ -49,9 +49,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachEditedBookRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:EditedBookRO_0000056Type/>/<viva:EditedBookRO_0000056Type/>.jsp?uri=<viva:EditedBookRO_0000056/>"><viva:EditedBookRO_0000056 /></a></td></tr>
-      </viva:foreachEditedBookRO_0000056Iterator>
       <viva:foreachEditedBookDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:EditedBookDocumentationForType/>/<viva:EditedBookDocumentationForType/>.jsp?uri=<viva:EditedBookDocumentationFor/>"><viva:EditedBookDocumentationFor /></a></td></tr>
       </viva:foreachEditedBookDocumentationForIterator>
@@ -79,6 +76,9 @@
       <viva:foreachEditedBookCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:EditedBookCitesType/>/<viva:EditedBookCitesType/>.jsp?uri=<viva:EditedBookCites/>"><viva:EditedBookCites /></a></td></tr>
       </viva:foreachEditedBookCitesIterator>
+      <viva:foreachEditedBookRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:EditedBookRO_0000056Type/>/<viva:EditedBookRO_0000056Type/>.jsp?uri=<viva:EditedBookRO_0000056/>"><viva:EditedBookRO_0000056 /></a></td></tr>
+      </viva:foreachEditedBookRO_0000056Iterator>
       <viva:foreachEditedBookTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:EditedBookTranslatorType/>/<viva:EditedBookTranslatorType/>.jsp?uri=<viva:EditedBookTranslator/>"><viva:EditedBookTranslator /></a></td></tr>
       </viva:foreachEditedBookTranslatorIterator>

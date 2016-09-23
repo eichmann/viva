@@ -61,9 +61,6 @@
       <viva:foreachKindARG_2000029Iterator>
          <tr><td>ARG_2000029</td><td><a href="../<viva:KindARG_2000029Type/>/<viva:KindARG_2000029Type/>.jsp?uri=<viva:KindARG_2000029/>"><viva:KindARG_2000029 /></a></td></tr>
       </viva:foreachKindARG_2000029Iterator>
-      <viva:foreachKindRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:KindRO_0000056Type/>/<viva:KindRO_0000056Type/>.jsp?uri=<viva:KindRO_0000056/>"><viva:KindRO_0000056 /></a></td></tr>
-      </viva:foreachKindRO_0000056Iterator>
       <viva:foreachKindTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:KindTranslatorType/>/<viva:KindTranslatorType/>.jsp?uri=<viva:KindTranslator/>"><viva:KindTranslator /></a></td></tr>
       </viva:foreachKindTranslatorIterator>
@@ -76,6 +73,9 @@
       <viva:foreachKindIAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<viva:KindIAO_0000136Type/>/<viva:KindIAO_0000136Type/>.jsp?uri=<viva:KindIAO_0000136/>"><viva:KindIAO_0000136 /></a></td></tr>
       </viva:foreachKindIAO_0000136Iterator>
+      <viva:foreachKindRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:KindRO_0000056Type/>/<viva:KindRO_0000056Type/>.jsp?uri=<viva:KindRO_0000056/>"><viva:KindRO_0000056 /></a></td></tr>
+      </viva:foreachKindRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

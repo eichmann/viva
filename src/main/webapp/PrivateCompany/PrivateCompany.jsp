@@ -33,9 +33,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachPrivateCompanyRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:PrivateCompanyRO_0000053Type/>/<viva:PrivateCompanyRO_0000053Type/>.jsp?uri=<viva:PrivateCompanyRO_0000053/>"><viva:PrivateCompanyRO_0000053 /></a></td></tr>
-      </viva:foreachPrivateCompanyRO_0000053Iterator>
       <viva:foreachPrivateCompanyAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<viva:PrivateCompanyAssigneeForType/>/<viva:PrivateCompanyAssigneeForType/>.jsp?uri=<viva:PrivateCompanyAssigneeFor/>"><viva:PrivateCompanyAssigneeFor /></a></td></tr>
       </viva:foreachPrivateCompanyAssigneeForIterator>
@@ -45,9 +42,9 @@
       <viva:foreachPrivateCompanyTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:PrivateCompanyTranslatorOfType/>/<viva:PrivateCompanyTranslatorOfType/>.jsp?uri=<viva:PrivateCompanyTranslatorOf/>"><viva:PrivateCompanyTranslatorOf /></a></td></tr>
       </viva:foreachPrivateCompanyTranslatorOfIterator>
-      <viva:foreachPrivateCompanyRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:PrivateCompanyRO_0000056Type/>/<viva:PrivateCompanyRO_0000056Type/>.jsp?uri=<viva:PrivateCompanyRO_0000056/>"><viva:PrivateCompanyRO_0000056 /></a></td></tr>
-      </viva:foreachPrivateCompanyRO_0000056Iterator>
+      <viva:foreachPrivateCompanyRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:PrivateCompanyRO_0000053Type/>/<viva:PrivateCompanyRO_0000053Type/>.jsp?uri=<viva:PrivateCompanyRO_0000053/>"><viva:PrivateCompanyRO_0000053 /></a></td></tr>
+      </viva:foreachPrivateCompanyRO_0000053Iterator>
       <viva:foreachPrivateCompanyRelatedByIterator>
          <tr><td>relatedBy</td><td><a href="../<viva:PrivateCompanyRelatedByType/>/<viva:PrivateCompanyRelatedByType/>.jsp?uri=<viva:PrivateCompanyRelatedBy/>"><viva:PrivateCompanyRelatedBy /></a></td></tr>
       </viva:foreachPrivateCompanyRelatedByIterator>
@@ -84,6 +81,9 @@
       <viva:foreachPrivateCompanyAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<viva:PrivateCompanyAffiliatedOrganizationType/>/<viva:PrivateCompanyAffiliatedOrganizationType/>.jsp?uri=<viva:PrivateCompanyAffiliatedOrganization/>"><viva:PrivateCompanyAffiliatedOrganization /></a></td></tr>
       </viva:foreachPrivateCompanyAffiliatedOrganizationIterator>
+      <viva:foreachPrivateCompanyRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:PrivateCompanyRO_0000056Type/>/<viva:PrivateCompanyRO_0000056Type/>.jsp?uri=<viva:PrivateCompanyRO_0000056/>"><viva:PrivateCompanyRO_0000056 /></a></td></tr>
+      </viva:foreachPrivateCompanyRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

@@ -33,9 +33,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachStudentOrganizationRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:StudentOrganizationRO_0000053Type/>/<viva:StudentOrganizationRO_0000053Type/>.jsp?uri=<viva:StudentOrganizationRO_0000053/>"><viva:StudentOrganizationRO_0000053 /></a></td></tr>
-      </viva:foreachStudentOrganizationRO_0000053Iterator>
       <viva:foreachStudentOrganizationAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<viva:StudentOrganizationAssigneeForType/>/<viva:StudentOrganizationAssigneeForType/>.jsp?uri=<viva:StudentOrganizationAssigneeFor/>"><viva:StudentOrganizationAssigneeFor /></a></td></tr>
       </viva:foreachStudentOrganizationAssigneeForIterator>
@@ -45,9 +42,9 @@
       <viva:foreachStudentOrganizationTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:StudentOrganizationTranslatorOfType/>/<viva:StudentOrganizationTranslatorOfType/>.jsp?uri=<viva:StudentOrganizationTranslatorOf/>"><viva:StudentOrganizationTranslatorOf /></a></td></tr>
       </viva:foreachStudentOrganizationTranslatorOfIterator>
-      <viva:foreachStudentOrganizationRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:StudentOrganizationRO_0000056Type/>/<viva:StudentOrganizationRO_0000056Type/>.jsp?uri=<viva:StudentOrganizationRO_0000056/>"><viva:StudentOrganizationRO_0000056 /></a></td></tr>
-      </viva:foreachStudentOrganizationRO_0000056Iterator>
+      <viva:foreachStudentOrganizationRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:StudentOrganizationRO_0000053Type/>/<viva:StudentOrganizationRO_0000053Type/>.jsp?uri=<viva:StudentOrganizationRO_0000053/>"><viva:StudentOrganizationRO_0000053 /></a></td></tr>
+      </viva:foreachStudentOrganizationRO_0000053Iterator>
       <viva:foreachStudentOrganizationSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:StudentOrganizationSponsorsType/>/<viva:StudentOrganizationSponsorsType/>.jsp?uri=<viva:StudentOrganizationSponsors/>"><viva:StudentOrganizationSponsors /></a></td></tr>
       </viva:foreachStudentOrganizationSponsorsIterator>
@@ -84,6 +81,9 @@
       <viva:foreachStudentOrganizationAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<viva:StudentOrganizationAffiliatedOrganizationType/>/<viva:StudentOrganizationAffiliatedOrganizationType/>.jsp?uri=<viva:StudentOrganizationAffiliatedOrganization/>"><viva:StudentOrganizationAffiliatedOrganization /></a></td></tr>
       </viva:foreachStudentOrganizationAffiliatedOrganizationIterator>
+      <viva:foreachStudentOrganizationRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:StudentOrganizationRO_0000056Type/>/<viva:StudentOrganizationRO_0000056Type/>.jsp?uri=<viva:StudentOrganizationRO_0000056/>"><viva:StudentOrganizationRO_0000056 /></a></td></tr>
+      </viva:foreachStudentOrganizationRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

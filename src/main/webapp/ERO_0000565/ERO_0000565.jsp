@@ -33,9 +33,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachERO_0000565RO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:ERO_0000565RO_0000053Type/>/<viva:ERO_0000565RO_0000053Type/>.jsp?uri=<viva:ERO_0000565RO_0000053/>"><viva:ERO_0000565RO_0000053 /></a></td></tr>
-      </viva:foreachERO_0000565RO_0000053Iterator>
       <viva:foreachERO_0000565AssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<viva:ERO_0000565AssigneeForType/>/<viva:ERO_0000565AssigneeForType/>.jsp?uri=<viva:ERO_0000565AssigneeFor/>"><viva:ERO_0000565AssigneeFor /></a></td></tr>
       </viva:foreachERO_0000565AssigneeForIterator>
@@ -45,9 +42,9 @@
       <viva:foreachERO_0000565TranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:ERO_0000565TranslatorOfType/>/<viva:ERO_0000565TranslatorOfType/>.jsp?uri=<viva:ERO_0000565TranslatorOf/>"><viva:ERO_0000565TranslatorOf /></a></td></tr>
       </viva:foreachERO_0000565TranslatorOfIterator>
-      <viva:foreachERO_0000565RO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:ERO_0000565RO_0000056Type/>/<viva:ERO_0000565RO_0000056Type/>.jsp?uri=<viva:ERO_0000565RO_0000056/>"><viva:ERO_0000565RO_0000056 /></a></td></tr>
-      </viva:foreachERO_0000565RO_0000056Iterator>
+      <viva:foreachERO_0000565RO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:ERO_0000565RO_0000053Type/>/<viva:ERO_0000565RO_0000053Type/>.jsp?uri=<viva:ERO_0000565RO_0000053/>"><viva:ERO_0000565RO_0000053 /></a></td></tr>
+      </viva:foreachERO_0000565RO_0000053Iterator>
       <viva:foreachERO_0000565SponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:ERO_0000565SponsorsType/>/<viva:ERO_0000565SponsorsType/>.jsp?uri=<viva:ERO_0000565Sponsors/>"><viva:ERO_0000565Sponsors /></a></td></tr>
       </viva:foreachERO_0000565SponsorsIterator>
@@ -84,6 +81,9 @@
       <viva:foreachERO_0000565AffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<viva:ERO_0000565AffiliatedOrganizationType/>/<viva:ERO_0000565AffiliatedOrganizationType/>.jsp?uri=<viva:ERO_0000565AffiliatedOrganization/>"><viva:ERO_0000565AffiliatedOrganization /></a></td></tr>
       </viva:foreachERO_0000565AffiliatedOrganizationIterator>
+      <viva:foreachERO_0000565RO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:ERO_0000565RO_0000056Type/>/<viva:ERO_0000565RO_0000056Type/>.jsp?uri=<viva:ERO_0000565RO_0000056/>"><viva:ERO_0000565RO_0000056 /></a></td></tr>
+      </viva:foreachERO_0000565RO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

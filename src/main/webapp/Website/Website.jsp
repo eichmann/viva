@@ -37,21 +37,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachWebsiteDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<viva:WebsiteDateTimeValueType/>/<viva:WebsiteDateTimeValueType/>.jsp?uri=<viva:WebsiteDateTimeValue/>"><viva:WebsiteDateTimeValue /></a></td></tr>
-      </viva:foreachWebsiteDateTimeValueIterator>
-      <viva:foreachWebsiteRO_0002353Iterator>
-         <tr><td>RO_0002353</td><td><a href="../<viva:WebsiteRO_0002353Type/>/<viva:WebsiteRO_0002353Type/>.jsp?uri=<viva:WebsiteRO_0002353/>"><viva:WebsiteRO_0002353 /></a></td></tr>
-      </viva:foreachWebsiteRO_0002353Iterator>
-      <viva:foreachWebsiteARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<viva:WebsiteARG_2000028Type/>/<viva:WebsiteARG_2000028Type/>.jsp?uri=<viva:WebsiteARG_2000028/>"><viva:WebsiteARG_2000028 /></a></td></tr>
-      </viva:foreachWebsiteARG_2000028Iterator>
-      <viva:foreachWebsiteRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:WebsiteRelatedByType/>/<viva:WebsiteRelatedByType/>.jsp?uri=<viva:WebsiteRelatedBy/>"><viva:WebsiteRelatedBy /></a></td></tr>
-      </viva:foreachWebsiteRelatedByIterator>
-      <viva:foreachWebsiteRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:WebsiteRO_0000056Type/>/<viva:WebsiteRO_0000056Type/>.jsp?uri=<viva:WebsiteRO_0000056/>"><viva:WebsiteRO_0000056 /></a></td></tr>
-      </viva:foreachWebsiteRO_0000056Iterator>
       <viva:foreachWebsiteTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:WebsiteTranslatorType/>/<viva:WebsiteTranslatorType/>.jsp?uri=<viva:WebsiteTranslator/>"><viva:WebsiteTranslator /></a></td></tr>
       </viva:foreachWebsiteTranslatorIterator>
@@ -64,6 +49,21 @@
       <viva:foreachWebsiteIAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<viva:WebsiteIAO_0000136Type/>/<viva:WebsiteIAO_0000136Type/>.jsp?uri=<viva:WebsiteIAO_0000136/>"><viva:WebsiteIAO_0000136 /></a></td></tr>
       </viva:foreachWebsiteIAO_0000136Iterator>
+      <viva:foreachWebsiteRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:WebsiteRO_0000056Type/>/<viva:WebsiteRO_0000056Type/>.jsp?uri=<viva:WebsiteRO_0000056/>"><viva:WebsiteRO_0000056 /></a></td></tr>
+      </viva:foreachWebsiteRO_0000056Iterator>
+      <viva:foreachWebsiteDateTimeValueIterator>
+         <tr><td>dateTimeValue</td><td><a href="../<viva:WebsiteDateTimeValueType/>/<viva:WebsiteDateTimeValueType/>.jsp?uri=<viva:WebsiteDateTimeValue/>"><viva:WebsiteDateTimeValue /></a></td></tr>
+      </viva:foreachWebsiteDateTimeValueIterator>
+      <viva:foreachWebsiteRO_0002353Iterator>
+         <tr><td>RO_0002353</td><td><a href="../<viva:WebsiteRO_0002353Type/>/<viva:WebsiteRO_0002353Type/>.jsp?uri=<viva:WebsiteRO_0002353/>"><viva:WebsiteRO_0002353 /></a></td></tr>
+      </viva:foreachWebsiteRO_0002353Iterator>
+      <viva:foreachWebsiteARG_2000028Iterator>
+         <tr><td>ARG_2000028</td><td><a href="../<viva:WebsiteARG_2000028Type/>/<viva:WebsiteARG_2000028Type/>.jsp?uri=<viva:WebsiteARG_2000028/>"><viva:WebsiteARG_2000028 /></a></td></tr>
+      </viva:foreachWebsiteARG_2000028Iterator>
+      <viva:foreachWebsiteRelatedByIterator>
+         <tr><td>relatedBy</td><td><a href="../<viva:WebsiteRelatedByType/>/<viva:WebsiteRelatedByType/>.jsp?uri=<viva:WebsiteRelatedBy/>"><viva:WebsiteRelatedBy /></a></td></tr>
+      </viva:foreachWebsiteRelatedByIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

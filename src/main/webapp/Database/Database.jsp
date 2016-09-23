@@ -49,9 +49,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachDatabaseRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:DatabaseRO_0000056Type/>/<viva:DatabaseRO_0000056Type/>.jsp?uri=<viva:DatabaseRO_0000056/>"><viva:DatabaseRO_0000056 /></a></td></tr>
-      </viva:foreachDatabaseRO_0000056Iterator>
       <viva:foreachDatabaseDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:DatabaseDocumentationForType/>/<viva:DatabaseDocumentationForType/>.jsp?uri=<viva:DatabaseDocumentationFor/>"><viva:DatabaseDocumentationFor /></a></td></tr>
       </viva:foreachDatabaseDocumentationForIterator>
@@ -79,6 +76,9 @@
       <viva:foreachDatabaseCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:DatabaseCitesType/>/<viva:DatabaseCitesType/>.jsp?uri=<viva:DatabaseCites/>"><viva:DatabaseCites /></a></td></tr>
       </viva:foreachDatabaseCitesIterator>
+      <viva:foreachDatabaseRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:DatabaseRO_0000056Type/>/<viva:DatabaseRO_0000056Type/>.jsp?uri=<viva:DatabaseRO_0000056/>"><viva:DatabaseRO_0000056 /></a></td></tr>
+      </viva:foreachDatabaseRO_0000056Iterator>
       <viva:foreachDatabaseTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:DatabaseTranslatorType/>/<viva:DatabaseTranslatorType/>.jsp?uri=<viva:DatabaseTranslator/>"><viva:DatabaseTranslator /></a></td></tr>
       </viva:foreachDatabaseTranslatorIterator>

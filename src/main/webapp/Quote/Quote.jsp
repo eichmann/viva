@@ -27,12 +27,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachQuoteTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:QuoteTheAbstract /></td></tr>
-      </viva:foreachQuoteTheAbstractIterator>
-      <viva:foreachQuoteDoiIterator>
-         <tr><td>doi</td><td><viva:QuoteDoi /></td></tr>
-      </viva:foreachQuoteDoiIterator>
       <viva:foreachQuotePmidIterator>
          <tr><td>pmid</td><td><viva:QuotePmid /></td></tr>
       </viva:foreachQuotePmidIterator>
@@ -45,25 +39,16 @@
       <viva:foreachQuoteERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:QuoteERO_0000045 /></td></tr>
       </viva:foreachQuoteERO_0000045Iterator>
+      <viva:foreachQuoteTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:QuoteTheAbstract /></td></tr>
+      </viva:foreachQuoteTheAbstractIterator>
+      <viva:foreachQuoteDoiIterator>
+         <tr><td>doi</td><td><viva:QuoteDoi /></td></tr>
+      </viva:foreachQuoteDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachQuoteRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:QuoteRO_0000056Type/>/<viva:QuoteRO_0000056Type/>.jsp?uri=<viva:QuoteRO_0000056/>"><viva:QuoteRO_0000056 /></a></td></tr>
-      </viva:foreachQuoteRO_0000056Iterator>
-      <viva:foreachQuoteTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:QuoteTranslatorType/>/<viva:QuoteTranslatorType/>.jsp?uri=<viva:QuoteTranslator/>"><viva:QuoteTranslator /></a></td></tr>
-      </viva:foreachQuoteTranslatorIterator>
-      <viva:foreachQuoteFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:QuoteFeaturesType/>/<viva:QuoteFeaturesType/>.jsp?uri=<viva:QuoteFeatures/>"><viva:QuoteFeatures /></a></td></tr>
-      </viva:foreachQuoteFeaturesIterator>
-      <viva:foreachQuoteInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:QuoteInformationResourceSupportedByType/>/<viva:QuoteInformationResourceSupportedByType/>.jsp?uri=<viva:QuoteInformationResourceSupportedBy/>"><viva:QuoteInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachQuoteInformationResourceSupportedByIterator>
-      <viva:foreachQuoteIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:QuoteIAO_0000136Type/>/<viva:QuoteIAO_0000136Type/>.jsp?uri=<viva:QuoteIAO_0000136/>"><viva:QuoteIAO_0000136 /></a></td></tr>
-      </viva:foreachQuoteIAO_0000136Iterator>
       <viva:foreachQuoteDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:QuoteDocumentationForType/>/<viva:QuoteDocumentationForType/>.jsp?uri=<viva:QuoteDocumentationFor/>"><viva:QuoteDocumentationFor /></a></td></tr>
       </viva:foreachQuoteDocumentationForIterator>
@@ -91,6 +76,21 @@
       <viva:foreachQuoteCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:QuoteCitesType/>/<viva:QuoteCitesType/>.jsp?uri=<viva:QuoteCites/>"><viva:QuoteCites /></a></td></tr>
       </viva:foreachQuoteCitesIterator>
+      <viva:foreachQuoteRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:QuoteRO_0000056Type/>/<viva:QuoteRO_0000056Type/>.jsp?uri=<viva:QuoteRO_0000056/>"><viva:QuoteRO_0000056 /></a></td></tr>
+      </viva:foreachQuoteRO_0000056Iterator>
+      <viva:foreachQuoteTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:QuoteTranslatorType/>/<viva:QuoteTranslatorType/>.jsp?uri=<viva:QuoteTranslator/>"><viva:QuoteTranslator /></a></td></tr>
+      </viva:foreachQuoteTranslatorIterator>
+      <viva:foreachQuoteFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:QuoteFeaturesType/>/<viva:QuoteFeaturesType/>.jsp?uri=<viva:QuoteFeatures/>"><viva:QuoteFeatures /></a></td></tr>
+      </viva:foreachQuoteFeaturesIterator>
+      <viva:foreachQuoteInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:QuoteInformationResourceSupportedByType/>/<viva:QuoteInformationResourceSupportedByType/>.jsp?uri=<viva:QuoteInformationResourceSupportedBy/>"><viva:QuoteInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachQuoteInformationResourceSupportedByIterator>
+      <viva:foreachQuoteIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:QuoteIAO_0000136Type/>/<viva:QuoteIAO_0000136Type/>.jsp?uri=<viva:QuoteIAO_0000136/>"><viva:QuoteIAO_0000136 /></a></td></tr>
+      </viva:foreachQuoteIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

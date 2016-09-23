@@ -61,9 +61,6 @@
       <viva:foreachOBI_0000272ERO_0000460Iterator>
          <tr><td>ERO_0000460</td><td><a href="../<viva:OBI_0000272ERO_0000460Type/>/<viva:OBI_0000272ERO_0000460Type/>.jsp?uri=<viva:OBI_0000272ERO_0000460/>"><viva:OBI_0000272ERO_0000460 /></a></td></tr>
       </viva:foreachOBI_0000272ERO_0000460Iterator>
-      <viva:foreachOBI_0000272RO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:OBI_0000272RO_0000056Type/>/<viva:OBI_0000272RO_0000056Type/>.jsp?uri=<viva:OBI_0000272RO_0000056/>"><viva:OBI_0000272RO_0000056 /></a></td></tr>
-      </viva:foreachOBI_0000272RO_0000056Iterator>
       <viva:foreachOBI_0000272DocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:OBI_0000272DocumentationForType/>/<viva:OBI_0000272DocumentationForType/>.jsp?uri=<viva:OBI_0000272DocumentationFor/>"><viva:OBI_0000272DocumentationFor /></a></td></tr>
       </viva:foreachOBI_0000272DocumentationForIterator>
@@ -91,6 +88,9 @@
       <viva:foreachOBI_0000272CitesIterator>
          <tr><td>cites</td><td><a href="../<viva:OBI_0000272CitesType/>/<viva:OBI_0000272CitesType/>.jsp?uri=<viva:OBI_0000272Cites/>"><viva:OBI_0000272Cites /></a></td></tr>
       </viva:foreachOBI_0000272CitesIterator>
+      <viva:foreachOBI_0000272RO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:OBI_0000272RO_0000056Type/>/<viva:OBI_0000272RO_0000056Type/>.jsp?uri=<viva:OBI_0000272RO_0000056/>"><viva:OBI_0000272RO_0000056 /></a></td></tr>
+      </viva:foreachOBI_0000272RO_0000056Iterator>
       <viva:foreachOBI_0000272TranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:OBI_0000272TranslatorType/>/<viva:OBI_0000272TranslatorType/>.jsp?uri=<viva:OBI_0000272Translator/>"><viva:OBI_0000272Translator /></a></td></tr>
       </viva:foreachOBI_0000272TranslatorIterator>

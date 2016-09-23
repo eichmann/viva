@@ -398,6 +398,7 @@
 <li><a href="<util:applicationRoot/>/TextPhone/TextPhoneList.jsp">TextPhone</a>
 <li><a href="<util:applicationRoot/>/Thesis/ThesisList.jsp">Thesis</a>
 <li><a href="<util:applicationRoot/>/ThesisDegree/ThesisDegreeList.jsp">ThesisDegree</a>
+<li><a href="<util:applicationRoot/>/Thing/ThingList.jsp">Thing</a>
 <li><a href="<util:applicationRoot/>/TimeZone/TimeZoneList.jsp">TimeZone</a>
 <li><a href="<util:applicationRoot/>/Title/TitleList.jsp">Title</a>
 <li><a href="<util:applicationRoot/>/Translation/TranslationList.jsp">Translation</a>

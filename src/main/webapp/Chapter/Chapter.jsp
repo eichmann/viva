@@ -37,12 +37,6 @@
       <viva:foreachChapterNumPagesIterator>
          <tr><td>numPages</td><td><viva:ChapterNumPages /></td></tr>
       </viva:foreachChapterNumPagesIterator>
-      <viva:foreachChapterTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:ChapterTheAbstract /></td></tr>
-      </viva:foreachChapterTheAbstractIterator>
-      <viva:foreachChapterDoiIterator>
-         <tr><td>doi</td><td><viva:ChapterDoi /></td></tr>
-      </viva:foreachChapterDoiIterator>
       <viva:foreachChapterPmidIterator>
          <tr><td>pmid</td><td><viva:ChapterPmid /></td></tr>
       </viva:foreachChapterPmidIterator>
@@ -55,6 +49,12 @@
       <viva:foreachChapterERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:ChapterERO_0000045 /></td></tr>
       </viva:foreachChapterERO_0000045Iterator>
+      <viva:foreachChapterTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:ChapterTheAbstract /></td></tr>
+      </viva:foreachChapterTheAbstractIterator>
+      <viva:foreachChapterDoiIterator>
+         <tr><td>doi</td><td><viva:ChapterDoi /></td></tr>
+      </viva:foreachChapterDoiIterator>
       <viva:foreachChapterChapterIterator>
          <tr><td>chapter</td><td><viva:ChapterChapter /></td></tr>
       </viva:foreachChapterChapterIterator>
@@ -83,18 +83,6 @@
       <viva:foreachChapterRelatesIterator>
          <tr><td>relates</td><td><a href="../<viva:ChapterRelatesType/>/<viva:ChapterRelatesType/>.jsp?uri=<viva:ChapterRelates/>"><viva:ChapterRelates /></a></td></tr>
       </viva:foreachChapterRelatesIterator>
-      <viva:foreachChapterTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:ChapterTranslatorType/>/<viva:ChapterTranslatorType/>.jsp?uri=<viva:ChapterTranslator/>"><viva:ChapterTranslator /></a></td></tr>
-      </viva:foreachChapterTranslatorIterator>
-      <viva:foreachChapterFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:ChapterFeaturesType/>/<viva:ChapterFeaturesType/>.jsp?uri=<viva:ChapterFeatures/>"><viva:ChapterFeatures /></a></td></tr>
-      </viva:foreachChapterFeaturesIterator>
-      <viva:foreachChapterInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ChapterInformationResourceSupportedByType/>/<viva:ChapterInformationResourceSupportedByType/>.jsp?uri=<viva:ChapterInformationResourceSupportedBy/>"><viva:ChapterInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachChapterInformationResourceSupportedByIterator>
-      <viva:foreachChapterIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ChapterIAO_0000136Type/>/<viva:ChapterIAO_0000136Type/>.jsp?uri=<viva:ChapterIAO_0000136/>"><viva:ChapterIAO_0000136 /></a></td></tr>
-      </viva:foreachChapterIAO_0000136Iterator>
       <viva:foreachChapterDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:ChapterDocumentationForType/>/<viva:ChapterDocumentationForType/>.jsp?uri=<viva:ChapterDocumentationFor/>"><viva:ChapterDocumentationFor /></a></td></tr>
       </viva:foreachChapterDocumentationForIterator>
@@ -125,6 +113,18 @@
       <viva:foreachChapterRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ChapterRO_0000056Type/>/<viva:ChapterRO_0000056Type/>.jsp?uri=<viva:ChapterRO_0000056/>"><viva:ChapterRO_0000056 /></a></td></tr>
       </viva:foreachChapterRO_0000056Iterator>
+      <viva:foreachChapterTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:ChapterTranslatorType/>/<viva:ChapterTranslatorType/>.jsp?uri=<viva:ChapterTranslator/>"><viva:ChapterTranslator /></a></td></tr>
+      </viva:foreachChapterTranslatorIterator>
+      <viva:foreachChapterFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:ChapterFeaturesType/>/<viva:ChapterFeaturesType/>.jsp?uri=<viva:ChapterFeatures/>"><viva:ChapterFeatures /></a></td></tr>
+      </viva:foreachChapterFeaturesIterator>
+      <viva:foreachChapterInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ChapterInformationResourceSupportedByType/>/<viva:ChapterInformationResourceSupportedByType/>.jsp?uri=<viva:ChapterInformationResourceSupportedBy/>"><viva:ChapterInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachChapterInformationResourceSupportedByIterator>
+      <viva:foreachChapterIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:ChapterIAO_0000136Type/>/<viva:ChapterIAO_0000136Type/>.jsp?uri=<viva:ChapterIAO_0000136/>"><viva:ChapterIAO_0000136 /></a></td></tr>
+      </viva:foreachChapterIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

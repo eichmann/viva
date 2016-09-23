@@ -27,12 +27,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachNewsReleaseTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:NewsReleaseTheAbstract /></td></tr>
-      </viva:foreachNewsReleaseTheAbstractIterator>
-      <viva:foreachNewsReleaseDoiIterator>
-         <tr><td>doi</td><td><viva:NewsReleaseDoi /></td></tr>
-      </viva:foreachNewsReleaseDoiIterator>
       <viva:foreachNewsReleasePmidIterator>
          <tr><td>pmid</td><td><viva:NewsReleasePmid /></td></tr>
       </viva:foreachNewsReleasePmidIterator>
@@ -45,25 +39,16 @@
       <viva:foreachNewsReleaseERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:NewsReleaseERO_0000045 /></td></tr>
       </viva:foreachNewsReleaseERO_0000045Iterator>
+      <viva:foreachNewsReleaseTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:NewsReleaseTheAbstract /></td></tr>
+      </viva:foreachNewsReleaseTheAbstractIterator>
+      <viva:foreachNewsReleaseDoiIterator>
+         <tr><td>doi</td><td><viva:NewsReleaseDoi /></td></tr>
+      </viva:foreachNewsReleaseDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachNewsReleaseRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:NewsReleaseRO_0000056Type/>/<viva:NewsReleaseRO_0000056Type/>.jsp?uri=<viva:NewsReleaseRO_0000056/>"><viva:NewsReleaseRO_0000056 /></a></td></tr>
-      </viva:foreachNewsReleaseRO_0000056Iterator>
-      <viva:foreachNewsReleaseTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:NewsReleaseTranslatorType/>/<viva:NewsReleaseTranslatorType/>.jsp?uri=<viva:NewsReleaseTranslator/>"><viva:NewsReleaseTranslator /></a></td></tr>
-      </viva:foreachNewsReleaseTranslatorIterator>
-      <viva:foreachNewsReleaseFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:NewsReleaseFeaturesType/>/<viva:NewsReleaseFeaturesType/>.jsp?uri=<viva:NewsReleaseFeatures/>"><viva:NewsReleaseFeatures /></a></td></tr>
-      </viva:foreachNewsReleaseFeaturesIterator>
-      <viva:foreachNewsReleaseInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:NewsReleaseInformationResourceSupportedByType/>/<viva:NewsReleaseInformationResourceSupportedByType/>.jsp?uri=<viva:NewsReleaseInformationResourceSupportedBy/>"><viva:NewsReleaseInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachNewsReleaseInformationResourceSupportedByIterator>
-      <viva:foreachNewsReleaseIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:NewsReleaseIAO_0000136Type/>/<viva:NewsReleaseIAO_0000136Type/>.jsp?uri=<viva:NewsReleaseIAO_0000136/>"><viva:NewsReleaseIAO_0000136 /></a></td></tr>
-      </viva:foreachNewsReleaseIAO_0000136Iterator>
       <viva:foreachNewsReleaseDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:NewsReleaseDocumentationForType/>/<viva:NewsReleaseDocumentationForType/>.jsp?uri=<viva:NewsReleaseDocumentationFor/>"><viva:NewsReleaseDocumentationFor /></a></td></tr>
       </viva:foreachNewsReleaseDocumentationForIterator>
@@ -91,6 +76,21 @@
       <viva:foreachNewsReleaseCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:NewsReleaseCitesType/>/<viva:NewsReleaseCitesType/>.jsp?uri=<viva:NewsReleaseCites/>"><viva:NewsReleaseCites /></a></td></tr>
       </viva:foreachNewsReleaseCitesIterator>
+      <viva:foreachNewsReleaseRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:NewsReleaseRO_0000056Type/>/<viva:NewsReleaseRO_0000056Type/>.jsp?uri=<viva:NewsReleaseRO_0000056/>"><viva:NewsReleaseRO_0000056 /></a></td></tr>
+      </viva:foreachNewsReleaseRO_0000056Iterator>
+      <viva:foreachNewsReleaseTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:NewsReleaseTranslatorType/>/<viva:NewsReleaseTranslatorType/>.jsp?uri=<viva:NewsReleaseTranslator/>"><viva:NewsReleaseTranslator /></a></td></tr>
+      </viva:foreachNewsReleaseTranslatorIterator>
+      <viva:foreachNewsReleaseFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:NewsReleaseFeaturesType/>/<viva:NewsReleaseFeaturesType/>.jsp?uri=<viva:NewsReleaseFeatures/>"><viva:NewsReleaseFeatures /></a></td></tr>
+      </viva:foreachNewsReleaseFeaturesIterator>
+      <viva:foreachNewsReleaseInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:NewsReleaseInformationResourceSupportedByType/>/<viva:NewsReleaseInformationResourceSupportedByType/>.jsp?uri=<viva:NewsReleaseInformationResourceSupportedBy/>"><viva:NewsReleaseInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachNewsReleaseInformationResourceSupportedByIterator>
+      <viva:foreachNewsReleaseIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:NewsReleaseIAO_0000136Type/>/<viva:NewsReleaseIAO_0000136Type/>.jsp?uri=<viva:NewsReleaseIAO_0000136/>"><viva:NewsReleaseIAO_0000136 /></a></td></tr>
+      </viva:foreachNewsReleaseIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

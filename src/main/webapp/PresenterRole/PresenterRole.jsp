@@ -34,15 +34,15 @@
       <viva:foreachPresenterRoleRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<viva:PresenterRoleRO_0000052Type/>/<viva:PresenterRoleRO_0000052Type/>.jsp?uri=<viva:PresenterRoleRO_0000052/>"><viva:PresenterRoleRO_0000052 /></a></td></tr>
       </viva:foreachPresenterRoleRO_0000052Iterator>
-      <viva:foreachPresenterRoleBFO_0000054Iterator>
-         <tr><td>BFO_0000054</td><td><a href="../<viva:PresenterRoleBFO_0000054Type/>/<viva:PresenterRoleBFO_0000054Type/>.jsp?uri=<viva:PresenterRoleBFO_0000054/>"><viva:PresenterRoleBFO_0000054 /></a></td></tr>
-      </viva:foreachPresenterRoleBFO_0000054Iterator>
-      <viva:foreachPresenterRoleRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:PresenterRoleRO_0000056Type/>/<viva:PresenterRoleRO_0000056Type/>.jsp?uri=<viva:PresenterRoleRO_0000056/>"><viva:PresenterRoleRO_0000056 /></a></td></tr>
-      </viva:foreachPresenterRoleRO_0000056Iterator>
       <viva:foreachPresenterRoleRoleContributesToIterator>
          <tr><td>roleContributesTo</td><td><a href="../<viva:PresenterRoleRoleContributesToType/>/<viva:PresenterRoleRoleContributesToType/>.jsp?uri=<viva:PresenterRoleRoleContributesTo/>"><viva:PresenterRoleRoleContributesTo /></a></td></tr>
       </viva:foreachPresenterRoleRoleContributesToIterator>
+      <viva:foreachPresenterRoleRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:PresenterRoleRO_0000056Type/>/<viva:PresenterRoleRO_0000056Type/>.jsp?uri=<viva:PresenterRoleRO_0000056/>"><viva:PresenterRoleRO_0000056 /></a></td></tr>
+      </viva:foreachPresenterRoleRO_0000056Iterator>
+      <viva:foreachPresenterRoleBFO_0000054Iterator>
+         <tr><td>BFO_0000054</td><td><a href="../<viva:PresenterRoleBFO_0000054Type/>/<viva:PresenterRoleBFO_0000054Type/>.jsp?uri=<viva:PresenterRoleBFO_0000054/>"><viva:PresenterRoleBFO_0000054 /></a></td></tr>
+      </viva:foreachPresenterRoleBFO_0000054Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

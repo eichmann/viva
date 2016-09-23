@@ -27,12 +27,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachReferenceSourceTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:ReferenceSourceTheAbstract /></td></tr>
-      </viva:foreachReferenceSourceTheAbstractIterator>
-      <viva:foreachReferenceSourceDoiIterator>
-         <tr><td>doi</td><td><viva:ReferenceSourceDoi /></td></tr>
-      </viva:foreachReferenceSourceDoiIterator>
       <viva:foreachReferenceSourcePmidIterator>
          <tr><td>pmid</td><td><viva:ReferenceSourcePmid /></td></tr>
       </viva:foreachReferenceSourcePmidIterator>
@@ -45,25 +39,16 @@
       <viva:foreachReferenceSourceERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:ReferenceSourceERO_0000045 /></td></tr>
       </viva:foreachReferenceSourceERO_0000045Iterator>
+      <viva:foreachReferenceSourceTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:ReferenceSourceTheAbstract /></td></tr>
+      </viva:foreachReferenceSourceTheAbstractIterator>
+      <viva:foreachReferenceSourceDoiIterator>
+         <tr><td>doi</td><td><viva:ReferenceSourceDoi /></td></tr>
+      </viva:foreachReferenceSourceDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachReferenceSourceRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:ReferenceSourceRO_0000056Type/>/<viva:ReferenceSourceRO_0000056Type/>.jsp?uri=<viva:ReferenceSourceRO_0000056/>"><viva:ReferenceSourceRO_0000056 /></a></td></tr>
-      </viva:foreachReferenceSourceRO_0000056Iterator>
-      <viva:foreachReferenceSourceTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:ReferenceSourceTranslatorType/>/<viva:ReferenceSourceTranslatorType/>.jsp?uri=<viva:ReferenceSourceTranslator/>"><viva:ReferenceSourceTranslator /></a></td></tr>
-      </viva:foreachReferenceSourceTranslatorIterator>
-      <viva:foreachReferenceSourceFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:ReferenceSourceFeaturesType/>/<viva:ReferenceSourceFeaturesType/>.jsp?uri=<viva:ReferenceSourceFeatures/>"><viva:ReferenceSourceFeatures /></a></td></tr>
-      </viva:foreachReferenceSourceFeaturesIterator>
-      <viva:foreachReferenceSourceInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ReferenceSourceInformationResourceSupportedByType/>/<viva:ReferenceSourceInformationResourceSupportedByType/>.jsp?uri=<viva:ReferenceSourceInformationResourceSupportedBy/>"><viva:ReferenceSourceInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachReferenceSourceInformationResourceSupportedByIterator>
-      <viva:foreachReferenceSourceIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ReferenceSourceIAO_0000136Type/>/<viva:ReferenceSourceIAO_0000136Type/>.jsp?uri=<viva:ReferenceSourceIAO_0000136/>"><viva:ReferenceSourceIAO_0000136 /></a></td></tr>
-      </viva:foreachReferenceSourceIAO_0000136Iterator>
       <viva:foreachReferenceSourceDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:ReferenceSourceDocumentationForType/>/<viva:ReferenceSourceDocumentationForType/>.jsp?uri=<viva:ReferenceSourceDocumentationFor/>"><viva:ReferenceSourceDocumentationFor /></a></td></tr>
       </viva:foreachReferenceSourceDocumentationForIterator>
@@ -91,6 +76,21 @@
       <viva:foreachReferenceSourceCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:ReferenceSourceCitesType/>/<viva:ReferenceSourceCitesType/>.jsp?uri=<viva:ReferenceSourceCites/>"><viva:ReferenceSourceCites /></a></td></tr>
       </viva:foreachReferenceSourceCitesIterator>
+      <viva:foreachReferenceSourceRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:ReferenceSourceRO_0000056Type/>/<viva:ReferenceSourceRO_0000056Type/>.jsp?uri=<viva:ReferenceSourceRO_0000056/>"><viva:ReferenceSourceRO_0000056 /></a></td></tr>
+      </viva:foreachReferenceSourceRO_0000056Iterator>
+      <viva:foreachReferenceSourceTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:ReferenceSourceTranslatorType/>/<viva:ReferenceSourceTranslatorType/>.jsp?uri=<viva:ReferenceSourceTranslator/>"><viva:ReferenceSourceTranslator /></a></td></tr>
+      </viva:foreachReferenceSourceTranslatorIterator>
+      <viva:foreachReferenceSourceFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:ReferenceSourceFeaturesType/>/<viva:ReferenceSourceFeaturesType/>.jsp?uri=<viva:ReferenceSourceFeatures/>"><viva:ReferenceSourceFeatures /></a></td></tr>
+      </viva:foreachReferenceSourceFeaturesIterator>
+      <viva:foreachReferenceSourceInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ReferenceSourceInformationResourceSupportedByType/>/<viva:ReferenceSourceInformationResourceSupportedByType/>.jsp?uri=<viva:ReferenceSourceInformationResourceSupportedBy/>"><viva:ReferenceSourceInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachReferenceSourceInformationResourceSupportedByIterator>
+      <viva:foreachReferenceSourceIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:ReferenceSourceIAO_0000136Type/>/<viva:ReferenceSourceIAO_0000136Type/>.jsp?uri=<viva:ReferenceSourceIAO_0000136/>"><viva:ReferenceSourceIAO_0000136 /></a></td></tr>
+      </viva:foreachReferenceSourceIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

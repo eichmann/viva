@@ -37,6 +37,9 @@
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachCourtReporterRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:CourtReporterRO_0000056Type/>/<viva:CourtReporterRO_0000056Type/>.jsp?uri=<viva:CourtReporterRO_0000056/>"><viva:CourtReporterRO_0000056 /></a></td></tr>
+      </viva:foreachCourtReporterRO_0000056Iterator>
       <viva:foreachCourtReporterDateTimeValueIterator>
          <tr><td>dateTimeValue</td><td><a href="../<viva:CourtReporterDateTimeValueType/>/<viva:CourtReporterDateTimeValueType/>.jsp?uri=<viva:CourtReporterDateTimeValue/>"><viva:CourtReporterDateTimeValue /></a></td></tr>
       </viva:foreachCourtReporterDateTimeValueIterator>
@@ -49,9 +52,6 @@
       <viva:foreachCourtReporterRelatedByIterator>
          <tr><td>relatedBy</td><td><a href="../<viva:CourtReporterRelatedByType/>/<viva:CourtReporterRelatedByType/>.jsp?uri=<viva:CourtReporterRelatedBy/>"><viva:CourtReporterRelatedBy /></a></td></tr>
       </viva:foreachCourtReporterRelatedByIterator>
-      <viva:foreachCourtReporterRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:CourtReporterRO_0000056Type/>/<viva:CourtReporterRO_0000056Type/>.jsp?uri=<viva:CourtReporterRO_0000056/>"><viva:CourtReporterRO_0000056 /></a></td></tr>
-      </viva:foreachCourtReporterRO_0000056Iterator>
       <viva:foreachCourtReporterTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:CourtReporterTranslatorType/>/<viva:CourtReporterTranslatorType/>.jsp?uri=<viva:CourtReporterTranslator/>"><viva:CourtReporterTranslator /></a></td></tr>
       </viva:foreachCourtReporterTranslatorIterator>

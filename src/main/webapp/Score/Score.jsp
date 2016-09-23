@@ -49,9 +49,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachScoreRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:ScoreRO_0000056Type/>/<viva:ScoreRO_0000056Type/>.jsp?uri=<viva:ScoreRO_0000056/>"><viva:ScoreRO_0000056 /></a></td></tr>
-      </viva:foreachScoreRO_0000056Iterator>
       <viva:foreachScoreDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:ScoreDocumentationForType/>/<viva:ScoreDocumentationForType/>.jsp?uri=<viva:ScoreDocumentationFor/>"><viva:ScoreDocumentationFor /></a></td></tr>
       </viva:foreachScoreDocumentationForIterator>
@@ -79,6 +76,9 @@
       <viva:foreachScoreCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:ScoreCitesType/>/<viva:ScoreCitesType/>.jsp?uri=<viva:ScoreCites/>"><viva:ScoreCites /></a></td></tr>
       </viva:foreachScoreCitesIterator>
+      <viva:foreachScoreRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:ScoreRO_0000056Type/>/<viva:ScoreRO_0000056Type/>.jsp?uri=<viva:ScoreRO_0000056/>"><viva:ScoreRO_0000056 /></a></td></tr>
+      </viva:foreachScoreRO_0000056Iterator>
       <viva:foreachScoreTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:ScoreTranslatorType/>/<viva:ScoreTranslatorType/>.jsp?uri=<viva:ScoreTranslator/>"><viva:ScoreTranslator /></a></td></tr>
       </viva:foreachScoreTranslatorIterator>

@@ -27,12 +27,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachDocumentPartTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:DocumentPartTheAbstract /></td></tr>
-      </viva:foreachDocumentPartTheAbstractIterator>
-      <viva:foreachDocumentPartDoiIterator>
-         <tr><td>doi</td><td><viva:DocumentPartDoi /></td></tr>
-      </viva:foreachDocumentPartDoiIterator>
       <viva:foreachDocumentPartPmidIterator>
          <tr><td>pmid</td><td><viva:DocumentPartPmid /></td></tr>
       </viva:foreachDocumentPartPmidIterator>
@@ -45,25 +39,16 @@
       <viva:foreachDocumentPartERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:DocumentPartERO_0000045 /></td></tr>
       </viva:foreachDocumentPartERO_0000045Iterator>
+      <viva:foreachDocumentPartTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:DocumentPartTheAbstract /></td></tr>
+      </viva:foreachDocumentPartTheAbstractIterator>
+      <viva:foreachDocumentPartDoiIterator>
+         <tr><td>doi</td><td><viva:DocumentPartDoi /></td></tr>
+      </viva:foreachDocumentPartDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachDocumentPartRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:DocumentPartRO_0000056Type/>/<viva:DocumentPartRO_0000056Type/>.jsp?uri=<viva:DocumentPartRO_0000056/>"><viva:DocumentPartRO_0000056 /></a></td></tr>
-      </viva:foreachDocumentPartRO_0000056Iterator>
-      <viva:foreachDocumentPartTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:DocumentPartTranslatorType/>/<viva:DocumentPartTranslatorType/>.jsp?uri=<viva:DocumentPartTranslator/>"><viva:DocumentPartTranslator /></a></td></tr>
-      </viva:foreachDocumentPartTranslatorIterator>
-      <viva:foreachDocumentPartFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:DocumentPartFeaturesType/>/<viva:DocumentPartFeaturesType/>.jsp?uri=<viva:DocumentPartFeatures/>"><viva:DocumentPartFeatures /></a></td></tr>
-      </viva:foreachDocumentPartFeaturesIterator>
-      <viva:foreachDocumentPartInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:DocumentPartInformationResourceSupportedByType/>/<viva:DocumentPartInformationResourceSupportedByType/>.jsp?uri=<viva:DocumentPartInformationResourceSupportedBy/>"><viva:DocumentPartInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachDocumentPartInformationResourceSupportedByIterator>
-      <viva:foreachDocumentPartIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:DocumentPartIAO_0000136Type/>/<viva:DocumentPartIAO_0000136Type/>.jsp?uri=<viva:DocumentPartIAO_0000136/>"><viva:DocumentPartIAO_0000136 /></a></td></tr>
-      </viva:foreachDocumentPartIAO_0000136Iterator>
       <viva:foreachDocumentPartDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:DocumentPartDocumentationForType/>/<viva:DocumentPartDocumentationForType/>.jsp?uri=<viva:DocumentPartDocumentationFor/>"><viva:DocumentPartDocumentationFor /></a></td></tr>
       </viva:foreachDocumentPartDocumentationForIterator>
@@ -91,6 +76,21 @@
       <viva:foreachDocumentPartCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:DocumentPartCitesType/>/<viva:DocumentPartCitesType/>.jsp?uri=<viva:DocumentPartCites/>"><viva:DocumentPartCites /></a></td></tr>
       </viva:foreachDocumentPartCitesIterator>
+      <viva:foreachDocumentPartRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:DocumentPartRO_0000056Type/>/<viva:DocumentPartRO_0000056Type/>.jsp?uri=<viva:DocumentPartRO_0000056/>"><viva:DocumentPartRO_0000056 /></a></td></tr>
+      </viva:foreachDocumentPartRO_0000056Iterator>
+      <viva:foreachDocumentPartTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:DocumentPartTranslatorType/>/<viva:DocumentPartTranslatorType/>.jsp?uri=<viva:DocumentPartTranslator/>"><viva:DocumentPartTranslator /></a></td></tr>
+      </viva:foreachDocumentPartTranslatorIterator>
+      <viva:foreachDocumentPartFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:DocumentPartFeaturesType/>/<viva:DocumentPartFeaturesType/>.jsp?uri=<viva:DocumentPartFeatures/>"><viva:DocumentPartFeatures /></a></td></tr>
+      </viva:foreachDocumentPartFeaturesIterator>
+      <viva:foreachDocumentPartInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:DocumentPartInformationResourceSupportedByType/>/<viva:DocumentPartInformationResourceSupportedByType/>.jsp?uri=<viva:DocumentPartInformationResourceSupportedBy/>"><viva:DocumentPartInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachDocumentPartInformationResourceSupportedByIterator>
+      <viva:foreachDocumentPartIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:DocumentPartIAO_0000136Type/>/<viva:DocumentPartIAO_0000136Type/>.jsp?uri=<viva:DocumentPartIAO_0000136/>"><viva:DocumentPartIAO_0000136 /></a></td></tr>
+      </viva:foreachDocumentPartIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

@@ -28,6 +28,9 @@
      <viva:foreachPersonOrcidIdIterator>
          <p>ORCiD ID: <a href="<viva:PersonOrcidId/>"><viva:PersonOrcidId/></a>
       </viva:foreachPersonOrcidIdIterator>
+      <viva:foreachPersonSameAsIterator>
+         <p>Same as: <a href="<viva:PersonSameAs/>"><viva:PersonSameAs/></a>
+      </viva:foreachPersonSameAsIterator>
          
          <p><b>Keywords:</b>
          <viva:foreachPersonFreetextKeywordIterator>

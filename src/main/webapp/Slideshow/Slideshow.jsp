@@ -61,9 +61,6 @@
       <viva:foreachSlideshowRelatedByIterator>
          <tr><td>relatedBy</td><td><a href="../<viva:SlideshowRelatedByType/>/<viva:SlideshowRelatedByType/>.jsp?uri=<viva:SlideshowRelatedBy/>"><viva:SlideshowRelatedBy /></a></td></tr>
       </viva:foreachSlideshowRelatedByIterator>
-      <viva:foreachSlideshowRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:SlideshowRO_0000056Type/>/<viva:SlideshowRO_0000056Type/>.jsp?uri=<viva:SlideshowRO_0000056/>"><viva:SlideshowRO_0000056 /></a></td></tr>
-      </viva:foreachSlideshowRO_0000056Iterator>
       <viva:foreachSlideshowDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:SlideshowDocumentationForType/>/<viva:SlideshowDocumentationForType/>.jsp?uri=<viva:SlideshowDocumentationFor/>"><viva:SlideshowDocumentationFor /></a></td></tr>
       </viva:foreachSlideshowDocumentationForIterator>
@@ -91,6 +88,9 @@
       <viva:foreachSlideshowCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:SlideshowCitesType/>/<viva:SlideshowCitesType/>.jsp?uri=<viva:SlideshowCites/>"><viva:SlideshowCites /></a></td></tr>
       </viva:foreachSlideshowCitesIterator>
+      <viva:foreachSlideshowRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:SlideshowRO_0000056Type/>/<viva:SlideshowRO_0000056Type/>.jsp?uri=<viva:SlideshowRO_0000056/>"><viva:SlideshowRO_0000056 /></a></td></tr>
+      </viva:foreachSlideshowRO_0000056Iterator>
       <viva:foreachSlideshowTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:SlideshowTranslatorType/>/<viva:SlideshowTranslatorType/>.jsp?uri=<viva:SlideshowTranslator/>"><viva:SlideshowTranslator /></a></td></tr>
       </viva:foreachSlideshowTranslatorIterator>

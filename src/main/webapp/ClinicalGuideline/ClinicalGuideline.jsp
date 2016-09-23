@@ -49,9 +49,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachClinicalGuidelineRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:ClinicalGuidelineRO_0000056Type/>/<viva:ClinicalGuidelineRO_0000056Type/>.jsp?uri=<viva:ClinicalGuidelineRO_0000056/>"><viva:ClinicalGuidelineRO_0000056 /></a></td></tr>
-      </viva:foreachClinicalGuidelineRO_0000056Iterator>
       <viva:foreachClinicalGuidelineDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:ClinicalGuidelineDocumentationForType/>/<viva:ClinicalGuidelineDocumentationForType/>.jsp?uri=<viva:ClinicalGuidelineDocumentationFor/>"><viva:ClinicalGuidelineDocumentationFor /></a></td></tr>
       </viva:foreachClinicalGuidelineDocumentationForIterator>
@@ -79,6 +76,9 @@
       <viva:foreachClinicalGuidelineCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:ClinicalGuidelineCitesType/>/<viva:ClinicalGuidelineCitesType/>.jsp?uri=<viva:ClinicalGuidelineCites/>"><viva:ClinicalGuidelineCites /></a></td></tr>
       </viva:foreachClinicalGuidelineCitesIterator>
+      <viva:foreachClinicalGuidelineRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:ClinicalGuidelineRO_0000056Type/>/<viva:ClinicalGuidelineRO_0000056Type/>.jsp?uri=<viva:ClinicalGuidelineRO_0000056/>"><viva:ClinicalGuidelineRO_0000056 /></a></td></tr>
+      </viva:foreachClinicalGuidelineRO_0000056Iterator>
       <viva:foreachClinicalGuidelineTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:ClinicalGuidelineTranslatorType/>/<viva:ClinicalGuidelineTranslatorType/>.jsp?uri=<viva:ClinicalGuidelineTranslator/>"><viva:ClinicalGuidelineTranslator /></a></td></tr>
       </viva:foreachClinicalGuidelineTranslatorIterator>

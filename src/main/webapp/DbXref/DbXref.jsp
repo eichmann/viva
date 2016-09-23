@@ -37,9 +37,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachDbXrefRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:DbXrefRO_0000056Type/>/<viva:DbXrefRO_0000056Type/>.jsp?uri=<viva:DbXrefRO_0000056/>"><viva:DbXrefRO_0000056 /></a></td></tr>
-      </viva:foreachDbXrefRO_0000056Iterator>
       <viva:foreachDbXrefTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:DbXrefTranslatorType/>/<viva:DbXrefTranslatorType/>.jsp?uri=<viva:DbXrefTranslator/>"><viva:DbXrefTranslator /></a></td></tr>
       </viva:foreachDbXrefTranslatorIterator>
@@ -52,6 +49,9 @@
       <viva:foreachDbXrefIAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<viva:DbXrefIAO_0000136Type/>/<viva:DbXrefIAO_0000136Type/>.jsp?uri=<viva:DbXrefIAO_0000136/>"><viva:DbXrefIAO_0000136 /></a></td></tr>
       </viva:foreachDbXrefIAO_0000136Iterator>
+      <viva:foreachDbXrefRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:DbXrefRO_0000056Type/>/<viva:DbXrefRO_0000056Type/>.jsp?uri=<viva:DbXrefRO_0000056/>"><viva:DbXrefRO_0000056 /></a></td></tr>
+      </viva:foreachDbXrefRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

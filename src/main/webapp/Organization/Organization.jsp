@@ -27,15 +27,15 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachOrganizationRankIterator>
-         <tr><td>rank</td><td><viva:OrganizationRank /></td></tr>
-      </viva:foreachOrganizationRankIterator>
       <viva:foreachOrganizationTheAbstractIterator>
          <tr><td>theAbstract</td><td><viva:OrganizationTheAbstract /></td></tr>
       </viva:foreachOrganizationTheAbstractIterator>
       <viva:foreachOrganizationDoiIterator>
          <tr><td>doi</td><td><viva:OrganizationDoi /></td></tr>
       </viva:foreachOrganizationDoiIterator>
+      <viva:foreachOrganizationRankIterator>
+         <tr><td>rank</td><td><viva:OrganizationRank /></td></tr>
+      </viva:foreachOrganizationRankIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -43,6 +43,18 @@
       <viva:foreachOrganizationARG_2000029Iterator>
          <tr><td>ARG_2000029</td><td><a href="../<viva:OrganizationARG_2000029Type/>/<viva:OrganizationARG_2000029Type/>.jsp?uri=<viva:OrganizationARG_2000029/>"><viva:OrganizationARG_2000029 /></a></td></tr>
       </viva:foreachOrganizationARG_2000029Iterator>
+      <viva:foreachOrganizationTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:OrganizationTranslatorType/>/<viva:OrganizationTranslatorType/>.jsp?uri=<viva:OrganizationTranslator/>"><viva:OrganizationTranslator /></a></td></tr>
+      </viva:foreachOrganizationTranslatorIterator>
+      <viva:foreachOrganizationFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:OrganizationFeaturesType/>/<viva:OrganizationFeaturesType/>.jsp?uri=<viva:OrganizationFeatures/>"><viva:OrganizationFeatures /></a></td></tr>
+      </viva:foreachOrganizationFeaturesIterator>
+      <viva:foreachOrganizationInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:OrganizationInformationResourceSupportedByType/>/<viva:OrganizationInformationResourceSupportedByType/>.jsp?uri=<viva:OrganizationInformationResourceSupportedBy/>"><viva:OrganizationInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachOrganizationInformationResourceSupportedByIterator>
+      <viva:foreachOrganizationIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:OrganizationIAO_0000136Type/>/<viva:OrganizationIAO_0000136Type/>.jsp?uri=<viva:OrganizationIAO_0000136/>"><viva:OrganizationIAO_0000136 /></a></td></tr>
+      </viva:foreachOrganizationIAO_0000136Iterator>
       <viva:foreachOrganizationHasAddressIterator>
          <tr><td>hasAddress</td><td><a href="../<viva:OrganizationHasAddressType/>/<viva:OrganizationHasAddressType/>.jsp?uri=<viva:OrganizationHasAddress/>"><viva:OrganizationHasAddress /></a></td></tr>
       </viva:foreachOrganizationHasAddressIterator>
@@ -64,18 +76,6 @@
       <viva:foreachOrganizationRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:OrganizationRO_0000056Type/>/<viva:OrganizationRO_0000056Type/>.jsp?uri=<viva:OrganizationRO_0000056/>"><viva:OrganizationRO_0000056 /></a></td></tr>
       </viva:foreachOrganizationRO_0000056Iterator>
-      <viva:foreachOrganizationTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:OrganizationTranslatorType/>/<viva:OrganizationTranslatorType/>.jsp?uri=<viva:OrganizationTranslator/>"><viva:OrganizationTranslator /></a></td></tr>
-      </viva:foreachOrganizationTranslatorIterator>
-      <viva:foreachOrganizationFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:OrganizationFeaturesType/>/<viva:OrganizationFeaturesType/>.jsp?uri=<viva:OrganizationFeatures/>"><viva:OrganizationFeatures /></a></td></tr>
-      </viva:foreachOrganizationFeaturesIterator>
-      <viva:foreachOrganizationInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:OrganizationInformationResourceSupportedByType/>/<viva:OrganizationInformationResourceSupportedByType/>.jsp?uri=<viva:OrganizationInformationResourceSupportedBy/>"><viva:OrganizationInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachOrganizationInformationResourceSupportedByIterator>
-      <viva:foreachOrganizationIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:OrganizationIAO_0000136Type/>/<viva:OrganizationIAO_0000136Type/>.jsp?uri=<viva:OrganizationIAO_0000136/>"><viva:OrganizationIAO_0000136 /></a></td></tr>
-      </viva:foreachOrganizationIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

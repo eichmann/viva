@@ -46,6 +46,9 @@
       <viva:foreachLibrarianResearcherIdIterator>
          <tr><td>researcherId</td><td><viva:LibrarianResearcherId /></td></tr>
       </viva:foreachLibrarianResearcherIdIterator>
+      <viva:foreachLibrarianSameAsIterator>
+         <tr><td>sameAs</td><td><viva:LibrarianSameAs /></td></tr>
+      </viva:foreachLibrarianSameAsIterator>
       <viva:foreachLibrarianFreetextKeywordIterator>
          <tr><td>freetextKeyword</td><td><viva:LibrarianFreetextKeyword /></td></tr>
       </viva:foreachLibrarianFreetextKeywordIterator>
@@ -53,9 +56,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachLibrarianRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:LibrarianRO_0000053Type/>/<viva:LibrarianRO_0000053Type/>.jsp?uri=<viva:LibrarianRO_0000053/>"><viva:LibrarianRO_0000053 /></a></td></tr>
-      </viva:foreachLibrarianRO_0000053Iterator>
       <viva:foreachLibrarianAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<viva:LibrarianAssigneeForType/>/<viva:LibrarianAssigneeForType/>.jsp?uri=<viva:LibrarianAssigneeFor/>"><viva:LibrarianAssigneeFor /></a></td></tr>
       </viva:foreachLibrarianAssigneeForIterator>
@@ -65,6 +65,9 @@
       <viva:foreachLibrarianTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:LibrarianTranslatorOfType/>/<viva:LibrarianTranslatorOfType/>.jsp?uri=<viva:LibrarianTranslatorOf/>"><viva:LibrarianTranslatorOf /></a></td></tr>
       </viva:foreachLibrarianTranslatorOfIterator>
+      <viva:foreachLibrarianRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:LibrarianRO_0000053Type/>/<viva:LibrarianRO_0000053Type/>.jsp?uri=<viva:LibrarianRO_0000053/>"><viva:LibrarianRO_0000053 /></a></td></tr>
+      </viva:foreachLibrarianRO_0000053Iterator>
       <viva:foreachLibrarianERO_0000397Iterator>
          <tr><td>ERO_0000397</td><td><a href="../<viva:LibrarianERO_0000397Type/>/<viva:LibrarianERO_0000397Type/>.jsp?uri=<viva:LibrarianERO_0000397/>"><viva:LibrarianERO_0000397 /></a></td></tr>
       </viva:foreachLibrarianERO_0000397Iterator>

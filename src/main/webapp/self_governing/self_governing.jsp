@@ -262,24 +262,24 @@
       <viva:foreachself_governingHasBorderWithIterator>
          <tr><td>hasBorderWith</td><td><a href="../<viva:self_governingHasBorderWithType/>/<viva:self_governingHasBorderWithType/>.jsp?uri=<viva:self_governingHasBorderWith/>"><viva:self_governingHasBorderWith /></a></td></tr>
       </viva:foreachself_governingHasBorderWithIterator>
-      <viva:foreachself_governingIsInGroupIterator>
-         <tr><td>isInGroup</td><td><a href="../<viva:self_governingIsInGroupType/>/<viva:self_governingIsInGroupType/>.jsp?uri=<viva:self_governingIsInGroup/>"><viva:self_governingIsInGroup /></a></td></tr>
-      </viva:foreachself_governingIsInGroupIterator>
       <viva:foreachself_governingGeographicFocusOfIterator>
          <tr><td>geographicFocusOf</td><td><a href="../<viva:self_governingGeographicFocusOfType/>/<viva:self_governingGeographicFocusOfType/>.jsp?uri=<viva:self_governingGeographicFocusOf/>"><viva:self_governingGeographicFocusOf /></a></td></tr>
       </viva:foreachself_governingGeographicFocusOfIterator>
-      <viva:foreachself_governingRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:self_governingRO_0000053Type/>/<viva:self_governingRO_0000053Type/>.jsp?uri=<viva:self_governingRO_0000053/>"><viva:self_governingRO_0000053 /></a></td></tr>
-      </viva:foreachself_governingRO_0000053Iterator>
+      <viva:foreachself_governingIsInGroupIterator>
+         <tr><td>isInGroup</td><td><a href="../<viva:self_governingIsInGroupType/>/<viva:self_governingIsInGroupType/>.jsp?uri=<viva:self_governingIsInGroup/>"><viva:self_governingIsInGroup /></a></td></tr>
+      </viva:foreachself_governingIsInGroupIterator>
+      <viva:foreachself_governingRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:self_governingRO_0000056Type/>/<viva:self_governingRO_0000056Type/>.jsp?uri=<viva:self_governingRO_0000056/>"><viva:self_governingRO_0000056 /></a></td></tr>
+      </viva:foreachself_governingRO_0000056Iterator>
       <viva:foreachself_governingIsSuccessorOfIterator>
          <tr><td>isSuccessorOf</td><td><a href="../<viva:self_governingIsSuccessorOfType/>/<viva:self_governingIsSuccessorOfType/>.jsp?uri=<viva:self_governingIsSuccessorOf/>"><viva:self_governingIsSuccessorOf /></a></td></tr>
       </viva:foreachself_governingIsSuccessorOfIterator>
       <viva:foreachself_governingIsPredecessorOfIterator>
          <tr><td>isPredecessorOf</td><td><a href="../<viva:self_governingIsPredecessorOfType/>/<viva:self_governingIsPredecessorOfType/>.jsp?uri=<viva:self_governingIsPredecessorOf/>"><viva:self_governingIsPredecessorOf /></a></td></tr>
       </viva:foreachself_governingIsPredecessorOfIterator>
-      <viva:foreachself_governingRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:self_governingRO_0000056Type/>/<viva:self_governingRO_0000056Type/>.jsp?uri=<viva:self_governingRO_0000056/>"><viva:self_governingRO_0000056 /></a></td></tr>
-      </viva:foreachself_governingRO_0000056Iterator>
+      <viva:foreachself_governingRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:self_governingRO_0000053Type/>/<viva:self_governingRO_0000053Type/>.jsp?uri=<viva:self_governingRO_0000053/>"><viva:self_governingRO_0000053 /></a></td></tr>
+      </viva:foreachself_governingRO_0000053Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
@@ -287,12 +287,12 @@
       <viva:foreachself_governingIsAdministeredByInverseIterator>
          <tr><td>isAdministeredBy</td><td><a href="../<viva:self_governingIsAdministeredByInverseType/>/<viva:self_governingIsAdministeredByInverseType/>.jsp?uri=<viva:self_governingIsAdministeredByInverse/>"><viva:self_governingIsAdministeredByInverse/></a></td></tr>
       </viva:foreachself_governingIsAdministeredByInverseIterator>
-      <viva:foreachself_governingValidInInverseIterator>
-         <tr><td>validIn</td><td><a href="../<viva:self_governingValidInInverseType/>/<viva:self_governingValidInInverseType/>.jsp?uri=<viva:self_governingValidInInverse/>"><viva:self_governingValidInInverse/></a></td></tr>
-      </viva:foreachself_governingValidInInverseIterator>
       <viva:foreachself_governingOrcidIdInverseIterator>
          <tr><td>orcidId</td><td><a href="../<viva:self_governingOrcidIdInverseType/>/<viva:self_governingOrcidIdInverseType/>.jsp?uri=<viva:self_governingOrcidIdInverse/>"><viva:self_governingOrcidIdInverse/></a></td></tr>
       </viva:foreachself_governingOrcidIdInverseIterator>
+      <viva:foreachself_governingValidInInverseIterator>
+         <tr><td>validIn</td><td><a href="../<viva:self_governingValidInInverseType/>/<viva:self_governingValidInInverseType/>.jsp?uri=<viva:self_governingValidInInverse/>"><viva:self_governingValidInInverse/></a></td></tr>
+      </viva:foreachself_governingValidInInverseIterator>
    </table>
    </viva:self_governing>
 

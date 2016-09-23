@@ -34,12 +34,6 @@
       <viva:foreachPatentIclCodeIterator>
          <tr><td>iclCode</td><td><viva:PatentIclCode /></td></tr>
       </viva:foreachPatentIclCodeIterator>
-      <viva:foreachPatentTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:PatentTheAbstract /></td></tr>
-      </viva:foreachPatentTheAbstractIterator>
-      <viva:foreachPatentDoiIterator>
-         <tr><td>doi</td><td><viva:PatentDoi /></td></tr>
-      </viva:foreachPatentDoiIterator>
       <viva:foreachPatentPmidIterator>
          <tr><td>pmid</td><td><viva:PatentPmid /></td></tr>
       </viva:foreachPatentPmidIterator>
@@ -52,6 +46,12 @@
       <viva:foreachPatentERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:PatentERO_0000045 /></td></tr>
       </viva:foreachPatentERO_0000045Iterator>
+      <viva:foreachPatentTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:PatentTheAbstract /></td></tr>
+      </viva:foreachPatentTheAbstractIterator>
+      <viva:foreachPatentDoiIterator>
+         <tr><td>doi</td><td><viva:PatentDoi /></td></tr>
+      </viva:foreachPatentDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -62,21 +62,6 @@
       <viva:foreachPatentDateFiledIterator>
          <tr><td>dateFiled</td><td><a href="../<viva:PatentDateFiledType/>/<viva:PatentDateFiledType/>.jsp?uri=<viva:PatentDateFiled/>"><viva:PatentDateFiled /></a></td></tr>
       </viva:foreachPatentDateFiledIterator>
-      <viva:foreachPatentRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:PatentRO_0000056Type/>/<viva:PatentRO_0000056Type/>.jsp?uri=<viva:PatentRO_0000056/>"><viva:PatentRO_0000056 /></a></td></tr>
-      </viva:foreachPatentRO_0000056Iterator>
-      <viva:foreachPatentTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:PatentTranslatorType/>/<viva:PatentTranslatorType/>.jsp?uri=<viva:PatentTranslator/>"><viva:PatentTranslator /></a></td></tr>
-      </viva:foreachPatentTranslatorIterator>
-      <viva:foreachPatentFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:PatentFeaturesType/>/<viva:PatentFeaturesType/>.jsp?uri=<viva:PatentFeatures/>"><viva:PatentFeatures /></a></td></tr>
-      </viva:foreachPatentFeaturesIterator>
-      <viva:foreachPatentInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:PatentInformationResourceSupportedByType/>/<viva:PatentInformationResourceSupportedByType/>.jsp?uri=<viva:PatentInformationResourceSupportedBy/>"><viva:PatentInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachPatentInformationResourceSupportedByIterator>
-      <viva:foreachPatentIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:PatentIAO_0000136Type/>/<viva:PatentIAO_0000136Type/>.jsp?uri=<viva:PatentIAO_0000136/>"><viva:PatentIAO_0000136 /></a></td></tr>
-      </viva:foreachPatentIAO_0000136Iterator>
       <viva:foreachPatentDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:PatentDocumentationForType/>/<viva:PatentDocumentationForType/>.jsp?uri=<viva:PatentDocumentationFor/>"><viva:PatentDocumentationFor /></a></td></tr>
       </viva:foreachPatentDocumentationForIterator>
@@ -104,6 +89,21 @@
       <viva:foreachPatentCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:PatentCitesType/>/<viva:PatentCitesType/>.jsp?uri=<viva:PatentCites/>"><viva:PatentCites /></a></td></tr>
       </viva:foreachPatentCitesIterator>
+      <viva:foreachPatentRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:PatentRO_0000056Type/>/<viva:PatentRO_0000056Type/>.jsp?uri=<viva:PatentRO_0000056/>"><viva:PatentRO_0000056 /></a></td></tr>
+      </viva:foreachPatentRO_0000056Iterator>
+      <viva:foreachPatentTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:PatentTranslatorType/>/<viva:PatentTranslatorType/>.jsp?uri=<viva:PatentTranslator/>"><viva:PatentTranslator /></a></td></tr>
+      </viva:foreachPatentTranslatorIterator>
+      <viva:foreachPatentFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:PatentFeaturesType/>/<viva:PatentFeaturesType/>.jsp?uri=<viva:PatentFeatures/>"><viva:PatentFeatures /></a></td></tr>
+      </viva:foreachPatentFeaturesIterator>
+      <viva:foreachPatentInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:PatentInformationResourceSupportedByType/>/<viva:PatentInformationResourceSupportedByType/>.jsp?uri=<viva:PatentInformationResourceSupportedBy/>"><viva:PatentInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachPatentInformationResourceSupportedByIterator>
+      <viva:foreachPatentIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:PatentIAO_0000136Type/>/<viva:PatentIAO_0000136Type/>.jsp?uri=<viva:PatentIAO_0000136/>"><viva:PatentIAO_0000136 /></a></td></tr>
+      </viva:foreachPatentIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

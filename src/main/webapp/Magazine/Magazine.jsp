@@ -37,6 +37,9 @@
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachMagazineRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:MagazineRO_0000056Type/>/<viva:MagazineRO_0000056Type/>.jsp?uri=<viva:MagazineRO_0000056/>"><viva:MagazineRO_0000056 /></a></td></tr>
+      </viva:foreachMagazineRO_0000056Iterator>
       <viva:foreachMagazineDateTimeValueIterator>
          <tr><td>dateTimeValue</td><td><a href="../<viva:MagazineDateTimeValueType/>/<viva:MagazineDateTimeValueType/>.jsp?uri=<viva:MagazineDateTimeValue/>"><viva:MagazineDateTimeValue /></a></td></tr>
       </viva:foreachMagazineDateTimeValueIterator>
@@ -49,9 +52,6 @@
       <viva:foreachMagazineRelatedByIterator>
          <tr><td>relatedBy</td><td><a href="../<viva:MagazineRelatedByType/>/<viva:MagazineRelatedByType/>.jsp?uri=<viva:MagazineRelatedBy/>"><viva:MagazineRelatedBy /></a></td></tr>
       </viva:foreachMagazineRelatedByIterator>
-      <viva:foreachMagazineRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:MagazineRO_0000056Type/>/<viva:MagazineRO_0000056Type/>.jsp?uri=<viva:MagazineRO_0000056/>"><viva:MagazineRO_0000056 /></a></td></tr>
-      </viva:foreachMagazineRO_0000056Iterator>
       <viva:foreachMagazineTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:MagazineTranslatorType/>/<viva:MagazineTranslatorType/>.jsp?uri=<viva:MagazineTranslator/>"><viva:MagazineTranslator /></a></td></tr>
       </viva:foreachMagazineTranslatorIterator>

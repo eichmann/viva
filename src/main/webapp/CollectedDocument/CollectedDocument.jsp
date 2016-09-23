@@ -49,9 +49,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachCollectedDocumentRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:CollectedDocumentRO_0000056Type/>/<viva:CollectedDocumentRO_0000056Type/>.jsp?uri=<viva:CollectedDocumentRO_0000056/>"><viva:CollectedDocumentRO_0000056 /></a></td></tr>
-      </viva:foreachCollectedDocumentRO_0000056Iterator>
       <viva:foreachCollectedDocumentDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:CollectedDocumentDocumentationForType/>/<viva:CollectedDocumentDocumentationForType/>.jsp?uri=<viva:CollectedDocumentDocumentationFor/>"><viva:CollectedDocumentDocumentationFor /></a></td></tr>
       </viva:foreachCollectedDocumentDocumentationForIterator>
@@ -79,6 +76,9 @@
       <viva:foreachCollectedDocumentCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:CollectedDocumentCitesType/>/<viva:CollectedDocumentCitesType/>.jsp?uri=<viva:CollectedDocumentCites/>"><viva:CollectedDocumentCites /></a></td></tr>
       </viva:foreachCollectedDocumentCitesIterator>
+      <viva:foreachCollectedDocumentRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:CollectedDocumentRO_0000056Type/>/<viva:CollectedDocumentRO_0000056Type/>.jsp?uri=<viva:CollectedDocumentRO_0000056/>"><viva:CollectedDocumentRO_0000056 /></a></td></tr>
+      </viva:foreachCollectedDocumentRO_0000056Iterator>
       <viva:foreachCollectedDocumentTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:CollectedDocumentTranslatorType/>/<viva:CollectedDocumentTranslatorType/>.jsp?uri=<viva:CollectedDocumentTranslator/>"><viva:CollectedDocumentTranslator /></a></td></tr>
       </viva:foreachCollectedDocumentTranslatorIterator>

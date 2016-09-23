@@ -49,9 +49,6 @@
       <viva:foreachGlobalCitationCountIAO_0000221Iterator>
          <tr><td>IAO_0000221</td><td><a href="../<viva:GlobalCitationCountIAO_0000221Type/>/<viva:GlobalCitationCountIAO_0000221Type/>.jsp?uri=<viva:GlobalCitationCountIAO_0000221/>"><viva:GlobalCitationCountIAO_0000221 /></a></td></tr>
       </viva:foreachGlobalCitationCountIAO_0000221Iterator>
-      <viva:foreachGlobalCitationCountRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:GlobalCitationCountRO_0000056Type/>/<viva:GlobalCitationCountRO_0000056Type/>.jsp?uri=<viva:GlobalCitationCountRO_0000056/>"><viva:GlobalCitationCountRO_0000056 /></a></td></tr>
-      </viva:foreachGlobalCitationCountRO_0000056Iterator>
       <viva:foreachGlobalCitationCountTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:GlobalCitationCountTranslatorType/>/<viva:GlobalCitationCountTranslatorType/>.jsp?uri=<viva:GlobalCitationCountTranslator/>"><viva:GlobalCitationCountTranslator /></a></td></tr>
       </viva:foreachGlobalCitationCountTranslatorIterator>
@@ -64,6 +61,9 @@
       <viva:foreachGlobalCitationCountIAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<viva:GlobalCitationCountIAO_0000136Type/>/<viva:GlobalCitationCountIAO_0000136Type/>.jsp?uri=<viva:GlobalCitationCountIAO_0000136/>"><viva:GlobalCitationCountIAO_0000136 /></a></td></tr>
       </viva:foreachGlobalCitationCountIAO_0000136Iterator>
+      <viva:foreachGlobalCitationCountRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:GlobalCitationCountRO_0000056Type/>/<viva:GlobalCitationCountRO_0000056Type/>.jsp?uri=<viva:GlobalCitationCountRO_0000056/>"><viva:GlobalCitationCountRO_0000056 /></a></td></tr>
+      </viva:foreachGlobalCitationCountRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

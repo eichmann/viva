@@ -33,9 +33,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachConsortiumRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:ConsortiumRO_0000053Type/>/<viva:ConsortiumRO_0000053Type/>.jsp?uri=<viva:ConsortiumRO_0000053/>"><viva:ConsortiumRO_0000053 /></a></td></tr>
-      </viva:foreachConsortiumRO_0000053Iterator>
       <viva:foreachConsortiumAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<viva:ConsortiumAssigneeForType/>/<viva:ConsortiumAssigneeForType/>.jsp?uri=<viva:ConsortiumAssigneeFor/>"><viva:ConsortiumAssigneeFor /></a></td></tr>
       </viva:foreachConsortiumAssigneeForIterator>
@@ -45,9 +42,9 @@
       <viva:foreachConsortiumTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:ConsortiumTranslatorOfType/>/<viva:ConsortiumTranslatorOfType/>.jsp?uri=<viva:ConsortiumTranslatorOf/>"><viva:ConsortiumTranslatorOf /></a></td></tr>
       </viva:foreachConsortiumTranslatorOfIterator>
-      <viva:foreachConsortiumRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:ConsortiumRO_0000056Type/>/<viva:ConsortiumRO_0000056Type/>.jsp?uri=<viva:ConsortiumRO_0000056/>"><viva:ConsortiumRO_0000056 /></a></td></tr>
-      </viva:foreachConsortiumRO_0000056Iterator>
+      <viva:foreachConsortiumRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:ConsortiumRO_0000053Type/>/<viva:ConsortiumRO_0000053Type/>.jsp?uri=<viva:ConsortiumRO_0000053/>"><viva:ConsortiumRO_0000053 /></a></td></tr>
+      </viva:foreachConsortiumRO_0000053Iterator>
       <viva:foreachConsortiumSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:ConsortiumSponsorsType/>/<viva:ConsortiumSponsorsType/>.jsp?uri=<viva:ConsortiumSponsors/>"><viva:ConsortiumSponsors /></a></td></tr>
       </viva:foreachConsortiumSponsorsIterator>
@@ -84,6 +81,9 @@
       <viva:foreachConsortiumAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<viva:ConsortiumAffiliatedOrganizationType/>/<viva:ConsortiumAffiliatedOrganizationType/>.jsp?uri=<viva:ConsortiumAffiliatedOrganization/>"><viva:ConsortiumAffiliatedOrganization /></a></td></tr>
       </viva:foreachConsortiumAffiliatedOrganizationIterator>
+      <viva:foreachConsortiumRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:ConsortiumRO_0000056Type/>/<viva:ConsortiumRO_0000056Type/>.jsp?uri=<viva:ConsortiumRO_0000056/>"><viva:ConsortiumRO_0000056 /></a></td></tr>
+      </viva:foreachConsortiumRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

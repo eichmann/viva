@@ -37,6 +37,9 @@
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachBlogRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:BlogRO_0000056Type/>/<viva:BlogRO_0000056Type/>.jsp?uri=<viva:BlogRO_0000056/>"><viva:BlogRO_0000056 /></a></td></tr>
+      </viva:foreachBlogRO_0000056Iterator>
       <viva:foreachBlogDateTimeValueIterator>
          <tr><td>dateTimeValue</td><td><a href="../<viva:BlogDateTimeValueType/>/<viva:BlogDateTimeValueType/>.jsp?uri=<viva:BlogDateTimeValue/>"><viva:BlogDateTimeValue /></a></td></tr>
       </viva:foreachBlogDateTimeValueIterator>
@@ -49,9 +52,6 @@
       <viva:foreachBlogRelatedByIterator>
          <tr><td>relatedBy</td><td><a href="../<viva:BlogRelatedByType/>/<viva:BlogRelatedByType/>.jsp?uri=<viva:BlogRelatedBy/>"><viva:BlogRelatedBy /></a></td></tr>
       </viva:foreachBlogRelatedByIterator>
-      <viva:foreachBlogRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:BlogRO_0000056Type/>/<viva:BlogRO_0000056Type/>.jsp?uri=<viva:BlogRO_0000056/>"><viva:BlogRO_0000056 /></a></td></tr>
-      </viva:foreachBlogRO_0000056Iterator>
       <viva:foreachBlogTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:BlogTranslatorType/>/<viva:BlogTranslatorType/>.jsp?uri=<viva:BlogTranslator/>"><viva:BlogTranslator /></a></td></tr>
       </viva:foreachBlogTranslatorIterator>

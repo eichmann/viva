@@ -27,12 +27,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachSlideTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:SlideTheAbstract /></td></tr>
-      </viva:foreachSlideTheAbstractIterator>
-      <viva:foreachSlideDoiIterator>
-         <tr><td>doi</td><td><viva:SlideDoi /></td></tr>
-      </viva:foreachSlideDoiIterator>
       <viva:foreachSlidePmidIterator>
          <tr><td>pmid</td><td><viva:SlidePmid /></td></tr>
       </viva:foreachSlidePmidIterator>
@@ -45,25 +39,16 @@
       <viva:foreachSlideERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:SlideERO_0000045 /></td></tr>
       </viva:foreachSlideERO_0000045Iterator>
+      <viva:foreachSlideTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:SlideTheAbstract /></td></tr>
+      </viva:foreachSlideTheAbstractIterator>
+      <viva:foreachSlideDoiIterator>
+         <tr><td>doi</td><td><viva:SlideDoi /></td></tr>
+      </viva:foreachSlideDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachSlideRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:SlideRO_0000056Type/>/<viva:SlideRO_0000056Type/>.jsp?uri=<viva:SlideRO_0000056/>"><viva:SlideRO_0000056 /></a></td></tr>
-      </viva:foreachSlideRO_0000056Iterator>
-      <viva:foreachSlideTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:SlideTranslatorType/>/<viva:SlideTranslatorType/>.jsp?uri=<viva:SlideTranslator/>"><viva:SlideTranslator /></a></td></tr>
-      </viva:foreachSlideTranslatorIterator>
-      <viva:foreachSlideFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:SlideFeaturesType/>/<viva:SlideFeaturesType/>.jsp?uri=<viva:SlideFeatures/>"><viva:SlideFeatures /></a></td></tr>
-      </viva:foreachSlideFeaturesIterator>
-      <viva:foreachSlideInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:SlideInformationResourceSupportedByType/>/<viva:SlideInformationResourceSupportedByType/>.jsp?uri=<viva:SlideInformationResourceSupportedBy/>"><viva:SlideInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachSlideInformationResourceSupportedByIterator>
-      <viva:foreachSlideIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:SlideIAO_0000136Type/>/<viva:SlideIAO_0000136Type/>.jsp?uri=<viva:SlideIAO_0000136/>"><viva:SlideIAO_0000136 /></a></td></tr>
-      </viva:foreachSlideIAO_0000136Iterator>
       <viva:foreachSlideDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:SlideDocumentationForType/>/<viva:SlideDocumentationForType/>.jsp?uri=<viva:SlideDocumentationFor/>"><viva:SlideDocumentationFor /></a></td></tr>
       </viva:foreachSlideDocumentationForIterator>
@@ -91,6 +76,21 @@
       <viva:foreachSlideCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:SlideCitesType/>/<viva:SlideCitesType/>.jsp?uri=<viva:SlideCites/>"><viva:SlideCites /></a></td></tr>
       </viva:foreachSlideCitesIterator>
+      <viva:foreachSlideRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:SlideRO_0000056Type/>/<viva:SlideRO_0000056Type/>.jsp?uri=<viva:SlideRO_0000056/>"><viva:SlideRO_0000056 /></a></td></tr>
+      </viva:foreachSlideRO_0000056Iterator>
+      <viva:foreachSlideTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:SlideTranslatorType/>/<viva:SlideTranslatorType/>.jsp?uri=<viva:SlideTranslator/>"><viva:SlideTranslator /></a></td></tr>
+      </viva:foreachSlideTranslatorIterator>
+      <viva:foreachSlideFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:SlideFeaturesType/>/<viva:SlideFeaturesType/>.jsp?uri=<viva:SlideFeatures/>"><viva:SlideFeatures /></a></td></tr>
+      </viva:foreachSlideFeaturesIterator>
+      <viva:foreachSlideInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:SlideInformationResourceSupportedByType/>/<viva:SlideInformationResourceSupportedByType/>.jsp?uri=<viva:SlideInformationResourceSupportedBy/>"><viva:SlideInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachSlideInformationResourceSupportedByIterator>
+      <viva:foreachSlideIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:SlideIAO_0000136Type/>/<viva:SlideIAO_0000136Type/>.jsp?uri=<viva:SlideIAO_0000136/>"><viva:SlideIAO_0000136 /></a></td></tr>
+      </viva:foreachSlideIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

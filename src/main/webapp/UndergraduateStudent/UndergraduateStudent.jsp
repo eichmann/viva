@@ -46,6 +46,9 @@
       <viva:foreachUndergraduateStudentResearcherIdIterator>
          <tr><td>researcherId</td><td><viva:UndergraduateStudentResearcherId /></td></tr>
       </viva:foreachUndergraduateStudentResearcherIdIterator>
+      <viva:foreachUndergraduateStudentSameAsIterator>
+         <tr><td>sameAs</td><td><viva:UndergraduateStudentSameAs /></td></tr>
+      </viva:foreachUndergraduateStudentSameAsIterator>
       <viva:foreachUndergraduateStudentFreetextKeywordIterator>
          <tr><td>freetextKeyword</td><td><viva:UndergraduateStudentFreetextKeyword /></td></tr>
       </viva:foreachUndergraduateStudentFreetextKeywordIterator>
@@ -53,9 +56,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachUndergraduateStudentRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:UndergraduateStudentRO_0000053Type/>/<viva:UndergraduateStudentRO_0000053Type/>.jsp?uri=<viva:UndergraduateStudentRO_0000053/>"><viva:UndergraduateStudentRO_0000053 /></a></td></tr>
-      </viva:foreachUndergraduateStudentRO_0000053Iterator>
       <viva:foreachUndergraduateStudentAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<viva:UndergraduateStudentAssigneeForType/>/<viva:UndergraduateStudentAssigneeForType/>.jsp?uri=<viva:UndergraduateStudentAssigneeFor/>"><viva:UndergraduateStudentAssigneeFor /></a></td></tr>
       </viva:foreachUndergraduateStudentAssigneeForIterator>
@@ -65,6 +65,9 @@
       <viva:foreachUndergraduateStudentTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:UndergraduateStudentTranslatorOfType/>/<viva:UndergraduateStudentTranslatorOfType/>.jsp?uri=<viva:UndergraduateStudentTranslatorOf/>"><viva:UndergraduateStudentTranslatorOf /></a></td></tr>
       </viva:foreachUndergraduateStudentTranslatorOfIterator>
+      <viva:foreachUndergraduateStudentRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:UndergraduateStudentRO_0000053Type/>/<viva:UndergraduateStudentRO_0000053Type/>.jsp?uri=<viva:UndergraduateStudentRO_0000053/>"><viva:UndergraduateStudentRO_0000053 /></a></td></tr>
+      </viva:foreachUndergraduateStudentRO_0000053Iterator>
       <viva:foreachUndergraduateStudentERO_0000397Iterator>
          <tr><td>ERO_0000397</td><td><a href="../<viva:UndergraduateStudentERO_0000397Type/>/<viva:UndergraduateStudentERO_0000397Type/>.jsp?uri=<viva:UndergraduateStudentERO_0000397/>"><viva:UndergraduateStudentERO_0000397 /></a></td></tr>
       </viva:foreachUndergraduateStudentERO_0000397Iterator>

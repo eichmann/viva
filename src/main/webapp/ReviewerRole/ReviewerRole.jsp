@@ -34,15 +34,15 @@
       <viva:foreachReviewerRoleRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<viva:ReviewerRoleRO_0000052Type/>/<viva:ReviewerRoleRO_0000052Type/>.jsp?uri=<viva:ReviewerRoleRO_0000052/>"><viva:ReviewerRoleRO_0000052 /></a></td></tr>
       </viva:foreachReviewerRoleRO_0000052Iterator>
-      <viva:foreachReviewerRoleBFO_0000054Iterator>
-         <tr><td>BFO_0000054</td><td><a href="../<viva:ReviewerRoleBFO_0000054Type/>/<viva:ReviewerRoleBFO_0000054Type/>.jsp?uri=<viva:ReviewerRoleBFO_0000054/>"><viva:ReviewerRoleBFO_0000054 /></a></td></tr>
-      </viva:foreachReviewerRoleBFO_0000054Iterator>
-      <viva:foreachReviewerRoleRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:ReviewerRoleRO_0000056Type/>/<viva:ReviewerRoleRO_0000056Type/>.jsp?uri=<viva:ReviewerRoleRO_0000056/>"><viva:ReviewerRoleRO_0000056 /></a></td></tr>
-      </viva:foreachReviewerRoleRO_0000056Iterator>
       <viva:foreachReviewerRoleRoleContributesToIterator>
          <tr><td>roleContributesTo</td><td><a href="../<viva:ReviewerRoleRoleContributesToType/>/<viva:ReviewerRoleRoleContributesToType/>.jsp?uri=<viva:ReviewerRoleRoleContributesTo/>"><viva:ReviewerRoleRoleContributesTo /></a></td></tr>
       </viva:foreachReviewerRoleRoleContributesToIterator>
+      <viva:foreachReviewerRoleRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:ReviewerRoleRO_0000056Type/>/<viva:ReviewerRoleRO_0000056Type/>.jsp?uri=<viva:ReviewerRoleRO_0000056/>"><viva:ReviewerRoleRO_0000056 /></a></td></tr>
+      </viva:foreachReviewerRoleRO_0000056Iterator>
+      <viva:foreachReviewerRoleBFO_0000054Iterator>
+         <tr><td>BFO_0000054</td><td><a href="../<viva:ReviewerRoleBFO_0000054Type/>/<viva:ReviewerRoleBFO_0000054Type/>.jsp?uri=<viva:ReviewerRoleBFO_0000054/>"><viva:ReviewerRoleBFO_0000054 /></a></td></tr>
+      </viva:foreachReviewerRoleBFO_0000054Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

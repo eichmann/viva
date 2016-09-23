@@ -49,9 +49,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachLetterRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:LetterRO_0000056Type/>/<viva:LetterRO_0000056Type/>.jsp?uri=<viva:LetterRO_0000056/>"><viva:LetterRO_0000056 /></a></td></tr>
-      </viva:foreachLetterRO_0000056Iterator>
       <viva:foreachLetterDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:LetterDocumentationForType/>/<viva:LetterDocumentationForType/>.jsp?uri=<viva:LetterDocumentationFor/>"><viva:LetterDocumentationFor /></a></td></tr>
       </viva:foreachLetterDocumentationForIterator>
@@ -79,6 +76,9 @@
       <viva:foreachLetterCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:LetterCitesType/>/<viva:LetterCitesType/>.jsp?uri=<viva:LetterCites/>"><viva:LetterCites /></a></td></tr>
       </viva:foreachLetterCitesIterator>
+      <viva:foreachLetterRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:LetterRO_0000056Type/>/<viva:LetterRO_0000056Type/>.jsp?uri=<viva:LetterRO_0000056/>"><viva:LetterRO_0000056 /></a></td></tr>
+      </viva:foreachLetterRO_0000056Iterator>
       <viva:foreachLetterTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:LetterTranslatorType/>/<viva:LetterTranslatorType/>.jsp?uri=<viva:LetterTranslator/>"><viva:LetterTranslator /></a></td></tr>
       </viva:foreachLetterTranslatorIterator>

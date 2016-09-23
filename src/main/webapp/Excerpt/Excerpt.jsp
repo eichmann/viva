@@ -27,12 +27,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachExcerptTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:ExcerptTheAbstract /></td></tr>
-      </viva:foreachExcerptTheAbstractIterator>
-      <viva:foreachExcerptDoiIterator>
-         <tr><td>doi</td><td><viva:ExcerptDoi /></td></tr>
-      </viva:foreachExcerptDoiIterator>
       <viva:foreachExcerptPmidIterator>
          <tr><td>pmid</td><td><viva:ExcerptPmid /></td></tr>
       </viva:foreachExcerptPmidIterator>
@@ -45,25 +39,16 @@
       <viva:foreachExcerptERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:ExcerptERO_0000045 /></td></tr>
       </viva:foreachExcerptERO_0000045Iterator>
+      <viva:foreachExcerptTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:ExcerptTheAbstract /></td></tr>
+      </viva:foreachExcerptTheAbstractIterator>
+      <viva:foreachExcerptDoiIterator>
+         <tr><td>doi</td><td><viva:ExcerptDoi /></td></tr>
+      </viva:foreachExcerptDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachExcerptRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:ExcerptRO_0000056Type/>/<viva:ExcerptRO_0000056Type/>.jsp?uri=<viva:ExcerptRO_0000056/>"><viva:ExcerptRO_0000056 /></a></td></tr>
-      </viva:foreachExcerptRO_0000056Iterator>
-      <viva:foreachExcerptTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:ExcerptTranslatorType/>/<viva:ExcerptTranslatorType/>.jsp?uri=<viva:ExcerptTranslator/>"><viva:ExcerptTranslator /></a></td></tr>
-      </viva:foreachExcerptTranslatorIterator>
-      <viva:foreachExcerptFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:ExcerptFeaturesType/>/<viva:ExcerptFeaturesType/>.jsp?uri=<viva:ExcerptFeatures/>"><viva:ExcerptFeatures /></a></td></tr>
-      </viva:foreachExcerptFeaturesIterator>
-      <viva:foreachExcerptInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ExcerptInformationResourceSupportedByType/>/<viva:ExcerptInformationResourceSupportedByType/>.jsp?uri=<viva:ExcerptInformationResourceSupportedBy/>"><viva:ExcerptInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachExcerptInformationResourceSupportedByIterator>
-      <viva:foreachExcerptIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ExcerptIAO_0000136Type/>/<viva:ExcerptIAO_0000136Type/>.jsp?uri=<viva:ExcerptIAO_0000136/>"><viva:ExcerptIAO_0000136 /></a></td></tr>
-      </viva:foreachExcerptIAO_0000136Iterator>
       <viva:foreachExcerptDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:ExcerptDocumentationForType/>/<viva:ExcerptDocumentationForType/>.jsp?uri=<viva:ExcerptDocumentationFor/>"><viva:ExcerptDocumentationFor /></a></td></tr>
       </viva:foreachExcerptDocumentationForIterator>
@@ -91,6 +76,21 @@
       <viva:foreachExcerptCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:ExcerptCitesType/>/<viva:ExcerptCitesType/>.jsp?uri=<viva:ExcerptCites/>"><viva:ExcerptCites /></a></td></tr>
       </viva:foreachExcerptCitesIterator>
+      <viva:foreachExcerptRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:ExcerptRO_0000056Type/>/<viva:ExcerptRO_0000056Type/>.jsp?uri=<viva:ExcerptRO_0000056/>"><viva:ExcerptRO_0000056 /></a></td></tr>
+      </viva:foreachExcerptRO_0000056Iterator>
+      <viva:foreachExcerptTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:ExcerptTranslatorType/>/<viva:ExcerptTranslatorType/>.jsp?uri=<viva:ExcerptTranslator/>"><viva:ExcerptTranslator /></a></td></tr>
+      </viva:foreachExcerptTranslatorIterator>
+      <viva:foreachExcerptFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:ExcerptFeaturesType/>/<viva:ExcerptFeaturesType/>.jsp?uri=<viva:ExcerptFeatures/>"><viva:ExcerptFeatures /></a></td></tr>
+      </viva:foreachExcerptFeaturesIterator>
+      <viva:foreachExcerptInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ExcerptInformationResourceSupportedByType/>/<viva:ExcerptInformationResourceSupportedByType/>.jsp?uri=<viva:ExcerptInformationResourceSupportedBy/>"><viva:ExcerptInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachExcerptInformationResourceSupportedByIterator>
+      <viva:foreachExcerptIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:ExcerptIAO_0000136Type/>/<viva:ExcerptIAO_0000136Type/>.jsp?uri=<viva:ExcerptIAO_0000136/>"><viva:ExcerptIAO_0000136 /></a></td></tr>
+      </viva:foreachExcerptIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

@@ -37,6 +37,9 @@
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachPeriodicalRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:PeriodicalRO_0000056Type/>/<viva:PeriodicalRO_0000056Type/>.jsp?uri=<viva:PeriodicalRO_0000056/>"><viva:PeriodicalRO_0000056 /></a></td></tr>
+      </viva:foreachPeriodicalRO_0000056Iterator>
       <viva:foreachPeriodicalDateTimeValueIterator>
          <tr><td>dateTimeValue</td><td><a href="../<viva:PeriodicalDateTimeValueType/>/<viva:PeriodicalDateTimeValueType/>.jsp?uri=<viva:PeriodicalDateTimeValue/>"><viva:PeriodicalDateTimeValue /></a></td></tr>
       </viva:foreachPeriodicalDateTimeValueIterator>
@@ -49,9 +52,6 @@
       <viva:foreachPeriodicalRelatedByIterator>
          <tr><td>relatedBy</td><td><a href="../<viva:PeriodicalRelatedByType/>/<viva:PeriodicalRelatedByType/>.jsp?uri=<viva:PeriodicalRelatedBy/>"><viva:PeriodicalRelatedBy /></a></td></tr>
       </viva:foreachPeriodicalRelatedByIterator>
-      <viva:foreachPeriodicalRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:PeriodicalRO_0000056Type/>/<viva:PeriodicalRO_0000056Type/>.jsp?uri=<viva:PeriodicalRO_0000056/>"><viva:PeriodicalRO_0000056 /></a></td></tr>
-      </viva:foreachPeriodicalRO_0000056Iterator>
       <viva:foreachPeriodicalTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:PeriodicalTranslatorType/>/<viva:PeriodicalTranslatorType/>.jsp?uri=<viva:PeriodicalTranslator/>"><viva:PeriodicalTranslator /></a></td></tr>
       </viva:foreachPeriodicalTranslatorIterator>
