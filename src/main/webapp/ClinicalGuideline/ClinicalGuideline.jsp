@@ -27,6 +27,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachClinicalGuidelineTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:ClinicalGuidelineTheAbstract /></td></tr>
+      </viva:foreachClinicalGuidelineTheAbstractIterator>
+      <viva:foreachClinicalGuidelineDoiIterator>
+         <tr><td>doi</td><td><viva:ClinicalGuidelineDoi /></td></tr>
+      </viva:foreachClinicalGuidelineDoiIterator>
       <viva:foreachClinicalGuidelinePmidIterator>
          <tr><td>pmid</td><td><viva:ClinicalGuidelinePmid /></td></tr>
       </viva:foreachClinicalGuidelinePmidIterator>
@@ -39,16 +45,22 @@
       <viva:foreachClinicalGuidelineERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:ClinicalGuidelineERO_0000045 /></td></tr>
       </viva:foreachClinicalGuidelineERO_0000045Iterator>
-      <viva:foreachClinicalGuidelineTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:ClinicalGuidelineTheAbstract /></td></tr>
-      </viva:foreachClinicalGuidelineTheAbstractIterator>
-      <viva:foreachClinicalGuidelineDoiIterator>
-         <tr><td>doi</td><td><viva:ClinicalGuidelineDoi /></td></tr>
-      </viva:foreachClinicalGuidelineDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachClinicalGuidelineTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:ClinicalGuidelineTranslatorType/>/<viva:ClinicalGuidelineTranslatorType/>.jsp?uri=<viva:ClinicalGuidelineTranslator/>"><viva:ClinicalGuidelineTranslator /></a></td></tr>
+      </viva:foreachClinicalGuidelineTranslatorIterator>
+      <viva:foreachClinicalGuidelineFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:ClinicalGuidelineFeaturesType/>/<viva:ClinicalGuidelineFeaturesType/>.jsp?uri=<viva:ClinicalGuidelineFeatures/>"><viva:ClinicalGuidelineFeatures /></a></td></tr>
+      </viva:foreachClinicalGuidelineFeaturesIterator>
+      <viva:foreachClinicalGuidelineInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ClinicalGuidelineInformationResourceSupportedByType/>/<viva:ClinicalGuidelineInformationResourceSupportedByType/>.jsp?uri=<viva:ClinicalGuidelineInformationResourceSupportedBy/>"><viva:ClinicalGuidelineInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachClinicalGuidelineInformationResourceSupportedByIterator>
+      <viva:foreachClinicalGuidelineIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:ClinicalGuidelineIAO_0000136Type/>/<viva:ClinicalGuidelineIAO_0000136Type/>.jsp?uri=<viva:ClinicalGuidelineIAO_0000136/>"><viva:ClinicalGuidelineIAO_0000136 /></a></td></tr>
+      </viva:foreachClinicalGuidelineIAO_0000136Iterator>
       <viva:foreachClinicalGuidelineDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:ClinicalGuidelineDocumentationForType/>/<viva:ClinicalGuidelineDocumentationForType/>.jsp?uri=<viva:ClinicalGuidelineDocumentationFor/>"><viva:ClinicalGuidelineDocumentationFor /></a></td></tr>
       </viva:foreachClinicalGuidelineDocumentationForIterator>
@@ -79,18 +91,6 @@
       <viva:foreachClinicalGuidelineRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ClinicalGuidelineRO_0000056Type/>/<viva:ClinicalGuidelineRO_0000056Type/>.jsp?uri=<viva:ClinicalGuidelineRO_0000056/>"><viva:ClinicalGuidelineRO_0000056 /></a></td></tr>
       </viva:foreachClinicalGuidelineRO_0000056Iterator>
-      <viva:foreachClinicalGuidelineTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:ClinicalGuidelineTranslatorType/>/<viva:ClinicalGuidelineTranslatorType/>.jsp?uri=<viva:ClinicalGuidelineTranslator/>"><viva:ClinicalGuidelineTranslator /></a></td></tr>
-      </viva:foreachClinicalGuidelineTranslatorIterator>
-      <viva:foreachClinicalGuidelineFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:ClinicalGuidelineFeaturesType/>/<viva:ClinicalGuidelineFeaturesType/>.jsp?uri=<viva:ClinicalGuidelineFeatures/>"><viva:ClinicalGuidelineFeatures /></a></td></tr>
-      </viva:foreachClinicalGuidelineFeaturesIterator>
-      <viva:foreachClinicalGuidelineInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ClinicalGuidelineInformationResourceSupportedByType/>/<viva:ClinicalGuidelineInformationResourceSupportedByType/>.jsp?uri=<viva:ClinicalGuidelineInformationResourceSupportedBy/>"><viva:ClinicalGuidelineInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachClinicalGuidelineInformationResourceSupportedByIterator>
-      <viva:foreachClinicalGuidelineIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ClinicalGuidelineIAO_0000136Type/>/<viva:ClinicalGuidelineIAO_0000136Type/>.jsp?uri=<viva:ClinicalGuidelineIAO_0000136/>"><viva:ClinicalGuidelineIAO_0000136 /></a></td></tr>
-      </viva:foreachClinicalGuidelineIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

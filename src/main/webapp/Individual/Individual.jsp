@@ -67,9 +67,6 @@
       <viva:foreachIndividualHasURLIterator>
          <tr><td>hasURL</td><td><a href="../<viva:IndividualHasURLType/>/<viva:IndividualHasURLType/>.jsp?uri=<viva:IndividualHasURL/>"><viva:IndividualHasURL /></a></td></tr>
       </viva:foreachIndividualHasURLIterator>
-      <viva:foreachIndividualARG_2000029Iterator>
-         <tr><td>ARG_2000029</td><td><a href="../<viva:IndividualARG_2000029Type/>/<viva:IndividualARG_2000029Type/>.jsp?uri=<viva:IndividualARG_2000029/>"><viva:IndividualARG_2000029 /></a></td></tr>
-      </viva:foreachIndividualARG_2000029Iterator>
       <viva:foreachIndividualTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:IndividualTranslatorType/>/<viva:IndividualTranslatorType/>.jsp?uri=<viva:IndividualTranslator/>"><viva:IndividualTranslator /></a></td></tr>
       </viva:foreachIndividualTranslatorIterator>
@@ -91,6 +88,9 @@
       <viva:foreachIndividualRelatesIterator>
          <tr><td>relates</td><td><a href="../<viva:IndividualRelatesType/>/<viva:IndividualRelatesType/>.jsp?uri=<viva:IndividualRelates/>"><viva:IndividualRelates /></a></td></tr>
       </viva:foreachIndividualRelatesIterator>
+      <viva:foreachIndividualARG_2000029Iterator>
+         <tr><td>ARG_2000029</td><td><a href="../<viva:IndividualARG_2000029Type/>/<viva:IndividualARG_2000029Type/>.jsp?uri=<viva:IndividualARG_2000029/>"><viva:IndividualARG_2000029 /></a></td></tr>
+      </viva:foreachIndividualARG_2000029Iterator>
       <viva:foreachIndividualRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:IndividualRO_0000056Type/>/<viva:IndividualRO_0000056Type/>.jsp?uri=<viva:IndividualRO_0000056/>"><viva:IndividualRO_0000056 /></a></td></tr>
       </viva:foreachIndividualRO_0000056Iterator>

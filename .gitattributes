@@ -809,6 +809,7 @@ src/main/webapp/WorkshopSeries/WorkshopSeriesList.jsp -text
 src/main/webapp/area/area.jsp -text
 src/main/webapp/area/areaList.jsp -text
 src/main/webapp/classHierarchy.jsp -text
+src/main/webapp/classList.jsp -text
 src/main/webapp/disputed/disputed.jsp -text
 src/main/webapp/disputed/disputedList.jsp -text
 src/main/webapp/economic_region/economic_region.jsp -text

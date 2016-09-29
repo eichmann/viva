@@ -27,6 +27,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachImageTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:ImageTheAbstract /></td></tr>
+      </viva:foreachImageTheAbstractIterator>
+      <viva:foreachImageDoiIterator>
+         <tr><td>doi</td><td><viva:ImageDoi /></td></tr>
+      </viva:foreachImageDoiIterator>
       <viva:foreachImagePmidIterator>
          <tr><td>pmid</td><td><viva:ImagePmid /></td></tr>
       </viva:foreachImagePmidIterator>
@@ -39,16 +45,22 @@
       <viva:foreachImageERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:ImageERO_0000045 /></td></tr>
       </viva:foreachImageERO_0000045Iterator>
-      <viva:foreachImageTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:ImageTheAbstract /></td></tr>
-      </viva:foreachImageTheAbstractIterator>
-      <viva:foreachImageDoiIterator>
-         <tr><td>doi</td><td><viva:ImageDoi /></td></tr>
-      </viva:foreachImageDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachImageTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:ImageTranslatorType/>/<viva:ImageTranslatorType/>.jsp?uri=<viva:ImageTranslator/>"><viva:ImageTranslator /></a></td></tr>
+      </viva:foreachImageTranslatorIterator>
+      <viva:foreachImageFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:ImageFeaturesType/>/<viva:ImageFeaturesType/>.jsp?uri=<viva:ImageFeatures/>"><viva:ImageFeatures /></a></td></tr>
+      </viva:foreachImageFeaturesIterator>
+      <viva:foreachImageInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ImageInformationResourceSupportedByType/>/<viva:ImageInformationResourceSupportedByType/>.jsp?uri=<viva:ImageInformationResourceSupportedBy/>"><viva:ImageInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachImageInformationResourceSupportedByIterator>
+      <viva:foreachImageIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:ImageIAO_0000136Type/>/<viva:ImageIAO_0000136Type/>.jsp?uri=<viva:ImageIAO_0000136/>"><viva:ImageIAO_0000136 /></a></td></tr>
+      </viva:foreachImageIAO_0000136Iterator>
       <viva:foreachImageDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:ImageDocumentationForType/>/<viva:ImageDocumentationForType/>.jsp?uri=<viva:ImageDocumentationFor/>"><viva:ImageDocumentationFor /></a></td></tr>
       </viva:foreachImageDocumentationForIterator>
@@ -79,18 +91,6 @@
       <viva:foreachImageRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ImageRO_0000056Type/>/<viva:ImageRO_0000056Type/>.jsp?uri=<viva:ImageRO_0000056/>"><viva:ImageRO_0000056 /></a></td></tr>
       </viva:foreachImageRO_0000056Iterator>
-      <viva:foreachImageTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:ImageTranslatorType/>/<viva:ImageTranslatorType/>.jsp?uri=<viva:ImageTranslator/>"><viva:ImageTranslator /></a></td></tr>
-      </viva:foreachImageTranslatorIterator>
-      <viva:foreachImageFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:ImageFeaturesType/>/<viva:ImageFeaturesType/>.jsp?uri=<viva:ImageFeatures/>"><viva:ImageFeatures /></a></td></tr>
-      </viva:foreachImageFeaturesIterator>
-      <viva:foreachImageInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ImageInformationResourceSupportedByType/>/<viva:ImageInformationResourceSupportedByType/>.jsp?uri=<viva:ImageInformationResourceSupportedBy/>"><viva:ImageInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachImageInformationResourceSupportedByIterator>
-      <viva:foreachImageIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ImageIAO_0000136Type/>/<viva:ImageIAO_0000136Type/>.jsp?uri=<viva:ImageIAO_0000136/>"><viva:ImageIAO_0000136 /></a></td></tr>
-      </viva:foreachImageIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

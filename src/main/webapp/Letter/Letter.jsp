@@ -27,6 +27,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachLetterTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:LetterTheAbstract /></td></tr>
+      </viva:foreachLetterTheAbstractIterator>
+      <viva:foreachLetterDoiIterator>
+         <tr><td>doi</td><td><viva:LetterDoi /></td></tr>
+      </viva:foreachLetterDoiIterator>
       <viva:foreachLetterPmidIterator>
          <tr><td>pmid</td><td><viva:LetterPmid /></td></tr>
       </viva:foreachLetterPmidIterator>
@@ -39,16 +45,22 @@
       <viva:foreachLetterERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:LetterERO_0000045 /></td></tr>
       </viva:foreachLetterERO_0000045Iterator>
-      <viva:foreachLetterTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:LetterTheAbstract /></td></tr>
-      </viva:foreachLetterTheAbstractIterator>
-      <viva:foreachLetterDoiIterator>
-         <tr><td>doi</td><td><viva:LetterDoi /></td></tr>
-      </viva:foreachLetterDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachLetterTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:LetterTranslatorType/>/<viva:LetterTranslatorType/>.jsp?uri=<viva:LetterTranslator/>"><viva:LetterTranslator /></a></td></tr>
+      </viva:foreachLetterTranslatorIterator>
+      <viva:foreachLetterFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:LetterFeaturesType/>/<viva:LetterFeaturesType/>.jsp?uri=<viva:LetterFeatures/>"><viva:LetterFeatures /></a></td></tr>
+      </viva:foreachLetterFeaturesIterator>
+      <viva:foreachLetterInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:LetterInformationResourceSupportedByType/>/<viva:LetterInformationResourceSupportedByType/>.jsp?uri=<viva:LetterInformationResourceSupportedBy/>"><viva:LetterInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachLetterInformationResourceSupportedByIterator>
+      <viva:foreachLetterIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:LetterIAO_0000136Type/>/<viva:LetterIAO_0000136Type/>.jsp?uri=<viva:LetterIAO_0000136/>"><viva:LetterIAO_0000136 /></a></td></tr>
+      </viva:foreachLetterIAO_0000136Iterator>
       <viva:foreachLetterDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:LetterDocumentationForType/>/<viva:LetterDocumentationForType/>.jsp?uri=<viva:LetterDocumentationFor/>"><viva:LetterDocumentationFor /></a></td></tr>
       </viva:foreachLetterDocumentationForIterator>
@@ -79,18 +91,6 @@
       <viva:foreachLetterRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:LetterRO_0000056Type/>/<viva:LetterRO_0000056Type/>.jsp?uri=<viva:LetterRO_0000056/>"><viva:LetterRO_0000056 /></a></td></tr>
       </viva:foreachLetterRO_0000056Iterator>
-      <viva:foreachLetterTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:LetterTranslatorType/>/<viva:LetterTranslatorType/>.jsp?uri=<viva:LetterTranslator/>"><viva:LetterTranslator /></a></td></tr>
-      </viva:foreachLetterTranslatorIterator>
-      <viva:foreachLetterFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:LetterFeaturesType/>/<viva:LetterFeaturesType/>.jsp?uri=<viva:LetterFeatures/>"><viva:LetterFeatures /></a></td></tr>
-      </viva:foreachLetterFeaturesIterator>
-      <viva:foreachLetterInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:LetterInformationResourceSupportedByType/>/<viva:LetterInformationResourceSupportedByType/>.jsp?uri=<viva:LetterInformationResourceSupportedBy/>"><viva:LetterInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachLetterInformationResourceSupportedByIterator>
-      <viva:foreachLetterIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:LetterIAO_0000136Type/>/<viva:LetterIAO_0000136Type/>.jsp?uri=<viva:LetterIAO_0000136/>"><viva:LetterIAO_0000136 /></a></td></tr>
-      </viva:foreachLetterIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

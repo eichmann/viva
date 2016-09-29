@@ -27,6 +27,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachAudioDocumentTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:AudioDocumentTheAbstract /></td></tr>
+      </viva:foreachAudioDocumentTheAbstractIterator>
+      <viva:foreachAudioDocumentDoiIterator>
+         <tr><td>doi</td><td><viva:AudioDocumentDoi /></td></tr>
+      </viva:foreachAudioDocumentDoiIterator>
       <viva:foreachAudioDocumentPmidIterator>
          <tr><td>pmid</td><td><viva:AudioDocumentPmid /></td></tr>
       </viva:foreachAudioDocumentPmidIterator>
@@ -39,16 +45,22 @@
       <viva:foreachAudioDocumentERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:AudioDocumentERO_0000045 /></td></tr>
       </viva:foreachAudioDocumentERO_0000045Iterator>
-      <viva:foreachAudioDocumentTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:AudioDocumentTheAbstract /></td></tr>
-      </viva:foreachAudioDocumentTheAbstractIterator>
-      <viva:foreachAudioDocumentDoiIterator>
-         <tr><td>doi</td><td><viva:AudioDocumentDoi /></td></tr>
-      </viva:foreachAudioDocumentDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachAudioDocumentTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:AudioDocumentTranslatorType/>/<viva:AudioDocumentTranslatorType/>.jsp?uri=<viva:AudioDocumentTranslator/>"><viva:AudioDocumentTranslator /></a></td></tr>
+      </viva:foreachAudioDocumentTranslatorIterator>
+      <viva:foreachAudioDocumentFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:AudioDocumentFeaturesType/>/<viva:AudioDocumentFeaturesType/>.jsp?uri=<viva:AudioDocumentFeatures/>"><viva:AudioDocumentFeatures /></a></td></tr>
+      </viva:foreachAudioDocumentFeaturesIterator>
+      <viva:foreachAudioDocumentInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:AudioDocumentInformationResourceSupportedByType/>/<viva:AudioDocumentInformationResourceSupportedByType/>.jsp?uri=<viva:AudioDocumentInformationResourceSupportedBy/>"><viva:AudioDocumentInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachAudioDocumentInformationResourceSupportedByIterator>
+      <viva:foreachAudioDocumentIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:AudioDocumentIAO_0000136Type/>/<viva:AudioDocumentIAO_0000136Type/>.jsp?uri=<viva:AudioDocumentIAO_0000136/>"><viva:AudioDocumentIAO_0000136 /></a></td></tr>
+      </viva:foreachAudioDocumentIAO_0000136Iterator>
       <viva:foreachAudioDocumentDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:AudioDocumentDocumentationForType/>/<viva:AudioDocumentDocumentationForType/>.jsp?uri=<viva:AudioDocumentDocumentationFor/>"><viva:AudioDocumentDocumentationFor /></a></td></tr>
       </viva:foreachAudioDocumentDocumentationForIterator>
@@ -79,18 +91,6 @@
       <viva:foreachAudioDocumentRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:AudioDocumentRO_0000056Type/>/<viva:AudioDocumentRO_0000056Type/>.jsp?uri=<viva:AudioDocumentRO_0000056/>"><viva:AudioDocumentRO_0000056 /></a></td></tr>
       </viva:foreachAudioDocumentRO_0000056Iterator>
-      <viva:foreachAudioDocumentTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:AudioDocumentTranslatorType/>/<viva:AudioDocumentTranslatorType/>.jsp?uri=<viva:AudioDocumentTranslator/>"><viva:AudioDocumentTranslator /></a></td></tr>
-      </viva:foreachAudioDocumentTranslatorIterator>
-      <viva:foreachAudioDocumentFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:AudioDocumentFeaturesType/>/<viva:AudioDocumentFeaturesType/>.jsp?uri=<viva:AudioDocumentFeatures/>"><viva:AudioDocumentFeatures /></a></td></tr>
-      </viva:foreachAudioDocumentFeaturesIterator>
-      <viva:foreachAudioDocumentInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:AudioDocumentInformationResourceSupportedByType/>/<viva:AudioDocumentInformationResourceSupportedByType/>.jsp?uri=<viva:AudioDocumentInformationResourceSupportedBy/>"><viva:AudioDocumentInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachAudioDocumentInformationResourceSupportedByIterator>
-      <viva:foreachAudioDocumentIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:AudioDocumentIAO_0000136Type/>/<viva:AudioDocumentIAO_0000136Type/>.jsp?uri=<viva:AudioDocumentIAO_0000136/>"><viva:AudioDocumentIAO_0000136 /></a></td></tr>
-      </viva:foreachAudioDocumentIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

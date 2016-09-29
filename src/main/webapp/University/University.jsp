@@ -42,9 +42,6 @@
       <viva:foreachUniversityTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:UniversityTranslatorOfType/>/<viva:UniversityTranslatorOfType/>.jsp?uri=<viva:UniversityTranslatorOf/>"><viva:UniversityTranslatorOf /></a></td></tr>
       </viva:foreachUniversityTranslatorOfIterator>
-      <viva:foreachUniversityRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:UniversityRO_0000053Type/>/<viva:UniversityRO_0000053Type/>.jsp?uri=<viva:UniversityRO_0000053/>"><viva:UniversityRO_0000053 /></a></td></tr>
-      </viva:foreachUniversityRO_0000053Iterator>
       <viva:foreachUniversitySponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:UniversitySponsorsType/>/<viva:UniversitySponsorsType/>.jsp?uri=<viva:UniversitySponsors/>"><viva:UniversitySponsors /></a></td></tr>
       </viva:foreachUniversitySponsorsIterator>
@@ -81,6 +78,9 @@
       <viva:foreachUniversityAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<viva:UniversityAffiliatedOrganizationType/>/<viva:UniversityAffiliatedOrganizationType/>.jsp?uri=<viva:UniversityAffiliatedOrganization/>"><viva:UniversityAffiliatedOrganization /></a></td></tr>
       </viva:foreachUniversityAffiliatedOrganizationIterator>
+      <viva:foreachUniversityRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:UniversityRO_0000053Type/>/<viva:UniversityRO_0000053Type/>.jsp?uri=<viva:UniversityRO_0000053/>"><viva:UniversityRO_0000053 /></a></td></tr>
+      </viva:foreachUniversityRO_0000053Iterator>
       <viva:foreachUniversityRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:UniversityRO_0000056Type/>/<viva:UniversityRO_0000056Type/>.jsp?uri=<viva:UniversityRO_0000056/>"><viva:UniversityRO_0000056 /></a></td></tr>
       </viva:foreachUniversityRO_0000056Iterator>

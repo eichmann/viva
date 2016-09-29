@@ -45,9 +45,6 @@
       <viva:foreachCompanyTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:CompanyTranslatorOfType/>/<viva:CompanyTranslatorOfType/>.jsp?uri=<viva:CompanyTranslatorOf/>"><viva:CompanyTranslatorOf /></a></td></tr>
       </viva:foreachCompanyTranslatorOfIterator>
-      <viva:foreachCompanyRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:CompanyRO_0000053Type/>/<viva:CompanyRO_0000053Type/>.jsp?uri=<viva:CompanyRO_0000053/>"><viva:CompanyRO_0000053 /></a></td></tr>
-      </viva:foreachCompanyRO_0000053Iterator>
       <viva:foreachCompanySponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:CompanySponsorsType/>/<viva:CompanySponsorsType/>.jsp?uri=<viva:CompanySponsors/>"><viva:CompanySponsors /></a></td></tr>
       </viva:foreachCompanySponsorsIterator>
@@ -81,6 +78,9 @@
       <viva:foreachCompanyAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<viva:CompanyAffiliatedOrganizationType/>/<viva:CompanyAffiliatedOrganizationType/>.jsp?uri=<viva:CompanyAffiliatedOrganization/>"><viva:CompanyAffiliatedOrganization /></a></td></tr>
       </viva:foreachCompanyAffiliatedOrganizationIterator>
+      <viva:foreachCompanyRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:CompanyRO_0000053Type/>/<viva:CompanyRO_0000053Type/>.jsp?uri=<viva:CompanyRO_0000053/>"><viva:CompanyRO_0000053 /></a></td></tr>
+      </viva:foreachCompanyRO_0000053Iterator>
       <viva:foreachCompanyRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:CompanyRO_0000056Type/>/<viva:CompanyRO_0000056Type/>.jsp?uri=<viva:CompanyRO_0000056/>"><viva:CompanyRO_0000056 /></a></td></tr>
       </viva:foreachCompanyRO_0000056Iterator>

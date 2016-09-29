@@ -27,6 +27,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachPersonalCommunicationDocumentTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:PersonalCommunicationDocumentTheAbstract /></td></tr>
+      </viva:foreachPersonalCommunicationDocumentTheAbstractIterator>
+      <viva:foreachPersonalCommunicationDocumentDoiIterator>
+         <tr><td>doi</td><td><viva:PersonalCommunicationDocumentDoi /></td></tr>
+      </viva:foreachPersonalCommunicationDocumentDoiIterator>
       <viva:foreachPersonalCommunicationDocumentPmidIterator>
          <tr><td>pmid</td><td><viva:PersonalCommunicationDocumentPmid /></td></tr>
       </viva:foreachPersonalCommunicationDocumentPmidIterator>
@@ -39,16 +45,22 @@
       <viva:foreachPersonalCommunicationDocumentERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:PersonalCommunicationDocumentERO_0000045 /></td></tr>
       </viva:foreachPersonalCommunicationDocumentERO_0000045Iterator>
-      <viva:foreachPersonalCommunicationDocumentTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:PersonalCommunicationDocumentTheAbstract /></td></tr>
-      </viva:foreachPersonalCommunicationDocumentTheAbstractIterator>
-      <viva:foreachPersonalCommunicationDocumentDoiIterator>
-         <tr><td>doi</td><td><viva:PersonalCommunicationDocumentDoi /></td></tr>
-      </viva:foreachPersonalCommunicationDocumentDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachPersonalCommunicationDocumentTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:PersonalCommunicationDocumentTranslatorType/>/<viva:PersonalCommunicationDocumentTranslatorType/>.jsp?uri=<viva:PersonalCommunicationDocumentTranslator/>"><viva:PersonalCommunicationDocumentTranslator /></a></td></tr>
+      </viva:foreachPersonalCommunicationDocumentTranslatorIterator>
+      <viva:foreachPersonalCommunicationDocumentFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:PersonalCommunicationDocumentFeaturesType/>/<viva:PersonalCommunicationDocumentFeaturesType/>.jsp?uri=<viva:PersonalCommunicationDocumentFeatures/>"><viva:PersonalCommunicationDocumentFeatures /></a></td></tr>
+      </viva:foreachPersonalCommunicationDocumentFeaturesIterator>
+      <viva:foreachPersonalCommunicationDocumentInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:PersonalCommunicationDocumentInformationResourceSupportedByType/>/<viva:PersonalCommunicationDocumentInformationResourceSupportedByType/>.jsp?uri=<viva:PersonalCommunicationDocumentInformationResourceSupportedBy/>"><viva:PersonalCommunicationDocumentInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachPersonalCommunicationDocumentInformationResourceSupportedByIterator>
+      <viva:foreachPersonalCommunicationDocumentIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:PersonalCommunicationDocumentIAO_0000136Type/>/<viva:PersonalCommunicationDocumentIAO_0000136Type/>.jsp?uri=<viva:PersonalCommunicationDocumentIAO_0000136/>"><viva:PersonalCommunicationDocumentIAO_0000136 /></a></td></tr>
+      </viva:foreachPersonalCommunicationDocumentIAO_0000136Iterator>
       <viva:foreachPersonalCommunicationDocumentDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:PersonalCommunicationDocumentDocumentationForType/>/<viva:PersonalCommunicationDocumentDocumentationForType/>.jsp?uri=<viva:PersonalCommunicationDocumentDocumentationFor/>"><viva:PersonalCommunicationDocumentDocumentationFor /></a></td></tr>
       </viva:foreachPersonalCommunicationDocumentDocumentationForIterator>
@@ -79,18 +91,6 @@
       <viva:foreachPersonalCommunicationDocumentRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:PersonalCommunicationDocumentRO_0000056Type/>/<viva:PersonalCommunicationDocumentRO_0000056Type/>.jsp?uri=<viva:PersonalCommunicationDocumentRO_0000056/>"><viva:PersonalCommunicationDocumentRO_0000056 /></a></td></tr>
       </viva:foreachPersonalCommunicationDocumentRO_0000056Iterator>
-      <viva:foreachPersonalCommunicationDocumentTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:PersonalCommunicationDocumentTranslatorType/>/<viva:PersonalCommunicationDocumentTranslatorType/>.jsp?uri=<viva:PersonalCommunicationDocumentTranslator/>"><viva:PersonalCommunicationDocumentTranslator /></a></td></tr>
-      </viva:foreachPersonalCommunicationDocumentTranslatorIterator>
-      <viva:foreachPersonalCommunicationDocumentFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:PersonalCommunicationDocumentFeaturesType/>/<viva:PersonalCommunicationDocumentFeaturesType/>.jsp?uri=<viva:PersonalCommunicationDocumentFeatures/>"><viva:PersonalCommunicationDocumentFeatures /></a></td></tr>
-      </viva:foreachPersonalCommunicationDocumentFeaturesIterator>
-      <viva:foreachPersonalCommunicationDocumentInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:PersonalCommunicationDocumentInformationResourceSupportedByType/>/<viva:PersonalCommunicationDocumentInformationResourceSupportedByType/>.jsp?uri=<viva:PersonalCommunicationDocumentInformationResourceSupportedBy/>"><viva:PersonalCommunicationDocumentInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachPersonalCommunicationDocumentInformationResourceSupportedByIterator>
-      <viva:foreachPersonalCommunicationDocumentIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:PersonalCommunicationDocumentIAO_0000136Type/>/<viva:PersonalCommunicationDocumentIAO_0000136Type/>.jsp?uri=<viva:PersonalCommunicationDocumentIAO_0000136/>"><viva:PersonalCommunicationDocumentIAO_0000136 /></a></td></tr>
-      </viva:foreachPersonalCommunicationDocumentIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

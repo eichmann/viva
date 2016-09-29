@@ -37,21 +37,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachSeriesRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:SeriesRO_0000056Type/>/<viva:SeriesRO_0000056Type/>.jsp?uri=<viva:SeriesRO_0000056/>"><viva:SeriesRO_0000056 /></a></td></tr>
-      </viva:foreachSeriesRO_0000056Iterator>
-      <viva:foreachSeriesDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<viva:SeriesDateTimeValueType/>/<viva:SeriesDateTimeValueType/>.jsp?uri=<viva:SeriesDateTimeValue/>"><viva:SeriesDateTimeValue /></a></td></tr>
-      </viva:foreachSeriesDateTimeValueIterator>
-      <viva:foreachSeriesRO_0002353Iterator>
-         <tr><td>RO_0002353</td><td><a href="../<viva:SeriesRO_0002353Type/>/<viva:SeriesRO_0002353Type/>.jsp?uri=<viva:SeriesRO_0002353/>"><viva:SeriesRO_0002353 /></a></td></tr>
-      </viva:foreachSeriesRO_0002353Iterator>
-      <viva:foreachSeriesARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<viva:SeriesARG_2000028Type/>/<viva:SeriesARG_2000028Type/>.jsp?uri=<viva:SeriesARG_2000028/>"><viva:SeriesARG_2000028 /></a></td></tr>
-      </viva:foreachSeriesARG_2000028Iterator>
-      <viva:foreachSeriesRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:SeriesRelatedByType/>/<viva:SeriesRelatedByType/>.jsp?uri=<viva:SeriesRelatedBy/>"><viva:SeriesRelatedBy /></a></td></tr>
-      </viva:foreachSeriesRelatedByIterator>
       <viva:foreachSeriesTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:SeriesTranslatorType/>/<viva:SeriesTranslatorType/>.jsp?uri=<viva:SeriesTranslator/>"><viva:SeriesTranslator /></a></td></tr>
       </viva:foreachSeriesTranslatorIterator>
@@ -64,6 +49,21 @@
       <viva:foreachSeriesIAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<viva:SeriesIAO_0000136Type/>/<viva:SeriesIAO_0000136Type/>.jsp?uri=<viva:SeriesIAO_0000136/>"><viva:SeriesIAO_0000136 /></a></td></tr>
       </viva:foreachSeriesIAO_0000136Iterator>
+      <viva:foreachSeriesDateTimeValueIterator>
+         <tr><td>dateTimeValue</td><td><a href="../<viva:SeriesDateTimeValueType/>/<viva:SeriesDateTimeValueType/>.jsp?uri=<viva:SeriesDateTimeValue/>"><viva:SeriesDateTimeValue /></a></td></tr>
+      </viva:foreachSeriesDateTimeValueIterator>
+      <viva:foreachSeriesRO_0002353Iterator>
+         <tr><td>RO_0002353</td><td><a href="../<viva:SeriesRO_0002353Type/>/<viva:SeriesRO_0002353Type/>.jsp?uri=<viva:SeriesRO_0002353/>"><viva:SeriesRO_0002353 /></a></td></tr>
+      </viva:foreachSeriesRO_0002353Iterator>
+      <viva:foreachSeriesARG_2000028Iterator>
+         <tr><td>ARG_2000028</td><td><a href="../<viva:SeriesARG_2000028Type/>/<viva:SeriesARG_2000028Type/>.jsp?uri=<viva:SeriesARG_2000028/>"><viva:SeriesARG_2000028 /></a></td></tr>
+      </viva:foreachSeriesARG_2000028Iterator>
+      <viva:foreachSeriesRelatedByIterator>
+         <tr><td>relatedBy</td><td><a href="../<viva:SeriesRelatedByType/>/<viva:SeriesRelatedByType/>.jsp?uri=<viva:SeriesRelatedBy/>"><viva:SeriesRelatedBy /></a></td></tr>
+      </viva:foreachSeriesRelatedByIterator>
+      <viva:foreachSeriesRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:SeriesRO_0000056Type/>/<viva:SeriesRO_0000056Type/>.jsp?uri=<viva:SeriesRO_0000056/>"><viva:SeriesRO_0000056 /></a></td></tr>
+      </viva:foreachSeriesRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

@@ -31,18 +31,18 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachOrganizerRoleRO_0000052Iterator>
-         <tr><td>RO_0000052</td><td><a href="../<viva:OrganizerRoleRO_0000052Type/>/<viva:OrganizerRoleRO_0000052Type/>.jsp?uri=<viva:OrganizerRoleRO_0000052/>"><viva:OrganizerRoleRO_0000052 /></a></td></tr>
-      </viva:foreachOrganizerRoleRO_0000052Iterator>
       <viva:foreachOrganizerRoleRoleContributesToIterator>
          <tr><td>roleContributesTo</td><td><a href="../<viva:OrganizerRoleRoleContributesToType/>/<viva:OrganizerRoleRoleContributesToType/>.jsp?uri=<viva:OrganizerRoleRoleContributesTo/>"><viva:OrganizerRoleRoleContributesTo /></a></td></tr>
       </viva:foreachOrganizerRoleRoleContributesToIterator>
-      <viva:foreachOrganizerRoleRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:OrganizerRoleRO_0000056Type/>/<viva:OrganizerRoleRO_0000056Type/>.jsp?uri=<viva:OrganizerRoleRO_0000056/>"><viva:OrganizerRoleRO_0000056 /></a></td></tr>
-      </viva:foreachOrganizerRoleRO_0000056Iterator>
       <viva:foreachOrganizerRoleBFO_0000054Iterator>
          <tr><td>BFO_0000054</td><td><a href="../<viva:OrganizerRoleBFO_0000054Type/>/<viva:OrganizerRoleBFO_0000054Type/>.jsp?uri=<viva:OrganizerRoleBFO_0000054/>"><viva:OrganizerRoleBFO_0000054 /></a></td></tr>
       </viva:foreachOrganizerRoleBFO_0000054Iterator>
+      <viva:foreachOrganizerRoleRO_0000052Iterator>
+         <tr><td>RO_0000052</td><td><a href="../<viva:OrganizerRoleRO_0000052Type/>/<viva:OrganizerRoleRO_0000052Type/>.jsp?uri=<viva:OrganizerRoleRO_0000052/>"><viva:OrganizerRoleRO_0000052 /></a></td></tr>
+      </viva:foreachOrganizerRoleRO_0000052Iterator>
+      <viva:foreachOrganizerRoleRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:OrganizerRoleRO_0000056Type/>/<viva:OrganizerRoleRO_0000056Type/>.jsp?uri=<viva:OrganizerRoleRO_0000056/>"><viva:OrganizerRoleRO_0000056 /></a></td></tr>
+      </viva:foreachOrganizerRoleRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

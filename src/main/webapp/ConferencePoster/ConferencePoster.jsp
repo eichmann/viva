@@ -27,6 +27,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachConferencePosterTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:ConferencePosterTheAbstract /></td></tr>
+      </viva:foreachConferencePosterTheAbstractIterator>
+      <viva:foreachConferencePosterDoiIterator>
+         <tr><td>doi</td><td><viva:ConferencePosterDoi /></td></tr>
+      </viva:foreachConferencePosterDoiIterator>
       <viva:foreachConferencePosterPmidIterator>
          <tr><td>pmid</td><td><viva:ConferencePosterPmid /></td></tr>
       </viva:foreachConferencePosterPmidIterator>
@@ -39,12 +45,6 @@
       <viva:foreachConferencePosterERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:ConferencePosterERO_0000045 /></td></tr>
       </viva:foreachConferencePosterERO_0000045Iterator>
-      <viva:foreachConferencePosterTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:ConferencePosterTheAbstract /></td></tr>
-      </viva:foreachConferencePosterTheAbstractIterator>
-      <viva:foreachConferencePosterDoiIterator>
-         <tr><td>doi</td><td><viva:ConferencePosterDoi /></td></tr>
-      </viva:foreachConferencePosterDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -64,6 +64,18 @@
       <viva:foreachConferencePosterRelatesIterator>
          <tr><td>relates</td><td><a href="../<viva:ConferencePosterRelatesType/>/<viva:ConferencePosterRelatesType/>.jsp?uri=<viva:ConferencePosterRelates/>"><viva:ConferencePosterRelates /></a></td></tr>
       </viva:foreachConferencePosterRelatesIterator>
+      <viva:foreachConferencePosterTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:ConferencePosterTranslatorType/>/<viva:ConferencePosterTranslatorType/>.jsp?uri=<viva:ConferencePosterTranslator/>"><viva:ConferencePosterTranslator /></a></td></tr>
+      </viva:foreachConferencePosterTranslatorIterator>
+      <viva:foreachConferencePosterFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:ConferencePosterFeaturesType/>/<viva:ConferencePosterFeaturesType/>.jsp?uri=<viva:ConferencePosterFeatures/>"><viva:ConferencePosterFeatures /></a></td></tr>
+      </viva:foreachConferencePosterFeaturesIterator>
+      <viva:foreachConferencePosterInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ConferencePosterInformationResourceSupportedByType/>/<viva:ConferencePosterInformationResourceSupportedByType/>.jsp?uri=<viva:ConferencePosterInformationResourceSupportedBy/>"><viva:ConferencePosterInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachConferencePosterInformationResourceSupportedByIterator>
+      <viva:foreachConferencePosterIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:ConferencePosterIAO_0000136Type/>/<viva:ConferencePosterIAO_0000136Type/>.jsp?uri=<viva:ConferencePosterIAO_0000136/>"><viva:ConferencePosterIAO_0000136 /></a></td></tr>
+      </viva:foreachConferencePosterIAO_0000136Iterator>
       <viva:foreachConferencePosterDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:ConferencePosterDocumentationForType/>/<viva:ConferencePosterDocumentationForType/>.jsp?uri=<viva:ConferencePosterDocumentationFor/>"><viva:ConferencePosterDocumentationFor /></a></td></tr>
       </viva:foreachConferencePosterDocumentationForIterator>
@@ -94,18 +106,6 @@
       <viva:foreachConferencePosterRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ConferencePosterRO_0000056Type/>/<viva:ConferencePosterRO_0000056Type/>.jsp?uri=<viva:ConferencePosterRO_0000056/>"><viva:ConferencePosterRO_0000056 /></a></td></tr>
       </viva:foreachConferencePosterRO_0000056Iterator>
-      <viva:foreachConferencePosterTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:ConferencePosterTranslatorType/>/<viva:ConferencePosterTranslatorType/>.jsp?uri=<viva:ConferencePosterTranslator/>"><viva:ConferencePosterTranslator /></a></td></tr>
-      </viva:foreachConferencePosterTranslatorIterator>
-      <viva:foreachConferencePosterFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:ConferencePosterFeaturesType/>/<viva:ConferencePosterFeaturesType/>.jsp?uri=<viva:ConferencePosterFeatures/>"><viva:ConferencePosterFeatures /></a></td></tr>
-      </viva:foreachConferencePosterFeaturesIterator>
-      <viva:foreachConferencePosterInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ConferencePosterInformationResourceSupportedByType/>/<viva:ConferencePosterInformationResourceSupportedByType/>.jsp?uri=<viva:ConferencePosterInformationResourceSupportedBy/>"><viva:ConferencePosterInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachConferencePosterInformationResourceSupportedByIterator>
-      <viva:foreachConferencePosterIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ConferencePosterIAO_0000136Type/>/<viva:ConferencePosterIAO_0000136Type/>.jsp?uri=<viva:ConferencePosterIAO_0000136/>"><viva:ConferencePosterIAO_0000136 /></a></td></tr>
-      </viva:foreachConferencePosterIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

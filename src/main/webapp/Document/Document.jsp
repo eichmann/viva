@@ -76,9 +76,6 @@
       <viva:foreachDocumentCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:DocumentCitesType/>/<viva:DocumentCitesType/>.jsp?uri=<viva:DocumentCites/>"><viva:DocumentCites /></a></td></tr>
       </viva:foreachDocumentCitesIterator>
-      <viva:foreachDocumentRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:DocumentRO_0000056Type/>/<viva:DocumentRO_0000056Type/>.jsp?uri=<viva:DocumentRO_0000056/>"><viva:DocumentRO_0000056 /></a></td></tr>
-      </viva:foreachDocumentRO_0000056Iterator>
       <viva:foreachDocumentTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:DocumentTranslatorType/>/<viva:DocumentTranslatorType/>.jsp?uri=<viva:DocumentTranslator/>"><viva:DocumentTranslator /></a></td></tr>
       </viva:foreachDocumentTranslatorIterator>
@@ -91,6 +88,9 @@
       <viva:foreachDocumentIAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<viva:DocumentIAO_0000136Type/>/<viva:DocumentIAO_0000136Type/>.jsp?uri=<viva:DocumentIAO_0000136/>"><viva:DocumentIAO_0000136 /></a></td></tr>
       </viva:foreachDocumentIAO_0000136Iterator>
+      <viva:foreachDocumentRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:DocumentRO_0000056Type/>/<viva:DocumentRO_0000056Type/>.jsp?uri=<viva:DocumentRO_0000056/>"><viva:DocumentRO_0000056 /></a></td></tr>
+      </viva:foreachDocumentRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

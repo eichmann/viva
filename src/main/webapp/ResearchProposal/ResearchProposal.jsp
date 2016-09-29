@@ -27,6 +27,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachResearchProposalTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:ResearchProposalTheAbstract /></td></tr>
+      </viva:foreachResearchProposalTheAbstractIterator>
+      <viva:foreachResearchProposalDoiIterator>
+         <tr><td>doi</td><td><viva:ResearchProposalDoi /></td></tr>
+      </viva:foreachResearchProposalDoiIterator>
       <viva:foreachResearchProposalPmidIterator>
          <tr><td>pmid</td><td><viva:ResearchProposalPmid /></td></tr>
       </viva:foreachResearchProposalPmidIterator>
@@ -39,16 +45,22 @@
       <viva:foreachResearchProposalERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:ResearchProposalERO_0000045 /></td></tr>
       </viva:foreachResearchProposalERO_0000045Iterator>
-      <viva:foreachResearchProposalTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:ResearchProposalTheAbstract /></td></tr>
-      </viva:foreachResearchProposalTheAbstractIterator>
-      <viva:foreachResearchProposalDoiIterator>
-         <tr><td>doi</td><td><viva:ResearchProposalDoi /></td></tr>
-      </viva:foreachResearchProposalDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachResearchProposalTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:ResearchProposalTranslatorType/>/<viva:ResearchProposalTranslatorType/>.jsp?uri=<viva:ResearchProposalTranslator/>"><viva:ResearchProposalTranslator /></a></td></tr>
+      </viva:foreachResearchProposalTranslatorIterator>
+      <viva:foreachResearchProposalFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:ResearchProposalFeaturesType/>/<viva:ResearchProposalFeaturesType/>.jsp?uri=<viva:ResearchProposalFeatures/>"><viva:ResearchProposalFeatures /></a></td></tr>
+      </viva:foreachResearchProposalFeaturesIterator>
+      <viva:foreachResearchProposalInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ResearchProposalInformationResourceSupportedByType/>/<viva:ResearchProposalInformationResourceSupportedByType/>.jsp?uri=<viva:ResearchProposalInformationResourceSupportedBy/>"><viva:ResearchProposalInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachResearchProposalInformationResourceSupportedByIterator>
+      <viva:foreachResearchProposalIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:ResearchProposalIAO_0000136Type/>/<viva:ResearchProposalIAO_0000136Type/>.jsp?uri=<viva:ResearchProposalIAO_0000136/>"><viva:ResearchProposalIAO_0000136 /></a></td></tr>
+      </viva:foreachResearchProposalIAO_0000136Iterator>
       <viva:foreachResearchProposalDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:ResearchProposalDocumentationForType/>/<viva:ResearchProposalDocumentationForType/>.jsp?uri=<viva:ResearchProposalDocumentationFor/>"><viva:ResearchProposalDocumentationFor /></a></td></tr>
       </viva:foreachResearchProposalDocumentationForIterator>
@@ -79,18 +91,6 @@
       <viva:foreachResearchProposalRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ResearchProposalRO_0000056Type/>/<viva:ResearchProposalRO_0000056Type/>.jsp?uri=<viva:ResearchProposalRO_0000056/>"><viva:ResearchProposalRO_0000056 /></a></td></tr>
       </viva:foreachResearchProposalRO_0000056Iterator>
-      <viva:foreachResearchProposalTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:ResearchProposalTranslatorType/>/<viva:ResearchProposalTranslatorType/>.jsp?uri=<viva:ResearchProposalTranslator/>"><viva:ResearchProposalTranslator /></a></td></tr>
-      </viva:foreachResearchProposalTranslatorIterator>
-      <viva:foreachResearchProposalFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:ResearchProposalFeaturesType/>/<viva:ResearchProposalFeaturesType/>.jsp?uri=<viva:ResearchProposalFeatures/>"><viva:ResearchProposalFeatures /></a></td></tr>
-      </viva:foreachResearchProposalFeaturesIterator>
-      <viva:foreachResearchProposalInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ResearchProposalInformationResourceSupportedByType/>/<viva:ResearchProposalInformationResourceSupportedByType/>.jsp?uri=<viva:ResearchProposalInformationResourceSupportedBy/>"><viva:ResearchProposalInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachResearchProposalInformationResourceSupportedByIterator>
-      <viva:foreachResearchProposalIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ResearchProposalIAO_0000136Type/>/<viva:ResearchProposalIAO_0000136Type/>.jsp?uri=<viva:ResearchProposalIAO_0000136/>"><viva:ResearchProposalIAO_0000136 /></a></td></tr>
-      </viva:foreachResearchProposalIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

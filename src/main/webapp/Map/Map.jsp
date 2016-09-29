@@ -27,6 +27,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachMapTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:MapTheAbstract /></td></tr>
+      </viva:foreachMapTheAbstractIterator>
+      <viva:foreachMapDoiIterator>
+         <tr><td>doi</td><td><viva:MapDoi /></td></tr>
+      </viva:foreachMapDoiIterator>
       <viva:foreachMapPmidIterator>
          <tr><td>pmid</td><td><viva:MapPmid /></td></tr>
       </viva:foreachMapPmidIterator>
@@ -39,16 +45,22 @@
       <viva:foreachMapERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:MapERO_0000045 /></td></tr>
       </viva:foreachMapERO_0000045Iterator>
-      <viva:foreachMapTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:MapTheAbstract /></td></tr>
-      </viva:foreachMapTheAbstractIterator>
-      <viva:foreachMapDoiIterator>
-         <tr><td>doi</td><td><viva:MapDoi /></td></tr>
-      </viva:foreachMapDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachMapTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:MapTranslatorType/>/<viva:MapTranslatorType/>.jsp?uri=<viva:MapTranslator/>"><viva:MapTranslator /></a></td></tr>
+      </viva:foreachMapTranslatorIterator>
+      <viva:foreachMapFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:MapFeaturesType/>/<viva:MapFeaturesType/>.jsp?uri=<viva:MapFeatures/>"><viva:MapFeatures /></a></td></tr>
+      </viva:foreachMapFeaturesIterator>
+      <viva:foreachMapInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:MapInformationResourceSupportedByType/>/<viva:MapInformationResourceSupportedByType/>.jsp?uri=<viva:MapInformationResourceSupportedBy/>"><viva:MapInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachMapInformationResourceSupportedByIterator>
+      <viva:foreachMapIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:MapIAO_0000136Type/>/<viva:MapIAO_0000136Type/>.jsp?uri=<viva:MapIAO_0000136/>"><viva:MapIAO_0000136 /></a></td></tr>
+      </viva:foreachMapIAO_0000136Iterator>
       <viva:foreachMapDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:MapDocumentationForType/>/<viva:MapDocumentationForType/>.jsp?uri=<viva:MapDocumentationFor/>"><viva:MapDocumentationFor /></a></td></tr>
       </viva:foreachMapDocumentationForIterator>
@@ -79,18 +91,6 @@
       <viva:foreachMapRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:MapRO_0000056Type/>/<viva:MapRO_0000056Type/>.jsp?uri=<viva:MapRO_0000056/>"><viva:MapRO_0000056 /></a></td></tr>
       </viva:foreachMapRO_0000056Iterator>
-      <viva:foreachMapTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:MapTranslatorType/>/<viva:MapTranslatorType/>.jsp?uri=<viva:MapTranslator/>"><viva:MapTranslator /></a></td></tr>
-      </viva:foreachMapTranslatorIterator>
-      <viva:foreachMapFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:MapFeaturesType/>/<viva:MapFeaturesType/>.jsp?uri=<viva:MapFeatures/>"><viva:MapFeatures /></a></td></tr>
-      </viva:foreachMapFeaturesIterator>
-      <viva:foreachMapInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:MapInformationResourceSupportedByType/>/<viva:MapInformationResourceSupportedByType/>.jsp?uri=<viva:MapInformationResourceSupportedBy/>"><viva:MapInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachMapInformationResourceSupportedByIterator>
-      <viva:foreachMapIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:MapIAO_0000136Type/>/<viva:MapIAO_0000136Type/>.jsp?uri=<viva:MapIAO_0000136/>"><viva:MapIAO_0000136 /></a></td></tr>
-      </viva:foreachMapIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

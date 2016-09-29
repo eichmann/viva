@@ -40,9 +40,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachOrganizationARG_2000029Iterator>
-         <tr><td>ARG_2000029</td><td><a href="../<viva:OrganizationARG_2000029Type/>/<viva:OrganizationARG_2000029Type/>.jsp?uri=<viva:OrganizationARG_2000029/>"><viva:OrganizationARG_2000029 /></a></td></tr>
-      </viva:foreachOrganizationARG_2000029Iterator>
       <viva:foreachOrganizationTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:OrganizationTranslatorType/>/<viva:OrganizationTranslatorType/>.jsp?uri=<viva:OrganizationTranslator/>"><viva:OrganizationTranslator /></a></td></tr>
       </viva:foreachOrganizationTranslatorIterator>
@@ -73,6 +70,9 @@
       <viva:foreachOrganizationHasURLIterator>
          <tr><td>hasURL</td><td><a href="../<viva:OrganizationHasURLType/>/<viva:OrganizationHasURLType/>.jsp?uri=<viva:OrganizationHasURL/>"><viva:OrganizationHasURL /></a></td></tr>
       </viva:foreachOrganizationHasURLIterator>
+      <viva:foreachOrganizationARG_2000029Iterator>
+         <tr><td>ARG_2000029</td><td><a href="../<viva:OrganizationARG_2000029Type/>/<viva:OrganizationARG_2000029Type/>.jsp?uri=<viva:OrganizationARG_2000029/>"><viva:OrganizationARG_2000029 /></a></td></tr>
+      </viva:foreachOrganizationARG_2000029Iterator>
       <viva:foreachOrganizationRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:OrganizationRO_0000056Type/>/<viva:OrganizationRO_0000056Type/>.jsp?uri=<viva:OrganizationRO_0000056/>"><viva:OrganizationRO_0000056 /></a></td></tr>
       </viva:foreachOrganizationRO_0000056Iterator>

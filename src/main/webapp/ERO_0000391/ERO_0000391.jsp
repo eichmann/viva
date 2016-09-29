@@ -27,22 +27,34 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachERO_0000391ERO_0000046Iterator>
-         <tr><td>ERO_0000046</td><td><viva:ERO_0000391ERO_0000046 /></td></tr>
-      </viva:foreachERO_0000391ERO_0000046Iterator>
-      <viva:foreachERO_0000391ERO_0000045Iterator>
-         <tr><td>ERO_0000045</td><td><viva:ERO_0000391ERO_0000045 /></td></tr>
-      </viva:foreachERO_0000391ERO_0000045Iterator>
       <viva:foreachERO_0000391TheAbstractIterator>
          <tr><td>theAbstract</td><td><viva:ERO_0000391TheAbstract /></td></tr>
       </viva:foreachERO_0000391TheAbstractIterator>
       <viva:foreachERO_0000391DoiIterator>
          <tr><td>doi</td><td><viva:ERO_0000391Doi /></td></tr>
       </viva:foreachERO_0000391DoiIterator>
+      <viva:foreachERO_0000391ERO_0000046Iterator>
+         <tr><td>ERO_0000046</td><td><viva:ERO_0000391ERO_0000046 /></td></tr>
+      </viva:foreachERO_0000391ERO_0000046Iterator>
+      <viva:foreachERO_0000391ERO_0000045Iterator>
+         <tr><td>ERO_0000045</td><td><viva:ERO_0000391ERO_0000045 /></td></tr>
+      </viva:foreachERO_0000391ERO_0000045Iterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachERO_0000391TranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:ERO_0000391TranslatorType/>/<viva:ERO_0000391TranslatorType/>.jsp?uri=<viva:ERO_0000391Translator/>"><viva:ERO_0000391Translator /></a></td></tr>
+      </viva:foreachERO_0000391TranslatorIterator>
+      <viva:foreachERO_0000391FeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:ERO_0000391FeaturesType/>/<viva:ERO_0000391FeaturesType/>.jsp?uri=<viva:ERO_0000391Features/>"><viva:ERO_0000391Features /></a></td></tr>
+      </viva:foreachERO_0000391FeaturesIterator>
+      <viva:foreachERO_0000391InformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ERO_0000391InformationResourceSupportedByType/>/<viva:ERO_0000391InformationResourceSupportedByType/>.jsp?uri=<viva:ERO_0000391InformationResourceSupportedBy/>"><viva:ERO_0000391InformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachERO_0000391InformationResourceSupportedByIterator>
+      <viva:foreachERO_0000391IAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:ERO_0000391IAO_0000136Type/>/<viva:ERO_0000391IAO_0000136Type/>.jsp?uri=<viva:ERO_0000391IAO_0000136/>"><viva:ERO_0000391IAO_0000136 /></a></td></tr>
+      </viva:foreachERO_0000391IAO_0000136Iterator>
       <viva:foreachERO_0000391ERO_0000029Iterator>
          <tr><td>ERO_0000029</td><td><a href="../<viva:ERO_0000391ERO_0000029Type/>/<viva:ERO_0000391ERO_0000029Type/>.jsp?uri=<viva:ERO_0000391ERO_0000029/>"><viva:ERO_0000391ERO_0000029 /></a></td></tr>
       </viva:foreachERO_0000391ERO_0000029Iterator>
@@ -58,18 +70,6 @@
       <viva:foreachERO_0000391ERO_0000460Iterator>
          <tr><td>ERO_0000460</td><td><a href="../<viva:ERO_0000391ERO_0000460Type/>/<viva:ERO_0000391ERO_0000460Type/>.jsp?uri=<viva:ERO_0000391ERO_0000460/>"><viva:ERO_0000391ERO_0000460 /></a></td></tr>
       </viva:foreachERO_0000391ERO_0000460Iterator>
-      <viva:foreachERO_0000391TranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:ERO_0000391TranslatorType/>/<viva:ERO_0000391TranslatorType/>.jsp?uri=<viva:ERO_0000391Translator/>"><viva:ERO_0000391Translator /></a></td></tr>
-      </viva:foreachERO_0000391TranslatorIterator>
-      <viva:foreachERO_0000391FeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:ERO_0000391FeaturesType/>/<viva:ERO_0000391FeaturesType/>.jsp?uri=<viva:ERO_0000391Features/>"><viva:ERO_0000391Features /></a></td></tr>
-      </viva:foreachERO_0000391FeaturesIterator>
-      <viva:foreachERO_0000391InformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ERO_0000391InformationResourceSupportedByType/>/<viva:ERO_0000391InformationResourceSupportedByType/>.jsp?uri=<viva:ERO_0000391InformationResourceSupportedBy/>"><viva:ERO_0000391InformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachERO_0000391InformationResourceSupportedByIterator>
-      <viva:foreachERO_0000391IAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ERO_0000391IAO_0000136Type/>/<viva:ERO_0000391IAO_0000136Type/>.jsp?uri=<viva:ERO_0000391IAO_0000136/>"><viva:ERO_0000391IAO_0000136 /></a></td></tr>
-      </viva:foreachERO_0000391IAO_0000136Iterator>
       <viva:foreachERO_0000391RO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ERO_0000391RO_0000056Type/>/<viva:ERO_0000391RO_0000056Type/>.jsp?uri=<viva:ERO_0000391RO_0000056/>"><viva:ERO_0000391RO_0000056 /></a></td></tr>
       </viva:foreachERO_0000391RO_0000056Iterator>

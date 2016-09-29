@@ -30,6 +30,12 @@
       <viva:foreachBookSectionChapterIterator>
          <tr><td>chapter</td><td><viva:BookSectionChapter /></td></tr>
       </viva:foreachBookSectionChapterIterator>
+      <viva:foreachBookSectionTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:BookSectionTheAbstract /></td></tr>
+      </viva:foreachBookSectionTheAbstractIterator>
+      <viva:foreachBookSectionDoiIterator>
+         <tr><td>doi</td><td><viva:BookSectionDoi /></td></tr>
+      </viva:foreachBookSectionDoiIterator>
       <viva:foreachBookSectionPmidIterator>
          <tr><td>pmid</td><td><viva:BookSectionPmid /></td></tr>
       </viva:foreachBookSectionPmidIterator>
@@ -42,16 +48,22 @@
       <viva:foreachBookSectionERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:BookSectionERO_0000045 /></td></tr>
       </viva:foreachBookSectionERO_0000045Iterator>
-      <viva:foreachBookSectionTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:BookSectionTheAbstract /></td></tr>
-      </viva:foreachBookSectionTheAbstractIterator>
-      <viva:foreachBookSectionDoiIterator>
-         <tr><td>doi</td><td><viva:BookSectionDoi /></td></tr>
-      </viva:foreachBookSectionDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachBookSectionTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:BookSectionTranslatorType/>/<viva:BookSectionTranslatorType/>.jsp?uri=<viva:BookSectionTranslator/>"><viva:BookSectionTranslator /></a></td></tr>
+      </viva:foreachBookSectionTranslatorIterator>
+      <viva:foreachBookSectionFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:BookSectionFeaturesType/>/<viva:BookSectionFeaturesType/>.jsp?uri=<viva:BookSectionFeatures/>"><viva:BookSectionFeatures /></a></td></tr>
+      </viva:foreachBookSectionFeaturesIterator>
+      <viva:foreachBookSectionInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:BookSectionInformationResourceSupportedByType/>/<viva:BookSectionInformationResourceSupportedByType/>.jsp?uri=<viva:BookSectionInformationResourceSupportedBy/>"><viva:BookSectionInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachBookSectionInformationResourceSupportedByIterator>
+      <viva:foreachBookSectionIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:BookSectionIAO_0000136Type/>/<viva:BookSectionIAO_0000136Type/>.jsp?uri=<viva:BookSectionIAO_0000136/>"><viva:BookSectionIAO_0000136 /></a></td></tr>
+      </viva:foreachBookSectionIAO_0000136Iterator>
       <viva:foreachBookSectionDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:BookSectionDocumentationForType/>/<viva:BookSectionDocumentationForType/>.jsp?uri=<viva:BookSectionDocumentationFor/>"><viva:BookSectionDocumentationFor /></a></td></tr>
       </viva:foreachBookSectionDocumentationForIterator>
@@ -82,18 +94,6 @@
       <viva:foreachBookSectionRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:BookSectionRO_0000056Type/>/<viva:BookSectionRO_0000056Type/>.jsp?uri=<viva:BookSectionRO_0000056/>"><viva:BookSectionRO_0000056 /></a></td></tr>
       </viva:foreachBookSectionRO_0000056Iterator>
-      <viva:foreachBookSectionTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:BookSectionTranslatorType/>/<viva:BookSectionTranslatorType/>.jsp?uri=<viva:BookSectionTranslator/>"><viva:BookSectionTranslator /></a></td></tr>
-      </viva:foreachBookSectionTranslatorIterator>
-      <viva:foreachBookSectionFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:BookSectionFeaturesType/>/<viva:BookSectionFeaturesType/>.jsp?uri=<viva:BookSectionFeatures/>"><viva:BookSectionFeatures /></a></td></tr>
-      </viva:foreachBookSectionFeaturesIterator>
-      <viva:foreachBookSectionInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:BookSectionInformationResourceSupportedByType/>/<viva:BookSectionInformationResourceSupportedByType/>.jsp?uri=<viva:BookSectionInformationResourceSupportedBy/>"><viva:BookSectionInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachBookSectionInformationResourceSupportedByIterator>
-      <viva:foreachBookSectionIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:BookSectionIAO_0000136Type/>/<viva:BookSectionIAO_0000136Type/>.jsp?uri=<viva:BookSectionIAO_0000136/>"><viva:BookSectionIAO_0000136 /></a></td></tr>
-      </viva:foreachBookSectionIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

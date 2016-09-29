@@ -112,15 +112,15 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachspecial_groupHasMemberIterator>
-         <tr><td>hasMember</td><td><a href="../<viva:special_groupHasMemberType/>/<viva:special_groupHasMemberType/>.jsp?uri=<viva:special_groupHasMember/>"><viva:special_groupHasMember /></a></td></tr>
-      </viva:foreachspecial_groupHasMemberIterator>
       <viva:foreachspecial_groupIsSuccessorOfIterator>
          <tr><td>isSuccessorOf</td><td><a href="../<viva:special_groupIsSuccessorOfType/>/<viva:special_groupIsSuccessorOfType/>.jsp?uri=<viva:special_groupIsSuccessorOf/>"><viva:special_groupIsSuccessorOf /></a></td></tr>
       </viva:foreachspecial_groupIsSuccessorOfIterator>
       <viva:foreachspecial_groupIsPredecessorOfIterator>
          <tr><td>isPredecessorOf</td><td><a href="../<viva:special_groupIsPredecessorOfType/>/<viva:special_groupIsPredecessorOfType/>.jsp?uri=<viva:special_groupIsPredecessorOf/>"><viva:special_groupIsPredecessorOf /></a></td></tr>
       </viva:foreachspecial_groupIsPredecessorOfIterator>
+      <viva:foreachspecial_groupHasMemberIterator>
+         <tr><td>hasMember</td><td><a href="../<viva:special_groupHasMemberType/>/<viva:special_groupHasMemberType/>.jsp?uri=<viva:special_groupHasMember/>"><viva:special_groupHasMember /></a></td></tr>
+      </viva:foreachspecial_groupHasMemberIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

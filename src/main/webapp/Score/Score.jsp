@@ -27,6 +27,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachScoreTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:ScoreTheAbstract /></td></tr>
+      </viva:foreachScoreTheAbstractIterator>
+      <viva:foreachScoreDoiIterator>
+         <tr><td>doi</td><td><viva:ScoreDoi /></td></tr>
+      </viva:foreachScoreDoiIterator>
       <viva:foreachScorePmidIterator>
          <tr><td>pmid</td><td><viva:ScorePmid /></td></tr>
       </viva:foreachScorePmidIterator>
@@ -39,16 +45,22 @@
       <viva:foreachScoreERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:ScoreERO_0000045 /></td></tr>
       </viva:foreachScoreERO_0000045Iterator>
-      <viva:foreachScoreTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:ScoreTheAbstract /></td></tr>
-      </viva:foreachScoreTheAbstractIterator>
-      <viva:foreachScoreDoiIterator>
-         <tr><td>doi</td><td><viva:ScoreDoi /></td></tr>
-      </viva:foreachScoreDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachScoreTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:ScoreTranslatorType/>/<viva:ScoreTranslatorType/>.jsp?uri=<viva:ScoreTranslator/>"><viva:ScoreTranslator /></a></td></tr>
+      </viva:foreachScoreTranslatorIterator>
+      <viva:foreachScoreFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:ScoreFeaturesType/>/<viva:ScoreFeaturesType/>.jsp?uri=<viva:ScoreFeatures/>"><viva:ScoreFeatures /></a></td></tr>
+      </viva:foreachScoreFeaturesIterator>
+      <viva:foreachScoreInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ScoreInformationResourceSupportedByType/>/<viva:ScoreInformationResourceSupportedByType/>.jsp?uri=<viva:ScoreInformationResourceSupportedBy/>"><viva:ScoreInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachScoreInformationResourceSupportedByIterator>
+      <viva:foreachScoreIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:ScoreIAO_0000136Type/>/<viva:ScoreIAO_0000136Type/>.jsp?uri=<viva:ScoreIAO_0000136/>"><viva:ScoreIAO_0000136 /></a></td></tr>
+      </viva:foreachScoreIAO_0000136Iterator>
       <viva:foreachScoreDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:ScoreDocumentationForType/>/<viva:ScoreDocumentationForType/>.jsp?uri=<viva:ScoreDocumentationFor/>"><viva:ScoreDocumentationFor /></a></td></tr>
       </viva:foreachScoreDocumentationForIterator>
@@ -79,18 +91,6 @@
       <viva:foreachScoreRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ScoreRO_0000056Type/>/<viva:ScoreRO_0000056Type/>.jsp?uri=<viva:ScoreRO_0000056/>"><viva:ScoreRO_0000056 /></a></td></tr>
       </viva:foreachScoreRO_0000056Iterator>
-      <viva:foreachScoreTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:ScoreTranslatorType/>/<viva:ScoreTranslatorType/>.jsp?uri=<viva:ScoreTranslator/>"><viva:ScoreTranslator /></a></td></tr>
-      </viva:foreachScoreTranslatorIterator>
-      <viva:foreachScoreFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:ScoreFeaturesType/>/<viva:ScoreFeaturesType/>.jsp?uri=<viva:ScoreFeatures/>"><viva:ScoreFeatures /></a></td></tr>
-      </viva:foreachScoreFeaturesIterator>
-      <viva:foreachScoreInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ScoreInformationResourceSupportedByType/>/<viva:ScoreInformationResourceSupportedByType/>.jsp?uri=<viva:ScoreInformationResourceSupportedBy/>"><viva:ScoreInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachScoreInformationResourceSupportedByIterator>
-      <viva:foreachScoreIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ScoreIAO_0000136Type/>/<viva:ScoreIAO_0000136Type/>.jsp?uri=<viva:ScoreIAO_0000136/>"><viva:ScoreIAO_0000136 /></a></td></tr>
-      </viva:foreachScoreIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

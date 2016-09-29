@@ -47,7 +47,7 @@
          <tr><td>researcherId</td><td><viva:PostdocResearcherId /></td></tr>
       </viva:foreachPostdocResearcherIdIterator>
       <viva:foreachPostdocSameAsIterator>
-         <tr><td>sameAs</td><td><viva:PostdocSameAs /></td></tr>
+         <tr><td>sameAs</td><td><a href="<viva:PostdocSameAs />"><viva:PostdocSameAs /></a></td></tr>
       </viva:foreachPostdocSameAsIterator>
       <viva:foreachPostdocFreetextKeywordIterator>
          <tr><td>freetextKeyword</td><td><viva:PostdocFreetextKeyword /></td></tr>

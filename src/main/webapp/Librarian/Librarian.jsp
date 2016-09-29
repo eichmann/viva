@@ -47,7 +47,7 @@
          <tr><td>researcherId</td><td><viva:LibrarianResearcherId /></td></tr>
       </viva:foreachLibrarianResearcherIdIterator>
       <viva:foreachLibrarianSameAsIterator>
-         <tr><td>sameAs</td><td><viva:LibrarianSameAs /></td></tr>
+         <tr><td>sameAs</td><td><a href="<viva:LibrarianSameAs />"><viva:LibrarianSameAs /></a></td></tr>
       </viva:foreachLibrarianSameAsIterator>
       <viva:foreachLibrarianFreetextKeywordIterator>
          <tr><td>freetextKeyword</td><td><viva:LibrarianFreetextKeyword /></td></tr>

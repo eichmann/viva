@@ -27,6 +27,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachWebpageTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:WebpageTheAbstract /></td></tr>
+      </viva:foreachWebpageTheAbstractIterator>
+      <viva:foreachWebpageDoiIterator>
+         <tr><td>doi</td><td><viva:WebpageDoi /></td></tr>
+      </viva:foreachWebpageDoiIterator>
       <viva:foreachWebpagePmidIterator>
          <tr><td>pmid</td><td><viva:WebpagePmid /></td></tr>
       </viva:foreachWebpagePmidIterator>
@@ -39,16 +45,22 @@
       <viva:foreachWebpageERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:WebpageERO_0000045 /></td></tr>
       </viva:foreachWebpageERO_0000045Iterator>
-      <viva:foreachWebpageTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:WebpageTheAbstract /></td></tr>
-      </viva:foreachWebpageTheAbstractIterator>
-      <viva:foreachWebpageDoiIterator>
-         <tr><td>doi</td><td><viva:WebpageDoi /></td></tr>
-      </viva:foreachWebpageDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachWebpageTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:WebpageTranslatorType/>/<viva:WebpageTranslatorType/>.jsp?uri=<viva:WebpageTranslator/>"><viva:WebpageTranslator /></a></td></tr>
+      </viva:foreachWebpageTranslatorIterator>
+      <viva:foreachWebpageFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:WebpageFeaturesType/>/<viva:WebpageFeaturesType/>.jsp?uri=<viva:WebpageFeatures/>"><viva:WebpageFeatures /></a></td></tr>
+      </viva:foreachWebpageFeaturesIterator>
+      <viva:foreachWebpageInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:WebpageInformationResourceSupportedByType/>/<viva:WebpageInformationResourceSupportedByType/>.jsp?uri=<viva:WebpageInformationResourceSupportedBy/>"><viva:WebpageInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachWebpageInformationResourceSupportedByIterator>
+      <viva:foreachWebpageIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:WebpageIAO_0000136Type/>/<viva:WebpageIAO_0000136Type/>.jsp?uri=<viva:WebpageIAO_0000136/>"><viva:WebpageIAO_0000136 /></a></td></tr>
+      </viva:foreachWebpageIAO_0000136Iterator>
       <viva:foreachWebpageDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:WebpageDocumentationForType/>/<viva:WebpageDocumentationForType/>.jsp?uri=<viva:WebpageDocumentationFor/>"><viva:WebpageDocumentationFor /></a></td></tr>
       </viva:foreachWebpageDocumentationForIterator>
@@ -79,18 +91,6 @@
       <viva:foreachWebpageRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:WebpageRO_0000056Type/>/<viva:WebpageRO_0000056Type/>.jsp?uri=<viva:WebpageRO_0000056/>"><viva:WebpageRO_0000056 /></a></td></tr>
       </viva:foreachWebpageRO_0000056Iterator>
-      <viva:foreachWebpageTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:WebpageTranslatorType/>/<viva:WebpageTranslatorType/>.jsp?uri=<viva:WebpageTranslator/>"><viva:WebpageTranslator /></a></td></tr>
-      </viva:foreachWebpageTranslatorIterator>
-      <viva:foreachWebpageFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:WebpageFeaturesType/>/<viva:WebpageFeaturesType/>.jsp?uri=<viva:WebpageFeatures/>"><viva:WebpageFeatures /></a></td></tr>
-      </viva:foreachWebpageFeaturesIterator>
-      <viva:foreachWebpageInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:WebpageInformationResourceSupportedByType/>/<viva:WebpageInformationResourceSupportedByType/>.jsp?uri=<viva:WebpageInformationResourceSupportedBy/>"><viva:WebpageInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachWebpageInformationResourceSupportedByIterator>
-      <viva:foreachWebpageIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:WebpageIAO_0000136Type/>/<viva:WebpageIAO_0000136Type/>.jsp?uri=<viva:WebpageIAO_0000136/>"><viva:WebpageIAO_0000136 /></a></td></tr>
-      </viva:foreachWebpageIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

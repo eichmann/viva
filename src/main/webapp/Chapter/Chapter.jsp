@@ -37,6 +37,9 @@
       <viva:foreachChapterNumPagesIterator>
          <tr><td>numPages</td><td><viva:ChapterNumPages /></td></tr>
       </viva:foreachChapterNumPagesIterator>
+      <viva:foreachChapterChapterIterator>
+         <tr><td>chapter</td><td><viva:ChapterChapter /></td></tr>
+      </viva:foreachChapterChapterIterator>
       <viva:foreachChapterPmidIterator>
          <tr><td>pmid</td><td><viva:ChapterPmid /></td></tr>
       </viva:foreachChapterPmidIterator>
@@ -55,9 +58,6 @@
       <viva:foreachChapterDoiIterator>
          <tr><td>doi</td><td><viva:ChapterDoi /></td></tr>
       </viva:foreachChapterDoiIterator>
-      <viva:foreachChapterChapterIterator>
-         <tr><td>chapter</td><td><viva:ChapterChapter /></td></tr>
-      </viva:foreachChapterChapterIterator>
    </table>
 
    <h3>Object Properties</h3>

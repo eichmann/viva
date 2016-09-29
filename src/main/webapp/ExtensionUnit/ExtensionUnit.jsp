@@ -42,9 +42,6 @@
       <viva:foreachExtensionUnitTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:ExtensionUnitTranslatorOfType/>/<viva:ExtensionUnitTranslatorOfType/>.jsp?uri=<viva:ExtensionUnitTranslatorOf/>"><viva:ExtensionUnitTranslatorOf /></a></td></tr>
       </viva:foreachExtensionUnitTranslatorOfIterator>
-      <viva:foreachExtensionUnitRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:ExtensionUnitRO_0000053Type/>/<viva:ExtensionUnitRO_0000053Type/>.jsp?uri=<viva:ExtensionUnitRO_0000053/>"><viva:ExtensionUnitRO_0000053 /></a></td></tr>
-      </viva:foreachExtensionUnitRO_0000053Iterator>
       <viva:foreachExtensionUnitSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:ExtensionUnitSponsorsType/>/<viva:ExtensionUnitSponsorsType/>.jsp?uri=<viva:ExtensionUnitSponsors/>"><viva:ExtensionUnitSponsors /></a></td></tr>
       </viva:foreachExtensionUnitSponsorsIterator>
@@ -81,6 +78,9 @@
       <viva:foreachExtensionUnitAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<viva:ExtensionUnitAffiliatedOrganizationType/>/<viva:ExtensionUnitAffiliatedOrganizationType/>.jsp?uri=<viva:ExtensionUnitAffiliatedOrganization/>"><viva:ExtensionUnitAffiliatedOrganization /></a></td></tr>
       </viva:foreachExtensionUnitAffiliatedOrganizationIterator>
+      <viva:foreachExtensionUnitRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:ExtensionUnitRO_0000053Type/>/<viva:ExtensionUnitRO_0000053Type/>.jsp?uri=<viva:ExtensionUnitRO_0000053/>"><viva:ExtensionUnitRO_0000053 /></a></td></tr>
+      </viva:foreachExtensionUnitRO_0000053Iterator>
       <viva:foreachExtensionUnitRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ExtensionUnitRO_0000056Type/>/<viva:ExtensionUnitRO_0000056Type/>.jsp?uri=<viva:ExtensionUnitRO_0000056/>"><viva:ExtensionUnitRO_0000056 /></a></td></tr>
       </viva:foreachExtensionUnitRO_0000056Iterator>

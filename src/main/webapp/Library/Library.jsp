@@ -42,9 +42,6 @@
       <viva:foreachLibraryTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:LibraryTranslatorOfType/>/<viva:LibraryTranslatorOfType/>.jsp?uri=<viva:LibraryTranslatorOf/>"><viva:LibraryTranslatorOf /></a></td></tr>
       </viva:foreachLibraryTranslatorOfIterator>
-      <viva:foreachLibraryRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:LibraryRO_0000053Type/>/<viva:LibraryRO_0000053Type/>.jsp?uri=<viva:LibraryRO_0000053/>"><viva:LibraryRO_0000053 /></a></td></tr>
-      </viva:foreachLibraryRO_0000053Iterator>
       <viva:foreachLibrarySponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:LibrarySponsorsType/>/<viva:LibrarySponsorsType/>.jsp?uri=<viva:LibrarySponsors/>"><viva:LibrarySponsors /></a></td></tr>
       </viva:foreachLibrarySponsorsIterator>
@@ -81,6 +78,9 @@
       <viva:foreachLibraryAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<viva:LibraryAffiliatedOrganizationType/>/<viva:LibraryAffiliatedOrganizationType/>.jsp?uri=<viva:LibraryAffiliatedOrganization/>"><viva:LibraryAffiliatedOrganization /></a></td></tr>
       </viva:foreachLibraryAffiliatedOrganizationIterator>
+      <viva:foreachLibraryRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:LibraryRO_0000053Type/>/<viva:LibraryRO_0000053Type/>.jsp?uri=<viva:LibraryRO_0000053/>"><viva:LibraryRO_0000053 /></a></td></tr>
+      </viva:foreachLibraryRO_0000053Iterator>
       <viva:foreachLibraryRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:LibraryRO_0000056Type/>/<viva:LibraryRO_0000056Type/>.jsp?uri=<viva:LibraryRO_0000056/>"><viva:LibraryRO_0000056 /></a></td></tr>
       </viva:foreachLibraryRO_0000056Iterator>

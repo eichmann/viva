@@ -118,12 +118,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachContinentRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:ContinentRO_0000053Type/>/<viva:ContinentRO_0000053Type/>.jsp?uri=<viva:ContinentRO_0000053/>"><viva:ContinentRO_0000053 /></a></td></tr>
-      </viva:foreachContinentRO_0000053Iterator>
       <viva:foreachContinentGeographicFocusOfIterator>
          <tr><td>geographicFocusOf</td><td><a href="../<viva:ContinentGeographicFocusOfType/>/<viva:ContinentGeographicFocusOfType/>.jsp?uri=<viva:ContinentGeographicFocusOf/>"><viva:ContinentGeographicFocusOf /></a></td></tr>
       </viva:foreachContinentGeographicFocusOfIterator>
+      <viva:foreachContinentRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:ContinentRO_0000053Type/>/<viva:ContinentRO_0000053Type/>.jsp?uri=<viva:ContinentRO_0000053/>"><viva:ContinentRO_0000053 /></a></td></tr>
+      </viva:foreachContinentRO_0000053Iterator>
       <viva:foreachContinentRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ContinentRO_0000056Type/>/<viva:ContinentRO_0000056Type/>.jsp?uri=<viva:ContinentRO_0000056/>"><viva:ContinentRO_0000056 /></a></td></tr>
       </viva:foreachContinentRO_0000056Iterator>

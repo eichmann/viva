@@ -55,9 +55,6 @@
       <viva:foreachBibliographicInformationSourceIAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<viva:BibliographicInformationSourceIAO_0000136Type/>/<viva:BibliographicInformationSourceIAO_0000136Type/>.jsp?uri=<viva:BibliographicInformationSourceIAO_0000136/>"><viva:BibliographicInformationSourceIAO_0000136 /></a></td></tr>
       </viva:foreachBibliographicInformationSourceIAO_0000136Iterator>
-      <viva:foreachBibliographicInformationSourceRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:BibliographicInformationSourceRO_0000056Type/>/<viva:BibliographicInformationSourceRO_0000056Type/>.jsp?uri=<viva:BibliographicInformationSourceRO_0000056/>"><viva:BibliographicInformationSourceRO_0000056 /></a></td></tr>
-      </viva:foreachBibliographicInformationSourceRO_0000056Iterator>
       <viva:foreachBibliographicInformationSourceERO_0000070Iterator>
          <tr><td>ERO_0000070</td><td><a href="../<viva:BibliographicInformationSourceERO_0000070Type/>/<viva:BibliographicInformationSourceERO_0000070Type/>.jsp?uri=<viva:BibliographicInformationSourceERO_0000070/>"><viva:BibliographicInformationSourceERO_0000070 /></a></td></tr>
       </viva:foreachBibliographicInformationSourceERO_0000070Iterator>
@@ -70,6 +67,9 @@
       <viva:foreachBibliographicInformationSourceERO_0000034Iterator>
          <tr><td>ERO_0000034</td><td><a href="../<viva:BibliographicInformationSourceERO_0000034Type/>/<viva:BibliographicInformationSourceERO_0000034Type/>.jsp?uri=<viva:BibliographicInformationSourceERO_0000034/>"><viva:BibliographicInformationSourceERO_0000034 /></a></td></tr>
       </viva:foreachBibliographicInformationSourceERO_0000034Iterator>
+      <viva:foreachBibliographicInformationSourceRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:BibliographicInformationSourceRO_0000056Type/>/<viva:BibliographicInformationSourceRO_0000056Type/>.jsp?uri=<viva:BibliographicInformationSourceRO_0000056/>"><viva:BibliographicInformationSourceRO_0000056 /></a></td></tr>
+      </viva:foreachBibliographicInformationSourceRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

@@ -31,18 +31,18 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachOutreachProviderRoleRO_0000052Iterator>
-         <tr><td>RO_0000052</td><td><a href="../<viva:OutreachProviderRoleRO_0000052Type/>/<viva:OutreachProviderRoleRO_0000052Type/>.jsp?uri=<viva:OutreachProviderRoleRO_0000052/>"><viva:OutreachProviderRoleRO_0000052 /></a></td></tr>
-      </viva:foreachOutreachProviderRoleRO_0000052Iterator>
       <viva:foreachOutreachProviderRoleRoleContributesToIterator>
          <tr><td>roleContributesTo</td><td><a href="../<viva:OutreachProviderRoleRoleContributesToType/>/<viva:OutreachProviderRoleRoleContributesToType/>.jsp?uri=<viva:OutreachProviderRoleRoleContributesTo/>"><viva:OutreachProviderRoleRoleContributesTo /></a></td></tr>
       </viva:foreachOutreachProviderRoleRoleContributesToIterator>
-      <viva:foreachOutreachProviderRoleRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:OutreachProviderRoleRO_0000056Type/>/<viva:OutreachProviderRoleRO_0000056Type/>.jsp?uri=<viva:OutreachProviderRoleRO_0000056/>"><viva:OutreachProviderRoleRO_0000056 /></a></td></tr>
-      </viva:foreachOutreachProviderRoleRO_0000056Iterator>
       <viva:foreachOutreachProviderRoleBFO_0000054Iterator>
          <tr><td>BFO_0000054</td><td><a href="../<viva:OutreachProviderRoleBFO_0000054Type/>/<viva:OutreachProviderRoleBFO_0000054Type/>.jsp?uri=<viva:OutreachProviderRoleBFO_0000054/>"><viva:OutreachProviderRoleBFO_0000054 /></a></td></tr>
       </viva:foreachOutreachProviderRoleBFO_0000054Iterator>
+      <viva:foreachOutreachProviderRoleRO_0000052Iterator>
+         <tr><td>RO_0000052</td><td><a href="../<viva:OutreachProviderRoleRO_0000052Type/>/<viva:OutreachProviderRoleRO_0000052Type/>.jsp?uri=<viva:OutreachProviderRoleRO_0000052/>"><viva:OutreachProviderRoleRO_0000052 /></a></td></tr>
+      </viva:foreachOutreachProviderRoleRO_0000052Iterator>
+      <viva:foreachOutreachProviderRoleRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:OutreachProviderRoleRO_0000056Type/>/<viva:OutreachProviderRoleRO_0000056Type/>.jsp?uri=<viva:OutreachProviderRoleRO_0000056/>"><viva:OutreachProviderRoleRO_0000056 /></a></td></tr>
+      </viva:foreachOutreachProviderRoleRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

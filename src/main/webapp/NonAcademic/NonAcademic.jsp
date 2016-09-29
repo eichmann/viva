@@ -47,7 +47,7 @@
          <tr><td>researcherId</td><td><viva:NonAcademicResearcherId /></td></tr>
       </viva:foreachNonAcademicResearcherIdIterator>
       <viva:foreachNonAcademicSameAsIterator>
-         <tr><td>sameAs</td><td><viva:NonAcademicSameAs /></td></tr>
+         <tr><td>sameAs</td><td><a href="<viva:NonAcademicSameAs />"><viva:NonAcademicSameAs /></a></td></tr>
       </viva:foreachNonAcademicSameAsIterator>
       <viva:foreachNonAcademicFreetextKeywordIterator>
          <tr><td>freetextKeyword</td><td><viva:NonAcademicFreetextKeyword /></td></tr>

@@ -42,9 +42,6 @@
       <viva:foreachResearchOrganizationTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:ResearchOrganizationTranslatorOfType/>/<viva:ResearchOrganizationTranslatorOfType/>.jsp?uri=<viva:ResearchOrganizationTranslatorOf/>"><viva:ResearchOrganizationTranslatorOf /></a></td></tr>
       </viva:foreachResearchOrganizationTranslatorOfIterator>
-      <viva:foreachResearchOrganizationRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:ResearchOrganizationRO_0000053Type/>/<viva:ResearchOrganizationRO_0000053Type/>.jsp?uri=<viva:ResearchOrganizationRO_0000053/>"><viva:ResearchOrganizationRO_0000053 /></a></td></tr>
-      </viva:foreachResearchOrganizationRO_0000053Iterator>
       <viva:foreachResearchOrganizationSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:ResearchOrganizationSponsorsType/>/<viva:ResearchOrganizationSponsorsType/>.jsp?uri=<viva:ResearchOrganizationSponsors/>"><viva:ResearchOrganizationSponsors /></a></td></tr>
       </viva:foreachResearchOrganizationSponsorsIterator>
@@ -81,6 +78,9 @@
       <viva:foreachResearchOrganizationAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<viva:ResearchOrganizationAffiliatedOrganizationType/>/<viva:ResearchOrganizationAffiliatedOrganizationType/>.jsp?uri=<viva:ResearchOrganizationAffiliatedOrganization/>"><viva:ResearchOrganizationAffiliatedOrganization /></a></td></tr>
       </viva:foreachResearchOrganizationAffiliatedOrganizationIterator>
+      <viva:foreachResearchOrganizationRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:ResearchOrganizationRO_0000053Type/>/<viva:ResearchOrganizationRO_0000053Type/>.jsp?uri=<viva:ResearchOrganizationRO_0000053/>"><viva:ResearchOrganizationRO_0000053 /></a></td></tr>
+      </viva:foreachResearchOrganizationRO_0000053Iterator>
       <viva:foreachResearchOrganizationRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ResearchOrganizationRO_0000056Type/>/<viva:ResearchOrganizationRO_0000056Type/>.jsp?uri=<viva:ResearchOrganizationRO_0000056/>"><viva:ResearchOrganizationRO_0000056 /></a></td></tr>
       </viva:foreachResearchOrganizationRO_0000056Iterator>

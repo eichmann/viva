@@ -27,6 +27,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachScreenplayTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:ScreenplayTheAbstract /></td></tr>
+      </viva:foreachScreenplayTheAbstractIterator>
+      <viva:foreachScreenplayDoiIterator>
+         <tr><td>doi</td><td><viva:ScreenplayDoi /></td></tr>
+      </viva:foreachScreenplayDoiIterator>
       <viva:foreachScreenplayPmidIterator>
          <tr><td>pmid</td><td><viva:ScreenplayPmid /></td></tr>
       </viva:foreachScreenplayPmidIterator>
@@ -39,16 +45,22 @@
       <viva:foreachScreenplayERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:ScreenplayERO_0000045 /></td></tr>
       </viva:foreachScreenplayERO_0000045Iterator>
-      <viva:foreachScreenplayTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:ScreenplayTheAbstract /></td></tr>
-      </viva:foreachScreenplayTheAbstractIterator>
-      <viva:foreachScreenplayDoiIterator>
-         <tr><td>doi</td><td><viva:ScreenplayDoi /></td></tr>
-      </viva:foreachScreenplayDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachScreenplayTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:ScreenplayTranslatorType/>/<viva:ScreenplayTranslatorType/>.jsp?uri=<viva:ScreenplayTranslator/>"><viva:ScreenplayTranslator /></a></td></tr>
+      </viva:foreachScreenplayTranslatorIterator>
+      <viva:foreachScreenplayFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:ScreenplayFeaturesType/>/<viva:ScreenplayFeaturesType/>.jsp?uri=<viva:ScreenplayFeatures/>"><viva:ScreenplayFeatures /></a></td></tr>
+      </viva:foreachScreenplayFeaturesIterator>
+      <viva:foreachScreenplayInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ScreenplayInformationResourceSupportedByType/>/<viva:ScreenplayInformationResourceSupportedByType/>.jsp?uri=<viva:ScreenplayInformationResourceSupportedBy/>"><viva:ScreenplayInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachScreenplayInformationResourceSupportedByIterator>
+      <viva:foreachScreenplayIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:ScreenplayIAO_0000136Type/>/<viva:ScreenplayIAO_0000136Type/>.jsp?uri=<viva:ScreenplayIAO_0000136/>"><viva:ScreenplayIAO_0000136 /></a></td></tr>
+      </viva:foreachScreenplayIAO_0000136Iterator>
       <viva:foreachScreenplayDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:ScreenplayDocumentationForType/>/<viva:ScreenplayDocumentationForType/>.jsp?uri=<viva:ScreenplayDocumentationFor/>"><viva:ScreenplayDocumentationFor /></a></td></tr>
       </viva:foreachScreenplayDocumentationForIterator>
@@ -79,18 +91,6 @@
       <viva:foreachScreenplayRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ScreenplayRO_0000056Type/>/<viva:ScreenplayRO_0000056Type/>.jsp?uri=<viva:ScreenplayRO_0000056/>"><viva:ScreenplayRO_0000056 /></a></td></tr>
       </viva:foreachScreenplayRO_0000056Iterator>
-      <viva:foreachScreenplayTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:ScreenplayTranslatorType/>/<viva:ScreenplayTranslatorType/>.jsp?uri=<viva:ScreenplayTranslator/>"><viva:ScreenplayTranslator /></a></td></tr>
-      </viva:foreachScreenplayTranslatorIterator>
-      <viva:foreachScreenplayFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:ScreenplayFeaturesType/>/<viva:ScreenplayFeaturesType/>.jsp?uri=<viva:ScreenplayFeatures/>"><viva:ScreenplayFeatures /></a></td></tr>
-      </viva:foreachScreenplayFeaturesIterator>
-      <viva:foreachScreenplayInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ScreenplayInformationResourceSupportedByType/>/<viva:ScreenplayInformationResourceSupportedByType/>.jsp?uri=<viva:ScreenplayInformationResourceSupportedBy/>"><viva:ScreenplayInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachScreenplayInformationResourceSupportedByIterator>
-      <viva:foreachScreenplayIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ScreenplayIAO_0000136Type/>/<viva:ScreenplayIAO_0000136Type/>.jsp?uri=<viva:ScreenplayIAO_0000136/>"><viva:ScreenplayIAO_0000136 /></a></td></tr>
-      </viva:foreachScreenplayIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

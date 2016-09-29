@@ -31,18 +31,18 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachERO_0000780RO_0000052Iterator>
-         <tr><td>RO_0000052</td><td><a href="../<viva:ERO_0000780RO_0000052Type/>/<viva:ERO_0000780RO_0000052Type/>.jsp?uri=<viva:ERO_0000780RO_0000052/>"><viva:ERO_0000780RO_0000052 /></a></td></tr>
-      </viva:foreachERO_0000780RO_0000052Iterator>
       <viva:foreachERO_0000780RoleContributesToIterator>
          <tr><td>roleContributesTo</td><td><a href="../<viva:ERO_0000780RoleContributesToType/>/<viva:ERO_0000780RoleContributesToType/>.jsp?uri=<viva:ERO_0000780RoleContributesTo/>"><viva:ERO_0000780RoleContributesTo /></a></td></tr>
       </viva:foreachERO_0000780RoleContributesToIterator>
-      <viva:foreachERO_0000780RO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:ERO_0000780RO_0000056Type/>/<viva:ERO_0000780RO_0000056Type/>.jsp?uri=<viva:ERO_0000780RO_0000056/>"><viva:ERO_0000780RO_0000056 /></a></td></tr>
-      </viva:foreachERO_0000780RO_0000056Iterator>
       <viva:foreachERO_0000780BFO_0000054Iterator>
          <tr><td>BFO_0000054</td><td><a href="../<viva:ERO_0000780BFO_0000054Type/>/<viva:ERO_0000780BFO_0000054Type/>.jsp?uri=<viva:ERO_0000780BFO_0000054/>"><viva:ERO_0000780BFO_0000054 /></a></td></tr>
       </viva:foreachERO_0000780BFO_0000054Iterator>
+      <viva:foreachERO_0000780RO_0000052Iterator>
+         <tr><td>RO_0000052</td><td><a href="../<viva:ERO_0000780RO_0000052Type/>/<viva:ERO_0000780RO_0000052Type/>.jsp?uri=<viva:ERO_0000780RO_0000052/>"><viva:ERO_0000780RO_0000052 /></a></td></tr>
+      </viva:foreachERO_0000780RO_0000052Iterator>
+      <viva:foreachERO_0000780RO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:ERO_0000780RO_0000056Type/>/<viva:ERO_0000780RO_0000056Type/>.jsp?uri=<viva:ERO_0000780RO_0000056/>"><viva:ERO_0000780RO_0000056 /></a></td></tr>
+      </viva:foreachERO_0000780RO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

@@ -27,6 +27,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachCommentTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:CommentTheAbstract /></td></tr>
+      </viva:foreachCommentTheAbstractIterator>
+      <viva:foreachCommentDoiIterator>
+         <tr><td>doi</td><td><viva:CommentDoi /></td></tr>
+      </viva:foreachCommentDoiIterator>
       <viva:foreachCommentPmidIterator>
          <tr><td>pmid</td><td><viva:CommentPmid /></td></tr>
       </viva:foreachCommentPmidIterator>
@@ -39,16 +45,22 @@
       <viva:foreachCommentERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:CommentERO_0000045 /></td></tr>
       </viva:foreachCommentERO_0000045Iterator>
-      <viva:foreachCommentTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:CommentTheAbstract /></td></tr>
-      </viva:foreachCommentTheAbstractIterator>
-      <viva:foreachCommentDoiIterator>
-         <tr><td>doi</td><td><viva:CommentDoi /></td></tr>
-      </viva:foreachCommentDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachCommentTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:CommentTranslatorType/>/<viva:CommentTranslatorType/>.jsp?uri=<viva:CommentTranslator/>"><viva:CommentTranslator /></a></td></tr>
+      </viva:foreachCommentTranslatorIterator>
+      <viva:foreachCommentFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:CommentFeaturesType/>/<viva:CommentFeaturesType/>.jsp?uri=<viva:CommentFeatures/>"><viva:CommentFeatures /></a></td></tr>
+      </viva:foreachCommentFeaturesIterator>
+      <viva:foreachCommentInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:CommentInformationResourceSupportedByType/>/<viva:CommentInformationResourceSupportedByType/>.jsp?uri=<viva:CommentInformationResourceSupportedBy/>"><viva:CommentInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachCommentInformationResourceSupportedByIterator>
+      <viva:foreachCommentIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:CommentIAO_0000136Type/>/<viva:CommentIAO_0000136Type/>.jsp?uri=<viva:CommentIAO_0000136/>"><viva:CommentIAO_0000136 /></a></td></tr>
+      </viva:foreachCommentIAO_0000136Iterator>
       <viva:foreachCommentDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:CommentDocumentationForType/>/<viva:CommentDocumentationForType/>.jsp?uri=<viva:CommentDocumentationFor/>"><viva:CommentDocumentationFor /></a></td></tr>
       </viva:foreachCommentDocumentationForIterator>
@@ -79,18 +91,6 @@
       <viva:foreachCommentRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:CommentRO_0000056Type/>/<viva:CommentRO_0000056Type/>.jsp?uri=<viva:CommentRO_0000056/>"><viva:CommentRO_0000056 /></a></td></tr>
       </viva:foreachCommentRO_0000056Iterator>
-      <viva:foreachCommentTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:CommentTranslatorType/>/<viva:CommentTranslatorType/>.jsp?uri=<viva:CommentTranslator/>"><viva:CommentTranslator /></a></td></tr>
-      </viva:foreachCommentTranslatorIterator>
-      <viva:foreachCommentFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:CommentFeaturesType/>/<viva:CommentFeaturesType/>.jsp?uri=<viva:CommentFeatures/>"><viva:CommentFeatures /></a></td></tr>
-      </viva:foreachCommentFeaturesIterator>
-      <viva:foreachCommentInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:CommentInformationResourceSupportedByType/>/<viva:CommentInformationResourceSupportedByType/>.jsp?uri=<viva:CommentInformationResourceSupportedBy/>"><viva:CommentInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachCommentInformationResourceSupportedByIterator>
-      <viva:foreachCommentIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:CommentIAO_0000136Type/>/<viva:CommentIAO_0000136Type/>.jsp?uri=<viva:CommentIAO_0000136/>"><viva:CommentIAO_0000136 /></a></td></tr>
-      </viva:foreachCommentIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

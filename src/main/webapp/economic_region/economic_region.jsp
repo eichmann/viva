@@ -103,15 +103,15 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreacheconomic_regionHasMemberIterator>
-         <tr><td>hasMember</td><td><a href="../<viva:economic_regionHasMemberType/>/<viva:economic_regionHasMemberType/>.jsp?uri=<viva:economic_regionHasMember/>"><viva:economic_regionHasMember /></a></td></tr>
-      </viva:foreacheconomic_regionHasMemberIterator>
       <viva:foreacheconomic_regionIsSuccessorOfIterator>
          <tr><td>isSuccessorOf</td><td><a href="../<viva:economic_regionIsSuccessorOfType/>/<viva:economic_regionIsSuccessorOfType/>.jsp?uri=<viva:economic_regionIsSuccessorOf/>"><viva:economic_regionIsSuccessorOf /></a></td></tr>
       </viva:foreacheconomic_regionIsSuccessorOfIterator>
       <viva:foreacheconomic_regionIsPredecessorOfIterator>
          <tr><td>isPredecessorOf</td><td><a href="../<viva:economic_regionIsPredecessorOfType/>/<viva:economic_regionIsPredecessorOfType/>.jsp?uri=<viva:economic_regionIsPredecessorOf/>"><viva:economic_regionIsPredecessorOf /></a></td></tr>
       </viva:foreacheconomic_regionIsPredecessorOfIterator>
+      <viva:foreacheconomic_regionHasMemberIterator>
+         <tr><td>hasMember</td><td><a href="../<viva:economic_regionHasMemberType/>/<viva:economic_regionHasMemberType/>.jsp?uri=<viva:economic_regionHasMember/>"><viva:economic_regionHasMember /></a></td></tr>
+      </viva:foreacheconomic_regionHasMemberIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

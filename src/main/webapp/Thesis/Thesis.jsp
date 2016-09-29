@@ -27,6 +27,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachThesisTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:ThesisTheAbstract /></td></tr>
+      </viva:foreachThesisTheAbstractIterator>
+      <viva:foreachThesisDoiIterator>
+         <tr><td>doi</td><td><viva:ThesisDoi /></td></tr>
+      </viva:foreachThesisDoiIterator>
       <viva:foreachThesisPmidIterator>
          <tr><td>pmid</td><td><viva:ThesisPmid /></td></tr>
       </viva:foreachThesisPmidIterator>
@@ -39,16 +45,22 @@
       <viva:foreachThesisERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:ThesisERO_0000045 /></td></tr>
       </viva:foreachThesisERO_0000045Iterator>
-      <viva:foreachThesisTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:ThesisTheAbstract /></td></tr>
-      </viva:foreachThesisTheAbstractIterator>
-      <viva:foreachThesisDoiIterator>
-         <tr><td>doi</td><td><viva:ThesisDoi /></td></tr>
-      </viva:foreachThesisDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachThesisTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:ThesisTranslatorType/>/<viva:ThesisTranslatorType/>.jsp?uri=<viva:ThesisTranslator/>"><viva:ThesisTranslator /></a></td></tr>
+      </viva:foreachThesisTranslatorIterator>
+      <viva:foreachThesisFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:ThesisFeaturesType/>/<viva:ThesisFeaturesType/>.jsp?uri=<viva:ThesisFeatures/>"><viva:ThesisFeatures /></a></td></tr>
+      </viva:foreachThesisFeaturesIterator>
+      <viva:foreachThesisInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ThesisInformationResourceSupportedByType/>/<viva:ThesisInformationResourceSupportedByType/>.jsp?uri=<viva:ThesisInformationResourceSupportedBy/>"><viva:ThesisInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachThesisInformationResourceSupportedByIterator>
+      <viva:foreachThesisIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:ThesisIAO_0000136Type/>/<viva:ThesisIAO_0000136Type/>.jsp?uri=<viva:ThesisIAO_0000136/>"><viva:ThesisIAO_0000136 /></a></td></tr>
+      </viva:foreachThesisIAO_0000136Iterator>
       <viva:foreachThesisDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:ThesisDocumentationForType/>/<viva:ThesisDocumentationForType/>.jsp?uri=<viva:ThesisDocumentationFor/>"><viva:ThesisDocumentationFor /></a></td></tr>
       </viva:foreachThesisDocumentationForIterator>
@@ -79,18 +91,6 @@
       <viva:foreachThesisRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ThesisRO_0000056Type/>/<viva:ThesisRO_0000056Type/>.jsp?uri=<viva:ThesisRO_0000056/>"><viva:ThesisRO_0000056 /></a></td></tr>
       </viva:foreachThesisRO_0000056Iterator>
-      <viva:foreachThesisTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:ThesisTranslatorType/>/<viva:ThesisTranslatorType/>.jsp?uri=<viva:ThesisTranslator/>"><viva:ThesisTranslator /></a></td></tr>
-      </viva:foreachThesisTranslatorIterator>
-      <viva:foreachThesisFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:ThesisFeaturesType/>/<viva:ThesisFeaturesType/>.jsp?uri=<viva:ThesisFeatures/>"><viva:ThesisFeatures /></a></td></tr>
-      </viva:foreachThesisFeaturesIterator>
-      <viva:foreachThesisInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ThesisInformationResourceSupportedByType/>/<viva:ThesisInformationResourceSupportedByType/>.jsp?uri=<viva:ThesisInformationResourceSupportedBy/>"><viva:ThesisInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachThesisInformationResourceSupportedByIterator>
-      <viva:foreachThesisIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ThesisIAO_0000136Type/>/<viva:ThesisIAO_0000136Type/>.jsp?uri=<viva:ThesisIAO_0000136/>"><viva:ThesisIAO_0000136 /></a></td></tr>
-      </viva:foreachThesisIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

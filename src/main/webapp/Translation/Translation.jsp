@@ -27,6 +27,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachTranslationTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:TranslationTheAbstract /></td></tr>
+      </viva:foreachTranslationTheAbstractIterator>
+      <viva:foreachTranslationDoiIterator>
+         <tr><td>doi</td><td><viva:TranslationDoi /></td></tr>
+      </viva:foreachTranslationDoiIterator>
       <viva:foreachTranslationPmidIterator>
          <tr><td>pmid</td><td><viva:TranslationPmid /></td></tr>
       </viva:foreachTranslationPmidIterator>
@@ -39,16 +45,22 @@
       <viva:foreachTranslationERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:TranslationERO_0000045 /></td></tr>
       </viva:foreachTranslationERO_0000045Iterator>
-      <viva:foreachTranslationTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:TranslationTheAbstract /></td></tr>
-      </viva:foreachTranslationTheAbstractIterator>
-      <viva:foreachTranslationDoiIterator>
-         <tr><td>doi</td><td><viva:TranslationDoi /></td></tr>
-      </viva:foreachTranslationDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachTranslationTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:TranslationTranslatorType/>/<viva:TranslationTranslatorType/>.jsp?uri=<viva:TranslationTranslator/>"><viva:TranslationTranslator /></a></td></tr>
+      </viva:foreachTranslationTranslatorIterator>
+      <viva:foreachTranslationFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:TranslationFeaturesType/>/<viva:TranslationFeaturesType/>.jsp?uri=<viva:TranslationFeatures/>"><viva:TranslationFeatures /></a></td></tr>
+      </viva:foreachTranslationFeaturesIterator>
+      <viva:foreachTranslationInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:TranslationInformationResourceSupportedByType/>/<viva:TranslationInformationResourceSupportedByType/>.jsp?uri=<viva:TranslationInformationResourceSupportedBy/>"><viva:TranslationInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachTranslationInformationResourceSupportedByIterator>
+      <viva:foreachTranslationIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:TranslationIAO_0000136Type/>/<viva:TranslationIAO_0000136Type/>.jsp?uri=<viva:TranslationIAO_0000136/>"><viva:TranslationIAO_0000136 /></a></td></tr>
+      </viva:foreachTranslationIAO_0000136Iterator>
       <viva:foreachTranslationDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:TranslationDocumentationForType/>/<viva:TranslationDocumentationForType/>.jsp?uri=<viva:TranslationDocumentationFor/>"><viva:TranslationDocumentationFor /></a></td></tr>
       </viva:foreachTranslationDocumentationForIterator>
@@ -79,18 +91,6 @@
       <viva:foreachTranslationRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:TranslationRO_0000056Type/>/<viva:TranslationRO_0000056Type/>.jsp?uri=<viva:TranslationRO_0000056/>"><viva:TranslationRO_0000056 /></a></td></tr>
       </viva:foreachTranslationRO_0000056Iterator>
-      <viva:foreachTranslationTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:TranslationTranslatorType/>/<viva:TranslationTranslatorType/>.jsp?uri=<viva:TranslationTranslator/>"><viva:TranslationTranslator /></a></td></tr>
-      </viva:foreachTranslationTranslatorIterator>
-      <viva:foreachTranslationFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:TranslationFeaturesType/>/<viva:TranslationFeaturesType/>.jsp?uri=<viva:TranslationFeatures/>"><viva:TranslationFeatures /></a></td></tr>
-      </viva:foreachTranslationFeaturesIterator>
-      <viva:foreachTranslationInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:TranslationInformationResourceSupportedByType/>/<viva:TranslationInformationResourceSupportedByType/>.jsp?uri=<viva:TranslationInformationResourceSupportedBy/>"><viva:TranslationInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachTranslationInformationResourceSupportedByIterator>
-      <viva:foreachTranslationIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:TranslationIAO_0000136Type/>/<viva:TranslationIAO_0000136Type/>.jsp?uri=<viva:TranslationIAO_0000136/>"><viva:TranslationIAO_0000136 /></a></td></tr>
-      </viva:foreachTranslationIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

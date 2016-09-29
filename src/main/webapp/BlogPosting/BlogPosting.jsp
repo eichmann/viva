@@ -36,6 +36,12 @@
       <viva:foreachBlogPostingNihmsidIterator>
          <tr><td>nihmsid</td><td><viva:BlogPostingNihmsid /></td></tr>
       </viva:foreachBlogPostingNihmsidIterator>
+      <viva:foreachBlogPostingTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:BlogPostingTheAbstract /></td></tr>
+      </viva:foreachBlogPostingTheAbstractIterator>
+      <viva:foreachBlogPostingDoiIterator>
+         <tr><td>doi</td><td><viva:BlogPostingDoi /></td></tr>
+      </viva:foreachBlogPostingDoiIterator>
       <viva:foreachBlogPostingPmidIterator>
          <tr><td>pmid</td><td><viva:BlogPostingPmid /></td></tr>
       </viva:foreachBlogPostingPmidIterator>
@@ -48,12 +54,6 @@
       <viva:foreachBlogPostingERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:BlogPostingERO_0000045 /></td></tr>
       </viva:foreachBlogPostingERO_0000045Iterator>
-      <viva:foreachBlogPostingTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:BlogPostingTheAbstract /></td></tr>
-      </viva:foreachBlogPostingTheAbstractIterator>
-      <viva:foreachBlogPostingDoiIterator>
-         <tr><td>doi</td><td><viva:BlogPostingDoi /></td></tr>
-      </viva:foreachBlogPostingDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -73,6 +73,18 @@
       <viva:foreachBlogPostingRelatesIterator>
          <tr><td>relates</td><td><a href="../<viva:BlogPostingRelatesType/>/<viva:BlogPostingRelatesType/>.jsp?uri=<viva:BlogPostingRelates/>"><viva:BlogPostingRelates /></a></td></tr>
       </viva:foreachBlogPostingRelatesIterator>
+      <viva:foreachBlogPostingTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:BlogPostingTranslatorType/>/<viva:BlogPostingTranslatorType/>.jsp?uri=<viva:BlogPostingTranslator/>"><viva:BlogPostingTranslator /></a></td></tr>
+      </viva:foreachBlogPostingTranslatorIterator>
+      <viva:foreachBlogPostingFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:BlogPostingFeaturesType/>/<viva:BlogPostingFeaturesType/>.jsp?uri=<viva:BlogPostingFeatures/>"><viva:BlogPostingFeatures /></a></td></tr>
+      </viva:foreachBlogPostingFeaturesIterator>
+      <viva:foreachBlogPostingInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:BlogPostingInformationResourceSupportedByType/>/<viva:BlogPostingInformationResourceSupportedByType/>.jsp?uri=<viva:BlogPostingInformationResourceSupportedBy/>"><viva:BlogPostingInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachBlogPostingInformationResourceSupportedByIterator>
+      <viva:foreachBlogPostingIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:BlogPostingIAO_0000136Type/>/<viva:BlogPostingIAO_0000136Type/>.jsp?uri=<viva:BlogPostingIAO_0000136/>"><viva:BlogPostingIAO_0000136 /></a></td></tr>
+      </viva:foreachBlogPostingIAO_0000136Iterator>
       <viva:foreachBlogPostingDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:BlogPostingDocumentationForType/>/<viva:BlogPostingDocumentationForType/>.jsp?uri=<viva:BlogPostingDocumentationFor/>"><viva:BlogPostingDocumentationFor /></a></td></tr>
       </viva:foreachBlogPostingDocumentationForIterator>
@@ -103,18 +115,6 @@
       <viva:foreachBlogPostingRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:BlogPostingRO_0000056Type/>/<viva:BlogPostingRO_0000056Type/>.jsp?uri=<viva:BlogPostingRO_0000056/>"><viva:BlogPostingRO_0000056 /></a></td></tr>
       </viva:foreachBlogPostingRO_0000056Iterator>
-      <viva:foreachBlogPostingTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:BlogPostingTranslatorType/>/<viva:BlogPostingTranslatorType/>.jsp?uri=<viva:BlogPostingTranslator/>"><viva:BlogPostingTranslator /></a></td></tr>
-      </viva:foreachBlogPostingTranslatorIterator>
-      <viva:foreachBlogPostingFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:BlogPostingFeaturesType/>/<viva:BlogPostingFeaturesType/>.jsp?uri=<viva:BlogPostingFeatures/>"><viva:BlogPostingFeatures /></a></td></tr>
-      </viva:foreachBlogPostingFeaturesIterator>
-      <viva:foreachBlogPostingInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:BlogPostingInformationResourceSupportedByType/>/<viva:BlogPostingInformationResourceSupportedByType/>.jsp?uri=<viva:BlogPostingInformationResourceSupportedBy/>"><viva:BlogPostingInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachBlogPostingInformationResourceSupportedByIterator>
-      <viva:foreachBlogPostingIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:BlogPostingIAO_0000136Type/>/<viva:BlogPostingIAO_0000136Type/>.jsp?uri=<viva:BlogPostingIAO_0000136/>"><viva:BlogPostingIAO_0000136 /></a></td></tr>
-      </viva:foreachBlogPostingIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

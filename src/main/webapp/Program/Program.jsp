@@ -42,9 +42,6 @@
       <viva:foreachProgramTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:ProgramTranslatorOfType/>/<viva:ProgramTranslatorOfType/>.jsp?uri=<viva:ProgramTranslatorOf/>"><viva:ProgramTranslatorOf /></a></td></tr>
       </viva:foreachProgramTranslatorOfIterator>
-      <viva:foreachProgramRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:ProgramRO_0000053Type/>/<viva:ProgramRO_0000053Type/>.jsp?uri=<viva:ProgramRO_0000053/>"><viva:ProgramRO_0000053 /></a></td></tr>
-      </viva:foreachProgramRO_0000053Iterator>
       <viva:foreachProgramSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:ProgramSponsorsType/>/<viva:ProgramSponsorsType/>.jsp?uri=<viva:ProgramSponsors/>"><viva:ProgramSponsors /></a></td></tr>
       </viva:foreachProgramSponsorsIterator>
@@ -81,6 +78,9 @@
       <viva:foreachProgramAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<viva:ProgramAffiliatedOrganizationType/>/<viva:ProgramAffiliatedOrganizationType/>.jsp?uri=<viva:ProgramAffiliatedOrganization/>"><viva:ProgramAffiliatedOrganization /></a></td></tr>
       </viva:foreachProgramAffiliatedOrganizationIterator>
+      <viva:foreachProgramRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:ProgramRO_0000053Type/>/<viva:ProgramRO_0000053Type/>.jsp?uri=<viva:ProgramRO_0000053/>"><viva:ProgramRO_0000053 /></a></td></tr>
+      </viva:foreachProgramRO_0000053Iterator>
       <viva:foreachProgramRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ProgramRO_0000056Type/>/<viva:ProgramRO_0000056Type/>.jsp?uri=<viva:ProgramRO_0000056/>"><viva:ProgramRO_0000056 /></a></td></tr>
       </viva:foreachProgramRO_0000056Iterator>

@@ -31,18 +31,18 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachAdviseeRoleRO_0000052Iterator>
-         <tr><td>RO_0000052</td><td><a href="../<viva:AdviseeRoleRO_0000052Type/>/<viva:AdviseeRoleRO_0000052Type/>.jsp?uri=<viva:AdviseeRoleRO_0000052/>"><viva:AdviseeRoleRO_0000052 /></a></td></tr>
-      </viva:foreachAdviseeRoleRO_0000052Iterator>
       <viva:foreachAdviseeRoleRoleContributesToIterator>
          <tr><td>roleContributesTo</td><td><a href="../<viva:AdviseeRoleRoleContributesToType/>/<viva:AdviseeRoleRoleContributesToType/>.jsp?uri=<viva:AdviseeRoleRoleContributesTo/>"><viva:AdviseeRoleRoleContributesTo /></a></td></tr>
       </viva:foreachAdviseeRoleRoleContributesToIterator>
-      <viva:foreachAdviseeRoleRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:AdviseeRoleRO_0000056Type/>/<viva:AdviseeRoleRO_0000056Type/>.jsp?uri=<viva:AdviseeRoleRO_0000056/>"><viva:AdviseeRoleRO_0000056 /></a></td></tr>
-      </viva:foreachAdviseeRoleRO_0000056Iterator>
       <viva:foreachAdviseeRoleBFO_0000054Iterator>
          <tr><td>BFO_0000054</td><td><a href="../<viva:AdviseeRoleBFO_0000054Type/>/<viva:AdviseeRoleBFO_0000054Type/>.jsp?uri=<viva:AdviseeRoleBFO_0000054/>"><viva:AdviseeRoleBFO_0000054 /></a></td></tr>
       </viva:foreachAdviseeRoleBFO_0000054Iterator>
+      <viva:foreachAdviseeRoleRO_0000052Iterator>
+         <tr><td>RO_0000052</td><td><a href="../<viva:AdviseeRoleRO_0000052Type/>/<viva:AdviseeRoleRO_0000052Type/>.jsp?uri=<viva:AdviseeRoleRO_0000052/>"><viva:AdviseeRoleRO_0000052 /></a></td></tr>
+      </viva:foreachAdviseeRoleRO_0000052Iterator>
+      <viva:foreachAdviseeRoleRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:AdviseeRoleRO_0000056Type/>/<viva:AdviseeRoleRO_0000056Type/>.jsp?uri=<viva:AdviseeRoleRO_0000056/>"><viva:AdviseeRoleRO_0000056 /></a></td></tr>
+      </viva:foreachAdviseeRoleRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

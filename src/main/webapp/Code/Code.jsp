@@ -37,21 +37,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachCodeRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:CodeRO_0000056Type/>/<viva:CodeRO_0000056Type/>.jsp?uri=<viva:CodeRO_0000056/>"><viva:CodeRO_0000056 /></a></td></tr>
-      </viva:foreachCodeRO_0000056Iterator>
-      <viva:foreachCodeDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<viva:CodeDateTimeValueType/>/<viva:CodeDateTimeValueType/>.jsp?uri=<viva:CodeDateTimeValue/>"><viva:CodeDateTimeValue /></a></td></tr>
-      </viva:foreachCodeDateTimeValueIterator>
-      <viva:foreachCodeRO_0002353Iterator>
-         <tr><td>RO_0002353</td><td><a href="../<viva:CodeRO_0002353Type/>/<viva:CodeRO_0002353Type/>.jsp?uri=<viva:CodeRO_0002353/>"><viva:CodeRO_0002353 /></a></td></tr>
-      </viva:foreachCodeRO_0002353Iterator>
-      <viva:foreachCodeARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<viva:CodeARG_2000028Type/>/<viva:CodeARG_2000028Type/>.jsp?uri=<viva:CodeARG_2000028/>"><viva:CodeARG_2000028 /></a></td></tr>
-      </viva:foreachCodeARG_2000028Iterator>
-      <viva:foreachCodeRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:CodeRelatedByType/>/<viva:CodeRelatedByType/>.jsp?uri=<viva:CodeRelatedBy/>"><viva:CodeRelatedBy /></a></td></tr>
-      </viva:foreachCodeRelatedByIterator>
       <viva:foreachCodeTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:CodeTranslatorType/>/<viva:CodeTranslatorType/>.jsp?uri=<viva:CodeTranslator/>"><viva:CodeTranslator /></a></td></tr>
       </viva:foreachCodeTranslatorIterator>
@@ -64,6 +49,21 @@
       <viva:foreachCodeIAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<viva:CodeIAO_0000136Type/>/<viva:CodeIAO_0000136Type/>.jsp?uri=<viva:CodeIAO_0000136/>"><viva:CodeIAO_0000136 /></a></td></tr>
       </viva:foreachCodeIAO_0000136Iterator>
+      <viva:foreachCodeDateTimeValueIterator>
+         <tr><td>dateTimeValue</td><td><a href="../<viva:CodeDateTimeValueType/>/<viva:CodeDateTimeValueType/>.jsp?uri=<viva:CodeDateTimeValue/>"><viva:CodeDateTimeValue /></a></td></tr>
+      </viva:foreachCodeDateTimeValueIterator>
+      <viva:foreachCodeRO_0002353Iterator>
+         <tr><td>RO_0002353</td><td><a href="../<viva:CodeRO_0002353Type/>/<viva:CodeRO_0002353Type/>.jsp?uri=<viva:CodeRO_0002353/>"><viva:CodeRO_0002353 /></a></td></tr>
+      </viva:foreachCodeRO_0002353Iterator>
+      <viva:foreachCodeARG_2000028Iterator>
+         <tr><td>ARG_2000028</td><td><a href="../<viva:CodeARG_2000028Type/>/<viva:CodeARG_2000028Type/>.jsp?uri=<viva:CodeARG_2000028/>"><viva:CodeARG_2000028 /></a></td></tr>
+      </viva:foreachCodeARG_2000028Iterator>
+      <viva:foreachCodeRelatedByIterator>
+         <tr><td>relatedBy</td><td><a href="../<viva:CodeRelatedByType/>/<viva:CodeRelatedByType/>.jsp?uri=<viva:CodeRelatedBy/>"><viva:CodeRelatedBy /></a></td></tr>
+      </viva:foreachCodeRelatedByIterator>
+      <viva:foreachCodeRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:CodeRO_0000056Type/>/<viva:CodeRO_0000056Type/>.jsp?uri=<viva:CodeRO_0000056/>"><viva:CodeRO_0000056 /></a></td></tr>
+      </viva:foreachCodeRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

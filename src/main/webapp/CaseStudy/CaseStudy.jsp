@@ -27,6 +27,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachCaseStudyTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:CaseStudyTheAbstract /></td></tr>
+      </viva:foreachCaseStudyTheAbstractIterator>
+      <viva:foreachCaseStudyDoiIterator>
+         <tr><td>doi</td><td><viva:CaseStudyDoi /></td></tr>
+      </viva:foreachCaseStudyDoiIterator>
       <viva:foreachCaseStudyPmidIterator>
          <tr><td>pmid</td><td><viva:CaseStudyPmid /></td></tr>
       </viva:foreachCaseStudyPmidIterator>
@@ -39,16 +45,22 @@
       <viva:foreachCaseStudyERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:CaseStudyERO_0000045 /></td></tr>
       </viva:foreachCaseStudyERO_0000045Iterator>
-      <viva:foreachCaseStudyTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:CaseStudyTheAbstract /></td></tr>
-      </viva:foreachCaseStudyTheAbstractIterator>
-      <viva:foreachCaseStudyDoiIterator>
-         <tr><td>doi</td><td><viva:CaseStudyDoi /></td></tr>
-      </viva:foreachCaseStudyDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachCaseStudyTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:CaseStudyTranslatorType/>/<viva:CaseStudyTranslatorType/>.jsp?uri=<viva:CaseStudyTranslator/>"><viva:CaseStudyTranslator /></a></td></tr>
+      </viva:foreachCaseStudyTranslatorIterator>
+      <viva:foreachCaseStudyFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:CaseStudyFeaturesType/>/<viva:CaseStudyFeaturesType/>.jsp?uri=<viva:CaseStudyFeatures/>"><viva:CaseStudyFeatures /></a></td></tr>
+      </viva:foreachCaseStudyFeaturesIterator>
+      <viva:foreachCaseStudyInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:CaseStudyInformationResourceSupportedByType/>/<viva:CaseStudyInformationResourceSupportedByType/>.jsp?uri=<viva:CaseStudyInformationResourceSupportedBy/>"><viva:CaseStudyInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachCaseStudyInformationResourceSupportedByIterator>
+      <viva:foreachCaseStudyIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:CaseStudyIAO_0000136Type/>/<viva:CaseStudyIAO_0000136Type/>.jsp?uri=<viva:CaseStudyIAO_0000136/>"><viva:CaseStudyIAO_0000136 /></a></td></tr>
+      </viva:foreachCaseStudyIAO_0000136Iterator>
       <viva:foreachCaseStudyDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:CaseStudyDocumentationForType/>/<viva:CaseStudyDocumentationForType/>.jsp?uri=<viva:CaseStudyDocumentationFor/>"><viva:CaseStudyDocumentationFor /></a></td></tr>
       </viva:foreachCaseStudyDocumentationForIterator>
@@ -79,18 +91,6 @@
       <viva:foreachCaseStudyRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:CaseStudyRO_0000056Type/>/<viva:CaseStudyRO_0000056Type/>.jsp?uri=<viva:CaseStudyRO_0000056/>"><viva:CaseStudyRO_0000056 /></a></td></tr>
       </viva:foreachCaseStudyRO_0000056Iterator>
-      <viva:foreachCaseStudyTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:CaseStudyTranslatorType/>/<viva:CaseStudyTranslatorType/>.jsp?uri=<viva:CaseStudyTranslator/>"><viva:CaseStudyTranslator /></a></td></tr>
-      </viva:foreachCaseStudyTranslatorIterator>
-      <viva:foreachCaseStudyFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:CaseStudyFeaturesType/>/<viva:CaseStudyFeaturesType/>.jsp?uri=<viva:CaseStudyFeatures/>"><viva:CaseStudyFeatures /></a></td></tr>
-      </viva:foreachCaseStudyFeaturesIterator>
-      <viva:foreachCaseStudyInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:CaseStudyInformationResourceSupportedByType/>/<viva:CaseStudyInformationResourceSupportedByType/>.jsp?uri=<viva:CaseStudyInformationResourceSupportedBy/>"><viva:CaseStudyInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachCaseStudyInformationResourceSupportedByIterator>
-      <viva:foreachCaseStudyIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:CaseStudyIAO_0000136Type/>/<viva:CaseStudyIAO_0000136Type/>.jsp?uri=<viva:CaseStudyIAO_0000136/>"><viva:CaseStudyIAO_0000136 /></a></td></tr>
-      </viva:foreachCaseStudyIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

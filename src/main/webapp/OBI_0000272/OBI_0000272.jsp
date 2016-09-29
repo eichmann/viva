@@ -27,6 +27,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachOBI_0000272TheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:OBI_0000272TheAbstract /></td></tr>
+      </viva:foreachOBI_0000272TheAbstractIterator>
+      <viva:foreachOBI_0000272DoiIterator>
+         <tr><td>doi</td><td><viva:OBI_0000272Doi /></td></tr>
+      </viva:foreachOBI_0000272DoiIterator>
       <viva:foreachOBI_0000272PmidIterator>
          <tr><td>pmid</td><td><viva:OBI_0000272Pmid /></td></tr>
       </viva:foreachOBI_0000272PmidIterator>
@@ -39,12 +45,6 @@
       <viva:foreachOBI_0000272ERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:OBI_0000272ERO_0000045 /></td></tr>
       </viva:foreachOBI_0000272ERO_0000045Iterator>
-      <viva:foreachOBI_0000272TheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:OBI_0000272TheAbstract /></td></tr>
-      </viva:foreachOBI_0000272TheAbstractIterator>
-      <viva:foreachOBI_0000272DoiIterator>
-         <tr><td>doi</td><td><viva:OBI_0000272Doi /></td></tr>
-      </viva:foreachOBI_0000272DoiIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -61,6 +61,18 @@
       <viva:foreachOBI_0000272ERO_0000460Iterator>
          <tr><td>ERO_0000460</td><td><a href="../<viva:OBI_0000272ERO_0000460Type/>/<viva:OBI_0000272ERO_0000460Type/>.jsp?uri=<viva:OBI_0000272ERO_0000460/>"><viva:OBI_0000272ERO_0000460 /></a></td></tr>
       </viva:foreachOBI_0000272ERO_0000460Iterator>
+      <viva:foreachOBI_0000272TranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:OBI_0000272TranslatorType/>/<viva:OBI_0000272TranslatorType/>.jsp?uri=<viva:OBI_0000272Translator/>"><viva:OBI_0000272Translator /></a></td></tr>
+      </viva:foreachOBI_0000272TranslatorIterator>
+      <viva:foreachOBI_0000272FeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:OBI_0000272FeaturesType/>/<viva:OBI_0000272FeaturesType/>.jsp?uri=<viva:OBI_0000272Features/>"><viva:OBI_0000272Features /></a></td></tr>
+      </viva:foreachOBI_0000272FeaturesIterator>
+      <viva:foreachOBI_0000272InformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:OBI_0000272InformationResourceSupportedByType/>/<viva:OBI_0000272InformationResourceSupportedByType/>.jsp?uri=<viva:OBI_0000272InformationResourceSupportedBy/>"><viva:OBI_0000272InformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachOBI_0000272InformationResourceSupportedByIterator>
+      <viva:foreachOBI_0000272IAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:OBI_0000272IAO_0000136Type/>/<viva:OBI_0000272IAO_0000136Type/>.jsp?uri=<viva:OBI_0000272IAO_0000136/>"><viva:OBI_0000272IAO_0000136 /></a></td></tr>
+      </viva:foreachOBI_0000272IAO_0000136Iterator>
       <viva:foreachOBI_0000272DocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:OBI_0000272DocumentationForType/>/<viva:OBI_0000272DocumentationForType/>.jsp?uri=<viva:OBI_0000272DocumentationFor/>"><viva:OBI_0000272DocumentationFor /></a></td></tr>
       </viva:foreachOBI_0000272DocumentationForIterator>
@@ -91,18 +103,6 @@
       <viva:foreachOBI_0000272RO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:OBI_0000272RO_0000056Type/>/<viva:OBI_0000272RO_0000056Type/>.jsp?uri=<viva:OBI_0000272RO_0000056/>"><viva:OBI_0000272RO_0000056 /></a></td></tr>
       </viva:foreachOBI_0000272RO_0000056Iterator>
-      <viva:foreachOBI_0000272TranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:OBI_0000272TranslatorType/>/<viva:OBI_0000272TranslatorType/>.jsp?uri=<viva:OBI_0000272Translator/>"><viva:OBI_0000272Translator /></a></td></tr>
-      </viva:foreachOBI_0000272TranslatorIterator>
-      <viva:foreachOBI_0000272FeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:OBI_0000272FeaturesType/>/<viva:OBI_0000272FeaturesType/>.jsp?uri=<viva:OBI_0000272Features/>"><viva:OBI_0000272Features /></a></td></tr>
-      </viva:foreachOBI_0000272FeaturesIterator>
-      <viva:foreachOBI_0000272InformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:OBI_0000272InformationResourceSupportedByType/>/<viva:OBI_0000272InformationResourceSupportedByType/>.jsp?uri=<viva:OBI_0000272InformationResourceSupportedBy/>"><viva:OBI_0000272InformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachOBI_0000272InformationResourceSupportedByIterator>
-      <viva:foreachOBI_0000272IAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:OBI_0000272IAO_0000136Type/>/<viva:OBI_0000272IAO_0000136Type/>.jsp?uri=<viva:OBI_0000272IAO_0000136/>"><viva:OBI_0000272IAO_0000136 /></a></td></tr>
-      </viva:foreachOBI_0000272IAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

@@ -28,6 +28,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachReportTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:ReportTheAbstract /></td></tr>
+      </viva:foreachReportTheAbstractIterator>
+      <viva:foreachReportDoiIterator>
+         <tr><td>doi</td><td><viva:ReportDoi /></td></tr>
+      </viva:foreachReportDoiIterator>
       <viva:foreachReportPmidIterator>
          <tr><td>pmid</td><td><viva:ReportPmid /></td></tr>
       </viva:foreachReportPmidIterator>
@@ -40,12 +46,6 @@
       <viva:foreachReportERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:ReportERO_0000045 /></td></tr>
       </viva:foreachReportERO_0000045Iterator>
-      <viva:foreachReportTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:ReportTheAbstract /></td></tr>
-      </viva:foreachReportTheAbstractIterator>
-      <viva:foreachReportDoiIterator>
-         <tr><td>doi</td><td><viva:ReportDoi /></td></tr>
-      </viva:foreachReportDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -62,6 +62,18 @@
       <viva:foreachReportRelatesIterator>
          <tr><td>relates</td><td><a href="../<viva:ReportRelatesType/>/<viva:ReportRelatesType/>.jsp?uri=<viva:ReportRelates/>"><viva:ReportRelates /></a></td></tr>
       </viva:foreachReportRelatesIterator>
+      <viva:foreachReportTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:ReportTranslatorType/>/<viva:ReportTranslatorType/>.jsp?uri=<viva:ReportTranslator/>"><viva:ReportTranslator /></a></td></tr>
+      </viva:foreachReportTranslatorIterator>
+      <viva:foreachReportFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:ReportFeaturesType/>/<viva:ReportFeaturesType/>.jsp?uri=<viva:ReportFeatures/>"><viva:ReportFeatures /></a></td></tr>
+      </viva:foreachReportFeaturesIterator>
+      <viva:foreachReportInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ReportInformationResourceSupportedByType/>/<viva:ReportInformationResourceSupportedByType/>.jsp?uri=<viva:ReportInformationResourceSupportedBy/>"><viva:ReportInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachReportInformationResourceSupportedByIterator>
+      <viva:foreachReportIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:ReportIAO_0000136Type/>/<viva:ReportIAO_0000136Type/>.jsp?uri=<viva:ReportIAO_0000136/>"><viva:ReportIAO_0000136 /></a></td></tr>
+      </viva:foreachReportIAO_0000136Iterator>
       <viva:foreachReportDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:ReportDocumentationForType/>/<viva:ReportDocumentationForType/>.jsp?uri=<viva:ReportDocumentationFor/>"><viva:ReportDocumentationFor /></a></td></tr>
       </viva:foreachReportDocumentationForIterator>
@@ -92,18 +104,6 @@
       <viva:foreachReportRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ReportRO_0000056Type/>/<viva:ReportRO_0000056Type/>.jsp?uri=<viva:ReportRO_0000056/>"><viva:ReportRO_0000056 /></a></td></tr>
       </viva:foreachReportRO_0000056Iterator>
-      <viva:foreachReportTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:ReportTranslatorType/>/<viva:ReportTranslatorType/>.jsp?uri=<viva:ReportTranslator/>"><viva:ReportTranslator /></a></td></tr>
-      </viva:foreachReportTranslatorIterator>
-      <viva:foreachReportFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:ReportFeaturesType/>/<viva:ReportFeaturesType/>.jsp?uri=<viva:ReportFeatures/>"><viva:ReportFeatures /></a></td></tr>
-      </viva:foreachReportFeaturesIterator>
-      <viva:foreachReportInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ReportInformationResourceSupportedByType/>/<viva:ReportInformationResourceSupportedByType/>.jsp?uri=<viva:ReportInformationResourceSupportedBy/>"><viva:ReportInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachReportInformationResourceSupportedByIterator>
-      <viva:foreachReportIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ReportIAO_0000136Type/>/<viva:ReportIAO_0000136Type/>.jsp?uri=<viva:ReportIAO_0000136/>"><viva:ReportIAO_0000136 /></a></td></tr>
-      </viva:foreachReportIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

@@ -100,34 +100,34 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachotherGeographicFocusOfIterator>
-         <tr><td>geographicFocusOf</td><td><a href="../<viva:otherGeographicFocusOfType/>/<viva:otherGeographicFocusOfType/>.jsp?uri=<viva:otherGeographicFocusOf/>"><viva:otherGeographicFocusOf /></a></td></tr>
-      </viva:foreachotherGeographicFocusOfIterator>
-      <viva:foreachotherIsInGroupIterator>
-         <tr><td>isInGroup</td><td><a href="../<viva:otherIsInGroupType/>/<viva:otherIsInGroupType/>.jsp?uri=<viva:otherIsInGroup/>"><viva:otherIsInGroup /></a></td></tr>
-      </viva:foreachotherIsInGroupIterator>
       <viva:foreachotherRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:otherRO_0000056Type/>/<viva:otherRO_0000056Type/>.jsp?uri=<viva:otherRO_0000056/>"><viva:otherRO_0000056 /></a></td></tr>
       </viva:foreachotherRO_0000056Iterator>
+      <viva:foreachotherRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:otherRO_0000053Type/>/<viva:otherRO_0000053Type/>.jsp?uri=<viva:otherRO_0000053/>"><viva:otherRO_0000053 /></a></td></tr>
+      </viva:foreachotherRO_0000053Iterator>
       <viva:foreachotherIsSuccessorOfIterator>
          <tr><td>isSuccessorOf</td><td><a href="../<viva:otherIsSuccessorOfType/>/<viva:otherIsSuccessorOfType/>.jsp?uri=<viva:otherIsSuccessorOf/>"><viva:otherIsSuccessorOf /></a></td></tr>
       </viva:foreachotherIsSuccessorOfIterator>
       <viva:foreachotherIsPredecessorOfIterator>
          <tr><td>isPredecessorOf</td><td><a href="../<viva:otherIsPredecessorOfType/>/<viva:otherIsPredecessorOfType/>.jsp?uri=<viva:otherIsPredecessorOf/>"><viva:otherIsPredecessorOf /></a></td></tr>
       </viva:foreachotherIsPredecessorOfIterator>
-      <viva:foreachotherRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:otherRO_0000053Type/>/<viva:otherRO_0000053Type/>.jsp?uri=<viva:otherRO_0000053/>"><viva:otherRO_0000053 /></a></td></tr>
-      </viva:foreachotherRO_0000053Iterator>
+      <viva:foreachotherGeographicFocusOfIterator>
+         <tr><td>geographicFocusOf</td><td><a href="../<viva:otherGeographicFocusOfType/>/<viva:otherGeographicFocusOfType/>.jsp?uri=<viva:otherGeographicFocusOf/>"><viva:otherGeographicFocusOf /></a></td></tr>
+      </viva:foreachotherGeographicFocusOfIterator>
+      <viva:foreachotherIsInGroupIterator>
+         <tr><td>isInGroup</td><td><a href="../<viva:otherIsInGroupType/>/<viva:otherIsInGroupType/>.jsp?uri=<viva:otherIsInGroup/>"><viva:otherIsInGroup /></a></td></tr>
+      </viva:foreachotherIsInGroupIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachotherOrcidIdInverseIterator>
-         <tr><td>orcidId</td><td><a href="../<viva:otherOrcidIdInverseType/>/<viva:otherOrcidIdInverseType/>.jsp?uri=<viva:otherOrcidIdInverse/>"><viva:otherOrcidIdInverse/></a></td></tr>
-      </viva:foreachotherOrcidIdInverseIterator>
       <viva:foreachotherValidInInverseIterator>
          <tr><td>validIn</td><td><a href="../<viva:otherValidInInverseType/>/<viva:otherValidInInverseType/>.jsp?uri=<viva:otherValidInInverse/>"><viva:otherValidInInverse/></a></td></tr>
       </viva:foreachotherValidInInverseIterator>
+      <viva:foreachotherOrcidIdInverseIterator>
+         <tr><td>orcidId</td><td><a href="../<viva:otherOrcidIdInverseType/>/<viva:otherOrcidIdInverseType/>.jsp?uri=<viva:otherOrcidIdInverse/>"><viva:otherOrcidIdInverse/></a></td></tr>
+      </viva:foreachotherOrcidIdInverseIterator>
    </table>
    </viva:other>
 

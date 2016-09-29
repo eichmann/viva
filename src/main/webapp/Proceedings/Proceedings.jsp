@@ -27,6 +27,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachProceedingsTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:ProceedingsTheAbstract /></td></tr>
+      </viva:foreachProceedingsTheAbstractIterator>
+      <viva:foreachProceedingsDoiIterator>
+         <tr><td>doi</td><td><viva:ProceedingsDoi /></td></tr>
+      </viva:foreachProceedingsDoiIterator>
       <viva:foreachProceedingsPmidIterator>
          <tr><td>pmid</td><td><viva:ProceedingsPmid /></td></tr>
       </viva:foreachProceedingsPmidIterator>
@@ -54,12 +60,6 @@
       <viva:foreachProceedingsNumPagesIterator>
          <tr><td>numPages</td><td><viva:ProceedingsNumPages /></td></tr>
       </viva:foreachProceedingsNumPagesIterator>
-      <viva:foreachProceedingsTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:ProceedingsTheAbstract /></td></tr>
-      </viva:foreachProceedingsTheAbstractIterator>
-      <viva:foreachProceedingsDoiIterator>
-         <tr><td>doi</td><td><viva:ProceedingsDoi /></td></tr>
-      </viva:foreachProceedingsDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -67,6 +67,18 @@
       <viva:foreachProceedingsProceedingsOfIterator>
          <tr><td>proceedingsOf</td><td><a href="../<viva:ProceedingsProceedingsOfType/>/<viva:ProceedingsProceedingsOfType/>.jsp?uri=<viva:ProceedingsProceedingsOf/>"><viva:ProceedingsProceedingsOf /></a></td></tr>
       </viva:foreachProceedingsProceedingsOfIterator>
+      <viva:foreachProceedingsTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:ProceedingsTranslatorType/>/<viva:ProceedingsTranslatorType/>.jsp?uri=<viva:ProceedingsTranslator/>"><viva:ProceedingsTranslator /></a></td></tr>
+      </viva:foreachProceedingsTranslatorIterator>
+      <viva:foreachProceedingsFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:ProceedingsFeaturesType/>/<viva:ProceedingsFeaturesType/>.jsp?uri=<viva:ProceedingsFeatures/>"><viva:ProceedingsFeatures /></a></td></tr>
+      </viva:foreachProceedingsFeaturesIterator>
+      <viva:foreachProceedingsInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ProceedingsInformationResourceSupportedByType/>/<viva:ProceedingsInformationResourceSupportedByType/>.jsp?uri=<viva:ProceedingsInformationResourceSupportedBy/>"><viva:ProceedingsInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachProceedingsInformationResourceSupportedByIterator>
+      <viva:foreachProceedingsIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:ProceedingsIAO_0000136Type/>/<viva:ProceedingsIAO_0000136Type/>.jsp?uri=<viva:ProceedingsIAO_0000136/>"><viva:ProceedingsIAO_0000136 /></a></td></tr>
+      </viva:foreachProceedingsIAO_0000136Iterator>
       <viva:foreachProceedingsDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:ProceedingsDocumentationForType/>/<viva:ProceedingsDocumentationForType/>.jsp?uri=<viva:ProceedingsDocumentationFor/>"><viva:ProceedingsDocumentationFor /></a></td></tr>
       </viva:foreachProceedingsDocumentationForIterator>
@@ -118,18 +130,6 @@
       <viva:foreachProceedingsRelatesIterator>
          <tr><td>relates</td><td><a href="../<viva:ProceedingsRelatesType/>/<viva:ProceedingsRelatesType/>.jsp?uri=<viva:ProceedingsRelates/>"><viva:ProceedingsRelates /></a></td></tr>
       </viva:foreachProceedingsRelatesIterator>
-      <viva:foreachProceedingsTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:ProceedingsTranslatorType/>/<viva:ProceedingsTranslatorType/>.jsp?uri=<viva:ProceedingsTranslator/>"><viva:ProceedingsTranslator /></a></td></tr>
-      </viva:foreachProceedingsTranslatorIterator>
-      <viva:foreachProceedingsFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:ProceedingsFeaturesType/>/<viva:ProceedingsFeaturesType/>.jsp?uri=<viva:ProceedingsFeatures/>"><viva:ProceedingsFeatures /></a></td></tr>
-      </viva:foreachProceedingsFeaturesIterator>
-      <viva:foreachProceedingsInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ProceedingsInformationResourceSupportedByType/>/<viva:ProceedingsInformationResourceSupportedByType/>.jsp?uri=<viva:ProceedingsInformationResourceSupportedBy/>"><viva:ProceedingsInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachProceedingsInformationResourceSupportedByIterator>
-      <viva:foreachProceedingsIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ProceedingsIAO_0000136Type/>/<viva:ProceedingsIAO_0000136Type/>.jsp?uri=<viva:ProceedingsIAO_0000136/>"><viva:ProceedingsIAO_0000136 /></a></td></tr>
-      </viva:foreachProceedingsIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

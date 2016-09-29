@@ -42,9 +42,6 @@
       <viva:foreachDivisionTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:DivisionTranslatorOfType/>/<viva:DivisionTranslatorOfType/>.jsp?uri=<viva:DivisionTranslatorOf/>"><viva:DivisionTranslatorOf /></a></td></tr>
       </viva:foreachDivisionTranslatorOfIterator>
-      <viva:foreachDivisionRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:DivisionRO_0000053Type/>/<viva:DivisionRO_0000053Type/>.jsp?uri=<viva:DivisionRO_0000053/>"><viva:DivisionRO_0000053 /></a></td></tr>
-      </viva:foreachDivisionRO_0000053Iterator>
       <viva:foreachDivisionSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:DivisionSponsorsType/>/<viva:DivisionSponsorsType/>.jsp?uri=<viva:DivisionSponsors/>"><viva:DivisionSponsors /></a></td></tr>
       </viva:foreachDivisionSponsorsIterator>
@@ -81,6 +78,9 @@
       <viva:foreachDivisionAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<viva:DivisionAffiliatedOrganizationType/>/<viva:DivisionAffiliatedOrganizationType/>.jsp?uri=<viva:DivisionAffiliatedOrganization/>"><viva:DivisionAffiliatedOrganization /></a></td></tr>
       </viva:foreachDivisionAffiliatedOrganizationIterator>
+      <viva:foreachDivisionRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:DivisionRO_0000053Type/>/<viva:DivisionRO_0000053Type/>.jsp?uri=<viva:DivisionRO_0000053/>"><viva:DivisionRO_0000053 /></a></td></tr>
+      </viva:foreachDivisionRO_0000053Iterator>
       <viva:foreachDivisionRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:DivisionRO_0000056Type/>/<viva:DivisionRO_0000056Type/>.jsp?uri=<viva:DivisionRO_0000056/>"><viva:DivisionRO_0000056 /></a></td></tr>
       </viva:foreachDivisionRO_0000056Iterator>

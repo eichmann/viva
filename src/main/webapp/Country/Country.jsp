@@ -262,12 +262,12 @@
       <viva:foreachCountryHasBorderWithIterator>
          <tr><td>hasBorderWith</td><td><a href="../<viva:CountryHasBorderWithType/>/<viva:CountryHasBorderWithType/>.jsp?uri=<viva:CountryHasBorderWith/>"><viva:CountryHasBorderWith /></a></td></tr>
       </viva:foreachCountryHasBorderWithIterator>
-      <viva:foreachCountryRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:CountryRO_0000053Type/>/<viva:CountryRO_0000053Type/>.jsp?uri=<viva:CountryRO_0000053/>"><viva:CountryRO_0000053 /></a></td></tr>
-      </viva:foreachCountryRO_0000053Iterator>
       <viva:foreachCountryGeographicFocusOfIterator>
          <tr><td>geographicFocusOf</td><td><a href="../<viva:CountryGeographicFocusOfType/>/<viva:CountryGeographicFocusOfType/>.jsp?uri=<viva:CountryGeographicFocusOf/>"><viva:CountryGeographicFocusOf /></a></td></tr>
       </viva:foreachCountryGeographicFocusOfIterator>
+      <viva:foreachCountryRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:CountryRO_0000053Type/>/<viva:CountryRO_0000053Type/>.jsp?uri=<viva:CountryRO_0000053/>"><viva:CountryRO_0000053 /></a></td></tr>
+      </viva:foreachCountryRO_0000053Iterator>
       <viva:foreachCountryRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:CountryRO_0000056Type/>/<viva:CountryRO_0000056Type/>.jsp?uri=<viva:CountryRO_0000056/>"><viva:CountryRO_0000056 /></a></td></tr>
       </viva:foreachCountryRO_0000056Iterator>

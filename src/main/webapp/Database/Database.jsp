@@ -27,6 +27,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachDatabaseTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:DatabaseTheAbstract /></td></tr>
+      </viva:foreachDatabaseTheAbstractIterator>
+      <viva:foreachDatabaseDoiIterator>
+         <tr><td>doi</td><td><viva:DatabaseDoi /></td></tr>
+      </viva:foreachDatabaseDoiIterator>
       <viva:foreachDatabasePmidIterator>
          <tr><td>pmid</td><td><viva:DatabasePmid /></td></tr>
       </viva:foreachDatabasePmidIterator>
@@ -39,16 +45,22 @@
       <viva:foreachDatabaseERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:DatabaseERO_0000045 /></td></tr>
       </viva:foreachDatabaseERO_0000045Iterator>
-      <viva:foreachDatabaseTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:DatabaseTheAbstract /></td></tr>
-      </viva:foreachDatabaseTheAbstractIterator>
-      <viva:foreachDatabaseDoiIterator>
-         <tr><td>doi</td><td><viva:DatabaseDoi /></td></tr>
-      </viva:foreachDatabaseDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachDatabaseTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:DatabaseTranslatorType/>/<viva:DatabaseTranslatorType/>.jsp?uri=<viva:DatabaseTranslator/>"><viva:DatabaseTranslator /></a></td></tr>
+      </viva:foreachDatabaseTranslatorIterator>
+      <viva:foreachDatabaseFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:DatabaseFeaturesType/>/<viva:DatabaseFeaturesType/>.jsp?uri=<viva:DatabaseFeatures/>"><viva:DatabaseFeatures /></a></td></tr>
+      </viva:foreachDatabaseFeaturesIterator>
+      <viva:foreachDatabaseInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:DatabaseInformationResourceSupportedByType/>/<viva:DatabaseInformationResourceSupportedByType/>.jsp?uri=<viva:DatabaseInformationResourceSupportedBy/>"><viva:DatabaseInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachDatabaseInformationResourceSupportedByIterator>
+      <viva:foreachDatabaseIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:DatabaseIAO_0000136Type/>/<viva:DatabaseIAO_0000136Type/>.jsp?uri=<viva:DatabaseIAO_0000136/>"><viva:DatabaseIAO_0000136 /></a></td></tr>
+      </viva:foreachDatabaseIAO_0000136Iterator>
       <viva:foreachDatabaseDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:DatabaseDocumentationForType/>/<viva:DatabaseDocumentationForType/>.jsp?uri=<viva:DatabaseDocumentationFor/>"><viva:DatabaseDocumentationFor /></a></td></tr>
       </viva:foreachDatabaseDocumentationForIterator>
@@ -79,18 +91,6 @@
       <viva:foreachDatabaseRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:DatabaseRO_0000056Type/>/<viva:DatabaseRO_0000056Type/>.jsp?uri=<viva:DatabaseRO_0000056/>"><viva:DatabaseRO_0000056 /></a></td></tr>
       </viva:foreachDatabaseRO_0000056Iterator>
-      <viva:foreachDatabaseTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:DatabaseTranslatorType/>/<viva:DatabaseTranslatorType/>.jsp?uri=<viva:DatabaseTranslator/>"><viva:DatabaseTranslator /></a></td></tr>
-      </viva:foreachDatabaseTranslatorIterator>
-      <viva:foreachDatabaseFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:DatabaseFeaturesType/>/<viva:DatabaseFeaturesType/>.jsp?uri=<viva:DatabaseFeatures/>"><viva:DatabaseFeatures /></a></td></tr>
-      </viva:foreachDatabaseFeaturesIterator>
-      <viva:foreachDatabaseInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:DatabaseInformationResourceSupportedByType/>/<viva:DatabaseInformationResourceSupportedByType/>.jsp?uri=<viva:DatabaseInformationResourceSupportedBy/>"><viva:DatabaseInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachDatabaseInformationResourceSupportedByIterator>
-      <viva:foreachDatabaseIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:DatabaseIAO_0000136Type/>/<viva:DatabaseIAO_0000136Type/>.jsp?uri=<viva:DatabaseIAO_0000136/>"><viva:DatabaseIAO_0000136 /></a></td></tr>
-      </viva:foreachDatabaseIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

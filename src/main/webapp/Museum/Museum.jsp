@@ -42,9 +42,6 @@
       <viva:foreachMuseumTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:MuseumTranslatorOfType/>/<viva:MuseumTranslatorOfType/>.jsp?uri=<viva:MuseumTranslatorOf/>"><viva:MuseumTranslatorOf /></a></td></tr>
       </viva:foreachMuseumTranslatorOfIterator>
-      <viva:foreachMuseumRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:MuseumRO_0000053Type/>/<viva:MuseumRO_0000053Type/>.jsp?uri=<viva:MuseumRO_0000053/>"><viva:MuseumRO_0000053 /></a></td></tr>
-      </viva:foreachMuseumRO_0000053Iterator>
       <viva:foreachMuseumSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:MuseumSponsorsType/>/<viva:MuseumSponsorsType/>.jsp?uri=<viva:MuseumSponsors/>"><viva:MuseumSponsors /></a></td></tr>
       </viva:foreachMuseumSponsorsIterator>
@@ -81,6 +78,9 @@
       <viva:foreachMuseumAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<viva:MuseumAffiliatedOrganizationType/>/<viva:MuseumAffiliatedOrganizationType/>.jsp?uri=<viva:MuseumAffiliatedOrganization/>"><viva:MuseumAffiliatedOrganization /></a></td></tr>
       </viva:foreachMuseumAffiliatedOrganizationIterator>
+      <viva:foreachMuseumRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:MuseumRO_0000053Type/>/<viva:MuseumRO_0000053Type/>.jsp?uri=<viva:MuseumRO_0000053/>"><viva:MuseumRO_0000053 /></a></td></tr>
+      </viva:foreachMuseumRO_0000053Iterator>
       <viva:foreachMuseumRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:MuseumRO_0000056Type/>/<viva:MuseumRO_0000056Type/>.jsp?uri=<viva:MuseumRO_0000056/>"><viva:MuseumRO_0000056 /></a></td></tr>
       </viva:foreachMuseumRO_0000056Iterator>

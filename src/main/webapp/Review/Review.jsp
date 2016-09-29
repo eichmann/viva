@@ -36,6 +36,12 @@
       <viva:foreachReviewNihmsidIterator>
          <tr><td>nihmsid</td><td><viva:ReviewNihmsid /></td></tr>
       </viva:foreachReviewNihmsidIterator>
+      <viva:foreachReviewTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:ReviewTheAbstract /></td></tr>
+      </viva:foreachReviewTheAbstractIterator>
+      <viva:foreachReviewDoiIterator>
+         <tr><td>doi</td><td><viva:ReviewDoi /></td></tr>
+      </viva:foreachReviewDoiIterator>
       <viva:foreachReviewPmidIterator>
          <tr><td>pmid</td><td><viva:ReviewPmid /></td></tr>
       </viva:foreachReviewPmidIterator>
@@ -48,12 +54,6 @@
       <viva:foreachReviewERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:ReviewERO_0000045 /></td></tr>
       </viva:foreachReviewERO_0000045Iterator>
-      <viva:foreachReviewTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:ReviewTheAbstract /></td></tr>
-      </viva:foreachReviewTheAbstractIterator>
-      <viva:foreachReviewDoiIterator>
-         <tr><td>doi</td><td><viva:ReviewDoi /></td></tr>
-      </viva:foreachReviewDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -73,6 +73,18 @@
       <viva:foreachReviewRelatesIterator>
          <tr><td>relates</td><td><a href="../<viva:ReviewRelatesType/>/<viva:ReviewRelatesType/>.jsp?uri=<viva:ReviewRelates/>"><viva:ReviewRelates /></a></td></tr>
       </viva:foreachReviewRelatesIterator>
+      <viva:foreachReviewTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:ReviewTranslatorType/>/<viva:ReviewTranslatorType/>.jsp?uri=<viva:ReviewTranslator/>"><viva:ReviewTranslator /></a></td></tr>
+      </viva:foreachReviewTranslatorIterator>
+      <viva:foreachReviewFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:ReviewFeaturesType/>/<viva:ReviewFeaturesType/>.jsp?uri=<viva:ReviewFeatures/>"><viva:ReviewFeatures /></a></td></tr>
+      </viva:foreachReviewFeaturesIterator>
+      <viva:foreachReviewInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ReviewInformationResourceSupportedByType/>/<viva:ReviewInformationResourceSupportedByType/>.jsp?uri=<viva:ReviewInformationResourceSupportedBy/>"><viva:ReviewInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachReviewInformationResourceSupportedByIterator>
+      <viva:foreachReviewIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:ReviewIAO_0000136Type/>/<viva:ReviewIAO_0000136Type/>.jsp?uri=<viva:ReviewIAO_0000136/>"><viva:ReviewIAO_0000136 /></a></td></tr>
+      </viva:foreachReviewIAO_0000136Iterator>
       <viva:foreachReviewDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:ReviewDocumentationForType/>/<viva:ReviewDocumentationForType/>.jsp?uri=<viva:ReviewDocumentationFor/>"><viva:ReviewDocumentationFor /></a></td></tr>
       </viva:foreachReviewDocumentationForIterator>
@@ -103,18 +115,6 @@
       <viva:foreachReviewRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ReviewRO_0000056Type/>/<viva:ReviewRO_0000056Type/>.jsp?uri=<viva:ReviewRO_0000056/>"><viva:ReviewRO_0000056 /></a></td></tr>
       </viva:foreachReviewRO_0000056Iterator>
-      <viva:foreachReviewTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:ReviewTranslatorType/>/<viva:ReviewTranslatorType/>.jsp?uri=<viva:ReviewTranslator/>"><viva:ReviewTranslator /></a></td></tr>
-      </viva:foreachReviewTranslatorIterator>
-      <viva:foreachReviewFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:ReviewFeaturesType/>/<viva:ReviewFeaturesType/>.jsp?uri=<viva:ReviewFeatures/>"><viva:ReviewFeatures /></a></td></tr>
-      </viva:foreachReviewFeaturesIterator>
-      <viva:foreachReviewInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ReviewInformationResourceSupportedByType/>/<viva:ReviewInformationResourceSupportedByType/>.jsp?uri=<viva:ReviewInformationResourceSupportedBy/>"><viva:ReviewInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachReviewInformationResourceSupportedByIterator>
-      <viva:foreachReviewIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ReviewIAO_0000136Type/>/<viva:ReviewIAO_0000136Type/>.jsp?uri=<viva:ReviewIAO_0000136/>"><viva:ReviewIAO_0000136 /></a></td></tr>
-      </viva:foreachReviewIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

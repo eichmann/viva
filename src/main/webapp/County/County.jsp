@@ -31,12 +31,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachCountyRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:CountyRO_0000053Type/>/<viva:CountyRO_0000053Type/>.jsp?uri=<viva:CountyRO_0000053/>"><viva:CountyRO_0000053 /></a></td></tr>
-      </viva:foreachCountyRO_0000053Iterator>
       <viva:foreachCountyGeographicFocusOfIterator>
          <tr><td>geographicFocusOf</td><td><a href="../<viva:CountyGeographicFocusOfType/>/<viva:CountyGeographicFocusOfType/>.jsp?uri=<viva:CountyGeographicFocusOf/>"><viva:CountyGeographicFocusOf /></a></td></tr>
       </viva:foreachCountyGeographicFocusOfIterator>
+      <viva:foreachCountyRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:CountyRO_0000053Type/>/<viva:CountyRO_0000053Type/>.jsp?uri=<viva:CountyRO_0000053/>"><viva:CountyRO_0000053 /></a></td></tr>
+      </viva:foreachCountyRO_0000053Iterator>
       <viva:foreachCountyRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:CountyRO_0000056Type/>/<viva:CountyRO_0000056Type/>.jsp?uri=<viva:CountyRO_0000056/>"><viva:CountyRO_0000056 /></a></td></tr>
       </viva:foreachCountyRO_0000056Iterator>

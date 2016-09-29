@@ -27,6 +27,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachSpeechTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:SpeechTheAbstract /></td></tr>
+      </viva:foreachSpeechTheAbstractIterator>
+      <viva:foreachSpeechDoiIterator>
+         <tr><td>doi</td><td><viva:SpeechDoi /></td></tr>
+      </viva:foreachSpeechDoiIterator>
       <viva:foreachSpeechPmidIterator>
          <tr><td>pmid</td><td><viva:SpeechPmid /></td></tr>
       </viva:foreachSpeechPmidIterator>
@@ -39,16 +45,22 @@
       <viva:foreachSpeechERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:SpeechERO_0000045 /></td></tr>
       </viva:foreachSpeechERO_0000045Iterator>
-      <viva:foreachSpeechTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:SpeechTheAbstract /></td></tr>
-      </viva:foreachSpeechTheAbstractIterator>
-      <viva:foreachSpeechDoiIterator>
-         <tr><td>doi</td><td><viva:SpeechDoi /></td></tr>
-      </viva:foreachSpeechDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachSpeechTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:SpeechTranslatorType/>/<viva:SpeechTranslatorType/>.jsp?uri=<viva:SpeechTranslator/>"><viva:SpeechTranslator /></a></td></tr>
+      </viva:foreachSpeechTranslatorIterator>
+      <viva:foreachSpeechFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:SpeechFeaturesType/>/<viva:SpeechFeaturesType/>.jsp?uri=<viva:SpeechFeatures/>"><viva:SpeechFeatures /></a></td></tr>
+      </viva:foreachSpeechFeaturesIterator>
+      <viva:foreachSpeechInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:SpeechInformationResourceSupportedByType/>/<viva:SpeechInformationResourceSupportedByType/>.jsp?uri=<viva:SpeechInformationResourceSupportedBy/>"><viva:SpeechInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachSpeechInformationResourceSupportedByIterator>
+      <viva:foreachSpeechIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:SpeechIAO_0000136Type/>/<viva:SpeechIAO_0000136Type/>.jsp?uri=<viva:SpeechIAO_0000136/>"><viva:SpeechIAO_0000136 /></a></td></tr>
+      </viva:foreachSpeechIAO_0000136Iterator>
       <viva:foreachSpeechDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:SpeechDocumentationForType/>/<viva:SpeechDocumentationForType/>.jsp?uri=<viva:SpeechDocumentationFor/>"><viva:SpeechDocumentationFor /></a></td></tr>
       </viva:foreachSpeechDocumentationForIterator>
@@ -79,18 +91,6 @@
       <viva:foreachSpeechRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:SpeechRO_0000056Type/>/<viva:SpeechRO_0000056Type/>.jsp?uri=<viva:SpeechRO_0000056/>"><viva:SpeechRO_0000056 /></a></td></tr>
       </viva:foreachSpeechRO_0000056Iterator>
-      <viva:foreachSpeechTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:SpeechTranslatorType/>/<viva:SpeechTranslatorType/>.jsp?uri=<viva:SpeechTranslator/>"><viva:SpeechTranslator /></a></td></tr>
-      </viva:foreachSpeechTranslatorIterator>
-      <viva:foreachSpeechFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:SpeechFeaturesType/>/<viva:SpeechFeaturesType/>.jsp?uri=<viva:SpeechFeatures/>"><viva:SpeechFeatures /></a></td></tr>
-      </viva:foreachSpeechFeaturesIterator>
-      <viva:foreachSpeechInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:SpeechInformationResourceSupportedByType/>/<viva:SpeechInformationResourceSupportedByType/>.jsp?uri=<viva:SpeechInformationResourceSupportedBy/>"><viva:SpeechInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachSpeechInformationResourceSupportedByIterator>
-      <viva:foreachSpeechIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:SpeechIAO_0000136Type/>/<viva:SpeechIAO_0000136Type/>.jsp?uri=<viva:SpeechIAO_0000136/>"><viva:SpeechIAO_0000136 /></a></td></tr>
-      </viva:foreachSpeechIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

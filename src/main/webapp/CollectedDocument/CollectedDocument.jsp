@@ -27,6 +27,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachCollectedDocumentTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:CollectedDocumentTheAbstract /></td></tr>
+      </viva:foreachCollectedDocumentTheAbstractIterator>
+      <viva:foreachCollectedDocumentDoiIterator>
+         <tr><td>doi</td><td><viva:CollectedDocumentDoi /></td></tr>
+      </viva:foreachCollectedDocumentDoiIterator>
       <viva:foreachCollectedDocumentPmidIterator>
          <tr><td>pmid</td><td><viva:CollectedDocumentPmid /></td></tr>
       </viva:foreachCollectedDocumentPmidIterator>
@@ -39,16 +45,22 @@
       <viva:foreachCollectedDocumentERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:CollectedDocumentERO_0000045 /></td></tr>
       </viva:foreachCollectedDocumentERO_0000045Iterator>
-      <viva:foreachCollectedDocumentTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:CollectedDocumentTheAbstract /></td></tr>
-      </viva:foreachCollectedDocumentTheAbstractIterator>
-      <viva:foreachCollectedDocumentDoiIterator>
-         <tr><td>doi</td><td><viva:CollectedDocumentDoi /></td></tr>
-      </viva:foreachCollectedDocumentDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachCollectedDocumentTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:CollectedDocumentTranslatorType/>/<viva:CollectedDocumentTranslatorType/>.jsp?uri=<viva:CollectedDocumentTranslator/>"><viva:CollectedDocumentTranslator /></a></td></tr>
+      </viva:foreachCollectedDocumentTranslatorIterator>
+      <viva:foreachCollectedDocumentFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:CollectedDocumentFeaturesType/>/<viva:CollectedDocumentFeaturesType/>.jsp?uri=<viva:CollectedDocumentFeatures/>"><viva:CollectedDocumentFeatures /></a></td></tr>
+      </viva:foreachCollectedDocumentFeaturesIterator>
+      <viva:foreachCollectedDocumentInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:CollectedDocumentInformationResourceSupportedByType/>/<viva:CollectedDocumentInformationResourceSupportedByType/>.jsp?uri=<viva:CollectedDocumentInformationResourceSupportedBy/>"><viva:CollectedDocumentInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachCollectedDocumentInformationResourceSupportedByIterator>
+      <viva:foreachCollectedDocumentIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:CollectedDocumentIAO_0000136Type/>/<viva:CollectedDocumentIAO_0000136Type/>.jsp?uri=<viva:CollectedDocumentIAO_0000136/>"><viva:CollectedDocumentIAO_0000136 /></a></td></tr>
+      </viva:foreachCollectedDocumentIAO_0000136Iterator>
       <viva:foreachCollectedDocumentDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:CollectedDocumentDocumentationForType/>/<viva:CollectedDocumentDocumentationForType/>.jsp?uri=<viva:CollectedDocumentDocumentationFor/>"><viva:CollectedDocumentDocumentationFor /></a></td></tr>
       </viva:foreachCollectedDocumentDocumentationForIterator>
@@ -79,18 +91,6 @@
       <viva:foreachCollectedDocumentRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:CollectedDocumentRO_0000056Type/>/<viva:CollectedDocumentRO_0000056Type/>.jsp?uri=<viva:CollectedDocumentRO_0000056/>"><viva:CollectedDocumentRO_0000056 /></a></td></tr>
       </viva:foreachCollectedDocumentRO_0000056Iterator>
-      <viva:foreachCollectedDocumentTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:CollectedDocumentTranslatorType/>/<viva:CollectedDocumentTranslatorType/>.jsp?uri=<viva:CollectedDocumentTranslator/>"><viva:CollectedDocumentTranslator /></a></td></tr>
-      </viva:foreachCollectedDocumentTranslatorIterator>
-      <viva:foreachCollectedDocumentFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:CollectedDocumentFeaturesType/>/<viva:CollectedDocumentFeaturesType/>.jsp?uri=<viva:CollectedDocumentFeatures/>"><viva:CollectedDocumentFeatures /></a></td></tr>
-      </viva:foreachCollectedDocumentFeaturesIterator>
-      <viva:foreachCollectedDocumentInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:CollectedDocumentInformationResourceSupportedByType/>/<viva:CollectedDocumentInformationResourceSupportedByType/>.jsp?uri=<viva:CollectedDocumentInformationResourceSupportedBy/>"><viva:CollectedDocumentInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachCollectedDocumentInformationResourceSupportedByIterator>
-      <viva:foreachCollectedDocumentIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:CollectedDocumentIAO_0000136Type/>/<viva:CollectedDocumentIAO_0000136Type/>.jsp?uri=<viva:CollectedDocumentIAO_0000136/>"><viva:CollectedDocumentIAO_0000136 /></a></td></tr>
-      </viva:foreachCollectedDocumentIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

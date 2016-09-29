@@ -27,6 +27,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachManualTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:ManualTheAbstract /></td></tr>
+      </viva:foreachManualTheAbstractIterator>
+      <viva:foreachManualDoiIterator>
+         <tr><td>doi</td><td><viva:ManualDoi /></td></tr>
+      </viva:foreachManualDoiIterator>
       <viva:foreachManualPmidIterator>
          <tr><td>pmid</td><td><viva:ManualPmid /></td></tr>
       </viva:foreachManualPmidIterator>
@@ -39,16 +45,22 @@
       <viva:foreachManualERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:ManualERO_0000045 /></td></tr>
       </viva:foreachManualERO_0000045Iterator>
-      <viva:foreachManualTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:ManualTheAbstract /></td></tr>
-      </viva:foreachManualTheAbstractIterator>
-      <viva:foreachManualDoiIterator>
-         <tr><td>doi</td><td><viva:ManualDoi /></td></tr>
-      </viva:foreachManualDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachManualTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:ManualTranslatorType/>/<viva:ManualTranslatorType/>.jsp?uri=<viva:ManualTranslator/>"><viva:ManualTranslator /></a></td></tr>
+      </viva:foreachManualTranslatorIterator>
+      <viva:foreachManualFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:ManualFeaturesType/>/<viva:ManualFeaturesType/>.jsp?uri=<viva:ManualFeatures/>"><viva:ManualFeatures /></a></td></tr>
+      </viva:foreachManualFeaturesIterator>
+      <viva:foreachManualInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ManualInformationResourceSupportedByType/>/<viva:ManualInformationResourceSupportedByType/>.jsp?uri=<viva:ManualInformationResourceSupportedBy/>"><viva:ManualInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachManualInformationResourceSupportedByIterator>
+      <viva:foreachManualIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:ManualIAO_0000136Type/>/<viva:ManualIAO_0000136Type/>.jsp?uri=<viva:ManualIAO_0000136/>"><viva:ManualIAO_0000136 /></a></td></tr>
+      </viva:foreachManualIAO_0000136Iterator>
       <viva:foreachManualDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:ManualDocumentationForType/>/<viva:ManualDocumentationForType/>.jsp?uri=<viva:ManualDocumentationFor/>"><viva:ManualDocumentationFor /></a></td></tr>
       </viva:foreachManualDocumentationForIterator>
@@ -79,18 +91,6 @@
       <viva:foreachManualRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ManualRO_0000056Type/>/<viva:ManualRO_0000056Type/>.jsp?uri=<viva:ManualRO_0000056/>"><viva:ManualRO_0000056 /></a></td></tr>
       </viva:foreachManualRO_0000056Iterator>
-      <viva:foreachManualTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:ManualTranslatorType/>/<viva:ManualTranslatorType/>.jsp?uri=<viva:ManualTranslator/>"><viva:ManualTranslator /></a></td></tr>
-      </viva:foreachManualTranslatorIterator>
-      <viva:foreachManualFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:ManualFeaturesType/>/<viva:ManualFeaturesType/>.jsp?uri=<viva:ManualFeatures/>"><viva:ManualFeatures /></a></td></tr>
-      </viva:foreachManualFeaturesIterator>
-      <viva:foreachManualInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ManualInformationResourceSupportedByType/>/<viva:ManualInformationResourceSupportedByType/>.jsp?uri=<viva:ManualInformationResourceSupportedBy/>"><viva:ManualInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachManualInformationResourceSupportedByIterator>
-      <viva:foreachManualIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ManualIAO_0000136Type/>/<viva:ManualIAO_0000136Type/>.jsp?uri=<viva:ManualIAO_0000136/>"><viva:ManualIAO_0000136 /></a></td></tr>
-      </viva:foreachManualIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

@@ -27,6 +27,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachBriefTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:BriefTheAbstract /></td></tr>
+      </viva:foreachBriefTheAbstractIterator>
+      <viva:foreachBriefDoiIterator>
+         <tr><td>doi</td><td><viva:BriefDoi /></td></tr>
+      </viva:foreachBriefDoiIterator>
       <viva:foreachBriefPmidIterator>
          <tr><td>pmid</td><td><viva:BriefPmid /></td></tr>
       </viva:foreachBriefPmidIterator>
@@ -39,16 +45,22 @@
       <viva:foreachBriefERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:BriefERO_0000045 /></td></tr>
       </viva:foreachBriefERO_0000045Iterator>
-      <viva:foreachBriefTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:BriefTheAbstract /></td></tr>
-      </viva:foreachBriefTheAbstractIterator>
-      <viva:foreachBriefDoiIterator>
-         <tr><td>doi</td><td><viva:BriefDoi /></td></tr>
-      </viva:foreachBriefDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachBriefTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:BriefTranslatorType/>/<viva:BriefTranslatorType/>.jsp?uri=<viva:BriefTranslator/>"><viva:BriefTranslator /></a></td></tr>
+      </viva:foreachBriefTranslatorIterator>
+      <viva:foreachBriefFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:BriefFeaturesType/>/<viva:BriefFeaturesType/>.jsp?uri=<viva:BriefFeatures/>"><viva:BriefFeatures /></a></td></tr>
+      </viva:foreachBriefFeaturesIterator>
+      <viva:foreachBriefInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:BriefInformationResourceSupportedByType/>/<viva:BriefInformationResourceSupportedByType/>.jsp?uri=<viva:BriefInformationResourceSupportedBy/>"><viva:BriefInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachBriefInformationResourceSupportedByIterator>
+      <viva:foreachBriefIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:BriefIAO_0000136Type/>/<viva:BriefIAO_0000136Type/>.jsp?uri=<viva:BriefIAO_0000136/>"><viva:BriefIAO_0000136 /></a></td></tr>
+      </viva:foreachBriefIAO_0000136Iterator>
       <viva:foreachBriefDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:BriefDocumentationForType/>/<viva:BriefDocumentationForType/>.jsp?uri=<viva:BriefDocumentationFor/>"><viva:BriefDocumentationFor /></a></td></tr>
       </viva:foreachBriefDocumentationForIterator>
@@ -79,18 +91,6 @@
       <viva:foreachBriefRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:BriefRO_0000056Type/>/<viva:BriefRO_0000056Type/>.jsp?uri=<viva:BriefRO_0000056/>"><viva:BriefRO_0000056 /></a></td></tr>
       </viva:foreachBriefRO_0000056Iterator>
-      <viva:foreachBriefTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:BriefTranslatorType/>/<viva:BriefTranslatorType/>.jsp?uri=<viva:BriefTranslator/>"><viva:BriefTranslator /></a></td></tr>
-      </viva:foreachBriefTranslatorIterator>
-      <viva:foreachBriefFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:BriefFeaturesType/>/<viva:BriefFeaturesType/>.jsp?uri=<viva:BriefFeatures/>"><viva:BriefFeatures /></a></td></tr>
-      </viva:foreachBriefFeaturesIterator>
-      <viva:foreachBriefInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:BriefInformationResourceSupportedByType/>/<viva:BriefInformationResourceSupportedByType/>.jsp?uri=<viva:BriefInformationResourceSupportedBy/>"><viva:BriefInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachBriefInformationResourceSupportedByIterator>
-      <viva:foreachBriefIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:BriefIAO_0000136Type/>/<viva:BriefIAO_0000136Type/>.jsp?uri=<viva:BriefIAO_0000136/>"><viva:BriefIAO_0000136 /></a></td></tr>
-      </viva:foreachBriefIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

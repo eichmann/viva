@@ -42,9 +42,6 @@
       <viva:foreachAcademicDepartmentTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:AcademicDepartmentTranslatorOfType/>/<viva:AcademicDepartmentTranslatorOfType/>.jsp?uri=<viva:AcademicDepartmentTranslatorOf/>"><viva:AcademicDepartmentTranslatorOf /></a></td></tr>
       </viva:foreachAcademicDepartmentTranslatorOfIterator>
-      <viva:foreachAcademicDepartmentRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:AcademicDepartmentRO_0000053Type/>/<viva:AcademicDepartmentRO_0000053Type/>.jsp?uri=<viva:AcademicDepartmentRO_0000053/>"><viva:AcademicDepartmentRO_0000053 /></a></td></tr>
-      </viva:foreachAcademicDepartmentRO_0000053Iterator>
       <viva:foreachAcademicDepartmentSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:AcademicDepartmentSponsorsType/>/<viva:AcademicDepartmentSponsorsType/>.jsp?uri=<viva:AcademicDepartmentSponsors/>"><viva:AcademicDepartmentSponsors /></a></td></tr>
       </viva:foreachAcademicDepartmentSponsorsIterator>
@@ -81,6 +78,9 @@
       <viva:foreachAcademicDepartmentAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<viva:AcademicDepartmentAffiliatedOrganizationType/>/<viva:AcademicDepartmentAffiliatedOrganizationType/>.jsp?uri=<viva:AcademicDepartmentAffiliatedOrganization/>"><viva:AcademicDepartmentAffiliatedOrganization /></a></td></tr>
       </viva:foreachAcademicDepartmentAffiliatedOrganizationIterator>
+      <viva:foreachAcademicDepartmentRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:AcademicDepartmentRO_0000053Type/>/<viva:AcademicDepartmentRO_0000053Type/>.jsp?uri=<viva:AcademicDepartmentRO_0000053/>"><viva:AcademicDepartmentRO_0000053 /></a></td></tr>
+      </viva:foreachAcademicDepartmentRO_0000053Iterator>
       <viva:foreachAcademicDepartmentRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:AcademicDepartmentRO_0000056Type/>/<viva:AcademicDepartmentRO_0000056Type/>.jsp?uri=<viva:AcademicDepartmentRO_0000056/>"><viva:AcademicDepartmentRO_0000056 /></a></td></tr>
       </viva:foreachAcademicDepartmentRO_0000056Iterator>

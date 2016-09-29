@@ -27,6 +27,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachEditedBookTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:EditedBookTheAbstract /></td></tr>
+      </viva:foreachEditedBookTheAbstractIterator>
+      <viva:foreachEditedBookDoiIterator>
+         <tr><td>doi</td><td><viva:EditedBookDoi /></td></tr>
+      </viva:foreachEditedBookDoiIterator>
       <viva:foreachEditedBookPmidIterator>
          <tr><td>pmid</td><td><viva:EditedBookPmid /></td></tr>
       </viva:foreachEditedBookPmidIterator>
@@ -39,16 +45,22 @@
       <viva:foreachEditedBookERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:EditedBookERO_0000045 /></td></tr>
       </viva:foreachEditedBookERO_0000045Iterator>
-      <viva:foreachEditedBookTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:EditedBookTheAbstract /></td></tr>
-      </viva:foreachEditedBookTheAbstractIterator>
-      <viva:foreachEditedBookDoiIterator>
-         <tr><td>doi</td><td><viva:EditedBookDoi /></td></tr>
-      </viva:foreachEditedBookDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachEditedBookTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:EditedBookTranslatorType/>/<viva:EditedBookTranslatorType/>.jsp?uri=<viva:EditedBookTranslator/>"><viva:EditedBookTranslator /></a></td></tr>
+      </viva:foreachEditedBookTranslatorIterator>
+      <viva:foreachEditedBookFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:EditedBookFeaturesType/>/<viva:EditedBookFeaturesType/>.jsp?uri=<viva:EditedBookFeatures/>"><viva:EditedBookFeatures /></a></td></tr>
+      </viva:foreachEditedBookFeaturesIterator>
+      <viva:foreachEditedBookInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:EditedBookInformationResourceSupportedByType/>/<viva:EditedBookInformationResourceSupportedByType/>.jsp?uri=<viva:EditedBookInformationResourceSupportedBy/>"><viva:EditedBookInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachEditedBookInformationResourceSupportedByIterator>
+      <viva:foreachEditedBookIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:EditedBookIAO_0000136Type/>/<viva:EditedBookIAO_0000136Type/>.jsp?uri=<viva:EditedBookIAO_0000136/>"><viva:EditedBookIAO_0000136 /></a></td></tr>
+      </viva:foreachEditedBookIAO_0000136Iterator>
       <viva:foreachEditedBookDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:EditedBookDocumentationForType/>/<viva:EditedBookDocumentationForType/>.jsp?uri=<viva:EditedBookDocumentationFor/>"><viva:EditedBookDocumentationFor /></a></td></tr>
       </viva:foreachEditedBookDocumentationForIterator>
@@ -79,18 +91,6 @@
       <viva:foreachEditedBookRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:EditedBookRO_0000056Type/>/<viva:EditedBookRO_0000056Type/>.jsp?uri=<viva:EditedBookRO_0000056/>"><viva:EditedBookRO_0000056 /></a></td></tr>
       </viva:foreachEditedBookRO_0000056Iterator>
-      <viva:foreachEditedBookTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:EditedBookTranslatorType/>/<viva:EditedBookTranslatorType/>.jsp?uri=<viva:EditedBookTranslator/>"><viva:EditedBookTranslator /></a></td></tr>
-      </viva:foreachEditedBookTranslatorIterator>
-      <viva:foreachEditedBookFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:EditedBookFeaturesType/>/<viva:EditedBookFeaturesType/>.jsp?uri=<viva:EditedBookFeatures/>"><viva:EditedBookFeatures /></a></td></tr>
-      </viva:foreachEditedBookFeaturesIterator>
-      <viva:foreachEditedBookInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:EditedBookInformationResourceSupportedByType/>/<viva:EditedBookInformationResourceSupportedByType/>.jsp?uri=<viva:EditedBookInformationResourceSupportedBy/>"><viva:EditedBookInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachEditedBookInformationResourceSupportedByIterator>
-      <viva:foreachEditedBookIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:EditedBookIAO_0000136Type/>/<viva:EditedBookIAO_0000136Type/>.jsp?uri=<viva:EditedBookIAO_0000136/>"><viva:EditedBookIAO_0000136 /></a></td></tr>
-      </viva:foreachEditedBookIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

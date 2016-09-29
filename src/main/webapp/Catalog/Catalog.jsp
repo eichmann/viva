@@ -27,6 +27,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachCatalogTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:CatalogTheAbstract /></td></tr>
+      </viva:foreachCatalogTheAbstractIterator>
+      <viva:foreachCatalogDoiIterator>
+         <tr><td>doi</td><td><viva:CatalogDoi /></td></tr>
+      </viva:foreachCatalogDoiIterator>
       <viva:foreachCatalogPmidIterator>
          <tr><td>pmid</td><td><viva:CatalogPmid /></td></tr>
       </viva:foreachCatalogPmidIterator>
@@ -39,16 +45,22 @@
       <viva:foreachCatalogERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:CatalogERO_0000045 /></td></tr>
       </viva:foreachCatalogERO_0000045Iterator>
-      <viva:foreachCatalogTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:CatalogTheAbstract /></td></tr>
-      </viva:foreachCatalogTheAbstractIterator>
-      <viva:foreachCatalogDoiIterator>
-         <tr><td>doi</td><td><viva:CatalogDoi /></td></tr>
-      </viva:foreachCatalogDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachCatalogTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:CatalogTranslatorType/>/<viva:CatalogTranslatorType/>.jsp?uri=<viva:CatalogTranslator/>"><viva:CatalogTranslator /></a></td></tr>
+      </viva:foreachCatalogTranslatorIterator>
+      <viva:foreachCatalogFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:CatalogFeaturesType/>/<viva:CatalogFeaturesType/>.jsp?uri=<viva:CatalogFeatures/>"><viva:CatalogFeatures /></a></td></tr>
+      </viva:foreachCatalogFeaturesIterator>
+      <viva:foreachCatalogInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:CatalogInformationResourceSupportedByType/>/<viva:CatalogInformationResourceSupportedByType/>.jsp?uri=<viva:CatalogInformationResourceSupportedBy/>"><viva:CatalogInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachCatalogInformationResourceSupportedByIterator>
+      <viva:foreachCatalogIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:CatalogIAO_0000136Type/>/<viva:CatalogIAO_0000136Type/>.jsp?uri=<viva:CatalogIAO_0000136/>"><viva:CatalogIAO_0000136 /></a></td></tr>
+      </viva:foreachCatalogIAO_0000136Iterator>
       <viva:foreachCatalogDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:CatalogDocumentationForType/>/<viva:CatalogDocumentationForType/>.jsp?uri=<viva:CatalogDocumentationFor/>"><viva:CatalogDocumentationFor /></a></td></tr>
       </viva:foreachCatalogDocumentationForIterator>
@@ -79,18 +91,6 @@
       <viva:foreachCatalogRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:CatalogRO_0000056Type/>/<viva:CatalogRO_0000056Type/>.jsp?uri=<viva:CatalogRO_0000056/>"><viva:CatalogRO_0000056 /></a></td></tr>
       </viva:foreachCatalogRO_0000056Iterator>
-      <viva:foreachCatalogTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:CatalogTranslatorType/>/<viva:CatalogTranslatorType/>.jsp?uri=<viva:CatalogTranslator/>"><viva:CatalogTranslator /></a></td></tr>
-      </viva:foreachCatalogTranslatorIterator>
-      <viva:foreachCatalogFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:CatalogFeaturesType/>/<viva:CatalogFeaturesType/>.jsp?uri=<viva:CatalogFeatures/>"><viva:CatalogFeatures /></a></td></tr>
-      </viva:foreachCatalogFeaturesIterator>
-      <viva:foreachCatalogInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:CatalogInformationResourceSupportedByType/>/<viva:CatalogInformationResourceSupportedByType/>.jsp?uri=<viva:CatalogInformationResourceSupportedBy/>"><viva:CatalogInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachCatalogInformationResourceSupportedByIterator>
-      <viva:foreachCatalogIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:CatalogIAO_0000136Type/>/<viva:CatalogIAO_0000136Type/>.jsp?uri=<viva:CatalogIAO_0000136/>"><viva:CatalogIAO_0000136 /></a></td></tr>
-      </viva:foreachCatalogIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

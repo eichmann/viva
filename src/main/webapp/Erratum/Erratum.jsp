@@ -27,6 +27,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachErratumTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:ErratumTheAbstract /></td></tr>
+      </viva:foreachErratumTheAbstractIterator>
+      <viva:foreachErratumDoiIterator>
+         <tr><td>doi</td><td><viva:ErratumDoi /></td></tr>
+      </viva:foreachErratumDoiIterator>
       <viva:foreachErratumPmidIterator>
          <tr><td>pmid</td><td><viva:ErratumPmid /></td></tr>
       </viva:foreachErratumPmidIterator>
@@ -39,16 +45,22 @@
       <viva:foreachErratumERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:ErratumERO_0000045 /></td></tr>
       </viva:foreachErratumERO_0000045Iterator>
-      <viva:foreachErratumTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:ErratumTheAbstract /></td></tr>
-      </viva:foreachErratumTheAbstractIterator>
-      <viva:foreachErratumDoiIterator>
-         <tr><td>doi</td><td><viva:ErratumDoi /></td></tr>
-      </viva:foreachErratumDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachErratumTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:ErratumTranslatorType/>/<viva:ErratumTranslatorType/>.jsp?uri=<viva:ErratumTranslator/>"><viva:ErratumTranslator /></a></td></tr>
+      </viva:foreachErratumTranslatorIterator>
+      <viva:foreachErratumFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:ErratumFeaturesType/>/<viva:ErratumFeaturesType/>.jsp?uri=<viva:ErratumFeatures/>"><viva:ErratumFeatures /></a></td></tr>
+      </viva:foreachErratumFeaturesIterator>
+      <viva:foreachErratumInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ErratumInformationResourceSupportedByType/>/<viva:ErratumInformationResourceSupportedByType/>.jsp?uri=<viva:ErratumInformationResourceSupportedBy/>"><viva:ErratumInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachErratumInformationResourceSupportedByIterator>
+      <viva:foreachErratumIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:ErratumIAO_0000136Type/>/<viva:ErratumIAO_0000136Type/>.jsp?uri=<viva:ErratumIAO_0000136/>"><viva:ErratumIAO_0000136 /></a></td></tr>
+      </viva:foreachErratumIAO_0000136Iterator>
       <viva:foreachErratumDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:ErratumDocumentationForType/>/<viva:ErratumDocumentationForType/>.jsp?uri=<viva:ErratumDocumentationFor/>"><viva:ErratumDocumentationFor /></a></td></tr>
       </viva:foreachErratumDocumentationForIterator>
@@ -79,18 +91,6 @@
       <viva:foreachErratumRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ErratumRO_0000056Type/>/<viva:ErratumRO_0000056Type/>.jsp?uri=<viva:ErratumRO_0000056/>"><viva:ErratumRO_0000056 /></a></td></tr>
       </viva:foreachErratumRO_0000056Iterator>
-      <viva:foreachErratumTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:ErratumTranslatorType/>/<viva:ErratumTranslatorType/>.jsp?uri=<viva:ErratumTranslator/>"><viva:ErratumTranslator /></a></td></tr>
-      </viva:foreachErratumTranslatorIterator>
-      <viva:foreachErratumFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:ErratumFeaturesType/>/<viva:ErratumFeaturesType/>.jsp?uri=<viva:ErratumFeatures/>"><viva:ErratumFeatures /></a></td></tr>
-      </viva:foreachErratumFeaturesIterator>
-      <viva:foreachErratumInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ErratumInformationResourceSupportedByType/>/<viva:ErratumInformationResourceSupportedByType/>.jsp?uri=<viva:ErratumInformationResourceSupportedBy/>"><viva:ErratumInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachErratumInformationResourceSupportedByIterator>
-      <viva:foreachErratumIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ErratumIAO_0000136Type/>/<viva:ErratumIAO_0000136Type/>.jsp?uri=<viva:ErratumIAO_0000136/>"><viva:ErratumIAO_0000136 /></a></td></tr>
-      </viva:foreachErratumIAO_0000136Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
