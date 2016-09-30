@@ -37,18 +37,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachCodeTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:CodeTranslatorType/>/<viva:CodeTranslatorType/>.jsp?uri=<viva:CodeTranslator/>"><viva:CodeTranslator /></a></td></tr>
-      </viva:foreachCodeTranslatorIterator>
-      <viva:foreachCodeFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:CodeFeaturesType/>/<viva:CodeFeaturesType/>.jsp?uri=<viva:CodeFeatures/>"><viva:CodeFeatures /></a></td></tr>
-      </viva:foreachCodeFeaturesIterator>
-      <viva:foreachCodeInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:CodeInformationResourceSupportedByType/>/<viva:CodeInformationResourceSupportedByType/>.jsp?uri=<viva:CodeInformationResourceSupportedBy/>"><viva:CodeInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachCodeInformationResourceSupportedByIterator>
-      <viva:foreachCodeIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:CodeIAO_0000136Type/>/<viva:CodeIAO_0000136Type/>.jsp?uri=<viva:CodeIAO_0000136/>"><viva:CodeIAO_0000136 /></a></td></tr>
-      </viva:foreachCodeIAO_0000136Iterator>
       <viva:foreachCodeDateTimeValueIterator>
          <tr><td>dateTimeValue</td><td><a href="../<viva:CodeDateTimeValueType/>/<viva:CodeDateTimeValueType/>.jsp?uri=<viva:CodeDateTimeValue/>"><viva:CodeDateTimeValue /></a></td></tr>
       </viva:foreachCodeDateTimeValueIterator>
@@ -61,6 +49,18 @@
       <viva:foreachCodeRelatedByIterator>
          <tr><td>relatedBy</td><td><a href="../<viva:CodeRelatedByType/>/<viva:CodeRelatedByType/>.jsp?uri=<viva:CodeRelatedBy/>"><viva:CodeRelatedBy /></a></td></tr>
       </viva:foreachCodeRelatedByIterator>
+      <viva:foreachCodeTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:CodeTranslatorType/>/<viva:CodeTranslatorType/>.jsp?uri=<viva:CodeTranslator/>"><viva:CodeTranslator /></a></td></tr>
+      </viva:foreachCodeTranslatorIterator>
+      <viva:foreachCodeFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:CodeFeaturesType/>/<viva:CodeFeaturesType/>.jsp?uri=<viva:CodeFeatures/>"><viva:CodeFeatures /></a></td></tr>
+      </viva:foreachCodeFeaturesIterator>
+      <viva:foreachCodeInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:CodeInformationResourceSupportedByType/>/<viva:CodeInformationResourceSupportedByType/>.jsp?uri=<viva:CodeInformationResourceSupportedBy/>"><viva:CodeInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachCodeInformationResourceSupportedByIterator>
+      <viva:foreachCodeIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:CodeIAO_0000136Type/>/<viva:CodeIAO_0000136Type/>.jsp?uri=<viva:CodeIAO_0000136/>"><viva:CodeIAO_0000136 /></a></td></tr>
+      </viva:foreachCodeIAO_0000136Iterator>
       <viva:foreachCodeRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:CodeRO_0000056Type/>/<viva:CodeRO_0000056Type/>.jsp?uri=<viva:CodeRO_0000056/>"><viva:CodeRO_0000056 /></a></td></tr>
       </viva:foreachCodeRO_0000056Iterator>

@@ -23,8 +23,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>overview</td><td><viva:CenterOverview /></td></tr>
       <tr><td>abbreviation</td><td><viva:CenterAbbreviation /></td></tr>
+      <tr><td>overview</td><td><viva:CenterOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -36,15 +36,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachCenterAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<viva:CenterAssigneeForType/>/<viva:CenterAssigneeForType/>.jsp?uri=<viva:CenterAssigneeFor/>"><viva:CenterAssigneeFor /></a></td></tr>
-      </viva:foreachCenterAssigneeForIterator>
-      <viva:foreachCenterHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<viva:CenterHasCollaboratorType/>/<viva:CenterHasCollaboratorType/>.jsp?uri=<viva:CenterHasCollaborator/>"><viva:CenterHasCollaborator /></a></td></tr>
-      </viva:foreachCenterHasCollaboratorIterator>
-      <viva:foreachCenterTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<viva:CenterTranslatorOfType/>/<viva:CenterTranslatorOfType/>.jsp?uri=<viva:CenterTranslatorOf/>"><viva:CenterTranslatorOf /></a></td></tr>
-      </viva:foreachCenterTranslatorOfIterator>
       <viva:foreachCenterSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:CenterSponsorsType/>/<viva:CenterSponsorsType/>.jsp?uri=<viva:CenterSponsors/>"><viva:CenterSponsors /></a></td></tr>
       </viva:foreachCenterSponsorsIterator>
@@ -87,16 +78,25 @@
       <viva:foreachCenterRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:CenterRO_0000056Type/>/<viva:CenterRO_0000056Type/>.jsp?uri=<viva:CenterRO_0000056/>"><viva:CenterRO_0000056 /></a></td></tr>
       </viva:foreachCenterRO_0000056Iterator>
+      <viva:foreachCenterAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<viva:CenterAssigneeForType/>/<viva:CenterAssigneeForType/>.jsp?uri=<viva:CenterAssigneeFor/>"><viva:CenterAssigneeFor /></a></td></tr>
+      </viva:foreachCenterAssigneeForIterator>
+      <viva:foreachCenterHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<viva:CenterHasCollaboratorType/>/<viva:CenterHasCollaboratorType/>.jsp?uri=<viva:CenterHasCollaborator/>"><viva:CenterHasCollaborator /></a></td></tr>
+      </viva:foreachCenterHasCollaboratorIterator>
+      <viva:foreachCenterTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<viva:CenterTranslatorOfType/>/<viva:CenterTranslatorOfType/>.jsp?uri=<viva:CenterTranslatorOf/>"><viva:CenterTranslatorOf /></a></td></tr>
+      </viva:foreachCenterTranslatorOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachCenterIssuerInverseIterator>
-         <tr><td>issuer</td><td><a href="../<viva:CenterIssuerInverseType/>/<viva:CenterIssuerInverseType/>.jsp?uri=<viva:CenterIssuerInverse/>"><viva:CenterIssuerInverse/></a></td></tr>
-      </viva:foreachCenterIssuerInverseIterator>
       <viva:foreachCenterOBI_0000304InverseIterator>
          <tr><td>OBI_0000304</td><td><a href="../<viva:CenterOBI_0000304InverseType/>/<viva:CenterOBI_0000304InverseType/>.jsp?uri=<viva:CenterOBI_0000304Inverse/>"><viva:CenterOBI_0000304Inverse/></a></td></tr>
       </viva:foreachCenterOBI_0000304InverseIterator>
+      <viva:foreachCenterIssuerInverseIterator>
+         <tr><td>issuer</td><td><a href="../<viva:CenterIssuerInverseType/>/<viva:CenterIssuerInverseType/>.jsp?uri=<viva:CenterIssuerInverse/>"><viva:CenterIssuerInverse/></a></td></tr>
+      </viva:foreachCenterIssuerInverseIterator>
    </table>
    </viva:Center>
 

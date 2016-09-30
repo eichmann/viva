@@ -31,6 +31,9 @@
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachPhase2ClinicalTrialERO_0001518Iterator>
+         <tr><td>ERO_0001518</td><td><a href="../<viva:Phase2ClinicalTrialERO_0001518Type/>/<viva:Phase2ClinicalTrialERO_0001518Type/>.jsp?uri=<viva:Phase2ClinicalTrialERO_0001518/>"><viva:Phase2ClinicalTrialERO_0001518 /></a></td></tr>
+      </viva:foreachPhase2ClinicalTrialERO_0001518Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

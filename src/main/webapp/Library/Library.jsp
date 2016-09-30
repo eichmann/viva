@@ -23,8 +23,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>overview</td><td><viva:LibraryOverview /></td></tr>
       <tr><td>abbreviation</td><td><viva:LibraryAbbreviation /></td></tr>
+      <tr><td>overview</td><td><viva:LibraryOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -33,15 +33,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachLibraryAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<viva:LibraryAssigneeForType/>/<viva:LibraryAssigneeForType/>.jsp?uri=<viva:LibraryAssigneeFor/>"><viva:LibraryAssigneeFor /></a></td></tr>
-      </viva:foreachLibraryAssigneeForIterator>
-      <viva:foreachLibraryHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<viva:LibraryHasCollaboratorType/>/<viva:LibraryHasCollaboratorType/>.jsp?uri=<viva:LibraryHasCollaborator/>"><viva:LibraryHasCollaborator /></a></td></tr>
-      </viva:foreachLibraryHasCollaboratorIterator>
-      <viva:foreachLibraryTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<viva:LibraryTranslatorOfType/>/<viva:LibraryTranslatorOfType/>.jsp?uri=<viva:LibraryTranslatorOf/>"><viva:LibraryTranslatorOf /></a></td></tr>
-      </viva:foreachLibraryTranslatorOfIterator>
       <viva:foreachLibrarySponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:LibrarySponsorsType/>/<viva:LibrarySponsorsType/>.jsp?uri=<viva:LibrarySponsors/>"><viva:LibrarySponsors /></a></td></tr>
       </viva:foreachLibrarySponsorsIterator>
@@ -84,16 +75,25 @@
       <viva:foreachLibraryRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:LibraryRO_0000056Type/>/<viva:LibraryRO_0000056Type/>.jsp?uri=<viva:LibraryRO_0000056/>"><viva:LibraryRO_0000056 /></a></td></tr>
       </viva:foreachLibraryRO_0000056Iterator>
+      <viva:foreachLibraryAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<viva:LibraryAssigneeForType/>/<viva:LibraryAssigneeForType/>.jsp?uri=<viva:LibraryAssigneeFor/>"><viva:LibraryAssigneeFor /></a></td></tr>
+      </viva:foreachLibraryAssigneeForIterator>
+      <viva:foreachLibraryHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<viva:LibraryHasCollaboratorType/>/<viva:LibraryHasCollaboratorType/>.jsp?uri=<viva:LibraryHasCollaborator/>"><viva:LibraryHasCollaborator /></a></td></tr>
+      </viva:foreachLibraryHasCollaboratorIterator>
+      <viva:foreachLibraryTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<viva:LibraryTranslatorOfType/>/<viva:LibraryTranslatorOfType/>.jsp?uri=<viva:LibraryTranslatorOf/>"><viva:LibraryTranslatorOf /></a></td></tr>
+      </viva:foreachLibraryTranslatorOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachLibraryIssuerInverseIterator>
-         <tr><td>issuer</td><td><a href="../<viva:LibraryIssuerInverseType/>/<viva:LibraryIssuerInverseType/>.jsp?uri=<viva:LibraryIssuerInverse/>"><viva:LibraryIssuerInverse/></a></td></tr>
-      </viva:foreachLibraryIssuerInverseIterator>
       <viva:foreachLibraryOBI_0000304InverseIterator>
          <tr><td>OBI_0000304</td><td><a href="../<viva:LibraryOBI_0000304InverseType/>/<viva:LibraryOBI_0000304InverseType/>.jsp?uri=<viva:LibraryOBI_0000304Inverse/>"><viva:LibraryOBI_0000304Inverse/></a></td></tr>
       </viva:foreachLibraryOBI_0000304InverseIterator>
+      <viva:foreachLibraryIssuerInverseIterator>
+         <tr><td>issuer</td><td><a href="../<viva:LibraryIssuerInverseType/>/<viva:LibraryIssuerInverseType/>.jsp?uri=<viva:LibraryIssuerInverse/>"><viva:LibraryIssuerInverse/></a></td></tr>
+      </viva:foreachLibraryIssuerInverseIterator>
    </table>
    </viva:Library>
 

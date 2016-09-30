@@ -23,10 +23,10 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>overview</td><td><viva:FacultyMemberOverview /></td></tr>
       <tr><td>teachingOverview</td><td><viva:FacultyMemberTeachingOverview /></td></tr>
       <tr><td>outreachOverview</td><td><viva:FacultyMemberOutreachOverview /></td></tr>
       <tr><td>researchOverview</td><td><viva:FacultyMemberResearchOverview /></td></tr>
+      <tr><td>overview</td><td><viva:FacultyMemberOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -56,18 +56,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachFacultyMemberAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<viva:FacultyMemberAssigneeForType/>/<viva:FacultyMemberAssigneeForType/>.jsp?uri=<viva:FacultyMemberAssigneeFor/>"><viva:FacultyMemberAssigneeFor /></a></td></tr>
-      </viva:foreachFacultyMemberAssigneeForIterator>
-      <viva:foreachFacultyMemberHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<viva:FacultyMemberHasCollaboratorType/>/<viva:FacultyMemberHasCollaboratorType/>.jsp?uri=<viva:FacultyMemberHasCollaborator/>"><viva:FacultyMemberHasCollaborator /></a></td></tr>
-      </viva:foreachFacultyMemberHasCollaboratorIterator>
-      <viva:foreachFacultyMemberTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<viva:FacultyMemberTranslatorOfType/>/<viva:FacultyMemberTranslatorOfType/>.jsp?uri=<viva:FacultyMemberTranslatorOf/>"><viva:FacultyMemberTranslatorOf /></a></td></tr>
-      </viva:foreachFacultyMemberTranslatorOfIterator>
-      <viva:foreachFacultyMemberRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:FacultyMemberRO_0000053Type/>/<viva:FacultyMemberRO_0000053Type/>.jsp?uri=<viva:FacultyMemberRO_0000053/>"><viva:FacultyMemberRO_0000053 /></a></td></tr>
-      </viva:foreachFacultyMemberRO_0000053Iterator>
       <viva:foreachFacultyMemberERO_0000397Iterator>
          <tr><td>ERO_0000397</td><td><a href="../<viva:FacultyMemberERO_0000397Type/>/<viva:FacultyMemberERO_0000397Type/>.jsp?uri=<viva:FacultyMemberERO_0000397/>"><viva:FacultyMemberERO_0000397 /></a></td></tr>
       </viva:foreachFacultyMemberERO_0000397Iterator>
@@ -95,9 +83,21 @@
       <viva:foreachFacultyMemberOrcidIdIterator>
          <tr><td>orcidId</td><td><a href="../<viva:FacultyMemberOrcidIdType/>/<viva:FacultyMemberOrcidIdType/>.jsp?uri=<viva:FacultyMemberOrcidId/>"><viva:FacultyMemberOrcidId /></a></td></tr>
       </viva:foreachFacultyMemberOrcidIdIterator>
+      <viva:foreachFacultyMemberRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:FacultyMemberRO_0000053Type/>/<viva:FacultyMemberRO_0000053Type/>.jsp?uri=<viva:FacultyMemberRO_0000053/>"><viva:FacultyMemberRO_0000053 /></a></td></tr>
+      </viva:foreachFacultyMemberRO_0000053Iterator>
       <viva:foreachFacultyMemberRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:FacultyMemberRO_0000056Type/>/<viva:FacultyMemberRO_0000056Type/>.jsp?uri=<viva:FacultyMemberRO_0000056/>"><viva:FacultyMemberRO_0000056 /></a></td></tr>
       </viva:foreachFacultyMemberRO_0000056Iterator>
+      <viva:foreachFacultyMemberAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<viva:FacultyMemberAssigneeForType/>/<viva:FacultyMemberAssigneeForType/>.jsp?uri=<viva:FacultyMemberAssigneeFor/>"><viva:FacultyMemberAssigneeFor /></a></td></tr>
+      </viva:foreachFacultyMemberAssigneeForIterator>
+      <viva:foreachFacultyMemberHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<viva:FacultyMemberHasCollaboratorType/>/<viva:FacultyMemberHasCollaboratorType/>.jsp?uri=<viva:FacultyMemberHasCollaborator/>"><viva:FacultyMemberHasCollaborator /></a></td></tr>
+      </viva:foreachFacultyMemberHasCollaboratorIterator>
+      <viva:foreachFacultyMemberTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<viva:FacultyMemberTranslatorOfType/>/<viva:FacultyMemberTranslatorOfType/>.jsp?uri=<viva:FacultyMemberTranslatorOf/>"><viva:FacultyMemberTranslatorOf /></a></td></tr>
+      </viva:foreachFacultyMemberTranslatorOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

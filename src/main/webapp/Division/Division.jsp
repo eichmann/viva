@@ -23,8 +23,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>overview</td><td><viva:DivisionOverview /></td></tr>
       <tr><td>abbreviation</td><td><viva:DivisionAbbreviation /></td></tr>
+      <tr><td>overview</td><td><viva:DivisionOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -33,15 +33,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachDivisionAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<viva:DivisionAssigneeForType/>/<viva:DivisionAssigneeForType/>.jsp?uri=<viva:DivisionAssigneeFor/>"><viva:DivisionAssigneeFor /></a></td></tr>
-      </viva:foreachDivisionAssigneeForIterator>
-      <viva:foreachDivisionHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<viva:DivisionHasCollaboratorType/>/<viva:DivisionHasCollaboratorType/>.jsp?uri=<viva:DivisionHasCollaborator/>"><viva:DivisionHasCollaborator /></a></td></tr>
-      </viva:foreachDivisionHasCollaboratorIterator>
-      <viva:foreachDivisionTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<viva:DivisionTranslatorOfType/>/<viva:DivisionTranslatorOfType/>.jsp?uri=<viva:DivisionTranslatorOf/>"><viva:DivisionTranslatorOf /></a></td></tr>
-      </viva:foreachDivisionTranslatorOfIterator>
       <viva:foreachDivisionSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:DivisionSponsorsType/>/<viva:DivisionSponsorsType/>.jsp?uri=<viva:DivisionSponsors/>"><viva:DivisionSponsors /></a></td></tr>
       </viva:foreachDivisionSponsorsIterator>
@@ -84,16 +75,25 @@
       <viva:foreachDivisionRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:DivisionRO_0000056Type/>/<viva:DivisionRO_0000056Type/>.jsp?uri=<viva:DivisionRO_0000056/>"><viva:DivisionRO_0000056 /></a></td></tr>
       </viva:foreachDivisionRO_0000056Iterator>
+      <viva:foreachDivisionAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<viva:DivisionAssigneeForType/>/<viva:DivisionAssigneeForType/>.jsp?uri=<viva:DivisionAssigneeFor/>"><viva:DivisionAssigneeFor /></a></td></tr>
+      </viva:foreachDivisionAssigneeForIterator>
+      <viva:foreachDivisionHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<viva:DivisionHasCollaboratorType/>/<viva:DivisionHasCollaboratorType/>.jsp?uri=<viva:DivisionHasCollaborator/>"><viva:DivisionHasCollaborator /></a></td></tr>
+      </viva:foreachDivisionHasCollaboratorIterator>
+      <viva:foreachDivisionTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<viva:DivisionTranslatorOfType/>/<viva:DivisionTranslatorOfType/>.jsp?uri=<viva:DivisionTranslatorOf/>"><viva:DivisionTranslatorOf /></a></td></tr>
+      </viva:foreachDivisionTranslatorOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachDivisionIssuerInverseIterator>
-         <tr><td>issuer</td><td><a href="../<viva:DivisionIssuerInverseType/>/<viva:DivisionIssuerInverseType/>.jsp?uri=<viva:DivisionIssuerInverse/>"><viva:DivisionIssuerInverse/></a></td></tr>
-      </viva:foreachDivisionIssuerInverseIterator>
       <viva:foreachDivisionOBI_0000304InverseIterator>
          <tr><td>OBI_0000304</td><td><a href="../<viva:DivisionOBI_0000304InverseType/>/<viva:DivisionOBI_0000304InverseType/>.jsp?uri=<viva:DivisionOBI_0000304Inverse/>"><viva:DivisionOBI_0000304Inverse/></a></td></tr>
       </viva:foreachDivisionOBI_0000304InverseIterator>
+      <viva:foreachDivisionIssuerInverseIterator>
+         <tr><td>issuer</td><td><a href="../<viva:DivisionIssuerInverseType/>/<viva:DivisionIssuerInverseType/>.jsp?uri=<viva:DivisionIssuerInverse/>"><viva:DivisionIssuerInverse/></a></td></tr>
+      </viva:foreachDivisionIssuerInverseIterator>
    </table>
    </viva:Division>
 

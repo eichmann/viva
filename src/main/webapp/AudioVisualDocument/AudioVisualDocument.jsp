@@ -73,9 +73,6 @@
       <viva:foreachAudioVisualDocumentIAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<viva:AudioVisualDocumentIAO_0000136Type/>/<viva:AudioVisualDocumentIAO_0000136Type/>.jsp?uri=<viva:AudioVisualDocumentIAO_0000136/>"><viva:AudioVisualDocumentIAO_0000136 /></a></td></tr>
       </viva:foreachAudioVisualDocumentIAO_0000136Iterator>
-      <viva:foreachAudioVisualDocumentRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:AudioVisualDocumentRO_0000056Type/>/<viva:AudioVisualDocumentRO_0000056Type/>.jsp?uri=<viva:AudioVisualDocumentRO_0000056/>"><viva:AudioVisualDocumentRO_0000056 /></a></td></tr>
-      </viva:foreachAudioVisualDocumentRO_0000056Iterator>
       <viva:foreachAudioVisualDocumentDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:AudioVisualDocumentDocumentationForType/>/<viva:AudioVisualDocumentDocumentationForType/>.jsp?uri=<viva:AudioVisualDocumentDocumentationFor/>"><viva:AudioVisualDocumentDocumentationFor /></a></td></tr>
       </viva:foreachAudioVisualDocumentDocumentationForIterator>
@@ -103,6 +100,9 @@
       <viva:foreachAudioVisualDocumentCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:AudioVisualDocumentCitesType/>/<viva:AudioVisualDocumentCitesType/>.jsp?uri=<viva:AudioVisualDocumentCites/>"><viva:AudioVisualDocumentCites /></a></td></tr>
       </viva:foreachAudioVisualDocumentCitesIterator>
+      <viva:foreachAudioVisualDocumentRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:AudioVisualDocumentRO_0000056Type/>/<viva:AudioVisualDocumentRO_0000056Type/>.jsp?uri=<viva:AudioVisualDocumentRO_0000056/>"><viva:AudioVisualDocumentRO_0000056 /></a></td></tr>
+      </viva:foreachAudioVisualDocumentRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

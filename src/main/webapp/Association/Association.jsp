@@ -23,8 +23,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>overview</td><td><viva:AssociationOverview /></td></tr>
       <tr><td>abbreviation</td><td><viva:AssociationAbbreviation /></td></tr>
+      <tr><td>overview</td><td><viva:AssociationOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -33,15 +33,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachAssociationAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<viva:AssociationAssigneeForType/>/<viva:AssociationAssigneeForType/>.jsp?uri=<viva:AssociationAssigneeFor/>"><viva:AssociationAssigneeFor /></a></td></tr>
-      </viva:foreachAssociationAssigneeForIterator>
-      <viva:foreachAssociationHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<viva:AssociationHasCollaboratorType/>/<viva:AssociationHasCollaboratorType/>.jsp?uri=<viva:AssociationHasCollaborator/>"><viva:AssociationHasCollaborator /></a></td></tr>
-      </viva:foreachAssociationHasCollaboratorIterator>
-      <viva:foreachAssociationTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<viva:AssociationTranslatorOfType/>/<viva:AssociationTranslatorOfType/>.jsp?uri=<viva:AssociationTranslatorOf/>"><viva:AssociationTranslatorOf /></a></td></tr>
-      </viva:foreachAssociationTranslatorOfIterator>
       <viva:foreachAssociationSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:AssociationSponsorsType/>/<viva:AssociationSponsorsType/>.jsp?uri=<viva:AssociationSponsors/>"><viva:AssociationSponsors /></a></td></tr>
       </viva:foreachAssociationSponsorsIterator>
@@ -84,16 +75,25 @@
       <viva:foreachAssociationRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:AssociationRO_0000056Type/>/<viva:AssociationRO_0000056Type/>.jsp?uri=<viva:AssociationRO_0000056/>"><viva:AssociationRO_0000056 /></a></td></tr>
       </viva:foreachAssociationRO_0000056Iterator>
+      <viva:foreachAssociationAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<viva:AssociationAssigneeForType/>/<viva:AssociationAssigneeForType/>.jsp?uri=<viva:AssociationAssigneeFor/>"><viva:AssociationAssigneeFor /></a></td></tr>
+      </viva:foreachAssociationAssigneeForIterator>
+      <viva:foreachAssociationHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<viva:AssociationHasCollaboratorType/>/<viva:AssociationHasCollaboratorType/>.jsp?uri=<viva:AssociationHasCollaborator/>"><viva:AssociationHasCollaborator /></a></td></tr>
+      </viva:foreachAssociationHasCollaboratorIterator>
+      <viva:foreachAssociationTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<viva:AssociationTranslatorOfType/>/<viva:AssociationTranslatorOfType/>.jsp?uri=<viva:AssociationTranslatorOf/>"><viva:AssociationTranslatorOf /></a></td></tr>
+      </viva:foreachAssociationTranslatorOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachAssociationIssuerInverseIterator>
-         <tr><td>issuer</td><td><a href="../<viva:AssociationIssuerInverseType/>/<viva:AssociationIssuerInverseType/>.jsp?uri=<viva:AssociationIssuerInverse/>"><viva:AssociationIssuerInverse/></a></td></tr>
-      </viva:foreachAssociationIssuerInverseIterator>
       <viva:foreachAssociationOBI_0000304InverseIterator>
          <tr><td>OBI_0000304</td><td><a href="../<viva:AssociationOBI_0000304InverseType/>/<viva:AssociationOBI_0000304InverseType/>.jsp?uri=<viva:AssociationOBI_0000304Inverse/>"><viva:AssociationOBI_0000304Inverse/></a></td></tr>
       </viva:foreachAssociationOBI_0000304InverseIterator>
+      <viva:foreachAssociationIssuerInverseIterator>
+         <tr><td>issuer</td><td><a href="../<viva:AssociationIssuerInverseType/>/<viva:AssociationIssuerInverseType/>.jsp?uri=<viva:AssociationIssuerInverse/>"><viva:AssociationIssuerInverse/></a></td></tr>
+      </viva:foreachAssociationIssuerInverseIterator>
    </table>
    </viva:Association>
 

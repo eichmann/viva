@@ -23,8 +23,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>overview</td><td><viva:StudentOrganizationOverview /></td></tr>
       <tr><td>abbreviation</td><td><viva:StudentOrganizationAbbreviation /></td></tr>
+      <tr><td>overview</td><td><viva:StudentOrganizationOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -33,15 +33,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachStudentOrganizationAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<viva:StudentOrganizationAssigneeForType/>/<viva:StudentOrganizationAssigneeForType/>.jsp?uri=<viva:StudentOrganizationAssigneeFor/>"><viva:StudentOrganizationAssigneeFor /></a></td></tr>
-      </viva:foreachStudentOrganizationAssigneeForIterator>
-      <viva:foreachStudentOrganizationHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<viva:StudentOrganizationHasCollaboratorType/>/<viva:StudentOrganizationHasCollaboratorType/>.jsp?uri=<viva:StudentOrganizationHasCollaborator/>"><viva:StudentOrganizationHasCollaborator /></a></td></tr>
-      </viva:foreachStudentOrganizationHasCollaboratorIterator>
-      <viva:foreachStudentOrganizationTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<viva:StudentOrganizationTranslatorOfType/>/<viva:StudentOrganizationTranslatorOfType/>.jsp?uri=<viva:StudentOrganizationTranslatorOf/>"><viva:StudentOrganizationTranslatorOf /></a></td></tr>
-      </viva:foreachStudentOrganizationTranslatorOfIterator>
       <viva:foreachStudentOrganizationSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:StudentOrganizationSponsorsType/>/<viva:StudentOrganizationSponsorsType/>.jsp?uri=<viva:StudentOrganizationSponsors/>"><viva:StudentOrganizationSponsors /></a></td></tr>
       </viva:foreachStudentOrganizationSponsorsIterator>
@@ -84,16 +75,25 @@
       <viva:foreachStudentOrganizationRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:StudentOrganizationRO_0000056Type/>/<viva:StudentOrganizationRO_0000056Type/>.jsp?uri=<viva:StudentOrganizationRO_0000056/>"><viva:StudentOrganizationRO_0000056 /></a></td></tr>
       </viva:foreachStudentOrganizationRO_0000056Iterator>
+      <viva:foreachStudentOrganizationAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<viva:StudentOrganizationAssigneeForType/>/<viva:StudentOrganizationAssigneeForType/>.jsp?uri=<viva:StudentOrganizationAssigneeFor/>"><viva:StudentOrganizationAssigneeFor /></a></td></tr>
+      </viva:foreachStudentOrganizationAssigneeForIterator>
+      <viva:foreachStudentOrganizationHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<viva:StudentOrganizationHasCollaboratorType/>/<viva:StudentOrganizationHasCollaboratorType/>.jsp?uri=<viva:StudentOrganizationHasCollaborator/>"><viva:StudentOrganizationHasCollaborator /></a></td></tr>
+      </viva:foreachStudentOrganizationHasCollaboratorIterator>
+      <viva:foreachStudentOrganizationTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<viva:StudentOrganizationTranslatorOfType/>/<viva:StudentOrganizationTranslatorOfType/>.jsp?uri=<viva:StudentOrganizationTranslatorOf/>"><viva:StudentOrganizationTranslatorOf /></a></td></tr>
+      </viva:foreachStudentOrganizationTranslatorOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachStudentOrganizationIssuerInverseIterator>
-         <tr><td>issuer</td><td><a href="../<viva:StudentOrganizationIssuerInverseType/>/<viva:StudentOrganizationIssuerInverseType/>.jsp?uri=<viva:StudentOrganizationIssuerInverse/>"><viva:StudentOrganizationIssuerInverse/></a></td></tr>
-      </viva:foreachStudentOrganizationIssuerInverseIterator>
       <viva:foreachStudentOrganizationOBI_0000304InverseIterator>
          <tr><td>OBI_0000304</td><td><a href="../<viva:StudentOrganizationOBI_0000304InverseType/>/<viva:StudentOrganizationOBI_0000304InverseType/>.jsp?uri=<viva:StudentOrganizationOBI_0000304Inverse/>"><viva:StudentOrganizationOBI_0000304Inverse/></a></td></tr>
       </viva:foreachStudentOrganizationOBI_0000304InverseIterator>
+      <viva:foreachStudentOrganizationIssuerInverseIterator>
+         <tr><td>issuer</td><td><a href="../<viva:StudentOrganizationIssuerInverseType/>/<viva:StudentOrganizationIssuerInverseType/>.jsp?uri=<viva:StudentOrganizationIssuerInverse/>"><viva:StudentOrganizationIssuerInverse/></a></td></tr>
+      </viva:foreachStudentOrganizationIssuerInverseIterator>
    </table>
    </viva:StudentOrganization>
 

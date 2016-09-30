@@ -23,8 +23,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>overview</td><td><viva:UniversityOverview /></td></tr>
       <tr><td>abbreviation</td><td><viva:UniversityAbbreviation /></td></tr>
+      <tr><td>overview</td><td><viva:UniversityOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -33,15 +33,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachUniversityAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<viva:UniversityAssigneeForType/>/<viva:UniversityAssigneeForType/>.jsp?uri=<viva:UniversityAssigneeFor/>"><viva:UniversityAssigneeFor /></a></td></tr>
-      </viva:foreachUniversityAssigneeForIterator>
-      <viva:foreachUniversityHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<viva:UniversityHasCollaboratorType/>/<viva:UniversityHasCollaboratorType/>.jsp?uri=<viva:UniversityHasCollaborator/>"><viva:UniversityHasCollaborator /></a></td></tr>
-      </viva:foreachUniversityHasCollaboratorIterator>
-      <viva:foreachUniversityTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<viva:UniversityTranslatorOfType/>/<viva:UniversityTranslatorOfType/>.jsp?uri=<viva:UniversityTranslatorOf/>"><viva:UniversityTranslatorOf /></a></td></tr>
-      </viva:foreachUniversityTranslatorOfIterator>
       <viva:foreachUniversitySponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:UniversitySponsorsType/>/<viva:UniversitySponsorsType/>.jsp?uri=<viva:UniversitySponsors/>"><viva:UniversitySponsors /></a></td></tr>
       </viva:foreachUniversitySponsorsIterator>
@@ -84,16 +75,25 @@
       <viva:foreachUniversityRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:UniversityRO_0000056Type/>/<viva:UniversityRO_0000056Type/>.jsp?uri=<viva:UniversityRO_0000056/>"><viva:UniversityRO_0000056 /></a></td></tr>
       </viva:foreachUniversityRO_0000056Iterator>
+      <viva:foreachUniversityAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<viva:UniversityAssigneeForType/>/<viva:UniversityAssigneeForType/>.jsp?uri=<viva:UniversityAssigneeFor/>"><viva:UniversityAssigneeFor /></a></td></tr>
+      </viva:foreachUniversityAssigneeForIterator>
+      <viva:foreachUniversityHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<viva:UniversityHasCollaboratorType/>/<viva:UniversityHasCollaboratorType/>.jsp?uri=<viva:UniversityHasCollaborator/>"><viva:UniversityHasCollaborator /></a></td></tr>
+      </viva:foreachUniversityHasCollaboratorIterator>
+      <viva:foreachUniversityTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<viva:UniversityTranslatorOfType/>/<viva:UniversityTranslatorOfType/>.jsp?uri=<viva:UniversityTranslatorOf/>"><viva:UniversityTranslatorOf /></a></td></tr>
+      </viva:foreachUniversityTranslatorOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachUniversityIssuerInverseIterator>
-         <tr><td>issuer</td><td><a href="../<viva:UniversityIssuerInverseType/>/<viva:UniversityIssuerInverseType/>.jsp?uri=<viva:UniversityIssuerInverse/>"><viva:UniversityIssuerInverse/></a></td></tr>
-      </viva:foreachUniversityIssuerInverseIterator>
       <viva:foreachUniversityOBI_0000304InverseIterator>
          <tr><td>OBI_0000304</td><td><a href="../<viva:UniversityOBI_0000304InverseType/>/<viva:UniversityOBI_0000304InverseType/>.jsp?uri=<viva:UniversityOBI_0000304Inverse/>"><viva:UniversityOBI_0000304Inverse/></a></td></tr>
       </viva:foreachUniversityOBI_0000304InverseIterator>
+      <viva:foreachUniversityIssuerInverseIterator>
+         <tr><td>issuer</td><td><a href="../<viva:UniversityIssuerInverseType/>/<viva:UniversityIssuerInverseType/>.jsp?uri=<viva:UniversityIssuerInverse/>"><viva:UniversityIssuerInverse/></a></td></tr>
+      </viva:foreachUniversityIssuerInverseIterator>
    </table>
    </viva:University>
 

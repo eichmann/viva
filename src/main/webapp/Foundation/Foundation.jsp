@@ -23,8 +23,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>overview</td><td><viva:FoundationOverview /></td></tr>
       <tr><td>abbreviation</td><td><viva:FoundationAbbreviation /></td></tr>
+      <tr><td>overview</td><td><viva:FoundationOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -33,15 +33,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachFoundationAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<viva:FoundationAssigneeForType/>/<viva:FoundationAssigneeForType/>.jsp?uri=<viva:FoundationAssigneeFor/>"><viva:FoundationAssigneeFor /></a></td></tr>
-      </viva:foreachFoundationAssigneeForIterator>
-      <viva:foreachFoundationHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<viva:FoundationHasCollaboratorType/>/<viva:FoundationHasCollaboratorType/>.jsp?uri=<viva:FoundationHasCollaborator/>"><viva:FoundationHasCollaborator /></a></td></tr>
-      </viva:foreachFoundationHasCollaboratorIterator>
-      <viva:foreachFoundationTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<viva:FoundationTranslatorOfType/>/<viva:FoundationTranslatorOfType/>.jsp?uri=<viva:FoundationTranslatorOf/>"><viva:FoundationTranslatorOf /></a></td></tr>
-      </viva:foreachFoundationTranslatorOfIterator>
       <viva:foreachFoundationSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:FoundationSponsorsType/>/<viva:FoundationSponsorsType/>.jsp?uri=<viva:FoundationSponsors/>"><viva:FoundationSponsors /></a></td></tr>
       </viva:foreachFoundationSponsorsIterator>
@@ -84,16 +75,25 @@
       <viva:foreachFoundationRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:FoundationRO_0000056Type/>/<viva:FoundationRO_0000056Type/>.jsp?uri=<viva:FoundationRO_0000056/>"><viva:FoundationRO_0000056 /></a></td></tr>
       </viva:foreachFoundationRO_0000056Iterator>
+      <viva:foreachFoundationAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<viva:FoundationAssigneeForType/>/<viva:FoundationAssigneeForType/>.jsp?uri=<viva:FoundationAssigneeFor/>"><viva:FoundationAssigneeFor /></a></td></tr>
+      </viva:foreachFoundationAssigneeForIterator>
+      <viva:foreachFoundationHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<viva:FoundationHasCollaboratorType/>/<viva:FoundationHasCollaboratorType/>.jsp?uri=<viva:FoundationHasCollaborator/>"><viva:FoundationHasCollaborator /></a></td></tr>
+      </viva:foreachFoundationHasCollaboratorIterator>
+      <viva:foreachFoundationTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<viva:FoundationTranslatorOfType/>/<viva:FoundationTranslatorOfType/>.jsp?uri=<viva:FoundationTranslatorOf/>"><viva:FoundationTranslatorOf /></a></td></tr>
+      </viva:foreachFoundationTranslatorOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachFoundationIssuerInverseIterator>
-         <tr><td>issuer</td><td><a href="../<viva:FoundationIssuerInverseType/>/<viva:FoundationIssuerInverseType/>.jsp?uri=<viva:FoundationIssuerInverse/>"><viva:FoundationIssuerInverse/></a></td></tr>
-      </viva:foreachFoundationIssuerInverseIterator>
       <viva:foreachFoundationOBI_0000304InverseIterator>
          <tr><td>OBI_0000304</td><td><a href="../<viva:FoundationOBI_0000304InverseType/>/<viva:FoundationOBI_0000304InverseType/>.jsp?uri=<viva:FoundationOBI_0000304Inverse/>"><viva:FoundationOBI_0000304Inverse/></a></td></tr>
       </viva:foreachFoundationOBI_0000304InverseIterator>
+      <viva:foreachFoundationIssuerInverseIterator>
+         <tr><td>issuer</td><td><a href="../<viva:FoundationIssuerInverseType/>/<viva:FoundationIssuerInverseType/>.jsp?uri=<viva:FoundationIssuerInverse/>"><viva:FoundationIssuerInverse/></a></td></tr>
+      </viva:foreachFoundationIssuerInverseIterator>
    </table>
    </viva:Foundation>
 

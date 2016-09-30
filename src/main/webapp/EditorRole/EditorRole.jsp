@@ -31,18 +31,18 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachEditorRoleRoleContributesToIterator>
-         <tr><td>roleContributesTo</td><td><a href="../<viva:EditorRoleRoleContributesToType/>/<viva:EditorRoleRoleContributesToType/>.jsp?uri=<viva:EditorRoleRoleContributesTo/>"><viva:EditorRoleRoleContributesTo /></a></td></tr>
-      </viva:foreachEditorRoleRoleContributesToIterator>
-      <viva:foreachEditorRoleBFO_0000054Iterator>
-         <tr><td>BFO_0000054</td><td><a href="../<viva:EditorRoleBFO_0000054Type/>/<viva:EditorRoleBFO_0000054Type/>.jsp?uri=<viva:EditorRoleBFO_0000054/>"><viva:EditorRoleBFO_0000054 /></a></td></tr>
-      </viva:foreachEditorRoleBFO_0000054Iterator>
       <viva:foreachEditorRoleRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<viva:EditorRoleRO_0000052Type/>/<viva:EditorRoleRO_0000052Type/>.jsp?uri=<viva:EditorRoleRO_0000052/>"><viva:EditorRoleRO_0000052 /></a></td></tr>
       </viva:foreachEditorRoleRO_0000052Iterator>
       <viva:foreachEditorRoleRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:EditorRoleRO_0000056Type/>/<viva:EditorRoleRO_0000056Type/>.jsp?uri=<viva:EditorRoleRO_0000056/>"><viva:EditorRoleRO_0000056 /></a></td></tr>
       </viva:foreachEditorRoleRO_0000056Iterator>
+      <viva:foreachEditorRoleRoleContributesToIterator>
+         <tr><td>roleContributesTo</td><td><a href="../<viva:EditorRoleRoleContributesToType/>/<viva:EditorRoleRoleContributesToType/>.jsp?uri=<viva:EditorRoleRoleContributesTo/>"><viva:EditorRoleRoleContributesTo /></a></td></tr>
+      </viva:foreachEditorRoleRoleContributesToIterator>
+      <viva:foreachEditorRoleBFO_0000054Iterator>
+         <tr><td>BFO_0000054</td><td><a href="../<viva:EditorRoleBFO_0000054Type/>/<viva:EditorRoleBFO_0000054Type/>.jsp?uri=<viva:EditorRoleBFO_0000054/>"><viva:EditorRoleBFO_0000054 /></a></td></tr>
+      </viva:foreachEditorRoleBFO_0000054Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

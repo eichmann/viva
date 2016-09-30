@@ -23,8 +23,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>overview</td><td><viva:ResearchOrganizationOverview /></td></tr>
       <tr><td>abbreviation</td><td><viva:ResearchOrganizationAbbreviation /></td></tr>
+      <tr><td>overview</td><td><viva:ResearchOrganizationOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -33,15 +33,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachResearchOrganizationAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<viva:ResearchOrganizationAssigneeForType/>/<viva:ResearchOrganizationAssigneeForType/>.jsp?uri=<viva:ResearchOrganizationAssigneeFor/>"><viva:ResearchOrganizationAssigneeFor /></a></td></tr>
-      </viva:foreachResearchOrganizationAssigneeForIterator>
-      <viva:foreachResearchOrganizationHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<viva:ResearchOrganizationHasCollaboratorType/>/<viva:ResearchOrganizationHasCollaboratorType/>.jsp?uri=<viva:ResearchOrganizationHasCollaborator/>"><viva:ResearchOrganizationHasCollaborator /></a></td></tr>
-      </viva:foreachResearchOrganizationHasCollaboratorIterator>
-      <viva:foreachResearchOrganizationTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<viva:ResearchOrganizationTranslatorOfType/>/<viva:ResearchOrganizationTranslatorOfType/>.jsp?uri=<viva:ResearchOrganizationTranslatorOf/>"><viva:ResearchOrganizationTranslatorOf /></a></td></tr>
-      </viva:foreachResearchOrganizationTranslatorOfIterator>
       <viva:foreachResearchOrganizationSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:ResearchOrganizationSponsorsType/>/<viva:ResearchOrganizationSponsorsType/>.jsp?uri=<viva:ResearchOrganizationSponsors/>"><viva:ResearchOrganizationSponsors /></a></td></tr>
       </viva:foreachResearchOrganizationSponsorsIterator>
@@ -84,16 +75,25 @@
       <viva:foreachResearchOrganizationRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ResearchOrganizationRO_0000056Type/>/<viva:ResearchOrganizationRO_0000056Type/>.jsp?uri=<viva:ResearchOrganizationRO_0000056/>"><viva:ResearchOrganizationRO_0000056 /></a></td></tr>
       </viva:foreachResearchOrganizationRO_0000056Iterator>
+      <viva:foreachResearchOrganizationAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<viva:ResearchOrganizationAssigneeForType/>/<viva:ResearchOrganizationAssigneeForType/>.jsp?uri=<viva:ResearchOrganizationAssigneeFor/>"><viva:ResearchOrganizationAssigneeFor /></a></td></tr>
+      </viva:foreachResearchOrganizationAssigneeForIterator>
+      <viva:foreachResearchOrganizationHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<viva:ResearchOrganizationHasCollaboratorType/>/<viva:ResearchOrganizationHasCollaboratorType/>.jsp?uri=<viva:ResearchOrganizationHasCollaborator/>"><viva:ResearchOrganizationHasCollaborator /></a></td></tr>
+      </viva:foreachResearchOrganizationHasCollaboratorIterator>
+      <viva:foreachResearchOrganizationTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<viva:ResearchOrganizationTranslatorOfType/>/<viva:ResearchOrganizationTranslatorOfType/>.jsp?uri=<viva:ResearchOrganizationTranslatorOf/>"><viva:ResearchOrganizationTranslatorOf /></a></td></tr>
+      </viva:foreachResearchOrganizationTranslatorOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachResearchOrganizationIssuerInverseIterator>
-         <tr><td>issuer</td><td><a href="../<viva:ResearchOrganizationIssuerInverseType/>/<viva:ResearchOrganizationIssuerInverseType/>.jsp?uri=<viva:ResearchOrganizationIssuerInverse/>"><viva:ResearchOrganizationIssuerInverse/></a></td></tr>
-      </viva:foreachResearchOrganizationIssuerInverseIterator>
       <viva:foreachResearchOrganizationOBI_0000304InverseIterator>
          <tr><td>OBI_0000304</td><td><a href="../<viva:ResearchOrganizationOBI_0000304InverseType/>/<viva:ResearchOrganizationOBI_0000304InverseType/>.jsp?uri=<viva:ResearchOrganizationOBI_0000304Inverse/>"><viva:ResearchOrganizationOBI_0000304Inverse/></a></td></tr>
       </viva:foreachResearchOrganizationOBI_0000304InverseIterator>
+      <viva:foreachResearchOrganizationIssuerInverseIterator>
+         <tr><td>issuer</td><td><a href="../<viva:ResearchOrganizationIssuerInverseType/>/<viva:ResearchOrganizationIssuerInverseType/>.jsp?uri=<viva:ResearchOrganizationIssuerInverse/>"><viva:ResearchOrganizationIssuerInverse/></a></td></tr>
+      </viva:foreachResearchOrganizationIssuerInverseIterator>
    </table>
    </viva:ResearchOrganization>
 

@@ -23,8 +23,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>overview</td><td><viva:LaboratoryOverview /></td></tr>
       <tr><td>abbreviation</td><td><viva:LaboratoryAbbreviation /></td></tr>
+      <tr><td>overview</td><td><viva:LaboratoryOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -39,15 +39,6 @@
       <viva:foreachLaboratoryERO_0000397Iterator>
          <tr><td>ERO_0000397</td><td><a href="../<viva:LaboratoryERO_0000397Type/>/<viva:LaboratoryERO_0000397Type/>.jsp?uri=<viva:LaboratoryERO_0000397/>"><viva:LaboratoryERO_0000397 /></a></td></tr>
       </viva:foreachLaboratoryERO_0000397Iterator>
-      <viva:foreachLaboratoryAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<viva:LaboratoryAssigneeForType/>/<viva:LaboratoryAssigneeForType/>.jsp?uri=<viva:LaboratoryAssigneeFor/>"><viva:LaboratoryAssigneeFor /></a></td></tr>
-      </viva:foreachLaboratoryAssigneeForIterator>
-      <viva:foreachLaboratoryHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<viva:LaboratoryHasCollaboratorType/>/<viva:LaboratoryHasCollaboratorType/>.jsp?uri=<viva:LaboratoryHasCollaborator/>"><viva:LaboratoryHasCollaborator /></a></td></tr>
-      </viva:foreachLaboratoryHasCollaboratorIterator>
-      <viva:foreachLaboratoryTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<viva:LaboratoryTranslatorOfType/>/<viva:LaboratoryTranslatorOfType/>.jsp?uri=<viva:LaboratoryTranslatorOf/>"><viva:LaboratoryTranslatorOf /></a></td></tr>
-      </viva:foreachLaboratoryTranslatorOfIterator>
       <viva:foreachLaboratorySponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:LaboratorySponsorsType/>/<viva:LaboratorySponsorsType/>.jsp?uri=<viva:LaboratorySponsors/>"><viva:LaboratorySponsors /></a></td></tr>
       </viva:foreachLaboratorySponsorsIterator>
@@ -90,16 +81,25 @@
       <viva:foreachLaboratoryRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:LaboratoryRO_0000056Type/>/<viva:LaboratoryRO_0000056Type/>.jsp?uri=<viva:LaboratoryRO_0000056/>"><viva:LaboratoryRO_0000056 /></a></td></tr>
       </viva:foreachLaboratoryRO_0000056Iterator>
+      <viva:foreachLaboratoryAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<viva:LaboratoryAssigneeForType/>/<viva:LaboratoryAssigneeForType/>.jsp?uri=<viva:LaboratoryAssigneeFor/>"><viva:LaboratoryAssigneeFor /></a></td></tr>
+      </viva:foreachLaboratoryAssigneeForIterator>
+      <viva:foreachLaboratoryHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<viva:LaboratoryHasCollaboratorType/>/<viva:LaboratoryHasCollaboratorType/>.jsp?uri=<viva:LaboratoryHasCollaborator/>"><viva:LaboratoryHasCollaborator /></a></td></tr>
+      </viva:foreachLaboratoryHasCollaboratorIterator>
+      <viva:foreachLaboratoryTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<viva:LaboratoryTranslatorOfType/>/<viva:LaboratoryTranslatorOfType/>.jsp?uri=<viva:LaboratoryTranslatorOf/>"><viva:LaboratoryTranslatorOf /></a></td></tr>
+      </viva:foreachLaboratoryTranslatorOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachLaboratoryIssuerInverseIterator>
-         <tr><td>issuer</td><td><a href="../<viva:LaboratoryIssuerInverseType/>/<viva:LaboratoryIssuerInverseType/>.jsp?uri=<viva:LaboratoryIssuerInverse/>"><viva:LaboratoryIssuerInverse/></a></td></tr>
-      </viva:foreachLaboratoryIssuerInverseIterator>
       <viva:foreachLaboratoryOBI_0000304InverseIterator>
          <tr><td>OBI_0000304</td><td><a href="../<viva:LaboratoryOBI_0000304InverseType/>/<viva:LaboratoryOBI_0000304InverseType/>.jsp?uri=<viva:LaboratoryOBI_0000304Inverse/>"><viva:LaboratoryOBI_0000304Inverse/></a></td></tr>
       </viva:foreachLaboratoryOBI_0000304InverseIterator>
+      <viva:foreachLaboratoryIssuerInverseIterator>
+         <tr><td>issuer</td><td><a href="../<viva:LaboratoryIssuerInverseType/>/<viva:LaboratoryIssuerInverseType/>.jsp?uri=<viva:LaboratoryIssuerInverse/>"><viva:LaboratoryIssuerInverse/></a></td></tr>
+      </viva:foreachLaboratoryIssuerInverseIterator>
    </table>
    </viva:Laboratory>
 

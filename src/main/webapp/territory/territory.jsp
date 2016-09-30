@@ -34,21 +34,21 @@
       <viva:foreachterritoryIsInGroupIterator>
          <tr><td>isInGroup</td><td><a href="../<viva:territoryIsInGroupType/>/<viva:territoryIsInGroupType/>.jsp?uri=<viva:territoryIsInGroup/>"><viva:territoryIsInGroup /></a></td></tr>
       </viva:foreachterritoryIsInGroupIterator>
-      <viva:foreachterritoryRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:territoryRO_0000056Type/>/<viva:territoryRO_0000056Type/>.jsp?uri=<viva:territoryRO_0000056/>"><viva:territoryRO_0000056 /></a></td></tr>
-      </viva:foreachterritoryRO_0000056Iterator>
-      <viva:foreachterritoryRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:territoryRO_0000053Type/>/<viva:territoryRO_0000053Type/>.jsp?uri=<viva:territoryRO_0000053/>"><viva:territoryRO_0000053 /></a></td></tr>
-      </viva:foreachterritoryRO_0000053Iterator>
+      <viva:foreachterritoryGeographicFocusOfIterator>
+         <tr><td>geographicFocusOf</td><td><a href="../<viva:territoryGeographicFocusOfType/>/<viva:territoryGeographicFocusOfType/>.jsp?uri=<viva:territoryGeographicFocusOf/>"><viva:territoryGeographicFocusOf /></a></td></tr>
+      </viva:foreachterritoryGeographicFocusOfIterator>
       <viva:foreachterritoryIsSuccessorOfIterator>
          <tr><td>isSuccessorOf</td><td><a href="../<viva:territoryIsSuccessorOfType/>/<viva:territoryIsSuccessorOfType/>.jsp?uri=<viva:territoryIsSuccessorOf/>"><viva:territoryIsSuccessorOf /></a></td></tr>
       </viva:foreachterritoryIsSuccessorOfIterator>
       <viva:foreachterritoryIsPredecessorOfIterator>
          <tr><td>isPredecessorOf</td><td><a href="../<viva:territoryIsPredecessorOfType/>/<viva:territoryIsPredecessorOfType/>.jsp?uri=<viva:territoryIsPredecessorOf/>"><viva:territoryIsPredecessorOf /></a></td></tr>
       </viva:foreachterritoryIsPredecessorOfIterator>
-      <viva:foreachterritoryGeographicFocusOfIterator>
-         <tr><td>geographicFocusOf</td><td><a href="../<viva:territoryGeographicFocusOfType/>/<viva:territoryGeographicFocusOfType/>.jsp?uri=<viva:territoryGeographicFocusOf/>"><viva:territoryGeographicFocusOf /></a></td></tr>
-      </viva:foreachterritoryGeographicFocusOfIterator>
+      <viva:foreachterritoryRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:territoryRO_0000053Type/>/<viva:territoryRO_0000053Type/>.jsp?uri=<viva:territoryRO_0000053/>"><viva:territoryRO_0000053 /></a></td></tr>
+      </viva:foreachterritoryRO_0000053Iterator>
+      <viva:foreachterritoryRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:territoryRO_0000056Type/>/<viva:territoryRO_0000056Type/>.jsp?uri=<viva:territoryRO_0000056/>"><viva:territoryRO_0000056 /></a></td></tr>
+      </viva:foreachterritoryRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

@@ -32,18 +32,18 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachResearcherRoleRoleContributesToIterator>
-         <tr><td>roleContributesTo</td><td><a href="../<viva:ResearcherRoleRoleContributesToType/>/<viva:ResearcherRoleRoleContributesToType/>.jsp?uri=<viva:ResearcherRoleRoleContributesTo/>"><viva:ResearcherRoleRoleContributesTo /></a></td></tr>
-      </viva:foreachResearcherRoleRoleContributesToIterator>
-      <viva:foreachResearcherRoleBFO_0000054Iterator>
-         <tr><td>BFO_0000054</td><td><a href="../<viva:ResearcherRoleBFO_0000054Type/>/<viva:ResearcherRoleBFO_0000054Type/>.jsp?uri=<viva:ResearcherRoleBFO_0000054/>"><viva:ResearcherRoleBFO_0000054 /></a></td></tr>
-      </viva:foreachResearcherRoleBFO_0000054Iterator>
       <viva:foreachResearcherRoleRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<viva:ResearcherRoleRO_0000052Type/>/<viva:ResearcherRoleRO_0000052Type/>.jsp?uri=<viva:ResearcherRoleRO_0000052/>"><viva:ResearcherRoleRO_0000052 /></a></td></tr>
       </viva:foreachResearcherRoleRO_0000052Iterator>
       <viva:foreachResearcherRoleRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ResearcherRoleRO_0000056Type/>/<viva:ResearcherRoleRO_0000056Type/>.jsp?uri=<viva:ResearcherRoleRO_0000056/>"><viva:ResearcherRoleRO_0000056 /></a></td></tr>
       </viva:foreachResearcherRoleRO_0000056Iterator>
+      <viva:foreachResearcherRoleRoleContributesToIterator>
+         <tr><td>roleContributesTo</td><td><a href="../<viva:ResearcherRoleRoleContributesToType/>/<viva:ResearcherRoleRoleContributesToType/>.jsp?uri=<viva:ResearcherRoleRoleContributesTo/>"><viva:ResearcherRoleRoleContributesTo /></a></td></tr>
+      </viva:foreachResearcherRoleRoleContributesToIterator>
+      <viva:foreachResearcherRoleBFO_0000054Iterator>
+         <tr><td>BFO_0000054</td><td><a href="../<viva:ResearcherRoleBFO_0000054Type/>/<viva:ResearcherRoleBFO_0000054Type/>.jsp?uri=<viva:ResearcherRoleBFO_0000054/>"><viva:ResearcherRoleBFO_0000054 /></a></td></tr>
+      </viva:foreachResearcherRoleBFO_0000054Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

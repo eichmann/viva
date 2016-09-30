@@ -23,8 +23,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>overview</td><td><viva:FundingOrganizationOverview /></td></tr>
       <tr><td>abbreviation</td><td><viva:FundingOrganizationAbbreviation /></td></tr>
+      <tr><td>overview</td><td><viva:FundingOrganizationOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -39,15 +39,6 @@
       <viva:foreachFundingOrganizationProvidesFundingThroughIterator>
          <tr><td>providesFundingThrough</td><td><a href="../<viva:FundingOrganizationProvidesFundingThroughType/>/<viva:FundingOrganizationProvidesFundingThroughType/>.jsp?uri=<viva:FundingOrganizationProvidesFundingThrough/>"><viva:FundingOrganizationProvidesFundingThrough /></a></td></tr>
       </viva:foreachFundingOrganizationProvidesFundingThroughIterator>
-      <viva:foreachFundingOrganizationAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<viva:FundingOrganizationAssigneeForType/>/<viva:FundingOrganizationAssigneeForType/>.jsp?uri=<viva:FundingOrganizationAssigneeFor/>"><viva:FundingOrganizationAssigneeFor /></a></td></tr>
-      </viva:foreachFundingOrganizationAssigneeForIterator>
-      <viva:foreachFundingOrganizationHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<viva:FundingOrganizationHasCollaboratorType/>/<viva:FundingOrganizationHasCollaboratorType/>.jsp?uri=<viva:FundingOrganizationHasCollaborator/>"><viva:FundingOrganizationHasCollaborator /></a></td></tr>
-      </viva:foreachFundingOrganizationHasCollaboratorIterator>
-      <viva:foreachFundingOrganizationTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<viva:FundingOrganizationTranslatorOfType/>/<viva:FundingOrganizationTranslatorOfType/>.jsp?uri=<viva:FundingOrganizationTranslatorOf/>"><viva:FundingOrganizationTranslatorOf /></a></td></tr>
-      </viva:foreachFundingOrganizationTranslatorOfIterator>
       <viva:foreachFundingOrganizationSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:FundingOrganizationSponsorsType/>/<viva:FundingOrganizationSponsorsType/>.jsp?uri=<viva:FundingOrganizationSponsors/>"><viva:FundingOrganizationSponsors /></a></td></tr>
       </viva:foreachFundingOrganizationSponsorsIterator>
@@ -90,16 +81,25 @@
       <viva:foreachFundingOrganizationRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:FundingOrganizationRO_0000056Type/>/<viva:FundingOrganizationRO_0000056Type/>.jsp?uri=<viva:FundingOrganizationRO_0000056/>"><viva:FundingOrganizationRO_0000056 /></a></td></tr>
       </viva:foreachFundingOrganizationRO_0000056Iterator>
+      <viva:foreachFundingOrganizationAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<viva:FundingOrganizationAssigneeForType/>/<viva:FundingOrganizationAssigneeForType/>.jsp?uri=<viva:FundingOrganizationAssigneeFor/>"><viva:FundingOrganizationAssigneeFor /></a></td></tr>
+      </viva:foreachFundingOrganizationAssigneeForIterator>
+      <viva:foreachFundingOrganizationHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<viva:FundingOrganizationHasCollaboratorType/>/<viva:FundingOrganizationHasCollaboratorType/>.jsp?uri=<viva:FundingOrganizationHasCollaborator/>"><viva:FundingOrganizationHasCollaborator /></a></td></tr>
+      </viva:foreachFundingOrganizationHasCollaboratorIterator>
+      <viva:foreachFundingOrganizationTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<viva:FundingOrganizationTranslatorOfType/>/<viva:FundingOrganizationTranslatorOfType/>.jsp?uri=<viva:FundingOrganizationTranslatorOf/>"><viva:FundingOrganizationTranslatorOf /></a></td></tr>
+      </viva:foreachFundingOrganizationTranslatorOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachFundingOrganizationIssuerInverseIterator>
-         <tr><td>issuer</td><td><a href="../<viva:FundingOrganizationIssuerInverseType/>/<viva:FundingOrganizationIssuerInverseType/>.jsp?uri=<viva:FundingOrganizationIssuerInverse/>"><viva:FundingOrganizationIssuerInverse/></a></td></tr>
-      </viva:foreachFundingOrganizationIssuerInverseIterator>
       <viva:foreachFundingOrganizationOBI_0000304InverseIterator>
          <tr><td>OBI_0000304</td><td><a href="../<viva:FundingOrganizationOBI_0000304InverseType/>/<viva:FundingOrganizationOBI_0000304InverseType/>.jsp?uri=<viva:FundingOrganizationOBI_0000304Inverse/>"><viva:FundingOrganizationOBI_0000304Inverse/></a></td></tr>
       </viva:foreachFundingOrganizationOBI_0000304InverseIterator>
+      <viva:foreachFundingOrganizationIssuerInverseIterator>
+         <tr><td>issuer</td><td><a href="../<viva:FundingOrganizationIssuerInverseType/>/<viva:FundingOrganizationIssuerInverseType/>.jsp?uri=<viva:FundingOrganizationIssuerInverse/>"><viva:FundingOrganizationIssuerInverse/></a></td></tr>
+      </viva:foreachFundingOrganizationIssuerInverseIterator>
    </table>
    </viva:FundingOrganization>
 

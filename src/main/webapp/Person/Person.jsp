@@ -83,6 +83,12 @@
       <viva:foreachPersonOrcidIdIterator>
          <tr><td>orcidId</td><td><a href="../<viva:PersonOrcidIdType/>/<viva:PersonOrcidIdType/>.jsp?uri=<viva:PersonOrcidId/>"><viva:PersonOrcidId /></a></td></tr>
       </viva:foreachPersonOrcidIdIterator>
+      <viva:foreachPersonRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:PersonRO_0000053Type/>/<viva:PersonRO_0000053Type/>.jsp?uri=<viva:PersonRO_0000053/>"><viva:PersonRO_0000053 /></a></td></tr>
+      </viva:foreachPersonRO_0000053Iterator>
+      <viva:foreachPersonRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:PersonRO_0000056Type/>/<viva:PersonRO_0000056Type/>.jsp?uri=<viva:PersonRO_0000056/>"><viva:PersonRO_0000056 /></a></td></tr>
+      </viva:foreachPersonRO_0000056Iterator>
       <viva:foreachPersonAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<viva:PersonAssigneeForType/>/<viva:PersonAssigneeForType/>.jsp?uri=<viva:PersonAssigneeFor/>"><viva:PersonAssigneeFor /></a></td></tr>
       </viva:foreachPersonAssigneeForIterator>
@@ -92,12 +98,6 @@
       <viva:foreachPersonTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:PersonTranslatorOfType/>/<viva:PersonTranslatorOfType/>.jsp?uri=<viva:PersonTranslatorOf/>"><viva:PersonTranslatorOf /></a></td></tr>
       </viva:foreachPersonTranslatorOfIterator>
-      <viva:foreachPersonRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:PersonRO_0000053Type/>/<viva:PersonRO_0000053Type/>.jsp?uri=<viva:PersonRO_0000053/>"><viva:PersonRO_0000053 /></a></td></tr>
-      </viva:foreachPersonRO_0000053Iterator>
-      <viva:foreachPersonRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:PersonRO_0000056Type/>/<viva:PersonRO_0000056Type/>.jsp?uri=<viva:PersonRO_0000056/>"><viva:PersonRO_0000056 /></a></td></tr>
-      </viva:foreachPersonRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

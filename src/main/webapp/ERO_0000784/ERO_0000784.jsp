@@ -31,18 +31,18 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachERO_0000784RoleContributesToIterator>
-         <tr><td>roleContributesTo</td><td><a href="../<viva:ERO_0000784RoleContributesToType/>/<viva:ERO_0000784RoleContributesToType/>.jsp?uri=<viva:ERO_0000784RoleContributesTo/>"><viva:ERO_0000784RoleContributesTo /></a></td></tr>
-      </viva:foreachERO_0000784RoleContributesToIterator>
-      <viva:foreachERO_0000784BFO_0000054Iterator>
-         <tr><td>BFO_0000054</td><td><a href="../<viva:ERO_0000784BFO_0000054Type/>/<viva:ERO_0000784BFO_0000054Type/>.jsp?uri=<viva:ERO_0000784BFO_0000054/>"><viva:ERO_0000784BFO_0000054 /></a></td></tr>
-      </viva:foreachERO_0000784BFO_0000054Iterator>
       <viva:foreachERO_0000784RO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<viva:ERO_0000784RO_0000052Type/>/<viva:ERO_0000784RO_0000052Type/>.jsp?uri=<viva:ERO_0000784RO_0000052/>"><viva:ERO_0000784RO_0000052 /></a></td></tr>
       </viva:foreachERO_0000784RO_0000052Iterator>
       <viva:foreachERO_0000784RO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ERO_0000784RO_0000056Type/>/<viva:ERO_0000784RO_0000056Type/>.jsp?uri=<viva:ERO_0000784RO_0000056/>"><viva:ERO_0000784RO_0000056 /></a></td></tr>
       </viva:foreachERO_0000784RO_0000056Iterator>
+      <viva:foreachERO_0000784RoleContributesToIterator>
+         <tr><td>roleContributesTo</td><td><a href="../<viva:ERO_0000784RoleContributesToType/>/<viva:ERO_0000784RoleContributesToType/>.jsp?uri=<viva:ERO_0000784RoleContributesTo/>"><viva:ERO_0000784RoleContributesTo /></a></td></tr>
+      </viva:foreachERO_0000784RoleContributesToIterator>
+      <viva:foreachERO_0000784BFO_0000054Iterator>
+         <tr><td>BFO_0000054</td><td><a href="../<viva:ERO_0000784BFO_0000054Type/>/<viva:ERO_0000784BFO_0000054Type/>.jsp?uri=<viva:ERO_0000784BFO_0000054/>"><viva:ERO_0000784BFO_0000054 /></a></td></tr>
+      </viva:foreachERO_0000784BFO_0000054Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

@@ -23,8 +23,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>overview</td><td><viva:PublisherOverview /></td></tr>
       <tr><td>abbreviation</td><td><viva:PublisherAbbreviation /></td></tr>
+      <tr><td>overview</td><td><viva:PublisherOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -36,15 +36,6 @@
       <viva:foreachPublisherRelatedByIterator>
          <tr><td>relatedBy</td><td><a href="../<viva:PublisherRelatedByType/>/<viva:PublisherRelatedByType/>.jsp?uri=<viva:PublisherRelatedBy/>"><viva:PublisherRelatedBy /></a></td></tr>
       </viva:foreachPublisherRelatedByIterator>
-      <viva:foreachPublisherAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<viva:PublisherAssigneeForType/>/<viva:PublisherAssigneeForType/>.jsp?uri=<viva:PublisherAssigneeFor/>"><viva:PublisherAssigneeFor /></a></td></tr>
-      </viva:foreachPublisherAssigneeForIterator>
-      <viva:foreachPublisherHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<viva:PublisherHasCollaboratorType/>/<viva:PublisherHasCollaboratorType/>.jsp?uri=<viva:PublisherHasCollaborator/>"><viva:PublisherHasCollaborator /></a></td></tr>
-      </viva:foreachPublisherHasCollaboratorIterator>
-      <viva:foreachPublisherTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<viva:PublisherTranslatorOfType/>/<viva:PublisherTranslatorOfType/>.jsp?uri=<viva:PublisherTranslatorOf/>"><viva:PublisherTranslatorOf /></a></td></tr>
-      </viva:foreachPublisherTranslatorOfIterator>
       <viva:foreachPublisherSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:PublisherSponsorsType/>/<viva:PublisherSponsorsType/>.jsp?uri=<viva:PublisherSponsors/>"><viva:PublisherSponsors /></a></td></tr>
       </viva:foreachPublisherSponsorsIterator>
@@ -84,16 +75,25 @@
       <viva:foreachPublisherRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:PublisherRO_0000056Type/>/<viva:PublisherRO_0000056Type/>.jsp?uri=<viva:PublisherRO_0000056/>"><viva:PublisherRO_0000056 /></a></td></tr>
       </viva:foreachPublisherRO_0000056Iterator>
+      <viva:foreachPublisherAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<viva:PublisherAssigneeForType/>/<viva:PublisherAssigneeForType/>.jsp?uri=<viva:PublisherAssigneeFor/>"><viva:PublisherAssigneeFor /></a></td></tr>
+      </viva:foreachPublisherAssigneeForIterator>
+      <viva:foreachPublisherHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<viva:PublisherHasCollaboratorType/>/<viva:PublisherHasCollaboratorType/>.jsp?uri=<viva:PublisherHasCollaborator/>"><viva:PublisherHasCollaborator /></a></td></tr>
+      </viva:foreachPublisherHasCollaboratorIterator>
+      <viva:foreachPublisherTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<viva:PublisherTranslatorOfType/>/<viva:PublisherTranslatorOfType/>.jsp?uri=<viva:PublisherTranslatorOf/>"><viva:PublisherTranslatorOf /></a></td></tr>
+      </viva:foreachPublisherTranslatorOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachPublisherIssuerInverseIterator>
-         <tr><td>issuer</td><td><a href="../<viva:PublisherIssuerInverseType/>/<viva:PublisherIssuerInverseType/>.jsp?uri=<viva:PublisherIssuerInverse/>"><viva:PublisherIssuerInverse/></a></td></tr>
-      </viva:foreachPublisherIssuerInverseIterator>
       <viva:foreachPublisherOBI_0000304InverseIterator>
          <tr><td>OBI_0000304</td><td><a href="../<viva:PublisherOBI_0000304InverseType/>/<viva:PublisherOBI_0000304InverseType/>.jsp?uri=<viva:PublisherOBI_0000304Inverse/>"><viva:PublisherOBI_0000304Inverse/></a></td></tr>
       </viva:foreachPublisherOBI_0000304InverseIterator>
+      <viva:foreachPublisherIssuerInverseIterator>
+         <tr><td>issuer</td><td><a href="../<viva:PublisherIssuerInverseType/>/<viva:PublisherIssuerInverseType/>.jsp?uri=<viva:PublisherIssuerInverse/>"><viva:PublisherIssuerInverse/></a></td></tr>
+      </viva:foreachPublisherIssuerInverseIterator>
    </table>
    </viva:Publisher>
 

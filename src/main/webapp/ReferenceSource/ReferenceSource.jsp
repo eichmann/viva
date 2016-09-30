@@ -61,9 +61,6 @@
       <viva:foreachReferenceSourceIAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<viva:ReferenceSourceIAO_0000136Type/>/<viva:ReferenceSourceIAO_0000136Type/>.jsp?uri=<viva:ReferenceSourceIAO_0000136/>"><viva:ReferenceSourceIAO_0000136 /></a></td></tr>
       </viva:foreachReferenceSourceIAO_0000136Iterator>
-      <viva:foreachReferenceSourceRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:ReferenceSourceRO_0000056Type/>/<viva:ReferenceSourceRO_0000056Type/>.jsp?uri=<viva:ReferenceSourceRO_0000056/>"><viva:ReferenceSourceRO_0000056 /></a></td></tr>
-      </viva:foreachReferenceSourceRO_0000056Iterator>
       <viva:foreachReferenceSourceDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:ReferenceSourceDocumentationForType/>/<viva:ReferenceSourceDocumentationForType/>.jsp?uri=<viva:ReferenceSourceDocumentationFor/>"><viva:ReferenceSourceDocumentationFor /></a></td></tr>
       </viva:foreachReferenceSourceDocumentationForIterator>
@@ -91,6 +88,9 @@
       <viva:foreachReferenceSourceCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:ReferenceSourceCitesType/>/<viva:ReferenceSourceCitesType/>.jsp?uri=<viva:ReferenceSourceCites/>"><viva:ReferenceSourceCites /></a></td></tr>
       </viva:foreachReferenceSourceCitesIterator>
+      <viva:foreachReferenceSourceRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:ReferenceSourceRO_0000056Type/>/<viva:ReferenceSourceRO_0000056Type/>.jsp?uri=<viva:ReferenceSourceRO_0000056/>"><viva:ReferenceSourceRO_0000056 /></a></td></tr>
+      </viva:foreachReferenceSourceRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

@@ -52,6 +52,12 @@
       <viva:foreachOrganizationIAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<viva:OrganizationIAO_0000136Type/>/<viva:OrganizationIAO_0000136Type/>.jsp?uri=<viva:OrganizationIAO_0000136/>"><viva:OrganizationIAO_0000136 /></a></td></tr>
       </viva:foreachOrganizationIAO_0000136Iterator>
+      <viva:foreachOrganizationARG_2000029Iterator>
+         <tr><td>ARG_2000029</td><td><a href="../<viva:OrganizationARG_2000029Type/>/<viva:OrganizationARG_2000029Type/>.jsp?uri=<viva:OrganizationARG_2000029/>"><viva:OrganizationARG_2000029 /></a></td></tr>
+      </viva:foreachOrganizationARG_2000029Iterator>
+      <viva:foreachOrganizationRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:OrganizationRO_0000056Type/>/<viva:OrganizationRO_0000056Type/>.jsp?uri=<viva:OrganizationRO_0000056/>"><viva:OrganizationRO_0000056 /></a></td></tr>
+      </viva:foreachOrganizationRO_0000056Iterator>
       <viva:foreachOrganizationHasAddressIterator>
          <tr><td>hasAddress</td><td><a href="../<viva:OrganizationHasAddressType/>/<viva:OrganizationHasAddressType/>.jsp?uri=<viva:OrganizationHasAddress/>"><viva:OrganizationHasAddress /></a></td></tr>
       </viva:foreachOrganizationHasAddressIterator>
@@ -70,12 +76,6 @@
       <viva:foreachOrganizationHasURLIterator>
          <tr><td>hasURL</td><td><a href="../<viva:OrganizationHasURLType/>/<viva:OrganizationHasURLType/>.jsp?uri=<viva:OrganizationHasURL/>"><viva:OrganizationHasURL /></a></td></tr>
       </viva:foreachOrganizationHasURLIterator>
-      <viva:foreachOrganizationARG_2000029Iterator>
-         <tr><td>ARG_2000029</td><td><a href="../<viva:OrganizationARG_2000029Type/>/<viva:OrganizationARG_2000029Type/>.jsp?uri=<viva:OrganizationARG_2000029/>"><viva:OrganizationARG_2000029 /></a></td></tr>
-      </viva:foreachOrganizationARG_2000029Iterator>
-      <viva:foreachOrganizationRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:OrganizationRO_0000056Type/>/<viva:OrganizationRO_0000056Type/>.jsp?uri=<viva:OrganizationRO_0000056/>"><viva:OrganizationRO_0000056 /></a></td></tr>
-      </viva:foreachOrganizationRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

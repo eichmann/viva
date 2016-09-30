@@ -37,18 +37,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachCourtReporterTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:CourtReporterTranslatorType/>/<viva:CourtReporterTranslatorType/>.jsp?uri=<viva:CourtReporterTranslator/>"><viva:CourtReporterTranslator /></a></td></tr>
-      </viva:foreachCourtReporterTranslatorIterator>
-      <viva:foreachCourtReporterFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:CourtReporterFeaturesType/>/<viva:CourtReporterFeaturesType/>.jsp?uri=<viva:CourtReporterFeatures/>"><viva:CourtReporterFeatures /></a></td></tr>
-      </viva:foreachCourtReporterFeaturesIterator>
-      <viva:foreachCourtReporterInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:CourtReporterInformationResourceSupportedByType/>/<viva:CourtReporterInformationResourceSupportedByType/>.jsp?uri=<viva:CourtReporterInformationResourceSupportedBy/>"><viva:CourtReporterInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachCourtReporterInformationResourceSupportedByIterator>
-      <viva:foreachCourtReporterIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:CourtReporterIAO_0000136Type/>/<viva:CourtReporterIAO_0000136Type/>.jsp?uri=<viva:CourtReporterIAO_0000136/>"><viva:CourtReporterIAO_0000136 /></a></td></tr>
-      </viva:foreachCourtReporterIAO_0000136Iterator>
       <viva:foreachCourtReporterDateTimeValueIterator>
          <tr><td>dateTimeValue</td><td><a href="../<viva:CourtReporterDateTimeValueType/>/<viva:CourtReporterDateTimeValueType/>.jsp?uri=<viva:CourtReporterDateTimeValue/>"><viva:CourtReporterDateTimeValue /></a></td></tr>
       </viva:foreachCourtReporterDateTimeValueIterator>
@@ -61,6 +49,18 @@
       <viva:foreachCourtReporterRelatedByIterator>
          <tr><td>relatedBy</td><td><a href="../<viva:CourtReporterRelatedByType/>/<viva:CourtReporterRelatedByType/>.jsp?uri=<viva:CourtReporterRelatedBy/>"><viva:CourtReporterRelatedBy /></a></td></tr>
       </viva:foreachCourtReporterRelatedByIterator>
+      <viva:foreachCourtReporterTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:CourtReporterTranslatorType/>/<viva:CourtReporterTranslatorType/>.jsp?uri=<viva:CourtReporterTranslator/>"><viva:CourtReporterTranslator /></a></td></tr>
+      </viva:foreachCourtReporterTranslatorIterator>
+      <viva:foreachCourtReporterFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:CourtReporterFeaturesType/>/<viva:CourtReporterFeaturesType/>.jsp?uri=<viva:CourtReporterFeatures/>"><viva:CourtReporterFeatures /></a></td></tr>
+      </viva:foreachCourtReporterFeaturesIterator>
+      <viva:foreachCourtReporterInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:CourtReporterInformationResourceSupportedByType/>/<viva:CourtReporterInformationResourceSupportedByType/>.jsp?uri=<viva:CourtReporterInformationResourceSupportedBy/>"><viva:CourtReporterInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachCourtReporterInformationResourceSupportedByIterator>
+      <viva:foreachCourtReporterIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:CourtReporterIAO_0000136Type/>/<viva:CourtReporterIAO_0000136Type/>.jsp?uri=<viva:CourtReporterIAO_0000136/>"><viva:CourtReporterIAO_0000136 /></a></td></tr>
+      </viva:foreachCourtReporterIAO_0000136Iterator>
       <viva:foreachCourtReporterRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:CourtReporterRO_0000056Type/>/<viva:CourtReporterRO_0000056Type/>.jsp?uri=<viva:CourtReporterRO_0000056/>"><viva:CourtReporterRO_0000056 /></a></td></tr>
       </viva:foreachCourtReporterRO_0000056Iterator>

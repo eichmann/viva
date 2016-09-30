@@ -28,6 +28,9 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachConferenceDescriptionIterator>
+         <tr><td>description</td><td><viva:ConferenceDescription /></td></tr>
+      </viva:foreachConferenceDescriptionIterator>
    </table>
 
    <h3>Object Properties</h3>

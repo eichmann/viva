@@ -23,8 +23,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>overview</td><td><viva:ExtensionUnitOverview /></td></tr>
       <tr><td>abbreviation</td><td><viva:ExtensionUnitAbbreviation /></td></tr>
+      <tr><td>overview</td><td><viva:ExtensionUnitOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -33,15 +33,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachExtensionUnitAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<viva:ExtensionUnitAssigneeForType/>/<viva:ExtensionUnitAssigneeForType/>.jsp?uri=<viva:ExtensionUnitAssigneeFor/>"><viva:ExtensionUnitAssigneeFor /></a></td></tr>
-      </viva:foreachExtensionUnitAssigneeForIterator>
-      <viva:foreachExtensionUnitHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<viva:ExtensionUnitHasCollaboratorType/>/<viva:ExtensionUnitHasCollaboratorType/>.jsp?uri=<viva:ExtensionUnitHasCollaborator/>"><viva:ExtensionUnitHasCollaborator /></a></td></tr>
-      </viva:foreachExtensionUnitHasCollaboratorIterator>
-      <viva:foreachExtensionUnitTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<viva:ExtensionUnitTranslatorOfType/>/<viva:ExtensionUnitTranslatorOfType/>.jsp?uri=<viva:ExtensionUnitTranslatorOf/>"><viva:ExtensionUnitTranslatorOf /></a></td></tr>
-      </viva:foreachExtensionUnitTranslatorOfIterator>
       <viva:foreachExtensionUnitSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:ExtensionUnitSponsorsType/>/<viva:ExtensionUnitSponsorsType/>.jsp?uri=<viva:ExtensionUnitSponsors/>"><viva:ExtensionUnitSponsors /></a></td></tr>
       </viva:foreachExtensionUnitSponsorsIterator>
@@ -84,16 +75,25 @@
       <viva:foreachExtensionUnitRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ExtensionUnitRO_0000056Type/>/<viva:ExtensionUnitRO_0000056Type/>.jsp?uri=<viva:ExtensionUnitRO_0000056/>"><viva:ExtensionUnitRO_0000056 /></a></td></tr>
       </viva:foreachExtensionUnitRO_0000056Iterator>
+      <viva:foreachExtensionUnitAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<viva:ExtensionUnitAssigneeForType/>/<viva:ExtensionUnitAssigneeForType/>.jsp?uri=<viva:ExtensionUnitAssigneeFor/>"><viva:ExtensionUnitAssigneeFor /></a></td></tr>
+      </viva:foreachExtensionUnitAssigneeForIterator>
+      <viva:foreachExtensionUnitHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<viva:ExtensionUnitHasCollaboratorType/>/<viva:ExtensionUnitHasCollaboratorType/>.jsp?uri=<viva:ExtensionUnitHasCollaborator/>"><viva:ExtensionUnitHasCollaborator /></a></td></tr>
+      </viva:foreachExtensionUnitHasCollaboratorIterator>
+      <viva:foreachExtensionUnitTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<viva:ExtensionUnitTranslatorOfType/>/<viva:ExtensionUnitTranslatorOfType/>.jsp?uri=<viva:ExtensionUnitTranslatorOf/>"><viva:ExtensionUnitTranslatorOf /></a></td></tr>
+      </viva:foreachExtensionUnitTranslatorOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachExtensionUnitIssuerInverseIterator>
-         <tr><td>issuer</td><td><a href="../<viva:ExtensionUnitIssuerInverseType/>/<viva:ExtensionUnitIssuerInverseType/>.jsp?uri=<viva:ExtensionUnitIssuerInverse/>"><viva:ExtensionUnitIssuerInverse/></a></td></tr>
-      </viva:foreachExtensionUnitIssuerInverseIterator>
       <viva:foreachExtensionUnitOBI_0000304InverseIterator>
          <tr><td>OBI_0000304</td><td><a href="../<viva:ExtensionUnitOBI_0000304InverseType/>/<viva:ExtensionUnitOBI_0000304InverseType/>.jsp?uri=<viva:ExtensionUnitOBI_0000304Inverse/>"><viva:ExtensionUnitOBI_0000304Inverse/></a></td></tr>
       </viva:foreachExtensionUnitOBI_0000304InverseIterator>
+      <viva:foreachExtensionUnitIssuerInverseIterator>
+         <tr><td>issuer</td><td><a href="../<viva:ExtensionUnitIssuerInverseType/>/<viva:ExtensionUnitIssuerInverseType/>.jsp?uri=<viva:ExtensionUnitIssuerInverse/>"><viva:ExtensionUnitIssuerInverse/></a></td></tr>
+      </viva:foreachExtensionUnitIssuerInverseIterator>
    </table>
    </viva:ExtensionUnit>
 

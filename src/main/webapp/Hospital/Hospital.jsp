@@ -23,8 +23,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>overview</td><td><viva:HospitalOverview /></td></tr>
       <tr><td>abbreviation</td><td><viva:HospitalAbbreviation /></td></tr>
+      <tr><td>overview</td><td><viva:HospitalOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -33,15 +33,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachHospitalAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<viva:HospitalAssigneeForType/>/<viva:HospitalAssigneeForType/>.jsp?uri=<viva:HospitalAssigneeFor/>"><viva:HospitalAssigneeFor /></a></td></tr>
-      </viva:foreachHospitalAssigneeForIterator>
-      <viva:foreachHospitalHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<viva:HospitalHasCollaboratorType/>/<viva:HospitalHasCollaboratorType/>.jsp?uri=<viva:HospitalHasCollaborator/>"><viva:HospitalHasCollaborator /></a></td></tr>
-      </viva:foreachHospitalHasCollaboratorIterator>
-      <viva:foreachHospitalTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<viva:HospitalTranslatorOfType/>/<viva:HospitalTranslatorOfType/>.jsp?uri=<viva:HospitalTranslatorOf/>"><viva:HospitalTranslatorOf /></a></td></tr>
-      </viva:foreachHospitalTranslatorOfIterator>
       <viva:foreachHospitalSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:HospitalSponsorsType/>/<viva:HospitalSponsorsType/>.jsp?uri=<viva:HospitalSponsors/>"><viva:HospitalSponsors /></a></td></tr>
       </viva:foreachHospitalSponsorsIterator>
@@ -84,16 +75,25 @@
       <viva:foreachHospitalRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:HospitalRO_0000056Type/>/<viva:HospitalRO_0000056Type/>.jsp?uri=<viva:HospitalRO_0000056/>"><viva:HospitalRO_0000056 /></a></td></tr>
       </viva:foreachHospitalRO_0000056Iterator>
+      <viva:foreachHospitalAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<viva:HospitalAssigneeForType/>/<viva:HospitalAssigneeForType/>.jsp?uri=<viva:HospitalAssigneeFor/>"><viva:HospitalAssigneeFor /></a></td></tr>
+      </viva:foreachHospitalAssigneeForIterator>
+      <viva:foreachHospitalHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<viva:HospitalHasCollaboratorType/>/<viva:HospitalHasCollaboratorType/>.jsp?uri=<viva:HospitalHasCollaborator/>"><viva:HospitalHasCollaborator /></a></td></tr>
+      </viva:foreachHospitalHasCollaboratorIterator>
+      <viva:foreachHospitalTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<viva:HospitalTranslatorOfType/>/<viva:HospitalTranslatorOfType/>.jsp?uri=<viva:HospitalTranslatorOf/>"><viva:HospitalTranslatorOf /></a></td></tr>
+      </viva:foreachHospitalTranslatorOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachHospitalIssuerInverseIterator>
-         <tr><td>issuer</td><td><a href="../<viva:HospitalIssuerInverseType/>/<viva:HospitalIssuerInverseType/>.jsp?uri=<viva:HospitalIssuerInverse/>"><viva:HospitalIssuerInverse/></a></td></tr>
-      </viva:foreachHospitalIssuerInverseIterator>
       <viva:foreachHospitalOBI_0000304InverseIterator>
          <tr><td>OBI_0000304</td><td><a href="../<viva:HospitalOBI_0000304InverseType/>/<viva:HospitalOBI_0000304InverseType/>.jsp?uri=<viva:HospitalOBI_0000304Inverse/>"><viva:HospitalOBI_0000304Inverse/></a></td></tr>
       </viva:foreachHospitalOBI_0000304InverseIterator>
+      <viva:foreachHospitalIssuerInverseIterator>
+         <tr><td>issuer</td><td><a href="../<viva:HospitalIssuerInverseType/>/<viva:HospitalIssuerInverseType/>.jsp?uri=<viva:HospitalIssuerInverse/>"><viva:HospitalIssuerInverse/></a></td></tr>
+      </viva:foreachHospitalIssuerInverseIterator>
    </table>
    </viva:Hospital>
 

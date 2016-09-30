@@ -49,18 +49,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachFilmTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:FilmTranslatorType/>/<viva:FilmTranslatorType/>.jsp?uri=<viva:FilmTranslator/>"><viva:FilmTranslator /></a></td></tr>
-      </viva:foreachFilmTranslatorIterator>
-      <viva:foreachFilmFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:FilmFeaturesType/>/<viva:FilmFeaturesType/>.jsp?uri=<viva:FilmFeatures/>"><viva:FilmFeatures /></a></td></tr>
-      </viva:foreachFilmFeaturesIterator>
-      <viva:foreachFilmInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:FilmInformationResourceSupportedByType/>/<viva:FilmInformationResourceSupportedByType/>.jsp?uri=<viva:FilmInformationResourceSupportedBy/>"><viva:FilmInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachFilmInformationResourceSupportedByIterator>
-      <viva:foreachFilmIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:FilmIAO_0000136Type/>/<viva:FilmIAO_0000136Type/>.jsp?uri=<viva:FilmIAO_0000136/>"><viva:FilmIAO_0000136 /></a></td></tr>
-      </viva:foreachFilmIAO_0000136Iterator>
       <viva:foreachFilmDateTimeValueIterator>
          <tr><td>dateTimeValue</td><td><a href="../<viva:FilmDateTimeValueType/>/<viva:FilmDateTimeValueType/>.jsp?uri=<viva:FilmDateTimeValue/>"><viva:FilmDateTimeValue /></a></td></tr>
       </viva:foreachFilmDateTimeValueIterator>
@@ -73,9 +61,18 @@
       <viva:foreachFilmRelatedByIterator>
          <tr><td>relatedBy</td><td><a href="../<viva:FilmRelatedByType/>/<viva:FilmRelatedByType/>.jsp?uri=<viva:FilmRelatedBy/>"><viva:FilmRelatedBy /></a></td></tr>
       </viva:foreachFilmRelatedByIterator>
-      <viva:foreachFilmRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:FilmRO_0000056Type/>/<viva:FilmRO_0000056Type/>.jsp?uri=<viva:FilmRO_0000056/>"><viva:FilmRO_0000056 /></a></td></tr>
-      </viva:foreachFilmRO_0000056Iterator>
+      <viva:foreachFilmTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:FilmTranslatorType/>/<viva:FilmTranslatorType/>.jsp?uri=<viva:FilmTranslator/>"><viva:FilmTranslator /></a></td></tr>
+      </viva:foreachFilmTranslatorIterator>
+      <viva:foreachFilmFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:FilmFeaturesType/>/<viva:FilmFeaturesType/>.jsp?uri=<viva:FilmFeatures/>"><viva:FilmFeatures /></a></td></tr>
+      </viva:foreachFilmFeaturesIterator>
+      <viva:foreachFilmInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:FilmInformationResourceSupportedByType/>/<viva:FilmInformationResourceSupportedByType/>.jsp?uri=<viva:FilmInformationResourceSupportedBy/>"><viva:FilmInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachFilmInformationResourceSupportedByIterator>
+      <viva:foreachFilmIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:FilmIAO_0000136Type/>/<viva:FilmIAO_0000136Type/>.jsp?uri=<viva:FilmIAO_0000136/>"><viva:FilmIAO_0000136 /></a></td></tr>
+      </viva:foreachFilmIAO_0000136Iterator>
       <viva:foreachFilmDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:FilmDocumentationForType/>/<viva:FilmDocumentationForType/>.jsp?uri=<viva:FilmDocumentationFor/>"><viva:FilmDocumentationFor /></a></td></tr>
       </viva:foreachFilmDocumentationForIterator>
@@ -103,6 +100,9 @@
       <viva:foreachFilmCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:FilmCitesType/>/<viva:FilmCitesType/>.jsp?uri=<viva:FilmCites/>"><viva:FilmCites /></a></td></tr>
       </viva:foreachFilmCitesIterator>
+      <viva:foreachFilmRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:FilmRO_0000056Type/>/<viva:FilmRO_0000056Type/>.jsp?uri=<viva:FilmRO_0000056/>"><viva:FilmRO_0000056 /></a></td></tr>
+      </viva:foreachFilmRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

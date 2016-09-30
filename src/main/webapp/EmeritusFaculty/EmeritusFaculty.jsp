@@ -23,10 +23,10 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>overview</td><td><viva:EmeritusFacultyOverview /></td></tr>
       <tr><td>teachingOverview</td><td><viva:EmeritusFacultyTeachingOverview /></td></tr>
       <tr><td>outreachOverview</td><td><viva:EmeritusFacultyOutreachOverview /></td></tr>
       <tr><td>researchOverview</td><td><viva:EmeritusFacultyResearchOverview /></td></tr>
+      <tr><td>overview</td><td><viva:EmeritusFacultyOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -56,18 +56,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachEmeritusFacultyAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<viva:EmeritusFacultyAssigneeForType/>/<viva:EmeritusFacultyAssigneeForType/>.jsp?uri=<viva:EmeritusFacultyAssigneeFor/>"><viva:EmeritusFacultyAssigneeFor /></a></td></tr>
-      </viva:foreachEmeritusFacultyAssigneeForIterator>
-      <viva:foreachEmeritusFacultyHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<viva:EmeritusFacultyHasCollaboratorType/>/<viva:EmeritusFacultyHasCollaboratorType/>.jsp?uri=<viva:EmeritusFacultyHasCollaborator/>"><viva:EmeritusFacultyHasCollaborator /></a></td></tr>
-      </viva:foreachEmeritusFacultyHasCollaboratorIterator>
-      <viva:foreachEmeritusFacultyTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<viva:EmeritusFacultyTranslatorOfType/>/<viva:EmeritusFacultyTranslatorOfType/>.jsp?uri=<viva:EmeritusFacultyTranslatorOf/>"><viva:EmeritusFacultyTranslatorOf /></a></td></tr>
-      </viva:foreachEmeritusFacultyTranslatorOfIterator>
-      <viva:foreachEmeritusFacultyRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:EmeritusFacultyRO_0000053Type/>/<viva:EmeritusFacultyRO_0000053Type/>.jsp?uri=<viva:EmeritusFacultyRO_0000053/>"><viva:EmeritusFacultyRO_0000053 /></a></td></tr>
-      </viva:foreachEmeritusFacultyRO_0000053Iterator>
       <viva:foreachEmeritusFacultyERO_0000397Iterator>
          <tr><td>ERO_0000397</td><td><a href="../<viva:EmeritusFacultyERO_0000397Type/>/<viva:EmeritusFacultyERO_0000397Type/>.jsp?uri=<viva:EmeritusFacultyERO_0000397/>"><viva:EmeritusFacultyERO_0000397 /></a></td></tr>
       </viva:foreachEmeritusFacultyERO_0000397Iterator>
@@ -95,9 +83,21 @@
       <viva:foreachEmeritusFacultyOrcidIdIterator>
          <tr><td>orcidId</td><td><a href="../<viva:EmeritusFacultyOrcidIdType/>/<viva:EmeritusFacultyOrcidIdType/>.jsp?uri=<viva:EmeritusFacultyOrcidId/>"><viva:EmeritusFacultyOrcidId /></a></td></tr>
       </viva:foreachEmeritusFacultyOrcidIdIterator>
+      <viva:foreachEmeritusFacultyRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:EmeritusFacultyRO_0000053Type/>/<viva:EmeritusFacultyRO_0000053Type/>.jsp?uri=<viva:EmeritusFacultyRO_0000053/>"><viva:EmeritusFacultyRO_0000053 /></a></td></tr>
+      </viva:foreachEmeritusFacultyRO_0000053Iterator>
       <viva:foreachEmeritusFacultyRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:EmeritusFacultyRO_0000056Type/>/<viva:EmeritusFacultyRO_0000056Type/>.jsp?uri=<viva:EmeritusFacultyRO_0000056/>"><viva:EmeritusFacultyRO_0000056 /></a></td></tr>
       </viva:foreachEmeritusFacultyRO_0000056Iterator>
+      <viva:foreachEmeritusFacultyAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<viva:EmeritusFacultyAssigneeForType/>/<viva:EmeritusFacultyAssigneeForType/>.jsp?uri=<viva:EmeritusFacultyAssigneeFor/>"><viva:EmeritusFacultyAssigneeFor /></a></td></tr>
+      </viva:foreachEmeritusFacultyAssigneeForIterator>
+      <viva:foreachEmeritusFacultyHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<viva:EmeritusFacultyHasCollaboratorType/>/<viva:EmeritusFacultyHasCollaboratorType/>.jsp?uri=<viva:EmeritusFacultyHasCollaborator/>"><viva:EmeritusFacultyHasCollaborator /></a></td></tr>
+      </viva:foreachEmeritusFacultyHasCollaboratorIterator>
+      <viva:foreachEmeritusFacultyTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<viva:EmeritusFacultyTranslatorOfType/>/<viva:EmeritusFacultyTranslatorOfType/>.jsp?uri=<viva:EmeritusFacultyTranslatorOf/>"><viva:EmeritusFacultyTranslatorOf /></a></td></tr>
+      </viva:foreachEmeritusFacultyTranslatorOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

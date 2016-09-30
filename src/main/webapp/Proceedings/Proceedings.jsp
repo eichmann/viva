@@ -27,6 +27,21 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachProceedingsPageStartIterator>
+         <tr><td>pageStart</td><td><viva:ProceedingsPageStart /></td></tr>
+      </viva:foreachProceedingsPageStartIterator>
+      <viva:foreachProceedingsIsbn13Iterator>
+         <tr><td>isbn13</td><td><viva:ProceedingsIsbn13 /></td></tr>
+      </viva:foreachProceedingsIsbn13Iterator>
+      <viva:foreachProceedingsPageEndIterator>
+         <tr><td>pageEnd</td><td><viva:ProceedingsPageEnd /></td></tr>
+      </viva:foreachProceedingsPageEndIterator>
+      <viva:foreachProceedingsIsbn10Iterator>
+         <tr><td>isbn10</td><td><viva:ProceedingsIsbn10 /></td></tr>
+      </viva:foreachProceedingsIsbn10Iterator>
+      <viva:foreachProceedingsNumPagesIterator>
+         <tr><td>numPages</td><td><viva:ProceedingsNumPages /></td></tr>
+      </viva:foreachProceedingsNumPagesIterator>
       <viva:foreachProceedingsTheAbstractIterator>
          <tr><td>theAbstract</td><td><viva:ProceedingsTheAbstract /></td></tr>
       </viva:foreachProceedingsTheAbstractIterator>
@@ -45,21 +60,6 @@
       <viva:foreachProceedingsERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:ProceedingsERO_0000045 /></td></tr>
       </viva:foreachProceedingsERO_0000045Iterator>
-      <viva:foreachProceedingsPageStartIterator>
-         <tr><td>pageStart</td><td><viva:ProceedingsPageStart /></td></tr>
-      </viva:foreachProceedingsPageStartIterator>
-      <viva:foreachProceedingsIsbn13Iterator>
-         <tr><td>isbn13</td><td><viva:ProceedingsIsbn13 /></td></tr>
-      </viva:foreachProceedingsIsbn13Iterator>
-      <viva:foreachProceedingsPageEndIterator>
-         <tr><td>pageEnd</td><td><viva:ProceedingsPageEnd /></td></tr>
-      </viva:foreachProceedingsPageEndIterator>
-      <viva:foreachProceedingsIsbn10Iterator>
-         <tr><td>isbn10</td><td><viva:ProceedingsIsbn10 /></td></tr>
-      </viva:foreachProceedingsIsbn10Iterator>
-      <viva:foreachProceedingsNumPagesIterator>
-         <tr><td>numPages</td><td><viva:ProceedingsNumPages /></td></tr>
-      </viva:foreachProceedingsNumPagesIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -67,6 +67,27 @@
       <viva:foreachProceedingsProceedingsOfIterator>
          <tr><td>proceedingsOf</td><td><a href="../<viva:ProceedingsProceedingsOfType/>/<viva:ProceedingsProceedingsOfType/>.jsp?uri=<viva:ProceedingsProceedingsOf/>"><viva:ProceedingsProceedingsOf /></a></td></tr>
       </viva:foreachProceedingsProceedingsOfIterator>
+      <viva:foreachProceedingsDateTimeValueIterator>
+         <tr><td>dateTimeValue</td><td><a href="../<viva:ProceedingsDateTimeValueType/>/<viva:ProceedingsDateTimeValueType/>.jsp?uri=<viva:ProceedingsDateTimeValue/>"><viva:ProceedingsDateTimeValue /></a></td></tr>
+      </viva:foreachProceedingsDateTimeValueIterator>
+      <viva:foreachProceedingsHasPublicationVenueIterator>
+         <tr><td>hasPublicationVenue</td><td><a href="../<viva:ProceedingsHasPublicationVenueType/>/<viva:ProceedingsHasPublicationVenueType/>.jsp?uri=<viva:ProceedingsHasPublicationVenue/>"><viva:ProceedingsHasPublicationVenue /></a></td></tr>
+      </viva:foreachProceedingsHasPublicationVenueIterator>
+      <viva:foreachProceedingsPublicationVenueForIterator>
+         <tr><td>publicationVenueFor</td><td><a href="../<viva:ProceedingsPublicationVenueForType/>/<viva:ProceedingsPublicationVenueForType/>.jsp?uri=<viva:ProceedingsPublicationVenueFor/>"><viva:ProceedingsPublicationVenueFor /></a></td></tr>
+      </viva:foreachProceedingsPublicationVenueForIterator>
+      <viva:foreachProceedingsARG_2000028Iterator>
+         <tr><td>ARG_2000028</td><td><a href="../<viva:ProceedingsARG_2000028Type/>/<viva:ProceedingsARG_2000028Type/>.jsp?uri=<viva:ProceedingsARG_2000028/>"><viva:ProceedingsARG_2000028 /></a></td></tr>
+      </viva:foreachProceedingsARG_2000028Iterator>
+      <viva:foreachProceedingsPublisherIterator>
+         <tr><td>publisher</td><td><a href="../<viva:ProceedingsPublisherType/>/<viva:ProceedingsPublisherType/>.jsp?uri=<viva:ProceedingsPublisher/>"><viva:ProceedingsPublisher /></a></td></tr>
+      </viva:foreachProceedingsPublisherIterator>
+      <viva:foreachProceedingsRelatedByIterator>
+         <tr><td>relatedBy</td><td><a href="../<viva:ProceedingsRelatedByType/>/<viva:ProceedingsRelatedByType/>.jsp?uri=<viva:ProceedingsRelatedBy/>"><viva:ProceedingsRelatedBy /></a></td></tr>
+      </viva:foreachProceedingsRelatedByIterator>
+      <viva:foreachProceedingsRelatesIterator>
+         <tr><td>relates</td><td><a href="../<viva:ProceedingsRelatesType/>/<viva:ProceedingsRelatesType/>.jsp?uri=<viva:ProceedingsRelates/>"><viva:ProceedingsRelates /></a></td></tr>
+      </viva:foreachProceedingsRelatesIterator>
       <viva:foreachProceedingsTranslatorIterator>
          <tr><td>translator</td><td><a href="../<viva:ProceedingsTranslatorType/>/<viva:ProceedingsTranslatorType/>.jsp?uri=<viva:ProceedingsTranslator/>"><viva:ProceedingsTranslator /></a></td></tr>
       </viva:foreachProceedingsTranslatorIterator>
@@ -109,27 +130,6 @@
       <viva:foreachProceedingsRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ProceedingsRO_0000056Type/>/<viva:ProceedingsRO_0000056Type/>.jsp?uri=<viva:ProceedingsRO_0000056/>"><viva:ProceedingsRO_0000056 /></a></td></tr>
       </viva:foreachProceedingsRO_0000056Iterator>
-      <viva:foreachProceedingsDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<viva:ProceedingsDateTimeValueType/>/<viva:ProceedingsDateTimeValueType/>.jsp?uri=<viva:ProceedingsDateTimeValue/>"><viva:ProceedingsDateTimeValue /></a></td></tr>
-      </viva:foreachProceedingsDateTimeValueIterator>
-      <viva:foreachProceedingsHasPublicationVenueIterator>
-         <tr><td>hasPublicationVenue</td><td><a href="../<viva:ProceedingsHasPublicationVenueType/>/<viva:ProceedingsHasPublicationVenueType/>.jsp?uri=<viva:ProceedingsHasPublicationVenue/>"><viva:ProceedingsHasPublicationVenue /></a></td></tr>
-      </viva:foreachProceedingsHasPublicationVenueIterator>
-      <viva:foreachProceedingsPublicationVenueForIterator>
-         <tr><td>publicationVenueFor</td><td><a href="../<viva:ProceedingsPublicationVenueForType/>/<viva:ProceedingsPublicationVenueForType/>.jsp?uri=<viva:ProceedingsPublicationVenueFor/>"><viva:ProceedingsPublicationVenueFor /></a></td></tr>
-      </viva:foreachProceedingsPublicationVenueForIterator>
-      <viva:foreachProceedingsARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<viva:ProceedingsARG_2000028Type/>/<viva:ProceedingsARG_2000028Type/>.jsp?uri=<viva:ProceedingsARG_2000028/>"><viva:ProceedingsARG_2000028 /></a></td></tr>
-      </viva:foreachProceedingsARG_2000028Iterator>
-      <viva:foreachProceedingsPublisherIterator>
-         <tr><td>publisher</td><td><a href="../<viva:ProceedingsPublisherType/>/<viva:ProceedingsPublisherType/>.jsp?uri=<viva:ProceedingsPublisher/>"><viva:ProceedingsPublisher /></a></td></tr>
-      </viva:foreachProceedingsPublisherIterator>
-      <viva:foreachProceedingsRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:ProceedingsRelatedByType/>/<viva:ProceedingsRelatedByType/>.jsp?uri=<viva:ProceedingsRelatedBy/>"><viva:ProceedingsRelatedBy /></a></td></tr>
-      </viva:foreachProceedingsRelatedByIterator>
-      <viva:foreachProceedingsRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:ProceedingsRelatesType/>/<viva:ProceedingsRelatesType/>.jsp?uri=<viva:ProceedingsRelates/>"><viva:ProceedingsRelates /></a></td></tr>
-      </viva:foreachProceedingsRelatesIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

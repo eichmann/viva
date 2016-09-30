@@ -79,6 +79,12 @@
       <viva:foreachIndividualIAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<viva:IndividualIAO_0000136Type/>/<viva:IndividualIAO_0000136Type/>.jsp?uri=<viva:IndividualIAO_0000136/>"><viva:IndividualIAO_0000136 /></a></td></tr>
       </viva:foreachIndividualIAO_0000136Iterator>
+      <viva:foreachIndividualARG_2000029Iterator>
+         <tr><td>ARG_2000029</td><td><a href="../<viva:IndividualARG_2000029Type/>/<viva:IndividualARG_2000029Type/>.jsp?uri=<viva:IndividualARG_2000029/>"><viva:IndividualARG_2000029 /></a></td></tr>
+      </viva:foreachIndividualARG_2000029Iterator>
+      <viva:foreachIndividualRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:IndividualRO_0000056Type/>/<viva:IndividualRO_0000056Type/>.jsp?uri=<viva:IndividualRO_0000056/>"><viva:IndividualRO_0000056 /></a></td></tr>
+      </viva:foreachIndividualRO_0000056Iterator>
       <viva:foreachIndividualHasAddressIterator>
          <tr><td>hasAddress</td><td><a href="../<viva:IndividualHasAddressType/>/<viva:IndividualHasAddressType/>.jsp?uri=<viva:IndividualHasAddress/>"><viva:IndividualHasAddress /></a></td></tr>
       </viva:foreachIndividualHasAddressIterator>
@@ -88,12 +94,6 @@
       <viva:foreachIndividualRelatesIterator>
          <tr><td>relates</td><td><a href="../<viva:IndividualRelatesType/>/<viva:IndividualRelatesType/>.jsp?uri=<viva:IndividualRelates/>"><viva:IndividualRelates /></a></td></tr>
       </viva:foreachIndividualRelatesIterator>
-      <viva:foreachIndividualARG_2000029Iterator>
-         <tr><td>ARG_2000029</td><td><a href="../<viva:IndividualARG_2000029Type/>/<viva:IndividualARG_2000029Type/>.jsp?uri=<viva:IndividualARG_2000029/>"><viva:IndividualARG_2000029 /></a></td></tr>
-      </viva:foreachIndividualARG_2000029Iterator>
-      <viva:foreachIndividualRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:IndividualRO_0000056Type/>/<viva:IndividualRO_0000056Type/>.jsp?uri=<viva:IndividualRO_0000056/>"><viva:IndividualRO_0000056 /></a></td></tr>
-      </viva:foreachIndividualRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

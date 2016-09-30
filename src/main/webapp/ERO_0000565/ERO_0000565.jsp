@@ -23,8 +23,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>overview</td><td><viva:ERO_0000565Overview /></td></tr>
       <tr><td>abbreviation</td><td><viva:ERO_0000565Abbreviation /></td></tr>
+      <tr><td>overview</td><td><viva:ERO_0000565Overview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -33,15 +33,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachERO_0000565AssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<viva:ERO_0000565AssigneeForType/>/<viva:ERO_0000565AssigneeForType/>.jsp?uri=<viva:ERO_0000565AssigneeFor/>"><viva:ERO_0000565AssigneeFor /></a></td></tr>
-      </viva:foreachERO_0000565AssigneeForIterator>
-      <viva:foreachERO_0000565HasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<viva:ERO_0000565HasCollaboratorType/>/<viva:ERO_0000565HasCollaboratorType/>.jsp?uri=<viva:ERO_0000565HasCollaborator/>"><viva:ERO_0000565HasCollaborator /></a></td></tr>
-      </viva:foreachERO_0000565HasCollaboratorIterator>
-      <viva:foreachERO_0000565TranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<viva:ERO_0000565TranslatorOfType/>/<viva:ERO_0000565TranslatorOfType/>.jsp?uri=<viva:ERO_0000565TranslatorOf/>"><viva:ERO_0000565TranslatorOf /></a></td></tr>
-      </viva:foreachERO_0000565TranslatorOfIterator>
       <viva:foreachERO_0000565SponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:ERO_0000565SponsorsType/>/<viva:ERO_0000565SponsorsType/>.jsp?uri=<viva:ERO_0000565Sponsors/>"><viva:ERO_0000565Sponsors /></a></td></tr>
       </viva:foreachERO_0000565SponsorsIterator>
@@ -84,16 +75,25 @@
       <viva:foreachERO_0000565RO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ERO_0000565RO_0000056Type/>/<viva:ERO_0000565RO_0000056Type/>.jsp?uri=<viva:ERO_0000565RO_0000056/>"><viva:ERO_0000565RO_0000056 /></a></td></tr>
       </viva:foreachERO_0000565RO_0000056Iterator>
+      <viva:foreachERO_0000565AssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<viva:ERO_0000565AssigneeForType/>/<viva:ERO_0000565AssigneeForType/>.jsp?uri=<viva:ERO_0000565AssigneeFor/>"><viva:ERO_0000565AssigneeFor /></a></td></tr>
+      </viva:foreachERO_0000565AssigneeForIterator>
+      <viva:foreachERO_0000565HasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<viva:ERO_0000565HasCollaboratorType/>/<viva:ERO_0000565HasCollaboratorType/>.jsp?uri=<viva:ERO_0000565HasCollaborator/>"><viva:ERO_0000565HasCollaborator /></a></td></tr>
+      </viva:foreachERO_0000565HasCollaboratorIterator>
+      <viva:foreachERO_0000565TranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<viva:ERO_0000565TranslatorOfType/>/<viva:ERO_0000565TranslatorOfType/>.jsp?uri=<viva:ERO_0000565TranslatorOf/>"><viva:ERO_0000565TranslatorOf /></a></td></tr>
+      </viva:foreachERO_0000565TranslatorOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachERO_0000565IssuerInverseIterator>
-         <tr><td>issuer</td><td><a href="../<viva:ERO_0000565IssuerInverseType/>/<viva:ERO_0000565IssuerInverseType/>.jsp?uri=<viva:ERO_0000565IssuerInverse/>"><viva:ERO_0000565IssuerInverse/></a></td></tr>
-      </viva:foreachERO_0000565IssuerInverseIterator>
       <viva:foreachERO_0000565OBI_0000304InverseIterator>
          <tr><td>OBI_0000304</td><td><a href="../<viva:ERO_0000565OBI_0000304InverseType/>/<viva:ERO_0000565OBI_0000304InverseType/>.jsp?uri=<viva:ERO_0000565OBI_0000304Inverse/>"><viva:ERO_0000565OBI_0000304Inverse/></a></td></tr>
       </viva:foreachERO_0000565OBI_0000304InverseIterator>
+      <viva:foreachERO_0000565IssuerInverseIterator>
+         <tr><td>issuer</td><td><a href="../<viva:ERO_0000565IssuerInverseType/>/<viva:ERO_0000565IssuerInverseType/>.jsp?uri=<viva:ERO_0000565IssuerInverse/>"><viva:ERO_0000565IssuerInverse/></a></td></tr>
+      </viva:foreachERO_0000565IssuerInverseIterator>
    </table>
    </viva:ERO_0000565>
 

@@ -49,9 +49,6 @@
       <viva:foreachERO_0000071ERO_0000034Iterator>
          <tr><td>ERO_0000034</td><td><a href="../<viva:ERO_0000071ERO_0000034Type/>/<viva:ERO_0000071ERO_0000034Type/>.jsp?uri=<viva:ERO_0000071ERO_0000034/>"><viva:ERO_0000071ERO_0000034 /></a></td></tr>
       </viva:foreachERO_0000071ERO_0000034Iterator>
-      <viva:foreachERO_0000071RO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:ERO_0000071RO_0000053Type/>/<viva:ERO_0000071RO_0000053Type/>.jsp?uri=<viva:ERO_0000071RO_0000053/>"><viva:ERO_0000071RO_0000053 /></a></td></tr>
-      </viva:foreachERO_0000071RO_0000053Iterator>
       <viva:foreachERO_0000071RO_0003000Iterator>
          <tr><td>RO_0003000</td><td><a href="../<viva:ERO_0000071RO_0003000Type/>/<viva:ERO_0000071RO_0003000Type/>.jsp?uri=<viva:ERO_0000071RO_0003000/>"><viva:ERO_0000071RO_0003000 /></a></td></tr>
       </viva:foreachERO_0000071RO_0003000Iterator>
@@ -61,6 +58,9 @@
       <viva:foreachERO_0000071OBI_0000304Iterator>
          <tr><td>OBI_0000304</td><td><a href="../<viva:ERO_0000071OBI_0000304Type/>/<viva:ERO_0000071OBI_0000304Type/>.jsp?uri=<viva:ERO_0000071OBI_0000304/>"><viva:ERO_0000071OBI_0000304 /></a></td></tr>
       </viva:foreachERO_0000071OBI_0000304Iterator>
+      <viva:foreachERO_0000071RO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:ERO_0000071RO_0000053Type/>/<viva:ERO_0000071RO_0000053Type/>.jsp?uri=<viva:ERO_0000071RO_0000053/>"><viva:ERO_0000071RO_0000053 /></a></td></tr>
+      </viva:foreachERO_0000071RO_0000053Iterator>
       <viva:foreachERO_0000071RO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ERO_0000071RO_0000056Type/>/<viva:ERO_0000071RO_0000056Type/>.jsp?uri=<viva:ERO_0000071RO_0000056/>"><viva:ERO_0000071RO_0000056 /></a></td></tr>
       </viva:foreachERO_0000071RO_0000056Iterator>

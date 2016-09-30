@@ -23,8 +23,8 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>overview</td><td><viva:ConsortiumOverview /></td></tr>
       <tr><td>abbreviation</td><td><viva:ConsortiumAbbreviation /></td></tr>
+      <tr><td>overview</td><td><viva:ConsortiumOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -33,15 +33,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachConsortiumAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<viva:ConsortiumAssigneeForType/>/<viva:ConsortiumAssigneeForType/>.jsp?uri=<viva:ConsortiumAssigneeFor/>"><viva:ConsortiumAssigneeFor /></a></td></tr>
-      </viva:foreachConsortiumAssigneeForIterator>
-      <viva:foreachConsortiumHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<viva:ConsortiumHasCollaboratorType/>/<viva:ConsortiumHasCollaboratorType/>.jsp?uri=<viva:ConsortiumHasCollaborator/>"><viva:ConsortiumHasCollaborator /></a></td></tr>
-      </viva:foreachConsortiumHasCollaboratorIterator>
-      <viva:foreachConsortiumTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<viva:ConsortiumTranslatorOfType/>/<viva:ConsortiumTranslatorOfType/>.jsp?uri=<viva:ConsortiumTranslatorOf/>"><viva:ConsortiumTranslatorOf /></a></td></tr>
-      </viva:foreachConsortiumTranslatorOfIterator>
       <viva:foreachConsortiumSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:ConsortiumSponsorsType/>/<viva:ConsortiumSponsorsType/>.jsp?uri=<viva:ConsortiumSponsors/>"><viva:ConsortiumSponsors /></a></td></tr>
       </viva:foreachConsortiumSponsorsIterator>
@@ -84,16 +75,25 @@
       <viva:foreachConsortiumRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ConsortiumRO_0000056Type/>/<viva:ConsortiumRO_0000056Type/>.jsp?uri=<viva:ConsortiumRO_0000056/>"><viva:ConsortiumRO_0000056 /></a></td></tr>
       </viva:foreachConsortiumRO_0000056Iterator>
+      <viva:foreachConsortiumAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<viva:ConsortiumAssigneeForType/>/<viva:ConsortiumAssigneeForType/>.jsp?uri=<viva:ConsortiumAssigneeFor/>"><viva:ConsortiumAssigneeFor /></a></td></tr>
+      </viva:foreachConsortiumAssigneeForIterator>
+      <viva:foreachConsortiumHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<viva:ConsortiumHasCollaboratorType/>/<viva:ConsortiumHasCollaboratorType/>.jsp?uri=<viva:ConsortiumHasCollaborator/>"><viva:ConsortiumHasCollaborator /></a></td></tr>
+      </viva:foreachConsortiumHasCollaboratorIterator>
+      <viva:foreachConsortiumTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<viva:ConsortiumTranslatorOfType/>/<viva:ConsortiumTranslatorOfType/>.jsp?uri=<viva:ConsortiumTranslatorOf/>"><viva:ConsortiumTranslatorOf /></a></td></tr>
+      </viva:foreachConsortiumTranslatorOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachConsortiumIssuerInverseIterator>
-         <tr><td>issuer</td><td><a href="../<viva:ConsortiumIssuerInverseType/>/<viva:ConsortiumIssuerInverseType/>.jsp?uri=<viva:ConsortiumIssuerInverse/>"><viva:ConsortiumIssuerInverse/></a></td></tr>
-      </viva:foreachConsortiumIssuerInverseIterator>
       <viva:foreachConsortiumOBI_0000304InverseIterator>
          <tr><td>OBI_0000304</td><td><a href="../<viva:ConsortiumOBI_0000304InverseType/>/<viva:ConsortiumOBI_0000304InverseType/>.jsp?uri=<viva:ConsortiumOBI_0000304Inverse/>"><viva:ConsortiumOBI_0000304Inverse/></a></td></tr>
       </viva:foreachConsortiumOBI_0000304InverseIterator>
+      <viva:foreachConsortiumIssuerInverseIterator>
+         <tr><td>issuer</td><td><a href="../<viva:ConsortiumIssuerInverseType/>/<viva:ConsortiumIssuerInverseType/>.jsp?uri=<viva:ConsortiumIssuerInverse/>"><viva:ConsortiumIssuerInverse/></a></td></tr>
+      </viva:foreachConsortiumIssuerInverseIterator>
    </table>
    </viva:Consortium>
 

@@ -23,10 +23,10 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>overview</td><td><viva:LibrarianOverview /></td></tr>
       <tr><td>teachingOverview</td><td><viva:LibrarianTeachingOverview /></td></tr>
       <tr><td>outreachOverview</td><td><viva:LibrarianOutreachOverview /></td></tr>
       <tr><td>researchOverview</td><td><viva:LibrarianResearchOverview /></td></tr>
+      <tr><td>overview</td><td><viva:LibrarianOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -56,18 +56,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachLibrarianAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<viva:LibrarianAssigneeForType/>/<viva:LibrarianAssigneeForType/>.jsp?uri=<viva:LibrarianAssigneeFor/>"><viva:LibrarianAssigneeFor /></a></td></tr>
-      </viva:foreachLibrarianAssigneeForIterator>
-      <viva:foreachLibrarianHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<viva:LibrarianHasCollaboratorType/>/<viva:LibrarianHasCollaboratorType/>.jsp?uri=<viva:LibrarianHasCollaborator/>"><viva:LibrarianHasCollaborator /></a></td></tr>
-      </viva:foreachLibrarianHasCollaboratorIterator>
-      <viva:foreachLibrarianTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<viva:LibrarianTranslatorOfType/>/<viva:LibrarianTranslatorOfType/>.jsp?uri=<viva:LibrarianTranslatorOf/>"><viva:LibrarianTranslatorOf /></a></td></tr>
-      </viva:foreachLibrarianTranslatorOfIterator>
-      <viva:foreachLibrarianRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:LibrarianRO_0000053Type/>/<viva:LibrarianRO_0000053Type/>.jsp?uri=<viva:LibrarianRO_0000053/>"><viva:LibrarianRO_0000053 /></a></td></tr>
-      </viva:foreachLibrarianRO_0000053Iterator>
       <viva:foreachLibrarianERO_0000397Iterator>
          <tr><td>ERO_0000397</td><td><a href="../<viva:LibrarianERO_0000397Type/>/<viva:LibrarianERO_0000397Type/>.jsp?uri=<viva:LibrarianERO_0000397/>"><viva:LibrarianERO_0000397 /></a></td></tr>
       </viva:foreachLibrarianERO_0000397Iterator>
@@ -95,9 +83,21 @@
       <viva:foreachLibrarianOrcidIdIterator>
          <tr><td>orcidId</td><td><a href="../<viva:LibrarianOrcidIdType/>/<viva:LibrarianOrcidIdType/>.jsp?uri=<viva:LibrarianOrcidId/>"><viva:LibrarianOrcidId /></a></td></tr>
       </viva:foreachLibrarianOrcidIdIterator>
+      <viva:foreachLibrarianRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:LibrarianRO_0000053Type/>/<viva:LibrarianRO_0000053Type/>.jsp?uri=<viva:LibrarianRO_0000053/>"><viva:LibrarianRO_0000053 /></a></td></tr>
+      </viva:foreachLibrarianRO_0000053Iterator>
       <viva:foreachLibrarianRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:LibrarianRO_0000056Type/>/<viva:LibrarianRO_0000056Type/>.jsp?uri=<viva:LibrarianRO_0000056/>"><viva:LibrarianRO_0000056 /></a></td></tr>
       </viva:foreachLibrarianRO_0000056Iterator>
+      <viva:foreachLibrarianAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<viva:LibrarianAssigneeForType/>/<viva:LibrarianAssigneeForType/>.jsp?uri=<viva:LibrarianAssigneeFor/>"><viva:LibrarianAssigneeFor /></a></td></tr>
+      </viva:foreachLibrarianAssigneeForIterator>
+      <viva:foreachLibrarianHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<viva:LibrarianHasCollaboratorType/>/<viva:LibrarianHasCollaboratorType/>.jsp?uri=<viva:LibrarianHasCollaborator/>"><viva:LibrarianHasCollaborator /></a></td></tr>
+      </viva:foreachLibrarianHasCollaboratorIterator>
+      <viva:foreachLibrarianTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<viva:LibrarianTranslatorOfType/>/<viva:LibrarianTranslatorOfType/>.jsp?uri=<viva:LibrarianTranslatorOf/>"><viva:LibrarianTranslatorOf /></a></td></tr>
+      </viva:foreachLibrarianTranslatorOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

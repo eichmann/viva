@@ -36,15 +36,6 @@
       <viva:foreachGovernmentAgencyRelatedByIterator>
          <tr><td>relatedBy</td><td><a href="../<viva:GovernmentAgencyRelatedByType/>/<viva:GovernmentAgencyRelatedByType/>.jsp?uri=<viva:GovernmentAgencyRelatedBy/>"><viva:GovernmentAgencyRelatedBy /></a></td></tr>
       </viva:foreachGovernmentAgencyRelatedByIterator>
-      <viva:foreachGovernmentAgencyAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<viva:GovernmentAgencyAssigneeForType/>/<viva:GovernmentAgencyAssigneeForType/>.jsp?uri=<viva:GovernmentAgencyAssigneeFor/>"><viva:GovernmentAgencyAssigneeFor /></a></td></tr>
-      </viva:foreachGovernmentAgencyAssigneeForIterator>
-      <viva:foreachGovernmentAgencyHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<viva:GovernmentAgencyHasCollaboratorType/>/<viva:GovernmentAgencyHasCollaboratorType/>.jsp?uri=<viva:GovernmentAgencyHasCollaborator/>"><viva:GovernmentAgencyHasCollaborator /></a></td></tr>
-      </viva:foreachGovernmentAgencyHasCollaboratorIterator>
-      <viva:foreachGovernmentAgencyTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<viva:GovernmentAgencyTranslatorOfType/>/<viva:GovernmentAgencyTranslatorOfType/>.jsp?uri=<viva:GovernmentAgencyTranslatorOf/>"><viva:GovernmentAgencyTranslatorOf /></a></td></tr>
-      </viva:foreachGovernmentAgencyTranslatorOfIterator>
       <viva:foreachGovernmentAgencySponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:GovernmentAgencySponsorsType/>/<viva:GovernmentAgencySponsorsType/>.jsp?uri=<viva:GovernmentAgencySponsors/>"><viva:GovernmentAgencySponsors /></a></td></tr>
       </viva:foreachGovernmentAgencySponsorsIterator>
@@ -84,16 +75,25 @@
       <viva:foreachGovernmentAgencyRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:GovernmentAgencyRO_0000056Type/>/<viva:GovernmentAgencyRO_0000056Type/>.jsp?uri=<viva:GovernmentAgencyRO_0000056/>"><viva:GovernmentAgencyRO_0000056 /></a></td></tr>
       </viva:foreachGovernmentAgencyRO_0000056Iterator>
+      <viva:foreachGovernmentAgencyAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<viva:GovernmentAgencyAssigneeForType/>/<viva:GovernmentAgencyAssigneeForType/>.jsp?uri=<viva:GovernmentAgencyAssigneeFor/>"><viva:GovernmentAgencyAssigneeFor /></a></td></tr>
+      </viva:foreachGovernmentAgencyAssigneeForIterator>
+      <viva:foreachGovernmentAgencyHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<viva:GovernmentAgencyHasCollaboratorType/>/<viva:GovernmentAgencyHasCollaboratorType/>.jsp?uri=<viva:GovernmentAgencyHasCollaborator/>"><viva:GovernmentAgencyHasCollaborator /></a></td></tr>
+      </viva:foreachGovernmentAgencyHasCollaboratorIterator>
+      <viva:foreachGovernmentAgencyTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<viva:GovernmentAgencyTranslatorOfType/>/<viva:GovernmentAgencyTranslatorOfType/>.jsp?uri=<viva:GovernmentAgencyTranslatorOf/>"><viva:GovernmentAgencyTranslatorOf /></a></td></tr>
+      </viva:foreachGovernmentAgencyTranslatorOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachGovernmentAgencyIssuerInverseIterator>
-         <tr><td>issuer</td><td><a href="../<viva:GovernmentAgencyIssuerInverseType/>/<viva:GovernmentAgencyIssuerInverseType/>.jsp?uri=<viva:GovernmentAgencyIssuerInverse/>"><viva:GovernmentAgencyIssuerInverse/></a></td></tr>
-      </viva:foreachGovernmentAgencyIssuerInverseIterator>
       <viva:foreachGovernmentAgencyOBI_0000304InverseIterator>
          <tr><td>OBI_0000304</td><td><a href="../<viva:GovernmentAgencyOBI_0000304InverseType/>/<viva:GovernmentAgencyOBI_0000304InverseType/>.jsp?uri=<viva:GovernmentAgencyOBI_0000304Inverse/>"><viva:GovernmentAgencyOBI_0000304Inverse/></a></td></tr>
       </viva:foreachGovernmentAgencyOBI_0000304InverseIterator>
+      <viva:foreachGovernmentAgencyIssuerInverseIterator>
+         <tr><td>issuer</td><td><a href="../<viva:GovernmentAgencyIssuerInverseType/>/<viva:GovernmentAgencyIssuerInverseType/>.jsp?uri=<viva:GovernmentAgencyIssuerInverse/>"><viva:GovernmentAgencyIssuerInverse/></a></td></tr>
+      </viva:foreachGovernmentAgencyIssuerInverseIterator>
    </table>
    </viva:GovernmentAgency>
 

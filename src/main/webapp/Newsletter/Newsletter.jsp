@@ -37,18 +37,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachNewsletterTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:NewsletterTranslatorType/>/<viva:NewsletterTranslatorType/>.jsp?uri=<viva:NewsletterTranslator/>"><viva:NewsletterTranslator /></a></td></tr>
-      </viva:foreachNewsletterTranslatorIterator>
-      <viva:foreachNewsletterFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:NewsletterFeaturesType/>/<viva:NewsletterFeaturesType/>.jsp?uri=<viva:NewsletterFeatures/>"><viva:NewsletterFeatures /></a></td></tr>
-      </viva:foreachNewsletterFeaturesIterator>
-      <viva:foreachNewsletterInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:NewsletterInformationResourceSupportedByType/>/<viva:NewsletterInformationResourceSupportedByType/>.jsp?uri=<viva:NewsletterInformationResourceSupportedBy/>"><viva:NewsletterInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachNewsletterInformationResourceSupportedByIterator>
-      <viva:foreachNewsletterIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:NewsletterIAO_0000136Type/>/<viva:NewsletterIAO_0000136Type/>.jsp?uri=<viva:NewsletterIAO_0000136/>"><viva:NewsletterIAO_0000136 /></a></td></tr>
-      </viva:foreachNewsletterIAO_0000136Iterator>
       <viva:foreachNewsletterDateTimeValueIterator>
          <tr><td>dateTimeValue</td><td><a href="../<viva:NewsletterDateTimeValueType/>/<viva:NewsletterDateTimeValueType/>.jsp?uri=<viva:NewsletterDateTimeValue/>"><viva:NewsletterDateTimeValue /></a></td></tr>
       </viva:foreachNewsletterDateTimeValueIterator>
@@ -61,6 +49,18 @@
       <viva:foreachNewsletterRelatedByIterator>
          <tr><td>relatedBy</td><td><a href="../<viva:NewsletterRelatedByType/>/<viva:NewsletterRelatedByType/>.jsp?uri=<viva:NewsletterRelatedBy/>"><viva:NewsletterRelatedBy /></a></td></tr>
       </viva:foreachNewsletterRelatedByIterator>
+      <viva:foreachNewsletterTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:NewsletterTranslatorType/>/<viva:NewsletterTranslatorType/>.jsp?uri=<viva:NewsletterTranslator/>"><viva:NewsletterTranslator /></a></td></tr>
+      </viva:foreachNewsletterTranslatorIterator>
+      <viva:foreachNewsletterFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:NewsletterFeaturesType/>/<viva:NewsletterFeaturesType/>.jsp?uri=<viva:NewsletterFeatures/>"><viva:NewsletterFeatures /></a></td></tr>
+      </viva:foreachNewsletterFeaturesIterator>
+      <viva:foreachNewsletterInformationResourceSupportedByIterator>
+         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:NewsletterInformationResourceSupportedByType/>/<viva:NewsletterInformationResourceSupportedByType/>.jsp?uri=<viva:NewsletterInformationResourceSupportedBy/>"><viva:NewsletterInformationResourceSupportedBy /></a></td></tr>
+      </viva:foreachNewsletterInformationResourceSupportedByIterator>
+      <viva:foreachNewsletterIAO_0000136Iterator>
+         <tr><td>IAO_0000136</td><td><a href="../<viva:NewsletterIAO_0000136Type/>/<viva:NewsletterIAO_0000136Type/>.jsp?uri=<viva:NewsletterIAO_0000136/>"><viva:NewsletterIAO_0000136 /></a></td></tr>
+      </viva:foreachNewsletterIAO_0000136Iterator>
       <viva:foreachNewsletterRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:NewsletterRO_0000056Type/>/<viva:NewsletterRO_0000056Type/>.jsp?uri=<viva:NewsletterRO_0000056/>"><viva:NewsletterRO_0000056 /></a></td></tr>
       </viva:foreachNewsletterRO_0000056Iterator>
