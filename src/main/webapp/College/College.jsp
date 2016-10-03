@@ -29,10 +29,19 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachCollegeSuffixNameIterator>
+         <tr><td>suffixName</td><td><viva:CollegeSuffixName /></td></tr>
+      </viva:foreachCollegeSuffixNameIterator>
+      <viva:foreachCollegePrefixNameIterator>
+         <tr><td>prefixName</td><td><viva:CollegePrefixName /></td></tr>
+      </viva:foreachCollegePrefixNameIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachCollegeRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:CollegeRO_0000053Type/>/<viva:CollegeRO_0000053Type/>.jsp?uri=<viva:CollegeRO_0000053/>"><viva:CollegeRO_0000053 /></a></td></tr>
+      </viva:foreachCollegeRO_0000053Iterator>
       <viva:foreachCollegeSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:CollegeSponsorsType/>/<viva:CollegeSponsorsType/>.jsp?uri=<viva:CollegeSponsors/>"><viva:CollegeSponsors /></a></td></tr>
       </viva:foreachCollegeSponsorsIterator>
@@ -69,9 +78,6 @@
       <viva:foreachCollegeAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<viva:CollegeAffiliatedOrganizationType/>/<viva:CollegeAffiliatedOrganizationType/>.jsp?uri=<viva:CollegeAffiliatedOrganization/>"><viva:CollegeAffiliatedOrganization /></a></td></tr>
       </viva:foreachCollegeAffiliatedOrganizationIterator>
-      <viva:foreachCollegeRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:CollegeRO_0000053Type/>/<viva:CollegeRO_0000053Type/>.jsp?uri=<viva:CollegeRO_0000053/>"><viva:CollegeRO_0000053 /></a></td></tr>
-      </viva:foreachCollegeRO_0000053Iterator>
       <viva:foreachCollegeRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:CollegeRO_0000056Type/>/<viva:CollegeRO_0000056Type/>.jsp?uri=<viva:CollegeRO_0000056/>"><viva:CollegeRO_0000056 /></a></td></tr>
       </viva:foreachCollegeRO_0000056Iterator>
@@ -81,6 +87,12 @@
       <viva:foreachCollegeHasCollaboratorIterator>
          <tr><td>hasCollaborator</td><td><a href="../<viva:CollegeHasCollaboratorType/>/<viva:CollegeHasCollaboratorType/>.jsp?uri=<viva:CollegeHasCollaborator/>"><viva:CollegeHasCollaborator /></a></td></tr>
       </viva:foreachCollegeHasCollaboratorIterator>
+      <viva:foreachCollegeInterviewerIterator>
+         <tr><td>interviewer</td><td><a href="../<viva:CollegeInterviewerType/>/<viva:CollegeInterviewerType/>.jsp?uri=<viva:CollegeInterviewer/>"><viva:CollegeInterviewer /></a></td></tr>
+      </viva:foreachCollegeInterviewerIterator>
+      <viva:foreachCollegeIntervieweeIterator>
+         <tr><td>interviewee</td><td><a href="../<viva:CollegeIntervieweeType/>/<viva:CollegeIntervieweeType/>.jsp?uri=<viva:CollegeInterviewee/>"><viva:CollegeInterviewee /></a></td></tr>
+      </viva:foreachCollegeIntervieweeIterator>
       <viva:foreachCollegeTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:CollegeTranslatorOfType/>/<viva:CollegeTranslatorOfType/>.jsp?uri=<viva:CollegeTranslatorOf/>"><viva:CollegeTranslatorOf /></a></td></tr>
       </viva:foreachCollegeTranslatorOfIterator>
@@ -91,9 +103,33 @@
       <viva:foreachCollegeOBI_0000304InverseIterator>
          <tr><td>OBI_0000304</td><td><a href="../<viva:CollegeOBI_0000304InverseType/>/<viva:CollegeOBI_0000304InverseType/>.jsp?uri=<viva:CollegeOBI_0000304Inverse/>"><viva:CollegeOBI_0000304Inverse/></a></td></tr>
       </viva:foreachCollegeOBI_0000304InverseIterator>
+      <viva:foreachCollegeCourtInverseIterator>
+         <tr><td>court</td><td><a href="../<viva:CollegeCourtInverseType/>/<viva:CollegeCourtInverseType/>.jsp?uri=<viva:CollegeCourtInverse/>"><viva:CollegeCourtInverse/></a></td></tr>
+      </viva:foreachCollegeCourtInverseIterator>
+      <viva:foreachCollegeOrganizerInverseIterator>
+         <tr><td>organizer</td><td><a href="../<viva:CollegeOrganizerInverseType/>/<viva:CollegeOrganizerInverseType/>.jsp?uri=<viva:CollegeOrganizerInverse/>"><viva:CollegeOrganizerInverse/></a></td></tr>
+      </viva:foreachCollegeOrganizerInverseIterator>
+      <viva:foreachCollegeRecipientInverseIterator>
+         <tr><td>recipient</td><td><a href="../<viva:CollegeRecipientInverseType/>/<viva:CollegeRecipientInverseType/>.jsp?uri=<viva:CollegeRecipientInverse/>"><viva:CollegeRecipientInverse/></a></td></tr>
+      </viva:foreachCollegeRecipientInverseIterator>
+      <viva:foreachCollegeEditorInverseIterator>
+         <tr><td>editor</td><td><a href="../<viva:CollegeEditorInverseType/>/<viva:CollegeEditorInverseType/>.jsp?uri=<viva:CollegeEditorInverse/>"><viva:CollegeEditorInverse/></a></td></tr>
+      </viva:foreachCollegeEditorInverseIterator>
+      <viva:foreachCollegeOwnerInverseIterator>
+         <tr><td>owner</td><td><a href="../<viva:CollegeOwnerInverseType/>/<viva:CollegeOwnerInverseType/>.jsp?uri=<viva:CollegeOwnerInverse/>"><viva:CollegeOwnerInverse/></a></td></tr>
+      </viva:foreachCollegeOwnerInverseIterator>
+      <viva:foreachCollegePerformerInverseIterator>
+         <tr><td>performer</td><td><a href="../<viva:CollegePerformerInverseType/>/<viva:CollegePerformerInverseType/>.jsp?uri=<viva:CollegePerformerInverse/>"><viva:CollegePerformerInverse/></a></td></tr>
+      </viva:foreachCollegePerformerInverseIterator>
       <viva:foreachCollegeIssuerInverseIterator>
          <tr><td>issuer</td><td><a href="../<viva:CollegeIssuerInverseType/>/<viva:CollegeIssuerInverseType/>.jsp?uri=<viva:CollegeIssuerInverse/>"><viva:CollegeIssuerInverse/></a></td></tr>
       </viva:foreachCollegeIssuerInverseIterator>
+      <viva:foreachCollegeProducerInverseIterator>
+         <tr><td>producer</td><td><a href="../<viva:CollegeProducerInverseType/>/<viva:CollegeProducerInverseType/>.jsp?uri=<viva:CollegeProducerInverse/>"><viva:CollegeProducerInverse/></a></td></tr>
+      </viva:foreachCollegeProducerInverseIterator>
+      <viva:foreachCollegeDirectorInverseIterator>
+         <tr><td>director</td><td><a href="../<viva:CollegeDirectorInverseType/>/<viva:CollegeDirectorInverseType/>.jsp?uri=<viva:CollegeDirectorInverse/>"><viva:CollegeDirectorInverse/></a></td></tr>
+      </viva:foreachCollegeDirectorInverseIterator>
    </table>
    </viva:College>
 

@@ -23,14 +23,23 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
+      <tr><td>overview</td><td><viva:LibrarianOverview /></td></tr>
       <tr><td>teachingOverview</td><td><viva:LibrarianTeachingOverview /></td></tr>
       <tr><td>outreachOverview</td><td><viva:LibrarianOutreachOverview /></td></tr>
       <tr><td>researchOverview</td><td><viva:LibrarianResearchOverview /></td></tr>
-      <tr><td>overview</td><td><viva:LibrarianOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachLibrarianSuffixNameIterator>
+         <tr><td>suffixName</td><td><viva:LibrarianSuffixName /></td></tr>
+      </viva:foreachLibrarianSuffixNameIterator>
+      <viva:foreachLibrarianPrefixNameIterator>
+         <tr><td>prefixName</td><td><viva:LibrarianPrefixName /></td></tr>
+      </viva:foreachLibrarianPrefixNameIterator>
+      <viva:foreachLibrarianSameAsIterator>
+         <tr><td>sameAs</td><td><a href="<viva:LibrarianSameAs />"><viva:LibrarianSameAs /></a></td></tr>
+      </viva:foreachLibrarianSameAsIterator>
       <viva:foreachLibrarianERACommonsIdIterator>
          <tr><td>eRACommonsId</td><td><viva:LibrarianERACommonsId /></td></tr>
       </viva:foreachLibrarianERACommonsIdIterator>
@@ -46,9 +55,6 @@
       <viva:foreachLibrarianResearcherIdIterator>
          <tr><td>researcherId</td><td><viva:LibrarianResearcherId /></td></tr>
       </viva:foreachLibrarianResearcherIdIterator>
-      <viva:foreachLibrarianSameAsIterator>
-         <tr><td>sameAs</td><td><a href="<viva:LibrarianSameAs />"><viva:LibrarianSameAs /></a></td></tr>
-      </viva:foreachLibrarianSameAsIterator>
       <viva:foreachLibrarianFreetextKeywordIterator>
          <tr><td>freetextKeyword</td><td><viva:LibrarianFreetextKeyword /></td></tr>
       </viva:foreachLibrarianFreetextKeywordIterator>
@@ -56,6 +62,27 @@
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachLibrarianRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:LibrarianRO_0000053Type/>/<viva:LibrarianRO_0000053Type/>.jsp?uri=<viva:LibrarianRO_0000053/>"><viva:LibrarianRO_0000053 /></a></td></tr>
+      </viva:foreachLibrarianRO_0000053Iterator>
+      <viva:foreachLibrarianRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:LibrarianRO_0000056Type/>/<viva:LibrarianRO_0000056Type/>.jsp?uri=<viva:LibrarianRO_0000056/>"><viva:LibrarianRO_0000056 /></a></td></tr>
+      </viva:foreachLibrarianRO_0000056Iterator>
+      <viva:foreachLibrarianAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<viva:LibrarianAssigneeForType/>/<viva:LibrarianAssigneeForType/>.jsp?uri=<viva:LibrarianAssigneeFor/>"><viva:LibrarianAssigneeFor /></a></td></tr>
+      </viva:foreachLibrarianAssigneeForIterator>
+      <viva:foreachLibrarianHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<viva:LibrarianHasCollaboratorType/>/<viva:LibrarianHasCollaboratorType/>.jsp?uri=<viva:LibrarianHasCollaborator/>"><viva:LibrarianHasCollaborator /></a></td></tr>
+      </viva:foreachLibrarianHasCollaboratorIterator>
+      <viva:foreachLibrarianInterviewerIterator>
+         <tr><td>interviewer</td><td><a href="../<viva:LibrarianInterviewerType/>/<viva:LibrarianInterviewerType/>.jsp?uri=<viva:LibrarianInterviewer/>"><viva:LibrarianInterviewer /></a></td></tr>
+      </viva:foreachLibrarianInterviewerIterator>
+      <viva:foreachLibrarianIntervieweeIterator>
+         <tr><td>interviewee</td><td><a href="../<viva:LibrarianIntervieweeType/>/<viva:LibrarianIntervieweeType/>.jsp?uri=<viva:LibrarianInterviewee/>"><viva:LibrarianInterviewee /></a></td></tr>
+      </viva:foreachLibrarianIntervieweeIterator>
+      <viva:foreachLibrarianTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<viva:LibrarianTranslatorOfType/>/<viva:LibrarianTranslatorOfType/>.jsp?uri=<viva:LibrarianTranslatorOf/>"><viva:LibrarianTranslatorOf /></a></td></tr>
+      </viva:foreachLibrarianTranslatorOfIterator>
       <viva:foreachLibrarianERO_0000397Iterator>
          <tr><td>ERO_0000397</td><td><a href="../<viva:LibrarianERO_0000397Type/>/<viva:LibrarianERO_0000397Type/>.jsp?uri=<viva:LibrarianERO_0000397/>"><viva:LibrarianERO_0000397 /></a></td></tr>
       </viva:foreachLibrarianERO_0000397Iterator>
@@ -83,28 +110,34 @@
       <viva:foreachLibrarianOrcidIdIterator>
          <tr><td>orcidId</td><td><a href="../<viva:LibrarianOrcidIdType/>/<viva:LibrarianOrcidIdType/>.jsp?uri=<viva:LibrarianOrcidId/>"><viva:LibrarianOrcidId /></a></td></tr>
       </viva:foreachLibrarianOrcidIdIterator>
-      <viva:foreachLibrarianRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:LibrarianRO_0000053Type/>/<viva:LibrarianRO_0000053Type/>.jsp?uri=<viva:LibrarianRO_0000053/>"><viva:LibrarianRO_0000053 /></a></td></tr>
-      </viva:foreachLibrarianRO_0000053Iterator>
-      <viva:foreachLibrarianRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:LibrarianRO_0000056Type/>/<viva:LibrarianRO_0000056Type/>.jsp?uri=<viva:LibrarianRO_0000056/>"><viva:LibrarianRO_0000056 /></a></td></tr>
-      </viva:foreachLibrarianRO_0000056Iterator>
-      <viva:foreachLibrarianAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<viva:LibrarianAssigneeForType/>/<viva:LibrarianAssigneeForType/>.jsp?uri=<viva:LibrarianAssigneeFor/>"><viva:LibrarianAssigneeFor /></a></td></tr>
-      </viva:foreachLibrarianAssigneeForIterator>
-      <viva:foreachLibrarianHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<viva:LibrarianHasCollaboratorType/>/<viva:LibrarianHasCollaboratorType/>.jsp?uri=<viva:LibrarianHasCollaborator/>"><viva:LibrarianHasCollaborator /></a></td></tr>
-      </viva:foreachLibrarianHasCollaboratorIterator>
-      <viva:foreachLibrarianTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<viva:LibrarianTranslatorOfType/>/<viva:LibrarianTranslatorOfType/>.jsp?uri=<viva:LibrarianTranslatorOf/>"><viva:LibrarianTranslatorOf /></a></td></tr>
-      </viva:foreachLibrarianTranslatorOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
+      <viva:foreachLibrarianOrganizerInverseIterator>
+         <tr><td>organizer</td><td><a href="../<viva:LibrarianOrganizerInverseType/>/<viva:LibrarianOrganizerInverseType/>.jsp?uri=<viva:LibrarianOrganizerInverse/>"><viva:LibrarianOrganizerInverse/></a></td></tr>
+      </viva:foreachLibrarianOrganizerInverseIterator>
+      <viva:foreachLibrarianRecipientInverseIterator>
+         <tr><td>recipient</td><td><a href="../<viva:LibrarianRecipientInverseType/>/<viva:LibrarianRecipientInverseType/>.jsp?uri=<viva:LibrarianRecipientInverse/>"><viva:LibrarianRecipientInverse/></a></td></tr>
+      </viva:foreachLibrarianRecipientInverseIterator>
+      <viva:foreachLibrarianEditorInverseIterator>
+         <tr><td>editor</td><td><a href="../<viva:LibrarianEditorInverseType/>/<viva:LibrarianEditorInverseType/>.jsp?uri=<viva:LibrarianEditorInverse/>"><viva:LibrarianEditorInverse/></a></td></tr>
+      </viva:foreachLibrarianEditorInverseIterator>
+      <viva:foreachLibrarianOwnerInverseIterator>
+         <tr><td>owner</td><td><a href="../<viva:LibrarianOwnerInverseType/>/<viva:LibrarianOwnerInverseType/>.jsp?uri=<viva:LibrarianOwnerInverse/>"><viva:LibrarianOwnerInverse/></a></td></tr>
+      </viva:foreachLibrarianOwnerInverseIterator>
+      <viva:foreachLibrarianPerformerInverseIterator>
+         <tr><td>performer</td><td><a href="../<viva:LibrarianPerformerInverseType/>/<viva:LibrarianPerformerInverseType/>.jsp?uri=<viva:LibrarianPerformerInverse/>"><viva:LibrarianPerformerInverse/></a></td></tr>
+      </viva:foreachLibrarianPerformerInverseIterator>
       <viva:foreachLibrarianIssuerInverseIterator>
          <tr><td>issuer</td><td><a href="../<viva:LibrarianIssuerInverseType/>/<viva:LibrarianIssuerInverseType/>.jsp?uri=<viva:LibrarianIssuerInverse/>"><viva:LibrarianIssuerInverse/></a></td></tr>
       </viva:foreachLibrarianIssuerInverseIterator>
+      <viva:foreachLibrarianProducerInverseIterator>
+         <tr><td>producer</td><td><a href="../<viva:LibrarianProducerInverseType/>/<viva:LibrarianProducerInverseType/>.jsp?uri=<viva:LibrarianProducerInverse/>"><viva:LibrarianProducerInverse/></a></td></tr>
+      </viva:foreachLibrarianProducerInverseIterator>
+      <viva:foreachLibrarianDirectorInverseIterator>
+         <tr><td>director</td><td><a href="../<viva:LibrarianDirectorInverseType/>/<viva:LibrarianDirectorInverseType/>.jsp?uri=<viva:LibrarianDirectorInverse/>"><viva:LibrarianDirectorInverse/></a></td></tr>
+      </viva:foreachLibrarianDirectorInverseIterator>
    </table>
    </viva:Librarian>
 

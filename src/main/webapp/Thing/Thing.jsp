@@ -27,10 +27,22 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachThingTopDataPropertyIterator>
+         <tr><td>topDataProperty</td><td><viva:ThingTopDataProperty /></td></tr>
+      </viva:foreachThingTopDataPropertyIterator>
+      <viva:foreachThingBottomDataPropertyIterator>
+         <tr><td>bottomDataProperty</td><td><viva:ThingBottomDataProperty /></td></tr>
+      </viva:foreachThingBottomDataPropertyIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachThingBottomObjectPropertyIterator>
+         <tr><td>bottomObjectProperty</td><td><a href="../<viva:ThingBottomObjectPropertyType/>/<viva:ThingBottomObjectPropertyType/>.jsp?uri=<viva:ThingBottomObjectProperty/>"><viva:ThingBottomObjectProperty /></a></td></tr>
+      </viva:foreachThingBottomObjectPropertyIterator>
+      <viva:foreachThingTopObjectPropertyIterator>
+         <tr><td>topObjectProperty</td><td><a href="../<viva:ThingTopObjectPropertyType/>/<viva:ThingTopObjectPropertyType/>.jsp?uri=<viva:ThingTopObjectProperty/>"><viva:ThingTopObjectProperty /></a></td></tr>
+      </viva:foreachThingTopObjectPropertyIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

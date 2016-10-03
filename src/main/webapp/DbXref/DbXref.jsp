@@ -27,19 +27,10 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachDbXrefTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:DbXrefTheAbstract /></td></tr>
-      </viva:foreachDbXrefTheAbstractIterator>
-      <viva:foreachDbXrefDoiIterator>
-         <tr><td>doi</td><td><viva:DbXrefDoi /></td></tr>
-      </viva:foreachDbXrefDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachDbXrefTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:DbXrefTranslatorType/>/<viva:DbXrefTranslatorType/>.jsp?uri=<viva:DbXrefTranslator/>"><viva:DbXrefTranslator /></a></td></tr>
-      </viva:foreachDbXrefTranslatorIterator>
       <viva:foreachDbXrefFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:DbXrefFeaturesType/>/<viva:DbXrefFeaturesType/>.jsp?uri=<viva:DbXrefFeatures/>"><viva:DbXrefFeatures /></a></td></tr>
       </viva:foreachDbXrefFeaturesIterator>

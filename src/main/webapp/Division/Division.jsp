@@ -29,10 +29,19 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachDivisionSuffixNameIterator>
+         <tr><td>suffixName</td><td><viva:DivisionSuffixName /></td></tr>
+      </viva:foreachDivisionSuffixNameIterator>
+      <viva:foreachDivisionPrefixNameIterator>
+         <tr><td>prefixName</td><td><viva:DivisionPrefixName /></td></tr>
+      </viva:foreachDivisionPrefixNameIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachDivisionRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:DivisionRO_0000053Type/>/<viva:DivisionRO_0000053Type/>.jsp?uri=<viva:DivisionRO_0000053/>"><viva:DivisionRO_0000053 /></a></td></tr>
+      </viva:foreachDivisionRO_0000053Iterator>
       <viva:foreachDivisionSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:DivisionSponsorsType/>/<viva:DivisionSponsorsType/>.jsp?uri=<viva:DivisionSponsors/>"><viva:DivisionSponsors /></a></td></tr>
       </viva:foreachDivisionSponsorsIterator>
@@ -69,9 +78,6 @@
       <viva:foreachDivisionAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<viva:DivisionAffiliatedOrganizationType/>/<viva:DivisionAffiliatedOrganizationType/>.jsp?uri=<viva:DivisionAffiliatedOrganization/>"><viva:DivisionAffiliatedOrganization /></a></td></tr>
       </viva:foreachDivisionAffiliatedOrganizationIterator>
-      <viva:foreachDivisionRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:DivisionRO_0000053Type/>/<viva:DivisionRO_0000053Type/>.jsp?uri=<viva:DivisionRO_0000053/>"><viva:DivisionRO_0000053 /></a></td></tr>
-      </viva:foreachDivisionRO_0000053Iterator>
       <viva:foreachDivisionRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:DivisionRO_0000056Type/>/<viva:DivisionRO_0000056Type/>.jsp?uri=<viva:DivisionRO_0000056/>"><viva:DivisionRO_0000056 /></a></td></tr>
       </viva:foreachDivisionRO_0000056Iterator>
@@ -81,6 +87,12 @@
       <viva:foreachDivisionHasCollaboratorIterator>
          <tr><td>hasCollaborator</td><td><a href="../<viva:DivisionHasCollaboratorType/>/<viva:DivisionHasCollaboratorType/>.jsp?uri=<viva:DivisionHasCollaborator/>"><viva:DivisionHasCollaborator /></a></td></tr>
       </viva:foreachDivisionHasCollaboratorIterator>
+      <viva:foreachDivisionInterviewerIterator>
+         <tr><td>interviewer</td><td><a href="../<viva:DivisionInterviewerType/>/<viva:DivisionInterviewerType/>.jsp?uri=<viva:DivisionInterviewer/>"><viva:DivisionInterviewer /></a></td></tr>
+      </viva:foreachDivisionInterviewerIterator>
+      <viva:foreachDivisionIntervieweeIterator>
+         <tr><td>interviewee</td><td><a href="../<viva:DivisionIntervieweeType/>/<viva:DivisionIntervieweeType/>.jsp?uri=<viva:DivisionInterviewee/>"><viva:DivisionInterviewee /></a></td></tr>
+      </viva:foreachDivisionIntervieweeIterator>
       <viva:foreachDivisionTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:DivisionTranslatorOfType/>/<viva:DivisionTranslatorOfType/>.jsp?uri=<viva:DivisionTranslatorOf/>"><viva:DivisionTranslatorOf /></a></td></tr>
       </viva:foreachDivisionTranslatorOfIterator>
@@ -91,9 +103,33 @@
       <viva:foreachDivisionOBI_0000304InverseIterator>
          <tr><td>OBI_0000304</td><td><a href="../<viva:DivisionOBI_0000304InverseType/>/<viva:DivisionOBI_0000304InverseType/>.jsp?uri=<viva:DivisionOBI_0000304Inverse/>"><viva:DivisionOBI_0000304Inverse/></a></td></tr>
       </viva:foreachDivisionOBI_0000304InverseIterator>
+      <viva:foreachDivisionCourtInverseIterator>
+         <tr><td>court</td><td><a href="../<viva:DivisionCourtInverseType/>/<viva:DivisionCourtInverseType/>.jsp?uri=<viva:DivisionCourtInverse/>"><viva:DivisionCourtInverse/></a></td></tr>
+      </viva:foreachDivisionCourtInverseIterator>
+      <viva:foreachDivisionOrganizerInverseIterator>
+         <tr><td>organizer</td><td><a href="../<viva:DivisionOrganizerInverseType/>/<viva:DivisionOrganizerInverseType/>.jsp?uri=<viva:DivisionOrganizerInverse/>"><viva:DivisionOrganizerInverse/></a></td></tr>
+      </viva:foreachDivisionOrganizerInverseIterator>
+      <viva:foreachDivisionRecipientInverseIterator>
+         <tr><td>recipient</td><td><a href="../<viva:DivisionRecipientInverseType/>/<viva:DivisionRecipientInverseType/>.jsp?uri=<viva:DivisionRecipientInverse/>"><viva:DivisionRecipientInverse/></a></td></tr>
+      </viva:foreachDivisionRecipientInverseIterator>
+      <viva:foreachDivisionEditorInverseIterator>
+         <tr><td>editor</td><td><a href="../<viva:DivisionEditorInverseType/>/<viva:DivisionEditorInverseType/>.jsp?uri=<viva:DivisionEditorInverse/>"><viva:DivisionEditorInverse/></a></td></tr>
+      </viva:foreachDivisionEditorInverseIterator>
+      <viva:foreachDivisionOwnerInverseIterator>
+         <tr><td>owner</td><td><a href="../<viva:DivisionOwnerInverseType/>/<viva:DivisionOwnerInverseType/>.jsp?uri=<viva:DivisionOwnerInverse/>"><viva:DivisionOwnerInverse/></a></td></tr>
+      </viva:foreachDivisionOwnerInverseIterator>
+      <viva:foreachDivisionPerformerInverseIterator>
+         <tr><td>performer</td><td><a href="../<viva:DivisionPerformerInverseType/>/<viva:DivisionPerformerInverseType/>.jsp?uri=<viva:DivisionPerformerInverse/>"><viva:DivisionPerformerInverse/></a></td></tr>
+      </viva:foreachDivisionPerformerInverseIterator>
       <viva:foreachDivisionIssuerInverseIterator>
          <tr><td>issuer</td><td><a href="../<viva:DivisionIssuerInverseType/>/<viva:DivisionIssuerInverseType/>.jsp?uri=<viva:DivisionIssuerInverse/>"><viva:DivisionIssuerInverse/></a></td></tr>
       </viva:foreachDivisionIssuerInverseIterator>
+      <viva:foreachDivisionProducerInverseIterator>
+         <tr><td>producer</td><td><a href="../<viva:DivisionProducerInverseType/>/<viva:DivisionProducerInverseType/>.jsp?uri=<viva:DivisionProducerInverse/>"><viva:DivisionProducerInverse/></a></td></tr>
+      </viva:foreachDivisionProducerInverseIterator>
+      <viva:foreachDivisionDirectorInverseIterator>
+         <tr><td>director</td><td><a href="../<viva:DivisionDirectorInverseType/>/<viva:DivisionDirectorInverseType/>.jsp?uri=<viva:DivisionDirectorInverse/>"><viva:DivisionDirectorInverse/></a></td></tr>
+      </viva:foreachDivisionDirectorInverseIterator>
    </table>
    </viva:Division>
 

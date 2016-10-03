@@ -23,14 +23,23 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
+      <tr><td>overview</td><td><viva:PostdocOverview /></td></tr>
       <tr><td>teachingOverview</td><td><viva:PostdocTeachingOverview /></td></tr>
       <tr><td>outreachOverview</td><td><viva:PostdocOutreachOverview /></td></tr>
       <tr><td>researchOverview</td><td><viva:PostdocResearchOverview /></td></tr>
-      <tr><td>overview</td><td><viva:PostdocOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachPostdocSuffixNameIterator>
+         <tr><td>suffixName</td><td><viva:PostdocSuffixName /></td></tr>
+      </viva:foreachPostdocSuffixNameIterator>
+      <viva:foreachPostdocPrefixNameIterator>
+         <tr><td>prefixName</td><td><viva:PostdocPrefixName /></td></tr>
+      </viva:foreachPostdocPrefixNameIterator>
+      <viva:foreachPostdocSameAsIterator>
+         <tr><td>sameAs</td><td><a href="<viva:PostdocSameAs />"><viva:PostdocSameAs /></a></td></tr>
+      </viva:foreachPostdocSameAsIterator>
       <viva:foreachPostdocERACommonsIdIterator>
          <tr><td>eRACommonsId</td><td><viva:PostdocERACommonsId /></td></tr>
       </viva:foreachPostdocERACommonsIdIterator>
@@ -46,9 +55,6 @@
       <viva:foreachPostdocResearcherIdIterator>
          <tr><td>researcherId</td><td><viva:PostdocResearcherId /></td></tr>
       </viva:foreachPostdocResearcherIdIterator>
-      <viva:foreachPostdocSameAsIterator>
-         <tr><td>sameAs</td><td><a href="<viva:PostdocSameAs />"><viva:PostdocSameAs /></a></td></tr>
-      </viva:foreachPostdocSameAsIterator>
       <viva:foreachPostdocFreetextKeywordIterator>
          <tr><td>freetextKeyword</td><td><viva:PostdocFreetextKeyword /></td></tr>
       </viva:foreachPostdocFreetextKeywordIterator>
@@ -56,6 +62,27 @@
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachPostdocRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:PostdocRO_0000053Type/>/<viva:PostdocRO_0000053Type/>.jsp?uri=<viva:PostdocRO_0000053/>"><viva:PostdocRO_0000053 /></a></td></tr>
+      </viva:foreachPostdocRO_0000053Iterator>
+      <viva:foreachPostdocRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:PostdocRO_0000056Type/>/<viva:PostdocRO_0000056Type/>.jsp?uri=<viva:PostdocRO_0000056/>"><viva:PostdocRO_0000056 /></a></td></tr>
+      </viva:foreachPostdocRO_0000056Iterator>
+      <viva:foreachPostdocAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<viva:PostdocAssigneeForType/>/<viva:PostdocAssigneeForType/>.jsp?uri=<viva:PostdocAssigneeFor/>"><viva:PostdocAssigneeFor /></a></td></tr>
+      </viva:foreachPostdocAssigneeForIterator>
+      <viva:foreachPostdocHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<viva:PostdocHasCollaboratorType/>/<viva:PostdocHasCollaboratorType/>.jsp?uri=<viva:PostdocHasCollaborator/>"><viva:PostdocHasCollaborator /></a></td></tr>
+      </viva:foreachPostdocHasCollaboratorIterator>
+      <viva:foreachPostdocInterviewerIterator>
+         <tr><td>interviewer</td><td><a href="../<viva:PostdocInterviewerType/>/<viva:PostdocInterviewerType/>.jsp?uri=<viva:PostdocInterviewer/>"><viva:PostdocInterviewer /></a></td></tr>
+      </viva:foreachPostdocInterviewerIterator>
+      <viva:foreachPostdocIntervieweeIterator>
+         <tr><td>interviewee</td><td><a href="../<viva:PostdocIntervieweeType/>/<viva:PostdocIntervieweeType/>.jsp?uri=<viva:PostdocInterviewee/>"><viva:PostdocInterviewee /></a></td></tr>
+      </viva:foreachPostdocIntervieweeIterator>
+      <viva:foreachPostdocTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<viva:PostdocTranslatorOfType/>/<viva:PostdocTranslatorOfType/>.jsp?uri=<viva:PostdocTranslatorOf/>"><viva:PostdocTranslatorOf /></a></td></tr>
+      </viva:foreachPostdocTranslatorOfIterator>
       <viva:foreachPostdocERO_0000397Iterator>
          <tr><td>ERO_0000397</td><td><a href="../<viva:PostdocERO_0000397Type/>/<viva:PostdocERO_0000397Type/>.jsp?uri=<viva:PostdocERO_0000397/>"><viva:PostdocERO_0000397 /></a></td></tr>
       </viva:foreachPostdocERO_0000397Iterator>
@@ -83,28 +110,34 @@
       <viva:foreachPostdocOrcidIdIterator>
          <tr><td>orcidId</td><td><a href="../<viva:PostdocOrcidIdType/>/<viva:PostdocOrcidIdType/>.jsp?uri=<viva:PostdocOrcidId/>"><viva:PostdocOrcidId /></a></td></tr>
       </viva:foreachPostdocOrcidIdIterator>
-      <viva:foreachPostdocRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:PostdocRO_0000053Type/>/<viva:PostdocRO_0000053Type/>.jsp?uri=<viva:PostdocRO_0000053/>"><viva:PostdocRO_0000053 /></a></td></tr>
-      </viva:foreachPostdocRO_0000053Iterator>
-      <viva:foreachPostdocRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:PostdocRO_0000056Type/>/<viva:PostdocRO_0000056Type/>.jsp?uri=<viva:PostdocRO_0000056/>"><viva:PostdocRO_0000056 /></a></td></tr>
-      </viva:foreachPostdocRO_0000056Iterator>
-      <viva:foreachPostdocAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<viva:PostdocAssigneeForType/>/<viva:PostdocAssigneeForType/>.jsp?uri=<viva:PostdocAssigneeFor/>"><viva:PostdocAssigneeFor /></a></td></tr>
-      </viva:foreachPostdocAssigneeForIterator>
-      <viva:foreachPostdocHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<viva:PostdocHasCollaboratorType/>/<viva:PostdocHasCollaboratorType/>.jsp?uri=<viva:PostdocHasCollaborator/>"><viva:PostdocHasCollaborator /></a></td></tr>
-      </viva:foreachPostdocHasCollaboratorIterator>
-      <viva:foreachPostdocTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<viva:PostdocTranslatorOfType/>/<viva:PostdocTranslatorOfType/>.jsp?uri=<viva:PostdocTranslatorOf/>"><viva:PostdocTranslatorOf /></a></td></tr>
-      </viva:foreachPostdocTranslatorOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
+      <viva:foreachPostdocOrganizerInverseIterator>
+         <tr><td>organizer</td><td><a href="../<viva:PostdocOrganizerInverseType/>/<viva:PostdocOrganizerInverseType/>.jsp?uri=<viva:PostdocOrganizerInverse/>"><viva:PostdocOrganizerInverse/></a></td></tr>
+      </viva:foreachPostdocOrganizerInverseIterator>
+      <viva:foreachPostdocRecipientInverseIterator>
+         <tr><td>recipient</td><td><a href="../<viva:PostdocRecipientInverseType/>/<viva:PostdocRecipientInverseType/>.jsp?uri=<viva:PostdocRecipientInverse/>"><viva:PostdocRecipientInverse/></a></td></tr>
+      </viva:foreachPostdocRecipientInverseIterator>
+      <viva:foreachPostdocEditorInverseIterator>
+         <tr><td>editor</td><td><a href="../<viva:PostdocEditorInverseType/>/<viva:PostdocEditorInverseType/>.jsp?uri=<viva:PostdocEditorInverse/>"><viva:PostdocEditorInverse/></a></td></tr>
+      </viva:foreachPostdocEditorInverseIterator>
+      <viva:foreachPostdocOwnerInverseIterator>
+         <tr><td>owner</td><td><a href="../<viva:PostdocOwnerInverseType/>/<viva:PostdocOwnerInverseType/>.jsp?uri=<viva:PostdocOwnerInverse/>"><viva:PostdocOwnerInverse/></a></td></tr>
+      </viva:foreachPostdocOwnerInverseIterator>
+      <viva:foreachPostdocPerformerInverseIterator>
+         <tr><td>performer</td><td><a href="../<viva:PostdocPerformerInverseType/>/<viva:PostdocPerformerInverseType/>.jsp?uri=<viva:PostdocPerformerInverse/>"><viva:PostdocPerformerInverse/></a></td></tr>
+      </viva:foreachPostdocPerformerInverseIterator>
       <viva:foreachPostdocIssuerInverseIterator>
          <tr><td>issuer</td><td><a href="../<viva:PostdocIssuerInverseType/>/<viva:PostdocIssuerInverseType/>.jsp?uri=<viva:PostdocIssuerInverse/>"><viva:PostdocIssuerInverse/></a></td></tr>
       </viva:foreachPostdocIssuerInverseIterator>
+      <viva:foreachPostdocProducerInverseIterator>
+         <tr><td>producer</td><td><a href="../<viva:PostdocProducerInverseType/>/<viva:PostdocProducerInverseType/>.jsp?uri=<viva:PostdocProducerInverse/>"><viva:PostdocProducerInverse/></a></td></tr>
+      </viva:foreachPostdocProducerInverseIterator>
+      <viva:foreachPostdocDirectorInverseIterator>
+         <tr><td>director</td><td><a href="../<viva:PostdocDirectorInverseType/>/<viva:PostdocDirectorInverseType/>.jsp?uri=<viva:PostdocDirectorInverse/>"><viva:PostdocDirectorInverse/></a></td></tr>
+      </viva:foreachPostdocDirectorInverseIterator>
    </table>
    </viva:Postdoc>
 

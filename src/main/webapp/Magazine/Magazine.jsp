@@ -27,9 +27,57 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachMagazineTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:MagazineTheAbstract /></td></tr>
-      </viva:foreachMagazineTheAbstractIterator>
+      <viva:foreachMagazineEanucc13Iterator>
+         <tr><td>eanucc13</td><td><viva:MagazineEanucc13 /></td></tr>
+      </viva:foreachMagazineEanucc13Iterator>
+      <viva:foreachMagazineNumVolumesIterator>
+         <tr><td>numVolumes</td><td><viva:MagazineNumVolumes /></td></tr>
+      </viva:foreachMagazineNumVolumesIterator>
+      <viva:foreachMagazineOclcnumIterator>
+         <tr><td>oclcnum</td><td><viva:MagazineOclcnum /></td></tr>
+      </viva:foreachMagazineOclcnumIterator>
+      <viva:foreachMagazinePmidIterator>
+         <tr><td>pmid</td><td><viva:MagazinePmid /></td></tr>
+      </viva:foreachMagazinePmidIterator>
+      <viva:foreachMagazineUriIterator>
+         <tr><td>uri</td><td><viva:MagazineUri /></td></tr>
+      </viva:foreachMagazineUriIterator>
+      <viva:foreachMagazineIsbn13Iterator>
+         <tr><td>isbn13</td><td><viva:MagazineIsbn13 /></td></tr>
+      </viva:foreachMagazineIsbn13Iterator>
+      <viva:foreachMagazineIsbn10Iterator>
+         <tr><td>isbn10</td><td><viva:MagazineIsbn10 /></td></tr>
+      </viva:foreachMagazineIsbn10Iterator>
+      <viva:foreachMagazineEissnIterator>
+         <tr><td>eissn</td><td><viva:MagazineEissn /></td></tr>
+      </viva:foreachMagazineEissnIterator>
+      <viva:foreachMagazineIssnIterator>
+         <tr><td>issn</td><td><viva:MagazineIssn /></td></tr>
+      </viva:foreachMagazineIssnIterator>
+      <viva:foreachMagazineSiciIterator>
+         <tr><td>sici</td><td><viva:MagazineSici /></td></tr>
+      </viva:foreachMagazineSiciIterator>
+      <viva:foreachMagazineUpcIterator>
+         <tr><td>upc</td><td><viva:MagazineUpc /></td></tr>
+      </viva:foreachMagazineUpcIterator>
+      <viva:foreachMagazineHandleIterator>
+         <tr><td>handle</td><td><viva:MagazineHandle /></td></tr>
+      </viva:foreachMagazineHandleIterator>
+      <viva:foreachMagazineCodenIterator>
+         <tr><td>coden</td><td><viva:MagazineCoden /></td></tr>
+      </viva:foreachMagazineCodenIterator>
+      <viva:foreachMagazineIdentifierIterator>
+         <tr><td>identifier</td><td><viva:MagazineIdentifier /></td></tr>
+      </viva:foreachMagazineIdentifierIterator>
+      <viva:foreachMagazineGtin14Iterator>
+         <tr><td>gtin14</td><td><viva:MagazineGtin14 /></td></tr>
+      </viva:foreachMagazineGtin14Iterator>
+      <viva:foreachMagazineAsinIterator>
+         <tr><td>asin</td><td><viva:MagazineAsin /></td></tr>
+      </viva:foreachMagazineAsinIterator>
+      <viva:foreachMagazineLccnIterator>
+         <tr><td>lccn</td><td><viva:MagazineLccn /></td></tr>
+      </viva:foreachMagazineLccnIterator>
       <viva:foreachMagazineDoiIterator>
          <tr><td>doi</td><td><viva:MagazineDoi /></td></tr>
       </viva:foreachMagazineDoiIterator>
@@ -37,21 +85,36 @@
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachMagazineEditorIterator>
+         <tr><td>editor</td><td><a href="../<viva:MagazineEditorType/>/<viva:MagazineEditorType/>.jsp?uri=<viva:MagazineEditor/>"><viva:MagazineEditor /></a></td></tr>
+      </viva:foreachMagazineEditorIterator>
       <viva:foreachMagazineDateTimeValueIterator>
          <tr><td>dateTimeValue</td><td><a href="../<viva:MagazineDateTimeValueType/>/<viva:MagazineDateTimeValueType/>.jsp?uri=<viva:MagazineDateTimeValue/>"><viva:MagazineDateTimeValue /></a></td></tr>
       </viva:foreachMagazineDateTimeValueIterator>
+      <viva:foreachMagazineOwnerIterator>
+         <tr><td>owner</td><td><a href="../<viva:MagazineOwnerType/>/<viva:MagazineOwnerType/>.jsp?uri=<viva:MagazineOwner/>"><viva:MagazineOwner /></a></td></tr>
+      </viva:foreachMagazineOwnerIterator>
+      <viva:foreachMagazineTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:MagazineTranslatorType/>/<viva:MagazineTranslatorType/>.jsp?uri=<viva:MagazineTranslator/>"><viva:MagazineTranslator /></a></td></tr>
+      </viva:foreachMagazineTranslatorIterator>
       <viva:foreachMagazineRO_0002353Iterator>
          <tr><td>RO_0002353</td><td><a href="../<viva:MagazineRO_0002353Type/>/<viva:MagazineRO_0002353Type/>.jsp?uri=<viva:MagazineRO_0002353/>"><viva:MagazineRO_0002353 /></a></td></tr>
       </viva:foreachMagazineRO_0002353Iterator>
+      <viva:foreachMagazineIssuerIterator>
+         <tr><td>issuer</td><td><a href="../<viva:MagazineIssuerType/>/<viva:MagazineIssuerType/>.jsp?uri=<viva:MagazineIssuer/>"><viva:MagazineIssuer /></a></td></tr>
+      </viva:foreachMagazineIssuerIterator>
       <viva:foreachMagazineARG_2000028Iterator>
          <tr><td>ARG_2000028</td><td><a href="../<viva:MagazineARG_2000028Type/>/<viva:MagazineARG_2000028Type/>.jsp?uri=<viva:MagazineARG_2000028/>"><viva:MagazineARG_2000028 /></a></td></tr>
       </viva:foreachMagazineARG_2000028Iterator>
       <viva:foreachMagazineRelatedByIterator>
          <tr><td>relatedBy</td><td><a href="../<viva:MagazineRelatedByType/>/<viva:MagazineRelatedByType/>.jsp?uri=<viva:MagazineRelatedBy/>"><viva:MagazineRelatedBy /></a></td></tr>
       </viva:foreachMagazineRelatedByIterator>
-      <viva:foreachMagazineTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:MagazineTranslatorType/>/<viva:MagazineTranslatorType/>.jsp?uri=<viva:MagazineTranslator/>"><viva:MagazineTranslator /></a></td></tr>
-      </viva:foreachMagazineTranslatorIterator>
+      <viva:foreachMagazineDistributorIterator>
+         <tr><td>distributor</td><td><a href="../<viva:MagazineDistributorType/>/<viva:MagazineDistributorType/>.jsp?uri=<viva:MagazineDistributor/>"><viva:MagazineDistributor /></a></td></tr>
+      </viva:foreachMagazineDistributorIterator>
+      <viva:foreachMagazineProducerIterator>
+         <tr><td>producer</td><td><a href="../<viva:MagazineProducerType/>/<viva:MagazineProducerType/>.jsp?uri=<viva:MagazineProducer/>"><viva:MagazineProducer /></a></td></tr>
+      </viva:foreachMagazineProducerIterator>
       <viva:foreachMagazineFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:MagazineFeaturesType/>/<viva:MagazineFeaturesType/>.jsp?uri=<viva:MagazineFeatures/>"><viva:MagazineFeatures /></a></td></tr>
       </viva:foreachMagazineFeaturesIterator>

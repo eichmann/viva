@@ -27,19 +27,10 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachARG_2000377TheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:ARG_2000377TheAbstract /></td></tr>
-      </viva:foreachARG_2000377TheAbstractIterator>
-      <viva:foreachARG_2000377DoiIterator>
-         <tr><td>doi</td><td><viva:ARG_2000377Doi /></td></tr>
-      </viva:foreachARG_2000377DoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachARG_2000377TranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:ARG_2000377TranslatorType/>/<viva:ARG_2000377TranslatorType/>.jsp?uri=<viva:ARG_2000377Translator/>"><viva:ARG_2000377Translator /></a></td></tr>
-      </viva:foreachARG_2000377TranslatorIterator>
       <viva:foreachARG_2000377FeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:ARG_2000377FeaturesType/>/<viva:ARG_2000377FeaturesType/>.jsp?uri=<viva:ARG_2000377Features/>"><viva:ARG_2000377Features /></a></td></tr>
       </viva:foreachARG_2000377FeaturesIterator>

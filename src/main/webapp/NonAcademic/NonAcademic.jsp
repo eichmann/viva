@@ -23,14 +23,23 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
+      <tr><td>overview</td><td><viva:NonAcademicOverview /></td></tr>
       <tr><td>teachingOverview</td><td><viva:NonAcademicTeachingOverview /></td></tr>
       <tr><td>outreachOverview</td><td><viva:NonAcademicOutreachOverview /></td></tr>
       <tr><td>researchOverview</td><td><viva:NonAcademicResearchOverview /></td></tr>
-      <tr><td>overview</td><td><viva:NonAcademicOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachNonAcademicSuffixNameIterator>
+         <tr><td>suffixName</td><td><viva:NonAcademicSuffixName /></td></tr>
+      </viva:foreachNonAcademicSuffixNameIterator>
+      <viva:foreachNonAcademicPrefixNameIterator>
+         <tr><td>prefixName</td><td><viva:NonAcademicPrefixName /></td></tr>
+      </viva:foreachNonAcademicPrefixNameIterator>
+      <viva:foreachNonAcademicSameAsIterator>
+         <tr><td>sameAs</td><td><a href="<viva:NonAcademicSameAs />"><viva:NonAcademicSameAs /></a></td></tr>
+      </viva:foreachNonAcademicSameAsIterator>
       <viva:foreachNonAcademicERACommonsIdIterator>
          <tr><td>eRACommonsId</td><td><viva:NonAcademicERACommonsId /></td></tr>
       </viva:foreachNonAcademicERACommonsIdIterator>
@@ -46,9 +55,6 @@
       <viva:foreachNonAcademicResearcherIdIterator>
          <tr><td>researcherId</td><td><viva:NonAcademicResearcherId /></td></tr>
       </viva:foreachNonAcademicResearcherIdIterator>
-      <viva:foreachNonAcademicSameAsIterator>
-         <tr><td>sameAs</td><td><a href="<viva:NonAcademicSameAs />"><viva:NonAcademicSameAs /></a></td></tr>
-      </viva:foreachNonAcademicSameAsIterator>
       <viva:foreachNonAcademicFreetextKeywordIterator>
          <tr><td>freetextKeyword</td><td><viva:NonAcademicFreetextKeyword /></td></tr>
       </viva:foreachNonAcademicFreetextKeywordIterator>
@@ -56,6 +62,27 @@
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachNonAcademicRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:NonAcademicRO_0000053Type/>/<viva:NonAcademicRO_0000053Type/>.jsp?uri=<viva:NonAcademicRO_0000053/>"><viva:NonAcademicRO_0000053 /></a></td></tr>
+      </viva:foreachNonAcademicRO_0000053Iterator>
+      <viva:foreachNonAcademicRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:NonAcademicRO_0000056Type/>/<viva:NonAcademicRO_0000056Type/>.jsp?uri=<viva:NonAcademicRO_0000056/>"><viva:NonAcademicRO_0000056 /></a></td></tr>
+      </viva:foreachNonAcademicRO_0000056Iterator>
+      <viva:foreachNonAcademicAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<viva:NonAcademicAssigneeForType/>/<viva:NonAcademicAssigneeForType/>.jsp?uri=<viva:NonAcademicAssigneeFor/>"><viva:NonAcademicAssigneeFor /></a></td></tr>
+      </viva:foreachNonAcademicAssigneeForIterator>
+      <viva:foreachNonAcademicHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<viva:NonAcademicHasCollaboratorType/>/<viva:NonAcademicHasCollaboratorType/>.jsp?uri=<viva:NonAcademicHasCollaborator/>"><viva:NonAcademicHasCollaborator /></a></td></tr>
+      </viva:foreachNonAcademicHasCollaboratorIterator>
+      <viva:foreachNonAcademicInterviewerIterator>
+         <tr><td>interviewer</td><td><a href="../<viva:NonAcademicInterviewerType/>/<viva:NonAcademicInterviewerType/>.jsp?uri=<viva:NonAcademicInterviewer/>"><viva:NonAcademicInterviewer /></a></td></tr>
+      </viva:foreachNonAcademicInterviewerIterator>
+      <viva:foreachNonAcademicIntervieweeIterator>
+         <tr><td>interviewee</td><td><a href="../<viva:NonAcademicIntervieweeType/>/<viva:NonAcademicIntervieweeType/>.jsp?uri=<viva:NonAcademicInterviewee/>"><viva:NonAcademicInterviewee /></a></td></tr>
+      </viva:foreachNonAcademicIntervieweeIterator>
+      <viva:foreachNonAcademicTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<viva:NonAcademicTranslatorOfType/>/<viva:NonAcademicTranslatorOfType/>.jsp?uri=<viva:NonAcademicTranslatorOf/>"><viva:NonAcademicTranslatorOf /></a></td></tr>
+      </viva:foreachNonAcademicTranslatorOfIterator>
       <viva:foreachNonAcademicERO_0000397Iterator>
          <tr><td>ERO_0000397</td><td><a href="../<viva:NonAcademicERO_0000397Type/>/<viva:NonAcademicERO_0000397Type/>.jsp?uri=<viva:NonAcademicERO_0000397/>"><viva:NonAcademicERO_0000397 /></a></td></tr>
       </viva:foreachNonAcademicERO_0000397Iterator>
@@ -83,28 +110,34 @@
       <viva:foreachNonAcademicOrcidIdIterator>
          <tr><td>orcidId</td><td><a href="../<viva:NonAcademicOrcidIdType/>/<viva:NonAcademicOrcidIdType/>.jsp?uri=<viva:NonAcademicOrcidId/>"><viva:NonAcademicOrcidId /></a></td></tr>
       </viva:foreachNonAcademicOrcidIdIterator>
-      <viva:foreachNonAcademicRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:NonAcademicRO_0000053Type/>/<viva:NonAcademicRO_0000053Type/>.jsp?uri=<viva:NonAcademicRO_0000053/>"><viva:NonAcademicRO_0000053 /></a></td></tr>
-      </viva:foreachNonAcademicRO_0000053Iterator>
-      <viva:foreachNonAcademicRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:NonAcademicRO_0000056Type/>/<viva:NonAcademicRO_0000056Type/>.jsp?uri=<viva:NonAcademicRO_0000056/>"><viva:NonAcademicRO_0000056 /></a></td></tr>
-      </viva:foreachNonAcademicRO_0000056Iterator>
-      <viva:foreachNonAcademicAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<viva:NonAcademicAssigneeForType/>/<viva:NonAcademicAssigneeForType/>.jsp?uri=<viva:NonAcademicAssigneeFor/>"><viva:NonAcademicAssigneeFor /></a></td></tr>
-      </viva:foreachNonAcademicAssigneeForIterator>
-      <viva:foreachNonAcademicHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<viva:NonAcademicHasCollaboratorType/>/<viva:NonAcademicHasCollaboratorType/>.jsp?uri=<viva:NonAcademicHasCollaborator/>"><viva:NonAcademicHasCollaborator /></a></td></tr>
-      </viva:foreachNonAcademicHasCollaboratorIterator>
-      <viva:foreachNonAcademicTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<viva:NonAcademicTranslatorOfType/>/<viva:NonAcademicTranslatorOfType/>.jsp?uri=<viva:NonAcademicTranslatorOf/>"><viva:NonAcademicTranslatorOf /></a></td></tr>
-      </viva:foreachNonAcademicTranslatorOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
+      <viva:foreachNonAcademicOrganizerInverseIterator>
+         <tr><td>organizer</td><td><a href="../<viva:NonAcademicOrganizerInverseType/>/<viva:NonAcademicOrganizerInverseType/>.jsp?uri=<viva:NonAcademicOrganizerInverse/>"><viva:NonAcademicOrganizerInverse/></a></td></tr>
+      </viva:foreachNonAcademicOrganizerInverseIterator>
+      <viva:foreachNonAcademicRecipientInverseIterator>
+         <tr><td>recipient</td><td><a href="../<viva:NonAcademicRecipientInverseType/>/<viva:NonAcademicRecipientInverseType/>.jsp?uri=<viva:NonAcademicRecipientInverse/>"><viva:NonAcademicRecipientInverse/></a></td></tr>
+      </viva:foreachNonAcademicRecipientInverseIterator>
+      <viva:foreachNonAcademicEditorInverseIterator>
+         <tr><td>editor</td><td><a href="../<viva:NonAcademicEditorInverseType/>/<viva:NonAcademicEditorInverseType/>.jsp?uri=<viva:NonAcademicEditorInverse/>"><viva:NonAcademicEditorInverse/></a></td></tr>
+      </viva:foreachNonAcademicEditorInverseIterator>
+      <viva:foreachNonAcademicOwnerInverseIterator>
+         <tr><td>owner</td><td><a href="../<viva:NonAcademicOwnerInverseType/>/<viva:NonAcademicOwnerInverseType/>.jsp?uri=<viva:NonAcademicOwnerInverse/>"><viva:NonAcademicOwnerInverse/></a></td></tr>
+      </viva:foreachNonAcademicOwnerInverseIterator>
+      <viva:foreachNonAcademicPerformerInverseIterator>
+         <tr><td>performer</td><td><a href="../<viva:NonAcademicPerformerInverseType/>/<viva:NonAcademicPerformerInverseType/>.jsp?uri=<viva:NonAcademicPerformerInverse/>"><viva:NonAcademicPerformerInverse/></a></td></tr>
+      </viva:foreachNonAcademicPerformerInverseIterator>
       <viva:foreachNonAcademicIssuerInverseIterator>
          <tr><td>issuer</td><td><a href="../<viva:NonAcademicIssuerInverseType/>/<viva:NonAcademicIssuerInverseType/>.jsp?uri=<viva:NonAcademicIssuerInverse/>"><viva:NonAcademicIssuerInverse/></a></td></tr>
       </viva:foreachNonAcademicIssuerInverseIterator>
+      <viva:foreachNonAcademicProducerInverseIterator>
+         <tr><td>producer</td><td><a href="../<viva:NonAcademicProducerInverseType/>/<viva:NonAcademicProducerInverseType/>.jsp?uri=<viva:NonAcademicProducerInverse/>"><viva:NonAcademicProducerInverse/></a></td></tr>
+      </viva:foreachNonAcademicProducerInverseIterator>
+      <viva:foreachNonAcademicDirectorInverseIterator>
+         <tr><td>director</td><td><a href="../<viva:NonAcademicDirectorInverseType/>/<viva:NonAcademicDirectorInverseType/>.jsp?uri=<viva:NonAcademicDirectorInverse/>"><viva:NonAcademicDirectorInverse/></a></td></tr>
+      </viva:foreachNonAcademicDirectorInverseIterator>
    </table>
    </viva:NonAcademic>
 

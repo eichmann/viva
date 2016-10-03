@@ -29,6 +29,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachCompanySuffixNameIterator>
+         <tr><td>suffixName</td><td><viva:CompanySuffixName /></td></tr>
+      </viva:foreachCompanySuffixNameIterator>
+      <viva:foreachCompanyPrefixNameIterator>
+         <tr><td>prefixName</td><td><viva:CompanyPrefixName /></td></tr>
+      </viva:foreachCompanyPrefixNameIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -36,6 +42,9 @@
       <viva:foreachCompanyRelatedByIterator>
          <tr><td>relatedBy</td><td><a href="../<viva:CompanyRelatedByType/>/<viva:CompanyRelatedByType/>.jsp?uri=<viva:CompanyRelatedBy/>"><viva:CompanyRelatedBy /></a></td></tr>
       </viva:foreachCompanyRelatedByIterator>
+      <viva:foreachCompanyRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:CompanyRO_0000053Type/>/<viva:CompanyRO_0000053Type/>.jsp?uri=<viva:CompanyRO_0000053/>"><viva:CompanyRO_0000053 /></a></td></tr>
+      </viva:foreachCompanyRO_0000053Iterator>
       <viva:foreachCompanySponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:CompanySponsorsType/>/<viva:CompanySponsorsType/>.jsp?uri=<viva:CompanySponsors/>"><viva:CompanySponsors /></a></td></tr>
       </viva:foreachCompanySponsorsIterator>
@@ -69,9 +78,6 @@
       <viva:foreachCompanyAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<viva:CompanyAffiliatedOrganizationType/>/<viva:CompanyAffiliatedOrganizationType/>.jsp?uri=<viva:CompanyAffiliatedOrganization/>"><viva:CompanyAffiliatedOrganization /></a></td></tr>
       </viva:foreachCompanyAffiliatedOrganizationIterator>
-      <viva:foreachCompanyRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:CompanyRO_0000053Type/>/<viva:CompanyRO_0000053Type/>.jsp?uri=<viva:CompanyRO_0000053/>"><viva:CompanyRO_0000053 /></a></td></tr>
-      </viva:foreachCompanyRO_0000053Iterator>
       <viva:foreachCompanyRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:CompanyRO_0000056Type/>/<viva:CompanyRO_0000056Type/>.jsp?uri=<viva:CompanyRO_0000056/>"><viva:CompanyRO_0000056 /></a></td></tr>
       </viva:foreachCompanyRO_0000056Iterator>
@@ -81,6 +87,12 @@
       <viva:foreachCompanyHasCollaboratorIterator>
          <tr><td>hasCollaborator</td><td><a href="../<viva:CompanyHasCollaboratorType/>/<viva:CompanyHasCollaboratorType/>.jsp?uri=<viva:CompanyHasCollaborator/>"><viva:CompanyHasCollaborator /></a></td></tr>
       </viva:foreachCompanyHasCollaboratorIterator>
+      <viva:foreachCompanyInterviewerIterator>
+         <tr><td>interviewer</td><td><a href="../<viva:CompanyInterviewerType/>/<viva:CompanyInterviewerType/>.jsp?uri=<viva:CompanyInterviewer/>"><viva:CompanyInterviewer /></a></td></tr>
+      </viva:foreachCompanyInterviewerIterator>
+      <viva:foreachCompanyIntervieweeIterator>
+         <tr><td>interviewee</td><td><a href="../<viva:CompanyIntervieweeType/>/<viva:CompanyIntervieweeType/>.jsp?uri=<viva:CompanyInterviewee/>"><viva:CompanyInterviewee /></a></td></tr>
+      </viva:foreachCompanyIntervieweeIterator>
       <viva:foreachCompanyTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:CompanyTranslatorOfType/>/<viva:CompanyTranslatorOfType/>.jsp?uri=<viva:CompanyTranslatorOf/>"><viva:CompanyTranslatorOf /></a></td></tr>
       </viva:foreachCompanyTranslatorOfIterator>
@@ -91,9 +103,33 @@
       <viva:foreachCompanyOBI_0000304InverseIterator>
          <tr><td>OBI_0000304</td><td><a href="../<viva:CompanyOBI_0000304InverseType/>/<viva:CompanyOBI_0000304InverseType/>.jsp?uri=<viva:CompanyOBI_0000304Inverse/>"><viva:CompanyOBI_0000304Inverse/></a></td></tr>
       </viva:foreachCompanyOBI_0000304InverseIterator>
+      <viva:foreachCompanyCourtInverseIterator>
+         <tr><td>court</td><td><a href="../<viva:CompanyCourtInverseType/>/<viva:CompanyCourtInverseType/>.jsp?uri=<viva:CompanyCourtInverse/>"><viva:CompanyCourtInverse/></a></td></tr>
+      </viva:foreachCompanyCourtInverseIterator>
+      <viva:foreachCompanyOrganizerInverseIterator>
+         <tr><td>organizer</td><td><a href="../<viva:CompanyOrganizerInverseType/>/<viva:CompanyOrganizerInverseType/>.jsp?uri=<viva:CompanyOrganizerInverse/>"><viva:CompanyOrganizerInverse/></a></td></tr>
+      </viva:foreachCompanyOrganizerInverseIterator>
+      <viva:foreachCompanyRecipientInverseIterator>
+         <tr><td>recipient</td><td><a href="../<viva:CompanyRecipientInverseType/>/<viva:CompanyRecipientInverseType/>.jsp?uri=<viva:CompanyRecipientInverse/>"><viva:CompanyRecipientInverse/></a></td></tr>
+      </viva:foreachCompanyRecipientInverseIterator>
+      <viva:foreachCompanyEditorInverseIterator>
+         <tr><td>editor</td><td><a href="../<viva:CompanyEditorInverseType/>/<viva:CompanyEditorInverseType/>.jsp?uri=<viva:CompanyEditorInverse/>"><viva:CompanyEditorInverse/></a></td></tr>
+      </viva:foreachCompanyEditorInverseIterator>
+      <viva:foreachCompanyOwnerInverseIterator>
+         <tr><td>owner</td><td><a href="../<viva:CompanyOwnerInverseType/>/<viva:CompanyOwnerInverseType/>.jsp?uri=<viva:CompanyOwnerInverse/>"><viva:CompanyOwnerInverse/></a></td></tr>
+      </viva:foreachCompanyOwnerInverseIterator>
+      <viva:foreachCompanyPerformerInverseIterator>
+         <tr><td>performer</td><td><a href="../<viva:CompanyPerformerInverseType/>/<viva:CompanyPerformerInverseType/>.jsp?uri=<viva:CompanyPerformerInverse/>"><viva:CompanyPerformerInverse/></a></td></tr>
+      </viva:foreachCompanyPerformerInverseIterator>
       <viva:foreachCompanyIssuerInverseIterator>
          <tr><td>issuer</td><td><a href="../<viva:CompanyIssuerInverseType/>/<viva:CompanyIssuerInverseType/>.jsp?uri=<viva:CompanyIssuerInverse/>"><viva:CompanyIssuerInverse/></a></td></tr>
       </viva:foreachCompanyIssuerInverseIterator>
+      <viva:foreachCompanyProducerInverseIterator>
+         <tr><td>producer</td><td><a href="../<viva:CompanyProducerInverseType/>/<viva:CompanyProducerInverseType/>.jsp?uri=<viva:CompanyProducerInverse/>"><viva:CompanyProducerInverse/></a></td></tr>
+      </viva:foreachCompanyProducerInverseIterator>
+      <viva:foreachCompanyDirectorInverseIterator>
+         <tr><td>director</td><td><a href="../<viva:CompanyDirectorInverseType/>/<viva:CompanyDirectorInverseType/>.jsp?uri=<viva:CompanyDirectorInverse/>"><viva:CompanyDirectorInverse/></a></td></tr>
+      </viva:foreachCompanyDirectorInverseIterator>
    </table>
    </viva:Company>
 

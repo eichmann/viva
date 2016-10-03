@@ -29,10 +29,19 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachERO_0000565SuffixNameIterator>
+         <tr><td>suffixName</td><td><viva:ERO_0000565SuffixName /></td></tr>
+      </viva:foreachERO_0000565SuffixNameIterator>
+      <viva:foreachERO_0000565PrefixNameIterator>
+         <tr><td>prefixName</td><td><viva:ERO_0000565PrefixName /></td></tr>
+      </viva:foreachERO_0000565PrefixNameIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachERO_0000565RO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:ERO_0000565RO_0000053Type/>/<viva:ERO_0000565RO_0000053Type/>.jsp?uri=<viva:ERO_0000565RO_0000053/>"><viva:ERO_0000565RO_0000053 /></a></td></tr>
+      </viva:foreachERO_0000565RO_0000053Iterator>
       <viva:foreachERO_0000565SponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:ERO_0000565SponsorsType/>/<viva:ERO_0000565SponsorsType/>.jsp?uri=<viva:ERO_0000565Sponsors/>"><viva:ERO_0000565Sponsors /></a></td></tr>
       </viva:foreachERO_0000565SponsorsIterator>
@@ -69,9 +78,6 @@
       <viva:foreachERO_0000565AffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<viva:ERO_0000565AffiliatedOrganizationType/>/<viva:ERO_0000565AffiliatedOrganizationType/>.jsp?uri=<viva:ERO_0000565AffiliatedOrganization/>"><viva:ERO_0000565AffiliatedOrganization /></a></td></tr>
       </viva:foreachERO_0000565AffiliatedOrganizationIterator>
-      <viva:foreachERO_0000565RO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:ERO_0000565RO_0000053Type/>/<viva:ERO_0000565RO_0000053Type/>.jsp?uri=<viva:ERO_0000565RO_0000053/>"><viva:ERO_0000565RO_0000053 /></a></td></tr>
-      </viva:foreachERO_0000565RO_0000053Iterator>
       <viva:foreachERO_0000565RO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ERO_0000565RO_0000056Type/>/<viva:ERO_0000565RO_0000056Type/>.jsp?uri=<viva:ERO_0000565RO_0000056/>"><viva:ERO_0000565RO_0000056 /></a></td></tr>
       </viva:foreachERO_0000565RO_0000056Iterator>
@@ -81,6 +87,12 @@
       <viva:foreachERO_0000565HasCollaboratorIterator>
          <tr><td>hasCollaborator</td><td><a href="../<viva:ERO_0000565HasCollaboratorType/>/<viva:ERO_0000565HasCollaboratorType/>.jsp?uri=<viva:ERO_0000565HasCollaborator/>"><viva:ERO_0000565HasCollaborator /></a></td></tr>
       </viva:foreachERO_0000565HasCollaboratorIterator>
+      <viva:foreachERO_0000565InterviewerIterator>
+         <tr><td>interviewer</td><td><a href="../<viva:ERO_0000565InterviewerType/>/<viva:ERO_0000565InterviewerType/>.jsp?uri=<viva:ERO_0000565Interviewer/>"><viva:ERO_0000565Interviewer /></a></td></tr>
+      </viva:foreachERO_0000565InterviewerIterator>
+      <viva:foreachERO_0000565IntervieweeIterator>
+         <tr><td>interviewee</td><td><a href="../<viva:ERO_0000565IntervieweeType/>/<viva:ERO_0000565IntervieweeType/>.jsp?uri=<viva:ERO_0000565Interviewee/>"><viva:ERO_0000565Interviewee /></a></td></tr>
+      </viva:foreachERO_0000565IntervieweeIterator>
       <viva:foreachERO_0000565TranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:ERO_0000565TranslatorOfType/>/<viva:ERO_0000565TranslatorOfType/>.jsp?uri=<viva:ERO_0000565TranslatorOf/>"><viva:ERO_0000565TranslatorOf /></a></td></tr>
       </viva:foreachERO_0000565TranslatorOfIterator>
@@ -91,9 +103,33 @@
       <viva:foreachERO_0000565OBI_0000304InverseIterator>
          <tr><td>OBI_0000304</td><td><a href="../<viva:ERO_0000565OBI_0000304InverseType/>/<viva:ERO_0000565OBI_0000304InverseType/>.jsp?uri=<viva:ERO_0000565OBI_0000304Inverse/>"><viva:ERO_0000565OBI_0000304Inverse/></a></td></tr>
       </viva:foreachERO_0000565OBI_0000304InverseIterator>
+      <viva:foreachERO_0000565CourtInverseIterator>
+         <tr><td>court</td><td><a href="../<viva:ERO_0000565CourtInverseType/>/<viva:ERO_0000565CourtInverseType/>.jsp?uri=<viva:ERO_0000565CourtInverse/>"><viva:ERO_0000565CourtInverse/></a></td></tr>
+      </viva:foreachERO_0000565CourtInverseIterator>
+      <viva:foreachERO_0000565OrganizerInverseIterator>
+         <tr><td>organizer</td><td><a href="../<viva:ERO_0000565OrganizerInverseType/>/<viva:ERO_0000565OrganizerInverseType/>.jsp?uri=<viva:ERO_0000565OrganizerInverse/>"><viva:ERO_0000565OrganizerInverse/></a></td></tr>
+      </viva:foreachERO_0000565OrganizerInverseIterator>
+      <viva:foreachERO_0000565RecipientInverseIterator>
+         <tr><td>recipient</td><td><a href="../<viva:ERO_0000565RecipientInverseType/>/<viva:ERO_0000565RecipientInverseType/>.jsp?uri=<viva:ERO_0000565RecipientInverse/>"><viva:ERO_0000565RecipientInverse/></a></td></tr>
+      </viva:foreachERO_0000565RecipientInverseIterator>
+      <viva:foreachERO_0000565EditorInverseIterator>
+         <tr><td>editor</td><td><a href="../<viva:ERO_0000565EditorInverseType/>/<viva:ERO_0000565EditorInverseType/>.jsp?uri=<viva:ERO_0000565EditorInverse/>"><viva:ERO_0000565EditorInverse/></a></td></tr>
+      </viva:foreachERO_0000565EditorInverseIterator>
+      <viva:foreachERO_0000565OwnerInverseIterator>
+         <tr><td>owner</td><td><a href="../<viva:ERO_0000565OwnerInverseType/>/<viva:ERO_0000565OwnerInverseType/>.jsp?uri=<viva:ERO_0000565OwnerInverse/>"><viva:ERO_0000565OwnerInverse/></a></td></tr>
+      </viva:foreachERO_0000565OwnerInverseIterator>
+      <viva:foreachERO_0000565PerformerInverseIterator>
+         <tr><td>performer</td><td><a href="../<viva:ERO_0000565PerformerInverseType/>/<viva:ERO_0000565PerformerInverseType/>.jsp?uri=<viva:ERO_0000565PerformerInverse/>"><viva:ERO_0000565PerformerInverse/></a></td></tr>
+      </viva:foreachERO_0000565PerformerInverseIterator>
       <viva:foreachERO_0000565IssuerInverseIterator>
          <tr><td>issuer</td><td><a href="../<viva:ERO_0000565IssuerInverseType/>/<viva:ERO_0000565IssuerInverseType/>.jsp?uri=<viva:ERO_0000565IssuerInverse/>"><viva:ERO_0000565IssuerInverse/></a></td></tr>
       </viva:foreachERO_0000565IssuerInverseIterator>
+      <viva:foreachERO_0000565ProducerInverseIterator>
+         <tr><td>producer</td><td><a href="../<viva:ERO_0000565ProducerInverseType/>/<viva:ERO_0000565ProducerInverseType/>.jsp?uri=<viva:ERO_0000565ProducerInverse/>"><viva:ERO_0000565ProducerInverse/></a></td></tr>
+      </viva:foreachERO_0000565ProducerInverseIterator>
+      <viva:foreachERO_0000565DirectorInverseIterator>
+         <tr><td>director</td><td><a href="../<viva:ERO_0000565DirectorInverseType/>/<viva:ERO_0000565DirectorInverseType/>.jsp?uri=<viva:ERO_0000565DirectorInverse/>"><viva:ERO_0000565DirectorInverse/></a></td></tr>
+      </viva:foreachERO_0000565DirectorInverseIterator>
    </table>
    </viva:ERO_0000565>
 

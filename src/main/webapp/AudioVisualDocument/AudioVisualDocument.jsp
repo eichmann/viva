@@ -27,24 +27,93 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachAudioVisualDocumentTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:AudioVisualDocumentTheAbstract /></td></tr>
-      </viva:foreachAudioVisualDocumentTheAbstractIterator>
-      <viva:foreachAudioVisualDocumentDoiIterator>
-         <tr><td>doi</td><td><viva:AudioVisualDocumentDoi /></td></tr>
-      </viva:foreachAudioVisualDocumentDoiIterator>
+      <viva:foreachAudioVisualDocumentEanucc13Iterator>
+         <tr><td>eanucc13</td><td><viva:AudioVisualDocumentEanucc13 /></td></tr>
+      </viva:foreachAudioVisualDocumentEanucc13Iterator>
+      <viva:foreachAudioVisualDocumentShortDescriptionIterator>
+         <tr><td>shortDescription</td><td><viva:AudioVisualDocumentShortDescription /></td></tr>
+      </viva:foreachAudioVisualDocumentShortDescriptionIterator>
+      <viva:foreachAudioVisualDocumentPageStartIterator>
+         <tr><td>pageStart</td><td><viva:AudioVisualDocumentPageStart /></td></tr>
+      </viva:foreachAudioVisualDocumentPageStartIterator>
+      <viva:foreachAudioVisualDocumentOclcnumIterator>
+         <tr><td>oclcnum</td><td><viva:AudioVisualDocumentOclcnum /></td></tr>
+      </viva:foreachAudioVisualDocumentOclcnumIterator>
       <viva:foreachAudioVisualDocumentPmidIterator>
          <tr><td>pmid</td><td><viva:AudioVisualDocumentPmid /></td></tr>
       </viva:foreachAudioVisualDocumentPmidIterator>
       <viva:foreachAudioVisualDocumentARG_0000001Iterator>
          <tr><td>ARG_0000001</td><td><viva:AudioVisualDocumentARG_0000001 /></td></tr>
       </viva:foreachAudioVisualDocumentARG_0000001Iterator>
+      <viva:foreachAudioVisualDocumentSectionIterator>
+         <tr><td>section</td><td><viva:AudioVisualDocumentSection /></td></tr>
+      </viva:foreachAudioVisualDocumentSectionIterator>
+      <viva:foreachAudioVisualDocumentUriIterator>
+         <tr><td>uri</td><td><viva:AudioVisualDocumentUri /></td></tr>
+      </viva:foreachAudioVisualDocumentUriIterator>
+      <viva:foreachAudioVisualDocumentIsbn13Iterator>
+         <tr><td>isbn13</td><td><viva:AudioVisualDocumentIsbn13 /></td></tr>
+      </viva:foreachAudioVisualDocumentIsbn13Iterator>
       <viva:foreachAudioVisualDocumentVolumeIterator>
          <tr><td>volume</td><td><viva:AudioVisualDocumentVolume /></td></tr>
       </viva:foreachAudioVisualDocumentVolumeIterator>
+      <viva:foreachAudioVisualDocumentLocatorIterator>
+         <tr><td>locator</td><td><viva:AudioVisualDocumentLocator /></td></tr>
+      </viva:foreachAudioVisualDocumentLocatorIterator>
+      <viva:foreachAudioVisualDocumentPageEndIterator>
+         <tr><td>pageEnd</td><td><viva:AudioVisualDocumentPageEnd /></td></tr>
+      </viva:foreachAudioVisualDocumentPageEndIterator>
+      <viva:foreachAudioVisualDocumentIsbn10Iterator>
+         <tr><td>isbn10</td><td><viva:AudioVisualDocumentIsbn10 /></td></tr>
+      </viva:foreachAudioVisualDocumentIsbn10Iterator>
       <viva:foreachAudioVisualDocumentERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:AudioVisualDocumentERO_0000045 /></td></tr>
       </viva:foreachAudioVisualDocumentERO_0000045Iterator>
+      <viva:foreachAudioVisualDocumentNumberIterator>
+         <tr><td>number</td><td><viva:AudioVisualDocumentNumber /></td></tr>
+      </viva:foreachAudioVisualDocumentNumberIterator>
+      <viva:foreachAudioVisualDocumentEditionIterator>
+         <tr><td>edition</td><td><viva:AudioVisualDocumentEdition /></td></tr>
+      </viva:foreachAudioVisualDocumentEditionIterator>
+      <viva:foreachAudioVisualDocumentSiciIterator>
+         <tr><td>sici</td><td><viva:AudioVisualDocumentSici /></td></tr>
+      </viva:foreachAudioVisualDocumentSiciIterator>
+      <viva:foreachAudioVisualDocumentUpcIterator>
+         <tr><td>upc</td><td><viva:AudioVisualDocumentUpc /></td></tr>
+      </viva:foreachAudioVisualDocumentUpcIterator>
+      <viva:foreachAudioVisualDocumentContentIterator>
+         <tr><td>content</td><td><viva:AudioVisualDocumentContent /></td></tr>
+      </viva:foreachAudioVisualDocumentContentIterator>
+      <viva:foreachAudioVisualDocumentShortTitleIterator>
+         <tr><td>shortTitle</td><td><viva:AudioVisualDocumentShortTitle /></td></tr>
+      </viva:foreachAudioVisualDocumentShortTitleIterator>
+      <viva:foreachAudioVisualDocumentHandleIterator>
+         <tr><td>handle</td><td><viva:AudioVisualDocumentHandle /></td></tr>
+      </viva:foreachAudioVisualDocumentHandleIterator>
+      <viva:foreachAudioVisualDocumentCodenIterator>
+         <tr><td>coden</td><td><viva:AudioVisualDocumentCoden /></td></tr>
+      </viva:foreachAudioVisualDocumentCodenIterator>
+      <viva:foreachAudioVisualDocumentPagesIterator>
+         <tr><td>pages</td><td><viva:AudioVisualDocumentPages /></td></tr>
+      </viva:foreachAudioVisualDocumentPagesIterator>
+      <viva:foreachAudioVisualDocumentIdentifierIterator>
+         <tr><td>identifier</td><td><viva:AudioVisualDocumentIdentifier /></td></tr>
+      </viva:foreachAudioVisualDocumentIdentifierIterator>
+      <viva:foreachAudioVisualDocumentGtin14Iterator>
+         <tr><td>gtin14</td><td><viva:AudioVisualDocumentGtin14 /></td></tr>
+      </viva:foreachAudioVisualDocumentGtin14Iterator>
+      <viva:foreachAudioVisualDocumentNumPagesIterator>
+         <tr><td>numPages</td><td><viva:AudioVisualDocumentNumPages /></td></tr>
+      </viva:foreachAudioVisualDocumentNumPagesIterator>
+      <viva:foreachAudioVisualDocumentAsinIterator>
+         <tr><td>asin</td><td><viva:AudioVisualDocumentAsin /></td></tr>
+      </viva:foreachAudioVisualDocumentAsinIterator>
+      <viva:foreachAudioVisualDocumentLccnIterator>
+         <tr><td>lccn</td><td><viva:AudioVisualDocumentLccn /></td></tr>
+      </viva:foreachAudioVisualDocumentLccnIterator>
+      <viva:foreachAudioVisualDocumentDoiIterator>
+         <tr><td>doi</td><td><viva:AudioVisualDocumentDoi /></td></tr>
+      </viva:foreachAudioVisualDocumentDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -61,9 +130,9 @@
       <viva:foreachAudioVisualDocumentRelatedByIterator>
          <tr><td>relatedBy</td><td><a href="../<viva:AudioVisualDocumentRelatedByType/>/<viva:AudioVisualDocumentRelatedByType/>.jsp?uri=<viva:AudioVisualDocumentRelatedBy/>"><viva:AudioVisualDocumentRelatedBy /></a></td></tr>
       </viva:foreachAudioVisualDocumentRelatedByIterator>
-      <viva:foreachAudioVisualDocumentTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:AudioVisualDocumentTranslatorType/>/<viva:AudioVisualDocumentTranslatorType/>.jsp?uri=<viva:AudioVisualDocumentTranslator/>"><viva:AudioVisualDocumentTranslator /></a></td></tr>
-      </viva:foreachAudioVisualDocumentTranslatorIterator>
+      <viva:foreachAudioVisualDocumentDirectorIterator>
+         <tr><td>director</td><td><a href="../<viva:AudioVisualDocumentDirectorType/>/<viva:AudioVisualDocumentDirectorType/>.jsp?uri=<viva:AudioVisualDocumentDirector/>"><viva:AudioVisualDocumentDirector /></a></td></tr>
+      </viva:foreachAudioVisualDocumentDirectorIterator>
       <viva:foreachAudioVisualDocumentFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:AudioVisualDocumentFeaturesType/>/<viva:AudioVisualDocumentFeaturesType/>.jsp?uri=<viva:AudioVisualDocumentFeatures/>"><viva:AudioVisualDocumentFeatures /></a></td></tr>
       </viva:foreachAudioVisualDocumentFeaturesIterator>
@@ -73,15 +142,27 @@
       <viva:foreachAudioVisualDocumentIAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<viva:AudioVisualDocumentIAO_0000136Type/>/<viva:AudioVisualDocumentIAO_0000136Type/>.jsp?uri=<viva:AudioVisualDocumentIAO_0000136/>"><viva:AudioVisualDocumentIAO_0000136 /></a></td></tr>
       </viva:foreachAudioVisualDocumentIAO_0000136Iterator>
+      <viva:foreachAudioVisualDocumentEditorIterator>
+         <tr><td>editor</td><td><a href="../<viva:AudioVisualDocumentEditorType/>/<viva:AudioVisualDocumentEditorType/>.jsp?uri=<viva:AudioVisualDocumentEditor/>"><viva:AudioVisualDocumentEditor /></a></td></tr>
+      </viva:foreachAudioVisualDocumentEditorIterator>
       <viva:foreachAudioVisualDocumentDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:AudioVisualDocumentDocumentationForType/>/<viva:AudioVisualDocumentDocumentationForType/>.jsp?uri=<viva:AudioVisualDocumentDocumentationFor/>"><viva:AudioVisualDocumentDocumentationFor /></a></td></tr>
       </viva:foreachAudioVisualDocumentDocumentationForIterator>
       <viva:foreachAudioVisualDocumentCitedByIterator>
          <tr><td>citedBy</td><td><a href="../<viva:AudioVisualDocumentCitedByType/>/<viva:AudioVisualDocumentCitedByType/>.jsp?uri=<viva:AudioVisualDocumentCitedBy/>"><viva:AudioVisualDocumentCitedBy /></a></td></tr>
       </viva:foreachAudioVisualDocumentCitedByIterator>
+      <viva:foreachAudioVisualDocumentOwnerIterator>
+         <tr><td>owner</td><td><a href="../<viva:AudioVisualDocumentOwnerType/>/<viva:AudioVisualDocumentOwnerType/>.jsp?uri=<viva:AudioVisualDocumentOwner/>"><viva:AudioVisualDocumentOwner /></a></td></tr>
+      </viva:foreachAudioVisualDocumentOwnerIterator>
+      <viva:foreachAudioVisualDocumentTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:AudioVisualDocumentTranslatorType/>/<viva:AudioVisualDocumentTranslatorType/>.jsp?uri=<viva:AudioVisualDocumentTranslator/>"><viva:AudioVisualDocumentTranslator /></a></td></tr>
+      </viva:foreachAudioVisualDocumentTranslatorIterator>
       <viva:foreachAudioVisualDocumentTranslationOfIterator>
          <tr><td>translationOf</td><td><a href="../<viva:AudioVisualDocumentTranslationOfType/>/<viva:AudioVisualDocumentTranslationOfType/>.jsp?uri=<viva:AudioVisualDocumentTranslationOf/>"><viva:AudioVisualDocumentTranslationOf /></a></td></tr>
       </viva:foreachAudioVisualDocumentTranslationOfIterator>
+      <viva:foreachAudioVisualDocumentEditorListIterator>
+         <tr><td>editorList</td><td><a href="../<viva:AudioVisualDocumentEditorListType/>/<viva:AudioVisualDocumentEditorListType/>.jsp?uri=<viva:AudioVisualDocumentEditorList/>"><viva:AudioVisualDocumentEditorList /></a></td></tr>
+      </viva:foreachAudioVisualDocumentEditorListIterator>
       <viva:foreachAudioVisualDocumentReproducesIterator>
          <tr><td>reproduces</td><td><a href="../<viva:AudioVisualDocumentReproducesType/>/<viva:AudioVisualDocumentReproducesType/>.jsp?uri=<viva:AudioVisualDocumentReproduces/>"><viva:AudioVisualDocumentReproduces /></a></td></tr>
       </viva:foreachAudioVisualDocumentReproducesIterator>
@@ -91,12 +172,33 @@
       <viva:foreachAudioVisualDocumentReproducedInIterator>
          <tr><td>reproducedIn</td><td><a href="../<viva:AudioVisualDocumentReproducedInType/>/<viva:AudioVisualDocumentReproducedInType/>.jsp?uri=<viva:AudioVisualDocumentReproducedIn/>"><viva:AudioVisualDocumentReproducedIn /></a></td></tr>
       </viva:foreachAudioVisualDocumentReproducedInIterator>
+      <viva:foreachAudioVisualDocumentIssuerIterator>
+         <tr><td>issuer</td><td><a href="../<viva:AudioVisualDocumentIssuerType/>/<viva:AudioVisualDocumentIssuerType/>.jsp?uri=<viva:AudioVisualDocumentIssuer/>"><viva:AudioVisualDocumentIssuer /></a></td></tr>
+      </viva:foreachAudioVisualDocumentIssuerIterator>
+      <viva:foreachAudioVisualDocumentAuthorListIterator>
+         <tr><td>authorList</td><td><a href="../<viva:AudioVisualDocumentAuthorListType/>/<viva:AudioVisualDocumentAuthorListType/>.jsp?uri=<viva:AudioVisualDocumentAuthorList/>"><viva:AudioVisualDocumentAuthorList /></a></td></tr>
+      </viva:foreachAudioVisualDocumentAuthorListIterator>
+      <viva:foreachAudioVisualDocumentDistributorIterator>
+         <tr><td>distributor</td><td><a href="../<viva:AudioVisualDocumentDistributorType/>/<viva:AudioVisualDocumentDistributorType/>.jsp?uri=<viva:AudioVisualDocumentDistributor/>"><viva:AudioVisualDocumentDistributor /></a></td></tr>
+      </viva:foreachAudioVisualDocumentDistributorIterator>
+      <viva:foreachAudioVisualDocumentTranscriptOfIterator>
+         <tr><td>transcriptOf</td><td><a href="../<viva:AudioVisualDocumentTranscriptOfType/>/<viva:AudioVisualDocumentTranscriptOfType/>.jsp?uri=<viva:AudioVisualDocumentTranscriptOf/>"><viva:AudioVisualDocumentTranscriptOf /></a></td></tr>
+      </viva:foreachAudioVisualDocumentTranscriptOfIterator>
       <viva:foreachAudioVisualDocumentPresentedAtIterator>
          <tr><td>presentedAt</td><td><a href="../<viva:AudioVisualDocumentPresentedAtType/>/<viva:AudioVisualDocumentPresentedAtType/>.jsp?uri=<viva:AudioVisualDocumentPresentedAt/>"><viva:AudioVisualDocumentPresentedAt /></a></td></tr>
       </viva:foreachAudioVisualDocumentPresentedAtIterator>
       <viva:foreachAudioVisualDocumentHasTranslationIterator>
          <tr><td>hasTranslation</td><td><a href="../<viva:AudioVisualDocumentHasTranslationType/>/<viva:AudioVisualDocumentHasTranslationType/>.jsp?uri=<viva:AudioVisualDocumentHasTranslation/>"><viva:AudioVisualDocumentHasTranslation /></a></td></tr>
       </viva:foreachAudioVisualDocumentHasTranslationIterator>
+      <viva:foreachAudioVisualDocumentContributorListIterator>
+         <tr><td>contributorList</td><td><a href="../<viva:AudioVisualDocumentContributorListType/>/<viva:AudioVisualDocumentContributorListType/>.jsp?uri=<viva:AudioVisualDocumentContributorList/>"><viva:AudioVisualDocumentContributorList /></a></td></tr>
+      </viva:foreachAudioVisualDocumentContributorListIterator>
+      <viva:foreachAudioVisualDocumentProducerIterator>
+         <tr><td>producer</td><td><a href="../<viva:AudioVisualDocumentProducerType/>/<viva:AudioVisualDocumentProducerType/>.jsp?uri=<viva:AudioVisualDocumentProducer/>"><viva:AudioVisualDocumentProducer /></a></td></tr>
+      </viva:foreachAudioVisualDocumentProducerIterator>
+      <viva:foreachAudioVisualDocumentReviewOfIterator>
+         <tr><td>reviewOf</td><td><a href="../<viva:AudioVisualDocumentReviewOfType/>/<viva:AudioVisualDocumentReviewOfType/>.jsp?uri=<viva:AudioVisualDocumentReviewOf/>"><viva:AudioVisualDocumentReviewOf /></a></td></tr>
+      </viva:foreachAudioVisualDocumentReviewOfIterator>
       <viva:foreachAudioVisualDocumentCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:AudioVisualDocumentCitesType/>/<viva:AudioVisualDocumentCitesType/>.jsp?uri=<viva:AudioVisualDocumentCites/>"><viva:AudioVisualDocumentCites /></a></td></tr>
       </viva:foreachAudioVisualDocumentCitesIterator>

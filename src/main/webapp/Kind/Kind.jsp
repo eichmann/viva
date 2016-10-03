@@ -30,12 +30,6 @@
       <viva:foreachKindRankIterator>
          <tr><td>rank</td><td><viva:KindRank /></td></tr>
       </viva:foreachKindRankIterator>
-      <viva:foreachKindTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:KindTheAbstract /></td></tr>
-      </viva:foreachKindTheAbstractIterator>
-      <viva:foreachKindDoiIterator>
-         <tr><td>doi</td><td><viva:KindDoi /></td></tr>
-      </viva:foreachKindDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -58,9 +52,6 @@
       <viva:foreachKindHasURLIterator>
          <tr><td>hasURL</td><td><a href="../<viva:KindHasURLType/>/<viva:KindHasURLType/>.jsp?uri=<viva:KindHasURL/>"><viva:KindHasURL /></a></td></tr>
       </viva:foreachKindHasURLIterator>
-      <viva:foreachKindTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:KindTranslatorType/>/<viva:KindTranslatorType/>.jsp?uri=<viva:KindTranslator/>"><viva:KindTranslator /></a></td></tr>
-      </viva:foreachKindTranslatorIterator>
       <viva:foreachKindFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:KindFeaturesType/>/<viva:KindFeaturesType/>.jsp?uri=<viva:KindFeatures/>"><viva:KindFeatures /></a></td></tr>
       </viva:foreachKindFeaturesIterator>

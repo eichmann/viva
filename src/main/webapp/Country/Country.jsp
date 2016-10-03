@@ -69,9 +69,6 @@
       <viva:foreachCountryNameListARIterator>
          <tr><td>nameListAR</td><td><viva:CountryNameListAR /></td></tr>
       </viva:foreachCountryNameListARIterator>
-      <viva:foreachCountryValidUntilIterator>
-         <tr><td>validUntil</td><td><viva:CountryValidUntil /></td></tr>
-      </viva:foreachCountryValidUntilIterator>
       <viva:foreachCountryCountryAreaTotalIterator>
          <tr><td>countryAreaTotal</td><td><viva:CountryCountryAreaTotal /></td></tr>
       </viva:foreachCountryCountryAreaTotalIterator>
@@ -192,9 +189,6 @@
       <viva:foreachCountryNameShortARIterator>
          <tr><td>nameShortAR</td><td><viva:CountryNameShortAR /></td></tr>
       </viva:foreachCountryNameShortARIterator>
-      <viva:foreachCountryValidSinceIterator>
-         <tr><td>validSince</td><td><viva:CountryValidSince /></td></tr>
-      </viva:foreachCountryValidSinceIterator>
       <viva:foreachCountryNameOfficialENIterator>
          <tr><td>nameOfficialEN</td><td><viva:CountryNameOfficialEN /></td></tr>
       </viva:foreachCountryNameOfficialENIterator>
@@ -259,25 +253,19 @@
       <viva:foreachCountryRO_0001015Iterator>
          <tr><td>RO_0001015</td><td><a href="../<viva:CountryRO_0001015Type/>/<viva:CountryRO_0001015Type/>.jsp?uri=<viva:CountryRO_0001015/>"><viva:CountryRO_0001015 /></a></td></tr>
       </viva:foreachCountryRO_0001015Iterator>
-      <viva:foreachCountryHasBorderWithIterator>
-         <tr><td>hasBorderWith</td><td><a href="../<viva:CountryHasBorderWithType/>/<viva:CountryHasBorderWithType/>.jsp?uri=<viva:CountryHasBorderWith/>"><viva:CountryHasBorderWith /></a></td></tr>
-      </viva:foreachCountryHasBorderWithIterator>
       <viva:foreachCountryRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<viva:CountryRO_0000053Type/>/<viva:CountryRO_0000053Type/>.jsp?uri=<viva:CountryRO_0000053/>"><viva:CountryRO_0000053 /></a></td></tr>
       </viva:foreachCountryRO_0000053Iterator>
-      <viva:foreachCountryRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:CountryRO_0000056Type/>/<viva:CountryRO_0000056Type/>.jsp?uri=<viva:CountryRO_0000056/>"><viva:CountryRO_0000056 /></a></td></tr>
-      </viva:foreachCountryRO_0000056Iterator>
       <viva:foreachCountryGeographicFocusOfIterator>
          <tr><td>geographicFocusOf</td><td><a href="../<viva:CountryGeographicFocusOfType/>/<viva:CountryGeographicFocusOfType/>.jsp?uri=<viva:CountryGeographicFocusOf/>"><viva:CountryGeographicFocusOf /></a></td></tr>
       </viva:foreachCountryGeographicFocusOfIterator>
+      <viva:foreachCountryRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:CountryRO_0000056Type/>/<viva:CountryRO_0000056Type/>.jsp?uri=<viva:CountryRO_0000056/>"><viva:CountryRO_0000056 /></a></td></tr>
+      </viva:foreachCountryRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachCountryIsAdministeredByInverseIterator>
-         <tr><td>isAdministeredBy</td><td><a href="../<viva:CountryIsAdministeredByInverseType/>/<viva:CountryIsAdministeredByInverseType/>.jsp?uri=<viva:CountryIsAdministeredByInverse/>"><viva:CountryIsAdministeredByInverse/></a></td></tr>
-      </viva:foreachCountryIsAdministeredByInverseIterator>
       <viva:foreachCountryValidInInverseIterator>
          <tr><td>validIn</td><td><a href="../<viva:CountryValidInInverseType/>/<viva:CountryValidInInverseType/>.jsp?uri=<viva:CountryValidInInverse/>"><viva:CountryValidInInverse/></a></td></tr>
       </viva:foreachCountryValidInInverseIterator>

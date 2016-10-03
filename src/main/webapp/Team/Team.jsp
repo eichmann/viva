@@ -28,6 +28,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachTeamSuffixNameIterator>
+         <tr><td>suffixName</td><td><viva:TeamSuffixName /></td></tr>
+      </viva:foreachTeamSuffixNameIterator>
+      <viva:foreachTeamPrefixNameIterator>
+         <tr><td>prefixName</td><td><viva:TeamPrefixName /></td></tr>
+      </viva:foreachTeamPrefixNameIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -44,6 +50,12 @@
       <viva:foreachTeamHasCollaboratorIterator>
          <tr><td>hasCollaborator</td><td><a href="../<viva:TeamHasCollaboratorType/>/<viva:TeamHasCollaboratorType/>.jsp?uri=<viva:TeamHasCollaborator/>"><viva:TeamHasCollaborator /></a></td></tr>
       </viva:foreachTeamHasCollaboratorIterator>
+      <viva:foreachTeamInterviewerIterator>
+         <tr><td>interviewer</td><td><a href="../<viva:TeamInterviewerType/>/<viva:TeamInterviewerType/>.jsp?uri=<viva:TeamInterviewer/>"><viva:TeamInterviewer /></a></td></tr>
+      </viva:foreachTeamInterviewerIterator>
+      <viva:foreachTeamIntervieweeIterator>
+         <tr><td>interviewee</td><td><a href="../<viva:TeamIntervieweeType/>/<viva:TeamIntervieweeType/>.jsp?uri=<viva:TeamInterviewee/>"><viva:TeamInterviewee /></a></td></tr>
+      </viva:foreachTeamIntervieweeIterator>
       <viva:foreachTeamTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:TeamTranslatorOfType/>/<viva:TeamTranslatorOfType/>.jsp?uri=<viva:TeamTranslatorOf/>"><viva:TeamTranslatorOf /></a></td></tr>
       </viva:foreachTeamTranslatorOfIterator>
@@ -51,9 +63,30 @@
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
+      <viva:foreachTeamOrganizerInverseIterator>
+         <tr><td>organizer</td><td><a href="../<viva:TeamOrganizerInverseType/>/<viva:TeamOrganizerInverseType/>.jsp?uri=<viva:TeamOrganizerInverse/>"><viva:TeamOrganizerInverse/></a></td></tr>
+      </viva:foreachTeamOrganizerInverseIterator>
+      <viva:foreachTeamRecipientInverseIterator>
+         <tr><td>recipient</td><td><a href="../<viva:TeamRecipientInverseType/>/<viva:TeamRecipientInverseType/>.jsp?uri=<viva:TeamRecipientInverse/>"><viva:TeamRecipientInverse/></a></td></tr>
+      </viva:foreachTeamRecipientInverseIterator>
+      <viva:foreachTeamEditorInverseIterator>
+         <tr><td>editor</td><td><a href="../<viva:TeamEditorInverseType/>/<viva:TeamEditorInverseType/>.jsp?uri=<viva:TeamEditorInverse/>"><viva:TeamEditorInverse/></a></td></tr>
+      </viva:foreachTeamEditorInverseIterator>
+      <viva:foreachTeamOwnerInverseIterator>
+         <tr><td>owner</td><td><a href="../<viva:TeamOwnerInverseType/>/<viva:TeamOwnerInverseType/>.jsp?uri=<viva:TeamOwnerInverse/>"><viva:TeamOwnerInverse/></a></td></tr>
+      </viva:foreachTeamOwnerInverseIterator>
+      <viva:foreachTeamPerformerInverseIterator>
+         <tr><td>performer</td><td><a href="../<viva:TeamPerformerInverseType/>/<viva:TeamPerformerInverseType/>.jsp?uri=<viva:TeamPerformerInverse/>"><viva:TeamPerformerInverse/></a></td></tr>
+      </viva:foreachTeamPerformerInverseIterator>
       <viva:foreachTeamIssuerInverseIterator>
          <tr><td>issuer</td><td><a href="../<viva:TeamIssuerInverseType/>/<viva:TeamIssuerInverseType/>.jsp?uri=<viva:TeamIssuerInverse/>"><viva:TeamIssuerInverse/></a></td></tr>
       </viva:foreachTeamIssuerInverseIterator>
+      <viva:foreachTeamProducerInverseIterator>
+         <tr><td>producer</td><td><a href="../<viva:TeamProducerInverseType/>/<viva:TeamProducerInverseType/>.jsp?uri=<viva:TeamProducerInverse/>"><viva:TeamProducerInverse/></a></td></tr>
+      </viva:foreachTeamProducerInverseIterator>
+      <viva:foreachTeamDirectorInverseIterator>
+         <tr><td>director</td><td><a href="../<viva:TeamDirectorInverseType/>/<viva:TeamDirectorInverseType/>.jsp?uri=<viva:TeamDirectorInverse/>"><viva:TeamDirectorInverse/></a></td></tr>
+      </viva:foreachTeamDirectorInverseIterator>
    </table>
    </viva:Team>
 

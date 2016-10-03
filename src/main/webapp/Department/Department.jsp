@@ -29,10 +29,19 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachDepartmentSuffixNameIterator>
+         <tr><td>suffixName</td><td><viva:DepartmentSuffixName /></td></tr>
+      </viva:foreachDepartmentSuffixNameIterator>
+      <viva:foreachDepartmentPrefixNameIterator>
+         <tr><td>prefixName</td><td><viva:DepartmentPrefixName /></td></tr>
+      </viva:foreachDepartmentPrefixNameIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachDepartmentRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:DepartmentRO_0000053Type/>/<viva:DepartmentRO_0000053Type/>.jsp?uri=<viva:DepartmentRO_0000053/>"><viva:DepartmentRO_0000053 /></a></td></tr>
+      </viva:foreachDepartmentRO_0000053Iterator>
       <viva:foreachDepartmentSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:DepartmentSponsorsType/>/<viva:DepartmentSponsorsType/>.jsp?uri=<viva:DepartmentSponsors/>"><viva:DepartmentSponsors /></a></td></tr>
       </viva:foreachDepartmentSponsorsIterator>
@@ -69,9 +78,6 @@
       <viva:foreachDepartmentAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<viva:DepartmentAffiliatedOrganizationType/>/<viva:DepartmentAffiliatedOrganizationType/>.jsp?uri=<viva:DepartmentAffiliatedOrganization/>"><viva:DepartmentAffiliatedOrganization /></a></td></tr>
       </viva:foreachDepartmentAffiliatedOrganizationIterator>
-      <viva:foreachDepartmentRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:DepartmentRO_0000053Type/>/<viva:DepartmentRO_0000053Type/>.jsp?uri=<viva:DepartmentRO_0000053/>"><viva:DepartmentRO_0000053 /></a></td></tr>
-      </viva:foreachDepartmentRO_0000053Iterator>
       <viva:foreachDepartmentRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:DepartmentRO_0000056Type/>/<viva:DepartmentRO_0000056Type/>.jsp?uri=<viva:DepartmentRO_0000056/>"><viva:DepartmentRO_0000056 /></a></td></tr>
       </viva:foreachDepartmentRO_0000056Iterator>
@@ -81,6 +87,12 @@
       <viva:foreachDepartmentHasCollaboratorIterator>
          <tr><td>hasCollaborator</td><td><a href="../<viva:DepartmentHasCollaboratorType/>/<viva:DepartmentHasCollaboratorType/>.jsp?uri=<viva:DepartmentHasCollaborator/>"><viva:DepartmentHasCollaborator /></a></td></tr>
       </viva:foreachDepartmentHasCollaboratorIterator>
+      <viva:foreachDepartmentInterviewerIterator>
+         <tr><td>interviewer</td><td><a href="../<viva:DepartmentInterviewerType/>/<viva:DepartmentInterviewerType/>.jsp?uri=<viva:DepartmentInterviewer/>"><viva:DepartmentInterviewer /></a></td></tr>
+      </viva:foreachDepartmentInterviewerIterator>
+      <viva:foreachDepartmentIntervieweeIterator>
+         <tr><td>interviewee</td><td><a href="../<viva:DepartmentIntervieweeType/>/<viva:DepartmentIntervieweeType/>.jsp?uri=<viva:DepartmentInterviewee/>"><viva:DepartmentInterviewee /></a></td></tr>
+      </viva:foreachDepartmentIntervieweeIterator>
       <viva:foreachDepartmentTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:DepartmentTranslatorOfType/>/<viva:DepartmentTranslatorOfType/>.jsp?uri=<viva:DepartmentTranslatorOf/>"><viva:DepartmentTranslatorOf /></a></td></tr>
       </viva:foreachDepartmentTranslatorOfIterator>
@@ -91,9 +103,33 @@
       <viva:foreachDepartmentOBI_0000304InverseIterator>
          <tr><td>OBI_0000304</td><td><a href="../<viva:DepartmentOBI_0000304InverseType/>/<viva:DepartmentOBI_0000304InverseType/>.jsp?uri=<viva:DepartmentOBI_0000304Inverse/>"><viva:DepartmentOBI_0000304Inverse/></a></td></tr>
       </viva:foreachDepartmentOBI_0000304InverseIterator>
+      <viva:foreachDepartmentCourtInverseIterator>
+         <tr><td>court</td><td><a href="../<viva:DepartmentCourtInverseType/>/<viva:DepartmentCourtInverseType/>.jsp?uri=<viva:DepartmentCourtInverse/>"><viva:DepartmentCourtInverse/></a></td></tr>
+      </viva:foreachDepartmentCourtInverseIterator>
+      <viva:foreachDepartmentOrganizerInverseIterator>
+         <tr><td>organizer</td><td><a href="../<viva:DepartmentOrganizerInverseType/>/<viva:DepartmentOrganizerInverseType/>.jsp?uri=<viva:DepartmentOrganizerInverse/>"><viva:DepartmentOrganizerInverse/></a></td></tr>
+      </viva:foreachDepartmentOrganizerInverseIterator>
+      <viva:foreachDepartmentRecipientInverseIterator>
+         <tr><td>recipient</td><td><a href="../<viva:DepartmentRecipientInverseType/>/<viva:DepartmentRecipientInverseType/>.jsp?uri=<viva:DepartmentRecipientInverse/>"><viva:DepartmentRecipientInverse/></a></td></tr>
+      </viva:foreachDepartmentRecipientInverseIterator>
+      <viva:foreachDepartmentEditorInverseIterator>
+         <tr><td>editor</td><td><a href="../<viva:DepartmentEditorInverseType/>/<viva:DepartmentEditorInverseType/>.jsp?uri=<viva:DepartmentEditorInverse/>"><viva:DepartmentEditorInverse/></a></td></tr>
+      </viva:foreachDepartmentEditorInverseIterator>
+      <viva:foreachDepartmentOwnerInverseIterator>
+         <tr><td>owner</td><td><a href="../<viva:DepartmentOwnerInverseType/>/<viva:DepartmentOwnerInverseType/>.jsp?uri=<viva:DepartmentOwnerInverse/>"><viva:DepartmentOwnerInverse/></a></td></tr>
+      </viva:foreachDepartmentOwnerInverseIterator>
+      <viva:foreachDepartmentPerformerInverseIterator>
+         <tr><td>performer</td><td><a href="../<viva:DepartmentPerformerInverseType/>/<viva:DepartmentPerformerInverseType/>.jsp?uri=<viva:DepartmentPerformerInverse/>"><viva:DepartmentPerformerInverse/></a></td></tr>
+      </viva:foreachDepartmentPerformerInverseIterator>
       <viva:foreachDepartmentIssuerInverseIterator>
          <tr><td>issuer</td><td><a href="../<viva:DepartmentIssuerInverseType/>/<viva:DepartmentIssuerInverseType/>.jsp?uri=<viva:DepartmentIssuerInverse/>"><viva:DepartmentIssuerInverse/></a></td></tr>
       </viva:foreachDepartmentIssuerInverseIterator>
+      <viva:foreachDepartmentProducerInverseIterator>
+         <tr><td>producer</td><td><a href="../<viva:DepartmentProducerInverseType/>/<viva:DepartmentProducerInverseType/>.jsp?uri=<viva:DepartmentProducerInverse/>"><viva:DepartmentProducerInverse/></a></td></tr>
+      </viva:foreachDepartmentProducerInverseIterator>
+      <viva:foreachDepartmentDirectorInverseIterator>
+         <tr><td>director</td><td><a href="../<viva:DepartmentDirectorInverseType/>/<viva:DepartmentDirectorInverseType/>.jsp?uri=<viva:DepartmentDirectorInverse/>"><viva:DepartmentDirectorInverse/></a></td></tr>
+      </viva:foreachDepartmentDirectorInverseIterator>
    </table>
    </viva:Department>
 

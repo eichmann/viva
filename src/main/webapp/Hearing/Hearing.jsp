@@ -31,12 +31,15 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachHearingBFO_0000055Iterator>
-         <tr><td>BFO_0000055</td><td><a href="../<viva:HearingBFO_0000055Type/>/<viva:HearingBFO_0000055Type/>.jsp?uri=<viva:HearingBFO_0000055/>"><viva:HearingBFO_0000055 /></a></td></tr>
-      </viva:foreachHearingBFO_0000055Iterator>
       <viva:foreachHearingRO_0000057Iterator>
          <tr><td>RO_0000057</td><td><a href="../<viva:HearingRO_0000057Type/>/<viva:HearingRO_0000057Type/>.jsp?uri=<viva:HearingRO_0000057/>"><viva:HearingRO_0000057 /></a></td></tr>
       </viva:foreachHearingRO_0000057Iterator>
+      <viva:foreachHearingOrganizerIterator>
+         <tr><td>organizer</td><td><a href="../<viva:HearingOrganizerType/>/<viva:HearingOrganizerType/>.jsp?uri=<viva:HearingOrganizer/>"><viva:HearingOrganizer /></a></td></tr>
+      </viva:foreachHearingOrganizerIterator>
+      <viva:foreachHearingBFO_0000055Iterator>
+         <tr><td>BFO_0000055</td><td><a href="../<viva:HearingBFO_0000055Type/>/<viva:HearingBFO_0000055Type/>.jsp?uri=<viva:HearingBFO_0000055/>"><viva:HearingBFO_0000055 /></a></td></tr>
+      </viva:foreachHearingBFO_0000055Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

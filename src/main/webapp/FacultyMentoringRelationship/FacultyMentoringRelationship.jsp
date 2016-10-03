@@ -31,12 +31,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachFacultyMentoringRelationshipDegreeCandidacyIterator>
-         <tr><td>degreeCandidacy</td><td><a href="../<viva:FacultyMentoringRelationshipDegreeCandidacyType/>/<viva:FacultyMentoringRelationshipDegreeCandidacyType/>.jsp?uri=<viva:FacultyMentoringRelationshipDegreeCandidacy/>"><viva:FacultyMentoringRelationshipDegreeCandidacy /></a></td></tr>
-      </viva:foreachFacultyMentoringRelationshipDegreeCandidacyIterator>
       <viva:foreachFacultyMentoringRelationshipRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<viva:FacultyMentoringRelationshipRO_0000052Type/>/<viva:FacultyMentoringRelationshipRO_0000052Type/>.jsp?uri=<viva:FacultyMentoringRelationshipRO_0000052/>"><viva:FacultyMentoringRelationshipRO_0000052 /></a></td></tr>
       </viva:foreachFacultyMentoringRelationshipRO_0000052Iterator>
+      <viva:foreachFacultyMentoringRelationshipDegreeCandidacyIterator>
+         <tr><td>degreeCandidacy</td><td><a href="../<viva:FacultyMentoringRelationshipDegreeCandidacyType/>/<viva:FacultyMentoringRelationshipDegreeCandidacyType/>.jsp?uri=<viva:FacultyMentoringRelationshipDegreeCandidacy/>"><viva:FacultyMentoringRelationshipDegreeCandidacy /></a></td></tr>
+      </viva:foreachFacultyMentoringRelationshipDegreeCandidacyIterator>
       <viva:foreachFacultyMentoringRelationshipRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:FacultyMentoringRelationshipRO_0000056Type/>/<viva:FacultyMentoringRelationshipRO_0000056Type/>.jsp?uri=<viva:FacultyMentoringRelationshipRO_0000056/>"><viva:FacultyMentoringRelationshipRO_0000056 /></a></td></tr>
       </viva:foreachFacultyMentoringRelationshipRO_0000056Iterator>

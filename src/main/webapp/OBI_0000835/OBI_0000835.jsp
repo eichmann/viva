@@ -28,6 +28,12 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachOBI_0000835SuffixNameIterator>
+         <tr><td>suffixName</td><td><viva:OBI_0000835SuffixName /></td></tr>
+      </viva:foreachOBI_0000835SuffixNameIterator>
+      <viva:foreachOBI_0000835PrefixNameIterator>
+         <tr><td>prefixName</td><td><viva:OBI_0000835PrefixName /></td></tr>
+      </viva:foreachOBI_0000835PrefixNameIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -44,6 +50,12 @@
       <viva:foreachOBI_0000835HasCollaboratorIterator>
          <tr><td>hasCollaborator</td><td><a href="../<viva:OBI_0000835HasCollaboratorType/>/<viva:OBI_0000835HasCollaboratorType/>.jsp?uri=<viva:OBI_0000835HasCollaborator/>"><viva:OBI_0000835HasCollaborator /></a></td></tr>
       </viva:foreachOBI_0000835HasCollaboratorIterator>
+      <viva:foreachOBI_0000835InterviewerIterator>
+         <tr><td>interviewer</td><td><a href="../<viva:OBI_0000835InterviewerType/>/<viva:OBI_0000835InterviewerType/>.jsp?uri=<viva:OBI_0000835Interviewer/>"><viva:OBI_0000835Interviewer /></a></td></tr>
+      </viva:foreachOBI_0000835InterviewerIterator>
+      <viva:foreachOBI_0000835IntervieweeIterator>
+         <tr><td>interviewee</td><td><a href="../<viva:OBI_0000835IntervieweeType/>/<viva:OBI_0000835IntervieweeType/>.jsp?uri=<viva:OBI_0000835Interviewee/>"><viva:OBI_0000835Interviewee /></a></td></tr>
+      </viva:foreachOBI_0000835IntervieweeIterator>
       <viva:foreachOBI_0000835TranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:OBI_0000835TranslatorOfType/>/<viva:OBI_0000835TranslatorOfType/>.jsp?uri=<viva:OBI_0000835TranslatorOf/>"><viva:OBI_0000835TranslatorOf /></a></td></tr>
       </viva:foreachOBI_0000835TranslatorOfIterator>
@@ -54,9 +66,30 @@
       <viva:foreachOBI_0000835ERO_0000034InverseIterator>
          <tr><td>ERO_0000034</td><td><a href="../<viva:OBI_0000835ERO_0000034InverseType/>/<viva:OBI_0000835ERO_0000034InverseType/>.jsp?uri=<viva:OBI_0000835ERO_0000034Inverse/>"><viva:OBI_0000835ERO_0000034Inverse/></a></td></tr>
       </viva:foreachOBI_0000835ERO_0000034InverseIterator>
+      <viva:foreachOBI_0000835OrganizerInverseIterator>
+         <tr><td>organizer</td><td><a href="../<viva:OBI_0000835OrganizerInverseType/>/<viva:OBI_0000835OrganizerInverseType/>.jsp?uri=<viva:OBI_0000835OrganizerInverse/>"><viva:OBI_0000835OrganizerInverse/></a></td></tr>
+      </viva:foreachOBI_0000835OrganizerInverseIterator>
+      <viva:foreachOBI_0000835RecipientInverseIterator>
+         <tr><td>recipient</td><td><a href="../<viva:OBI_0000835RecipientInverseType/>/<viva:OBI_0000835RecipientInverseType/>.jsp?uri=<viva:OBI_0000835RecipientInverse/>"><viva:OBI_0000835RecipientInverse/></a></td></tr>
+      </viva:foreachOBI_0000835RecipientInverseIterator>
+      <viva:foreachOBI_0000835EditorInverseIterator>
+         <tr><td>editor</td><td><a href="../<viva:OBI_0000835EditorInverseType/>/<viva:OBI_0000835EditorInverseType/>.jsp?uri=<viva:OBI_0000835EditorInverse/>"><viva:OBI_0000835EditorInverse/></a></td></tr>
+      </viva:foreachOBI_0000835EditorInverseIterator>
+      <viva:foreachOBI_0000835OwnerInverseIterator>
+         <tr><td>owner</td><td><a href="../<viva:OBI_0000835OwnerInverseType/>/<viva:OBI_0000835OwnerInverseType/>.jsp?uri=<viva:OBI_0000835OwnerInverse/>"><viva:OBI_0000835OwnerInverse/></a></td></tr>
+      </viva:foreachOBI_0000835OwnerInverseIterator>
+      <viva:foreachOBI_0000835PerformerInverseIterator>
+         <tr><td>performer</td><td><a href="../<viva:OBI_0000835PerformerInverseType/>/<viva:OBI_0000835PerformerInverseType/>.jsp?uri=<viva:OBI_0000835PerformerInverse/>"><viva:OBI_0000835PerformerInverse/></a></td></tr>
+      </viva:foreachOBI_0000835PerformerInverseIterator>
       <viva:foreachOBI_0000835IssuerInverseIterator>
          <tr><td>issuer</td><td><a href="../<viva:OBI_0000835IssuerInverseType/>/<viva:OBI_0000835IssuerInverseType/>.jsp?uri=<viva:OBI_0000835IssuerInverse/>"><viva:OBI_0000835IssuerInverse/></a></td></tr>
       </viva:foreachOBI_0000835IssuerInverseIterator>
+      <viva:foreachOBI_0000835ProducerInverseIterator>
+         <tr><td>producer</td><td><a href="../<viva:OBI_0000835ProducerInverseType/>/<viva:OBI_0000835ProducerInverseType/>.jsp?uri=<viva:OBI_0000835ProducerInverse/>"><viva:OBI_0000835ProducerInverse/></a></td></tr>
+      </viva:foreachOBI_0000835ProducerInverseIterator>
+      <viva:foreachOBI_0000835DirectorInverseIterator>
+         <tr><td>director</td><td><a href="../<viva:OBI_0000835DirectorInverseType/>/<viva:OBI_0000835DirectorInverseType/>.jsp?uri=<viva:OBI_0000835DirectorInverse/>"><viva:OBI_0000835DirectorInverse/></a></td></tr>
+      </viva:foreachOBI_0000835DirectorInverseIterator>
    </table>
    </viva:OBI_0000835>
 

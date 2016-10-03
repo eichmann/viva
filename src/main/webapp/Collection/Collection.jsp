@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Collection - http://purl.org/ontology/bibo/Collection</title>
+<title>Collection - http://www.w3.org/2008/05/skos#Collection</title>
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
@@ -27,43 +27,13 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachCollectionTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:CollectionTheAbstract /></td></tr>
-      </viva:foreachCollectionTheAbstractIterator>
-      <viva:foreachCollectionDoiIterator>
-         <tr><td>doi</td><td><viva:CollectionDoi /></td></tr>
-      </viva:foreachCollectionDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachCollectionDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<viva:CollectionDateTimeValueType/>/<viva:CollectionDateTimeValueType/>.jsp?uri=<viva:CollectionDateTimeValue/>"><viva:CollectionDateTimeValue /></a></td></tr>
-      </viva:foreachCollectionDateTimeValueIterator>
-      <viva:foreachCollectionRO_0002353Iterator>
-         <tr><td>RO_0002353</td><td><a href="../<viva:CollectionRO_0002353Type/>/<viva:CollectionRO_0002353Type/>.jsp?uri=<viva:CollectionRO_0002353/>"><viva:CollectionRO_0002353 /></a></td></tr>
-      </viva:foreachCollectionRO_0002353Iterator>
-      <viva:foreachCollectionARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<viva:CollectionARG_2000028Type/>/<viva:CollectionARG_2000028Type/>.jsp?uri=<viva:CollectionARG_2000028/>"><viva:CollectionARG_2000028 /></a></td></tr>
-      </viva:foreachCollectionARG_2000028Iterator>
-      <viva:foreachCollectionRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:CollectionRelatedByType/>/<viva:CollectionRelatedByType/>.jsp?uri=<viva:CollectionRelatedBy/>"><viva:CollectionRelatedBy /></a></td></tr>
-      </viva:foreachCollectionRelatedByIterator>
-      <viva:foreachCollectionTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:CollectionTranslatorType/>/<viva:CollectionTranslatorType/>.jsp?uri=<viva:CollectionTranslator/>"><viva:CollectionTranslator /></a></td></tr>
-      </viva:foreachCollectionTranslatorIterator>
-      <viva:foreachCollectionFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:CollectionFeaturesType/>/<viva:CollectionFeaturesType/>.jsp?uri=<viva:CollectionFeatures/>"><viva:CollectionFeatures /></a></td></tr>
-      </viva:foreachCollectionFeaturesIterator>
-      <viva:foreachCollectionInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:CollectionInformationResourceSupportedByType/>/<viva:CollectionInformationResourceSupportedByType/>.jsp?uri=<viva:CollectionInformationResourceSupportedBy/>"><viva:CollectionInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachCollectionInformationResourceSupportedByIterator>
-      <viva:foreachCollectionIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:CollectionIAO_0000136Type/>/<viva:CollectionIAO_0000136Type/>.jsp?uri=<viva:CollectionIAO_0000136/>"><viva:CollectionIAO_0000136 /></a></td></tr>
-      </viva:foreachCollectionIAO_0000136Iterator>
-      <viva:foreachCollectionRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:CollectionRO_0000056Type/>/<viva:CollectionRO_0000056Type/>.jsp?uri=<viva:CollectionRO_0000056/>"><viva:CollectionRO_0000056 /></a></td></tr>
-      </viva:foreachCollectionRO_0000056Iterator>
+      <viva:foreachCollectionMemberIterator>
+         <tr><td>member</td><td><a href="../<viva:CollectionMemberType/>/<viva:CollectionMemberType/>.jsp?uri=<viva:CollectionMember/>"><viva:CollectionMember /></a></td></tr>
+      </viva:foreachCollectionMemberIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

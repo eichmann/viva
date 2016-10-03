@@ -29,10 +29,19 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachProgramSuffixNameIterator>
+         <tr><td>suffixName</td><td><viva:ProgramSuffixName /></td></tr>
+      </viva:foreachProgramSuffixNameIterator>
+      <viva:foreachProgramPrefixNameIterator>
+         <tr><td>prefixName</td><td><viva:ProgramPrefixName /></td></tr>
+      </viva:foreachProgramPrefixNameIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachProgramRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:ProgramRO_0000053Type/>/<viva:ProgramRO_0000053Type/>.jsp?uri=<viva:ProgramRO_0000053/>"><viva:ProgramRO_0000053 /></a></td></tr>
+      </viva:foreachProgramRO_0000053Iterator>
       <viva:foreachProgramSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:ProgramSponsorsType/>/<viva:ProgramSponsorsType/>.jsp?uri=<viva:ProgramSponsors/>"><viva:ProgramSponsors /></a></td></tr>
       </viva:foreachProgramSponsorsIterator>
@@ -69,9 +78,6 @@
       <viva:foreachProgramAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<viva:ProgramAffiliatedOrganizationType/>/<viva:ProgramAffiliatedOrganizationType/>.jsp?uri=<viva:ProgramAffiliatedOrganization/>"><viva:ProgramAffiliatedOrganization /></a></td></tr>
       </viva:foreachProgramAffiliatedOrganizationIterator>
-      <viva:foreachProgramRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:ProgramRO_0000053Type/>/<viva:ProgramRO_0000053Type/>.jsp?uri=<viva:ProgramRO_0000053/>"><viva:ProgramRO_0000053 /></a></td></tr>
-      </viva:foreachProgramRO_0000053Iterator>
       <viva:foreachProgramRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ProgramRO_0000056Type/>/<viva:ProgramRO_0000056Type/>.jsp?uri=<viva:ProgramRO_0000056/>"><viva:ProgramRO_0000056 /></a></td></tr>
       </viva:foreachProgramRO_0000056Iterator>
@@ -81,6 +87,12 @@
       <viva:foreachProgramHasCollaboratorIterator>
          <tr><td>hasCollaborator</td><td><a href="../<viva:ProgramHasCollaboratorType/>/<viva:ProgramHasCollaboratorType/>.jsp?uri=<viva:ProgramHasCollaborator/>"><viva:ProgramHasCollaborator /></a></td></tr>
       </viva:foreachProgramHasCollaboratorIterator>
+      <viva:foreachProgramInterviewerIterator>
+         <tr><td>interviewer</td><td><a href="../<viva:ProgramInterviewerType/>/<viva:ProgramInterviewerType/>.jsp?uri=<viva:ProgramInterviewer/>"><viva:ProgramInterviewer /></a></td></tr>
+      </viva:foreachProgramInterviewerIterator>
+      <viva:foreachProgramIntervieweeIterator>
+         <tr><td>interviewee</td><td><a href="../<viva:ProgramIntervieweeType/>/<viva:ProgramIntervieweeType/>.jsp?uri=<viva:ProgramInterviewee/>"><viva:ProgramInterviewee /></a></td></tr>
+      </viva:foreachProgramIntervieweeIterator>
       <viva:foreachProgramTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:ProgramTranslatorOfType/>/<viva:ProgramTranslatorOfType/>.jsp?uri=<viva:ProgramTranslatorOf/>"><viva:ProgramTranslatorOf /></a></td></tr>
       </viva:foreachProgramTranslatorOfIterator>
@@ -91,9 +103,33 @@
       <viva:foreachProgramOBI_0000304InverseIterator>
          <tr><td>OBI_0000304</td><td><a href="../<viva:ProgramOBI_0000304InverseType/>/<viva:ProgramOBI_0000304InverseType/>.jsp?uri=<viva:ProgramOBI_0000304Inverse/>"><viva:ProgramOBI_0000304Inverse/></a></td></tr>
       </viva:foreachProgramOBI_0000304InverseIterator>
+      <viva:foreachProgramCourtInverseIterator>
+         <tr><td>court</td><td><a href="../<viva:ProgramCourtInverseType/>/<viva:ProgramCourtInverseType/>.jsp?uri=<viva:ProgramCourtInverse/>"><viva:ProgramCourtInverse/></a></td></tr>
+      </viva:foreachProgramCourtInverseIterator>
+      <viva:foreachProgramOrganizerInverseIterator>
+         <tr><td>organizer</td><td><a href="../<viva:ProgramOrganizerInverseType/>/<viva:ProgramOrganizerInverseType/>.jsp?uri=<viva:ProgramOrganizerInverse/>"><viva:ProgramOrganizerInverse/></a></td></tr>
+      </viva:foreachProgramOrganizerInverseIterator>
+      <viva:foreachProgramRecipientInverseIterator>
+         <tr><td>recipient</td><td><a href="../<viva:ProgramRecipientInverseType/>/<viva:ProgramRecipientInverseType/>.jsp?uri=<viva:ProgramRecipientInverse/>"><viva:ProgramRecipientInverse/></a></td></tr>
+      </viva:foreachProgramRecipientInverseIterator>
+      <viva:foreachProgramEditorInverseIterator>
+         <tr><td>editor</td><td><a href="../<viva:ProgramEditorInverseType/>/<viva:ProgramEditorInverseType/>.jsp?uri=<viva:ProgramEditorInverse/>"><viva:ProgramEditorInverse/></a></td></tr>
+      </viva:foreachProgramEditorInverseIterator>
+      <viva:foreachProgramOwnerInverseIterator>
+         <tr><td>owner</td><td><a href="../<viva:ProgramOwnerInverseType/>/<viva:ProgramOwnerInverseType/>.jsp?uri=<viva:ProgramOwnerInverse/>"><viva:ProgramOwnerInverse/></a></td></tr>
+      </viva:foreachProgramOwnerInverseIterator>
+      <viva:foreachProgramPerformerInverseIterator>
+         <tr><td>performer</td><td><a href="../<viva:ProgramPerformerInverseType/>/<viva:ProgramPerformerInverseType/>.jsp?uri=<viva:ProgramPerformerInverse/>"><viva:ProgramPerformerInverse/></a></td></tr>
+      </viva:foreachProgramPerformerInverseIterator>
       <viva:foreachProgramIssuerInverseIterator>
          <tr><td>issuer</td><td><a href="../<viva:ProgramIssuerInverseType/>/<viva:ProgramIssuerInverseType/>.jsp?uri=<viva:ProgramIssuerInverse/>"><viva:ProgramIssuerInverse/></a></td></tr>
       </viva:foreachProgramIssuerInverseIterator>
+      <viva:foreachProgramProducerInverseIterator>
+         <tr><td>producer</td><td><a href="../<viva:ProgramProducerInverseType/>/<viva:ProgramProducerInverseType/>.jsp?uri=<viva:ProgramProducerInverse/>"><viva:ProgramProducerInverse/></a></td></tr>
+      </viva:foreachProgramProducerInverseIterator>
+      <viva:foreachProgramDirectorInverseIterator>
+         <tr><td>director</td><td><a href="../<viva:ProgramDirectorInverseType/>/<viva:ProgramDirectorInverseType/>.jsp?uri=<viva:ProgramDirectorInverse/>"><viva:ProgramDirectorInverse/></a></td></tr>
+      </viva:foreachProgramDirectorInverseIterator>
    </table>
    </viva:Program>
 

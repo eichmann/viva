@@ -31,25 +31,34 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachConceptResearchAreaOfIterator>
-         <tr><td>researchAreaOf</td><td><a href="../<viva:ConceptResearchAreaOfType/>/<viva:ConceptResearchAreaOfType/>.jsp?uri=<viva:ConceptResearchAreaOf/>"><viva:ConceptResearchAreaOf /></a></td></tr>
-      </viva:foreachConceptResearchAreaOfIterator>
-      <viva:foreachConceptSubjectAreaOfIterator>
-         <tr><td>subjectAreaOf</td><td><a href="../<viva:ConceptSubjectAreaOfType/>/<viva:ConceptSubjectAreaOfType/>.jsp?uri=<viva:ConceptSubjectAreaOf/>"><viva:ConceptSubjectAreaOf /></a></td></tr>
-      </viva:foreachConceptSubjectAreaOfIterator>
       <viva:foreachConceptRelatedIterator>
          <tr><td>related</td><td><a href="../<viva:ConceptRelatedType/>/<viva:ConceptRelatedType/>.jsp?uri=<viva:ConceptRelated/>"><viva:ConceptRelated /></a></td></tr>
       </viva:foreachConceptRelatedIterator>
       <viva:foreachConceptNarrowerIterator>
          <tr><td>narrower</td><td><a href="../<viva:ConceptNarrowerType/>/<viva:ConceptNarrowerType/>.jsp?uri=<viva:ConceptNarrower/>"><viva:ConceptNarrower /></a></td></tr>
       </viva:foreachConceptNarrowerIterator>
+      <viva:foreachConceptSemanticRelationIterator>
+         <tr><td>semanticRelation</td><td><a href="../<viva:ConceptSemanticRelationType/>/<viva:ConceptSemanticRelationType/>.jsp?uri=<viva:ConceptSemanticRelation/>"><viva:ConceptSemanticRelation /></a></td></tr>
+      </viva:foreachConceptSemanticRelationIterator>
       <viva:foreachConceptBroaderIterator>
          <tr><td>broader</td><td><a href="../<viva:ConceptBroaderType/>/<viva:ConceptBroaderType/>.jsp?uri=<viva:ConceptBroader/>"><viva:ConceptBroader /></a></td></tr>
       </viva:foreachConceptBroaderIterator>
+      <viva:foreachConceptTopConceptOfIterator>
+         <tr><td>topConceptOf</td><td><a href="../<viva:ConceptTopConceptOfType/>/<viva:ConceptTopConceptOfType/>.jsp?uri=<viva:ConceptTopConceptOf/>"><viva:ConceptTopConceptOf /></a></td></tr>
+      </viva:foreachConceptTopConceptOfIterator>
+      <viva:foreachConceptResearchAreaOfIterator>
+         <tr><td>researchAreaOf</td><td><a href="../<viva:ConceptResearchAreaOfType/>/<viva:ConceptResearchAreaOfType/>.jsp?uri=<viva:ConceptResearchAreaOf/>"><viva:ConceptResearchAreaOf /></a></td></tr>
+      </viva:foreachConceptResearchAreaOfIterator>
+      <viva:foreachConceptSubjectAreaOfIterator>
+         <tr><td>subjectAreaOf</td><td><a href="../<viva:ConceptSubjectAreaOfType/>/<viva:ConceptSubjectAreaOfType/>.jsp?uri=<viva:ConceptSubjectAreaOf/>"><viva:ConceptSubjectAreaOf /></a></td></tr>
+      </viva:foreachConceptSubjectAreaOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
+      <viva:foreachConceptMemberInverseIterator>
+         <tr><td>member</td><td><a href="../<viva:ConceptMemberInverseType/>/<viva:ConceptMemberInverseType/>.jsp?uri=<viva:ConceptMemberInverse/>"><viva:ConceptMemberInverse/></a></td></tr>
+      </viva:foreachConceptMemberInverseIterator>
    </table>
    </viva:Concept>
 

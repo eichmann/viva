@@ -34,12 +34,12 @@
       <viva:foreachBFO_0000023RoleContributesToIterator>
          <tr><td>roleContributesTo</td><td><a href="../<viva:BFO_0000023RoleContributesToType/>/<viva:BFO_0000023RoleContributesToType/>.jsp?uri=<viva:BFO_0000023RoleContributesTo/>"><viva:BFO_0000023RoleContributesTo /></a></td></tr>
       </viva:foreachBFO_0000023RoleContributesToIterator>
-      <viva:foreachBFO_0000023RO_0000052Iterator>
-         <tr><td>RO_0000052</td><td><a href="../<viva:BFO_0000023RO_0000052Type/>/<viva:BFO_0000023RO_0000052Type/>.jsp?uri=<viva:BFO_0000023RO_0000052/>"><viva:BFO_0000023RO_0000052 /></a></td></tr>
-      </viva:foreachBFO_0000023RO_0000052Iterator>
       <viva:foreachBFO_0000023RO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:BFO_0000023RO_0000056Type/>/<viva:BFO_0000023RO_0000056Type/>.jsp?uri=<viva:BFO_0000023RO_0000056/>"><viva:BFO_0000023RO_0000056 /></a></td></tr>
       </viva:foreachBFO_0000023RO_0000056Iterator>
+      <viva:foreachBFO_0000023RO_0000052Iterator>
+         <tr><td>RO_0000052</td><td><a href="../<viva:BFO_0000023RO_0000052Type/>/<viva:BFO_0000023RO_0000052Type/>.jsp?uri=<viva:BFO_0000023RO_0000052/>"><viva:BFO_0000023RO_0000052 /></a></td></tr>
+      </viva:foreachBFO_0000023RO_0000052Iterator>
       <viva:foreachBFO_0000023BFO_0000054Iterator>
          <tr><td>BFO_0000054</td><td><a href="../<viva:BFO_0000023BFO_0000054Type/>/<viva:BFO_0000023BFO_0000054Type/>.jsp?uri=<viva:BFO_0000023BFO_0000054/>"><viva:BFO_0000023BFO_0000054 /></a></td></tr>
       </viva:foreachBFO_0000023BFO_0000054Iterator>

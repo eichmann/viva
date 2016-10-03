@@ -23,14 +23,23 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
+      <tr><td>overview</td><td><viva:UndergraduateStudentOverview /></td></tr>
       <tr><td>teachingOverview</td><td><viva:UndergraduateStudentTeachingOverview /></td></tr>
       <tr><td>outreachOverview</td><td><viva:UndergraduateStudentOutreachOverview /></td></tr>
       <tr><td>researchOverview</td><td><viva:UndergraduateStudentResearchOverview /></td></tr>
-      <tr><td>overview</td><td><viva:UndergraduateStudentOverview /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachUndergraduateStudentSuffixNameIterator>
+         <tr><td>suffixName</td><td><viva:UndergraduateStudentSuffixName /></td></tr>
+      </viva:foreachUndergraduateStudentSuffixNameIterator>
+      <viva:foreachUndergraduateStudentPrefixNameIterator>
+         <tr><td>prefixName</td><td><viva:UndergraduateStudentPrefixName /></td></tr>
+      </viva:foreachUndergraduateStudentPrefixNameIterator>
+      <viva:foreachUndergraduateStudentSameAsIterator>
+         <tr><td>sameAs</td><td><a href="<viva:UndergraduateStudentSameAs />"><viva:UndergraduateStudentSameAs /></a></td></tr>
+      </viva:foreachUndergraduateStudentSameAsIterator>
       <viva:foreachUndergraduateStudentERACommonsIdIterator>
          <tr><td>eRACommonsId</td><td><viva:UndergraduateStudentERACommonsId /></td></tr>
       </viva:foreachUndergraduateStudentERACommonsIdIterator>
@@ -46,9 +55,6 @@
       <viva:foreachUndergraduateStudentResearcherIdIterator>
          <tr><td>researcherId</td><td><viva:UndergraduateStudentResearcherId /></td></tr>
       </viva:foreachUndergraduateStudentResearcherIdIterator>
-      <viva:foreachUndergraduateStudentSameAsIterator>
-         <tr><td>sameAs</td><td><a href="<viva:UndergraduateStudentSameAs />"><viva:UndergraduateStudentSameAs /></a></td></tr>
-      </viva:foreachUndergraduateStudentSameAsIterator>
       <viva:foreachUndergraduateStudentFreetextKeywordIterator>
          <tr><td>freetextKeyword</td><td><viva:UndergraduateStudentFreetextKeyword /></td></tr>
       </viva:foreachUndergraduateStudentFreetextKeywordIterator>
@@ -56,6 +62,27 @@
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachUndergraduateStudentRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:UndergraduateStudentRO_0000053Type/>/<viva:UndergraduateStudentRO_0000053Type/>.jsp?uri=<viva:UndergraduateStudentRO_0000053/>"><viva:UndergraduateStudentRO_0000053 /></a></td></tr>
+      </viva:foreachUndergraduateStudentRO_0000053Iterator>
+      <viva:foreachUndergraduateStudentRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:UndergraduateStudentRO_0000056Type/>/<viva:UndergraduateStudentRO_0000056Type/>.jsp?uri=<viva:UndergraduateStudentRO_0000056/>"><viva:UndergraduateStudentRO_0000056 /></a></td></tr>
+      </viva:foreachUndergraduateStudentRO_0000056Iterator>
+      <viva:foreachUndergraduateStudentAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<viva:UndergraduateStudentAssigneeForType/>/<viva:UndergraduateStudentAssigneeForType/>.jsp?uri=<viva:UndergraduateStudentAssigneeFor/>"><viva:UndergraduateStudentAssigneeFor /></a></td></tr>
+      </viva:foreachUndergraduateStudentAssigneeForIterator>
+      <viva:foreachUndergraduateStudentHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<viva:UndergraduateStudentHasCollaboratorType/>/<viva:UndergraduateStudentHasCollaboratorType/>.jsp?uri=<viva:UndergraduateStudentHasCollaborator/>"><viva:UndergraduateStudentHasCollaborator /></a></td></tr>
+      </viva:foreachUndergraduateStudentHasCollaboratorIterator>
+      <viva:foreachUndergraduateStudentInterviewerIterator>
+         <tr><td>interviewer</td><td><a href="../<viva:UndergraduateStudentInterviewerType/>/<viva:UndergraduateStudentInterviewerType/>.jsp?uri=<viva:UndergraduateStudentInterviewer/>"><viva:UndergraduateStudentInterviewer /></a></td></tr>
+      </viva:foreachUndergraduateStudentInterviewerIterator>
+      <viva:foreachUndergraduateStudentIntervieweeIterator>
+         <tr><td>interviewee</td><td><a href="../<viva:UndergraduateStudentIntervieweeType/>/<viva:UndergraduateStudentIntervieweeType/>.jsp?uri=<viva:UndergraduateStudentInterviewee/>"><viva:UndergraduateStudentInterviewee /></a></td></tr>
+      </viva:foreachUndergraduateStudentIntervieweeIterator>
+      <viva:foreachUndergraduateStudentTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<viva:UndergraduateStudentTranslatorOfType/>/<viva:UndergraduateStudentTranslatorOfType/>.jsp?uri=<viva:UndergraduateStudentTranslatorOf/>"><viva:UndergraduateStudentTranslatorOf /></a></td></tr>
+      </viva:foreachUndergraduateStudentTranslatorOfIterator>
       <viva:foreachUndergraduateStudentERO_0000397Iterator>
          <tr><td>ERO_0000397</td><td><a href="../<viva:UndergraduateStudentERO_0000397Type/>/<viva:UndergraduateStudentERO_0000397Type/>.jsp?uri=<viva:UndergraduateStudentERO_0000397/>"><viva:UndergraduateStudentERO_0000397 /></a></td></tr>
       </viva:foreachUndergraduateStudentERO_0000397Iterator>
@@ -83,28 +110,34 @@
       <viva:foreachUndergraduateStudentOrcidIdIterator>
          <tr><td>orcidId</td><td><a href="../<viva:UndergraduateStudentOrcidIdType/>/<viva:UndergraduateStudentOrcidIdType/>.jsp?uri=<viva:UndergraduateStudentOrcidId/>"><viva:UndergraduateStudentOrcidId /></a></td></tr>
       </viva:foreachUndergraduateStudentOrcidIdIterator>
-      <viva:foreachUndergraduateStudentRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:UndergraduateStudentRO_0000053Type/>/<viva:UndergraduateStudentRO_0000053Type/>.jsp?uri=<viva:UndergraduateStudentRO_0000053/>"><viva:UndergraduateStudentRO_0000053 /></a></td></tr>
-      </viva:foreachUndergraduateStudentRO_0000053Iterator>
-      <viva:foreachUndergraduateStudentRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:UndergraduateStudentRO_0000056Type/>/<viva:UndergraduateStudentRO_0000056Type/>.jsp?uri=<viva:UndergraduateStudentRO_0000056/>"><viva:UndergraduateStudentRO_0000056 /></a></td></tr>
-      </viva:foreachUndergraduateStudentRO_0000056Iterator>
-      <viva:foreachUndergraduateStudentAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<viva:UndergraduateStudentAssigneeForType/>/<viva:UndergraduateStudentAssigneeForType/>.jsp?uri=<viva:UndergraduateStudentAssigneeFor/>"><viva:UndergraduateStudentAssigneeFor /></a></td></tr>
-      </viva:foreachUndergraduateStudentAssigneeForIterator>
-      <viva:foreachUndergraduateStudentHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<viva:UndergraduateStudentHasCollaboratorType/>/<viva:UndergraduateStudentHasCollaboratorType/>.jsp?uri=<viva:UndergraduateStudentHasCollaborator/>"><viva:UndergraduateStudentHasCollaborator /></a></td></tr>
-      </viva:foreachUndergraduateStudentHasCollaboratorIterator>
-      <viva:foreachUndergraduateStudentTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<viva:UndergraduateStudentTranslatorOfType/>/<viva:UndergraduateStudentTranslatorOfType/>.jsp?uri=<viva:UndergraduateStudentTranslatorOf/>"><viva:UndergraduateStudentTranslatorOf /></a></td></tr>
-      </viva:foreachUndergraduateStudentTranslatorOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
+      <viva:foreachUndergraduateStudentOrganizerInverseIterator>
+         <tr><td>organizer</td><td><a href="../<viva:UndergraduateStudentOrganizerInverseType/>/<viva:UndergraduateStudentOrganizerInverseType/>.jsp?uri=<viva:UndergraduateStudentOrganizerInverse/>"><viva:UndergraduateStudentOrganizerInverse/></a></td></tr>
+      </viva:foreachUndergraduateStudentOrganizerInverseIterator>
+      <viva:foreachUndergraduateStudentRecipientInverseIterator>
+         <tr><td>recipient</td><td><a href="../<viva:UndergraduateStudentRecipientInverseType/>/<viva:UndergraduateStudentRecipientInverseType/>.jsp?uri=<viva:UndergraduateStudentRecipientInverse/>"><viva:UndergraduateStudentRecipientInverse/></a></td></tr>
+      </viva:foreachUndergraduateStudentRecipientInverseIterator>
+      <viva:foreachUndergraduateStudentEditorInverseIterator>
+         <tr><td>editor</td><td><a href="../<viva:UndergraduateStudentEditorInverseType/>/<viva:UndergraduateStudentEditorInverseType/>.jsp?uri=<viva:UndergraduateStudentEditorInverse/>"><viva:UndergraduateStudentEditorInverse/></a></td></tr>
+      </viva:foreachUndergraduateStudentEditorInverseIterator>
+      <viva:foreachUndergraduateStudentOwnerInverseIterator>
+         <tr><td>owner</td><td><a href="../<viva:UndergraduateStudentOwnerInverseType/>/<viva:UndergraduateStudentOwnerInverseType/>.jsp?uri=<viva:UndergraduateStudentOwnerInverse/>"><viva:UndergraduateStudentOwnerInverse/></a></td></tr>
+      </viva:foreachUndergraduateStudentOwnerInverseIterator>
+      <viva:foreachUndergraduateStudentPerformerInverseIterator>
+         <tr><td>performer</td><td><a href="../<viva:UndergraduateStudentPerformerInverseType/>/<viva:UndergraduateStudentPerformerInverseType/>.jsp?uri=<viva:UndergraduateStudentPerformerInverse/>"><viva:UndergraduateStudentPerformerInverse/></a></td></tr>
+      </viva:foreachUndergraduateStudentPerformerInverseIterator>
       <viva:foreachUndergraduateStudentIssuerInverseIterator>
          <tr><td>issuer</td><td><a href="../<viva:UndergraduateStudentIssuerInverseType/>/<viva:UndergraduateStudentIssuerInverseType/>.jsp?uri=<viva:UndergraduateStudentIssuerInverse/>"><viva:UndergraduateStudentIssuerInverse/></a></td></tr>
       </viva:foreachUndergraduateStudentIssuerInverseIterator>
+      <viva:foreachUndergraduateStudentProducerInverseIterator>
+         <tr><td>producer</td><td><a href="../<viva:UndergraduateStudentProducerInverseType/>/<viva:UndergraduateStudentProducerInverseType/>.jsp?uri=<viva:UndergraduateStudentProducerInverse/>"><viva:UndergraduateStudentProducerInverse/></a></td></tr>
+      </viva:foreachUndergraduateStudentProducerInverseIterator>
+      <viva:foreachUndergraduateStudentDirectorInverseIterator>
+         <tr><td>director</td><td><a href="../<viva:UndergraduateStudentDirectorInverseType/>/<viva:UndergraduateStudentDirectorInverseType/>.jsp?uri=<viva:UndergraduateStudentDirectorInverse/>"><viva:UndergraduateStudentDirectorInverse/></a></td></tr>
+      </viva:foreachUndergraduateStudentDirectorInverseIterator>
    </table>
    </viva:UndergraduateStudent>
 

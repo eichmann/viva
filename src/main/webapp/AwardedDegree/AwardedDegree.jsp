@@ -31,12 +31,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachAwardedDegreeRO_0000052Iterator>
-         <tr><td>RO_0000052</td><td><a href="../<viva:AwardedDegreeRO_0000052Type/>/<viva:AwardedDegreeRO_0000052Type/>.jsp?uri=<viva:AwardedDegreeRO_0000052/>"><viva:AwardedDegreeRO_0000052 /></a></td></tr>
-      </viva:foreachAwardedDegreeRO_0000052Iterator>
       <viva:foreachAwardedDegreeRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:AwardedDegreeRO_0000056Type/>/<viva:AwardedDegreeRO_0000056Type/>.jsp?uri=<viva:AwardedDegreeRO_0000056/>"><viva:AwardedDegreeRO_0000056 /></a></td></tr>
       </viva:foreachAwardedDegreeRO_0000056Iterator>
+      <viva:foreachAwardedDegreeRO_0000052Iterator>
+         <tr><td>RO_0000052</td><td><a href="../<viva:AwardedDegreeRO_0000052Type/>/<viva:AwardedDegreeRO_0000052Type/>.jsp?uri=<viva:AwardedDegreeRO_0000052/>"><viva:AwardedDegreeRO_0000052 /></a></td></tr>
+      </viva:foreachAwardedDegreeRO_0000052Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

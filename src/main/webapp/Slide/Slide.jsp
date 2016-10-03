@@ -27,31 +27,97 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachSlideTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:SlideTheAbstract /></td></tr>
-      </viva:foreachSlideTheAbstractIterator>
-      <viva:foreachSlideDoiIterator>
-         <tr><td>doi</td><td><viva:SlideDoi /></td></tr>
-      </viva:foreachSlideDoiIterator>
+      <viva:foreachSlideEanucc13Iterator>
+         <tr><td>eanucc13</td><td><viva:SlideEanucc13 /></td></tr>
+      </viva:foreachSlideEanucc13Iterator>
+      <viva:foreachSlideShortDescriptionIterator>
+         <tr><td>shortDescription</td><td><viva:SlideShortDescription /></td></tr>
+      </viva:foreachSlideShortDescriptionIterator>
+      <viva:foreachSlidePageStartIterator>
+         <tr><td>pageStart</td><td><viva:SlidePageStart /></td></tr>
+      </viva:foreachSlidePageStartIterator>
+      <viva:foreachSlideOclcnumIterator>
+         <tr><td>oclcnum</td><td><viva:SlideOclcnum /></td></tr>
+      </viva:foreachSlideOclcnumIterator>
       <viva:foreachSlidePmidIterator>
          <tr><td>pmid</td><td><viva:SlidePmid /></td></tr>
       </viva:foreachSlidePmidIterator>
       <viva:foreachSlideARG_0000001Iterator>
          <tr><td>ARG_0000001</td><td><viva:SlideARG_0000001 /></td></tr>
       </viva:foreachSlideARG_0000001Iterator>
+      <viva:foreachSlideSectionIterator>
+         <tr><td>section</td><td><viva:SlideSection /></td></tr>
+      </viva:foreachSlideSectionIterator>
+      <viva:foreachSlideUriIterator>
+         <tr><td>uri</td><td><viva:SlideUri /></td></tr>
+      </viva:foreachSlideUriIterator>
+      <viva:foreachSlideIsbn13Iterator>
+         <tr><td>isbn13</td><td><viva:SlideIsbn13 /></td></tr>
+      </viva:foreachSlideIsbn13Iterator>
       <viva:foreachSlideVolumeIterator>
          <tr><td>volume</td><td><viva:SlideVolume /></td></tr>
       </viva:foreachSlideVolumeIterator>
+      <viva:foreachSlideLocatorIterator>
+         <tr><td>locator</td><td><viva:SlideLocator /></td></tr>
+      </viva:foreachSlideLocatorIterator>
+      <viva:foreachSlidePageEndIterator>
+         <tr><td>pageEnd</td><td><viva:SlidePageEnd /></td></tr>
+      </viva:foreachSlidePageEndIterator>
+      <viva:foreachSlideIsbn10Iterator>
+         <tr><td>isbn10</td><td><viva:SlideIsbn10 /></td></tr>
+      </viva:foreachSlideIsbn10Iterator>
       <viva:foreachSlideERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:SlideERO_0000045 /></td></tr>
       </viva:foreachSlideERO_0000045Iterator>
+      <viva:foreachSlideNumberIterator>
+         <tr><td>number</td><td><viva:SlideNumber /></td></tr>
+      </viva:foreachSlideNumberIterator>
+      <viva:foreachSlideEditionIterator>
+         <tr><td>edition</td><td><viva:SlideEdition /></td></tr>
+      </viva:foreachSlideEditionIterator>
+      <viva:foreachSlideSiciIterator>
+         <tr><td>sici</td><td><viva:SlideSici /></td></tr>
+      </viva:foreachSlideSiciIterator>
+      <viva:foreachSlideUpcIterator>
+         <tr><td>upc</td><td><viva:SlideUpc /></td></tr>
+      </viva:foreachSlideUpcIterator>
+      <viva:foreachSlideContentIterator>
+         <tr><td>content</td><td><viva:SlideContent /></td></tr>
+      </viva:foreachSlideContentIterator>
+      <viva:foreachSlideShortTitleIterator>
+         <tr><td>shortTitle</td><td><viva:SlideShortTitle /></td></tr>
+      </viva:foreachSlideShortTitleIterator>
+      <viva:foreachSlideHandleIterator>
+         <tr><td>handle</td><td><viva:SlideHandle /></td></tr>
+      </viva:foreachSlideHandleIterator>
+      <viva:foreachSlideCodenIterator>
+         <tr><td>coden</td><td><viva:SlideCoden /></td></tr>
+      </viva:foreachSlideCodenIterator>
+      <viva:foreachSlidePagesIterator>
+         <tr><td>pages</td><td><viva:SlidePages /></td></tr>
+      </viva:foreachSlidePagesIterator>
+      <viva:foreachSlideIdentifierIterator>
+         <tr><td>identifier</td><td><viva:SlideIdentifier /></td></tr>
+      </viva:foreachSlideIdentifierIterator>
+      <viva:foreachSlideGtin14Iterator>
+         <tr><td>gtin14</td><td><viva:SlideGtin14 /></td></tr>
+      </viva:foreachSlideGtin14Iterator>
+      <viva:foreachSlideNumPagesIterator>
+         <tr><td>numPages</td><td><viva:SlideNumPages /></td></tr>
+      </viva:foreachSlideNumPagesIterator>
+      <viva:foreachSlideAsinIterator>
+         <tr><td>asin</td><td><viva:SlideAsin /></td></tr>
+      </viva:foreachSlideAsinIterator>
+      <viva:foreachSlideLccnIterator>
+         <tr><td>lccn</td><td><viva:SlideLccn /></td></tr>
+      </viva:foreachSlideLccnIterator>
+      <viva:foreachSlideDoiIterator>
+         <tr><td>doi</td><td><viva:SlideDoi /></td></tr>
+      </viva:foreachSlideDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachSlideTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:SlideTranslatorType/>/<viva:SlideTranslatorType/>.jsp?uri=<viva:SlideTranslator/>"><viva:SlideTranslator /></a></td></tr>
-      </viva:foreachSlideTranslatorIterator>
       <viva:foreachSlideFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:SlideFeaturesType/>/<viva:SlideFeaturesType/>.jsp?uri=<viva:SlideFeatures/>"><viva:SlideFeatures /></a></td></tr>
       </viva:foreachSlideFeaturesIterator>
@@ -61,15 +127,27 @@
       <viva:foreachSlideIAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<viva:SlideIAO_0000136Type/>/<viva:SlideIAO_0000136Type/>.jsp?uri=<viva:SlideIAO_0000136/>"><viva:SlideIAO_0000136 /></a></td></tr>
       </viva:foreachSlideIAO_0000136Iterator>
+      <viva:foreachSlideEditorIterator>
+         <tr><td>editor</td><td><a href="../<viva:SlideEditorType/>/<viva:SlideEditorType/>.jsp?uri=<viva:SlideEditor/>"><viva:SlideEditor /></a></td></tr>
+      </viva:foreachSlideEditorIterator>
       <viva:foreachSlideDocumentationForIterator>
          <tr><td>documentationFor</td><td><a href="../<viva:SlideDocumentationForType/>/<viva:SlideDocumentationForType/>.jsp?uri=<viva:SlideDocumentationFor/>"><viva:SlideDocumentationFor /></a></td></tr>
       </viva:foreachSlideDocumentationForIterator>
       <viva:foreachSlideCitedByIterator>
          <tr><td>citedBy</td><td><a href="../<viva:SlideCitedByType/>/<viva:SlideCitedByType/>.jsp?uri=<viva:SlideCitedBy/>"><viva:SlideCitedBy /></a></td></tr>
       </viva:foreachSlideCitedByIterator>
+      <viva:foreachSlideOwnerIterator>
+         <tr><td>owner</td><td><a href="../<viva:SlideOwnerType/>/<viva:SlideOwnerType/>.jsp?uri=<viva:SlideOwner/>"><viva:SlideOwner /></a></td></tr>
+      </viva:foreachSlideOwnerIterator>
+      <viva:foreachSlideTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:SlideTranslatorType/>/<viva:SlideTranslatorType/>.jsp?uri=<viva:SlideTranslator/>"><viva:SlideTranslator /></a></td></tr>
+      </viva:foreachSlideTranslatorIterator>
       <viva:foreachSlideTranslationOfIterator>
          <tr><td>translationOf</td><td><a href="../<viva:SlideTranslationOfType/>/<viva:SlideTranslationOfType/>.jsp?uri=<viva:SlideTranslationOf/>"><viva:SlideTranslationOf /></a></td></tr>
       </viva:foreachSlideTranslationOfIterator>
+      <viva:foreachSlideEditorListIterator>
+         <tr><td>editorList</td><td><a href="../<viva:SlideEditorListType/>/<viva:SlideEditorListType/>.jsp?uri=<viva:SlideEditorList/>"><viva:SlideEditorList /></a></td></tr>
+      </viva:foreachSlideEditorListIterator>
       <viva:foreachSlideReproducesIterator>
          <tr><td>reproduces</td><td><a href="../<viva:SlideReproducesType/>/<viva:SlideReproducesType/>.jsp?uri=<viva:SlideReproduces/>"><viva:SlideReproduces /></a></td></tr>
       </viva:foreachSlideReproducesIterator>
@@ -79,12 +157,33 @@
       <viva:foreachSlideReproducedInIterator>
          <tr><td>reproducedIn</td><td><a href="../<viva:SlideReproducedInType/>/<viva:SlideReproducedInType/>.jsp?uri=<viva:SlideReproducedIn/>"><viva:SlideReproducedIn /></a></td></tr>
       </viva:foreachSlideReproducedInIterator>
+      <viva:foreachSlideIssuerIterator>
+         <tr><td>issuer</td><td><a href="../<viva:SlideIssuerType/>/<viva:SlideIssuerType/>.jsp?uri=<viva:SlideIssuer/>"><viva:SlideIssuer /></a></td></tr>
+      </viva:foreachSlideIssuerIterator>
+      <viva:foreachSlideAuthorListIterator>
+         <tr><td>authorList</td><td><a href="../<viva:SlideAuthorListType/>/<viva:SlideAuthorListType/>.jsp?uri=<viva:SlideAuthorList/>"><viva:SlideAuthorList /></a></td></tr>
+      </viva:foreachSlideAuthorListIterator>
+      <viva:foreachSlideDistributorIterator>
+         <tr><td>distributor</td><td><a href="../<viva:SlideDistributorType/>/<viva:SlideDistributorType/>.jsp?uri=<viva:SlideDistributor/>"><viva:SlideDistributor /></a></td></tr>
+      </viva:foreachSlideDistributorIterator>
+      <viva:foreachSlideTranscriptOfIterator>
+         <tr><td>transcriptOf</td><td><a href="../<viva:SlideTranscriptOfType/>/<viva:SlideTranscriptOfType/>.jsp?uri=<viva:SlideTranscriptOf/>"><viva:SlideTranscriptOf /></a></td></tr>
+      </viva:foreachSlideTranscriptOfIterator>
       <viva:foreachSlidePresentedAtIterator>
          <tr><td>presentedAt</td><td><a href="../<viva:SlidePresentedAtType/>/<viva:SlidePresentedAtType/>.jsp?uri=<viva:SlidePresentedAt/>"><viva:SlidePresentedAt /></a></td></tr>
       </viva:foreachSlidePresentedAtIterator>
       <viva:foreachSlideHasTranslationIterator>
          <tr><td>hasTranslation</td><td><a href="../<viva:SlideHasTranslationType/>/<viva:SlideHasTranslationType/>.jsp?uri=<viva:SlideHasTranslation/>"><viva:SlideHasTranslation /></a></td></tr>
       </viva:foreachSlideHasTranslationIterator>
+      <viva:foreachSlideContributorListIterator>
+         <tr><td>contributorList</td><td><a href="../<viva:SlideContributorListType/>/<viva:SlideContributorListType/>.jsp?uri=<viva:SlideContributorList/>"><viva:SlideContributorList /></a></td></tr>
+      </viva:foreachSlideContributorListIterator>
+      <viva:foreachSlideProducerIterator>
+         <tr><td>producer</td><td><a href="../<viva:SlideProducerType/>/<viva:SlideProducerType/>.jsp?uri=<viva:SlideProducer/>"><viva:SlideProducer /></a></td></tr>
+      </viva:foreachSlideProducerIterator>
+      <viva:foreachSlideReviewOfIterator>
+         <tr><td>reviewOf</td><td><a href="../<viva:SlideReviewOfType/>/<viva:SlideReviewOfType/>.jsp?uri=<viva:SlideReviewOf/>"><viva:SlideReviewOf /></a></td></tr>
+      </viva:foreachSlideReviewOfIterator>
       <viva:foreachSlideCitesIterator>
          <tr><td>cites</td><td><a href="../<viva:SlideCitesType/>/<viva:SlideCitesType/>.jsp?uri=<viva:SlideCites/>"><viva:SlideCites /></a></td></tr>
       </viva:foreachSlideCitesIterator>

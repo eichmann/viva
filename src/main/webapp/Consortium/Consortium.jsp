@@ -29,10 +29,19 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachConsortiumSuffixNameIterator>
+         <tr><td>suffixName</td><td><viva:ConsortiumSuffixName /></td></tr>
+      </viva:foreachConsortiumSuffixNameIterator>
+      <viva:foreachConsortiumPrefixNameIterator>
+         <tr><td>prefixName</td><td><viva:ConsortiumPrefixName /></td></tr>
+      </viva:foreachConsortiumPrefixNameIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachConsortiumRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:ConsortiumRO_0000053Type/>/<viva:ConsortiumRO_0000053Type/>.jsp?uri=<viva:ConsortiumRO_0000053/>"><viva:ConsortiumRO_0000053 /></a></td></tr>
+      </viva:foreachConsortiumRO_0000053Iterator>
       <viva:foreachConsortiumSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:ConsortiumSponsorsType/>/<viva:ConsortiumSponsorsType/>.jsp?uri=<viva:ConsortiumSponsors/>"><viva:ConsortiumSponsors /></a></td></tr>
       </viva:foreachConsortiumSponsorsIterator>
@@ -69,9 +78,6 @@
       <viva:foreachConsortiumAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<viva:ConsortiumAffiliatedOrganizationType/>/<viva:ConsortiumAffiliatedOrganizationType/>.jsp?uri=<viva:ConsortiumAffiliatedOrganization/>"><viva:ConsortiumAffiliatedOrganization /></a></td></tr>
       </viva:foreachConsortiumAffiliatedOrganizationIterator>
-      <viva:foreachConsortiumRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:ConsortiumRO_0000053Type/>/<viva:ConsortiumRO_0000053Type/>.jsp?uri=<viva:ConsortiumRO_0000053/>"><viva:ConsortiumRO_0000053 /></a></td></tr>
-      </viva:foreachConsortiumRO_0000053Iterator>
       <viva:foreachConsortiumRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ConsortiumRO_0000056Type/>/<viva:ConsortiumRO_0000056Type/>.jsp?uri=<viva:ConsortiumRO_0000056/>"><viva:ConsortiumRO_0000056 /></a></td></tr>
       </viva:foreachConsortiumRO_0000056Iterator>
@@ -81,6 +87,12 @@
       <viva:foreachConsortiumHasCollaboratorIterator>
          <tr><td>hasCollaborator</td><td><a href="../<viva:ConsortiumHasCollaboratorType/>/<viva:ConsortiumHasCollaboratorType/>.jsp?uri=<viva:ConsortiumHasCollaborator/>"><viva:ConsortiumHasCollaborator /></a></td></tr>
       </viva:foreachConsortiumHasCollaboratorIterator>
+      <viva:foreachConsortiumInterviewerIterator>
+         <tr><td>interviewer</td><td><a href="../<viva:ConsortiumInterviewerType/>/<viva:ConsortiumInterviewerType/>.jsp?uri=<viva:ConsortiumInterviewer/>"><viva:ConsortiumInterviewer /></a></td></tr>
+      </viva:foreachConsortiumInterviewerIterator>
+      <viva:foreachConsortiumIntervieweeIterator>
+         <tr><td>interviewee</td><td><a href="../<viva:ConsortiumIntervieweeType/>/<viva:ConsortiumIntervieweeType/>.jsp?uri=<viva:ConsortiumInterviewee/>"><viva:ConsortiumInterviewee /></a></td></tr>
+      </viva:foreachConsortiumIntervieweeIterator>
       <viva:foreachConsortiumTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:ConsortiumTranslatorOfType/>/<viva:ConsortiumTranslatorOfType/>.jsp?uri=<viva:ConsortiumTranslatorOf/>"><viva:ConsortiumTranslatorOf /></a></td></tr>
       </viva:foreachConsortiumTranslatorOfIterator>
@@ -91,9 +103,33 @@
       <viva:foreachConsortiumOBI_0000304InverseIterator>
          <tr><td>OBI_0000304</td><td><a href="../<viva:ConsortiumOBI_0000304InverseType/>/<viva:ConsortiumOBI_0000304InverseType/>.jsp?uri=<viva:ConsortiumOBI_0000304Inverse/>"><viva:ConsortiumOBI_0000304Inverse/></a></td></tr>
       </viva:foreachConsortiumOBI_0000304InverseIterator>
+      <viva:foreachConsortiumCourtInverseIterator>
+         <tr><td>court</td><td><a href="../<viva:ConsortiumCourtInverseType/>/<viva:ConsortiumCourtInverseType/>.jsp?uri=<viva:ConsortiumCourtInverse/>"><viva:ConsortiumCourtInverse/></a></td></tr>
+      </viva:foreachConsortiumCourtInverseIterator>
+      <viva:foreachConsortiumOrganizerInverseIterator>
+         <tr><td>organizer</td><td><a href="../<viva:ConsortiumOrganizerInverseType/>/<viva:ConsortiumOrganizerInverseType/>.jsp?uri=<viva:ConsortiumOrganizerInverse/>"><viva:ConsortiumOrganizerInverse/></a></td></tr>
+      </viva:foreachConsortiumOrganizerInverseIterator>
+      <viva:foreachConsortiumRecipientInverseIterator>
+         <tr><td>recipient</td><td><a href="../<viva:ConsortiumRecipientInverseType/>/<viva:ConsortiumRecipientInverseType/>.jsp?uri=<viva:ConsortiumRecipientInverse/>"><viva:ConsortiumRecipientInverse/></a></td></tr>
+      </viva:foreachConsortiumRecipientInverseIterator>
+      <viva:foreachConsortiumEditorInverseIterator>
+         <tr><td>editor</td><td><a href="../<viva:ConsortiumEditorInverseType/>/<viva:ConsortiumEditorInverseType/>.jsp?uri=<viva:ConsortiumEditorInverse/>"><viva:ConsortiumEditorInverse/></a></td></tr>
+      </viva:foreachConsortiumEditorInverseIterator>
+      <viva:foreachConsortiumOwnerInverseIterator>
+         <tr><td>owner</td><td><a href="../<viva:ConsortiumOwnerInverseType/>/<viva:ConsortiumOwnerInverseType/>.jsp?uri=<viva:ConsortiumOwnerInverse/>"><viva:ConsortiumOwnerInverse/></a></td></tr>
+      </viva:foreachConsortiumOwnerInverseIterator>
+      <viva:foreachConsortiumPerformerInverseIterator>
+         <tr><td>performer</td><td><a href="../<viva:ConsortiumPerformerInverseType/>/<viva:ConsortiumPerformerInverseType/>.jsp?uri=<viva:ConsortiumPerformerInverse/>"><viva:ConsortiumPerformerInverse/></a></td></tr>
+      </viva:foreachConsortiumPerformerInverseIterator>
       <viva:foreachConsortiumIssuerInverseIterator>
          <tr><td>issuer</td><td><a href="../<viva:ConsortiumIssuerInverseType/>/<viva:ConsortiumIssuerInverseType/>.jsp?uri=<viva:ConsortiumIssuerInverse/>"><viva:ConsortiumIssuerInverse/></a></td></tr>
       </viva:foreachConsortiumIssuerInverseIterator>
+      <viva:foreachConsortiumProducerInverseIterator>
+         <tr><td>producer</td><td><a href="../<viva:ConsortiumProducerInverseType/>/<viva:ConsortiumProducerInverseType/>.jsp?uri=<viva:ConsortiumProducerInverse/>"><viva:ConsortiumProducerInverse/></a></td></tr>
+      </viva:foreachConsortiumProducerInverseIterator>
+      <viva:foreachConsortiumDirectorInverseIterator>
+         <tr><td>director</td><td><a href="../<viva:ConsortiumDirectorInverseType/>/<viva:ConsortiumDirectorInverseType/>.jsp?uri=<viva:ConsortiumDirectorInverse/>"><viva:ConsortiumDirectorInverse/></a></td></tr>
+      </viva:foreachConsortiumDirectorInverseIterator>
    </table>
    </viva:Consortium>
 

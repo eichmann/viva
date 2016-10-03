@@ -29,10 +29,19 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachAssociationSuffixNameIterator>
+         <tr><td>suffixName</td><td><viva:AssociationSuffixName /></td></tr>
+      </viva:foreachAssociationSuffixNameIterator>
+      <viva:foreachAssociationPrefixNameIterator>
+         <tr><td>prefixName</td><td><viva:AssociationPrefixName /></td></tr>
+      </viva:foreachAssociationPrefixNameIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachAssociationRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:AssociationRO_0000053Type/>/<viva:AssociationRO_0000053Type/>.jsp?uri=<viva:AssociationRO_0000053/>"><viva:AssociationRO_0000053 /></a></td></tr>
+      </viva:foreachAssociationRO_0000053Iterator>
       <viva:foreachAssociationSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:AssociationSponsorsType/>/<viva:AssociationSponsorsType/>.jsp?uri=<viva:AssociationSponsors/>"><viva:AssociationSponsors /></a></td></tr>
       </viva:foreachAssociationSponsorsIterator>
@@ -69,9 +78,6 @@
       <viva:foreachAssociationAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<viva:AssociationAffiliatedOrganizationType/>/<viva:AssociationAffiliatedOrganizationType/>.jsp?uri=<viva:AssociationAffiliatedOrganization/>"><viva:AssociationAffiliatedOrganization /></a></td></tr>
       </viva:foreachAssociationAffiliatedOrganizationIterator>
-      <viva:foreachAssociationRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:AssociationRO_0000053Type/>/<viva:AssociationRO_0000053Type/>.jsp?uri=<viva:AssociationRO_0000053/>"><viva:AssociationRO_0000053 /></a></td></tr>
-      </viva:foreachAssociationRO_0000053Iterator>
       <viva:foreachAssociationRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:AssociationRO_0000056Type/>/<viva:AssociationRO_0000056Type/>.jsp?uri=<viva:AssociationRO_0000056/>"><viva:AssociationRO_0000056 /></a></td></tr>
       </viva:foreachAssociationRO_0000056Iterator>
@@ -81,6 +87,12 @@
       <viva:foreachAssociationHasCollaboratorIterator>
          <tr><td>hasCollaborator</td><td><a href="../<viva:AssociationHasCollaboratorType/>/<viva:AssociationHasCollaboratorType/>.jsp?uri=<viva:AssociationHasCollaborator/>"><viva:AssociationHasCollaborator /></a></td></tr>
       </viva:foreachAssociationHasCollaboratorIterator>
+      <viva:foreachAssociationInterviewerIterator>
+         <tr><td>interviewer</td><td><a href="../<viva:AssociationInterviewerType/>/<viva:AssociationInterviewerType/>.jsp?uri=<viva:AssociationInterviewer/>"><viva:AssociationInterviewer /></a></td></tr>
+      </viva:foreachAssociationInterviewerIterator>
+      <viva:foreachAssociationIntervieweeIterator>
+         <tr><td>interviewee</td><td><a href="../<viva:AssociationIntervieweeType/>/<viva:AssociationIntervieweeType/>.jsp?uri=<viva:AssociationInterviewee/>"><viva:AssociationInterviewee /></a></td></tr>
+      </viva:foreachAssociationIntervieweeIterator>
       <viva:foreachAssociationTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:AssociationTranslatorOfType/>/<viva:AssociationTranslatorOfType/>.jsp?uri=<viva:AssociationTranslatorOf/>"><viva:AssociationTranslatorOf /></a></td></tr>
       </viva:foreachAssociationTranslatorOfIterator>
@@ -91,9 +103,33 @@
       <viva:foreachAssociationOBI_0000304InverseIterator>
          <tr><td>OBI_0000304</td><td><a href="../<viva:AssociationOBI_0000304InverseType/>/<viva:AssociationOBI_0000304InverseType/>.jsp?uri=<viva:AssociationOBI_0000304Inverse/>"><viva:AssociationOBI_0000304Inverse/></a></td></tr>
       </viva:foreachAssociationOBI_0000304InverseIterator>
+      <viva:foreachAssociationCourtInverseIterator>
+         <tr><td>court</td><td><a href="../<viva:AssociationCourtInverseType/>/<viva:AssociationCourtInverseType/>.jsp?uri=<viva:AssociationCourtInverse/>"><viva:AssociationCourtInverse/></a></td></tr>
+      </viva:foreachAssociationCourtInverseIterator>
+      <viva:foreachAssociationOrganizerInverseIterator>
+         <tr><td>organizer</td><td><a href="../<viva:AssociationOrganizerInverseType/>/<viva:AssociationOrganizerInverseType/>.jsp?uri=<viva:AssociationOrganizerInverse/>"><viva:AssociationOrganizerInverse/></a></td></tr>
+      </viva:foreachAssociationOrganizerInverseIterator>
+      <viva:foreachAssociationRecipientInverseIterator>
+         <tr><td>recipient</td><td><a href="../<viva:AssociationRecipientInverseType/>/<viva:AssociationRecipientInverseType/>.jsp?uri=<viva:AssociationRecipientInverse/>"><viva:AssociationRecipientInverse/></a></td></tr>
+      </viva:foreachAssociationRecipientInverseIterator>
+      <viva:foreachAssociationEditorInverseIterator>
+         <tr><td>editor</td><td><a href="../<viva:AssociationEditorInverseType/>/<viva:AssociationEditorInverseType/>.jsp?uri=<viva:AssociationEditorInverse/>"><viva:AssociationEditorInverse/></a></td></tr>
+      </viva:foreachAssociationEditorInverseIterator>
+      <viva:foreachAssociationOwnerInverseIterator>
+         <tr><td>owner</td><td><a href="../<viva:AssociationOwnerInverseType/>/<viva:AssociationOwnerInverseType/>.jsp?uri=<viva:AssociationOwnerInverse/>"><viva:AssociationOwnerInverse/></a></td></tr>
+      </viva:foreachAssociationOwnerInverseIterator>
+      <viva:foreachAssociationPerformerInverseIterator>
+         <tr><td>performer</td><td><a href="../<viva:AssociationPerformerInverseType/>/<viva:AssociationPerformerInverseType/>.jsp?uri=<viva:AssociationPerformerInverse/>"><viva:AssociationPerformerInverse/></a></td></tr>
+      </viva:foreachAssociationPerformerInverseIterator>
       <viva:foreachAssociationIssuerInverseIterator>
          <tr><td>issuer</td><td><a href="../<viva:AssociationIssuerInverseType/>/<viva:AssociationIssuerInverseType/>.jsp?uri=<viva:AssociationIssuerInverse/>"><viva:AssociationIssuerInverse/></a></td></tr>
       </viva:foreachAssociationIssuerInverseIterator>
+      <viva:foreachAssociationProducerInverseIterator>
+         <tr><td>producer</td><td><a href="../<viva:AssociationProducerInverseType/>/<viva:AssociationProducerInverseType/>.jsp?uri=<viva:AssociationProducerInverse/>"><viva:AssociationProducerInverse/></a></td></tr>
+      </viva:foreachAssociationProducerInverseIterator>
+      <viva:foreachAssociationDirectorInverseIterator>
+         <tr><td>director</td><td><a href="../<viva:AssociationDirectorInverseType/>/<viva:AssociationDirectorInverseType/>.jsp?uri=<viva:AssociationDirectorInverse/>"><viva:AssociationDirectorInverse/></a></td></tr>
+      </viva:foreachAssociationDirectorInverseIterator>
    </table>
    </viva:Association>
 

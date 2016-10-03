@@ -31,25 +31,34 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachCertificateResearchAreaOfIterator>
-         <tr><td>researchAreaOf</td><td><a href="../<viva:CertificateResearchAreaOfType/>/<viva:CertificateResearchAreaOfType/>.jsp?uri=<viva:CertificateResearchAreaOf/>"><viva:CertificateResearchAreaOf /></a></td></tr>
-      </viva:foreachCertificateResearchAreaOfIterator>
-      <viva:foreachCertificateSubjectAreaOfIterator>
-         <tr><td>subjectAreaOf</td><td><a href="../<viva:CertificateSubjectAreaOfType/>/<viva:CertificateSubjectAreaOfType/>.jsp?uri=<viva:CertificateSubjectAreaOf/>"><viva:CertificateSubjectAreaOf /></a></td></tr>
-      </viva:foreachCertificateSubjectAreaOfIterator>
       <viva:foreachCertificateRelatedIterator>
          <tr><td>related</td><td><a href="../<viva:CertificateRelatedType/>/<viva:CertificateRelatedType/>.jsp?uri=<viva:CertificateRelated/>"><viva:CertificateRelated /></a></td></tr>
       </viva:foreachCertificateRelatedIterator>
       <viva:foreachCertificateNarrowerIterator>
          <tr><td>narrower</td><td><a href="../<viva:CertificateNarrowerType/>/<viva:CertificateNarrowerType/>.jsp?uri=<viva:CertificateNarrower/>"><viva:CertificateNarrower /></a></td></tr>
       </viva:foreachCertificateNarrowerIterator>
+      <viva:foreachCertificateSemanticRelationIterator>
+         <tr><td>semanticRelation</td><td><a href="../<viva:CertificateSemanticRelationType/>/<viva:CertificateSemanticRelationType/>.jsp?uri=<viva:CertificateSemanticRelation/>"><viva:CertificateSemanticRelation /></a></td></tr>
+      </viva:foreachCertificateSemanticRelationIterator>
       <viva:foreachCertificateBroaderIterator>
          <tr><td>broader</td><td><a href="../<viva:CertificateBroaderType/>/<viva:CertificateBroaderType/>.jsp?uri=<viva:CertificateBroader/>"><viva:CertificateBroader /></a></td></tr>
       </viva:foreachCertificateBroaderIterator>
+      <viva:foreachCertificateTopConceptOfIterator>
+         <tr><td>topConceptOf</td><td><a href="../<viva:CertificateTopConceptOfType/>/<viva:CertificateTopConceptOfType/>.jsp?uri=<viva:CertificateTopConceptOf/>"><viva:CertificateTopConceptOf /></a></td></tr>
+      </viva:foreachCertificateTopConceptOfIterator>
+      <viva:foreachCertificateResearchAreaOfIterator>
+         <tr><td>researchAreaOf</td><td><a href="../<viva:CertificateResearchAreaOfType/>/<viva:CertificateResearchAreaOfType/>.jsp?uri=<viva:CertificateResearchAreaOf/>"><viva:CertificateResearchAreaOf /></a></td></tr>
+      </viva:foreachCertificateResearchAreaOfIterator>
+      <viva:foreachCertificateSubjectAreaOfIterator>
+         <tr><td>subjectAreaOf</td><td><a href="../<viva:CertificateSubjectAreaOfType/>/<viva:CertificateSubjectAreaOfType/>.jsp?uri=<viva:CertificateSubjectAreaOf/>"><viva:CertificateSubjectAreaOf /></a></td></tr>
+      </viva:foreachCertificateSubjectAreaOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
+      <viva:foreachCertificateMemberInverseIterator>
+         <tr><td>member</td><td><a href="../<viva:CertificateMemberInverseType/>/<viva:CertificateMemberInverseType/>.jsp?uri=<viva:CertificateMemberInverse/>"><viva:CertificateMemberInverse/></a></td></tr>
+      </viva:foreachCertificateMemberInverseIterator>
       <viva:foreachCertificateEligibleForInverseIterator>
          <tr><td>eligibleFor</td><td><a href="../<viva:CertificateEligibleForInverseType/>/<viva:CertificateEligibleForInverseType/>.jsp?uri=<viva:CertificateEligibleForInverse/>"><viva:CertificateEligibleForInverse/></a></td></tr>
       </viva:foreachCertificateEligibleForInverseIterator>

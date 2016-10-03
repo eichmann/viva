@@ -31,6 +31,9 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachPersonSameAsIterator>
+         <tr><td>sameAs</td><td><a href="<viva:PersonSameAs />"><viva:PersonSameAs /></a></td></tr>
+      </viva:foreachPersonSameAsIterator>
       <viva:foreachPersonERACommonsIdIterator>
          <tr><td>eRACommonsId</td><td><viva:PersonERACommonsId /></td></tr>
       </viva:foreachPersonERACommonsIdIterator>
@@ -46,12 +49,15 @@
       <viva:foreachPersonResearcherIdIterator>
          <tr><td>researcherId</td><td><viva:PersonResearcherId /></td></tr>
       </viva:foreachPersonResearcherIdIterator>
-      <viva:foreachPersonSameAsIterator>
-         <tr><td>sameAs</td><td><a href="<viva:PersonSameAs />"><viva:PersonSameAs /></a></td></tr>
-      </viva:foreachPersonSameAsIterator>
       <viva:foreachPersonFreetextKeywordIterator>
          <tr><td>freetextKeyword</td><td><viva:PersonFreetextKeyword /></td></tr>
       </viva:foreachPersonFreetextKeywordIterator>
+      <viva:foreachPersonSuffixNameIterator>
+         <tr><td>suffixName</td><td><viva:PersonSuffixName /></td></tr>
+      </viva:foreachPersonSuffixNameIterator>
+      <viva:foreachPersonPrefixNameIterator>
+         <tr><td>prefixName</td><td><viva:PersonPrefixName /></td></tr>
+      </viva:foreachPersonPrefixNameIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -95,6 +101,12 @@
       <viva:foreachPersonHasCollaboratorIterator>
          <tr><td>hasCollaborator</td><td><a href="../<viva:PersonHasCollaboratorType/>/<viva:PersonHasCollaboratorType/>.jsp?uri=<viva:PersonHasCollaborator/>"><viva:PersonHasCollaborator /></a></td></tr>
       </viva:foreachPersonHasCollaboratorIterator>
+      <viva:foreachPersonInterviewerIterator>
+         <tr><td>interviewer</td><td><a href="../<viva:PersonInterviewerType/>/<viva:PersonInterviewerType/>.jsp?uri=<viva:PersonInterviewer/>"><viva:PersonInterviewer /></a></td></tr>
+      </viva:foreachPersonInterviewerIterator>
+      <viva:foreachPersonIntervieweeIterator>
+         <tr><td>interviewee</td><td><a href="../<viva:PersonIntervieweeType/>/<viva:PersonIntervieweeType/>.jsp?uri=<viva:PersonInterviewee/>"><viva:PersonInterviewee /></a></td></tr>
+      </viva:foreachPersonIntervieweeIterator>
       <viva:foreachPersonTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:PersonTranslatorOfType/>/<viva:PersonTranslatorOfType/>.jsp?uri=<viva:PersonTranslatorOf/>"><viva:PersonTranslatorOf /></a></td></tr>
       </viva:foreachPersonTranslatorOfIterator>
@@ -102,9 +114,30 @@
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
+      <viva:foreachPersonOrganizerInverseIterator>
+         <tr><td>organizer</td><td><a href="../<viva:PersonOrganizerInverseType/>/<viva:PersonOrganizerInverseType/>.jsp?uri=<viva:PersonOrganizerInverse/>"><viva:PersonOrganizerInverse/></a></td></tr>
+      </viva:foreachPersonOrganizerInverseIterator>
+      <viva:foreachPersonRecipientInverseIterator>
+         <tr><td>recipient</td><td><a href="../<viva:PersonRecipientInverseType/>/<viva:PersonRecipientInverseType/>.jsp?uri=<viva:PersonRecipientInverse/>"><viva:PersonRecipientInverse/></a></td></tr>
+      </viva:foreachPersonRecipientInverseIterator>
+      <viva:foreachPersonEditorInverseIterator>
+         <tr><td>editor</td><td><a href="../<viva:PersonEditorInverseType/>/<viva:PersonEditorInverseType/>.jsp?uri=<viva:PersonEditorInverse/>"><viva:PersonEditorInverse/></a></td></tr>
+      </viva:foreachPersonEditorInverseIterator>
+      <viva:foreachPersonOwnerInverseIterator>
+         <tr><td>owner</td><td><a href="../<viva:PersonOwnerInverseType/>/<viva:PersonOwnerInverseType/>.jsp?uri=<viva:PersonOwnerInverse/>"><viva:PersonOwnerInverse/></a></td></tr>
+      </viva:foreachPersonOwnerInverseIterator>
+      <viva:foreachPersonPerformerInverseIterator>
+         <tr><td>performer</td><td><a href="../<viva:PersonPerformerInverseType/>/<viva:PersonPerformerInverseType/>.jsp?uri=<viva:PersonPerformerInverse/>"><viva:PersonPerformerInverse/></a></td></tr>
+      </viva:foreachPersonPerformerInverseIterator>
       <viva:foreachPersonIssuerInverseIterator>
          <tr><td>issuer</td><td><a href="../<viva:PersonIssuerInverseType/>/<viva:PersonIssuerInverseType/>.jsp?uri=<viva:PersonIssuerInverse/>"><viva:PersonIssuerInverse/></a></td></tr>
       </viva:foreachPersonIssuerInverseIterator>
+      <viva:foreachPersonProducerInverseIterator>
+         <tr><td>producer</td><td><a href="../<viva:PersonProducerInverseType/>/<viva:PersonProducerInverseType/>.jsp?uri=<viva:PersonProducerInverse/>"><viva:PersonProducerInverse/></a></td></tr>
+      </viva:foreachPersonProducerInverseIterator>
+      <viva:foreachPersonDirectorInverseIterator>
+         <tr><td>director</td><td><a href="../<viva:PersonDirectorInverseType/>/<viva:PersonDirectorInverseType/>.jsp?uri=<viva:PersonDirectorInverse/>"><viva:PersonDirectorInverse/></a></td></tr>
+      </viva:foreachPersonDirectorInverseIterator>
    </table>
    </viva:Person>
 

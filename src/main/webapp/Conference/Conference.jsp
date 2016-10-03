@@ -50,12 +50,15 @@
       <viva:foreachConferenceDateTimeIntervalIterator>
          <tr><td>dateTimeInterval</td><td><a href="../<viva:ConferenceDateTimeIntervalType/>/<viva:ConferenceDateTimeIntervalType/>.jsp?uri=<viva:ConferenceDateTimeInterval/>"><viva:ConferenceDateTimeInterval /></a></td></tr>
       </viva:foreachConferenceDateTimeIntervalIterator>
-      <viva:foreachConferenceBFO_0000055Iterator>
-         <tr><td>BFO_0000055</td><td><a href="../<viva:ConferenceBFO_0000055Type/>/<viva:ConferenceBFO_0000055Type/>.jsp?uri=<viva:ConferenceBFO_0000055/>"><viva:ConferenceBFO_0000055 /></a></td></tr>
-      </viva:foreachConferenceBFO_0000055Iterator>
       <viva:foreachConferenceRO_0000057Iterator>
          <tr><td>RO_0000057</td><td><a href="../<viva:ConferenceRO_0000057Type/>/<viva:ConferenceRO_0000057Type/>.jsp?uri=<viva:ConferenceRO_0000057/>"><viva:ConferenceRO_0000057 /></a></td></tr>
       </viva:foreachConferenceRO_0000057Iterator>
+      <viva:foreachConferenceOrganizerIterator>
+         <tr><td>organizer</td><td><a href="../<viva:ConferenceOrganizerType/>/<viva:ConferenceOrganizerType/>.jsp?uri=<viva:ConferenceOrganizer/>"><viva:ConferenceOrganizer /></a></td></tr>
+      </viva:foreachConferenceOrganizerIterator>
+      <viva:foreachConferenceBFO_0000055Iterator>
+         <tr><td>BFO_0000055</td><td><a href="../<viva:ConferenceBFO_0000055Type/>/<viva:ConferenceBFO_0000055Type/>.jsp?uri=<viva:ConferenceBFO_0000055/>"><viva:ConferenceBFO_0000055 /></a></td></tr>
+      </viva:foreachConferenceBFO_0000055Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

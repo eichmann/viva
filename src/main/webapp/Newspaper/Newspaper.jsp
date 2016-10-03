@@ -27,9 +27,57 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachNewspaperTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:NewspaperTheAbstract /></td></tr>
-      </viva:foreachNewspaperTheAbstractIterator>
+      <viva:foreachNewspaperEanucc13Iterator>
+         <tr><td>eanucc13</td><td><viva:NewspaperEanucc13 /></td></tr>
+      </viva:foreachNewspaperEanucc13Iterator>
+      <viva:foreachNewspaperNumVolumesIterator>
+         <tr><td>numVolumes</td><td><viva:NewspaperNumVolumes /></td></tr>
+      </viva:foreachNewspaperNumVolumesIterator>
+      <viva:foreachNewspaperOclcnumIterator>
+         <tr><td>oclcnum</td><td><viva:NewspaperOclcnum /></td></tr>
+      </viva:foreachNewspaperOclcnumIterator>
+      <viva:foreachNewspaperPmidIterator>
+         <tr><td>pmid</td><td><viva:NewspaperPmid /></td></tr>
+      </viva:foreachNewspaperPmidIterator>
+      <viva:foreachNewspaperUriIterator>
+         <tr><td>uri</td><td><viva:NewspaperUri /></td></tr>
+      </viva:foreachNewspaperUriIterator>
+      <viva:foreachNewspaperIsbn13Iterator>
+         <tr><td>isbn13</td><td><viva:NewspaperIsbn13 /></td></tr>
+      </viva:foreachNewspaperIsbn13Iterator>
+      <viva:foreachNewspaperIsbn10Iterator>
+         <tr><td>isbn10</td><td><viva:NewspaperIsbn10 /></td></tr>
+      </viva:foreachNewspaperIsbn10Iterator>
+      <viva:foreachNewspaperEissnIterator>
+         <tr><td>eissn</td><td><viva:NewspaperEissn /></td></tr>
+      </viva:foreachNewspaperEissnIterator>
+      <viva:foreachNewspaperIssnIterator>
+         <tr><td>issn</td><td><viva:NewspaperIssn /></td></tr>
+      </viva:foreachNewspaperIssnIterator>
+      <viva:foreachNewspaperSiciIterator>
+         <tr><td>sici</td><td><viva:NewspaperSici /></td></tr>
+      </viva:foreachNewspaperSiciIterator>
+      <viva:foreachNewspaperUpcIterator>
+         <tr><td>upc</td><td><viva:NewspaperUpc /></td></tr>
+      </viva:foreachNewspaperUpcIterator>
+      <viva:foreachNewspaperHandleIterator>
+         <tr><td>handle</td><td><viva:NewspaperHandle /></td></tr>
+      </viva:foreachNewspaperHandleIterator>
+      <viva:foreachNewspaperCodenIterator>
+         <tr><td>coden</td><td><viva:NewspaperCoden /></td></tr>
+      </viva:foreachNewspaperCodenIterator>
+      <viva:foreachNewspaperIdentifierIterator>
+         <tr><td>identifier</td><td><viva:NewspaperIdentifier /></td></tr>
+      </viva:foreachNewspaperIdentifierIterator>
+      <viva:foreachNewspaperGtin14Iterator>
+         <tr><td>gtin14</td><td><viva:NewspaperGtin14 /></td></tr>
+      </viva:foreachNewspaperGtin14Iterator>
+      <viva:foreachNewspaperAsinIterator>
+         <tr><td>asin</td><td><viva:NewspaperAsin /></td></tr>
+      </viva:foreachNewspaperAsinIterator>
+      <viva:foreachNewspaperLccnIterator>
+         <tr><td>lccn</td><td><viva:NewspaperLccn /></td></tr>
+      </viva:foreachNewspaperLccnIterator>
       <viva:foreachNewspaperDoiIterator>
          <tr><td>doi</td><td><viva:NewspaperDoi /></td></tr>
       </viva:foreachNewspaperDoiIterator>
@@ -37,21 +85,36 @@
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachNewspaperEditorIterator>
+         <tr><td>editor</td><td><a href="../<viva:NewspaperEditorType/>/<viva:NewspaperEditorType/>.jsp?uri=<viva:NewspaperEditor/>"><viva:NewspaperEditor /></a></td></tr>
+      </viva:foreachNewspaperEditorIterator>
       <viva:foreachNewspaperDateTimeValueIterator>
          <tr><td>dateTimeValue</td><td><a href="../<viva:NewspaperDateTimeValueType/>/<viva:NewspaperDateTimeValueType/>.jsp?uri=<viva:NewspaperDateTimeValue/>"><viva:NewspaperDateTimeValue /></a></td></tr>
       </viva:foreachNewspaperDateTimeValueIterator>
+      <viva:foreachNewspaperOwnerIterator>
+         <tr><td>owner</td><td><a href="../<viva:NewspaperOwnerType/>/<viva:NewspaperOwnerType/>.jsp?uri=<viva:NewspaperOwner/>"><viva:NewspaperOwner /></a></td></tr>
+      </viva:foreachNewspaperOwnerIterator>
+      <viva:foreachNewspaperTranslatorIterator>
+         <tr><td>translator</td><td><a href="../<viva:NewspaperTranslatorType/>/<viva:NewspaperTranslatorType/>.jsp?uri=<viva:NewspaperTranslator/>"><viva:NewspaperTranslator /></a></td></tr>
+      </viva:foreachNewspaperTranslatorIterator>
       <viva:foreachNewspaperRO_0002353Iterator>
          <tr><td>RO_0002353</td><td><a href="../<viva:NewspaperRO_0002353Type/>/<viva:NewspaperRO_0002353Type/>.jsp?uri=<viva:NewspaperRO_0002353/>"><viva:NewspaperRO_0002353 /></a></td></tr>
       </viva:foreachNewspaperRO_0002353Iterator>
+      <viva:foreachNewspaperIssuerIterator>
+         <tr><td>issuer</td><td><a href="../<viva:NewspaperIssuerType/>/<viva:NewspaperIssuerType/>.jsp?uri=<viva:NewspaperIssuer/>"><viva:NewspaperIssuer /></a></td></tr>
+      </viva:foreachNewspaperIssuerIterator>
       <viva:foreachNewspaperARG_2000028Iterator>
          <tr><td>ARG_2000028</td><td><a href="../<viva:NewspaperARG_2000028Type/>/<viva:NewspaperARG_2000028Type/>.jsp?uri=<viva:NewspaperARG_2000028/>"><viva:NewspaperARG_2000028 /></a></td></tr>
       </viva:foreachNewspaperARG_2000028Iterator>
       <viva:foreachNewspaperRelatedByIterator>
          <tr><td>relatedBy</td><td><a href="../<viva:NewspaperRelatedByType/>/<viva:NewspaperRelatedByType/>.jsp?uri=<viva:NewspaperRelatedBy/>"><viva:NewspaperRelatedBy /></a></td></tr>
       </viva:foreachNewspaperRelatedByIterator>
-      <viva:foreachNewspaperTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:NewspaperTranslatorType/>/<viva:NewspaperTranslatorType/>.jsp?uri=<viva:NewspaperTranslator/>"><viva:NewspaperTranslator /></a></td></tr>
-      </viva:foreachNewspaperTranslatorIterator>
+      <viva:foreachNewspaperDistributorIterator>
+         <tr><td>distributor</td><td><a href="../<viva:NewspaperDistributorType/>/<viva:NewspaperDistributorType/>.jsp?uri=<viva:NewspaperDistributor/>"><viva:NewspaperDistributor /></a></td></tr>
+      </viva:foreachNewspaperDistributorIterator>
+      <viva:foreachNewspaperProducerIterator>
+         <tr><td>producer</td><td><a href="../<viva:NewspaperProducerType/>/<viva:NewspaperProducerType/>.jsp?uri=<viva:NewspaperProducer/>"><viva:NewspaperProducer /></a></td></tr>
+      </viva:foreachNewspaperProducerIterator>
       <viva:foreachNewspaperFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:NewspaperFeaturesType/>/<viva:NewspaperFeaturesType/>.jsp?uri=<viva:NewspaperFeatures/>"><viva:NewspaperFeatures /></a></td></tr>
       </viva:foreachNewspaperFeaturesIterator>

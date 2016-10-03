@@ -27,12 +27,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachBibliographicInformationSourceTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:BibliographicInformationSourceTheAbstract /></td></tr>
-      </viva:foreachBibliographicInformationSourceTheAbstractIterator>
-      <viva:foreachBibliographicInformationSourceDoiIterator>
-         <tr><td>doi</td><td><viva:BibliographicInformationSourceDoi /></td></tr>
-      </viva:foreachBibliographicInformationSourceDoiIterator>
       <viva:foreachBibliographicInformationSourceERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:BibliographicInformationSourceERO_0000045 /></td></tr>
       </viva:foreachBibliographicInformationSourceERO_0000045Iterator>
@@ -43,9 +37,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachBibliographicInformationSourceTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:BibliographicInformationSourceTranslatorType/>/<viva:BibliographicInformationSourceTranslatorType/>.jsp?uri=<viva:BibliographicInformationSourceTranslator/>"><viva:BibliographicInformationSourceTranslator /></a></td></tr>
-      </viva:foreachBibliographicInformationSourceTranslatorIterator>
       <viva:foreachBibliographicInformationSourceFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:BibliographicInformationSourceFeaturesType/>/<viva:BibliographicInformationSourceFeaturesType/>.jsp?uri=<viva:BibliographicInformationSourceFeatures/>"><viva:BibliographicInformationSourceFeatures /></a></td></tr>
       </viva:foreachBibliographicInformationSourceFeaturesIterator>

@@ -39,9 +39,6 @@
       <viva:foreachspecial_groupNameListARIterator>
          <tr><td>nameListAR</td><td><viva:special_groupNameListAR /></td></tr>
       </viva:foreachspecial_groupNameListARIterator>
-      <viva:foreachspecial_groupValidUntilIterator>
-         <tr><td>validUntil</td><td><viva:special_groupValidUntil /></td></tr>
-      </viva:foreachspecial_groupValidUntilIterator>
       <viva:foreachspecial_groupNameShortZHIterator>
          <tr><td>nameShortZH</td><td><viva:special_groupNameShortZH /></td></tr>
       </viva:foreachspecial_groupNameShortZHIterator>
@@ -84,9 +81,6 @@
       <viva:foreachspecial_groupNameShortARIterator>
          <tr><td>nameShortAR</td><td><viva:special_groupNameShortAR /></td></tr>
       </viva:foreachspecial_groupNameShortARIterator>
-      <viva:foreachspecial_groupValidSinceIterator>
-         <tr><td>validSince</td><td><viva:special_groupValidSince /></td></tr>
-      </viva:foreachspecial_groupValidSinceIterator>
       <viva:foreachspecial_groupNameOfficialENIterator>
          <tr><td>nameOfficialEN</td><td><viva:special_groupNameOfficialEN /></td></tr>
       </viva:foreachspecial_groupNameOfficialENIterator>
@@ -108,6 +102,30 @@
       <viva:foreachspecial_groupNameShortRUIterator>
          <tr><td>nameShortRU</td><td><viva:special_groupNameShortRU /></td></tr>
       </viva:foreachspecial_groupNameShortRUIterator>
+      <viva:foreachspecial_groupHasListNameIterator>
+         <tr><td>hasListName</td><td><viva:special_groupHasListName /></td></tr>
+      </viva:foreachspecial_groupHasListNameIterator>
+      <viva:foreachspecial_groupValidUntilIterator>
+         <tr><td>validUntil</td><td><viva:special_groupValidUntil /></td></tr>
+      </viva:foreachspecial_groupValidUntilIterator>
+      <viva:foreachspecial_groupHasCodeIterator>
+         <tr><td>hasCode</td><td><viva:special_groupHasCode /></td></tr>
+      </viva:foreachspecial_groupHasCodeIterator>
+      <viva:foreachspecial_groupHasOfficialNameIterator>
+         <tr><td>hasOfficialName</td><td><viva:special_groupHasOfficialName /></td></tr>
+      </viva:foreachspecial_groupHasOfficialNameIterator>
+      <viva:foreachspecial_groupHasShortNameIterator>
+         <tr><td>hasShortName</td><td><viva:special_groupHasShortName /></td></tr>
+      </viva:foreachspecial_groupHasShortNameIterator>
+      <viva:foreachspecial_groupValidSinceIterator>
+         <tr><td>validSince</td><td><viva:special_groupValidSince /></td></tr>
+      </viva:foreachspecial_groupValidSinceIterator>
+      <viva:foreachspecial_groupTopDataPropertyIterator>
+         <tr><td>topDataProperty</td><td><viva:special_groupTopDataProperty /></td></tr>
+      </viva:foreachspecial_groupTopDataPropertyIterator>
+      <viva:foreachspecial_groupBottomDataPropertyIterator>
+         <tr><td>bottomDataProperty</td><td><viva:special_groupBottomDataProperty /></td></tr>
+      </viva:foreachspecial_groupBottomDataPropertyIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -121,6 +139,12 @@
       <viva:foreachspecial_groupIsPredecessorOfIterator>
          <tr><td>isPredecessorOf</td><td><a href="../<viva:special_groupIsPredecessorOfType/>/<viva:special_groupIsPredecessorOfType/>.jsp?uri=<viva:special_groupIsPredecessorOf/>"><viva:special_groupIsPredecessorOf /></a></td></tr>
       </viva:foreachspecial_groupIsPredecessorOfIterator>
+      <viva:foreachspecial_groupBottomObjectPropertyIterator>
+         <tr><td>bottomObjectProperty</td><td><a href="../<viva:special_groupBottomObjectPropertyType/>/<viva:special_groupBottomObjectPropertyType/>.jsp?uri=<viva:special_groupBottomObjectProperty/>"><viva:special_groupBottomObjectProperty /></a></td></tr>
+      </viva:foreachspecial_groupBottomObjectPropertyIterator>
+      <viva:foreachspecial_groupTopObjectPropertyIterator>
+         <tr><td>topObjectProperty</td><td><a href="../<viva:special_groupTopObjectPropertyType/>/<viva:special_groupTopObjectPropertyType/>.jsp?uri=<viva:special_groupTopObjectProperty/>"><viva:special_groupTopObjectProperty /></a></td></tr>
+      </viva:foreachspecial_groupTopObjectPropertyIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

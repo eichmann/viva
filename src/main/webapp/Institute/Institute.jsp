@@ -29,10 +29,19 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachInstituteSuffixNameIterator>
+         <tr><td>suffixName</td><td><viva:InstituteSuffixName /></td></tr>
+      </viva:foreachInstituteSuffixNameIterator>
+      <viva:foreachInstitutePrefixNameIterator>
+         <tr><td>prefixName</td><td><viva:InstitutePrefixName /></td></tr>
+      </viva:foreachInstitutePrefixNameIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachInstituteRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:InstituteRO_0000053Type/>/<viva:InstituteRO_0000053Type/>.jsp?uri=<viva:InstituteRO_0000053/>"><viva:InstituteRO_0000053 /></a></td></tr>
+      </viva:foreachInstituteRO_0000053Iterator>
       <viva:foreachInstituteSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:InstituteSponsorsType/>/<viva:InstituteSponsorsType/>.jsp?uri=<viva:InstituteSponsors/>"><viva:InstituteSponsors /></a></td></tr>
       </viva:foreachInstituteSponsorsIterator>
@@ -69,9 +78,6 @@
       <viva:foreachInstituteAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<viva:InstituteAffiliatedOrganizationType/>/<viva:InstituteAffiliatedOrganizationType/>.jsp?uri=<viva:InstituteAffiliatedOrganization/>"><viva:InstituteAffiliatedOrganization /></a></td></tr>
       </viva:foreachInstituteAffiliatedOrganizationIterator>
-      <viva:foreachInstituteRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:InstituteRO_0000053Type/>/<viva:InstituteRO_0000053Type/>.jsp?uri=<viva:InstituteRO_0000053/>"><viva:InstituteRO_0000053 /></a></td></tr>
-      </viva:foreachInstituteRO_0000053Iterator>
       <viva:foreachInstituteRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:InstituteRO_0000056Type/>/<viva:InstituteRO_0000056Type/>.jsp?uri=<viva:InstituteRO_0000056/>"><viva:InstituteRO_0000056 /></a></td></tr>
       </viva:foreachInstituteRO_0000056Iterator>
@@ -81,6 +87,12 @@
       <viva:foreachInstituteHasCollaboratorIterator>
          <tr><td>hasCollaborator</td><td><a href="../<viva:InstituteHasCollaboratorType/>/<viva:InstituteHasCollaboratorType/>.jsp?uri=<viva:InstituteHasCollaborator/>"><viva:InstituteHasCollaborator /></a></td></tr>
       </viva:foreachInstituteHasCollaboratorIterator>
+      <viva:foreachInstituteInterviewerIterator>
+         <tr><td>interviewer</td><td><a href="../<viva:InstituteInterviewerType/>/<viva:InstituteInterviewerType/>.jsp?uri=<viva:InstituteInterviewer/>"><viva:InstituteInterviewer /></a></td></tr>
+      </viva:foreachInstituteInterviewerIterator>
+      <viva:foreachInstituteIntervieweeIterator>
+         <tr><td>interviewee</td><td><a href="../<viva:InstituteIntervieweeType/>/<viva:InstituteIntervieweeType/>.jsp?uri=<viva:InstituteInterviewee/>"><viva:InstituteInterviewee /></a></td></tr>
+      </viva:foreachInstituteIntervieweeIterator>
       <viva:foreachInstituteTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:InstituteTranslatorOfType/>/<viva:InstituteTranslatorOfType/>.jsp?uri=<viva:InstituteTranslatorOf/>"><viva:InstituteTranslatorOf /></a></td></tr>
       </viva:foreachInstituteTranslatorOfIterator>
@@ -91,9 +103,33 @@
       <viva:foreachInstituteOBI_0000304InverseIterator>
          <tr><td>OBI_0000304</td><td><a href="../<viva:InstituteOBI_0000304InverseType/>/<viva:InstituteOBI_0000304InverseType/>.jsp?uri=<viva:InstituteOBI_0000304Inverse/>"><viva:InstituteOBI_0000304Inverse/></a></td></tr>
       </viva:foreachInstituteOBI_0000304InverseIterator>
+      <viva:foreachInstituteCourtInverseIterator>
+         <tr><td>court</td><td><a href="../<viva:InstituteCourtInverseType/>/<viva:InstituteCourtInverseType/>.jsp?uri=<viva:InstituteCourtInverse/>"><viva:InstituteCourtInverse/></a></td></tr>
+      </viva:foreachInstituteCourtInverseIterator>
+      <viva:foreachInstituteOrganizerInverseIterator>
+         <tr><td>organizer</td><td><a href="../<viva:InstituteOrganizerInverseType/>/<viva:InstituteOrganizerInverseType/>.jsp?uri=<viva:InstituteOrganizerInverse/>"><viva:InstituteOrganizerInverse/></a></td></tr>
+      </viva:foreachInstituteOrganizerInverseIterator>
+      <viva:foreachInstituteRecipientInverseIterator>
+         <tr><td>recipient</td><td><a href="../<viva:InstituteRecipientInverseType/>/<viva:InstituteRecipientInverseType/>.jsp?uri=<viva:InstituteRecipientInverse/>"><viva:InstituteRecipientInverse/></a></td></tr>
+      </viva:foreachInstituteRecipientInverseIterator>
+      <viva:foreachInstituteEditorInverseIterator>
+         <tr><td>editor</td><td><a href="../<viva:InstituteEditorInverseType/>/<viva:InstituteEditorInverseType/>.jsp?uri=<viva:InstituteEditorInverse/>"><viva:InstituteEditorInverse/></a></td></tr>
+      </viva:foreachInstituteEditorInverseIterator>
+      <viva:foreachInstituteOwnerInverseIterator>
+         <tr><td>owner</td><td><a href="../<viva:InstituteOwnerInverseType/>/<viva:InstituteOwnerInverseType/>.jsp?uri=<viva:InstituteOwnerInverse/>"><viva:InstituteOwnerInverse/></a></td></tr>
+      </viva:foreachInstituteOwnerInverseIterator>
+      <viva:foreachInstitutePerformerInverseIterator>
+         <tr><td>performer</td><td><a href="../<viva:InstitutePerformerInverseType/>/<viva:InstitutePerformerInverseType/>.jsp?uri=<viva:InstitutePerformerInverse/>"><viva:InstitutePerformerInverse/></a></td></tr>
+      </viva:foreachInstitutePerformerInverseIterator>
       <viva:foreachInstituteIssuerInverseIterator>
          <tr><td>issuer</td><td><a href="../<viva:InstituteIssuerInverseType/>/<viva:InstituteIssuerInverseType/>.jsp?uri=<viva:InstituteIssuerInverse/>"><viva:InstituteIssuerInverse/></a></td></tr>
       </viva:foreachInstituteIssuerInverseIterator>
+      <viva:foreachInstituteProducerInverseIterator>
+         <tr><td>producer</td><td><a href="../<viva:InstituteProducerInverseType/>/<viva:InstituteProducerInverseType/>.jsp?uri=<viva:InstituteProducerInverse/>"><viva:InstituteProducerInverse/></a></td></tr>
+      </viva:foreachInstituteProducerInverseIterator>
+      <viva:foreachInstituteDirectorInverseIterator>
+         <tr><td>director</td><td><a href="../<viva:InstituteDirectorInverseType/>/<viva:InstituteDirectorInverseType/>.jsp?uri=<viva:InstituteDirectorInverse/>"><viva:InstituteDirectorInverse/></a></td></tr>
+      </viva:foreachInstituteDirectorInverseIterator>
    </table>
    </viva:Institute>
 

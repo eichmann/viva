@@ -31,12 +31,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachAttendeeRoleRO_0000052Iterator>
-         <tr><td>RO_0000052</td><td><a href="../<viva:AttendeeRoleRO_0000052Type/>/<viva:AttendeeRoleRO_0000052Type/>.jsp?uri=<viva:AttendeeRoleRO_0000052/>"><viva:AttendeeRoleRO_0000052 /></a></td></tr>
-      </viva:foreachAttendeeRoleRO_0000052Iterator>
       <viva:foreachAttendeeRoleRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:AttendeeRoleRO_0000056Type/>/<viva:AttendeeRoleRO_0000056Type/>.jsp?uri=<viva:AttendeeRoleRO_0000056/>"><viva:AttendeeRoleRO_0000056 /></a></td></tr>
       </viva:foreachAttendeeRoleRO_0000056Iterator>
+      <viva:foreachAttendeeRoleRO_0000052Iterator>
+         <tr><td>RO_0000052</td><td><a href="../<viva:AttendeeRoleRO_0000052Type/>/<viva:AttendeeRoleRO_0000052Type/>.jsp?uri=<viva:AttendeeRoleRO_0000052/>"><viva:AttendeeRoleRO_0000052 /></a></td></tr>
+      </viva:foreachAttendeeRoleRO_0000052Iterator>
       <viva:foreachAttendeeRoleRoleContributesToIterator>
          <tr><td>roleContributesTo</td><td><a href="../<viva:AttendeeRoleRoleContributesToType/>/<viva:AttendeeRoleRoleContributesToType/>.jsp?uri=<viva:AttendeeRoleRoleContributesTo/>"><viva:AttendeeRoleRoleContributesTo /></a></td></tr>
       </viva:foreachAttendeeRoleRoleContributesToIterator>

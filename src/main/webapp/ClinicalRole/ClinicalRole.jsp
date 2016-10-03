@@ -31,12 +31,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachClinicalRoleRO_0000052Iterator>
-         <tr><td>RO_0000052</td><td><a href="../<viva:ClinicalRoleRO_0000052Type/>/<viva:ClinicalRoleRO_0000052Type/>.jsp?uri=<viva:ClinicalRoleRO_0000052/>"><viva:ClinicalRoleRO_0000052 /></a></td></tr>
-      </viva:foreachClinicalRoleRO_0000052Iterator>
       <viva:foreachClinicalRoleRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ClinicalRoleRO_0000056Type/>/<viva:ClinicalRoleRO_0000056Type/>.jsp?uri=<viva:ClinicalRoleRO_0000056/>"><viva:ClinicalRoleRO_0000056 /></a></td></tr>
       </viva:foreachClinicalRoleRO_0000056Iterator>
+      <viva:foreachClinicalRoleRO_0000052Iterator>
+         <tr><td>RO_0000052</td><td><a href="../<viva:ClinicalRoleRO_0000052Type/>/<viva:ClinicalRoleRO_0000052Type/>.jsp?uri=<viva:ClinicalRoleRO_0000052/>"><viva:ClinicalRoleRO_0000052 /></a></td></tr>
+      </viva:foreachClinicalRoleRO_0000052Iterator>
       <viva:foreachClinicalRoleRoleContributesToIterator>
          <tr><td>roleContributesTo</td><td><a href="../<viva:ClinicalRoleRoleContributesToType/>/<viva:ClinicalRoleRoleContributesToType/>.jsp?uri=<viva:ClinicalRoleRoleContributesTo/>"><viva:ClinicalRoleRoleContributesTo /></a></td></tr>
       </viva:foreachClinicalRoleRoleContributesToIterator>

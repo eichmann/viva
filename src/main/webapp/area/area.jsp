@@ -27,6 +27,30 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachareaHasListNameIterator>
+         <tr><td>hasListName</td><td><viva:areaHasListName /></td></tr>
+      </viva:foreachareaHasListNameIterator>
+      <viva:foreachareaValidUntilIterator>
+         <tr><td>validUntil</td><td><viva:areaValidUntil /></td></tr>
+      </viva:foreachareaValidUntilIterator>
+      <viva:foreachareaHasCodeIterator>
+         <tr><td>hasCode</td><td><viva:areaHasCode /></td></tr>
+      </viva:foreachareaHasCodeIterator>
+      <viva:foreachareaHasOfficialNameIterator>
+         <tr><td>hasOfficialName</td><td><viva:areaHasOfficialName /></td></tr>
+      </viva:foreachareaHasOfficialNameIterator>
+      <viva:foreachareaHasShortNameIterator>
+         <tr><td>hasShortName</td><td><viva:areaHasShortName /></td></tr>
+      </viva:foreachareaHasShortNameIterator>
+      <viva:foreachareaValidSinceIterator>
+         <tr><td>validSince</td><td><viva:areaValidSince /></td></tr>
+      </viva:foreachareaValidSinceIterator>
+      <viva:foreachareaTopDataPropertyIterator>
+         <tr><td>topDataProperty</td><td><viva:areaTopDataProperty /></td></tr>
+      </viva:foreachareaTopDataPropertyIterator>
+      <viva:foreachareaBottomDataPropertyIterator>
+         <tr><td>bottomDataProperty</td><td><viva:areaBottomDataProperty /></td></tr>
+      </viva:foreachareaBottomDataPropertyIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -37,6 +61,12 @@
       <viva:foreachareaIsPredecessorOfIterator>
          <tr><td>isPredecessorOf</td><td><a href="../<viva:areaIsPredecessorOfType/>/<viva:areaIsPredecessorOfType/>.jsp?uri=<viva:areaIsPredecessorOf/>"><viva:areaIsPredecessorOf /></a></td></tr>
       </viva:foreachareaIsPredecessorOfIterator>
+      <viva:foreachareaBottomObjectPropertyIterator>
+         <tr><td>bottomObjectProperty</td><td><a href="../<viva:areaBottomObjectPropertyType/>/<viva:areaBottomObjectPropertyType/>.jsp?uri=<viva:areaBottomObjectProperty/>"><viva:areaBottomObjectProperty /></a></td></tr>
+      </viva:foreachareaBottomObjectPropertyIterator>
+      <viva:foreachareaTopObjectPropertyIterator>
+         <tr><td>topObjectProperty</td><td><a href="../<viva:areaTopObjectPropertyType/>/<viva:areaTopObjectPropertyType/>.jsp?uri=<viva:areaTopObjectProperty/>"><viva:areaTopObjectProperty /></a></td></tr>
+      </viva:foreachareaTopObjectPropertyIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

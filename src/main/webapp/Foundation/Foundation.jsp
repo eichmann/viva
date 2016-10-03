@@ -29,10 +29,19 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachFoundationSuffixNameIterator>
+         <tr><td>suffixName</td><td><viva:FoundationSuffixName /></td></tr>
+      </viva:foreachFoundationSuffixNameIterator>
+      <viva:foreachFoundationPrefixNameIterator>
+         <tr><td>prefixName</td><td><viva:FoundationPrefixName /></td></tr>
+      </viva:foreachFoundationPrefixNameIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachFoundationRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:FoundationRO_0000053Type/>/<viva:FoundationRO_0000053Type/>.jsp?uri=<viva:FoundationRO_0000053/>"><viva:FoundationRO_0000053 /></a></td></tr>
+      </viva:foreachFoundationRO_0000053Iterator>
       <viva:foreachFoundationSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:FoundationSponsorsType/>/<viva:FoundationSponsorsType/>.jsp?uri=<viva:FoundationSponsors/>"><viva:FoundationSponsors /></a></td></tr>
       </viva:foreachFoundationSponsorsIterator>
@@ -69,9 +78,6 @@
       <viva:foreachFoundationAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<viva:FoundationAffiliatedOrganizationType/>/<viva:FoundationAffiliatedOrganizationType/>.jsp?uri=<viva:FoundationAffiliatedOrganization/>"><viva:FoundationAffiliatedOrganization /></a></td></tr>
       </viva:foreachFoundationAffiliatedOrganizationIterator>
-      <viva:foreachFoundationRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:FoundationRO_0000053Type/>/<viva:FoundationRO_0000053Type/>.jsp?uri=<viva:FoundationRO_0000053/>"><viva:FoundationRO_0000053 /></a></td></tr>
-      </viva:foreachFoundationRO_0000053Iterator>
       <viva:foreachFoundationRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:FoundationRO_0000056Type/>/<viva:FoundationRO_0000056Type/>.jsp?uri=<viva:FoundationRO_0000056/>"><viva:FoundationRO_0000056 /></a></td></tr>
       </viva:foreachFoundationRO_0000056Iterator>
@@ -81,6 +87,12 @@
       <viva:foreachFoundationHasCollaboratorIterator>
          <tr><td>hasCollaborator</td><td><a href="../<viva:FoundationHasCollaboratorType/>/<viva:FoundationHasCollaboratorType/>.jsp?uri=<viva:FoundationHasCollaborator/>"><viva:FoundationHasCollaborator /></a></td></tr>
       </viva:foreachFoundationHasCollaboratorIterator>
+      <viva:foreachFoundationInterviewerIterator>
+         <tr><td>interviewer</td><td><a href="../<viva:FoundationInterviewerType/>/<viva:FoundationInterviewerType/>.jsp?uri=<viva:FoundationInterviewer/>"><viva:FoundationInterviewer /></a></td></tr>
+      </viva:foreachFoundationInterviewerIterator>
+      <viva:foreachFoundationIntervieweeIterator>
+         <tr><td>interviewee</td><td><a href="../<viva:FoundationIntervieweeType/>/<viva:FoundationIntervieweeType/>.jsp?uri=<viva:FoundationInterviewee/>"><viva:FoundationInterviewee /></a></td></tr>
+      </viva:foreachFoundationIntervieweeIterator>
       <viva:foreachFoundationTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:FoundationTranslatorOfType/>/<viva:FoundationTranslatorOfType/>.jsp?uri=<viva:FoundationTranslatorOf/>"><viva:FoundationTranslatorOf /></a></td></tr>
       </viva:foreachFoundationTranslatorOfIterator>
@@ -91,9 +103,33 @@
       <viva:foreachFoundationOBI_0000304InverseIterator>
          <tr><td>OBI_0000304</td><td><a href="../<viva:FoundationOBI_0000304InverseType/>/<viva:FoundationOBI_0000304InverseType/>.jsp?uri=<viva:FoundationOBI_0000304Inverse/>"><viva:FoundationOBI_0000304Inverse/></a></td></tr>
       </viva:foreachFoundationOBI_0000304InverseIterator>
+      <viva:foreachFoundationCourtInverseIterator>
+         <tr><td>court</td><td><a href="../<viva:FoundationCourtInverseType/>/<viva:FoundationCourtInverseType/>.jsp?uri=<viva:FoundationCourtInverse/>"><viva:FoundationCourtInverse/></a></td></tr>
+      </viva:foreachFoundationCourtInverseIterator>
+      <viva:foreachFoundationOrganizerInverseIterator>
+         <tr><td>organizer</td><td><a href="../<viva:FoundationOrganizerInverseType/>/<viva:FoundationOrganizerInverseType/>.jsp?uri=<viva:FoundationOrganizerInverse/>"><viva:FoundationOrganizerInverse/></a></td></tr>
+      </viva:foreachFoundationOrganizerInverseIterator>
+      <viva:foreachFoundationRecipientInverseIterator>
+         <tr><td>recipient</td><td><a href="../<viva:FoundationRecipientInverseType/>/<viva:FoundationRecipientInverseType/>.jsp?uri=<viva:FoundationRecipientInverse/>"><viva:FoundationRecipientInverse/></a></td></tr>
+      </viva:foreachFoundationRecipientInverseIterator>
+      <viva:foreachFoundationEditorInverseIterator>
+         <tr><td>editor</td><td><a href="../<viva:FoundationEditorInverseType/>/<viva:FoundationEditorInverseType/>.jsp?uri=<viva:FoundationEditorInverse/>"><viva:FoundationEditorInverse/></a></td></tr>
+      </viva:foreachFoundationEditorInverseIterator>
+      <viva:foreachFoundationOwnerInverseIterator>
+         <tr><td>owner</td><td><a href="../<viva:FoundationOwnerInverseType/>/<viva:FoundationOwnerInverseType/>.jsp?uri=<viva:FoundationOwnerInverse/>"><viva:FoundationOwnerInverse/></a></td></tr>
+      </viva:foreachFoundationOwnerInverseIterator>
+      <viva:foreachFoundationPerformerInverseIterator>
+         <tr><td>performer</td><td><a href="../<viva:FoundationPerformerInverseType/>/<viva:FoundationPerformerInverseType/>.jsp?uri=<viva:FoundationPerformerInverse/>"><viva:FoundationPerformerInverse/></a></td></tr>
+      </viva:foreachFoundationPerformerInverseIterator>
       <viva:foreachFoundationIssuerInverseIterator>
          <tr><td>issuer</td><td><a href="../<viva:FoundationIssuerInverseType/>/<viva:FoundationIssuerInverseType/>.jsp?uri=<viva:FoundationIssuerInverse/>"><viva:FoundationIssuerInverse/></a></td></tr>
       </viva:foreachFoundationIssuerInverseIterator>
+      <viva:foreachFoundationProducerInverseIterator>
+         <tr><td>producer</td><td><a href="../<viva:FoundationProducerInverseType/>/<viva:FoundationProducerInverseType/>.jsp?uri=<viva:FoundationProducerInverse/>"><viva:FoundationProducerInverse/></a></td></tr>
+      </viva:foreachFoundationProducerInverseIterator>
+      <viva:foreachFoundationDirectorInverseIterator>
+         <tr><td>director</td><td><a href="../<viva:FoundationDirectorInverseType/>/<viva:FoundationDirectorInverseType/>.jsp?uri=<viva:FoundationDirectorInverse/>"><viva:FoundationDirectorInverse/></a></td></tr>
+      </viva:foreachFoundationDirectorInverseIterator>
    </table>
    </viva:Foundation>
 

@@ -31,12 +31,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachEditorRoleRO_0000052Iterator>
-         <tr><td>RO_0000052</td><td><a href="../<viva:EditorRoleRO_0000052Type/>/<viva:EditorRoleRO_0000052Type/>.jsp?uri=<viva:EditorRoleRO_0000052/>"><viva:EditorRoleRO_0000052 /></a></td></tr>
-      </viva:foreachEditorRoleRO_0000052Iterator>
       <viva:foreachEditorRoleRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:EditorRoleRO_0000056Type/>/<viva:EditorRoleRO_0000056Type/>.jsp?uri=<viva:EditorRoleRO_0000056/>"><viva:EditorRoleRO_0000056 /></a></td></tr>
       </viva:foreachEditorRoleRO_0000056Iterator>
+      <viva:foreachEditorRoleRO_0000052Iterator>
+         <tr><td>RO_0000052</td><td><a href="../<viva:EditorRoleRO_0000052Type/>/<viva:EditorRoleRO_0000052Type/>.jsp?uri=<viva:EditorRoleRO_0000052/>"><viva:EditorRoleRO_0000052 /></a></td></tr>
+      </viva:foreachEditorRoleRO_0000052Iterator>
       <viva:foreachEditorRoleRoleContributesToIterator>
          <tr><td>roleContributesTo</td><td><a href="../<viva:EditorRoleRoleContributesToType/>/<viva:EditorRoleRoleContributesToType/>.jsp?uri=<viva:EditorRoleRoleContributesTo/>"><viva:EditorRoleRoleContributesTo /></a></td></tr>
       </viva:foreachEditorRoleRoleContributesToIterator>

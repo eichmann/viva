@@ -31,15 +31,15 @@
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachGeopoliticalEntityGeographicFocusOfIterator>
+         <tr><td>geographicFocusOf</td><td><a href="../<viva:GeopoliticalEntityGeographicFocusOfType/>/<viva:GeopoliticalEntityGeographicFocusOfType/>.jsp?uri=<viva:GeopoliticalEntityGeographicFocusOf/>"><viva:GeopoliticalEntityGeographicFocusOf /></a></td></tr>
+      </viva:foreachGeopoliticalEntityGeographicFocusOfIterator>
       <viva:foreachGeopoliticalEntityRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<viva:GeopoliticalEntityRO_0000053Type/>/<viva:GeopoliticalEntityRO_0000053Type/>.jsp?uri=<viva:GeopoliticalEntityRO_0000053/>"><viva:GeopoliticalEntityRO_0000053 /></a></td></tr>
       </viva:foreachGeopoliticalEntityRO_0000053Iterator>
       <viva:foreachGeopoliticalEntityRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:GeopoliticalEntityRO_0000056Type/>/<viva:GeopoliticalEntityRO_0000056Type/>.jsp?uri=<viva:GeopoliticalEntityRO_0000056/>"><viva:GeopoliticalEntityRO_0000056 /></a></td></tr>
       </viva:foreachGeopoliticalEntityRO_0000056Iterator>
-      <viva:foreachGeopoliticalEntityGeographicFocusOfIterator>
-         <tr><td>geographicFocusOf</td><td><a href="../<viva:GeopoliticalEntityGeographicFocusOfType/>/<viva:GeopoliticalEntityGeographicFocusOfType/>.jsp?uri=<viva:GeopoliticalEntityGeographicFocusOf/>"><viva:GeopoliticalEntityGeographicFocusOf /></a></td></tr>
-      </viva:foreachGeopoliticalEntityGeographicFocusOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

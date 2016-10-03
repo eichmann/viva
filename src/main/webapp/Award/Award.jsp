@@ -34,25 +34,34 @@
       <viva:foreachAwardSponsoredByIterator>
          <tr><td>sponsoredBy</td><td><a href="../<viva:AwardSponsoredByType/>/<viva:AwardSponsoredByType/>.jsp?uri=<viva:AwardSponsoredBy/>"><viva:AwardSponsoredBy /></a></td></tr>
       </viva:foreachAwardSponsoredByIterator>
-      <viva:foreachAwardResearchAreaOfIterator>
-         <tr><td>researchAreaOf</td><td><a href="../<viva:AwardResearchAreaOfType/>/<viva:AwardResearchAreaOfType/>.jsp?uri=<viva:AwardResearchAreaOf/>"><viva:AwardResearchAreaOf /></a></td></tr>
-      </viva:foreachAwardResearchAreaOfIterator>
-      <viva:foreachAwardSubjectAreaOfIterator>
-         <tr><td>subjectAreaOf</td><td><a href="../<viva:AwardSubjectAreaOfType/>/<viva:AwardSubjectAreaOfType/>.jsp?uri=<viva:AwardSubjectAreaOf/>"><viva:AwardSubjectAreaOf /></a></td></tr>
-      </viva:foreachAwardSubjectAreaOfIterator>
       <viva:foreachAwardRelatedIterator>
          <tr><td>related</td><td><a href="../<viva:AwardRelatedType/>/<viva:AwardRelatedType/>.jsp?uri=<viva:AwardRelated/>"><viva:AwardRelated /></a></td></tr>
       </viva:foreachAwardRelatedIterator>
       <viva:foreachAwardNarrowerIterator>
          <tr><td>narrower</td><td><a href="../<viva:AwardNarrowerType/>/<viva:AwardNarrowerType/>.jsp?uri=<viva:AwardNarrower/>"><viva:AwardNarrower /></a></td></tr>
       </viva:foreachAwardNarrowerIterator>
+      <viva:foreachAwardSemanticRelationIterator>
+         <tr><td>semanticRelation</td><td><a href="../<viva:AwardSemanticRelationType/>/<viva:AwardSemanticRelationType/>.jsp?uri=<viva:AwardSemanticRelation/>"><viva:AwardSemanticRelation /></a></td></tr>
+      </viva:foreachAwardSemanticRelationIterator>
       <viva:foreachAwardBroaderIterator>
          <tr><td>broader</td><td><a href="../<viva:AwardBroaderType/>/<viva:AwardBroaderType/>.jsp?uri=<viva:AwardBroader/>"><viva:AwardBroader /></a></td></tr>
       </viva:foreachAwardBroaderIterator>
+      <viva:foreachAwardTopConceptOfIterator>
+         <tr><td>topConceptOf</td><td><a href="../<viva:AwardTopConceptOfType/>/<viva:AwardTopConceptOfType/>.jsp?uri=<viva:AwardTopConceptOf/>"><viva:AwardTopConceptOf /></a></td></tr>
+      </viva:foreachAwardTopConceptOfIterator>
+      <viva:foreachAwardResearchAreaOfIterator>
+         <tr><td>researchAreaOf</td><td><a href="../<viva:AwardResearchAreaOfType/>/<viva:AwardResearchAreaOfType/>.jsp?uri=<viva:AwardResearchAreaOf/>"><viva:AwardResearchAreaOf /></a></td></tr>
+      </viva:foreachAwardResearchAreaOfIterator>
+      <viva:foreachAwardSubjectAreaOfIterator>
+         <tr><td>subjectAreaOf</td><td><a href="../<viva:AwardSubjectAreaOfType/>/<viva:AwardSubjectAreaOfType/>.jsp?uri=<viva:AwardSubjectAreaOf/>"><viva:AwardSubjectAreaOf /></a></td></tr>
+      </viva:foreachAwardSubjectAreaOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
+      <viva:foreachAwardMemberInverseIterator>
+         <tr><td>member</td><td><a href="../<viva:AwardMemberInverseType/>/<viva:AwardMemberInverseType/>.jsp?uri=<viva:AwardMemberInverse/>"><viva:AwardMemberInverse/></a></td></tr>
+      </viva:foreachAwardMemberInverseIterator>
    </table>
    </viva:Award>
 

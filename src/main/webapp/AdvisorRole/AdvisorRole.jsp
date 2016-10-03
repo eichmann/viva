@@ -31,12 +31,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachAdvisorRoleRO_0000052Iterator>
-         <tr><td>RO_0000052</td><td><a href="../<viva:AdvisorRoleRO_0000052Type/>/<viva:AdvisorRoleRO_0000052Type/>.jsp?uri=<viva:AdvisorRoleRO_0000052/>"><viva:AdvisorRoleRO_0000052 /></a></td></tr>
-      </viva:foreachAdvisorRoleRO_0000052Iterator>
       <viva:foreachAdvisorRoleRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:AdvisorRoleRO_0000056Type/>/<viva:AdvisorRoleRO_0000056Type/>.jsp?uri=<viva:AdvisorRoleRO_0000056/>"><viva:AdvisorRoleRO_0000056 /></a></td></tr>
       </viva:foreachAdvisorRoleRO_0000056Iterator>
+      <viva:foreachAdvisorRoleRO_0000052Iterator>
+         <tr><td>RO_0000052</td><td><a href="../<viva:AdvisorRoleRO_0000052Type/>/<viva:AdvisorRoleRO_0000052Type/>.jsp?uri=<viva:AdvisorRoleRO_0000052/>"><viva:AdvisorRoleRO_0000052 /></a></td></tr>
+      </viva:foreachAdvisorRoleRO_0000052Iterator>
       <viva:foreachAdvisorRoleRoleContributesToIterator>
          <tr><td>roleContributesTo</td><td><a href="../<viva:AdvisorRoleRoleContributesToType/>/<viva:AdvisorRoleRoleContributesToType/>.jsp?uri=<viva:AdvisorRoleRoleContributesTo/>"><viva:AdvisorRoleRoleContributesTo /></a></td></tr>
       </viva:foreachAdvisorRoleRoleContributesToIterator>

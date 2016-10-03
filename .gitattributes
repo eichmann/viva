@@ -196,6 +196,8 @@ src/main/webapp/Competition/Competition.jsp -text
 src/main/webapp/Competition/CompetitionList.jsp -text
 src/main/webapp/Concept/Concept.jsp -text
 src/main/webapp/Concept/ConceptList.jsp -text
+src/main/webapp/ConceptScheme/ConceptScheme.jsp -text
+src/main/webapp/ConceptScheme/ConceptSchemeList.jsp -text
 src/main/webapp/Conference/Conference.jsp -text
 src/main/webapp/Conference/ConferenceList.jsp -text
 src/main/webapp/ConferencePaper/ConferencePaper.jsp -text
@@ -526,6 +528,8 @@ src/main/webapp/License/License.jsp -text
 src/main/webapp/License/LicenseList.jsp -text
 src/main/webapp/Licensure/Licensure.jsp -text
 src/main/webapp/Licensure/LicensureList.jsp -text
+src/main/webapp/List/List.jsp -text
+src/main/webapp/List/ListList.jsp -text
 src/main/webapp/Location/Location.jsp -text
 src/main/webapp/Location/LocationList.jsp -text
 src/main/webapp/Logo/Logo.jsp -text
@@ -550,6 +554,8 @@ src/main/webapp/MemberRole/MemberRole.jsp -text
 src/main/webapp/MemberRole/MemberRoleList.jsp -text
 src/main/webapp/Met/Met.jsp -text
 src/main/webapp/Met/MetList.jsp -text
+src/main/webapp/MultiVolumeBook/MultiVolumeBook.jsp -text
+src/main/webapp/MultiVolumeBook/MultiVolumeBookList.jsp -text
 src/main/webapp/Muse/Muse.jsp -text
 src/main/webapp/Muse/MuseList.jsp -text
 src/main/webapp/Museum/Museum.jsp -text
@@ -578,6 +584,8 @@ src/main/webapp/None/None.jsp -text
 src/main/webapp/None/NoneList.jsp -text
 src/main/webapp/Note/Note.jsp -text
 src/main/webapp/Note/NoteList.jsp -text
+src/main/webapp/Nothing/Nothing.jsp -text
+src/main/webapp/Nothing/NothingList.jsp -text
 src/main/webapp/OBI_0000011/OBI_0000011.jsp -text
 src/main/webapp/OBI_0000011/OBI_0000011List.jsp -text
 src/main/webapp/OBI_0000017/OBI_0000017.jsp -text
@@ -594,6 +602,8 @@ src/main/webapp/OBI_0500000/OBI_0500000.jsp -text
 src/main/webapp/OBI_0500000/OBI_0500000List.jsp -text
 src/main/webapp/OCRE100038/OCRE100038.jsp -text
 src/main/webapp/OCRE100038/OCRE100038List.jsp -text
+src/main/webapp/OrderedCollection/OrderedCollection.jsp -text
+src/main/webapp/OrderedCollection/OrderedCollectionList.jsp -text
 src/main/webapp/Organization/Organization.jsp -text
 src/main/webapp/Organization/OrganizationList.jsp -text
 src/main/webapp/OrganizationName/OrganizationName.jsp -text
@@ -625,6 +635,8 @@ src/main/webapp/Periodical/PeriodicalList.jsp -text
 src/main/webapp/Person/Person.jsp -text
 src/main/webapp/Person/PersonList.jsp -text
 src/main/webapp/Person/altPerson.jsp -text
+src/main/webapp/PersonalCommunication/PersonalCommunication.jsp -text
+src/main/webapp/PersonalCommunication/PersonalCommunicationList.jsp -text
 src/main/webapp/PersonalCommunicationDocument/PersonalCommunicationDocument.jsp -text
 src/main/webapp/PersonalCommunicationDocument/PersonalCommunicationDocumentList.jsp -text
 src/main/webapp/Phase0ClinicalTrial/Phase0ClinicalTrial.jsp -text
@@ -699,6 +711,8 @@ src/main/webapp/ResearchProposal/ResearchProposal.jsp -text
 src/main/webapp/ResearchProposal/ResearchProposalList.jsp -text
 src/main/webapp/ResearcherRole/ResearcherRole.jsp -text
 src/main/webapp/ResearcherRole/ResearcherRoleList.jsp -text
+src/main/webapp/Resource/Resource.jsp -text
+src/main/webapp/Resource/ResourceList.jsp -text
 src/main/webapp/Review/Review.jsp -text
 src/main/webapp/Review/ReviewList.jsp -text
 src/main/webapp/ReviewerRole/ReviewerRole.jsp -text
@@ -715,6 +729,8 @@ src/main/webapp/Security/Security.jsp -text
 src/main/webapp/Security/SecurityList.jsp -text
 src/main/webapp/SeminarSeries/SeminarSeries.jsp -text
 src/main/webapp/SeminarSeries/SeminarSeriesList.jsp -text
+src/main/webapp/Seq/Seq.jsp -text
+src/main/webapp/Seq/SeqList.jsp -text
 src/main/webapp/Series/Series.jsp -text
 src/main/webapp/Series/SeriesList.jsp -text
 src/main/webapp/ServiceProvidingLaboratory/ServiceProvidingLaboratory.jsp -text

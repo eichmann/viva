@@ -31,21 +31,27 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachCredentialResearchAreaOfIterator>
-         <tr><td>researchAreaOf</td><td><a href="../<viva:CredentialResearchAreaOfType/>/<viva:CredentialResearchAreaOfType/>.jsp?uri=<viva:CredentialResearchAreaOf/>"><viva:CredentialResearchAreaOf /></a></td></tr>
-      </viva:foreachCredentialResearchAreaOfIterator>
-      <viva:foreachCredentialSubjectAreaOfIterator>
-         <tr><td>subjectAreaOf</td><td><a href="../<viva:CredentialSubjectAreaOfType/>/<viva:CredentialSubjectAreaOfType/>.jsp?uri=<viva:CredentialSubjectAreaOf/>"><viva:CredentialSubjectAreaOf /></a></td></tr>
-      </viva:foreachCredentialSubjectAreaOfIterator>
       <viva:foreachCredentialRelatedIterator>
          <tr><td>related</td><td><a href="../<viva:CredentialRelatedType/>/<viva:CredentialRelatedType/>.jsp?uri=<viva:CredentialRelated/>"><viva:CredentialRelated /></a></td></tr>
       </viva:foreachCredentialRelatedIterator>
       <viva:foreachCredentialNarrowerIterator>
          <tr><td>narrower</td><td><a href="../<viva:CredentialNarrowerType/>/<viva:CredentialNarrowerType/>.jsp?uri=<viva:CredentialNarrower/>"><viva:CredentialNarrower /></a></td></tr>
       </viva:foreachCredentialNarrowerIterator>
+      <viva:foreachCredentialSemanticRelationIterator>
+         <tr><td>semanticRelation</td><td><a href="../<viva:CredentialSemanticRelationType/>/<viva:CredentialSemanticRelationType/>.jsp?uri=<viva:CredentialSemanticRelation/>"><viva:CredentialSemanticRelation /></a></td></tr>
+      </viva:foreachCredentialSemanticRelationIterator>
       <viva:foreachCredentialBroaderIterator>
          <tr><td>broader</td><td><a href="../<viva:CredentialBroaderType/>/<viva:CredentialBroaderType/>.jsp?uri=<viva:CredentialBroader/>"><viva:CredentialBroader /></a></td></tr>
       </viva:foreachCredentialBroaderIterator>
+      <viva:foreachCredentialTopConceptOfIterator>
+         <tr><td>topConceptOf</td><td><a href="../<viva:CredentialTopConceptOfType/>/<viva:CredentialTopConceptOfType/>.jsp?uri=<viva:CredentialTopConceptOf/>"><viva:CredentialTopConceptOf /></a></td></tr>
+      </viva:foreachCredentialTopConceptOfIterator>
+      <viva:foreachCredentialResearchAreaOfIterator>
+         <tr><td>researchAreaOf</td><td><a href="../<viva:CredentialResearchAreaOfType/>/<viva:CredentialResearchAreaOfType/>.jsp?uri=<viva:CredentialResearchAreaOf/>"><viva:CredentialResearchAreaOf /></a></td></tr>
+      </viva:foreachCredentialResearchAreaOfIterator>
+      <viva:foreachCredentialSubjectAreaOfIterator>
+         <tr><td>subjectAreaOf</td><td><a href="../<viva:CredentialSubjectAreaOfType/>/<viva:CredentialSubjectAreaOfType/>.jsp?uri=<viva:CredentialSubjectAreaOf/>"><viva:CredentialSubjectAreaOf /></a></td></tr>
+      </viva:foreachCredentialSubjectAreaOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
@@ -53,6 +59,9 @@
       <viva:foreachCredentialEligibleForInverseIterator>
          <tr><td>eligibleFor</td><td><a href="../<viva:CredentialEligibleForInverseType/>/<viva:CredentialEligibleForInverseType/>.jsp?uri=<viva:CredentialEligibleForInverse/>"><viva:CredentialEligibleForInverse/></a></td></tr>
       </viva:foreachCredentialEligibleForInverseIterator>
+      <viva:foreachCredentialMemberInverseIterator>
+         <tr><td>member</td><td><a href="../<viva:CredentialMemberInverseType/>/<viva:CredentialMemberInverseType/>.jsp?uri=<viva:CredentialMemberInverse/>"><viva:CredentialMemberInverse/></a></td></tr>
+      </viva:foreachCredentialMemberInverseIterator>
    </table>
    </viva:Credential>
 

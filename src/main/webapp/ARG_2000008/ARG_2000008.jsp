@@ -27,19 +27,10 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachARG_2000008TheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:ARG_2000008TheAbstract /></td></tr>
-      </viva:foreachARG_2000008TheAbstractIterator>
-      <viva:foreachARG_2000008DoiIterator>
-         <tr><td>doi</td><td><viva:ARG_2000008Doi /></td></tr>
-      </viva:foreachARG_2000008DoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachARG_2000008TranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:ARG_2000008TranslatorType/>/<viva:ARG_2000008TranslatorType/>.jsp?uri=<viva:ARG_2000008Translator/>"><viva:ARG_2000008Translator /></a></td></tr>
-      </viva:foreachARG_2000008TranslatorIterator>
       <viva:foreachARG_2000008FeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:ARG_2000008FeaturesType/>/<viva:ARG_2000008FeaturesType/>.jsp?uri=<viva:ARG_2000008Features/>"><viva:ARG_2000008Features /></a></td></tr>
       </viva:foreachARG_2000008FeaturesIterator>
@@ -49,12 +40,12 @@
       <viva:foreachARG_2000008IAO_0000136Iterator>
          <tr><td>IAO_0000136</td><td><a href="../<viva:ARG_2000008IAO_0000136Type/>/<viva:ARG_2000008IAO_0000136Type/>.jsp?uri=<viva:ARG_2000008IAO_0000136/>"><viva:ARG_2000008IAO_0000136 /></a></td></tr>
       </viva:foreachARG_2000008IAO_0000136Iterator>
-      <viva:foreachARG_2000008IAO_0000221Iterator>
-         <tr><td>IAO_0000221</td><td><a href="../<viva:ARG_2000008IAO_0000221Type/>/<viva:ARG_2000008IAO_0000221Type/>.jsp?uri=<viva:ARG_2000008IAO_0000221/>"><viva:ARG_2000008IAO_0000221 /></a></td></tr>
-      </viva:foreachARG_2000008IAO_0000221Iterator>
       <viva:foreachARG_2000008RO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ARG_2000008RO_0000056Type/>/<viva:ARG_2000008RO_0000056Type/>.jsp?uri=<viva:ARG_2000008RO_0000056/>"><viva:ARG_2000008RO_0000056 /></a></td></tr>
       </viva:foreachARG_2000008RO_0000056Iterator>
+      <viva:foreachARG_2000008IAO_0000221Iterator>
+         <tr><td>IAO_0000221</td><td><a href="../<viva:ARG_2000008IAO_0000221Type/>/<viva:ARG_2000008IAO_0000221Type/>.jsp?uri=<viva:ARG_2000008IAO_0000221/>"><viva:ARG_2000008IAO_0000221 /></a></td></tr>
+      </viva:foreachARG_2000008IAO_0000221Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

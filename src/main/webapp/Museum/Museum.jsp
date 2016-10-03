@@ -29,10 +29,19 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachMuseumSuffixNameIterator>
+         <tr><td>suffixName</td><td><viva:MuseumSuffixName /></td></tr>
+      </viva:foreachMuseumSuffixNameIterator>
+      <viva:foreachMuseumPrefixNameIterator>
+         <tr><td>prefixName</td><td><viva:MuseumPrefixName /></td></tr>
+      </viva:foreachMuseumPrefixNameIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachMuseumRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:MuseumRO_0000053Type/>/<viva:MuseumRO_0000053Type/>.jsp?uri=<viva:MuseumRO_0000053/>"><viva:MuseumRO_0000053 /></a></td></tr>
+      </viva:foreachMuseumRO_0000053Iterator>
       <viva:foreachMuseumSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:MuseumSponsorsType/>/<viva:MuseumSponsorsType/>.jsp?uri=<viva:MuseumSponsors/>"><viva:MuseumSponsors /></a></td></tr>
       </viva:foreachMuseumSponsorsIterator>
@@ -69,9 +78,6 @@
       <viva:foreachMuseumAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<viva:MuseumAffiliatedOrganizationType/>/<viva:MuseumAffiliatedOrganizationType/>.jsp?uri=<viva:MuseumAffiliatedOrganization/>"><viva:MuseumAffiliatedOrganization /></a></td></tr>
       </viva:foreachMuseumAffiliatedOrganizationIterator>
-      <viva:foreachMuseumRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:MuseumRO_0000053Type/>/<viva:MuseumRO_0000053Type/>.jsp?uri=<viva:MuseumRO_0000053/>"><viva:MuseumRO_0000053 /></a></td></tr>
-      </viva:foreachMuseumRO_0000053Iterator>
       <viva:foreachMuseumRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:MuseumRO_0000056Type/>/<viva:MuseumRO_0000056Type/>.jsp?uri=<viva:MuseumRO_0000056/>"><viva:MuseumRO_0000056 /></a></td></tr>
       </viva:foreachMuseumRO_0000056Iterator>
@@ -81,6 +87,12 @@
       <viva:foreachMuseumHasCollaboratorIterator>
          <tr><td>hasCollaborator</td><td><a href="../<viva:MuseumHasCollaboratorType/>/<viva:MuseumHasCollaboratorType/>.jsp?uri=<viva:MuseumHasCollaborator/>"><viva:MuseumHasCollaborator /></a></td></tr>
       </viva:foreachMuseumHasCollaboratorIterator>
+      <viva:foreachMuseumInterviewerIterator>
+         <tr><td>interviewer</td><td><a href="../<viva:MuseumInterviewerType/>/<viva:MuseumInterviewerType/>.jsp?uri=<viva:MuseumInterviewer/>"><viva:MuseumInterviewer /></a></td></tr>
+      </viva:foreachMuseumInterviewerIterator>
+      <viva:foreachMuseumIntervieweeIterator>
+         <tr><td>interviewee</td><td><a href="../<viva:MuseumIntervieweeType/>/<viva:MuseumIntervieweeType/>.jsp?uri=<viva:MuseumInterviewee/>"><viva:MuseumInterviewee /></a></td></tr>
+      </viva:foreachMuseumIntervieweeIterator>
       <viva:foreachMuseumTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:MuseumTranslatorOfType/>/<viva:MuseumTranslatorOfType/>.jsp?uri=<viva:MuseumTranslatorOf/>"><viva:MuseumTranslatorOf /></a></td></tr>
       </viva:foreachMuseumTranslatorOfIterator>
@@ -91,9 +103,33 @@
       <viva:foreachMuseumOBI_0000304InverseIterator>
          <tr><td>OBI_0000304</td><td><a href="../<viva:MuseumOBI_0000304InverseType/>/<viva:MuseumOBI_0000304InverseType/>.jsp?uri=<viva:MuseumOBI_0000304Inverse/>"><viva:MuseumOBI_0000304Inverse/></a></td></tr>
       </viva:foreachMuseumOBI_0000304InverseIterator>
+      <viva:foreachMuseumCourtInverseIterator>
+         <tr><td>court</td><td><a href="../<viva:MuseumCourtInverseType/>/<viva:MuseumCourtInverseType/>.jsp?uri=<viva:MuseumCourtInverse/>"><viva:MuseumCourtInverse/></a></td></tr>
+      </viva:foreachMuseumCourtInverseIterator>
+      <viva:foreachMuseumOrganizerInverseIterator>
+         <tr><td>organizer</td><td><a href="../<viva:MuseumOrganizerInverseType/>/<viva:MuseumOrganizerInverseType/>.jsp?uri=<viva:MuseumOrganizerInverse/>"><viva:MuseumOrganizerInverse/></a></td></tr>
+      </viva:foreachMuseumOrganizerInverseIterator>
+      <viva:foreachMuseumRecipientInverseIterator>
+         <tr><td>recipient</td><td><a href="../<viva:MuseumRecipientInverseType/>/<viva:MuseumRecipientInverseType/>.jsp?uri=<viva:MuseumRecipientInverse/>"><viva:MuseumRecipientInverse/></a></td></tr>
+      </viva:foreachMuseumRecipientInverseIterator>
+      <viva:foreachMuseumEditorInverseIterator>
+         <tr><td>editor</td><td><a href="../<viva:MuseumEditorInverseType/>/<viva:MuseumEditorInverseType/>.jsp?uri=<viva:MuseumEditorInverse/>"><viva:MuseumEditorInverse/></a></td></tr>
+      </viva:foreachMuseumEditorInverseIterator>
+      <viva:foreachMuseumOwnerInverseIterator>
+         <tr><td>owner</td><td><a href="../<viva:MuseumOwnerInverseType/>/<viva:MuseumOwnerInverseType/>.jsp?uri=<viva:MuseumOwnerInverse/>"><viva:MuseumOwnerInverse/></a></td></tr>
+      </viva:foreachMuseumOwnerInverseIterator>
+      <viva:foreachMuseumPerformerInverseIterator>
+         <tr><td>performer</td><td><a href="../<viva:MuseumPerformerInverseType/>/<viva:MuseumPerformerInverseType/>.jsp?uri=<viva:MuseumPerformerInverse/>"><viva:MuseumPerformerInverse/></a></td></tr>
+      </viva:foreachMuseumPerformerInverseIterator>
       <viva:foreachMuseumIssuerInverseIterator>
          <tr><td>issuer</td><td><a href="../<viva:MuseumIssuerInverseType/>/<viva:MuseumIssuerInverseType/>.jsp?uri=<viva:MuseumIssuerInverse/>"><viva:MuseumIssuerInverse/></a></td></tr>
       </viva:foreachMuseumIssuerInverseIterator>
+      <viva:foreachMuseumProducerInverseIterator>
+         <tr><td>producer</td><td><a href="../<viva:MuseumProducerInverseType/>/<viva:MuseumProducerInverseType/>.jsp?uri=<viva:MuseumProducerInverse/>"><viva:MuseumProducerInverse/></a></td></tr>
+      </viva:foreachMuseumProducerInverseIterator>
+      <viva:foreachMuseumDirectorInverseIterator>
+         <tr><td>director</td><td><a href="../<viva:MuseumDirectorInverseType/>/<viva:MuseumDirectorInverseType/>.jsp?uri=<viva:MuseumDirectorInverse/>"><viva:MuseumDirectorInverse/></a></td></tr>
+      </viva:foreachMuseumDirectorInverseIterator>
    </table>
    </viva:Museum>
 

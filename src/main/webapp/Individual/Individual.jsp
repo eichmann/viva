@@ -36,12 +36,6 @@
       <viva:foreachIndividualBirthdateIterator>
          <tr><td>birthdate</td><td><viva:IndividualBirthdate /></td></tr>
       </viva:foreachIndividualBirthdateIterator>
-      <viva:foreachIndividualTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:IndividualTheAbstract /></td></tr>
-      </viva:foreachIndividualTheAbstractIterator>
-      <viva:foreachIndividualDoiIterator>
-         <tr><td>doi</td><td><viva:IndividualDoi /></td></tr>
-      </viva:foreachIndividualDoiIterator>
       <viva:foreachIndividualRankIterator>
          <tr><td>rank</td><td><viva:IndividualRank /></td></tr>
       </viva:foreachIndividualRankIterator>
@@ -67,9 +61,6 @@
       <viva:foreachIndividualHasURLIterator>
          <tr><td>hasURL</td><td><a href="../<viva:IndividualHasURLType/>/<viva:IndividualHasURLType/>.jsp?uri=<viva:IndividualHasURL/>"><viva:IndividualHasURL /></a></td></tr>
       </viva:foreachIndividualHasURLIterator>
-      <viva:foreachIndividualTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:IndividualTranslatorType/>/<viva:IndividualTranslatorType/>.jsp?uri=<viva:IndividualTranslator/>"><viva:IndividualTranslator /></a></td></tr>
-      </viva:foreachIndividualTranslatorIterator>
       <viva:foreachIndividualFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:IndividualFeaturesType/>/<viva:IndividualFeaturesType/>.jsp?uri=<viva:IndividualFeatures/>"><viva:IndividualFeatures /></a></td></tr>
       </viva:foreachIndividualFeaturesIterator>

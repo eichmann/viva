@@ -35,21 +35,27 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachThesisDegreeResearchAreaOfIterator>
-         <tr><td>researchAreaOf</td><td><a href="../<viva:ThesisDegreeResearchAreaOfType/>/<viva:ThesisDegreeResearchAreaOfType/>.jsp?uri=<viva:ThesisDegreeResearchAreaOf/>"><viva:ThesisDegreeResearchAreaOf /></a></td></tr>
-      </viva:foreachThesisDegreeResearchAreaOfIterator>
-      <viva:foreachThesisDegreeSubjectAreaOfIterator>
-         <tr><td>subjectAreaOf</td><td><a href="../<viva:ThesisDegreeSubjectAreaOfType/>/<viva:ThesisDegreeSubjectAreaOfType/>.jsp?uri=<viva:ThesisDegreeSubjectAreaOf/>"><viva:ThesisDegreeSubjectAreaOf /></a></td></tr>
-      </viva:foreachThesisDegreeSubjectAreaOfIterator>
       <viva:foreachThesisDegreeRelatedIterator>
          <tr><td>related</td><td><a href="../<viva:ThesisDegreeRelatedType/>/<viva:ThesisDegreeRelatedType/>.jsp?uri=<viva:ThesisDegreeRelated/>"><viva:ThesisDegreeRelated /></a></td></tr>
       </viva:foreachThesisDegreeRelatedIterator>
       <viva:foreachThesisDegreeNarrowerIterator>
          <tr><td>narrower</td><td><a href="../<viva:ThesisDegreeNarrowerType/>/<viva:ThesisDegreeNarrowerType/>.jsp?uri=<viva:ThesisDegreeNarrower/>"><viva:ThesisDegreeNarrower /></a></td></tr>
       </viva:foreachThesisDegreeNarrowerIterator>
+      <viva:foreachThesisDegreeSemanticRelationIterator>
+         <tr><td>semanticRelation</td><td><a href="../<viva:ThesisDegreeSemanticRelationType/>/<viva:ThesisDegreeSemanticRelationType/>.jsp?uri=<viva:ThesisDegreeSemanticRelation/>"><viva:ThesisDegreeSemanticRelation /></a></td></tr>
+      </viva:foreachThesisDegreeSemanticRelationIterator>
       <viva:foreachThesisDegreeBroaderIterator>
          <tr><td>broader</td><td><a href="../<viva:ThesisDegreeBroaderType/>/<viva:ThesisDegreeBroaderType/>.jsp?uri=<viva:ThesisDegreeBroader/>"><viva:ThesisDegreeBroader /></a></td></tr>
       </viva:foreachThesisDegreeBroaderIterator>
+      <viva:foreachThesisDegreeTopConceptOfIterator>
+         <tr><td>topConceptOf</td><td><a href="../<viva:ThesisDegreeTopConceptOfType/>/<viva:ThesisDegreeTopConceptOfType/>.jsp?uri=<viva:ThesisDegreeTopConceptOf/>"><viva:ThesisDegreeTopConceptOf /></a></td></tr>
+      </viva:foreachThesisDegreeTopConceptOfIterator>
+      <viva:foreachThesisDegreeResearchAreaOfIterator>
+         <tr><td>researchAreaOf</td><td><a href="../<viva:ThesisDegreeResearchAreaOfType/>/<viva:ThesisDegreeResearchAreaOfType/>.jsp?uri=<viva:ThesisDegreeResearchAreaOf/>"><viva:ThesisDegreeResearchAreaOf /></a></td></tr>
+      </viva:foreachThesisDegreeResearchAreaOfIterator>
+      <viva:foreachThesisDegreeSubjectAreaOfIterator>
+         <tr><td>subjectAreaOf</td><td><a href="../<viva:ThesisDegreeSubjectAreaOfType/>/<viva:ThesisDegreeSubjectAreaOfType/>.jsp?uri=<viva:ThesisDegreeSubjectAreaOf/>"><viva:ThesisDegreeSubjectAreaOf /></a></td></tr>
+      </viva:foreachThesisDegreeSubjectAreaOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
@@ -57,6 +63,9 @@
       <viva:foreachThesisDegreeDegreeInverseIterator>
          <tr><td>degree</td><td><a href="../<viva:ThesisDegreeDegreeInverseType/>/<viva:ThesisDegreeDegreeInverseType/>.jsp?uri=<viva:ThesisDegreeDegreeInverse/>"><viva:ThesisDegreeDegreeInverse/></a></td></tr>
       </viva:foreachThesisDegreeDegreeInverseIterator>
+      <viva:foreachThesisDegreeMemberInverseIterator>
+         <tr><td>member</td><td><a href="../<viva:ThesisDegreeMemberInverseType/>/<viva:ThesisDegreeMemberInverseType/>.jsp?uri=<viva:ThesisDegreeMemberInverse/>"><viva:ThesisDegreeMemberInverse/></a></td></tr>
+      </viva:foreachThesisDegreeMemberInverseIterator>
       <viva:foreachThesisDegreeDegreeCandidacyInverseIterator>
          <tr><td>degreeCandidacy</td><td><a href="../<viva:ThesisDegreeDegreeCandidacyInverseType/>/<viva:ThesisDegreeDegreeCandidacyInverseType/>.jsp?uri=<viva:ThesisDegreeDegreeCandidacyInverse/>"><viva:ThesisDegreeDegreeCandidacyInverse/></a></td></tr>
       </viva:foreachThesisDegreeDegreeCandidacyInverseIterator>

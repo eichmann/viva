@@ -27,12 +27,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachIAO_0000005TheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:IAO_0000005TheAbstract /></td></tr>
-      </viva:foreachIAO_0000005TheAbstractIterator>
-      <viva:foreachIAO_0000005DoiIterator>
-         <tr><td>doi</td><td><viva:IAO_0000005Doi /></td></tr>
-      </viva:foreachIAO_0000005DoiIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -40,9 +34,6 @@
       <viva:foreachIAO_0000005OBI_0000833Iterator>
          <tr><td>OBI_0000833</td><td><a href="../<viva:IAO_0000005OBI_0000833Type/>/<viva:IAO_0000005OBI_0000833Type/>.jsp?uri=<viva:IAO_0000005OBI_0000833/>"><viva:IAO_0000005OBI_0000833 /></a></td></tr>
       </viva:foreachIAO_0000005OBI_0000833Iterator>
-      <viva:foreachIAO_0000005TranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:IAO_0000005TranslatorType/>/<viva:IAO_0000005TranslatorType/>.jsp?uri=<viva:IAO_0000005Translator/>"><viva:IAO_0000005Translator /></a></td></tr>
-      </viva:foreachIAO_0000005TranslatorIterator>
       <viva:foreachIAO_0000005FeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:IAO_0000005FeaturesType/>/<viva:IAO_0000005FeaturesType/>.jsp?uri=<viva:IAO_0000005Features/>"><viva:IAO_0000005Features /></a></td></tr>
       </viva:foreachIAO_0000005FeaturesIterator>

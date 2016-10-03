@@ -31,12 +31,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachOBI_0000017RO_0000052Iterator>
-         <tr><td>RO_0000052</td><td><a href="../<viva:OBI_0000017RO_0000052Type/>/<viva:OBI_0000017RO_0000052Type/>.jsp?uri=<viva:OBI_0000017RO_0000052/>"><viva:OBI_0000017RO_0000052 /></a></td></tr>
-      </viva:foreachOBI_0000017RO_0000052Iterator>
       <viva:foreachOBI_0000017RO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:OBI_0000017RO_0000056Type/>/<viva:OBI_0000017RO_0000056Type/>.jsp?uri=<viva:OBI_0000017RO_0000056/>"><viva:OBI_0000017RO_0000056 /></a></td></tr>
       </viva:foreachOBI_0000017RO_0000056Iterator>
+      <viva:foreachOBI_0000017RO_0000052Iterator>
+         <tr><td>RO_0000052</td><td><a href="../<viva:OBI_0000017RO_0000052Type/>/<viva:OBI_0000017RO_0000052Type/>.jsp?uri=<viva:OBI_0000017RO_0000052/>"><viva:OBI_0000017RO_0000052 /></a></td></tr>
+      </viva:foreachOBI_0000017RO_0000052Iterator>
       <viva:foreachOBI_0000017RoleContributesToIterator>
          <tr><td>roleContributesTo</td><td><a href="../<viva:OBI_0000017RoleContributesToType/>/<viva:OBI_0000017RoleContributesToType/>.jsp?uri=<viva:OBI_0000017RoleContributesTo/>"><viva:OBI_0000017RoleContributesTo /></a></td></tr>
       </viva:foreachOBI_0000017RoleContributesToIterator>

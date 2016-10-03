@@ -48,12 +48,12 @@
       <viva:foreachAuthorshipHasURLIterator>
          <tr><td>hasURL</td><td><a href="../<viva:AuthorshipHasURLType/>/<viva:AuthorshipHasURLType/>.jsp?uri=<viva:AuthorshipHasURL/>"><viva:AuthorshipHasURL /></a></td></tr>
       </viva:foreachAuthorshipHasURLIterator>
-      <viva:foreachAuthorshipRO_0000052Iterator>
-         <tr><td>RO_0000052</td><td><a href="../<viva:AuthorshipRO_0000052Type/>/<viva:AuthorshipRO_0000052Type/>.jsp?uri=<viva:AuthorshipRO_0000052/>"><viva:AuthorshipRO_0000052 /></a></td></tr>
-      </viva:foreachAuthorshipRO_0000052Iterator>
       <viva:foreachAuthorshipRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:AuthorshipRO_0000056Type/>/<viva:AuthorshipRO_0000056Type/>.jsp?uri=<viva:AuthorshipRO_0000056/>"><viva:AuthorshipRO_0000056 /></a></td></tr>
       </viva:foreachAuthorshipRO_0000056Iterator>
+      <viva:foreachAuthorshipRO_0000052Iterator>
+         <tr><td>RO_0000052</td><td><a href="../<viva:AuthorshipRO_0000052Type/>/<viva:AuthorshipRO_0000052Type/>.jsp?uri=<viva:AuthorshipRO_0000052/>"><viva:AuthorshipRO_0000052 /></a></td></tr>
+      </viva:foreachAuthorshipRO_0000052Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

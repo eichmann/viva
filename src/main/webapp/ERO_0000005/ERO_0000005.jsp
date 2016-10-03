@@ -33,12 +33,6 @@
       <viva:foreachERO_0000005ERO_0000045Iterator>
          <tr><td>ERO_0000045</td><td><viva:ERO_0000005ERO_0000045 /></td></tr>
       </viva:foreachERO_0000005ERO_0000045Iterator>
-      <viva:foreachERO_0000005TheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:ERO_0000005TheAbstract /></td></tr>
-      </viva:foreachERO_0000005TheAbstractIterator>
-      <viva:foreachERO_0000005DoiIterator>
-         <tr><td>doi</td><td><viva:ERO_0000005Doi /></td></tr>
-      </viva:foreachERO_0000005DoiIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -58,9 +52,6 @@
       <viva:foreachERO_0000005ERO_0000460Iterator>
          <tr><td>ERO_0000460</td><td><a href="../<viva:ERO_0000005ERO_0000460Type/>/<viva:ERO_0000005ERO_0000460Type/>.jsp?uri=<viva:ERO_0000005ERO_0000460/>"><viva:ERO_0000005ERO_0000460 /></a></td></tr>
       </viva:foreachERO_0000005ERO_0000460Iterator>
-      <viva:foreachERO_0000005TranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:ERO_0000005TranslatorType/>/<viva:ERO_0000005TranslatorType/>.jsp?uri=<viva:ERO_0000005Translator/>"><viva:ERO_0000005Translator /></a></td></tr>
-      </viva:foreachERO_0000005TranslatorIterator>
       <viva:foreachERO_0000005FeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:ERO_0000005FeaturesType/>/<viva:ERO_0000005FeaturesType/>.jsp?uri=<viva:ERO_0000005Features/>"><viva:ERO_0000005Features /></a></td></tr>
       </viva:foreachERO_0000005FeaturesIterator>

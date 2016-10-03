@@ -31,12 +31,15 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachExhibitBFO_0000055Iterator>
-         <tr><td>BFO_0000055</td><td><a href="../<viva:ExhibitBFO_0000055Type/>/<viva:ExhibitBFO_0000055Type/>.jsp?uri=<viva:ExhibitBFO_0000055/>"><viva:ExhibitBFO_0000055 /></a></td></tr>
-      </viva:foreachExhibitBFO_0000055Iterator>
       <viva:foreachExhibitRO_0000057Iterator>
          <tr><td>RO_0000057</td><td><a href="../<viva:ExhibitRO_0000057Type/>/<viva:ExhibitRO_0000057Type/>.jsp?uri=<viva:ExhibitRO_0000057/>"><viva:ExhibitRO_0000057 /></a></td></tr>
       </viva:foreachExhibitRO_0000057Iterator>
+      <viva:foreachExhibitOrganizerIterator>
+         <tr><td>organizer</td><td><a href="../<viva:ExhibitOrganizerType/>/<viva:ExhibitOrganizerType/>.jsp?uri=<viva:ExhibitOrganizer/>"><viva:ExhibitOrganizer /></a></td></tr>
+      </viva:foreachExhibitOrganizerIterator>
+      <viva:foreachExhibitBFO_0000055Iterator>
+         <tr><td>BFO_0000055</td><td><a href="../<viva:ExhibitBFO_0000055Type/>/<viva:ExhibitBFO_0000055Type/>.jsp?uri=<viva:ExhibitBFO_0000055/>"><viva:ExhibitBFO_0000055 /></a></td></tr>
+      </viva:foreachExhibitBFO_0000055Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

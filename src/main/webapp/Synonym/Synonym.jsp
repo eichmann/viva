@@ -27,19 +27,10 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachSynonymTheAbstractIterator>
-         <tr><td>theAbstract</td><td><viva:SynonymTheAbstract /></td></tr>
-      </viva:foreachSynonymTheAbstractIterator>
-      <viva:foreachSynonymDoiIterator>
-         <tr><td>doi</td><td><viva:SynonymDoi /></td></tr>
-      </viva:foreachSynonymDoiIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachSynonymTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:SynonymTranslatorType/>/<viva:SynonymTranslatorType/>.jsp?uri=<viva:SynonymTranslator/>"><viva:SynonymTranslator /></a></td></tr>
-      </viva:foreachSynonymTranslatorIterator>
       <viva:foreachSynonymFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:SynonymFeaturesType/>/<viva:SynonymFeaturesType/>.jsp?uri=<viva:SynonymFeatures/>"><viva:SynonymFeatures /></a></td></tr>
       </viva:foreachSynonymFeaturesIterator>

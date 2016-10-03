@@ -31,12 +31,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachERO_0000224RO_0000052Iterator>
-         <tr><td>RO_0000052</td><td><a href="../<viva:ERO_0000224RO_0000052Type/>/<viva:ERO_0000224RO_0000052Type/>.jsp?uri=<viva:ERO_0000224RO_0000052/>"><viva:ERO_0000224RO_0000052 /></a></td></tr>
-      </viva:foreachERO_0000224RO_0000052Iterator>
       <viva:foreachERO_0000224RO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ERO_0000224RO_0000056Type/>/<viva:ERO_0000224RO_0000056Type/>.jsp?uri=<viva:ERO_0000224RO_0000056/>"><viva:ERO_0000224RO_0000056 /></a></td></tr>
       </viva:foreachERO_0000224RO_0000056Iterator>
+      <viva:foreachERO_0000224RO_0000052Iterator>
+         <tr><td>RO_0000052</td><td><a href="../<viva:ERO_0000224RO_0000052Type/>/<viva:ERO_0000224RO_0000052Type/>.jsp?uri=<viva:ERO_0000224RO_0000052/>"><viva:ERO_0000224RO_0000052 /></a></td></tr>
+      </viva:foreachERO_0000224RO_0000052Iterator>
       <viva:foreachERO_0000224RoleContributesToIterator>
          <tr><td>roleContributesTo</td><td><a href="../<viva:ERO_0000224RoleContributesToType/>/<viva:ERO_0000224RoleContributesToType/>.jsp?uri=<viva:ERO_0000224RoleContributesTo/>"><viva:ERO_0000224RoleContributesTo /></a></td></tr>
       </viva:foreachERO_0000224RoleContributesToIterator>

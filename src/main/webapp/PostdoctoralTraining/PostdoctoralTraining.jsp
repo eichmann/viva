@@ -37,12 +37,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachPostdoctoralTrainingBFO_0000055Iterator>
-         <tr><td>BFO_0000055</td><td><a href="../<viva:PostdoctoralTrainingBFO_0000055Type/>/<viva:PostdoctoralTrainingBFO_0000055Type/>.jsp?uri=<viva:PostdoctoralTrainingBFO_0000055/>"><viva:PostdoctoralTrainingBFO_0000055 /></a></td></tr>
-      </viva:foreachPostdoctoralTrainingBFO_0000055Iterator>
       <viva:foreachPostdoctoralTrainingRO_0000057Iterator>
          <tr><td>RO_0000057</td><td><a href="../<viva:PostdoctoralTrainingRO_0000057Type/>/<viva:PostdoctoralTrainingRO_0000057Type/>.jsp?uri=<viva:PostdoctoralTrainingRO_0000057/>"><viva:PostdoctoralTrainingRO_0000057 /></a></td></tr>
       </viva:foreachPostdoctoralTrainingRO_0000057Iterator>
+      <viva:foreachPostdoctoralTrainingBFO_0000055Iterator>
+         <tr><td>BFO_0000055</td><td><a href="../<viva:PostdoctoralTrainingBFO_0000055Type/>/<viva:PostdoctoralTrainingBFO_0000055Type/>.jsp?uri=<viva:PostdoctoralTrainingBFO_0000055/>"><viva:PostdoctoralTrainingBFO_0000055 /></a></td></tr>
+      </viva:foreachPostdoctoralTrainingBFO_0000055Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

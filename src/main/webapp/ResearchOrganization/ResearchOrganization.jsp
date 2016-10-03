@@ -29,10 +29,19 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachResearchOrganizationSuffixNameIterator>
+         <tr><td>suffixName</td><td><viva:ResearchOrganizationSuffixName /></td></tr>
+      </viva:foreachResearchOrganizationSuffixNameIterator>
+      <viva:foreachResearchOrganizationPrefixNameIterator>
+         <tr><td>prefixName</td><td><viva:ResearchOrganizationPrefixName /></td></tr>
+      </viva:foreachResearchOrganizationPrefixNameIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachResearchOrganizationRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:ResearchOrganizationRO_0000053Type/>/<viva:ResearchOrganizationRO_0000053Type/>.jsp?uri=<viva:ResearchOrganizationRO_0000053/>"><viva:ResearchOrganizationRO_0000053 /></a></td></tr>
+      </viva:foreachResearchOrganizationRO_0000053Iterator>
       <viva:foreachResearchOrganizationSponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:ResearchOrganizationSponsorsType/>/<viva:ResearchOrganizationSponsorsType/>.jsp?uri=<viva:ResearchOrganizationSponsors/>"><viva:ResearchOrganizationSponsors /></a></td></tr>
       </viva:foreachResearchOrganizationSponsorsIterator>
@@ -69,9 +78,6 @@
       <viva:foreachResearchOrganizationAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<viva:ResearchOrganizationAffiliatedOrganizationType/>/<viva:ResearchOrganizationAffiliatedOrganizationType/>.jsp?uri=<viva:ResearchOrganizationAffiliatedOrganization/>"><viva:ResearchOrganizationAffiliatedOrganization /></a></td></tr>
       </viva:foreachResearchOrganizationAffiliatedOrganizationIterator>
-      <viva:foreachResearchOrganizationRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:ResearchOrganizationRO_0000053Type/>/<viva:ResearchOrganizationRO_0000053Type/>.jsp?uri=<viva:ResearchOrganizationRO_0000053/>"><viva:ResearchOrganizationRO_0000053 /></a></td></tr>
-      </viva:foreachResearchOrganizationRO_0000053Iterator>
       <viva:foreachResearchOrganizationRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ResearchOrganizationRO_0000056Type/>/<viva:ResearchOrganizationRO_0000056Type/>.jsp?uri=<viva:ResearchOrganizationRO_0000056/>"><viva:ResearchOrganizationRO_0000056 /></a></td></tr>
       </viva:foreachResearchOrganizationRO_0000056Iterator>
@@ -81,6 +87,12 @@
       <viva:foreachResearchOrganizationHasCollaboratorIterator>
          <tr><td>hasCollaborator</td><td><a href="../<viva:ResearchOrganizationHasCollaboratorType/>/<viva:ResearchOrganizationHasCollaboratorType/>.jsp?uri=<viva:ResearchOrganizationHasCollaborator/>"><viva:ResearchOrganizationHasCollaborator /></a></td></tr>
       </viva:foreachResearchOrganizationHasCollaboratorIterator>
+      <viva:foreachResearchOrganizationInterviewerIterator>
+         <tr><td>interviewer</td><td><a href="../<viva:ResearchOrganizationInterviewerType/>/<viva:ResearchOrganizationInterviewerType/>.jsp?uri=<viva:ResearchOrganizationInterviewer/>"><viva:ResearchOrganizationInterviewer /></a></td></tr>
+      </viva:foreachResearchOrganizationInterviewerIterator>
+      <viva:foreachResearchOrganizationIntervieweeIterator>
+         <tr><td>interviewee</td><td><a href="../<viva:ResearchOrganizationIntervieweeType/>/<viva:ResearchOrganizationIntervieweeType/>.jsp?uri=<viva:ResearchOrganizationInterviewee/>"><viva:ResearchOrganizationInterviewee /></a></td></tr>
+      </viva:foreachResearchOrganizationIntervieweeIterator>
       <viva:foreachResearchOrganizationTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:ResearchOrganizationTranslatorOfType/>/<viva:ResearchOrganizationTranslatorOfType/>.jsp?uri=<viva:ResearchOrganizationTranslatorOf/>"><viva:ResearchOrganizationTranslatorOf /></a></td></tr>
       </viva:foreachResearchOrganizationTranslatorOfIterator>
@@ -91,9 +103,33 @@
       <viva:foreachResearchOrganizationOBI_0000304InverseIterator>
          <tr><td>OBI_0000304</td><td><a href="../<viva:ResearchOrganizationOBI_0000304InverseType/>/<viva:ResearchOrganizationOBI_0000304InverseType/>.jsp?uri=<viva:ResearchOrganizationOBI_0000304Inverse/>"><viva:ResearchOrganizationOBI_0000304Inverse/></a></td></tr>
       </viva:foreachResearchOrganizationOBI_0000304InverseIterator>
+      <viva:foreachResearchOrganizationCourtInverseIterator>
+         <tr><td>court</td><td><a href="../<viva:ResearchOrganizationCourtInverseType/>/<viva:ResearchOrganizationCourtInverseType/>.jsp?uri=<viva:ResearchOrganizationCourtInverse/>"><viva:ResearchOrganizationCourtInverse/></a></td></tr>
+      </viva:foreachResearchOrganizationCourtInverseIterator>
+      <viva:foreachResearchOrganizationOrganizerInverseIterator>
+         <tr><td>organizer</td><td><a href="../<viva:ResearchOrganizationOrganizerInverseType/>/<viva:ResearchOrganizationOrganizerInverseType/>.jsp?uri=<viva:ResearchOrganizationOrganizerInverse/>"><viva:ResearchOrganizationOrganizerInverse/></a></td></tr>
+      </viva:foreachResearchOrganizationOrganizerInverseIterator>
+      <viva:foreachResearchOrganizationRecipientInverseIterator>
+         <tr><td>recipient</td><td><a href="../<viva:ResearchOrganizationRecipientInverseType/>/<viva:ResearchOrganizationRecipientInverseType/>.jsp?uri=<viva:ResearchOrganizationRecipientInverse/>"><viva:ResearchOrganizationRecipientInverse/></a></td></tr>
+      </viva:foreachResearchOrganizationRecipientInverseIterator>
+      <viva:foreachResearchOrganizationEditorInverseIterator>
+         <tr><td>editor</td><td><a href="../<viva:ResearchOrganizationEditorInverseType/>/<viva:ResearchOrganizationEditorInverseType/>.jsp?uri=<viva:ResearchOrganizationEditorInverse/>"><viva:ResearchOrganizationEditorInverse/></a></td></tr>
+      </viva:foreachResearchOrganizationEditorInverseIterator>
+      <viva:foreachResearchOrganizationOwnerInverseIterator>
+         <tr><td>owner</td><td><a href="../<viva:ResearchOrganizationOwnerInverseType/>/<viva:ResearchOrganizationOwnerInverseType/>.jsp?uri=<viva:ResearchOrganizationOwnerInverse/>"><viva:ResearchOrganizationOwnerInverse/></a></td></tr>
+      </viva:foreachResearchOrganizationOwnerInverseIterator>
+      <viva:foreachResearchOrganizationPerformerInverseIterator>
+         <tr><td>performer</td><td><a href="../<viva:ResearchOrganizationPerformerInverseType/>/<viva:ResearchOrganizationPerformerInverseType/>.jsp?uri=<viva:ResearchOrganizationPerformerInverse/>"><viva:ResearchOrganizationPerformerInverse/></a></td></tr>
+      </viva:foreachResearchOrganizationPerformerInverseIterator>
       <viva:foreachResearchOrganizationIssuerInverseIterator>
          <tr><td>issuer</td><td><a href="../<viva:ResearchOrganizationIssuerInverseType/>/<viva:ResearchOrganizationIssuerInverseType/>.jsp?uri=<viva:ResearchOrganizationIssuerInverse/>"><viva:ResearchOrganizationIssuerInverse/></a></td></tr>
       </viva:foreachResearchOrganizationIssuerInverseIterator>
+      <viva:foreachResearchOrganizationProducerInverseIterator>
+         <tr><td>producer</td><td><a href="../<viva:ResearchOrganizationProducerInverseType/>/<viva:ResearchOrganizationProducerInverseType/>.jsp?uri=<viva:ResearchOrganizationProducerInverse/>"><viva:ResearchOrganizationProducerInverse/></a></td></tr>
+      </viva:foreachResearchOrganizationProducerInverseIterator>
+      <viva:foreachResearchOrganizationDirectorInverseIterator>
+         <tr><td>director</td><td><a href="../<viva:ResearchOrganizationDirectorInverseType/>/<viva:ResearchOrganizationDirectorInverseType/>.jsp?uri=<viva:ResearchOrganizationDirectorInverse/>"><viva:ResearchOrganizationDirectorInverse/></a></td></tr>
+      </viva:foreachResearchOrganizationDirectorInverseIterator>
    </table>
    </viva:ResearchOrganization>
 

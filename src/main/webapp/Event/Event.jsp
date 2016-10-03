@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Event - http://purl.org/NET/c4dm/event.owl#Event</title>
+<title>Event - http://purl.org/ontology/bibo/Event</title>
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
@@ -31,12 +31,9 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachEventBFO_0000055Iterator>
-         <tr><td>BFO_0000055</td><td><a href="../<viva:EventBFO_0000055Type/>/<viva:EventBFO_0000055Type/>.jsp?uri=<viva:EventBFO_0000055/>"><viva:EventBFO_0000055 /></a></td></tr>
-      </viva:foreachEventBFO_0000055Iterator>
-      <viva:foreachEventRO_0000057Iterator>
-         <tr><td>RO_0000057</td><td><a href="../<viva:EventRO_0000057Type/>/<viva:EventRO_0000057Type/>.jsp?uri=<viva:EventRO_0000057/>"><viva:EventRO_0000057 /></a></td></tr>
-      </viva:foreachEventRO_0000057Iterator>
+      <viva:foreachEventPresentsIterator>
+         <tr><td>presents</td><td><a href="../<viva:EventPresentsType/>/<viva:EventPresentsType/>.jsp?uri=<viva:EventPresents/>"><viva:EventPresents /></a></td></tr>
+      </viva:foreachEventPresentsIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

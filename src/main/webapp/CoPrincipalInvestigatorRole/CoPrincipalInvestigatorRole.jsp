@@ -35,15 +35,15 @@
       <viva:foreachCoPrincipalInvestigatorRoleRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<viva:CoPrincipalInvestigatorRoleRO_0000052Type/>/<viva:CoPrincipalInvestigatorRoleRO_0000052Type/>.jsp?uri=<viva:CoPrincipalInvestigatorRoleRO_0000052/>"><viva:CoPrincipalInvestigatorRoleRO_0000052 /></a></td></tr>
       </viva:foreachCoPrincipalInvestigatorRoleRO_0000052Iterator>
-      <viva:foreachCoPrincipalInvestigatorRoleRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:CoPrincipalInvestigatorRoleRO_0000056Type/>/<viva:CoPrincipalInvestigatorRoleRO_0000056Type/>.jsp?uri=<viva:CoPrincipalInvestigatorRoleRO_0000056/>"><viva:CoPrincipalInvestigatorRoleRO_0000056 /></a></td></tr>
-      </viva:foreachCoPrincipalInvestigatorRoleRO_0000056Iterator>
-      <viva:foreachCoPrincipalInvestigatorRoleRoleContributesToIterator>
-         <tr><td>roleContributesTo</td><td><a href="../<viva:CoPrincipalInvestigatorRoleRoleContributesToType/>/<viva:CoPrincipalInvestigatorRoleRoleContributesToType/>.jsp?uri=<viva:CoPrincipalInvestigatorRoleRoleContributesTo/>"><viva:CoPrincipalInvestigatorRoleRoleContributesTo /></a></td></tr>
-      </viva:foreachCoPrincipalInvestigatorRoleRoleContributesToIterator>
       <viva:foreachCoPrincipalInvestigatorRoleBFO_0000054Iterator>
          <tr><td>BFO_0000054</td><td><a href="../<viva:CoPrincipalInvestigatorRoleBFO_0000054Type/>/<viva:CoPrincipalInvestigatorRoleBFO_0000054Type/>.jsp?uri=<viva:CoPrincipalInvestigatorRoleBFO_0000054/>"><viva:CoPrincipalInvestigatorRoleBFO_0000054 /></a></td></tr>
       </viva:foreachCoPrincipalInvestigatorRoleBFO_0000054Iterator>
+      <viva:foreachCoPrincipalInvestigatorRoleRoleContributesToIterator>
+         <tr><td>roleContributesTo</td><td><a href="../<viva:CoPrincipalInvestigatorRoleRoleContributesToType/>/<viva:CoPrincipalInvestigatorRoleRoleContributesToType/>.jsp?uri=<viva:CoPrincipalInvestigatorRoleRoleContributesTo/>"><viva:CoPrincipalInvestigatorRoleRoleContributesTo /></a></td></tr>
+      </viva:foreachCoPrincipalInvestigatorRoleRoleContributesToIterator>
+      <viva:foreachCoPrincipalInvestigatorRoleRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:CoPrincipalInvestigatorRoleRO_0000056Type/>/<viva:CoPrincipalInvestigatorRoleRO_0000056Type/>.jsp?uri=<viva:CoPrincipalInvestigatorRoleRO_0000056/>"><viva:CoPrincipalInvestigatorRoleRO_0000056 /></a></td></tr>
+      </viva:foreachCoPrincipalInvestigatorRoleRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

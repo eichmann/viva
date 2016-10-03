@@ -40,12 +40,12 @@
       <viva:foreachPositionRelatesIterator>
          <tr><td>relates</td><td><a href="../<viva:PositionRelatesType/>/<viva:PositionRelatesType/>.jsp?uri=<viva:PositionRelates/>"><viva:PositionRelates /></a></td></tr>
       </viva:foreachPositionRelatesIterator>
-      <viva:foreachPositionRO_0000052Iterator>
-         <tr><td>RO_0000052</td><td><a href="../<viva:PositionRO_0000052Type/>/<viva:PositionRO_0000052Type/>.jsp?uri=<viva:PositionRO_0000052/>"><viva:PositionRO_0000052 /></a></td></tr>
-      </viva:foreachPositionRO_0000052Iterator>
       <viva:foreachPositionRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:PositionRO_0000056Type/>/<viva:PositionRO_0000056Type/>.jsp?uri=<viva:PositionRO_0000056/>"><viva:PositionRO_0000056 /></a></td></tr>
       </viva:foreachPositionRO_0000056Iterator>
+      <viva:foreachPositionRO_0000052Iterator>
+         <tr><td>RO_0000052</td><td><a href="../<viva:PositionRO_0000052Type/>/<viva:PositionRO_0000052Type/>.jsp?uri=<viva:PositionRO_0000052/>"><viva:PositionRO_0000052 /></a></td></tr>
+      </viva:foreachPositionRO_0000052Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

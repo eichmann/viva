@@ -31,12 +31,15 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachInterviewBFO_0000055Iterator>
-         <tr><td>BFO_0000055</td><td><a href="../<viva:InterviewBFO_0000055Type/>/<viva:InterviewBFO_0000055Type/>.jsp?uri=<viva:InterviewBFO_0000055/>"><viva:InterviewBFO_0000055 /></a></td></tr>
-      </viva:foreachInterviewBFO_0000055Iterator>
       <viva:foreachInterviewRO_0000057Iterator>
          <tr><td>RO_0000057</td><td><a href="../<viva:InterviewRO_0000057Type/>/<viva:InterviewRO_0000057Type/>.jsp?uri=<viva:InterviewRO_0000057/>"><viva:InterviewRO_0000057 /></a></td></tr>
       </viva:foreachInterviewRO_0000057Iterator>
+      <viva:foreachInterviewOrganizerIterator>
+         <tr><td>organizer</td><td><a href="../<viva:InterviewOrganizerType/>/<viva:InterviewOrganizerType/>.jsp?uri=<viva:InterviewOrganizer/>"><viva:InterviewOrganizer /></a></td></tr>
+      </viva:foreachInterviewOrganizerIterator>
+      <viva:foreachInterviewBFO_0000055Iterator>
+         <tr><td>BFO_0000055</td><td><a href="../<viva:InterviewBFO_0000055Type/>/<viva:InterviewBFO_0000055Type/>.jsp?uri=<viva:InterviewBFO_0000055/>"><viva:InterviewBFO_0000055 /></a></td></tr>
+      </viva:foreachInterviewBFO_0000055Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
