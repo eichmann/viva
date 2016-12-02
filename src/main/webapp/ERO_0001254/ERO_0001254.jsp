@@ -40,12 +40,9 @@
       <viva:foreachERO_0001254FeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:ERO_0001254FeaturesType/>/<viva:ERO_0001254FeaturesType/>.jsp?uri=<viva:ERO_0001254Features/>"><viva:ERO_0001254Features /></a></td></tr>
       </viva:foreachERO_0001254FeaturesIterator>
-      <viva:foreachERO_0001254InformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ERO_0001254InformationResourceSupportedByType/>/<viva:ERO_0001254InformationResourceSupportedByType/>.jsp?uri=<viva:ERO_0001254InformationResourceSupportedBy/>"><viva:ERO_0001254InformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachERO_0001254InformationResourceSupportedByIterator>
-      <viva:foreachERO_0001254IAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ERO_0001254IAO_0000136Type/>/<viva:ERO_0001254IAO_0000136Type/>.jsp?uri=<viva:ERO_0001254IAO_0000136/>"><viva:ERO_0001254IAO_0000136 /></a></td></tr>
-      </viva:foreachERO_0001254IAO_0000136Iterator>
+      <viva:foreachERO_0001254RO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:ERO_0001254RO_0000056Type/>/<viva:ERO_0001254RO_0000056Type/>.jsp?uri=<viva:ERO_0001254RO_0000056/>"><viva:ERO_0001254RO_0000056 /></a></td></tr>
+      </viva:foreachERO_0001254RO_0000056Iterator>
       <viva:foreachERO_0001254ERO_0000029Iterator>
          <tr><td>ERO_0000029</td><td><a href="../<viva:ERO_0001254ERO_0000029Type/>/<viva:ERO_0001254ERO_0000029Type/>.jsp?uri=<viva:ERO_0001254ERO_0000029/>"><viva:ERO_0001254ERO_0000029 /></a></td></tr>
       </viva:foreachERO_0001254ERO_0000029Iterator>
@@ -61,9 +58,6 @@
       <viva:foreachERO_0001254ERO_0000460Iterator>
          <tr><td>ERO_0000460</td><td><a href="../<viva:ERO_0001254ERO_0000460Type/>/<viva:ERO_0001254ERO_0000460Type/>.jsp?uri=<viva:ERO_0001254ERO_0000460/>"><viva:ERO_0001254ERO_0000460 /></a></td></tr>
       </viva:foreachERO_0001254ERO_0000460Iterator>
-      <viva:foreachERO_0001254RO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:ERO_0001254RO_0000056Type/>/<viva:ERO_0001254RO_0000056Type/>.jsp?uri=<viva:ERO_0001254RO_0000056/>"><viva:ERO_0001254RO_0000056 /></a></td></tr>
-      </viva:foreachERO_0001254RO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

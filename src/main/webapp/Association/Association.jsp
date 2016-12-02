@@ -23,7 +23,6 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>abbreviation</td><td><viva:AssociationAbbreviation /></td></tr>
       <tr><td>overview</td><td><viva:AssociationOverview /></td></tr>
    </table>
 
@@ -39,48 +38,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachAssociationRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:AssociationRO_0000053Type/>/<viva:AssociationRO_0000053Type/>.jsp?uri=<viva:AssociationRO_0000053/>"><viva:AssociationRO_0000053 /></a></td></tr>
-      </viva:foreachAssociationRO_0000053Iterator>
-      <viva:foreachAssociationSponsorsIterator>
-         <tr><td>sponsors</td><td><a href="../<viva:AssociationSponsorsType/>/<viva:AssociationSponsorsType/>.jsp?uri=<viva:AssociationSponsors/>"><viva:AssociationSponsors /></a></td></tr>
-      </viva:foreachAssociationSponsorsIterator>
-      <viva:foreachAssociationPublisherOfIterator>
-         <tr><td>publisherOf</td><td><a href="../<viva:AssociationPublisherOfType/>/<viva:AssociationPublisherOfType/>.jsp?uri=<viva:AssociationPublisherOf/>"><viva:AssociationPublisherOf /></a></td></tr>
-      </viva:foreachAssociationPublisherOfIterator>
-      <viva:foreachAssociationERO_0000031Iterator>
-         <tr><td>ERO_0000031</td><td><a href="../<viva:AssociationERO_0000031Type/>/<viva:AssociationERO_0000031Type/>.jsp?uri=<viva:AssociationERO_0000031/>"><viva:AssociationERO_0000031 /></a></td></tr>
-      </viva:foreachAssociationERO_0000031Iterator>
-      <viva:foreachAssociationGoverningAuthorityForIterator>
-         <tr><td>governingAuthorityFor</td><td><a href="../<viva:AssociationGoverningAuthorityForType/>/<viva:AssociationGoverningAuthorityForType/>.jsp?uri=<viva:AssociationGoverningAuthorityFor/>"><viva:AssociationGoverningAuthorityFor /></a></td></tr>
-      </viva:foreachAssociationGoverningAuthorityForIterator>
-      <viva:foreachAssociationERO_0000037Iterator>
-         <tr><td>ERO_0000037</td><td><a href="../<viva:AssociationERO_0000037Type/>/<viva:AssociationERO_0000037Type/>.jsp?uri=<viva:AssociationERO_0000037/>"><viva:AssociationERO_0000037 /></a></td></tr>
-      </viva:foreachAssociationERO_0000037Iterator>
-      <viva:foreachAssociationERO_0001520Iterator>
-         <tr><td>ERO_0001520</td><td><a href="../<viva:AssociationERO_0001520Type/>/<viva:AssociationERO_0001520Type/>.jsp?uri=<viva:AssociationERO_0001520/>"><viva:AssociationERO_0001520 /></a></td></tr>
-      </viva:foreachAssociationERO_0001520Iterator>
-      <viva:foreachAssociationRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:AssociationRelatedByType/>/<viva:AssociationRelatedByType/>.jsp?uri=<viva:AssociationRelatedBy/>"><viva:AssociationRelatedBy /></a></td></tr>
-      </viva:foreachAssociationRelatedByIterator>
-      <viva:foreachAssociationSubcontractsGrantIterator>
-         <tr><td>subcontractsGrant</td><td><a href="../<viva:AssociationSubcontractsGrantType/>/<viva:AssociationSubcontractsGrantType/>.jsp?uri=<viva:AssociationSubcontractsGrant/>"><viva:AssociationSubcontractsGrant /></a></td></tr>
-      </viva:foreachAssociationSubcontractsGrantIterator>
-      <viva:foreachAssociationHasSuccessorOrganizationIterator>
-         <tr><td>hasSuccessorOrganization</td><td><a href="../<viva:AssociationHasSuccessorOrganizationType/>/<viva:AssociationHasSuccessorOrganizationType/>.jsp?uri=<viva:AssociationHasSuccessorOrganization/>"><viva:AssociationHasSuccessorOrganization /></a></td></tr>
-      </viva:foreachAssociationHasSuccessorOrganizationIterator>
-      <viva:foreachAssociationHasPredecessorOrganizationIterator>
-         <tr><td>hasPredecessorOrganization</td><td><a href="../<viva:AssociationHasPredecessorOrganizationType/>/<viva:AssociationHasPredecessorOrganizationType/>.jsp?uri=<viva:AssociationHasPredecessorOrganization/>"><viva:AssociationHasPredecessorOrganization /></a></td></tr>
-      </viva:foreachAssociationHasPredecessorOrganizationIterator>
-      <viva:foreachAssociationHasEquipmentIterator>
-         <tr><td>hasEquipment</td><td><a href="../<viva:AssociationHasEquipmentType/>/<viva:AssociationHasEquipmentType/>.jsp?uri=<viva:AssociationHasEquipment/>"><viva:AssociationHasEquipment /></a></td></tr>
-      </viva:foreachAssociationHasEquipmentIterator>
-      <viva:foreachAssociationAffiliatedOrganizationIterator>
-         <tr><td>affiliatedOrganization</td><td><a href="../<viva:AssociationAffiliatedOrganizationType/>/<viva:AssociationAffiliatedOrganizationType/>.jsp?uri=<viva:AssociationAffiliatedOrganization/>"><viva:AssociationAffiliatedOrganization /></a></td></tr>
-      </viva:foreachAssociationAffiliatedOrganizationIterator>
       <viva:foreachAssociationRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:AssociationRO_0000056Type/>/<viva:AssociationRO_0000056Type/>.jsp?uri=<viva:AssociationRO_0000056/>"><viva:AssociationRO_0000056 /></a></td></tr>
       </viva:foreachAssociationRO_0000056Iterator>
+      <viva:foreachAssociationRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:AssociationRO_0000053Type/>/<viva:AssociationRO_0000053Type/>.jsp?uri=<viva:AssociationRO_0000053/>"><viva:AssociationRO_0000053 /></a></td></tr>
+      </viva:foreachAssociationRO_0000053Iterator>
       <viva:foreachAssociationAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<viva:AssociationAssigneeForType/>/<viva:AssociationAssigneeForType/>.jsp?uri=<viva:AssociationAssigneeFor/>"><viva:AssociationAssigneeFor /></a></td></tr>
       </viva:foreachAssociationAssigneeForIterator>
@@ -96,16 +59,40 @@
       <viva:foreachAssociationTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:AssociationTranslatorOfType/>/<viva:AssociationTranslatorOfType/>.jsp?uri=<viva:AssociationTranslatorOf/>"><viva:AssociationTranslatorOf /></a></td></tr>
       </viva:foreachAssociationTranslatorOfIterator>
+      <viva:foreachAssociationSponsorsIterator>
+         <tr><td>sponsors</td><td><a href="../<viva:AssociationSponsorsType/>/<viva:AssociationSponsorsType/>.jsp?uri=<viva:AssociationSponsors/>"><viva:AssociationSponsors /></a></td></tr>
+      </viva:foreachAssociationSponsorsIterator>
+      <viva:foreachAssociationPublisherOfIterator>
+         <tr><td>publisherOf</td><td><a href="../<viva:AssociationPublisherOfType/>/<viva:AssociationPublisherOfType/>.jsp?uri=<viva:AssociationPublisherOf/>"><viva:AssociationPublisherOf /></a></td></tr>
+      </viva:foreachAssociationPublisherOfIterator>
+      <viva:foreachAssociationERO_0000031Iterator>
+         <tr><td>ERO_0000031</td><td><a href="../<viva:AssociationERO_0000031Type/>/<viva:AssociationERO_0000031Type/>.jsp?uri=<viva:AssociationERO_0000031/>"><viva:AssociationERO_0000031 /></a></td></tr>
+      </viva:foreachAssociationERO_0000031Iterator>
+      <viva:foreachAssociationERO_0000037Iterator>
+         <tr><td>ERO_0000037</td><td><a href="../<viva:AssociationERO_0000037Type/>/<viva:AssociationERO_0000037Type/>.jsp?uri=<viva:AssociationERO_0000037/>"><viva:AssociationERO_0000037 /></a></td></tr>
+      </viva:foreachAssociationERO_0000037Iterator>
+      <viva:foreachAssociationERO_0001520Iterator>
+         <tr><td>ERO_0001520</td><td><a href="../<viva:AssociationERO_0001520Type/>/<viva:AssociationERO_0001520Type/>.jsp?uri=<viva:AssociationERO_0001520/>"><viva:AssociationERO_0001520 /></a></td></tr>
+      </viva:foreachAssociationERO_0001520Iterator>
+      <viva:foreachAssociationSubcontractsGrantIterator>
+         <tr><td>subcontractsGrant</td><td><a href="../<viva:AssociationSubcontractsGrantType/>/<viva:AssociationSubcontractsGrantType/>.jsp?uri=<viva:AssociationSubcontractsGrant/>"><viva:AssociationSubcontractsGrant /></a></td></tr>
+      </viva:foreachAssociationSubcontractsGrantIterator>
+      <viva:foreachAssociationHasSuccessorOrganizationIterator>
+         <tr><td>hasSuccessorOrganization</td><td><a href="../<viva:AssociationHasSuccessorOrganizationType/>/<viva:AssociationHasSuccessorOrganizationType/>.jsp?uri=<viva:AssociationHasSuccessorOrganization/>"><viva:AssociationHasSuccessorOrganization /></a></td></tr>
+      </viva:foreachAssociationHasSuccessorOrganizationIterator>
+      <viva:foreachAssociationHasPredecessorOrganizationIterator>
+         <tr><td>hasPredecessorOrganization</td><td><a href="../<viva:AssociationHasPredecessorOrganizationType/>/<viva:AssociationHasPredecessorOrganizationType/>.jsp?uri=<viva:AssociationHasPredecessorOrganization/>"><viva:AssociationHasPredecessorOrganization /></a></td></tr>
+      </viva:foreachAssociationHasPredecessorOrganizationIterator>
+      <viva:foreachAssociationHasEquipmentIterator>
+         <tr><td>hasEquipment</td><td><a href="../<viva:AssociationHasEquipmentType/>/<viva:AssociationHasEquipmentType/>.jsp?uri=<viva:AssociationHasEquipment/>"><viva:AssociationHasEquipment /></a></td></tr>
+      </viva:foreachAssociationHasEquipmentIterator>
+      <viva:foreachAssociationAffiliatedOrganizationIterator>
+         <tr><td>affiliatedOrganization</td><td><a href="../<viva:AssociationAffiliatedOrganizationType/>/<viva:AssociationAffiliatedOrganizationType/>.jsp?uri=<viva:AssociationAffiliatedOrganization/>"><viva:AssociationAffiliatedOrganization /></a></td></tr>
+      </viva:foreachAssociationAffiliatedOrganizationIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachAssociationOBI_0000304InverseIterator>
-         <tr><td>OBI_0000304</td><td><a href="../<viva:AssociationOBI_0000304InverseType/>/<viva:AssociationOBI_0000304InverseType/>.jsp?uri=<viva:AssociationOBI_0000304Inverse/>"><viva:AssociationOBI_0000304Inverse/></a></td></tr>
-      </viva:foreachAssociationOBI_0000304InverseIterator>
-      <viva:foreachAssociationCourtInverseIterator>
-         <tr><td>court</td><td><a href="../<viva:AssociationCourtInverseType/>/<viva:AssociationCourtInverseType/>.jsp?uri=<viva:AssociationCourtInverse/>"><viva:AssociationCourtInverse/></a></td></tr>
-      </viva:foreachAssociationCourtInverseIterator>
       <viva:foreachAssociationOrganizerInverseIterator>
          <tr><td>organizer</td><td><a href="../<viva:AssociationOrganizerInverseType/>/<viva:AssociationOrganizerInverseType/>.jsp?uri=<viva:AssociationOrganizerInverse/>"><viva:AssociationOrganizerInverse/></a></td></tr>
       </viva:foreachAssociationOrganizerInverseIterator>
@@ -130,6 +117,12 @@
       <viva:foreachAssociationDirectorInverseIterator>
          <tr><td>director</td><td><a href="../<viva:AssociationDirectorInverseType/>/<viva:AssociationDirectorInverseType/>.jsp?uri=<viva:AssociationDirectorInverse/>"><viva:AssociationDirectorInverse/></a></td></tr>
       </viva:foreachAssociationDirectorInverseIterator>
+      <viva:foreachAssociationOBI_0000304InverseIterator>
+         <tr><td>OBI_0000304</td><td><a href="../<viva:AssociationOBI_0000304InverseType/>/<viva:AssociationOBI_0000304InverseType/>.jsp?uri=<viva:AssociationOBI_0000304Inverse/>"><viva:AssociationOBI_0000304Inverse/></a></td></tr>
+      </viva:foreachAssociationOBI_0000304InverseIterator>
+      <viva:foreachAssociationCourtInverseIterator>
+         <tr><td>court</td><td><a href="../<viva:AssociationCourtInverseType/>/<viva:AssociationCourtInverseType/>.jsp?uri=<viva:AssociationCourtInverse/>"><viva:AssociationCourtInverse/></a></td></tr>
+      </viva:foreachAssociationCourtInverseIterator>
    </table>
    </viva:Association>
 

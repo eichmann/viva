@@ -34,12 +34,12 @@
       <viva:foreachPersonalCommunicationRO_0000057Iterator>
          <tr><td>RO_0000057</td><td><a href="../<viva:PersonalCommunicationRO_0000057Type/>/<viva:PersonalCommunicationRO_0000057Type/>.jsp?uri=<viva:PersonalCommunicationRO_0000057/>"><viva:PersonalCommunicationRO_0000057 /></a></td></tr>
       </viva:foreachPersonalCommunicationRO_0000057Iterator>
-      <viva:foreachPersonalCommunicationOrganizerIterator>
-         <tr><td>organizer</td><td><a href="../<viva:PersonalCommunicationOrganizerType/>/<viva:PersonalCommunicationOrganizerType/>.jsp?uri=<viva:PersonalCommunicationOrganizer/>"><viva:PersonalCommunicationOrganizer /></a></td></tr>
-      </viva:foreachPersonalCommunicationOrganizerIterator>
       <viva:foreachPersonalCommunicationBFO_0000055Iterator>
          <tr><td>BFO_0000055</td><td><a href="../<viva:PersonalCommunicationBFO_0000055Type/>/<viva:PersonalCommunicationBFO_0000055Type/>.jsp?uri=<viva:PersonalCommunicationBFO_0000055/>"><viva:PersonalCommunicationBFO_0000055 /></a></td></tr>
       </viva:foreachPersonalCommunicationBFO_0000055Iterator>
+      <viva:foreachPersonalCommunicationOrganizerIterator>
+         <tr><td>organizer</td><td><a href="../<viva:PersonalCommunicationOrganizerType/>/<viva:PersonalCommunicationOrganizerType/>.jsp?uri=<viva:PersonalCommunicationOrganizer/>"><viva:PersonalCommunicationOrganizer /></a></td></tr>
+      </viva:foreachPersonalCommunicationOrganizerIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

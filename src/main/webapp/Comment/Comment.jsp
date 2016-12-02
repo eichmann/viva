@@ -121,12 +121,6 @@
       <viva:foreachCommentFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:CommentFeaturesType/>/<viva:CommentFeaturesType/>.jsp?uri=<viva:CommentFeatures/>"><viva:CommentFeatures /></a></td></tr>
       </viva:foreachCommentFeaturesIterator>
-      <viva:foreachCommentInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:CommentInformationResourceSupportedByType/>/<viva:CommentInformationResourceSupportedByType/>.jsp?uri=<viva:CommentInformationResourceSupportedBy/>"><viva:CommentInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachCommentInformationResourceSupportedByIterator>
-      <viva:foreachCommentIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:CommentIAO_0000136Type/>/<viva:CommentIAO_0000136Type/>.jsp?uri=<viva:CommentIAO_0000136/>"><viva:CommentIAO_0000136 /></a></td></tr>
-      </viva:foreachCommentIAO_0000136Iterator>
       <viva:foreachCommentEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:CommentEditorType/>/<viva:CommentEditorType/>.jsp?uri=<viva:CommentEditor/>"><viva:CommentEditor /></a></td></tr>
       </viva:foreachCommentEditorIterator>

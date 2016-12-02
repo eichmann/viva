@@ -46,22 +46,16 @@
       <viva:foreachLicenseTopConceptOfIterator>
          <tr><td>topConceptOf</td><td><a href="../<viva:LicenseTopConceptOfType/>/<viva:LicenseTopConceptOfType/>.jsp?uri=<viva:LicenseTopConceptOf/>"><viva:LicenseTopConceptOf /></a></td></tr>
       </viva:foreachLicenseTopConceptOfIterator>
-      <viva:foreachLicenseResearchAreaOfIterator>
-         <tr><td>researchAreaOf</td><td><a href="../<viva:LicenseResearchAreaOfType/>/<viva:LicenseResearchAreaOfType/>.jsp?uri=<viva:LicenseResearchAreaOf/>"><viva:LicenseResearchAreaOf /></a></td></tr>
-      </viva:foreachLicenseResearchAreaOfIterator>
-      <viva:foreachLicenseSubjectAreaOfIterator>
-         <tr><td>subjectAreaOf</td><td><a href="../<viva:LicenseSubjectAreaOfType/>/<viva:LicenseSubjectAreaOfType/>.jsp?uri=<viva:LicenseSubjectAreaOf/>"><viva:LicenseSubjectAreaOf /></a></td></tr>
-      </viva:foreachLicenseSubjectAreaOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachLicenseEligibleForInverseIterator>
-         <tr><td>eligibleFor</td><td><a href="../<viva:LicenseEligibleForInverseType/>/<viva:LicenseEligibleForInverseType/>.jsp?uri=<viva:LicenseEligibleForInverse/>"><viva:LicenseEligibleForInverse/></a></td></tr>
-      </viva:foreachLicenseEligibleForInverseIterator>
       <viva:foreachLicenseMemberInverseIterator>
          <tr><td>member</td><td><a href="../<viva:LicenseMemberInverseType/>/<viva:LicenseMemberInverseType/>.jsp?uri=<viva:LicenseMemberInverse/>"><viva:LicenseMemberInverse/></a></td></tr>
       </viva:foreachLicenseMemberInverseIterator>
+      <viva:foreachLicenseEligibleForInverseIterator>
+         <tr><td>eligibleFor</td><td><a href="../<viva:LicenseEligibleForInverseType/>/<viva:LicenseEligibleForInverseType/>.jsp?uri=<viva:LicenseEligibleForInverse/>"><viva:LicenseEligibleForInverse/></a></td></tr>
+      </viva:foreachLicenseEligibleForInverseIterator>
    </table>
    </viva:License>
 

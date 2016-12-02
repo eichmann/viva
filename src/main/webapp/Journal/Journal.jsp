@@ -23,7 +23,6 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>abbreviation</td><td><viva:JournalAbbreviation /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -86,36 +85,15 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachJournalPublicationVenueForIterator>
-         <tr><td>publicationVenueFor</td><td><a href="../<viva:JournalPublicationVenueForType/>/<viva:JournalPublicationVenueForType/>.jsp?uri=<viva:JournalPublicationVenueFor/>"><viva:JournalPublicationVenueFor /></a></td></tr>
-      </viva:foreachJournalPublicationVenueForIterator>
-      <viva:foreachJournalPublisherIterator>
-         <tr><td>publisher</td><td><a href="../<viva:JournalPublisherType/>/<viva:JournalPublisherType/>.jsp?uri=<viva:JournalPublisher/>"><viva:JournalPublisher /></a></td></tr>
-      </viva:foreachJournalPublisherIterator>
       <viva:foreachJournalEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:JournalEditorType/>/<viva:JournalEditorType/>.jsp?uri=<viva:JournalEditor/>"><viva:JournalEditor /></a></td></tr>
       </viva:foreachJournalEditorIterator>
-      <viva:foreachJournalDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<viva:JournalDateTimeValueType/>/<viva:JournalDateTimeValueType/>.jsp?uri=<viva:JournalDateTimeValue/>"><viva:JournalDateTimeValue /></a></td></tr>
-      </viva:foreachJournalDateTimeValueIterator>
       <viva:foreachJournalOwnerIterator>
          <tr><td>owner</td><td><a href="../<viva:JournalOwnerType/>/<viva:JournalOwnerType/>.jsp?uri=<viva:JournalOwner/>"><viva:JournalOwner /></a></td></tr>
       </viva:foreachJournalOwnerIterator>
-      <viva:foreachJournalTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:JournalTranslatorType/>/<viva:JournalTranslatorType/>.jsp?uri=<viva:JournalTranslator/>"><viva:JournalTranslator /></a></td></tr>
-      </viva:foreachJournalTranslatorIterator>
-      <viva:foreachJournalRO_0002353Iterator>
-         <tr><td>RO_0002353</td><td><a href="../<viva:JournalRO_0002353Type/>/<viva:JournalRO_0002353Type/>.jsp?uri=<viva:JournalRO_0002353/>"><viva:JournalRO_0002353 /></a></td></tr>
-      </viva:foreachJournalRO_0002353Iterator>
       <viva:foreachJournalIssuerIterator>
          <tr><td>issuer</td><td><a href="../<viva:JournalIssuerType/>/<viva:JournalIssuerType/>.jsp?uri=<viva:JournalIssuer/>"><viva:JournalIssuer /></a></td></tr>
       </viva:foreachJournalIssuerIterator>
-      <viva:foreachJournalARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<viva:JournalARG_2000028Type/>/<viva:JournalARG_2000028Type/>.jsp?uri=<viva:JournalARG_2000028/>"><viva:JournalARG_2000028 /></a></td></tr>
-      </viva:foreachJournalARG_2000028Iterator>
-      <viva:foreachJournalRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:JournalRelatedByType/>/<viva:JournalRelatedByType/>.jsp?uri=<viva:JournalRelatedBy/>"><viva:JournalRelatedBy /></a></td></tr>
-      </viva:foreachJournalRelatedByIterator>
       <viva:foreachJournalDistributorIterator>
          <tr><td>distributor</td><td><a href="../<viva:JournalDistributorType/>/<viva:JournalDistributorType/>.jsp?uri=<viva:JournalDistributor/>"><viva:JournalDistributor /></a></td></tr>
       </viva:foreachJournalDistributorIterator>
@@ -125,12 +103,6 @@
       <viva:foreachJournalFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:JournalFeaturesType/>/<viva:JournalFeaturesType/>.jsp?uri=<viva:JournalFeatures/>"><viva:JournalFeatures /></a></td></tr>
       </viva:foreachJournalFeaturesIterator>
-      <viva:foreachJournalInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:JournalInformationResourceSupportedByType/>/<viva:JournalInformationResourceSupportedByType/>.jsp?uri=<viva:JournalInformationResourceSupportedBy/>"><viva:JournalInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachJournalInformationResourceSupportedByIterator>
-      <viva:foreachJournalIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:JournalIAO_0000136Type/>/<viva:JournalIAO_0000136Type/>.jsp?uri=<viva:JournalIAO_0000136/>"><viva:JournalIAO_0000136 /></a></td></tr>
-      </viva:foreachJournalIAO_0000136Iterator>
       <viva:foreachJournalRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:JournalRO_0000056Type/>/<viva:JournalRO_0000056Type/>.jsp?uri=<viva:JournalRO_0000056/>"><viva:JournalRO_0000056 /></a></td></tr>
       </viva:foreachJournalRO_0000056Iterator>

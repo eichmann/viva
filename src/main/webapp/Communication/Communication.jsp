@@ -27,12 +27,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachCommunicationRankIterator>
-         <tr><td>rank</td><td><viva:CommunicationRank /></td></tr>
-      </viva:foreachCommunicationRankIterator>
-      <viva:foreachCommunicationUrlIterator>
-         <tr><td>url</td><td><viva:CommunicationUrl /></td></tr>
-      </viva:foreachCommunicationUrlIterator>
    </table>
 
    <h3>Object Properties</h3>

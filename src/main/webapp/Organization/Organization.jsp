@@ -23,7 +23,6 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>abbreviation</td><td><viva:OrganizationAbbreviation /></td></tr>
       <tr><td>overview</td><td><viva:OrganizationOverview /></td></tr>
    </table>
 
@@ -48,18 +47,12 @@
       <viva:foreachOrganizationERO_0000031Iterator>
          <tr><td>ERO_0000031</td><td><a href="../<viva:OrganizationERO_0000031Type/>/<viva:OrganizationERO_0000031Type/>.jsp?uri=<viva:OrganizationERO_0000031/>"><viva:OrganizationERO_0000031 /></a></td></tr>
       </viva:foreachOrganizationERO_0000031Iterator>
-      <viva:foreachOrganizationGoverningAuthorityForIterator>
-         <tr><td>governingAuthorityFor</td><td><a href="../<viva:OrganizationGoverningAuthorityForType/>/<viva:OrganizationGoverningAuthorityForType/>.jsp?uri=<viva:OrganizationGoverningAuthorityFor/>"><viva:OrganizationGoverningAuthorityFor /></a></td></tr>
-      </viva:foreachOrganizationGoverningAuthorityForIterator>
       <viva:foreachOrganizationERO_0000037Iterator>
          <tr><td>ERO_0000037</td><td><a href="../<viva:OrganizationERO_0000037Type/>/<viva:OrganizationERO_0000037Type/>.jsp?uri=<viva:OrganizationERO_0000037/>"><viva:OrganizationERO_0000037 /></a></td></tr>
       </viva:foreachOrganizationERO_0000037Iterator>
       <viva:foreachOrganizationERO_0001520Iterator>
          <tr><td>ERO_0001520</td><td><a href="../<viva:OrganizationERO_0001520Type/>/<viva:OrganizationERO_0001520Type/>.jsp?uri=<viva:OrganizationERO_0001520/>"><viva:OrganizationERO_0001520 /></a></td></tr>
       </viva:foreachOrganizationERO_0001520Iterator>
-      <viva:foreachOrganizationRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:OrganizationRelatedByType/>/<viva:OrganizationRelatedByType/>.jsp?uri=<viva:OrganizationRelatedBy/>"><viva:OrganizationRelatedBy /></a></td></tr>
-      </viva:foreachOrganizationRelatedByIterator>
       <viva:foreachOrganizationSubcontractsGrantIterator>
          <tr><td>subcontractsGrant</td><td><a href="../<viva:OrganizationSubcontractsGrantType/>/<viva:OrganizationSubcontractsGrantType/>.jsp?uri=<viva:OrganizationSubcontractsGrant/>"><viva:OrganizationSubcontractsGrant /></a></td></tr>
       </viva:foreachOrganizationSubcontractsGrantIterator>
@@ -75,12 +68,12 @@
       <viva:foreachOrganizationAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<viva:OrganizationAffiliatedOrganizationType/>/<viva:OrganizationAffiliatedOrganizationType/>.jsp?uri=<viva:OrganizationAffiliatedOrganization/>"><viva:OrganizationAffiliatedOrganization /></a></td></tr>
       </viva:foreachOrganizationAffiliatedOrganizationIterator>
-      <viva:foreachOrganizationRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:OrganizationRO_0000053Type/>/<viva:OrganizationRO_0000053Type/>.jsp?uri=<viva:OrganizationRO_0000053/>"><viva:OrganizationRO_0000053 /></a></td></tr>
-      </viva:foreachOrganizationRO_0000053Iterator>
       <viva:foreachOrganizationRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:OrganizationRO_0000056Type/>/<viva:OrganizationRO_0000056Type/>.jsp?uri=<viva:OrganizationRO_0000056/>"><viva:OrganizationRO_0000056 /></a></td></tr>
       </viva:foreachOrganizationRO_0000056Iterator>
+      <viva:foreachOrganizationRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:OrganizationRO_0000053Type/>/<viva:OrganizationRO_0000053Type/>.jsp?uri=<viva:OrganizationRO_0000053/>"><viva:OrganizationRO_0000053 /></a></td></tr>
+      </viva:foreachOrganizationRO_0000053Iterator>
       <viva:foreachOrganizationAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<viva:OrganizationAssigneeForType/>/<viva:OrganizationAssigneeForType/>.jsp?uri=<viva:OrganizationAssigneeFor/>"><viva:OrganizationAssigneeFor /></a></td></tr>
       </viva:foreachOrganizationAssigneeForIterator>

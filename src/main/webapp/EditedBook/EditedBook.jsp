@@ -121,12 +121,6 @@
       <viva:foreachEditedBookFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:EditedBookFeaturesType/>/<viva:EditedBookFeaturesType/>.jsp?uri=<viva:EditedBookFeatures/>"><viva:EditedBookFeatures /></a></td></tr>
       </viva:foreachEditedBookFeaturesIterator>
-      <viva:foreachEditedBookInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:EditedBookInformationResourceSupportedByType/>/<viva:EditedBookInformationResourceSupportedByType/>.jsp?uri=<viva:EditedBookInformationResourceSupportedBy/>"><viva:EditedBookInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachEditedBookInformationResourceSupportedByIterator>
-      <viva:foreachEditedBookIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:EditedBookIAO_0000136Type/>/<viva:EditedBookIAO_0000136Type/>.jsp?uri=<viva:EditedBookIAO_0000136/>"><viva:EditedBookIAO_0000136 /></a></td></tr>
-      </viva:foreachEditedBookIAO_0000136Iterator>
       <viva:foreachEditedBookEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:EditedBookEditorType/>/<viva:EditedBookEditorType/>.jsp?uri=<viva:EditedBookEditor/>"><viva:EditedBookEditor /></a></td></tr>
       </viva:foreachEditedBookEditorIterator>

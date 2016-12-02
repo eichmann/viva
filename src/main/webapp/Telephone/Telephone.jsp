@@ -30,12 +30,6 @@
       <viva:foreachTelephoneTelephoneIterator>
          <tr><td>telephone</td><td><viva:TelephoneTelephone /></td></tr>
       </viva:foreachTelephoneTelephoneIterator>
-      <viva:foreachTelephoneRankIterator>
-         <tr><td>rank</td><td><viva:TelephoneRank /></td></tr>
-      </viva:foreachTelephoneRankIterator>
-      <viva:foreachTelephoneUrlIterator>
-         <tr><td>url</td><td><viva:TelephoneUrl /></td></tr>
-      </viva:foreachTelephoneUrlIterator>
    </table>
 
    <h3>Object Properties</h3>

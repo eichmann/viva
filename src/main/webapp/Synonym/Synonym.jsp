@@ -34,12 +34,6 @@
       <viva:foreachSynonymFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:SynonymFeaturesType/>/<viva:SynonymFeaturesType/>.jsp?uri=<viva:SynonymFeatures/>"><viva:SynonymFeatures /></a></td></tr>
       </viva:foreachSynonymFeaturesIterator>
-      <viva:foreachSynonymInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:SynonymInformationResourceSupportedByType/>/<viva:SynonymInformationResourceSupportedByType/>.jsp?uri=<viva:SynonymInformationResourceSupportedBy/>"><viva:SynonymInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachSynonymInformationResourceSupportedByIterator>
-      <viva:foreachSynonymIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:SynonymIAO_0000136Type/>/<viva:SynonymIAO_0000136Type/>.jsp?uri=<viva:SynonymIAO_0000136/>"><viva:SynonymIAO_0000136 /></a></td></tr>
-      </viva:foreachSynonymIAO_0000136Iterator>
       <viva:foreachSynonymRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:SynonymRO_0000056Type/>/<viva:SynonymRO_0000056Type/>.jsp?uri=<viva:SynonymRO_0000056/>"><viva:SynonymRO_0000056 /></a></td></tr>
       </viva:foreachSynonymRO_0000056Iterator>

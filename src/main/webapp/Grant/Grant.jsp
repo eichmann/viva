@@ -37,9 +37,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachGrantFundingVehicleForIterator>
-         <tr><td>fundingVehicleFor</td><td><a href="../<viva:GrantFundingVehicleForType/>/<viva:GrantFundingVehicleForType/>.jsp?uri=<viva:GrantFundingVehicleFor/>"><viva:GrantFundingVehicleFor /></a></td></tr>
-      </viva:foreachGrantFundingVehicleForIterator>
       <viva:foreachGrantGrantSubcontractedThroughIterator>
          <tr><td>grantSubcontractedThrough</td><td><a href="../<viva:GrantGrantSubcontractedThroughType/>/<viva:GrantGrantSubcontractedThroughType/>.jsp?uri=<viva:GrantGrantSubcontractedThrough/>"><viva:GrantGrantSubcontractedThrough /></a></td></tr>
       </viva:foreachGrantGrantSubcontractedThroughIterator>

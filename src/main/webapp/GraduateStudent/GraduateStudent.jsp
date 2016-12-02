@@ -40,6 +40,12 @@
       <viva:foreachGraduateStudentSameAsIterator>
          <tr><td>sameAs</td><td><a href="<viva:GraduateStudentSameAs />"><viva:GraduateStudentSameAs /></a></td></tr>
       </viva:foreachGraduateStudentSameAsIterator>
+      <viva:foreachGraduateStudentRO_0001025Iterator>
+         <tr><td>RO_0001025</td><td><viva:GraduateStudentRO_0001025 /></td></tr>
+      </viva:foreachGraduateStudentRO_0001025Iterator>
+      <viva:foreachGraduateStudentOrcidIdIterator>
+         <tr><td>orcidId</td><td><viva:GraduateStudentOrcidId /></td></tr>
+      </viva:foreachGraduateStudentOrcidIdIterator>
       <viva:foreachGraduateStudentERACommonsIdIterator>
          <tr><td>eRACommonsId</td><td><viva:GraduateStudentERACommonsId /></td></tr>
       </viva:foreachGraduateStudentERACommonsIdIterator>
@@ -62,12 +68,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachGraduateStudentRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:GraduateStudentRO_0000053Type/>/<viva:GraduateStudentRO_0000053Type/>.jsp?uri=<viva:GraduateStudentRO_0000053/>"><viva:GraduateStudentRO_0000053 /></a></td></tr>
-      </viva:foreachGraduateStudentRO_0000053Iterator>
       <viva:foreachGraduateStudentRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:GraduateStudentRO_0000056Type/>/<viva:GraduateStudentRO_0000056Type/>.jsp?uri=<viva:GraduateStudentRO_0000056/>"><viva:GraduateStudentRO_0000056 /></a></td></tr>
       </viva:foreachGraduateStudentRO_0000056Iterator>
+      <viva:foreachGraduateStudentRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:GraduateStudentRO_0000053Type/>/<viva:GraduateStudentRO_0000053Type/>.jsp?uri=<viva:GraduateStudentRO_0000053/>"><viva:GraduateStudentRO_0000053 /></a></td></tr>
+      </viva:foreachGraduateStudentRO_0000053Iterator>
       <viva:foreachGraduateStudentAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<viva:GraduateStudentAssigneeForType/>/<viva:GraduateStudentAssigneeForType/>.jsp?uri=<viva:GraduateStudentAssigneeFor/>"><viva:GraduateStudentAssigneeFor /></a></td></tr>
       </viva:foreachGraduateStudentAssigneeForIterator>
@@ -86,30 +92,15 @@
       <viva:foreachGraduateStudentERO_0000397Iterator>
          <tr><td>ERO_0000397</td><td><a href="../<viva:GraduateStudentERO_0000397Type/>/<viva:GraduateStudentERO_0000397Type/>.jsp?uri=<viva:GraduateStudentERO_0000397/>"><viva:GraduateStudentERO_0000397 /></a></td></tr>
       </viva:foreachGraduateStudentERO_0000397Iterator>
-      <viva:foreachGraduateStudentRO_0001025Iterator>
-         <tr><td>RO_0001025</td><td><a href="../<viva:GraduateStudentRO_0001025Type/>/<viva:GraduateStudentRO_0001025Type/>.jsp?uri=<viva:GraduateStudentRO_0001025/>"><viva:GraduateStudentRO_0001025 /></a></td></tr>
-      </viva:foreachGraduateStudentRO_0001025Iterator>
       <viva:foreachGraduateStudentERO_0000037Iterator>
          <tr><td>ERO_0000037</td><td><a href="../<viva:GraduateStudentERO_0000037Type/>/<viva:GraduateStudentERO_0000037Type/>.jsp?uri=<viva:GraduateStudentERO_0000037/>"><viva:GraduateStudentERO_0000037 /></a></td></tr>
       </viva:foreachGraduateStudentERO_0000037Iterator>
-      <viva:foreachGraduateStudentHasResearchAreaIterator>
-         <tr><td>hasResearchArea</td><td><a href="../<viva:GraduateStudentHasResearchAreaType/>/<viva:GraduateStudentHasResearchAreaType/>.jsp?uri=<viva:GraduateStudentHasResearchArea/>"><viva:GraduateStudentHasResearchArea /></a></td></tr>
-      </viva:foreachGraduateStudentHasResearchAreaIterator>
-      <viva:foreachGraduateStudentGeographicFocusIterator>
-         <tr><td>geographicFocus</td><td><a href="../<viva:GraduateStudentGeographicFocusType/>/<viva:GraduateStudentGeographicFocusType/>.jsp?uri=<viva:GraduateStudentGeographicFocus/>"><viva:GraduateStudentGeographicFocus /></a></td></tr>
-      </viva:foreachGraduateStudentGeographicFocusIterator>
       <viva:foreachGraduateStudentARG_2000028Iterator>
          <tr><td>ARG_2000028</td><td><a href="../<viva:GraduateStudentARG_2000028Type/>/<viva:GraduateStudentARG_2000028Type/>.jsp?uri=<viva:GraduateStudentARG_2000028/>"><viva:GraduateStudentARG_2000028 /></a></td></tr>
       </viva:foreachGraduateStudentARG_2000028Iterator>
-      <viva:foreachGraduateStudentRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:GraduateStudentRelatedByType/>/<viva:GraduateStudentRelatedByType/>.jsp?uri=<viva:GraduateStudentRelatedBy/>"><viva:GraduateStudentRelatedBy /></a></td></tr>
-      </viva:foreachGraduateStudentRelatedByIterator>
       <viva:foreachGraduateStudentERO_0000033Iterator>
          <tr><td>ERO_0000033</td><td><a href="../<viva:GraduateStudentERO_0000033Type/>/<viva:GraduateStudentERO_0000033Type/>.jsp?uri=<viva:GraduateStudentERO_0000033/>"><viva:GraduateStudentERO_0000033 /></a></td></tr>
       </viva:foreachGraduateStudentERO_0000033Iterator>
-      <viva:foreachGraduateStudentOrcidIdIterator>
-         <tr><td>orcidId</td><td><a href="../<viva:GraduateStudentOrcidIdType/>/<viva:GraduateStudentOrcidIdType/>.jsp?uri=<viva:GraduateStudentOrcidId/>"><viva:GraduateStudentOrcidId /></a></td></tr>
-      </viva:foreachGraduateStudentOrcidIdIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

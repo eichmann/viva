@@ -40,6 +40,12 @@
       <viva:foreachEmeritusFacultySameAsIterator>
          <tr><td>sameAs</td><td><a href="<viva:EmeritusFacultySameAs />"><viva:EmeritusFacultySameAs /></a></td></tr>
       </viva:foreachEmeritusFacultySameAsIterator>
+      <viva:foreachEmeritusFacultyRO_0001025Iterator>
+         <tr><td>RO_0001025</td><td><viva:EmeritusFacultyRO_0001025 /></td></tr>
+      </viva:foreachEmeritusFacultyRO_0001025Iterator>
+      <viva:foreachEmeritusFacultyOrcidIdIterator>
+         <tr><td>orcidId</td><td><viva:EmeritusFacultyOrcidId /></td></tr>
+      </viva:foreachEmeritusFacultyOrcidIdIterator>
       <viva:foreachEmeritusFacultyERACommonsIdIterator>
          <tr><td>eRACommonsId</td><td><viva:EmeritusFacultyERACommonsId /></td></tr>
       </viva:foreachEmeritusFacultyERACommonsIdIterator>
@@ -62,12 +68,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachEmeritusFacultyRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:EmeritusFacultyRO_0000053Type/>/<viva:EmeritusFacultyRO_0000053Type/>.jsp?uri=<viva:EmeritusFacultyRO_0000053/>"><viva:EmeritusFacultyRO_0000053 /></a></td></tr>
-      </viva:foreachEmeritusFacultyRO_0000053Iterator>
       <viva:foreachEmeritusFacultyRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:EmeritusFacultyRO_0000056Type/>/<viva:EmeritusFacultyRO_0000056Type/>.jsp?uri=<viva:EmeritusFacultyRO_0000056/>"><viva:EmeritusFacultyRO_0000056 /></a></td></tr>
       </viva:foreachEmeritusFacultyRO_0000056Iterator>
+      <viva:foreachEmeritusFacultyRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:EmeritusFacultyRO_0000053Type/>/<viva:EmeritusFacultyRO_0000053Type/>.jsp?uri=<viva:EmeritusFacultyRO_0000053/>"><viva:EmeritusFacultyRO_0000053 /></a></td></tr>
+      </viva:foreachEmeritusFacultyRO_0000053Iterator>
       <viva:foreachEmeritusFacultyAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<viva:EmeritusFacultyAssigneeForType/>/<viva:EmeritusFacultyAssigneeForType/>.jsp?uri=<viva:EmeritusFacultyAssigneeFor/>"><viva:EmeritusFacultyAssigneeFor /></a></td></tr>
       </viva:foreachEmeritusFacultyAssigneeForIterator>
@@ -86,30 +92,15 @@
       <viva:foreachEmeritusFacultyERO_0000397Iterator>
          <tr><td>ERO_0000397</td><td><a href="../<viva:EmeritusFacultyERO_0000397Type/>/<viva:EmeritusFacultyERO_0000397Type/>.jsp?uri=<viva:EmeritusFacultyERO_0000397/>"><viva:EmeritusFacultyERO_0000397 /></a></td></tr>
       </viva:foreachEmeritusFacultyERO_0000397Iterator>
-      <viva:foreachEmeritusFacultyRO_0001025Iterator>
-         <tr><td>RO_0001025</td><td><a href="../<viva:EmeritusFacultyRO_0001025Type/>/<viva:EmeritusFacultyRO_0001025Type/>.jsp?uri=<viva:EmeritusFacultyRO_0001025/>"><viva:EmeritusFacultyRO_0001025 /></a></td></tr>
-      </viva:foreachEmeritusFacultyRO_0001025Iterator>
       <viva:foreachEmeritusFacultyERO_0000037Iterator>
          <tr><td>ERO_0000037</td><td><a href="../<viva:EmeritusFacultyERO_0000037Type/>/<viva:EmeritusFacultyERO_0000037Type/>.jsp?uri=<viva:EmeritusFacultyERO_0000037/>"><viva:EmeritusFacultyERO_0000037 /></a></td></tr>
       </viva:foreachEmeritusFacultyERO_0000037Iterator>
-      <viva:foreachEmeritusFacultyHasResearchAreaIterator>
-         <tr><td>hasResearchArea</td><td><a href="../<viva:EmeritusFacultyHasResearchAreaType/>/<viva:EmeritusFacultyHasResearchAreaType/>.jsp?uri=<viva:EmeritusFacultyHasResearchArea/>"><viva:EmeritusFacultyHasResearchArea /></a></td></tr>
-      </viva:foreachEmeritusFacultyHasResearchAreaIterator>
-      <viva:foreachEmeritusFacultyGeographicFocusIterator>
-         <tr><td>geographicFocus</td><td><a href="../<viva:EmeritusFacultyGeographicFocusType/>/<viva:EmeritusFacultyGeographicFocusType/>.jsp?uri=<viva:EmeritusFacultyGeographicFocus/>"><viva:EmeritusFacultyGeographicFocus /></a></td></tr>
-      </viva:foreachEmeritusFacultyGeographicFocusIterator>
       <viva:foreachEmeritusFacultyARG_2000028Iterator>
          <tr><td>ARG_2000028</td><td><a href="../<viva:EmeritusFacultyARG_2000028Type/>/<viva:EmeritusFacultyARG_2000028Type/>.jsp?uri=<viva:EmeritusFacultyARG_2000028/>"><viva:EmeritusFacultyARG_2000028 /></a></td></tr>
       </viva:foreachEmeritusFacultyARG_2000028Iterator>
-      <viva:foreachEmeritusFacultyRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:EmeritusFacultyRelatedByType/>/<viva:EmeritusFacultyRelatedByType/>.jsp?uri=<viva:EmeritusFacultyRelatedBy/>"><viva:EmeritusFacultyRelatedBy /></a></td></tr>
-      </viva:foreachEmeritusFacultyRelatedByIterator>
       <viva:foreachEmeritusFacultyERO_0000033Iterator>
          <tr><td>ERO_0000033</td><td><a href="../<viva:EmeritusFacultyERO_0000033Type/>/<viva:EmeritusFacultyERO_0000033Type/>.jsp?uri=<viva:EmeritusFacultyERO_0000033/>"><viva:EmeritusFacultyERO_0000033 /></a></td></tr>
       </viva:foreachEmeritusFacultyERO_0000033Iterator>
-      <viva:foreachEmeritusFacultyOrcidIdIterator>
-         <tr><td>orcidId</td><td><a href="../<viva:EmeritusFacultyOrcidIdType/>/<viva:EmeritusFacultyOrcidIdType/>.jsp?uri=<viva:EmeritusFacultyOrcidId/>"><viva:EmeritusFacultyOrcidId /></a></td></tr>
-      </viva:foreachEmeritusFacultyOrcidIdIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

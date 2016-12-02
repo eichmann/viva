@@ -27,19 +27,19 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachGeographicRegionGeographicFocusOfIterator>
+         <tr><td>geographicFocusOf</td><td><viva:GeographicRegionGeographicFocusOf /></td></tr>
+      </viva:foreachGeographicRegionGeographicFocusOfIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachGeographicRegionGeographicFocusOfIterator>
-         <tr><td>geographicFocusOf</td><td><a href="../<viva:GeographicRegionGeographicFocusOfType/>/<viva:GeographicRegionGeographicFocusOfType/>.jsp?uri=<viva:GeographicRegionGeographicFocusOf/>"><viva:GeographicRegionGeographicFocusOf /></a></td></tr>
-      </viva:foreachGeographicRegionGeographicFocusOfIterator>
-      <viva:foreachGeographicRegionRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:GeographicRegionRO_0000053Type/>/<viva:GeographicRegionRO_0000053Type/>.jsp?uri=<viva:GeographicRegionRO_0000053/>"><viva:GeographicRegionRO_0000053 /></a></td></tr>
-      </viva:foreachGeographicRegionRO_0000053Iterator>
       <viva:foreachGeographicRegionRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:GeographicRegionRO_0000056Type/>/<viva:GeographicRegionRO_0000056Type/>.jsp?uri=<viva:GeographicRegionRO_0000056/>"><viva:GeographicRegionRO_0000056 /></a></td></tr>
       </viva:foreachGeographicRegionRO_0000056Iterator>
+      <viva:foreachGeographicRegionRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:GeographicRegionRO_0000053Type/>/<viva:GeographicRegionRO_0000053Type/>.jsp?uri=<viva:GeographicRegionRO_0000053/>"><viva:GeographicRegionRO_0000053 /></a></td></tr>
+      </viva:foreachGeographicRegionRO_0000053Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

@@ -121,12 +121,6 @@
       <viva:foreachManualFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:ManualFeaturesType/>/<viva:ManualFeaturesType/>.jsp?uri=<viva:ManualFeatures/>"><viva:ManualFeatures /></a></td></tr>
       </viva:foreachManualFeaturesIterator>
-      <viva:foreachManualInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ManualInformationResourceSupportedByType/>/<viva:ManualInformationResourceSupportedByType/>.jsp?uri=<viva:ManualInformationResourceSupportedBy/>"><viva:ManualInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachManualInformationResourceSupportedByIterator>
-      <viva:foreachManualIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ManualIAO_0000136Type/>/<viva:ManualIAO_0000136Type/>.jsp?uri=<viva:ManualIAO_0000136/>"><viva:ManualIAO_0000136 /></a></td></tr>
-      </viva:foreachManualIAO_0000136Iterator>
       <viva:foreachManualEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:ManualEditorType/>/<viva:ManualEditorType/>.jsp?uri=<viva:ManualEditor/>"><viva:ManualEditor /></a></td></tr>
       </viva:foreachManualEditorIterator>

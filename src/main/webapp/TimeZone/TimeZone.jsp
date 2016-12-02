@@ -40,9 +40,6 @@
       <viva:foreachTimeZoneHasGeoIterator>
          <tr><td>hasGeo</td><td><a href="../<viva:TimeZoneHasGeoType/>/<viva:TimeZoneHasGeoType/>.jsp?uri=<viva:TimeZoneHasGeo/>"><viva:TimeZoneHasGeo /></a></td></tr>
       </viva:foreachTimeZoneHasGeoIterator>
-      <viva:foreachTimeZoneHasEmailIterator>
-         <tr><td>hasEmail</td><td><a href="../<viva:TimeZoneHasEmailType/>/<viva:TimeZoneHasEmailType/>.jsp?uri=<viva:TimeZoneHasEmail/>"><viva:TimeZoneHasEmail /></a></td></tr>
-      </viva:foreachTimeZoneHasEmailIterator>
       <viva:foreachTimeZoneHasURLIterator>
          <tr><td>hasURL</td><td><a href="../<viva:TimeZoneHasURLType/>/<viva:TimeZoneHasURLType/>.jsp?uri=<viva:TimeZoneHasURL/>"><viva:TimeZoneHasURL /></a></td></tr>
       </viva:foreachTimeZoneHasURLIterator>

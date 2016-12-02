@@ -30,6 +30,9 @@
       <viva:foreachDocumentStatusDescriptionIterator>
          <tr><td>description</td><td><viva:DocumentStatusDescription /></td></tr>
       </viva:foreachDocumentStatusDescriptionIterator>
+      <viva:foreachDocumentStatusIAO_0000115Iterator>
+         <tr><td>IAO_0000115</td><td><viva:DocumentStatusIAO_0000115 /></td></tr>
+      </viva:foreachDocumentStatusIAO_0000115Iterator>
    </table>
 
    <h3>Object Properties</h3>

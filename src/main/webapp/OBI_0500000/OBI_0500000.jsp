@@ -34,12 +34,6 @@
       <viva:foreachOBI_0500000FeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:OBI_0500000FeaturesType/>/<viva:OBI_0500000FeaturesType/>.jsp?uri=<viva:OBI_0500000Features/>"><viva:OBI_0500000Features /></a></td></tr>
       </viva:foreachOBI_0500000FeaturesIterator>
-      <viva:foreachOBI_0500000InformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:OBI_0500000InformationResourceSupportedByType/>/<viva:OBI_0500000InformationResourceSupportedByType/>.jsp?uri=<viva:OBI_0500000InformationResourceSupportedBy/>"><viva:OBI_0500000InformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachOBI_0500000InformationResourceSupportedByIterator>
-      <viva:foreachOBI_0500000IAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:OBI_0500000IAO_0000136Type/>/<viva:OBI_0500000IAO_0000136Type/>.jsp?uri=<viva:OBI_0500000IAO_0000136/>"><viva:OBI_0500000IAO_0000136 /></a></td></tr>
-      </viva:foreachOBI_0500000IAO_0000136Iterator>
       <viva:foreachOBI_0500000RO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:OBI_0500000RO_0000056Type/>/<viva:OBI_0500000RO_0000056Type/>.jsp?uri=<viva:OBI_0500000RO_0000056/>"><viva:OBI_0500000RO_0000056 /></a></td></tr>
       </viva:foreachOBI_0500000RO_0000056Iterator>

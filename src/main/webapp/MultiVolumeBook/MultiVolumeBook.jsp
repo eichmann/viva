@@ -85,45 +85,24 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachMultiVolumeBookFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:MultiVolumeBookFeaturesType/>/<viva:MultiVolumeBookFeaturesType/>.jsp?uri=<viva:MultiVolumeBookFeatures/>"><viva:MultiVolumeBookFeatures /></a></td></tr>
-      </viva:foreachMultiVolumeBookFeaturesIterator>
-      <viva:foreachMultiVolumeBookInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:MultiVolumeBookInformationResourceSupportedByType/>/<viva:MultiVolumeBookInformationResourceSupportedByType/>.jsp?uri=<viva:MultiVolumeBookInformationResourceSupportedBy/>"><viva:MultiVolumeBookInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachMultiVolumeBookInformationResourceSupportedByIterator>
-      <viva:foreachMultiVolumeBookIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:MultiVolumeBookIAO_0000136Type/>/<viva:MultiVolumeBookIAO_0000136Type/>.jsp?uri=<viva:MultiVolumeBookIAO_0000136/>"><viva:MultiVolumeBookIAO_0000136 /></a></td></tr>
-      </viva:foreachMultiVolumeBookIAO_0000136Iterator>
       <viva:foreachMultiVolumeBookEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:MultiVolumeBookEditorType/>/<viva:MultiVolumeBookEditorType/>.jsp?uri=<viva:MultiVolumeBookEditor/>"><viva:MultiVolumeBookEditor /></a></td></tr>
       </viva:foreachMultiVolumeBookEditorIterator>
-      <viva:foreachMultiVolumeBookDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<viva:MultiVolumeBookDateTimeValueType/>/<viva:MultiVolumeBookDateTimeValueType/>.jsp?uri=<viva:MultiVolumeBookDateTimeValue/>"><viva:MultiVolumeBookDateTimeValue /></a></td></tr>
-      </viva:foreachMultiVolumeBookDateTimeValueIterator>
       <viva:foreachMultiVolumeBookOwnerIterator>
          <tr><td>owner</td><td><a href="../<viva:MultiVolumeBookOwnerType/>/<viva:MultiVolumeBookOwnerType/>.jsp?uri=<viva:MultiVolumeBookOwner/>"><viva:MultiVolumeBookOwner /></a></td></tr>
       </viva:foreachMultiVolumeBookOwnerIterator>
-      <viva:foreachMultiVolumeBookTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:MultiVolumeBookTranslatorType/>/<viva:MultiVolumeBookTranslatorType/>.jsp?uri=<viva:MultiVolumeBookTranslator/>"><viva:MultiVolumeBookTranslator /></a></td></tr>
-      </viva:foreachMultiVolumeBookTranslatorIterator>
-      <viva:foreachMultiVolumeBookRO_0002353Iterator>
-         <tr><td>RO_0002353</td><td><a href="../<viva:MultiVolumeBookRO_0002353Type/>/<viva:MultiVolumeBookRO_0002353Type/>.jsp?uri=<viva:MultiVolumeBookRO_0002353/>"><viva:MultiVolumeBookRO_0002353 /></a></td></tr>
-      </viva:foreachMultiVolumeBookRO_0002353Iterator>
       <viva:foreachMultiVolumeBookIssuerIterator>
          <tr><td>issuer</td><td><a href="../<viva:MultiVolumeBookIssuerType/>/<viva:MultiVolumeBookIssuerType/>.jsp?uri=<viva:MultiVolumeBookIssuer/>"><viva:MultiVolumeBookIssuer /></a></td></tr>
       </viva:foreachMultiVolumeBookIssuerIterator>
-      <viva:foreachMultiVolumeBookARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<viva:MultiVolumeBookARG_2000028Type/>/<viva:MultiVolumeBookARG_2000028Type/>.jsp?uri=<viva:MultiVolumeBookARG_2000028/>"><viva:MultiVolumeBookARG_2000028 /></a></td></tr>
-      </viva:foreachMultiVolumeBookARG_2000028Iterator>
-      <viva:foreachMultiVolumeBookRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:MultiVolumeBookRelatedByType/>/<viva:MultiVolumeBookRelatedByType/>.jsp?uri=<viva:MultiVolumeBookRelatedBy/>"><viva:MultiVolumeBookRelatedBy /></a></td></tr>
-      </viva:foreachMultiVolumeBookRelatedByIterator>
       <viva:foreachMultiVolumeBookDistributorIterator>
          <tr><td>distributor</td><td><a href="../<viva:MultiVolumeBookDistributorType/>/<viva:MultiVolumeBookDistributorType/>.jsp?uri=<viva:MultiVolumeBookDistributor/>"><viva:MultiVolumeBookDistributor /></a></td></tr>
       </viva:foreachMultiVolumeBookDistributorIterator>
       <viva:foreachMultiVolumeBookProducerIterator>
          <tr><td>producer</td><td><a href="../<viva:MultiVolumeBookProducerType/>/<viva:MultiVolumeBookProducerType/>.jsp?uri=<viva:MultiVolumeBookProducer/>"><viva:MultiVolumeBookProducer /></a></td></tr>
       </viva:foreachMultiVolumeBookProducerIterator>
+      <viva:foreachMultiVolumeBookFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:MultiVolumeBookFeaturesType/>/<viva:MultiVolumeBookFeaturesType/>.jsp?uri=<viva:MultiVolumeBookFeatures/>"><viva:MultiVolumeBookFeatures /></a></td></tr>
+      </viva:foreachMultiVolumeBookFeaturesIterator>
       <viva:foreachMultiVolumeBookRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:MultiVolumeBookRO_0000056Type/>/<viva:MultiVolumeBookRO_0000056Type/>.jsp?uri=<viva:MultiVolumeBookRO_0000056/>"><viva:MultiVolumeBookRO_0000056 /></a></td></tr>
       </viva:foreachMultiVolumeBookRO_0000056Iterator>

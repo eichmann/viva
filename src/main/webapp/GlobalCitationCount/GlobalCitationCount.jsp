@@ -43,12 +43,6 @@
       <viva:foreachGlobalCitationCountFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:GlobalCitationCountFeaturesType/>/<viva:GlobalCitationCountFeaturesType/>.jsp?uri=<viva:GlobalCitationCountFeatures/>"><viva:GlobalCitationCountFeatures /></a></td></tr>
       </viva:foreachGlobalCitationCountFeaturesIterator>
-      <viva:foreachGlobalCitationCountInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:GlobalCitationCountInformationResourceSupportedByType/>/<viva:GlobalCitationCountInformationResourceSupportedByType/>.jsp?uri=<viva:GlobalCitationCountInformationResourceSupportedBy/>"><viva:GlobalCitationCountInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachGlobalCitationCountInformationResourceSupportedByIterator>
-      <viva:foreachGlobalCitationCountIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:GlobalCitationCountIAO_0000136Type/>/<viva:GlobalCitationCountIAO_0000136Type/>.jsp?uri=<viva:GlobalCitationCountIAO_0000136/>"><viva:GlobalCitationCountIAO_0000136 /></a></td></tr>
-      </viva:foreachGlobalCitationCountIAO_0000136Iterator>
       <viva:foreachGlobalCitationCountRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:GlobalCitationCountRO_0000056Type/>/<viva:GlobalCitationCountRO_0000056Type/>.jsp?uri=<viva:GlobalCitationCountRO_0000056/>"><viva:GlobalCitationCountRO_0000056 /></a></td></tr>
       </viva:foreachGlobalCitationCountRO_0000056Iterator>

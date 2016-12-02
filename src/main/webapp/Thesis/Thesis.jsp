@@ -124,12 +124,6 @@
       <viva:foreachThesisFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:ThesisFeaturesType/>/<viva:ThesisFeaturesType/>.jsp?uri=<viva:ThesisFeatures/>"><viva:ThesisFeatures /></a></td></tr>
       </viva:foreachThesisFeaturesIterator>
-      <viva:foreachThesisInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ThesisInformationResourceSupportedByType/>/<viva:ThesisInformationResourceSupportedByType/>.jsp?uri=<viva:ThesisInformationResourceSupportedBy/>"><viva:ThesisInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachThesisInformationResourceSupportedByIterator>
-      <viva:foreachThesisIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ThesisIAO_0000136Type/>/<viva:ThesisIAO_0000136Type/>.jsp?uri=<viva:ThesisIAO_0000136/>"><viva:ThesisIAO_0000136 /></a></td></tr>
-      </viva:foreachThesisIAO_0000136Iterator>
       <viva:foreachThesisEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:ThesisEditorType/>/<viva:ThesisEditorType/>.jsp?uri=<viva:ThesisEditor/>"><viva:ThesisEditor /></a></td></tr>
       </viva:foreachThesisEditorIterator>

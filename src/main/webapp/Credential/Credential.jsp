@@ -46,12 +46,6 @@
       <viva:foreachCredentialTopConceptOfIterator>
          <tr><td>topConceptOf</td><td><a href="../<viva:CredentialTopConceptOfType/>/<viva:CredentialTopConceptOfType/>.jsp?uri=<viva:CredentialTopConceptOf/>"><viva:CredentialTopConceptOf /></a></td></tr>
       </viva:foreachCredentialTopConceptOfIterator>
-      <viva:foreachCredentialResearchAreaOfIterator>
-         <tr><td>researchAreaOf</td><td><a href="../<viva:CredentialResearchAreaOfType/>/<viva:CredentialResearchAreaOfType/>.jsp?uri=<viva:CredentialResearchAreaOf/>"><viva:CredentialResearchAreaOf /></a></td></tr>
-      </viva:foreachCredentialResearchAreaOfIterator>
-      <viva:foreachCredentialSubjectAreaOfIterator>
-         <tr><td>subjectAreaOf</td><td><a href="../<viva:CredentialSubjectAreaOfType/>/<viva:CredentialSubjectAreaOfType/>.jsp?uri=<viva:CredentialSubjectAreaOf/>"><viva:CredentialSubjectAreaOf /></a></td></tr>
-      </viva:foreachCredentialSubjectAreaOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

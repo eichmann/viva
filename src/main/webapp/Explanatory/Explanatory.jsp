@@ -27,12 +27,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachExplanatoryRankIterator>
-         <tr><td>rank</td><td><viva:ExplanatoryRank /></td></tr>
-      </viva:foreachExplanatoryRankIterator>
-      <viva:foreachExplanatoryUrlIterator>
-         <tr><td>url</td><td><viva:ExplanatoryUrl /></td></tr>
-      </viva:foreachExplanatoryUrlIterator>
    </table>
 
    <h3>Object Properties</h3>

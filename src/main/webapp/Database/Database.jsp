@@ -121,12 +121,6 @@
       <viva:foreachDatabaseFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:DatabaseFeaturesType/>/<viva:DatabaseFeaturesType/>.jsp?uri=<viva:DatabaseFeatures/>"><viva:DatabaseFeatures /></a></td></tr>
       </viva:foreachDatabaseFeaturesIterator>
-      <viva:foreachDatabaseInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:DatabaseInformationResourceSupportedByType/>/<viva:DatabaseInformationResourceSupportedByType/>.jsp?uri=<viva:DatabaseInformationResourceSupportedBy/>"><viva:DatabaseInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachDatabaseInformationResourceSupportedByIterator>
-      <viva:foreachDatabaseIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:DatabaseIAO_0000136Type/>/<viva:DatabaseIAO_0000136Type/>.jsp?uri=<viva:DatabaseIAO_0000136/>"><viva:DatabaseIAO_0000136 /></a></td></tr>
-      </viva:foreachDatabaseIAO_0000136Iterator>
       <viva:foreachDatabaseEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:DatabaseEditorType/>/<viva:DatabaseEditorType/>.jsp?uri=<viva:DatabaseEditor/>"><viva:DatabaseEditor /></a></td></tr>
       </viva:foreachDatabaseEditorIterator>

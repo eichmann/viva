@@ -28,9 +28,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachAcademicDegreeDescriptionIterator>
-         <tr><td>description</td><td><viva:AcademicDegreeDescription /></td></tr>
-      </viva:foreachAcademicDegreeDescriptionIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -50,12 +47,6 @@
       <viva:foreachAcademicDegreeTopConceptOfIterator>
          <tr><td>topConceptOf</td><td><a href="../<viva:AcademicDegreeTopConceptOfType/>/<viva:AcademicDegreeTopConceptOfType/>.jsp?uri=<viva:AcademicDegreeTopConceptOf/>"><viva:AcademicDegreeTopConceptOf /></a></td></tr>
       </viva:foreachAcademicDegreeTopConceptOfIterator>
-      <viva:foreachAcademicDegreeResearchAreaOfIterator>
-         <tr><td>researchAreaOf</td><td><a href="../<viva:AcademicDegreeResearchAreaOfType/>/<viva:AcademicDegreeResearchAreaOfType/>.jsp?uri=<viva:AcademicDegreeResearchAreaOf/>"><viva:AcademicDegreeResearchAreaOf /></a></td></tr>
-      </viva:foreachAcademicDegreeResearchAreaOfIterator>
-      <viva:foreachAcademicDegreeSubjectAreaOfIterator>
-         <tr><td>subjectAreaOf</td><td><a href="../<viva:AcademicDegreeSubjectAreaOfType/>/<viva:AcademicDegreeSubjectAreaOfType/>.jsp?uri=<viva:AcademicDegreeSubjectAreaOf/>"><viva:AcademicDegreeSubjectAreaOf /></a></td></tr>
-      </viva:foreachAcademicDegreeSubjectAreaOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

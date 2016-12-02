@@ -23,7 +23,6 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>hideFromDisplay</td><td><viva:PrincipalInvestigatorRoleHideFromDisplay /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -35,15 +34,12 @@
       <viva:foreachPrincipalInvestigatorRoleRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<viva:PrincipalInvestigatorRoleRO_0000052Type/>/<viva:PrincipalInvestigatorRoleRO_0000052Type/>.jsp?uri=<viva:PrincipalInvestigatorRoleRO_0000052/>"><viva:PrincipalInvestigatorRoleRO_0000052 /></a></td></tr>
       </viva:foreachPrincipalInvestigatorRoleRO_0000052Iterator>
-      <viva:foreachPrincipalInvestigatorRoleBFO_0000054Iterator>
-         <tr><td>BFO_0000054</td><td><a href="../<viva:PrincipalInvestigatorRoleBFO_0000054Type/>/<viva:PrincipalInvestigatorRoleBFO_0000054Type/>.jsp?uri=<viva:PrincipalInvestigatorRoleBFO_0000054/>"><viva:PrincipalInvestigatorRoleBFO_0000054 /></a></td></tr>
-      </viva:foreachPrincipalInvestigatorRoleBFO_0000054Iterator>
-      <viva:foreachPrincipalInvestigatorRoleRoleContributesToIterator>
-         <tr><td>roleContributesTo</td><td><a href="../<viva:PrincipalInvestigatorRoleRoleContributesToType/>/<viva:PrincipalInvestigatorRoleRoleContributesToType/>.jsp?uri=<viva:PrincipalInvestigatorRoleRoleContributesTo/>"><viva:PrincipalInvestigatorRoleRoleContributesTo /></a></td></tr>
-      </viva:foreachPrincipalInvestigatorRoleRoleContributesToIterator>
       <viva:foreachPrincipalInvestigatorRoleRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:PrincipalInvestigatorRoleRO_0000056Type/>/<viva:PrincipalInvestigatorRoleRO_0000056Type/>.jsp?uri=<viva:PrincipalInvestigatorRoleRO_0000056/>"><viva:PrincipalInvestigatorRoleRO_0000056 /></a></td></tr>
       </viva:foreachPrincipalInvestigatorRoleRO_0000056Iterator>
+      <viva:foreachPrincipalInvestigatorRoleBFO_0000054Iterator>
+         <tr><td>BFO_0000054</td><td><a href="../<viva:PrincipalInvestigatorRoleBFO_0000054Type/>/<viva:PrincipalInvestigatorRoleBFO_0000054Type/>.jsp?uri=<viva:PrincipalInvestigatorRoleBFO_0000054/>"><viva:PrincipalInvestigatorRoleBFO_0000054 /></a></td></tr>
+      </viva:foreachPrincipalInvestigatorRoleBFO_0000054Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

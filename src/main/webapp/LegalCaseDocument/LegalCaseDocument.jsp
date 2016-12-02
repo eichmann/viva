@@ -27,9 +27,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachLegalCaseDocumentArguedIterator>
-         <tr><td>argued</td><td><viva:LegalCaseDocumentArgued /></td></tr>
-      </viva:foreachLegalCaseDocumentArguedIterator>
       <viva:foreachLegalCaseDocumentEanucc13Iterator>
          <tr><td>eanucc13</td><td><viva:LegalCaseDocumentEanucc13 /></td></tr>
       </viva:foreachLegalCaseDocumentEanucc13Iterator>
@@ -117,22 +114,16 @@
       <viva:foreachLegalCaseDocumentDoiIterator>
          <tr><td>doi</td><td><viva:LegalCaseDocumentDoi /></td></tr>
       </viva:foreachLegalCaseDocumentDoiIterator>
+      <viva:foreachLegalCaseDocumentArguedIterator>
+         <tr><td>argued</td><td><viva:LegalCaseDocumentArgued /></td></tr>
+      </viva:foreachLegalCaseDocumentArguedIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachLegalCaseDocumentCourtIterator>
-         <tr><td>court</td><td><a href="../<viva:LegalCaseDocumentCourtType/>/<viva:LegalCaseDocumentCourtType/>.jsp?uri=<viva:LegalCaseDocumentCourt/>"><viva:LegalCaseDocumentCourt /></a></td></tr>
-      </viva:foreachLegalCaseDocumentCourtIterator>
       <viva:foreachLegalCaseDocumentFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:LegalCaseDocumentFeaturesType/>/<viva:LegalCaseDocumentFeaturesType/>.jsp?uri=<viva:LegalCaseDocumentFeatures/>"><viva:LegalCaseDocumentFeatures /></a></td></tr>
       </viva:foreachLegalCaseDocumentFeaturesIterator>
-      <viva:foreachLegalCaseDocumentInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:LegalCaseDocumentInformationResourceSupportedByType/>/<viva:LegalCaseDocumentInformationResourceSupportedByType/>.jsp?uri=<viva:LegalCaseDocumentInformationResourceSupportedBy/>"><viva:LegalCaseDocumentInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachLegalCaseDocumentInformationResourceSupportedByIterator>
-      <viva:foreachLegalCaseDocumentIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:LegalCaseDocumentIAO_0000136Type/>/<viva:LegalCaseDocumentIAO_0000136Type/>.jsp?uri=<viva:LegalCaseDocumentIAO_0000136/>"><viva:LegalCaseDocumentIAO_0000136 /></a></td></tr>
-      </viva:foreachLegalCaseDocumentIAO_0000136Iterator>
       <viva:foreachLegalCaseDocumentEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:LegalCaseDocumentEditorType/>/<viva:LegalCaseDocumentEditorType/>.jsp?uri=<viva:LegalCaseDocumentEditor/>"><viva:LegalCaseDocumentEditor /></a></td></tr>
       </viva:foreachLegalCaseDocumentEditorIterator>
@@ -196,6 +187,9 @@
       <viva:foreachLegalCaseDocumentRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:LegalCaseDocumentRO_0000056Type/>/<viva:LegalCaseDocumentRO_0000056Type/>.jsp?uri=<viva:LegalCaseDocumentRO_0000056/>"><viva:LegalCaseDocumentRO_0000056 /></a></td></tr>
       </viva:foreachLegalCaseDocumentRO_0000056Iterator>
+      <viva:foreachLegalCaseDocumentCourtIterator>
+         <tr><td>court</td><td><a href="../<viva:LegalCaseDocumentCourtType/>/<viva:LegalCaseDocumentCourtType/>.jsp?uri=<viva:LegalCaseDocumentCourt/>"><viva:LegalCaseDocumentCourt /></a></td></tr>
+      </viva:foreachLegalCaseDocumentCourtIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

@@ -46,12 +46,6 @@
       <viva:foreachConceptTopConceptOfIterator>
          <tr><td>topConceptOf</td><td><a href="../<viva:ConceptTopConceptOfType/>/<viva:ConceptTopConceptOfType/>.jsp?uri=<viva:ConceptTopConceptOf/>"><viva:ConceptTopConceptOf /></a></td></tr>
       </viva:foreachConceptTopConceptOfIterator>
-      <viva:foreachConceptResearchAreaOfIterator>
-         <tr><td>researchAreaOf</td><td><a href="../<viva:ConceptResearchAreaOfType/>/<viva:ConceptResearchAreaOfType/>.jsp?uri=<viva:ConceptResearchAreaOf/>"><viva:ConceptResearchAreaOf /></a></td></tr>
-      </viva:foreachConceptResearchAreaOfIterator>
-      <viva:foreachConceptSubjectAreaOfIterator>
-         <tr><td>subjectAreaOf</td><td><a href="../<viva:ConceptSubjectAreaOfType/>/<viva:ConceptSubjectAreaOfType/>.jsp?uri=<viva:ConceptSubjectAreaOf/>"><viva:ConceptSubjectAreaOf /></a></td></tr>
-      </viva:foreachConceptSubjectAreaOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

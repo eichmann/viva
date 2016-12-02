@@ -36,63 +36,27 @@
       <viva:foreacheconomic_regionNameOfficialZHIterator>
          <tr><td>nameOfficialZH</td><td><viva:economic_regionNameOfficialZH /></td></tr>
       </viva:foreacheconomic_regionNameOfficialZHIterator>
-      <viva:foreacheconomic_regionNameListARIterator>
-         <tr><td>nameListAR</td><td><viva:economic_regionNameListAR /></td></tr>
-      </viva:foreacheconomic_regionNameListARIterator>
-      <viva:foreacheconomic_regionNameShortZHIterator>
-         <tr><td>nameShortZH</td><td><viva:economic_regionNameShortZH /></td></tr>
-      </viva:foreacheconomic_regionNameShortZHIterator>
-      <viva:foreacheconomic_regionCodeAGROVOCIterator>
-         <tr><td>codeAGROVOC</td><td><viva:economic_regionCodeAGROVOC /></td></tr>
-      </viva:foreacheconomic_regionCodeAGROVOCIterator>
-      <viva:foreacheconomic_regionNameListFRIterator>
-         <tr><td>nameListFR</td><td><viva:economic_regionNameListFR /></td></tr>
-      </viva:foreacheconomic_regionNameListFRIterator>
       <viva:foreacheconomic_regionNameOfficialESIterator>
          <tr><td>nameOfficialES</td><td><viva:economic_regionNameOfficialES /></td></tr>
       </viva:foreacheconomic_regionNameOfficialESIterator>
       <viva:foreacheconomic_regionCodeFAOTERMIterator>
          <tr><td>codeFAOTERM</td><td><viva:economic_regionCodeFAOTERM /></td></tr>
       </viva:foreacheconomic_regionCodeFAOTERMIterator>
-      <viva:foreacheconomic_regionNameOfficialITIterator>
-         <tr><td>nameOfficialIT</td><td><viva:economic_regionNameOfficialIT /></td></tr>
-      </viva:foreacheconomic_regionNameOfficialITIterator>
-      <viva:foreacheconomic_regionNameListRUIterator>
-         <tr><td>nameListRU</td><td><viva:economic_regionNameListRU /></td></tr>
-      </viva:foreacheconomic_regionNameListRUIterator>
-      <viva:foreacheconomic_regionNameShortESIterator>
-         <tr><td>nameShortES</td><td><viva:economic_regionNameShortES /></td></tr>
-      </viva:foreacheconomic_regionNameShortESIterator>
-      <viva:foreacheconomic_regionCodeFAOSTATIterator>
-         <tr><td>codeFAOSTAT</td><td><viva:economic_regionCodeFAOSTAT /></td></tr>
-      </viva:foreacheconomic_regionCodeFAOSTATIterator>
-      <viva:foreacheconomic_regionNameListZHIterator>
-         <tr><td>nameListZH</td><td><viva:economic_regionNameListZH /></td></tr>
-      </viva:foreacheconomic_regionNameListZHIterator>
       <viva:foreacheconomic_regionNameShortENIterator>
          <tr><td>nameShortEN</td><td><viva:economic_regionNameShortEN /></td></tr>
       </viva:foreacheconomic_regionNameShortENIterator>
       <viva:foreacheconomic_regionNameOfficialARIterator>
          <tr><td>nameOfficialAR</td><td><viva:economic_regionNameOfficialAR /></td></tr>
       </viva:foreacheconomic_regionNameOfficialARIterator>
-      <viva:foreacheconomic_regionNameShortARIterator>
-         <tr><td>nameShortAR</td><td><viva:economic_regionNameShortAR /></td></tr>
-      </viva:foreacheconomic_regionNameShortARIterator>
       <viva:foreacheconomic_regionNameOfficialENIterator>
          <tr><td>nameOfficialEN</td><td><viva:economic_regionNameOfficialEN /></td></tr>
       </viva:foreacheconomic_regionNameOfficialENIterator>
-      <viva:foreacheconomic_regionNameShortFRIterator>
-         <tr><td>nameShortFR</td><td><viva:economic_regionNameShortFR /></td></tr>
-      </viva:foreacheconomic_regionNameShortFRIterator>
       <viva:foreacheconomic_regionNameOfficialFRIterator>
          <tr><td>nameOfficialFR</td><td><viva:economic_regionNameOfficialFR /></td></tr>
       </viva:foreacheconomic_regionNameOfficialFRIterator>
       <viva:foreacheconomic_regionNameListESIterator>
          <tr><td>nameListES</td><td><viva:economic_regionNameListES /></td></tr>
       </viva:foreacheconomic_regionNameListESIterator>
-      <viva:foreacheconomic_regionNameShortRUIterator>
-         <tr><td>nameShortRU</td><td><viva:economic_regionNameShortRU /></td></tr>
-      </viva:foreacheconomic_regionNameShortRUIterator>
       <viva:foreacheconomic_regionHasListNameIterator>
          <tr><td>hasListName</td><td><viva:economic_regionHasListName /></td></tr>
       </viva:foreacheconomic_regionHasListNameIterator>
@@ -111,6 +75,9 @@
       <viva:foreacheconomic_regionValidSinceIterator>
          <tr><td>validSince</td><td><viva:economic_regionValidSince /></td></tr>
       </viva:foreacheconomic_regionValidSinceIterator>
+      <viva:foreacheconomic_regionDifferentFromIterator>
+         <tr><td>differentFrom</td><td><viva:economic_regionDifferentFrom /></td></tr>
+      </viva:foreacheconomic_regionDifferentFromIterator>
       <viva:foreacheconomic_regionTopDataPropertyIterator>
          <tr><td>topDataProperty</td><td><viva:economic_regionTopDataProperty /></td></tr>
       </viva:foreacheconomic_regionTopDataPropertyIterator>
@@ -121,9 +88,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreacheconomic_regionHasMemberIterator>
-         <tr><td>hasMember</td><td><a href="../<viva:economic_regionHasMemberType/>/<viva:economic_regionHasMemberType/>.jsp?uri=<viva:economic_regionHasMember/>"><viva:economic_regionHasMember /></a></td></tr>
-      </viva:foreacheconomic_regionHasMemberIterator>
       <viva:foreacheconomic_regionIsSuccessorOfIterator>
          <tr><td>isSuccessorOf</td><td><a href="../<viva:economic_regionIsSuccessorOfType/>/<viva:economic_regionIsSuccessorOfType/>.jsp?uri=<viva:economic_regionIsSuccessorOf/>"><viva:economic_regionIsSuccessorOf /></a></td></tr>
       </viva:foreacheconomic_regionIsSuccessorOfIterator>
@@ -136,13 +100,13 @@
       <viva:foreacheconomic_regionTopObjectPropertyIterator>
          <tr><td>topObjectProperty</td><td><a href="../<viva:economic_regionTopObjectPropertyType/>/<viva:economic_regionTopObjectPropertyType/>.jsp?uri=<viva:economic_regionTopObjectProperty/>"><viva:economic_regionTopObjectProperty /></a></td></tr>
       </viva:foreacheconomic_regionTopObjectPropertyIterator>
+      <viva:foreacheconomic_regionHasMemberIterator>
+         <tr><td>hasMember</td><td><a href="../<viva:economic_regionHasMemberType/>/<viva:economic_regionHasMemberType/>.jsp?uri=<viva:economic_regionHasMember/>"><viva:economic_regionHasMember /></a></td></tr>
+      </viva:foreacheconomic_regionHasMemberIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreacheconomic_regionOrcidIdInverseIterator>
-         <tr><td>orcidId</td><td><a href="../<viva:economic_regionOrcidIdInverseType/>/<viva:economic_regionOrcidIdInverseType/>.jsp?uri=<viva:economic_regionOrcidIdInverse/>"><viva:economic_regionOrcidIdInverse/></a></td></tr>
-      </viva:foreacheconomic_regionOrcidIdInverseIterator>
    </table>
    </viva:economic_region>
 

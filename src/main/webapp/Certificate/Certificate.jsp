@@ -46,12 +46,6 @@
       <viva:foreachCertificateTopConceptOfIterator>
          <tr><td>topConceptOf</td><td><a href="../<viva:CertificateTopConceptOfType/>/<viva:CertificateTopConceptOfType/>.jsp?uri=<viva:CertificateTopConceptOf/>"><viva:CertificateTopConceptOf /></a></td></tr>
       </viva:foreachCertificateTopConceptOfIterator>
-      <viva:foreachCertificateResearchAreaOfIterator>
-         <tr><td>researchAreaOf</td><td><a href="../<viva:CertificateResearchAreaOfType/>/<viva:CertificateResearchAreaOfType/>.jsp?uri=<viva:CertificateResearchAreaOf/>"><viva:CertificateResearchAreaOf /></a></td></tr>
-      </viva:foreachCertificateResearchAreaOfIterator>
-      <viva:foreachCertificateSubjectAreaOfIterator>
-         <tr><td>subjectAreaOf</td><td><a href="../<viva:CertificateSubjectAreaOfType/>/<viva:CertificateSubjectAreaOfType/>.jsp?uri=<viva:CertificateSubjectAreaOf/>"><viva:CertificateSubjectAreaOf /></a></td></tr>
-      </viva:foreachCertificateSubjectAreaOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

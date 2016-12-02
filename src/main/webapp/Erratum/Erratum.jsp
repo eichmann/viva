@@ -121,12 +121,6 @@
       <viva:foreachErratumFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:ErratumFeaturesType/>/<viva:ErratumFeaturesType/>.jsp?uri=<viva:ErratumFeatures/>"><viva:ErratumFeatures /></a></td></tr>
       </viva:foreachErratumFeaturesIterator>
-      <viva:foreachErratumInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ErratumInformationResourceSupportedByType/>/<viva:ErratumInformationResourceSupportedByType/>.jsp?uri=<viva:ErratumInformationResourceSupportedBy/>"><viva:ErratumInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachErratumInformationResourceSupportedByIterator>
-      <viva:foreachErratumIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ErratumIAO_0000136Type/>/<viva:ErratumIAO_0000136Type/>.jsp?uri=<viva:ErratumIAO_0000136/>"><viva:ErratumIAO_0000136 /></a></td></tr>
-      </viva:foreachErratumIAO_0000136Iterator>
       <viva:foreachErratumEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:ErratumEditorType/>/<viva:ErratumEditorType/>.jsp?uri=<viva:ErratumEditor/>"><viva:ErratumEditor /></a></td></tr>
       </viva:foreachErratumEditorIterator>

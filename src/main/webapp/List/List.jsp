@@ -27,9 +27,51 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachListRestIterator>
+         <tr><td>rest</td><td><viva:ListRest /></td></tr>
+      </viva:foreachListRestIterator>
+      <viva:foreachListFirstIterator>
+         <tr><td>first</td><td><viva:ListFirst /></td></tr>
+      </viva:foreachListFirstIterator>
+      <viva:foreachListAnnotatedSourceIterator>
+         <tr><td>annotatedSource</td><td><viva:ListAnnotatedSource /></td></tr>
+      </viva:foreachListAnnotatedSourceIterator>
+      <viva:foreachListLabelIterator>
+         <tr><td>label</td><td><viva:ListLabel /></td></tr>
+      </viva:foreachListLabelIterator>
+      <viva:foreachListCommentIterator>
+         <tr><td>comment</td><td><viva:ListComment /></td></tr>
+      </viva:foreachListCommentIterator>
+      <viva:foreachListIsDefinedByIterator>
+         <tr><td>isDefinedBy</td><td><viva:ListIsDefinedBy /></td></tr>
+      </viva:foreachListIsDefinedByIterator>
+      <viva:foreachListMembersIterator>
+         <tr><td>members</td><td><viva:ListMembers /></td></tr>
+      </viva:foreachListMembersIterator>
+      <viva:foreachListSeeAlsoIterator>
+         <tr><td>seeAlso</td><td><viva:ListSeeAlso /></td></tr>
+      </viva:foreachListSeeAlsoIterator>
+      <viva:foreachListMemberIterator>
+         <tr><td>member</td><td><viva:ListMember /></td></tr>
+      </viva:foreachListMemberIterator>
+      <viva:foreachListAnnotatedTargetIterator>
+         <tr><td>annotatedTarget</td><td><viva:ListAnnotatedTarget /></td></tr>
+      </viva:foreachListAnnotatedTargetIterator>
+      <viva:foreachListAnnotatedPropertyIterator>
+         <tr><td>annotatedProperty</td><td><viva:ListAnnotatedProperty /></td></tr>
+      </viva:foreachListAnnotatedPropertyIterator>
+      <viva:foreachListTypeIterator>
+         <tr><td>type</td><td><viva:ListType /></td></tr>
+      </viva:foreachListTypeIterator>
       <viva:foreachListTheAbstractIterator>
          <tr><td>theAbstract</td><td><viva:ListTheAbstract /></td></tr>
       </viva:foreachListTheAbstractIterator>
+      <viva:foreachListDeprecatedIterator>
+         <tr><td>deprecated</td><td><viva:ListDeprecated /></td></tr>
+      </viva:foreachListDeprecatedIterator>
+      <viva:foreachListVersionInfoIterator>
+         <tr><td>versionInfo</td><td><viva:ListVersionInfo /></td></tr>
+      </viva:foreachListVersionInfoIterator>
    </table>
 
    <h3>Object Properties</h3>

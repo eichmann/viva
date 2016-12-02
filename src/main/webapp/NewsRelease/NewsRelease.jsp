@@ -121,12 +121,6 @@
       <viva:foreachNewsReleaseFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:NewsReleaseFeaturesType/>/<viva:NewsReleaseFeaturesType/>.jsp?uri=<viva:NewsReleaseFeatures/>"><viva:NewsReleaseFeatures /></a></td></tr>
       </viva:foreachNewsReleaseFeaturesIterator>
-      <viva:foreachNewsReleaseInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:NewsReleaseInformationResourceSupportedByType/>/<viva:NewsReleaseInformationResourceSupportedByType/>.jsp?uri=<viva:NewsReleaseInformationResourceSupportedBy/>"><viva:NewsReleaseInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachNewsReleaseInformationResourceSupportedByIterator>
-      <viva:foreachNewsReleaseIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:NewsReleaseIAO_0000136Type/>/<viva:NewsReleaseIAO_0000136Type/>.jsp?uri=<viva:NewsReleaseIAO_0000136/>"><viva:NewsReleaseIAO_0000136 /></a></td></tr>
-      </viva:foreachNewsReleaseIAO_0000136Iterator>
       <viva:foreachNewsReleaseEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:NewsReleaseEditorType/>/<viva:NewsReleaseEditorType/>.jsp?uri=<viva:NewsReleaseEditor/>"><viva:NewsReleaseEditor /></a></td></tr>
       </viva:foreachNewsReleaseEditorIterator>

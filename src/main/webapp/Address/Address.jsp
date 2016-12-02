@@ -42,12 +42,6 @@
       <viva:foreachAddressCountryIterator>
          <tr><td>country</td><td><viva:AddressCountry /></td></tr>
       </viva:foreachAddressCountryIterator>
-      <viva:foreachAddressRankIterator>
-         <tr><td>rank</td><td><viva:AddressRank /></td></tr>
-      </viva:foreachAddressRankIterator>
-      <viva:foreachAddressUrlIterator>
-         <tr><td>url</td><td><viva:AddressUrl /></td></tr>
-      </viva:foreachAddressUrlIterator>
    </table>
 
    <h3>Object Properties</h3>

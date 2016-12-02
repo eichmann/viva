@@ -31,18 +31,15 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachPeerReviewerRoleRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:PeerReviewerRoleRO_0000056Type/>/<viva:PeerReviewerRoleRO_0000056Type/>.jsp?uri=<viva:PeerReviewerRoleRO_0000056/>"><viva:PeerReviewerRoleRO_0000056 /></a></td></tr>
-      </viva:foreachPeerReviewerRoleRO_0000056Iterator>
       <viva:foreachPeerReviewerRoleRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<viva:PeerReviewerRoleRO_0000052Type/>/<viva:PeerReviewerRoleRO_0000052Type/>.jsp?uri=<viva:PeerReviewerRoleRO_0000052/>"><viva:PeerReviewerRoleRO_0000052 /></a></td></tr>
       </viva:foreachPeerReviewerRoleRO_0000052Iterator>
       <viva:foreachPeerReviewerRoleBFO_0000054Iterator>
          <tr><td>BFO_0000054</td><td><a href="../<viva:PeerReviewerRoleBFO_0000054Type/>/<viva:PeerReviewerRoleBFO_0000054Type/>.jsp?uri=<viva:PeerReviewerRoleBFO_0000054/>"><viva:PeerReviewerRoleBFO_0000054 /></a></td></tr>
       </viva:foreachPeerReviewerRoleBFO_0000054Iterator>
-      <viva:foreachPeerReviewerRoleRoleContributesToIterator>
-         <tr><td>roleContributesTo</td><td><a href="../<viva:PeerReviewerRoleRoleContributesToType/>/<viva:PeerReviewerRoleRoleContributesToType/>.jsp?uri=<viva:PeerReviewerRoleRoleContributesTo/>"><viva:PeerReviewerRoleRoleContributesTo /></a></td></tr>
-      </viva:foreachPeerReviewerRoleRoleContributesToIterator>
+      <viva:foreachPeerReviewerRoleRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:PeerReviewerRoleRO_0000056Type/>/<viva:PeerReviewerRoleRO_0000056Type/>.jsp?uri=<viva:PeerReviewerRoleRO_0000056/>"><viva:PeerReviewerRoleRO_0000056 /></a></td></tr>
+      </viva:foreachPeerReviewerRoleRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

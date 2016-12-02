@@ -27,12 +27,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachBlogPostingPmcidIterator>
-         <tr><td>pmcid</td><td><viva:BlogPostingPmcid /></td></tr>
-      </viva:foreachBlogPostingPmcidIterator>
-      <viva:foreachBlogPostingNihmsidIterator>
-         <tr><td>nihmsid</td><td><viva:BlogPostingNihmsid /></td></tr>
-      </viva:foreachBlogPostingNihmsidIterator>
       <viva:foreachBlogPostingEanucc13Iterator>
          <tr><td>eanucc13</td><td><viva:BlogPostingEanucc13 /></td></tr>
       </viva:foreachBlogPostingEanucc13Iterator>
@@ -120,34 +114,19 @@
       <viva:foreachBlogPostingDoiIterator>
          <tr><td>doi</td><td><viva:BlogPostingDoi /></td></tr>
       </viva:foreachBlogPostingDoiIterator>
+      <viva:foreachBlogPostingPmcidIterator>
+         <tr><td>pmcid</td><td><viva:BlogPostingPmcid /></td></tr>
+      </viva:foreachBlogPostingPmcidIterator>
+      <viva:foreachBlogPostingNihmsidIterator>
+         <tr><td>nihmsid</td><td><viva:BlogPostingNihmsid /></td></tr>
+      </viva:foreachBlogPostingNihmsidIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachBlogPostingDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<viva:BlogPostingDateTimeValueType/>/<viva:BlogPostingDateTimeValueType/>.jsp?uri=<viva:BlogPostingDateTimeValue/>"><viva:BlogPostingDateTimeValue /></a></td></tr>
-      </viva:foreachBlogPostingDateTimeValueIterator>
-      <viva:foreachBlogPostingHasPublicationVenueIterator>
-         <tr><td>hasPublicationVenue</td><td><a href="../<viva:BlogPostingHasPublicationVenueType/>/<viva:BlogPostingHasPublicationVenueType/>.jsp?uri=<viva:BlogPostingHasPublicationVenue/>"><viva:BlogPostingHasPublicationVenue /></a></td></tr>
-      </viva:foreachBlogPostingHasPublicationVenueIterator>
-      <viva:foreachBlogPostingARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<viva:BlogPostingARG_2000028Type/>/<viva:BlogPostingARG_2000028Type/>.jsp?uri=<viva:BlogPostingARG_2000028/>"><viva:BlogPostingARG_2000028 /></a></td></tr>
-      </viva:foreachBlogPostingARG_2000028Iterator>
-      <viva:foreachBlogPostingRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:BlogPostingRelatedByType/>/<viva:BlogPostingRelatedByType/>.jsp?uri=<viva:BlogPostingRelatedBy/>"><viva:BlogPostingRelatedBy /></a></td></tr>
-      </viva:foreachBlogPostingRelatedByIterator>
-      <viva:foreachBlogPostingRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:BlogPostingRelatesType/>/<viva:BlogPostingRelatesType/>.jsp?uri=<viva:BlogPostingRelates/>"><viva:BlogPostingRelates /></a></td></tr>
-      </viva:foreachBlogPostingRelatesIterator>
       <viva:foreachBlogPostingFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:BlogPostingFeaturesType/>/<viva:BlogPostingFeaturesType/>.jsp?uri=<viva:BlogPostingFeatures/>"><viva:BlogPostingFeatures /></a></td></tr>
       </viva:foreachBlogPostingFeaturesIterator>
-      <viva:foreachBlogPostingInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:BlogPostingInformationResourceSupportedByType/>/<viva:BlogPostingInformationResourceSupportedByType/>.jsp?uri=<viva:BlogPostingInformationResourceSupportedBy/>"><viva:BlogPostingInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachBlogPostingInformationResourceSupportedByIterator>
-      <viva:foreachBlogPostingIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:BlogPostingIAO_0000136Type/>/<viva:BlogPostingIAO_0000136Type/>.jsp?uri=<viva:BlogPostingIAO_0000136/>"><viva:BlogPostingIAO_0000136 /></a></td></tr>
-      </viva:foreachBlogPostingIAO_0000136Iterator>
       <viva:foreachBlogPostingEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:BlogPostingEditorType/>/<viva:BlogPostingEditorType/>.jsp?uri=<viva:BlogPostingEditor/>"><viva:BlogPostingEditor /></a></td></tr>
       </viva:foreachBlogPostingEditorIterator>

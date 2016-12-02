@@ -121,12 +121,6 @@
       <viva:foreachManuscriptFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:ManuscriptFeaturesType/>/<viva:ManuscriptFeaturesType/>.jsp?uri=<viva:ManuscriptFeatures/>"><viva:ManuscriptFeatures /></a></td></tr>
       </viva:foreachManuscriptFeaturesIterator>
-      <viva:foreachManuscriptInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ManuscriptInformationResourceSupportedByType/>/<viva:ManuscriptInformationResourceSupportedByType/>.jsp?uri=<viva:ManuscriptInformationResourceSupportedBy/>"><viva:ManuscriptInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachManuscriptInformationResourceSupportedByIterator>
-      <viva:foreachManuscriptIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ManuscriptIAO_0000136Type/>/<viva:ManuscriptIAO_0000136Type/>.jsp?uri=<viva:ManuscriptIAO_0000136/>"><viva:ManuscriptIAO_0000136 /></a></td></tr>
-      </viva:foreachManuscriptIAO_0000136Iterator>
       <viva:foreachManuscriptEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:ManuscriptEditorType/>/<viva:ManuscriptEditorType/>.jsp?uri=<viva:ManuscriptEditor/>"><viva:ManuscriptEditor /></a></td></tr>
       </viva:foreachManuscriptEditorIterator>

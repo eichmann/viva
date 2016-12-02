@@ -40,6 +40,12 @@
       <viva:foreachLibrarianSameAsIterator>
          <tr><td>sameAs</td><td><a href="<viva:LibrarianSameAs />"><viva:LibrarianSameAs /></a></td></tr>
       </viva:foreachLibrarianSameAsIterator>
+      <viva:foreachLibrarianRO_0001025Iterator>
+         <tr><td>RO_0001025</td><td><viva:LibrarianRO_0001025 /></td></tr>
+      </viva:foreachLibrarianRO_0001025Iterator>
+      <viva:foreachLibrarianOrcidIdIterator>
+         <tr><td>orcidId</td><td><viva:LibrarianOrcidId /></td></tr>
+      </viva:foreachLibrarianOrcidIdIterator>
       <viva:foreachLibrarianERACommonsIdIterator>
          <tr><td>eRACommonsId</td><td><viva:LibrarianERACommonsId /></td></tr>
       </viva:foreachLibrarianERACommonsIdIterator>
@@ -62,12 +68,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachLibrarianRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:LibrarianRO_0000053Type/>/<viva:LibrarianRO_0000053Type/>.jsp?uri=<viva:LibrarianRO_0000053/>"><viva:LibrarianRO_0000053 /></a></td></tr>
-      </viva:foreachLibrarianRO_0000053Iterator>
       <viva:foreachLibrarianRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:LibrarianRO_0000056Type/>/<viva:LibrarianRO_0000056Type/>.jsp?uri=<viva:LibrarianRO_0000056/>"><viva:LibrarianRO_0000056 /></a></td></tr>
       </viva:foreachLibrarianRO_0000056Iterator>
+      <viva:foreachLibrarianRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:LibrarianRO_0000053Type/>/<viva:LibrarianRO_0000053Type/>.jsp?uri=<viva:LibrarianRO_0000053/>"><viva:LibrarianRO_0000053 /></a></td></tr>
+      </viva:foreachLibrarianRO_0000053Iterator>
       <viva:foreachLibrarianAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<viva:LibrarianAssigneeForType/>/<viva:LibrarianAssigneeForType/>.jsp?uri=<viva:LibrarianAssigneeFor/>"><viva:LibrarianAssigneeFor /></a></td></tr>
       </viva:foreachLibrarianAssigneeForIterator>
@@ -86,30 +92,15 @@
       <viva:foreachLibrarianERO_0000397Iterator>
          <tr><td>ERO_0000397</td><td><a href="../<viva:LibrarianERO_0000397Type/>/<viva:LibrarianERO_0000397Type/>.jsp?uri=<viva:LibrarianERO_0000397/>"><viva:LibrarianERO_0000397 /></a></td></tr>
       </viva:foreachLibrarianERO_0000397Iterator>
-      <viva:foreachLibrarianRO_0001025Iterator>
-         <tr><td>RO_0001025</td><td><a href="../<viva:LibrarianRO_0001025Type/>/<viva:LibrarianRO_0001025Type/>.jsp?uri=<viva:LibrarianRO_0001025/>"><viva:LibrarianRO_0001025 /></a></td></tr>
-      </viva:foreachLibrarianRO_0001025Iterator>
       <viva:foreachLibrarianERO_0000037Iterator>
          <tr><td>ERO_0000037</td><td><a href="../<viva:LibrarianERO_0000037Type/>/<viva:LibrarianERO_0000037Type/>.jsp?uri=<viva:LibrarianERO_0000037/>"><viva:LibrarianERO_0000037 /></a></td></tr>
       </viva:foreachLibrarianERO_0000037Iterator>
-      <viva:foreachLibrarianHasResearchAreaIterator>
-         <tr><td>hasResearchArea</td><td><a href="../<viva:LibrarianHasResearchAreaType/>/<viva:LibrarianHasResearchAreaType/>.jsp?uri=<viva:LibrarianHasResearchArea/>"><viva:LibrarianHasResearchArea /></a></td></tr>
-      </viva:foreachLibrarianHasResearchAreaIterator>
-      <viva:foreachLibrarianGeographicFocusIterator>
-         <tr><td>geographicFocus</td><td><a href="../<viva:LibrarianGeographicFocusType/>/<viva:LibrarianGeographicFocusType/>.jsp?uri=<viva:LibrarianGeographicFocus/>"><viva:LibrarianGeographicFocus /></a></td></tr>
-      </viva:foreachLibrarianGeographicFocusIterator>
       <viva:foreachLibrarianARG_2000028Iterator>
          <tr><td>ARG_2000028</td><td><a href="../<viva:LibrarianARG_2000028Type/>/<viva:LibrarianARG_2000028Type/>.jsp?uri=<viva:LibrarianARG_2000028/>"><viva:LibrarianARG_2000028 /></a></td></tr>
       </viva:foreachLibrarianARG_2000028Iterator>
-      <viva:foreachLibrarianRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:LibrarianRelatedByType/>/<viva:LibrarianRelatedByType/>.jsp?uri=<viva:LibrarianRelatedBy/>"><viva:LibrarianRelatedBy /></a></td></tr>
-      </viva:foreachLibrarianRelatedByIterator>
       <viva:foreachLibrarianERO_0000033Iterator>
          <tr><td>ERO_0000033</td><td><a href="../<viva:LibrarianERO_0000033Type/>/<viva:LibrarianERO_0000033Type/>.jsp?uri=<viva:LibrarianERO_0000033/>"><viva:LibrarianERO_0000033 /></a></td></tr>
       </viva:foreachLibrarianERO_0000033Iterator>
-      <viva:foreachLibrarianOrcidIdIterator>
-         <tr><td>orcidId</td><td><a href="../<viva:LibrarianOrcidIdType/>/<viva:LibrarianOrcidIdType/>.jsp?uri=<viva:LibrarianOrcidId/>"><viva:LibrarianOrcidId /></a></td></tr>
-      </viva:foreachLibrarianOrcidIdIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

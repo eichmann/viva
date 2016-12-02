@@ -42,9 +42,6 @@
       <viva:foreachCountryAgriculturalAreaYearIterator>
          <tr><td>agriculturalAreaYear</td><td><viva:CountryAgriculturalAreaYear /></td></tr>
       </viva:foreachCountryAgriculturalAreaYearIterator>
-      <viva:foreachCountryNameCurrencyFRIterator>
-         <tr><td>nameCurrencyFR</td><td><viva:CountryNameCurrencyFR /></td></tr>
-      </viva:foreachCountryNameCurrencyFRIterator>
       <viva:foreachCountryNameListENIterator>
          <tr><td>nameListEN</td><td><viva:CountryNameListEN /></td></tr>
       </viva:foreachCountryNameListENIterator>
@@ -150,9 +147,6 @@
       <viva:foreachCountryNameCurrencyARIterator>
          <tr><td>nameCurrencyAR</td><td><viva:CountryNameCurrencyAR /></td></tr>
       </viva:foreachCountryNameCurrencyARIterator>
-      <viva:foreachCountryNameCurrencyESIterator>
-         <tr><td>nameCurrencyES</td><td><viva:CountryNameCurrencyES /></td></tr>
-      </viva:foreachCountryNameCurrencyESIterator>
       <viva:foreachCountryCodeDBPediaIDIterator>
          <tr><td>codeDBPediaID</td><td><viva:CountryCodeDBPediaID /></td></tr>
       </viva:foreachCountryCodeDBPediaIDIterator>
@@ -243,25 +237,19 @@
       <viva:foreachCountryLandAreaNotesIterator>
          <tr><td>landAreaNotes</td><td><viva:CountryLandAreaNotes /></td></tr>
       </viva:foreachCountryLandAreaNotesIterator>
+      <viva:foreachCountryGeographicFocusOfIterator>
+         <tr><td>geographicFocusOf</td><td><viva:CountryGeographicFocusOf /></td></tr>
+      </viva:foreachCountryGeographicFocusOfIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachCountryBFO_0000051Iterator>
-         <tr><td>BFO_0000051</td><td><a href="../<viva:CountryBFO_0000051Type/>/<viva:CountryBFO_0000051Type/>.jsp?uri=<viva:CountryBFO_0000051/>"><viva:CountryBFO_0000051 /></a></td></tr>
-      </viva:foreachCountryBFO_0000051Iterator>
-      <viva:foreachCountryRO_0001015Iterator>
-         <tr><td>RO_0001015</td><td><a href="../<viva:CountryRO_0001015Type/>/<viva:CountryRO_0001015Type/>.jsp?uri=<viva:CountryRO_0001015/>"><viva:CountryRO_0001015 /></a></td></tr>
-      </viva:foreachCountryRO_0001015Iterator>
-      <viva:foreachCountryRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:CountryRO_0000053Type/>/<viva:CountryRO_0000053Type/>.jsp?uri=<viva:CountryRO_0000053/>"><viva:CountryRO_0000053 /></a></td></tr>
-      </viva:foreachCountryRO_0000053Iterator>
-      <viva:foreachCountryGeographicFocusOfIterator>
-         <tr><td>geographicFocusOf</td><td><a href="../<viva:CountryGeographicFocusOfType/>/<viva:CountryGeographicFocusOfType/>.jsp?uri=<viva:CountryGeographicFocusOf/>"><viva:CountryGeographicFocusOf /></a></td></tr>
-      </viva:foreachCountryGeographicFocusOfIterator>
       <viva:foreachCountryRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:CountryRO_0000056Type/>/<viva:CountryRO_0000056Type/>.jsp?uri=<viva:CountryRO_0000056/>"><viva:CountryRO_0000056 /></a></td></tr>
       </viva:foreachCountryRO_0000056Iterator>
+      <viva:foreachCountryRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:CountryRO_0000053Type/>/<viva:CountryRO_0000053Type/>.jsp?uri=<viva:CountryRO_0000053/>"><viva:CountryRO_0000053 /></a></td></tr>
+      </viva:foreachCountryRO_0000053Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

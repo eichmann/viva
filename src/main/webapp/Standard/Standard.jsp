@@ -121,12 +121,6 @@
       <viva:foreachStandardFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:StandardFeaturesType/>/<viva:StandardFeaturesType/>.jsp?uri=<viva:StandardFeatures/>"><viva:StandardFeatures /></a></td></tr>
       </viva:foreachStandardFeaturesIterator>
-      <viva:foreachStandardInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:StandardInformationResourceSupportedByType/>/<viva:StandardInformationResourceSupportedByType/>.jsp?uri=<viva:StandardInformationResourceSupportedBy/>"><viva:StandardInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachStandardInformationResourceSupportedByIterator>
-      <viva:foreachStandardIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:StandardIAO_0000136Type/>/<viva:StandardIAO_0000136Type/>.jsp?uri=<viva:StandardIAO_0000136/>"><viva:StandardIAO_0000136 /></a></td></tr>
-      </viva:foreachStandardIAO_0000136Iterator>
       <viva:foreachStandardEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:StandardEditorType/>/<viva:StandardEditorType/>.jsp?uri=<viva:StandardEditor/>"><viva:StandardEditor /></a></td></tr>
       </viva:foreachStandardEditorIterator>

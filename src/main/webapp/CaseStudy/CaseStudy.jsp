@@ -121,12 +121,6 @@
       <viva:foreachCaseStudyFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:CaseStudyFeaturesType/>/<viva:CaseStudyFeaturesType/>.jsp?uri=<viva:CaseStudyFeatures/>"><viva:CaseStudyFeatures /></a></td></tr>
       </viva:foreachCaseStudyFeaturesIterator>
-      <viva:foreachCaseStudyInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:CaseStudyInformationResourceSupportedByType/>/<viva:CaseStudyInformationResourceSupportedByType/>.jsp?uri=<viva:CaseStudyInformationResourceSupportedBy/>"><viva:CaseStudyInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachCaseStudyInformationResourceSupportedByIterator>
-      <viva:foreachCaseStudyIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:CaseStudyIAO_0000136Type/>/<viva:CaseStudyIAO_0000136Type/>.jsp?uri=<viva:CaseStudyIAO_0000136/>"><viva:CaseStudyIAO_0000136 /></a></td></tr>
-      </viva:foreachCaseStudyIAO_0000136Iterator>
       <viva:foreachCaseStudyEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:CaseStudyEditorType/>/<viva:CaseStudyEditorType/>.jsp?uri=<viva:CaseStudyEditor/>"><viva:CaseStudyEditor /></a></td></tr>
       </viva:foreachCaseStudyEditorIterator>

@@ -40,9 +40,6 @@
       <viva:foreachGeoHasGeoIterator>
          <tr><td>hasGeo</td><td><a href="../<viva:GeoHasGeoType/>/<viva:GeoHasGeoType/>.jsp?uri=<viva:GeoHasGeo/>"><viva:GeoHasGeo /></a></td></tr>
       </viva:foreachGeoHasGeoIterator>
-      <viva:foreachGeoHasEmailIterator>
-         <tr><td>hasEmail</td><td><a href="../<viva:GeoHasEmailType/>/<viva:GeoHasEmailType/>.jsp?uri=<viva:GeoHasEmail/>"><viva:GeoHasEmail /></a></td></tr>
-      </viva:foreachGeoHasEmailIterator>
       <viva:foreachGeoHasURLIterator>
          <tr><td>hasURL</td><td><a href="../<viva:GeoHasURLType/>/<viva:GeoHasURLType/>.jsp?uri=<viva:GeoHasURL/>"><viva:GeoHasURL /></a></td></tr>
       </viva:foreachGeoHasURLIterator>

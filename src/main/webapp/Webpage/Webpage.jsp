@@ -121,12 +121,6 @@
       <viva:foreachWebpageFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:WebpageFeaturesType/>/<viva:WebpageFeaturesType/>.jsp?uri=<viva:WebpageFeatures/>"><viva:WebpageFeatures /></a></td></tr>
       </viva:foreachWebpageFeaturesIterator>
-      <viva:foreachWebpageInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:WebpageInformationResourceSupportedByType/>/<viva:WebpageInformationResourceSupportedByType/>.jsp?uri=<viva:WebpageInformationResourceSupportedBy/>"><viva:WebpageInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachWebpageInformationResourceSupportedByIterator>
-      <viva:foreachWebpageIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:WebpageIAO_0000136Type/>/<viva:WebpageIAO_0000136Type/>.jsp?uri=<viva:WebpageIAO_0000136/>"><viva:WebpageIAO_0000136 /></a></td></tr>
-      </viva:foreachWebpageIAO_0000136Iterator>
       <viva:foreachWebpageEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:WebpageEditorType/>/<viva:WebpageEditorType/>.jsp?uri=<viva:WebpageEditor/>"><viva:WebpageEditor /></a></td></tr>
       </viva:foreachWebpageEditorIterator>

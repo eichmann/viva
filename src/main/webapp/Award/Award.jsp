@@ -49,12 +49,6 @@
       <viva:foreachAwardTopConceptOfIterator>
          <tr><td>topConceptOf</td><td><a href="../<viva:AwardTopConceptOfType/>/<viva:AwardTopConceptOfType/>.jsp?uri=<viva:AwardTopConceptOf/>"><viva:AwardTopConceptOf /></a></td></tr>
       </viva:foreachAwardTopConceptOfIterator>
-      <viva:foreachAwardResearchAreaOfIterator>
-         <tr><td>researchAreaOf</td><td><a href="../<viva:AwardResearchAreaOfType/>/<viva:AwardResearchAreaOfType/>.jsp?uri=<viva:AwardResearchAreaOf/>"><viva:AwardResearchAreaOf /></a></td></tr>
-      </viva:foreachAwardResearchAreaOfIterator>
-      <viva:foreachAwardSubjectAreaOfIterator>
-         <tr><td>subjectAreaOf</td><td><a href="../<viva:AwardSubjectAreaOfType/>/<viva:AwardSubjectAreaOfType/>.jsp?uri=<viva:AwardSubjectAreaOf/>"><viva:AwardSubjectAreaOf /></a></td></tr>
-      </viva:foreachAwardSubjectAreaOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

@@ -31,18 +31,9 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachARG_2000379ARG_2000029Iterator>
-         <tr><td>ARG_2000029</td><td><a href="../<viva:ARG_2000379ARG_2000029Type/>/<viva:ARG_2000379ARG_2000029Type/>.jsp?uri=<viva:ARG_2000379ARG_2000029/>"><viva:ARG_2000379ARG_2000029 /></a></td></tr>
-      </viva:foreachARG_2000379ARG_2000029Iterator>
       <viva:foreachARG_2000379FeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:ARG_2000379FeaturesType/>/<viva:ARG_2000379FeaturesType/>.jsp?uri=<viva:ARG_2000379Features/>"><viva:ARG_2000379Features /></a></td></tr>
       </viva:foreachARG_2000379FeaturesIterator>
-      <viva:foreachARG_2000379InformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ARG_2000379InformationResourceSupportedByType/>/<viva:ARG_2000379InformationResourceSupportedByType/>.jsp?uri=<viva:ARG_2000379InformationResourceSupportedBy/>"><viva:ARG_2000379InformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachARG_2000379InformationResourceSupportedByIterator>
-      <viva:foreachARG_2000379IAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ARG_2000379IAO_0000136Type/>/<viva:ARG_2000379IAO_0000136Type/>.jsp?uri=<viva:ARG_2000379IAO_0000136/>"><viva:ARG_2000379IAO_0000136 /></a></td></tr>
-      </viva:foreachARG_2000379IAO_0000136Iterator>
       <viva:foreachARG_2000379RO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ARG_2000379RO_0000056Type/>/<viva:ARG_2000379RO_0000056Type/>.jsp?uri=<viva:ARG_2000379RO_0000056/>"><viva:ARG_2000379RO_0000056 /></a></td></tr>
       </viva:foreachARG_2000379RO_0000056Iterator>

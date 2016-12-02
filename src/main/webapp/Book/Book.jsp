@@ -118,36 +118,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachBookDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<viva:BookDateTimeValueType/>/<viva:BookDateTimeValueType/>.jsp?uri=<viva:BookDateTimeValue/>"><viva:BookDateTimeValue /></a></td></tr>
-      </viva:foreachBookDateTimeValueIterator>
-      <viva:foreachBookHasPublicationVenueIterator>
-         <tr><td>hasPublicationVenue</td><td><a href="../<viva:BookHasPublicationVenueType/>/<viva:BookHasPublicationVenueType/>.jsp?uri=<viva:BookHasPublicationVenue/>"><viva:BookHasPublicationVenue /></a></td></tr>
-      </viva:foreachBookHasPublicationVenueIterator>
-      <viva:foreachBookPublicationVenueForIterator>
-         <tr><td>publicationVenueFor</td><td><a href="../<viva:BookPublicationVenueForType/>/<viva:BookPublicationVenueForType/>.jsp?uri=<viva:BookPublicationVenueFor/>"><viva:BookPublicationVenueFor /></a></td></tr>
-      </viva:foreachBookPublicationVenueForIterator>
-      <viva:foreachBookARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<viva:BookARG_2000028Type/>/<viva:BookARG_2000028Type/>.jsp?uri=<viva:BookARG_2000028/>"><viva:BookARG_2000028 /></a></td></tr>
-      </viva:foreachBookARG_2000028Iterator>
       <viva:foreachBookPublisherIterator>
          <tr><td>publisher</td><td><a href="../<viva:BookPublisherType/>/<viva:BookPublisherType/>.jsp?uri=<viva:BookPublisher/>"><viva:BookPublisher /></a></td></tr>
       </viva:foreachBookPublisherIterator>
-      <viva:foreachBookRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:BookRelatedByType/>/<viva:BookRelatedByType/>.jsp?uri=<viva:BookRelatedBy/>"><viva:BookRelatedBy /></a></td></tr>
-      </viva:foreachBookRelatedByIterator>
-      <viva:foreachBookRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:BookRelatesType/>/<viva:BookRelatesType/>.jsp?uri=<viva:BookRelates/>"><viva:BookRelates /></a></td></tr>
-      </viva:foreachBookRelatesIterator>
       <viva:foreachBookFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:BookFeaturesType/>/<viva:BookFeaturesType/>.jsp?uri=<viva:BookFeatures/>"><viva:BookFeatures /></a></td></tr>
       </viva:foreachBookFeaturesIterator>
-      <viva:foreachBookInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:BookInformationResourceSupportedByType/>/<viva:BookInformationResourceSupportedByType/>.jsp?uri=<viva:BookInformationResourceSupportedBy/>"><viva:BookInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachBookInformationResourceSupportedByIterator>
-      <viva:foreachBookIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:BookIAO_0000136Type/>/<viva:BookIAO_0000136Type/>.jsp?uri=<viva:BookIAO_0000136/>"><viva:BookIAO_0000136 /></a></td></tr>
-      </viva:foreachBookIAO_0000136Iterator>
       <viva:foreachBookEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:BookEditorType/>/<viva:BookEditorType/>.jsp?uri=<viva:BookEditor/>"><viva:BookEditor /></a></td></tr>
       </viva:foreachBookEditorIterator>

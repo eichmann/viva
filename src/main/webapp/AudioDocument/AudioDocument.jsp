@@ -121,12 +121,6 @@
       <viva:foreachAudioDocumentFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:AudioDocumentFeaturesType/>/<viva:AudioDocumentFeaturesType/>.jsp?uri=<viva:AudioDocumentFeatures/>"><viva:AudioDocumentFeatures /></a></td></tr>
       </viva:foreachAudioDocumentFeaturesIterator>
-      <viva:foreachAudioDocumentInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:AudioDocumentInformationResourceSupportedByType/>/<viva:AudioDocumentInformationResourceSupportedByType/>.jsp?uri=<viva:AudioDocumentInformationResourceSupportedBy/>"><viva:AudioDocumentInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachAudioDocumentInformationResourceSupportedByIterator>
-      <viva:foreachAudioDocumentIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:AudioDocumentIAO_0000136Type/>/<viva:AudioDocumentIAO_0000136Type/>.jsp?uri=<viva:AudioDocumentIAO_0000136/>"><viva:AudioDocumentIAO_0000136 /></a></td></tr>
-      </viva:foreachAudioDocumentIAO_0000136Iterator>
       <viva:foreachAudioDocumentEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:AudioDocumentEditorType/>/<viva:AudioDocumentEditorType/>.jsp?uri=<viva:AudioDocumentEditor/>"><viva:AudioDocumentEditor /></a></td></tr>
       </viva:foreachAudioDocumentEditorIterator>

@@ -127,12 +127,6 @@
       <viva:foreachLegalDocumentFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:LegalDocumentFeaturesType/>/<viva:LegalDocumentFeaturesType/>.jsp?uri=<viva:LegalDocumentFeatures/>"><viva:LegalDocumentFeatures /></a></td></tr>
       </viva:foreachLegalDocumentFeaturesIterator>
-      <viva:foreachLegalDocumentInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:LegalDocumentInformationResourceSupportedByType/>/<viva:LegalDocumentInformationResourceSupportedByType/>.jsp?uri=<viva:LegalDocumentInformationResourceSupportedBy/>"><viva:LegalDocumentInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachLegalDocumentInformationResourceSupportedByIterator>
-      <viva:foreachLegalDocumentIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:LegalDocumentIAO_0000136Type/>/<viva:LegalDocumentIAO_0000136Type/>.jsp?uri=<viva:LegalDocumentIAO_0000136/>"><viva:LegalDocumentIAO_0000136 /></a></td></tr>
-      </viva:foreachLegalDocumentIAO_0000136Iterator>
       <viva:foreachLegalDocumentEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:LegalDocumentEditorType/>/<viva:LegalDocumentEditorType/>.jsp?uri=<viva:LegalDocumentEditor/>"><viva:LegalDocumentEditor /></a></td></tr>
       </viva:foreachLegalDocumentEditorIterator>

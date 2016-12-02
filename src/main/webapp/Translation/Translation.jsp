@@ -121,12 +121,6 @@
       <viva:foreachTranslationFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:TranslationFeaturesType/>/<viva:TranslationFeaturesType/>.jsp?uri=<viva:TranslationFeatures/>"><viva:TranslationFeatures /></a></td></tr>
       </viva:foreachTranslationFeaturesIterator>
-      <viva:foreachTranslationInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:TranslationInformationResourceSupportedByType/>/<viva:TranslationInformationResourceSupportedByType/>.jsp?uri=<viva:TranslationInformationResourceSupportedBy/>"><viva:TranslationInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachTranslationInformationResourceSupportedByIterator>
-      <viva:foreachTranslationIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:TranslationIAO_0000136Type/>/<viva:TranslationIAO_0000136Type/>.jsp?uri=<viva:TranslationIAO_0000136/>"><viva:TranslationIAO_0000136 /></a></td></tr>
-      </viva:foreachTranslationIAO_0000136Iterator>
       <viva:foreachTranslationEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:TranslationEditorType/>/<viva:TranslationEditorType/>.jsp?uri=<viva:TranslationEditor/>"><viva:TranslationEditor /></a></td></tr>
       </viva:foreachTranslationEditorIterator>

@@ -121,12 +121,6 @@
       <viva:foreachWorkingPaperFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:WorkingPaperFeaturesType/>/<viva:WorkingPaperFeaturesType/>.jsp?uri=<viva:WorkingPaperFeatures/>"><viva:WorkingPaperFeatures /></a></td></tr>
       </viva:foreachWorkingPaperFeaturesIterator>
-      <viva:foreachWorkingPaperInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:WorkingPaperInformationResourceSupportedByType/>/<viva:WorkingPaperInformationResourceSupportedByType/>.jsp?uri=<viva:WorkingPaperInformationResourceSupportedBy/>"><viva:WorkingPaperInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachWorkingPaperInformationResourceSupportedByIterator>
-      <viva:foreachWorkingPaperIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:WorkingPaperIAO_0000136Type/>/<viva:WorkingPaperIAO_0000136Type/>.jsp?uri=<viva:WorkingPaperIAO_0000136/>"><viva:WorkingPaperIAO_0000136 /></a></td></tr>
-      </viva:foreachWorkingPaperIAO_0000136Iterator>
       <viva:foreachWorkingPaperEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:WorkingPaperEditorType/>/<viva:WorkingPaperEditorType/>.jsp?uri=<viva:WorkingPaperEditor/>"><viva:WorkingPaperEditor /></a></td></tr>
       </viva:foreachWorkingPaperEditorIterator>

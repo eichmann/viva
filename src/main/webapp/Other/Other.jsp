@@ -90,18 +90,6 @@
       <viva:foreachotherNameShortRUIterator>
          <tr><td>nameShortRU</td><td><viva:otherNameShortRU /></td></tr>
       </viva:foreachotherNameShortRUIterator>
-      <viva:foreachotherHasNationalityIterator>
-         <tr><td>hasNationality</td><td><viva:otherHasNationality /></td></tr>
-      </viva:foreachotherHasNationalityIterator>
-      <viva:foreachotherHasStatisticsIterator>
-         <tr><td>hasStatistics</td><td><viva:otherHasStatistics /></td></tr>
-      </viva:foreachotherHasStatisticsIterator>
-      <viva:foreachotherHasCurrencyIterator>
-         <tr><td>hasCurrency</td><td><viva:otherHasCurrency /></td></tr>
-      </viva:foreachotherHasCurrencyIterator>
-      <viva:foreachotherHasCoordinateIterator>
-         <tr><td>hasCoordinate</td><td><viva:otherHasCoordinate /></td></tr>
-      </viva:foreachotherHasCoordinateIterator>
       <viva:foreachotherHasListNameIterator>
          <tr><td>hasListName</td><td><viva:otherHasListName /></td></tr>
       </viva:foreachotherHasListNameIterator>
@@ -120,50 +108,62 @@
       <viva:foreachotherValidSinceIterator>
          <tr><td>validSince</td><td><viva:otherValidSince /></td></tr>
       </viva:foreachotherValidSinceIterator>
+      <viva:foreachotherHasNationalityIterator>
+         <tr><td>hasNationality</td><td><viva:otherHasNationality /></td></tr>
+      </viva:foreachotherHasNationalityIterator>
+      <viva:foreachotherHasStatisticsIterator>
+         <tr><td>hasStatistics</td><td><viva:otherHasStatistics /></td></tr>
+      </viva:foreachotherHasStatisticsIterator>
+      <viva:foreachotherHasCurrencyIterator>
+         <tr><td>hasCurrency</td><td><viva:otherHasCurrency /></td></tr>
+      </viva:foreachotherHasCurrencyIterator>
+      <viva:foreachotherHasCoordinateIterator>
+         <tr><td>hasCoordinate</td><td><viva:otherHasCoordinate /></td></tr>
+      </viva:foreachotherHasCoordinateIterator>
+      <viva:foreachotherDifferentFromIterator>
+         <tr><td>differentFrom</td><td><viva:otherDifferentFrom /></td></tr>
+      </viva:foreachotherDifferentFromIterator>
       <viva:foreachotherTopDataPropertyIterator>
          <tr><td>topDataProperty</td><td><viva:otherTopDataProperty /></td></tr>
       </viva:foreachotherTopDataPropertyIterator>
       <viva:foreachotherBottomDataPropertyIterator>
          <tr><td>bottomDataProperty</td><td><viva:otherBottomDataProperty /></td></tr>
       </viva:foreachotherBottomDataPropertyIterator>
+      <viva:foreachotherGeographicFocusOfIterator>
+         <tr><td>geographicFocusOf</td><td><viva:otherGeographicFocusOf /></td></tr>
+      </viva:foreachotherGeographicFocusOfIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachotherGeographicFocusOfIterator>
-         <tr><td>geographicFocusOf</td><td><a href="../<viva:otherGeographicFocusOfType/>/<viva:otherGeographicFocusOfType/>.jsp?uri=<viva:otherGeographicFocusOf/>"><viva:otherGeographicFocusOf /></a></td></tr>
-      </viva:foreachotherGeographicFocusOfIterator>
-      <viva:foreachotherHasBorderWithIterator>
-         <tr><td>hasBorderWith</td><td><a href="../<viva:otherHasBorderWithType/>/<viva:otherHasBorderWithType/>.jsp?uri=<viva:otherHasBorderWith/>"><viva:otherHasBorderWith /></a></td></tr>
-      </viva:foreachotherHasBorderWithIterator>
-      <viva:foreachotherIsInGroupIterator>
-         <tr><td>isInGroup</td><td><a href="../<viva:otherIsInGroupType/>/<viva:otherIsInGroupType/>.jsp?uri=<viva:otherIsInGroup/>"><viva:otherIsInGroup /></a></td></tr>
-      </viva:foreachotherIsInGroupIterator>
       <viva:foreachotherIsSuccessorOfIterator>
          <tr><td>isSuccessorOf</td><td><a href="../<viva:otherIsSuccessorOfType/>/<viva:otherIsSuccessorOfType/>.jsp?uri=<viva:otherIsSuccessorOf/>"><viva:otherIsSuccessorOf /></a></td></tr>
       </viva:foreachotherIsSuccessorOfIterator>
       <viva:foreachotherIsPredecessorOfIterator>
          <tr><td>isPredecessorOf</td><td><a href="../<viva:otherIsPredecessorOfType/>/<viva:otherIsPredecessorOfType/>.jsp?uri=<viva:otherIsPredecessorOf/>"><viva:otherIsPredecessorOf /></a></td></tr>
       </viva:foreachotherIsPredecessorOfIterator>
+      <viva:foreachotherHasBorderWithIterator>
+         <tr><td>hasBorderWith</td><td><a href="../<viva:otherHasBorderWithType/>/<viva:otherHasBorderWithType/>.jsp?uri=<viva:otherHasBorderWith/>"><viva:otherHasBorderWith /></a></td></tr>
+      </viva:foreachotherHasBorderWithIterator>
+      <viva:foreachotherIsInGroupIterator>
+         <tr><td>isInGroup</td><td><a href="../<viva:otherIsInGroupType/>/<viva:otherIsInGroupType/>.jsp?uri=<viva:otherIsInGroup/>"><viva:otherIsInGroup /></a></td></tr>
+      </viva:foreachotherIsInGroupIterator>
       <viva:foreachotherBottomObjectPropertyIterator>
          <tr><td>bottomObjectProperty</td><td><a href="../<viva:otherBottomObjectPropertyType/>/<viva:otherBottomObjectPropertyType/>.jsp?uri=<viva:otherBottomObjectProperty/>"><viva:otherBottomObjectProperty /></a></td></tr>
       </viva:foreachotherBottomObjectPropertyIterator>
       <viva:foreachotherTopObjectPropertyIterator>
          <tr><td>topObjectProperty</td><td><a href="../<viva:otherTopObjectPropertyType/>/<viva:otherTopObjectPropertyType/>.jsp?uri=<viva:otherTopObjectProperty/>"><viva:otherTopObjectProperty /></a></td></tr>
       </viva:foreachotherTopObjectPropertyIterator>
-      <viva:foreachotherRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:otherRO_0000053Type/>/<viva:otherRO_0000053Type/>.jsp?uri=<viva:otherRO_0000053/>"><viva:otherRO_0000053 /></a></td></tr>
-      </viva:foreachotherRO_0000053Iterator>
       <viva:foreachotherRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:otherRO_0000056Type/>/<viva:otherRO_0000056Type/>.jsp?uri=<viva:otherRO_0000056/>"><viva:otherRO_0000056 /></a></td></tr>
       </viva:foreachotherRO_0000056Iterator>
+      <viva:foreachotherRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:otherRO_0000053Type/>/<viva:otherRO_0000053Type/>.jsp?uri=<viva:otherRO_0000053/>"><viva:otherRO_0000053 /></a></td></tr>
+      </viva:foreachotherRO_0000053Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachotherOrcidIdInverseIterator>
-         <tr><td>orcidId</td><td><a href="../<viva:otherOrcidIdInverseType/>/<viva:otherOrcidIdInverseType/>.jsp?uri=<viva:otherOrcidIdInverse/>"><viva:otherOrcidIdInverse/></a></td></tr>
-      </viva:foreachotherOrcidIdInverseIterator>
       <viva:foreachotherValidInInverseIterator>
          <tr><td>validIn</td><td><a href="../<viva:otherValidInInverseType/>/<viva:otherValidInInverseType/>.jsp?uri=<viva:otherValidInInverse/>"><viva:otherValidInInverse/></a></td></tr>
       </viva:foreachotherValidInInverseIterator>

@@ -23,7 +23,6 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>abbreviation</td><td><viva:LibraryAbbreviation /></td></tr>
       <tr><td>overview</td><td><viva:LibraryOverview /></td></tr>
    </table>
 
@@ -39,48 +38,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachLibraryRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:LibraryRO_0000053Type/>/<viva:LibraryRO_0000053Type/>.jsp?uri=<viva:LibraryRO_0000053/>"><viva:LibraryRO_0000053 /></a></td></tr>
-      </viva:foreachLibraryRO_0000053Iterator>
-      <viva:foreachLibrarySponsorsIterator>
-         <tr><td>sponsors</td><td><a href="../<viva:LibrarySponsorsType/>/<viva:LibrarySponsorsType/>.jsp?uri=<viva:LibrarySponsors/>"><viva:LibrarySponsors /></a></td></tr>
-      </viva:foreachLibrarySponsorsIterator>
-      <viva:foreachLibraryPublisherOfIterator>
-         <tr><td>publisherOf</td><td><a href="../<viva:LibraryPublisherOfType/>/<viva:LibraryPublisherOfType/>.jsp?uri=<viva:LibraryPublisherOf/>"><viva:LibraryPublisherOf /></a></td></tr>
-      </viva:foreachLibraryPublisherOfIterator>
-      <viva:foreachLibraryERO_0000031Iterator>
-         <tr><td>ERO_0000031</td><td><a href="../<viva:LibraryERO_0000031Type/>/<viva:LibraryERO_0000031Type/>.jsp?uri=<viva:LibraryERO_0000031/>"><viva:LibraryERO_0000031 /></a></td></tr>
-      </viva:foreachLibraryERO_0000031Iterator>
-      <viva:foreachLibraryGoverningAuthorityForIterator>
-         <tr><td>governingAuthorityFor</td><td><a href="../<viva:LibraryGoverningAuthorityForType/>/<viva:LibraryGoverningAuthorityForType/>.jsp?uri=<viva:LibraryGoverningAuthorityFor/>"><viva:LibraryGoverningAuthorityFor /></a></td></tr>
-      </viva:foreachLibraryGoverningAuthorityForIterator>
-      <viva:foreachLibraryERO_0000037Iterator>
-         <tr><td>ERO_0000037</td><td><a href="../<viva:LibraryERO_0000037Type/>/<viva:LibraryERO_0000037Type/>.jsp?uri=<viva:LibraryERO_0000037/>"><viva:LibraryERO_0000037 /></a></td></tr>
-      </viva:foreachLibraryERO_0000037Iterator>
-      <viva:foreachLibraryERO_0001520Iterator>
-         <tr><td>ERO_0001520</td><td><a href="../<viva:LibraryERO_0001520Type/>/<viva:LibraryERO_0001520Type/>.jsp?uri=<viva:LibraryERO_0001520/>"><viva:LibraryERO_0001520 /></a></td></tr>
-      </viva:foreachLibraryERO_0001520Iterator>
-      <viva:foreachLibraryRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:LibraryRelatedByType/>/<viva:LibraryRelatedByType/>.jsp?uri=<viva:LibraryRelatedBy/>"><viva:LibraryRelatedBy /></a></td></tr>
-      </viva:foreachLibraryRelatedByIterator>
-      <viva:foreachLibrarySubcontractsGrantIterator>
-         <tr><td>subcontractsGrant</td><td><a href="../<viva:LibrarySubcontractsGrantType/>/<viva:LibrarySubcontractsGrantType/>.jsp?uri=<viva:LibrarySubcontractsGrant/>"><viva:LibrarySubcontractsGrant /></a></td></tr>
-      </viva:foreachLibrarySubcontractsGrantIterator>
-      <viva:foreachLibraryHasSuccessorOrganizationIterator>
-         <tr><td>hasSuccessorOrganization</td><td><a href="../<viva:LibraryHasSuccessorOrganizationType/>/<viva:LibraryHasSuccessorOrganizationType/>.jsp?uri=<viva:LibraryHasSuccessorOrganization/>"><viva:LibraryHasSuccessorOrganization /></a></td></tr>
-      </viva:foreachLibraryHasSuccessorOrganizationIterator>
-      <viva:foreachLibraryHasPredecessorOrganizationIterator>
-         <tr><td>hasPredecessorOrganization</td><td><a href="../<viva:LibraryHasPredecessorOrganizationType/>/<viva:LibraryHasPredecessorOrganizationType/>.jsp?uri=<viva:LibraryHasPredecessorOrganization/>"><viva:LibraryHasPredecessorOrganization /></a></td></tr>
-      </viva:foreachLibraryHasPredecessorOrganizationIterator>
-      <viva:foreachLibraryHasEquipmentIterator>
-         <tr><td>hasEquipment</td><td><a href="../<viva:LibraryHasEquipmentType/>/<viva:LibraryHasEquipmentType/>.jsp?uri=<viva:LibraryHasEquipment/>"><viva:LibraryHasEquipment /></a></td></tr>
-      </viva:foreachLibraryHasEquipmentIterator>
-      <viva:foreachLibraryAffiliatedOrganizationIterator>
-         <tr><td>affiliatedOrganization</td><td><a href="../<viva:LibraryAffiliatedOrganizationType/>/<viva:LibraryAffiliatedOrganizationType/>.jsp?uri=<viva:LibraryAffiliatedOrganization/>"><viva:LibraryAffiliatedOrganization /></a></td></tr>
-      </viva:foreachLibraryAffiliatedOrganizationIterator>
       <viva:foreachLibraryRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:LibraryRO_0000056Type/>/<viva:LibraryRO_0000056Type/>.jsp?uri=<viva:LibraryRO_0000056/>"><viva:LibraryRO_0000056 /></a></td></tr>
       </viva:foreachLibraryRO_0000056Iterator>
+      <viva:foreachLibraryRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:LibraryRO_0000053Type/>/<viva:LibraryRO_0000053Type/>.jsp?uri=<viva:LibraryRO_0000053/>"><viva:LibraryRO_0000053 /></a></td></tr>
+      </viva:foreachLibraryRO_0000053Iterator>
       <viva:foreachLibraryAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<viva:LibraryAssigneeForType/>/<viva:LibraryAssigneeForType/>.jsp?uri=<viva:LibraryAssigneeFor/>"><viva:LibraryAssigneeFor /></a></td></tr>
       </viva:foreachLibraryAssigneeForIterator>
@@ -96,16 +59,40 @@
       <viva:foreachLibraryTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:LibraryTranslatorOfType/>/<viva:LibraryTranslatorOfType/>.jsp?uri=<viva:LibraryTranslatorOf/>"><viva:LibraryTranslatorOf /></a></td></tr>
       </viva:foreachLibraryTranslatorOfIterator>
+      <viva:foreachLibrarySponsorsIterator>
+         <tr><td>sponsors</td><td><a href="../<viva:LibrarySponsorsType/>/<viva:LibrarySponsorsType/>.jsp?uri=<viva:LibrarySponsors/>"><viva:LibrarySponsors /></a></td></tr>
+      </viva:foreachLibrarySponsorsIterator>
+      <viva:foreachLibraryPublisherOfIterator>
+         <tr><td>publisherOf</td><td><a href="../<viva:LibraryPublisherOfType/>/<viva:LibraryPublisherOfType/>.jsp?uri=<viva:LibraryPublisherOf/>"><viva:LibraryPublisherOf /></a></td></tr>
+      </viva:foreachLibraryPublisherOfIterator>
+      <viva:foreachLibraryERO_0000031Iterator>
+         <tr><td>ERO_0000031</td><td><a href="../<viva:LibraryERO_0000031Type/>/<viva:LibraryERO_0000031Type/>.jsp?uri=<viva:LibraryERO_0000031/>"><viva:LibraryERO_0000031 /></a></td></tr>
+      </viva:foreachLibraryERO_0000031Iterator>
+      <viva:foreachLibraryERO_0000037Iterator>
+         <tr><td>ERO_0000037</td><td><a href="../<viva:LibraryERO_0000037Type/>/<viva:LibraryERO_0000037Type/>.jsp?uri=<viva:LibraryERO_0000037/>"><viva:LibraryERO_0000037 /></a></td></tr>
+      </viva:foreachLibraryERO_0000037Iterator>
+      <viva:foreachLibraryERO_0001520Iterator>
+         <tr><td>ERO_0001520</td><td><a href="../<viva:LibraryERO_0001520Type/>/<viva:LibraryERO_0001520Type/>.jsp?uri=<viva:LibraryERO_0001520/>"><viva:LibraryERO_0001520 /></a></td></tr>
+      </viva:foreachLibraryERO_0001520Iterator>
+      <viva:foreachLibrarySubcontractsGrantIterator>
+         <tr><td>subcontractsGrant</td><td><a href="../<viva:LibrarySubcontractsGrantType/>/<viva:LibrarySubcontractsGrantType/>.jsp?uri=<viva:LibrarySubcontractsGrant/>"><viva:LibrarySubcontractsGrant /></a></td></tr>
+      </viva:foreachLibrarySubcontractsGrantIterator>
+      <viva:foreachLibraryHasSuccessorOrganizationIterator>
+         <tr><td>hasSuccessorOrganization</td><td><a href="../<viva:LibraryHasSuccessorOrganizationType/>/<viva:LibraryHasSuccessorOrganizationType/>.jsp?uri=<viva:LibraryHasSuccessorOrganization/>"><viva:LibraryHasSuccessorOrganization /></a></td></tr>
+      </viva:foreachLibraryHasSuccessorOrganizationIterator>
+      <viva:foreachLibraryHasPredecessorOrganizationIterator>
+         <tr><td>hasPredecessorOrganization</td><td><a href="../<viva:LibraryHasPredecessorOrganizationType/>/<viva:LibraryHasPredecessorOrganizationType/>.jsp?uri=<viva:LibraryHasPredecessorOrganization/>"><viva:LibraryHasPredecessorOrganization /></a></td></tr>
+      </viva:foreachLibraryHasPredecessorOrganizationIterator>
+      <viva:foreachLibraryHasEquipmentIterator>
+         <tr><td>hasEquipment</td><td><a href="../<viva:LibraryHasEquipmentType/>/<viva:LibraryHasEquipmentType/>.jsp?uri=<viva:LibraryHasEquipment/>"><viva:LibraryHasEquipment /></a></td></tr>
+      </viva:foreachLibraryHasEquipmentIterator>
+      <viva:foreachLibraryAffiliatedOrganizationIterator>
+         <tr><td>affiliatedOrganization</td><td><a href="../<viva:LibraryAffiliatedOrganizationType/>/<viva:LibraryAffiliatedOrganizationType/>.jsp?uri=<viva:LibraryAffiliatedOrganization/>"><viva:LibraryAffiliatedOrganization /></a></td></tr>
+      </viva:foreachLibraryAffiliatedOrganizationIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachLibraryOBI_0000304InverseIterator>
-         <tr><td>OBI_0000304</td><td><a href="../<viva:LibraryOBI_0000304InverseType/>/<viva:LibraryOBI_0000304InverseType/>.jsp?uri=<viva:LibraryOBI_0000304Inverse/>"><viva:LibraryOBI_0000304Inverse/></a></td></tr>
-      </viva:foreachLibraryOBI_0000304InverseIterator>
-      <viva:foreachLibraryCourtInverseIterator>
-         <tr><td>court</td><td><a href="../<viva:LibraryCourtInverseType/>/<viva:LibraryCourtInverseType/>.jsp?uri=<viva:LibraryCourtInverse/>"><viva:LibraryCourtInverse/></a></td></tr>
-      </viva:foreachLibraryCourtInverseIterator>
       <viva:foreachLibraryOrganizerInverseIterator>
          <tr><td>organizer</td><td><a href="../<viva:LibraryOrganizerInverseType/>/<viva:LibraryOrganizerInverseType/>.jsp?uri=<viva:LibraryOrganizerInverse/>"><viva:LibraryOrganizerInverse/></a></td></tr>
       </viva:foreachLibraryOrganizerInverseIterator>
@@ -130,6 +117,12 @@
       <viva:foreachLibraryDirectorInverseIterator>
          <tr><td>director</td><td><a href="../<viva:LibraryDirectorInverseType/>/<viva:LibraryDirectorInverseType/>.jsp?uri=<viva:LibraryDirectorInverse/>"><viva:LibraryDirectorInverse/></a></td></tr>
       </viva:foreachLibraryDirectorInverseIterator>
+      <viva:foreachLibraryOBI_0000304InverseIterator>
+         <tr><td>OBI_0000304</td><td><a href="../<viva:LibraryOBI_0000304InverseType/>/<viva:LibraryOBI_0000304InverseType/>.jsp?uri=<viva:LibraryOBI_0000304Inverse/>"><viva:LibraryOBI_0000304Inverse/></a></td></tr>
+      </viva:foreachLibraryOBI_0000304InverseIterator>
+      <viva:foreachLibraryCourtInverseIterator>
+         <tr><td>court</td><td><a href="../<viva:LibraryCourtInverseType/>/<viva:LibraryCourtInverseType/>.jsp?uri=<viva:LibraryCourtInverse/>"><viva:LibraryCourtInverse/></a></td></tr>
+      </viva:foreachLibraryCourtInverseIterator>
    </table>
    </viva:Library>
 

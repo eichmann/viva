@@ -124,30 +124,9 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachArticleDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<viva:ArticleDateTimeValueType/>/<viva:ArticleDateTimeValueType/>.jsp?uri=<viva:ArticleDateTimeValue/>"><viva:ArticleDateTimeValue /></a></td></tr>
-      </viva:foreachArticleDateTimeValueIterator>
-      <viva:foreachArticleHasPublicationVenueIterator>
-         <tr><td>hasPublicationVenue</td><td><a href="../<viva:ArticleHasPublicationVenueType/>/<viva:ArticleHasPublicationVenueType/>.jsp?uri=<viva:ArticleHasPublicationVenue/>"><viva:ArticleHasPublicationVenue /></a></td></tr>
-      </viva:foreachArticleHasPublicationVenueIterator>
-      <viva:foreachArticleARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<viva:ArticleARG_2000028Type/>/<viva:ArticleARG_2000028Type/>.jsp?uri=<viva:ArticleARG_2000028/>"><viva:ArticleARG_2000028 /></a></td></tr>
-      </viva:foreachArticleARG_2000028Iterator>
-      <viva:foreachArticleRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:ArticleRelatedByType/>/<viva:ArticleRelatedByType/>.jsp?uri=<viva:ArticleRelatedBy/>"><viva:ArticleRelatedBy /></a></td></tr>
-      </viva:foreachArticleRelatedByIterator>
-      <viva:foreachArticleRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:ArticleRelatesType/>/<viva:ArticleRelatesType/>.jsp?uri=<viva:ArticleRelates/>"><viva:ArticleRelates /></a></td></tr>
-      </viva:foreachArticleRelatesIterator>
       <viva:foreachArticleFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:ArticleFeaturesType/>/<viva:ArticleFeaturesType/>.jsp?uri=<viva:ArticleFeatures/>"><viva:ArticleFeatures /></a></td></tr>
       </viva:foreachArticleFeaturesIterator>
-      <viva:foreachArticleInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ArticleInformationResourceSupportedByType/>/<viva:ArticleInformationResourceSupportedByType/>.jsp?uri=<viva:ArticleInformationResourceSupportedBy/>"><viva:ArticleInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachArticleInformationResourceSupportedByIterator>
-      <viva:foreachArticleIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ArticleIAO_0000136Type/>/<viva:ArticleIAO_0000136Type/>.jsp?uri=<viva:ArticleIAO_0000136/>"><viva:ArticleIAO_0000136 /></a></td></tr>
-      </viva:foreachArticleIAO_0000136Iterator>
       <viva:foreachArticleEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:ArticleEditorType/>/<viva:ArticleEditorType/>.jsp?uri=<viva:ArticleEditor/>"><viva:ArticleEditor /></a></td></tr>
       </viva:foreachArticleEditorIterator>

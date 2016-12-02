@@ -37,27 +37,18 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachBibliographicInformationSourceFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:BibliographicInformationSourceFeaturesType/>/<viva:BibliographicInformationSourceFeaturesType/>.jsp?uri=<viva:BibliographicInformationSourceFeatures/>"><viva:BibliographicInformationSourceFeatures /></a></td></tr>
-      </viva:foreachBibliographicInformationSourceFeaturesIterator>
-      <viva:foreachBibliographicInformationSourceInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:BibliographicInformationSourceInformationResourceSupportedByType/>/<viva:BibliographicInformationSourceInformationResourceSupportedByType/>.jsp?uri=<viva:BibliographicInformationSourceInformationResourceSupportedBy/>"><viva:BibliographicInformationSourceInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachBibliographicInformationSourceInformationResourceSupportedByIterator>
-      <viva:foreachBibliographicInformationSourceIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:BibliographicInformationSourceIAO_0000136Type/>/<viva:BibliographicInformationSourceIAO_0000136Type/>.jsp?uri=<viva:BibliographicInformationSourceIAO_0000136/>"><viva:BibliographicInformationSourceIAO_0000136 /></a></td></tr>
-      </viva:foreachBibliographicInformationSourceIAO_0000136Iterator>
       <viva:foreachBibliographicInformationSourceERO_0000070Iterator>
          <tr><td>ERO_0000070</td><td><a href="../<viva:BibliographicInformationSourceERO_0000070Type/>/<viva:BibliographicInformationSourceERO_0000070Type/>.jsp?uri=<viva:BibliographicInformationSourceERO_0000070/>"><viva:BibliographicInformationSourceERO_0000070 /></a></td></tr>
       </viva:foreachBibliographicInformationSourceERO_0000070Iterator>
-      <viva:foreachBibliographicInformationSourceSWO_0000741Iterator>
-         <tr><td>SWO_0000741</td><td><a href="../<viva:BibliographicInformationSourceSWO_0000741Type/>/<viva:BibliographicInformationSourceSWO_0000741Type/>.jsp?uri=<viva:BibliographicInformationSourceSWO_0000741/>"><viva:BibliographicInformationSourceSWO_0000741 /></a></td></tr>
-      </viva:foreachBibliographicInformationSourceSWO_0000741Iterator>
       <viva:foreachBibliographicInformationSourceERO_0000460Iterator>
          <tr><td>ERO_0000460</td><td><a href="../<viva:BibliographicInformationSourceERO_0000460Type/>/<viva:BibliographicInformationSourceERO_0000460Type/>.jsp?uri=<viva:BibliographicInformationSourceERO_0000460/>"><viva:BibliographicInformationSourceERO_0000460 /></a></td></tr>
       </viva:foreachBibliographicInformationSourceERO_0000460Iterator>
       <viva:foreachBibliographicInformationSourceERO_0000034Iterator>
          <tr><td>ERO_0000034</td><td><a href="../<viva:BibliographicInformationSourceERO_0000034Type/>/<viva:BibliographicInformationSourceERO_0000034Type/>.jsp?uri=<viva:BibliographicInformationSourceERO_0000034/>"><viva:BibliographicInformationSourceERO_0000034 /></a></td></tr>
       </viva:foreachBibliographicInformationSourceERO_0000034Iterator>
+      <viva:foreachBibliographicInformationSourceFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:BibliographicInformationSourceFeaturesType/>/<viva:BibliographicInformationSourceFeaturesType/>.jsp?uri=<viva:BibliographicInformationSourceFeatures/>"><viva:BibliographicInformationSourceFeatures /></a></td></tr>
+      </viva:foreachBibliographicInformationSourceFeaturesIterator>
       <viva:foreachBibliographicInformationSourceRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:BibliographicInformationSourceRO_0000056Type/>/<viva:BibliographicInformationSourceRO_0000056Type/>.jsp?uri=<viva:BibliographicInformationSourceRO_0000056/>"><viva:BibliographicInformationSourceRO_0000056 /></a></td></tr>
       </viva:foreachBibliographicInformationSourceRO_0000056Iterator>

@@ -34,9 +34,6 @@
       <viva:foreachOrderedCollectionMemberListIterator>
          <tr><td>memberList</td><td><a href="../<viva:OrderedCollectionMemberListType/>/<viva:OrderedCollectionMemberListType/>.jsp?uri=<viva:OrderedCollectionMemberList/>"><viva:OrderedCollectionMemberList /></a></td></tr>
       </viva:foreachOrderedCollectionMemberListIterator>
-      <viva:foreachOrderedCollectionMemberIterator>
-         <tr><td>member</td><td><a href="../<viva:OrderedCollectionMemberType/>/<viva:OrderedCollectionMemberType/>.jsp?uri=<viva:OrderedCollectionMember/>"><viva:OrderedCollectionMember /></a></td></tr>
-      </viva:foreachOrderedCollectionMemberIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

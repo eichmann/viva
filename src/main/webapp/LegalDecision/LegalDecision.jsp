@@ -27,9 +27,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachLegalDecisionArguedIterator>
-         <tr><td>argued</td><td><viva:LegalDecisionArgued /></td></tr>
-      </viva:foreachLegalDecisionArguedIterator>
       <viva:foreachLegalDecisionEanucc13Iterator>
          <tr><td>eanucc13</td><td><viva:LegalDecisionEanucc13 /></td></tr>
       </viva:foreachLegalDecisionEanucc13Iterator>
@@ -117,6 +114,9 @@
       <viva:foreachLegalDecisionDoiIterator>
          <tr><td>doi</td><td><viva:LegalDecisionDoi /></td></tr>
       </viva:foreachLegalDecisionDoiIterator>
+      <viva:foreachLegalDecisionArguedIterator>
+         <tr><td>argued</td><td><viva:LegalDecisionArgued /></td></tr>
+      </viva:foreachLegalDecisionArguedIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -130,18 +130,9 @@
       <viva:foreachLegalDecisionReversedByIterator>
          <tr><td>reversedBy</td><td><a href="../<viva:LegalDecisionReversedByType/>/<viva:LegalDecisionReversedByType/>.jsp?uri=<viva:LegalDecisionReversedBy/>"><viva:LegalDecisionReversedBy /></a></td></tr>
       </viva:foreachLegalDecisionReversedByIterator>
-      <viva:foreachLegalDecisionCourtIterator>
-         <tr><td>court</td><td><a href="../<viva:LegalDecisionCourtType/>/<viva:LegalDecisionCourtType/>.jsp?uri=<viva:LegalDecisionCourt/>"><viva:LegalDecisionCourt /></a></td></tr>
-      </viva:foreachLegalDecisionCourtIterator>
       <viva:foreachLegalDecisionFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:LegalDecisionFeaturesType/>/<viva:LegalDecisionFeaturesType/>.jsp?uri=<viva:LegalDecisionFeatures/>"><viva:LegalDecisionFeatures /></a></td></tr>
       </viva:foreachLegalDecisionFeaturesIterator>
-      <viva:foreachLegalDecisionInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:LegalDecisionInformationResourceSupportedByType/>/<viva:LegalDecisionInformationResourceSupportedByType/>.jsp?uri=<viva:LegalDecisionInformationResourceSupportedBy/>"><viva:LegalDecisionInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachLegalDecisionInformationResourceSupportedByIterator>
-      <viva:foreachLegalDecisionIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:LegalDecisionIAO_0000136Type/>/<viva:LegalDecisionIAO_0000136Type/>.jsp?uri=<viva:LegalDecisionIAO_0000136/>"><viva:LegalDecisionIAO_0000136 /></a></td></tr>
-      </viva:foreachLegalDecisionIAO_0000136Iterator>
       <viva:foreachLegalDecisionEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:LegalDecisionEditorType/>/<viva:LegalDecisionEditorType/>.jsp?uri=<viva:LegalDecisionEditor/>"><viva:LegalDecisionEditor /></a></td></tr>
       </viva:foreachLegalDecisionEditorIterator>
@@ -205,6 +196,9 @@
       <viva:foreachLegalDecisionRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:LegalDecisionRO_0000056Type/>/<viva:LegalDecisionRO_0000056Type/>.jsp?uri=<viva:LegalDecisionRO_0000056/>"><viva:LegalDecisionRO_0000056 /></a></td></tr>
       </viva:foreachLegalDecisionRO_0000056Iterator>
+      <viva:foreachLegalDecisionCourtIterator>
+         <tr><td>court</td><td><a href="../<viva:LegalDecisionCourtType/>/<viva:LegalDecisionCourtType/>.jsp?uri=<viva:LegalDecisionCourt/>"><viva:LegalDecisionCourt /></a></td></tr>
+      </viva:foreachLegalDecisionCourtIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

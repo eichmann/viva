@@ -34,12 +34,6 @@
       <viva:foreachDbXrefFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:DbXrefFeaturesType/>/<viva:DbXrefFeaturesType/>.jsp?uri=<viva:DbXrefFeatures/>"><viva:DbXrefFeatures /></a></td></tr>
       </viva:foreachDbXrefFeaturesIterator>
-      <viva:foreachDbXrefInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:DbXrefInformationResourceSupportedByType/>/<viva:DbXrefInformationResourceSupportedByType/>.jsp?uri=<viva:DbXrefInformationResourceSupportedBy/>"><viva:DbXrefInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachDbXrefInformationResourceSupportedByIterator>
-      <viva:foreachDbXrefIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:DbXrefIAO_0000136Type/>/<viva:DbXrefIAO_0000136Type/>.jsp?uri=<viva:DbXrefIAO_0000136/>"><viva:DbXrefIAO_0000136 /></a></td></tr>
-      </viva:foreachDbXrefIAO_0000136Iterator>
       <viva:foreachDbXrefRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:DbXrefRO_0000056Type/>/<viva:DbXrefRO_0000056Type/>.jsp?uri=<viva:DbXrefRO_0000056/>"><viva:DbXrefRO_0000056 /></a></td></tr>
       </viva:foreachDbXrefRO_0000056Iterator>

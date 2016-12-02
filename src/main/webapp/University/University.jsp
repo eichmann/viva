@@ -23,7 +23,6 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>abbreviation</td><td><viva:UniversityAbbreviation /></td></tr>
       <tr><td>overview</td><td><viva:UniversityOverview /></td></tr>
    </table>
 
@@ -39,48 +38,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachUniversityRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:UniversityRO_0000053Type/>/<viva:UniversityRO_0000053Type/>.jsp?uri=<viva:UniversityRO_0000053/>"><viva:UniversityRO_0000053 /></a></td></tr>
-      </viva:foreachUniversityRO_0000053Iterator>
-      <viva:foreachUniversitySponsorsIterator>
-         <tr><td>sponsors</td><td><a href="../<viva:UniversitySponsorsType/>/<viva:UniversitySponsorsType/>.jsp?uri=<viva:UniversitySponsors/>"><viva:UniversitySponsors /></a></td></tr>
-      </viva:foreachUniversitySponsorsIterator>
-      <viva:foreachUniversityPublisherOfIterator>
-         <tr><td>publisherOf</td><td><a href="../<viva:UniversityPublisherOfType/>/<viva:UniversityPublisherOfType/>.jsp?uri=<viva:UniversityPublisherOf/>"><viva:UniversityPublisherOf /></a></td></tr>
-      </viva:foreachUniversityPublisherOfIterator>
-      <viva:foreachUniversityERO_0000031Iterator>
-         <tr><td>ERO_0000031</td><td><a href="../<viva:UniversityERO_0000031Type/>/<viva:UniversityERO_0000031Type/>.jsp?uri=<viva:UniversityERO_0000031/>"><viva:UniversityERO_0000031 /></a></td></tr>
-      </viva:foreachUniversityERO_0000031Iterator>
-      <viva:foreachUniversityGoverningAuthorityForIterator>
-         <tr><td>governingAuthorityFor</td><td><a href="../<viva:UniversityGoverningAuthorityForType/>/<viva:UniversityGoverningAuthorityForType/>.jsp?uri=<viva:UniversityGoverningAuthorityFor/>"><viva:UniversityGoverningAuthorityFor /></a></td></tr>
-      </viva:foreachUniversityGoverningAuthorityForIterator>
-      <viva:foreachUniversityERO_0000037Iterator>
-         <tr><td>ERO_0000037</td><td><a href="../<viva:UniversityERO_0000037Type/>/<viva:UniversityERO_0000037Type/>.jsp?uri=<viva:UniversityERO_0000037/>"><viva:UniversityERO_0000037 /></a></td></tr>
-      </viva:foreachUniversityERO_0000037Iterator>
-      <viva:foreachUniversityERO_0001520Iterator>
-         <tr><td>ERO_0001520</td><td><a href="../<viva:UniversityERO_0001520Type/>/<viva:UniversityERO_0001520Type/>.jsp?uri=<viva:UniversityERO_0001520/>"><viva:UniversityERO_0001520 /></a></td></tr>
-      </viva:foreachUniversityERO_0001520Iterator>
-      <viva:foreachUniversityRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:UniversityRelatedByType/>/<viva:UniversityRelatedByType/>.jsp?uri=<viva:UniversityRelatedBy/>"><viva:UniversityRelatedBy /></a></td></tr>
-      </viva:foreachUniversityRelatedByIterator>
-      <viva:foreachUniversitySubcontractsGrantIterator>
-         <tr><td>subcontractsGrant</td><td><a href="../<viva:UniversitySubcontractsGrantType/>/<viva:UniversitySubcontractsGrantType/>.jsp?uri=<viva:UniversitySubcontractsGrant/>"><viva:UniversitySubcontractsGrant /></a></td></tr>
-      </viva:foreachUniversitySubcontractsGrantIterator>
-      <viva:foreachUniversityHasSuccessorOrganizationIterator>
-         <tr><td>hasSuccessorOrganization</td><td><a href="../<viva:UniversityHasSuccessorOrganizationType/>/<viva:UniversityHasSuccessorOrganizationType/>.jsp?uri=<viva:UniversityHasSuccessorOrganization/>"><viva:UniversityHasSuccessorOrganization /></a></td></tr>
-      </viva:foreachUniversityHasSuccessorOrganizationIterator>
-      <viva:foreachUniversityHasPredecessorOrganizationIterator>
-         <tr><td>hasPredecessorOrganization</td><td><a href="../<viva:UniversityHasPredecessorOrganizationType/>/<viva:UniversityHasPredecessorOrganizationType/>.jsp?uri=<viva:UniversityHasPredecessorOrganization/>"><viva:UniversityHasPredecessorOrganization /></a></td></tr>
-      </viva:foreachUniversityHasPredecessorOrganizationIterator>
-      <viva:foreachUniversityHasEquipmentIterator>
-         <tr><td>hasEquipment</td><td><a href="../<viva:UniversityHasEquipmentType/>/<viva:UniversityHasEquipmentType/>.jsp?uri=<viva:UniversityHasEquipment/>"><viva:UniversityHasEquipment /></a></td></tr>
-      </viva:foreachUniversityHasEquipmentIterator>
-      <viva:foreachUniversityAffiliatedOrganizationIterator>
-         <tr><td>affiliatedOrganization</td><td><a href="../<viva:UniversityAffiliatedOrganizationType/>/<viva:UniversityAffiliatedOrganizationType/>.jsp?uri=<viva:UniversityAffiliatedOrganization/>"><viva:UniversityAffiliatedOrganization /></a></td></tr>
-      </viva:foreachUniversityAffiliatedOrganizationIterator>
       <viva:foreachUniversityRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:UniversityRO_0000056Type/>/<viva:UniversityRO_0000056Type/>.jsp?uri=<viva:UniversityRO_0000056/>"><viva:UniversityRO_0000056 /></a></td></tr>
       </viva:foreachUniversityRO_0000056Iterator>
+      <viva:foreachUniversityRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:UniversityRO_0000053Type/>/<viva:UniversityRO_0000053Type/>.jsp?uri=<viva:UniversityRO_0000053/>"><viva:UniversityRO_0000053 /></a></td></tr>
+      </viva:foreachUniversityRO_0000053Iterator>
       <viva:foreachUniversityAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<viva:UniversityAssigneeForType/>/<viva:UniversityAssigneeForType/>.jsp?uri=<viva:UniversityAssigneeFor/>"><viva:UniversityAssigneeFor /></a></td></tr>
       </viva:foreachUniversityAssigneeForIterator>
@@ -96,16 +59,40 @@
       <viva:foreachUniversityTranslatorOfIterator>
          <tr><td>translatorOf</td><td><a href="../<viva:UniversityTranslatorOfType/>/<viva:UniversityTranslatorOfType/>.jsp?uri=<viva:UniversityTranslatorOf/>"><viva:UniversityTranslatorOf /></a></td></tr>
       </viva:foreachUniversityTranslatorOfIterator>
+      <viva:foreachUniversitySponsorsIterator>
+         <tr><td>sponsors</td><td><a href="../<viva:UniversitySponsorsType/>/<viva:UniversitySponsorsType/>.jsp?uri=<viva:UniversitySponsors/>"><viva:UniversitySponsors /></a></td></tr>
+      </viva:foreachUniversitySponsorsIterator>
+      <viva:foreachUniversityPublisherOfIterator>
+         <tr><td>publisherOf</td><td><a href="../<viva:UniversityPublisherOfType/>/<viva:UniversityPublisherOfType/>.jsp?uri=<viva:UniversityPublisherOf/>"><viva:UniversityPublisherOf /></a></td></tr>
+      </viva:foreachUniversityPublisherOfIterator>
+      <viva:foreachUniversityERO_0000031Iterator>
+         <tr><td>ERO_0000031</td><td><a href="../<viva:UniversityERO_0000031Type/>/<viva:UniversityERO_0000031Type/>.jsp?uri=<viva:UniversityERO_0000031/>"><viva:UniversityERO_0000031 /></a></td></tr>
+      </viva:foreachUniversityERO_0000031Iterator>
+      <viva:foreachUniversityERO_0000037Iterator>
+         <tr><td>ERO_0000037</td><td><a href="../<viva:UniversityERO_0000037Type/>/<viva:UniversityERO_0000037Type/>.jsp?uri=<viva:UniversityERO_0000037/>"><viva:UniversityERO_0000037 /></a></td></tr>
+      </viva:foreachUniversityERO_0000037Iterator>
+      <viva:foreachUniversityERO_0001520Iterator>
+         <tr><td>ERO_0001520</td><td><a href="../<viva:UniversityERO_0001520Type/>/<viva:UniversityERO_0001520Type/>.jsp?uri=<viva:UniversityERO_0001520/>"><viva:UniversityERO_0001520 /></a></td></tr>
+      </viva:foreachUniversityERO_0001520Iterator>
+      <viva:foreachUniversitySubcontractsGrantIterator>
+         <tr><td>subcontractsGrant</td><td><a href="../<viva:UniversitySubcontractsGrantType/>/<viva:UniversitySubcontractsGrantType/>.jsp?uri=<viva:UniversitySubcontractsGrant/>"><viva:UniversitySubcontractsGrant /></a></td></tr>
+      </viva:foreachUniversitySubcontractsGrantIterator>
+      <viva:foreachUniversityHasSuccessorOrganizationIterator>
+         <tr><td>hasSuccessorOrganization</td><td><a href="../<viva:UniversityHasSuccessorOrganizationType/>/<viva:UniversityHasSuccessorOrganizationType/>.jsp?uri=<viva:UniversityHasSuccessorOrganization/>"><viva:UniversityHasSuccessorOrganization /></a></td></tr>
+      </viva:foreachUniversityHasSuccessorOrganizationIterator>
+      <viva:foreachUniversityHasPredecessorOrganizationIterator>
+         <tr><td>hasPredecessorOrganization</td><td><a href="../<viva:UniversityHasPredecessorOrganizationType/>/<viva:UniversityHasPredecessorOrganizationType/>.jsp?uri=<viva:UniversityHasPredecessorOrganization/>"><viva:UniversityHasPredecessorOrganization /></a></td></tr>
+      </viva:foreachUniversityHasPredecessorOrganizationIterator>
+      <viva:foreachUniversityHasEquipmentIterator>
+         <tr><td>hasEquipment</td><td><a href="../<viva:UniversityHasEquipmentType/>/<viva:UniversityHasEquipmentType/>.jsp?uri=<viva:UniversityHasEquipment/>"><viva:UniversityHasEquipment /></a></td></tr>
+      </viva:foreachUniversityHasEquipmentIterator>
+      <viva:foreachUniversityAffiliatedOrganizationIterator>
+         <tr><td>affiliatedOrganization</td><td><a href="../<viva:UniversityAffiliatedOrganizationType/>/<viva:UniversityAffiliatedOrganizationType/>.jsp?uri=<viva:UniversityAffiliatedOrganization/>"><viva:UniversityAffiliatedOrganization /></a></td></tr>
+      </viva:foreachUniversityAffiliatedOrganizationIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachUniversityOBI_0000304InverseIterator>
-         <tr><td>OBI_0000304</td><td><a href="../<viva:UniversityOBI_0000304InverseType/>/<viva:UniversityOBI_0000304InverseType/>.jsp?uri=<viva:UniversityOBI_0000304Inverse/>"><viva:UniversityOBI_0000304Inverse/></a></td></tr>
-      </viva:foreachUniversityOBI_0000304InverseIterator>
-      <viva:foreachUniversityCourtInverseIterator>
-         <tr><td>court</td><td><a href="../<viva:UniversityCourtInverseType/>/<viva:UniversityCourtInverseType/>.jsp?uri=<viva:UniversityCourtInverse/>"><viva:UniversityCourtInverse/></a></td></tr>
-      </viva:foreachUniversityCourtInverseIterator>
       <viva:foreachUniversityOrganizerInverseIterator>
          <tr><td>organizer</td><td><a href="../<viva:UniversityOrganizerInverseType/>/<viva:UniversityOrganizerInverseType/>.jsp?uri=<viva:UniversityOrganizerInverse/>"><viva:UniversityOrganizerInverse/></a></td></tr>
       </viva:foreachUniversityOrganizerInverseIterator>
@@ -130,6 +117,12 @@
       <viva:foreachUniversityDirectorInverseIterator>
          <tr><td>director</td><td><a href="../<viva:UniversityDirectorInverseType/>/<viva:UniversityDirectorInverseType/>.jsp?uri=<viva:UniversityDirectorInverse/>"><viva:UniversityDirectorInverse/></a></td></tr>
       </viva:foreachUniversityDirectorInverseIterator>
+      <viva:foreachUniversityOBI_0000304InverseIterator>
+         <tr><td>OBI_0000304</td><td><a href="../<viva:UniversityOBI_0000304InverseType/>/<viva:UniversityOBI_0000304InverseType/>.jsp?uri=<viva:UniversityOBI_0000304Inverse/>"><viva:UniversityOBI_0000304Inverse/></a></td></tr>
+      </viva:foreachUniversityOBI_0000304InverseIterator>
+      <viva:foreachUniversityCourtInverseIterator>
+         <tr><td>court</td><td><a href="../<viva:UniversityCourtInverseType/>/<viva:UniversityCourtInverseType/>.jsp?uri=<viva:UniversityCourtInverse/>"><viva:UniversityCourtInverse/></a></td></tr>
+      </viva:foreachUniversityCourtInverseIterator>
    </table>
    </viva:University>
 

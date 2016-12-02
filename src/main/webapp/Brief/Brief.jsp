@@ -27,9 +27,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachBriefArguedIterator>
-         <tr><td>argued</td><td><viva:BriefArgued /></td></tr>
-      </viva:foreachBriefArguedIterator>
       <viva:foreachBriefEanucc13Iterator>
          <tr><td>eanucc13</td><td><viva:BriefEanucc13 /></td></tr>
       </viva:foreachBriefEanucc13Iterator>
@@ -117,22 +114,16 @@
       <viva:foreachBriefDoiIterator>
          <tr><td>doi</td><td><viva:BriefDoi /></td></tr>
       </viva:foreachBriefDoiIterator>
+      <viva:foreachBriefArguedIterator>
+         <tr><td>argued</td><td><viva:BriefArgued /></td></tr>
+      </viva:foreachBriefArguedIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachBriefCourtIterator>
-         <tr><td>court</td><td><a href="../<viva:BriefCourtType/>/<viva:BriefCourtType/>.jsp?uri=<viva:BriefCourt/>"><viva:BriefCourt /></a></td></tr>
-      </viva:foreachBriefCourtIterator>
       <viva:foreachBriefFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:BriefFeaturesType/>/<viva:BriefFeaturesType/>.jsp?uri=<viva:BriefFeatures/>"><viva:BriefFeatures /></a></td></tr>
       </viva:foreachBriefFeaturesIterator>
-      <viva:foreachBriefInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:BriefInformationResourceSupportedByType/>/<viva:BriefInformationResourceSupportedByType/>.jsp?uri=<viva:BriefInformationResourceSupportedBy/>"><viva:BriefInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachBriefInformationResourceSupportedByIterator>
-      <viva:foreachBriefIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:BriefIAO_0000136Type/>/<viva:BriefIAO_0000136Type/>.jsp?uri=<viva:BriefIAO_0000136/>"><viva:BriefIAO_0000136 /></a></td></tr>
-      </viva:foreachBriefIAO_0000136Iterator>
       <viva:foreachBriefEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:BriefEditorType/>/<viva:BriefEditorType/>.jsp?uri=<viva:BriefEditor/>"><viva:BriefEditor /></a></td></tr>
       </viva:foreachBriefEditorIterator>
@@ -196,6 +187,9 @@
       <viva:foreachBriefRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:BriefRO_0000056Type/>/<viva:BriefRO_0000056Type/>.jsp?uri=<viva:BriefRO_0000056/>"><viva:BriefRO_0000056 /></a></td></tr>
       </viva:foreachBriefRO_0000056Iterator>
+      <viva:foreachBriefCourtIterator>
+         <tr><td>court</td><td><a href="../<viva:BriefCourtType/>/<viva:BriefCourtType/>.jsp?uri=<viva:BriefCourt/>"><viva:BriefCourt /></a></td></tr>
+      </viva:foreachBriefCourtIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

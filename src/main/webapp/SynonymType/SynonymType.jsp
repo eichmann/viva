@@ -34,12 +34,6 @@
       <viva:foreachSynonymTypeFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:SynonymTypeFeaturesType/>/<viva:SynonymTypeFeaturesType/>.jsp?uri=<viva:SynonymTypeFeatures/>"><viva:SynonymTypeFeatures /></a></td></tr>
       </viva:foreachSynonymTypeFeaturesIterator>
-      <viva:foreachSynonymTypeInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:SynonymTypeInformationResourceSupportedByType/>/<viva:SynonymTypeInformationResourceSupportedByType/>.jsp?uri=<viva:SynonymTypeInformationResourceSupportedBy/>"><viva:SynonymTypeInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachSynonymTypeInformationResourceSupportedByIterator>
-      <viva:foreachSynonymTypeIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:SynonymTypeIAO_0000136Type/>/<viva:SynonymTypeIAO_0000136Type/>.jsp?uri=<viva:SynonymTypeIAO_0000136/>"><viva:SynonymTypeIAO_0000136 /></a></td></tr>
-      </viva:foreachSynonymTypeIAO_0000136Iterator>
       <viva:foreachSynonymTypeRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:SynonymTypeRO_0000056Type/>/<viva:SynonymTypeRO_0000056Type/>.jsp?uri=<viva:SynonymTypeRO_0000056/>"><viva:SynonymTypeRO_0000056 /></a></td></tr>
       </viva:foreachSynonymTypeRO_0000056Iterator>

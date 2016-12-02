@@ -27,9 +27,45 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachSeqAnnotatedSourceIterator>
+         <tr><td>annotatedSource</td><td><viva:SeqAnnotatedSource /></td></tr>
+      </viva:foreachSeqAnnotatedSourceIterator>
+      <viva:foreachSeqLabelIterator>
+         <tr><td>label</td><td><viva:SeqLabel /></td></tr>
+      </viva:foreachSeqLabelIterator>
+      <viva:foreachSeqCommentIterator>
+         <tr><td>comment</td><td><viva:SeqComment /></td></tr>
+      </viva:foreachSeqCommentIterator>
+      <viva:foreachSeqIsDefinedByIterator>
+         <tr><td>isDefinedBy</td><td><viva:SeqIsDefinedBy /></td></tr>
+      </viva:foreachSeqIsDefinedByIterator>
+      <viva:foreachSeqMembersIterator>
+         <tr><td>members</td><td><viva:SeqMembers /></td></tr>
+      </viva:foreachSeqMembersIterator>
+      <viva:foreachSeqSeeAlsoIterator>
+         <tr><td>seeAlso</td><td><viva:SeqSeeAlso /></td></tr>
+      </viva:foreachSeqSeeAlsoIterator>
+      <viva:foreachSeqMemberIterator>
+         <tr><td>member</td><td><viva:SeqMember /></td></tr>
+      </viva:foreachSeqMemberIterator>
+      <viva:foreachSeqAnnotatedTargetIterator>
+         <tr><td>annotatedTarget</td><td><viva:SeqAnnotatedTarget /></td></tr>
+      </viva:foreachSeqAnnotatedTargetIterator>
+      <viva:foreachSeqAnnotatedPropertyIterator>
+         <tr><td>annotatedProperty</td><td><viva:SeqAnnotatedProperty /></td></tr>
+      </viva:foreachSeqAnnotatedPropertyIterator>
+      <viva:foreachSeqTypeIterator>
+         <tr><td>type</td><td><viva:SeqType /></td></tr>
+      </viva:foreachSeqTypeIterator>
       <viva:foreachSeqTheAbstractIterator>
          <tr><td>theAbstract</td><td><viva:SeqTheAbstract /></td></tr>
       </viva:foreachSeqTheAbstractIterator>
+      <viva:foreachSeqDeprecatedIterator>
+         <tr><td>deprecated</td><td><viva:SeqDeprecated /></td></tr>
+      </viva:foreachSeqDeprecatedIterator>
+      <viva:foreachSeqVersionInfoIterator>
+         <tr><td>versionInfo</td><td><viva:SeqVersionInfo /></td></tr>
+      </viva:foreachSeqVersionInfoIterator>
    </table>
 
    <h3>Object Properties</h3>

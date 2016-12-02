@@ -27,12 +27,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachAcademicArticlePmcidIterator>
-         <tr><td>pmcid</td><td><viva:AcademicArticlePmcid /></td></tr>
-      </viva:foreachAcademicArticlePmcidIterator>
-      <viva:foreachAcademicArticleNihmsidIterator>
-         <tr><td>nihmsid</td><td><viva:AcademicArticleNihmsid /></td></tr>
-      </viva:foreachAcademicArticleNihmsidIterator>
       <viva:foreachAcademicArticleEanucc13Iterator>
          <tr><td>eanucc13</td><td><viva:AcademicArticleEanucc13 /></td></tr>
       </viva:foreachAcademicArticleEanucc13Iterator>
@@ -120,6 +114,12 @@
       <viva:foreachAcademicArticleDoiIterator>
          <tr><td>doi</td><td><viva:AcademicArticleDoi /></td></tr>
       </viva:foreachAcademicArticleDoiIterator>
+      <viva:foreachAcademicArticlePmcidIterator>
+         <tr><td>pmcid</td><td><viva:AcademicArticlePmcid /></td></tr>
+      </viva:foreachAcademicArticlePmcidIterator>
+      <viva:foreachAcademicArticleNihmsidIterator>
+         <tr><td>nihmsid</td><td><viva:AcademicArticleNihmsid /></td></tr>
+      </viva:foreachAcademicArticleNihmsidIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -127,30 +127,12 @@
       <viva:foreachAcademicArticleDateTimeValueIterator>
          <tr><td>dateTimeValue</td><td><a href="../<viva:AcademicArticleDateTimeValueType/>/<viva:AcademicArticleDateTimeValueType/>.jsp?uri=<viva:AcademicArticleDateTimeValue/>"><viva:AcademicArticleDateTimeValue /></a></td></tr>
       </viva:foreachAcademicArticleDateTimeValueIterator>
-      <viva:foreachAcademicArticleHasPublicationVenueIterator>
-         <tr><td>hasPublicationVenue</td><td><a href="../<viva:AcademicArticleHasPublicationVenueType/>/<viva:AcademicArticleHasPublicationVenueType/>.jsp?uri=<viva:AcademicArticleHasPublicationVenue/>"><viva:AcademicArticleHasPublicationVenue /></a></td></tr>
-      </viva:foreachAcademicArticleHasPublicationVenueIterator>
       <viva:foreachAcademicArticleARG_2000028Iterator>
          <tr><td>ARG_2000028</td><td><a href="../<viva:AcademicArticleARG_2000028Type/>/<viva:AcademicArticleARG_2000028Type/>.jsp?uri=<viva:AcademicArticleARG_2000028/>"><viva:AcademicArticleARG_2000028 /></a></td></tr>
       </viva:foreachAcademicArticleARG_2000028Iterator>
-      <viva:foreachAcademicArticleRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:AcademicArticleRelatedByType/>/<viva:AcademicArticleRelatedByType/>.jsp?uri=<viva:AcademicArticleRelatedBy/>"><viva:AcademicArticleRelatedBy /></a></td></tr>
-      </viva:foreachAcademicArticleRelatedByIterator>
-      <viva:foreachAcademicArticleHasSubjectAreaIterator>
-         <tr><td>hasSubjectArea</td><td><a href="../<viva:AcademicArticleHasSubjectAreaType/>/<viva:AcademicArticleHasSubjectAreaType/>.jsp?uri=<viva:AcademicArticleHasSubjectArea/>"><viva:AcademicArticleHasSubjectArea /></a></td></tr>
-      </viva:foreachAcademicArticleHasSubjectAreaIterator>
-      <viva:foreachAcademicArticleRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:AcademicArticleRelatesType/>/<viva:AcademicArticleRelatesType/>.jsp?uri=<viva:AcademicArticleRelates/>"><viva:AcademicArticleRelates /></a></td></tr>
-      </viva:foreachAcademicArticleRelatesIterator>
       <viva:foreachAcademicArticleFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:AcademicArticleFeaturesType/>/<viva:AcademicArticleFeaturesType/>.jsp?uri=<viva:AcademicArticleFeatures/>"><viva:AcademicArticleFeatures /></a></td></tr>
       </viva:foreachAcademicArticleFeaturesIterator>
-      <viva:foreachAcademicArticleInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:AcademicArticleInformationResourceSupportedByType/>/<viva:AcademicArticleInformationResourceSupportedByType/>.jsp?uri=<viva:AcademicArticleInformationResourceSupportedBy/>"><viva:AcademicArticleInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachAcademicArticleInformationResourceSupportedByIterator>
-      <viva:foreachAcademicArticleIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:AcademicArticleIAO_0000136Type/>/<viva:AcademicArticleIAO_0000136Type/>.jsp?uri=<viva:AcademicArticleIAO_0000136/>"><viva:AcademicArticleIAO_0000136 /></a></td></tr>
-      </viva:foreachAcademicArticleIAO_0000136Iterator>
       <viva:foreachAcademicArticleEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:AcademicArticleEditorType/>/<viva:AcademicArticleEditorType/>.jsp?uri=<viva:AcademicArticleEditor/>"><viva:AcademicArticleEditor /></a></td></tr>
       </viva:foreachAcademicArticleEditorIterator>

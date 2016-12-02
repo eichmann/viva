@@ -31,12 +31,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachGeographicLocationRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:GeographicLocationRO_0000053Type/>/<viva:GeographicLocationRO_0000053Type/>.jsp?uri=<viva:GeographicLocationRO_0000053/>"><viva:GeographicLocationRO_0000053 /></a></td></tr>
-      </viva:foreachGeographicLocationRO_0000053Iterator>
       <viva:foreachGeographicLocationRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:GeographicLocationRO_0000056Type/>/<viva:GeographicLocationRO_0000056Type/>.jsp?uri=<viva:GeographicLocationRO_0000056/>"><viva:GeographicLocationRO_0000056 /></a></td></tr>
       </viva:foreachGeographicLocationRO_0000056Iterator>
+      <viva:foreachGeographicLocationRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:GeographicLocationRO_0000053Type/>/<viva:GeographicLocationRO_0000053Type/>.jsp?uri=<viva:GeographicLocationRO_0000053/>"><viva:GeographicLocationRO_0000053 /></a></td></tr>
+      </viva:foreachGeographicLocationRO_0000053Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

@@ -38,12 +38,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachGroupRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:GroupRO_0000053Type/>/<viva:GroupRO_0000053Type/>.jsp?uri=<viva:GroupRO_0000053/>"><viva:GroupRO_0000053 /></a></td></tr>
-      </viva:foreachGroupRO_0000053Iterator>
       <viva:foreachGroupRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:GroupRO_0000056Type/>/<viva:GroupRO_0000056Type/>.jsp?uri=<viva:GroupRO_0000056/>"><viva:GroupRO_0000056 /></a></td></tr>
       </viva:foreachGroupRO_0000056Iterator>
+      <viva:foreachGroupRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:GroupRO_0000053Type/>/<viva:GroupRO_0000053Type/>.jsp?uri=<viva:GroupRO_0000053/>"><viva:GroupRO_0000053 /></a></td></tr>
+      </viva:foreachGroupRO_0000053Iterator>
       <viva:foreachGroupAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<viva:GroupAssigneeForType/>/<viva:GroupAssigneeForType/>.jsp?uri=<viva:GroupAssigneeFor/>"><viva:GroupAssigneeFor /></a></td></tr>
       </viva:foreachGroupAssigneeForIterator>

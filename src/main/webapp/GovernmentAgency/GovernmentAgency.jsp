@@ -23,7 +23,6 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>abbreviation</td><td><viva:GovernmentAgencyAbbreviation /></td></tr>
       <tr><td>overview</td><td><viva:GovernmentAgencyOverview /></td></tr>
    </table>
 
@@ -39,12 +38,27 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachGovernmentAgencyRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:GovernmentAgencyRelatedByType/>/<viva:GovernmentAgencyRelatedByType/>.jsp?uri=<viva:GovernmentAgencyRelatedBy/>"><viva:GovernmentAgencyRelatedBy /></a></td></tr>
-      </viva:foreachGovernmentAgencyRelatedByIterator>
+      <viva:foreachGovernmentAgencyRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:GovernmentAgencyRO_0000056Type/>/<viva:GovernmentAgencyRO_0000056Type/>.jsp?uri=<viva:GovernmentAgencyRO_0000056/>"><viva:GovernmentAgencyRO_0000056 /></a></td></tr>
+      </viva:foreachGovernmentAgencyRO_0000056Iterator>
       <viva:foreachGovernmentAgencyRO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<viva:GovernmentAgencyRO_0000053Type/>/<viva:GovernmentAgencyRO_0000053Type/>.jsp?uri=<viva:GovernmentAgencyRO_0000053/>"><viva:GovernmentAgencyRO_0000053 /></a></td></tr>
       </viva:foreachGovernmentAgencyRO_0000053Iterator>
+      <viva:foreachGovernmentAgencyAssigneeForIterator>
+         <tr><td>assigneeFor</td><td><a href="../<viva:GovernmentAgencyAssigneeForType/>/<viva:GovernmentAgencyAssigneeForType/>.jsp?uri=<viva:GovernmentAgencyAssigneeFor/>"><viva:GovernmentAgencyAssigneeFor /></a></td></tr>
+      </viva:foreachGovernmentAgencyAssigneeForIterator>
+      <viva:foreachGovernmentAgencyHasCollaboratorIterator>
+         <tr><td>hasCollaborator</td><td><a href="../<viva:GovernmentAgencyHasCollaboratorType/>/<viva:GovernmentAgencyHasCollaboratorType/>.jsp?uri=<viva:GovernmentAgencyHasCollaborator/>"><viva:GovernmentAgencyHasCollaborator /></a></td></tr>
+      </viva:foreachGovernmentAgencyHasCollaboratorIterator>
+      <viva:foreachGovernmentAgencyInterviewerIterator>
+         <tr><td>interviewer</td><td><a href="../<viva:GovernmentAgencyInterviewerType/>/<viva:GovernmentAgencyInterviewerType/>.jsp?uri=<viva:GovernmentAgencyInterviewer/>"><viva:GovernmentAgencyInterviewer /></a></td></tr>
+      </viva:foreachGovernmentAgencyInterviewerIterator>
+      <viva:foreachGovernmentAgencyIntervieweeIterator>
+         <tr><td>interviewee</td><td><a href="../<viva:GovernmentAgencyIntervieweeType/>/<viva:GovernmentAgencyIntervieweeType/>.jsp?uri=<viva:GovernmentAgencyInterviewee/>"><viva:GovernmentAgencyInterviewee /></a></td></tr>
+      </viva:foreachGovernmentAgencyIntervieweeIterator>
+      <viva:foreachGovernmentAgencyTranslatorOfIterator>
+         <tr><td>translatorOf</td><td><a href="../<viva:GovernmentAgencyTranslatorOfType/>/<viva:GovernmentAgencyTranslatorOfType/>.jsp?uri=<viva:GovernmentAgencyTranslatorOf/>"><viva:GovernmentAgencyTranslatorOf /></a></td></tr>
+      </viva:foreachGovernmentAgencyTranslatorOfIterator>
       <viva:foreachGovernmentAgencySponsorsIterator>
          <tr><td>sponsors</td><td><a href="../<viva:GovernmentAgencySponsorsType/>/<viva:GovernmentAgencySponsorsType/>.jsp?uri=<viva:GovernmentAgencySponsors/>"><viva:GovernmentAgencySponsors /></a></td></tr>
       </viva:foreachGovernmentAgencySponsorsIterator>
@@ -54,9 +68,6 @@
       <viva:foreachGovernmentAgencyERO_0000031Iterator>
          <tr><td>ERO_0000031</td><td><a href="../<viva:GovernmentAgencyERO_0000031Type/>/<viva:GovernmentAgencyERO_0000031Type/>.jsp?uri=<viva:GovernmentAgencyERO_0000031/>"><viva:GovernmentAgencyERO_0000031 /></a></td></tr>
       </viva:foreachGovernmentAgencyERO_0000031Iterator>
-      <viva:foreachGovernmentAgencyGoverningAuthorityForIterator>
-         <tr><td>governingAuthorityFor</td><td><a href="../<viva:GovernmentAgencyGoverningAuthorityForType/>/<viva:GovernmentAgencyGoverningAuthorityForType/>.jsp?uri=<viva:GovernmentAgencyGoverningAuthorityFor/>"><viva:GovernmentAgencyGoverningAuthorityFor /></a></td></tr>
-      </viva:foreachGovernmentAgencyGoverningAuthorityForIterator>
       <viva:foreachGovernmentAgencyERO_0000037Iterator>
          <tr><td>ERO_0000037</td><td><a href="../<viva:GovernmentAgencyERO_0000037Type/>/<viva:GovernmentAgencyERO_0000037Type/>.jsp?uri=<viva:GovernmentAgencyERO_0000037/>"><viva:GovernmentAgencyERO_0000037 /></a></td></tr>
       </viva:foreachGovernmentAgencyERO_0000037Iterator>
@@ -78,34 +89,10 @@
       <viva:foreachGovernmentAgencyAffiliatedOrganizationIterator>
          <tr><td>affiliatedOrganization</td><td><a href="../<viva:GovernmentAgencyAffiliatedOrganizationType/>/<viva:GovernmentAgencyAffiliatedOrganizationType/>.jsp?uri=<viva:GovernmentAgencyAffiliatedOrganization/>"><viva:GovernmentAgencyAffiliatedOrganization /></a></td></tr>
       </viva:foreachGovernmentAgencyAffiliatedOrganizationIterator>
-      <viva:foreachGovernmentAgencyRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:GovernmentAgencyRO_0000056Type/>/<viva:GovernmentAgencyRO_0000056Type/>.jsp?uri=<viva:GovernmentAgencyRO_0000056/>"><viva:GovernmentAgencyRO_0000056 /></a></td></tr>
-      </viva:foreachGovernmentAgencyRO_0000056Iterator>
-      <viva:foreachGovernmentAgencyAssigneeForIterator>
-         <tr><td>assigneeFor</td><td><a href="../<viva:GovernmentAgencyAssigneeForType/>/<viva:GovernmentAgencyAssigneeForType/>.jsp?uri=<viva:GovernmentAgencyAssigneeFor/>"><viva:GovernmentAgencyAssigneeFor /></a></td></tr>
-      </viva:foreachGovernmentAgencyAssigneeForIterator>
-      <viva:foreachGovernmentAgencyHasCollaboratorIterator>
-         <tr><td>hasCollaborator</td><td><a href="../<viva:GovernmentAgencyHasCollaboratorType/>/<viva:GovernmentAgencyHasCollaboratorType/>.jsp?uri=<viva:GovernmentAgencyHasCollaborator/>"><viva:GovernmentAgencyHasCollaborator /></a></td></tr>
-      </viva:foreachGovernmentAgencyHasCollaboratorIterator>
-      <viva:foreachGovernmentAgencyInterviewerIterator>
-         <tr><td>interviewer</td><td><a href="../<viva:GovernmentAgencyInterviewerType/>/<viva:GovernmentAgencyInterviewerType/>.jsp?uri=<viva:GovernmentAgencyInterviewer/>"><viva:GovernmentAgencyInterviewer /></a></td></tr>
-      </viva:foreachGovernmentAgencyInterviewerIterator>
-      <viva:foreachGovernmentAgencyIntervieweeIterator>
-         <tr><td>interviewee</td><td><a href="../<viva:GovernmentAgencyIntervieweeType/>/<viva:GovernmentAgencyIntervieweeType/>.jsp?uri=<viva:GovernmentAgencyInterviewee/>"><viva:GovernmentAgencyInterviewee /></a></td></tr>
-      </viva:foreachGovernmentAgencyIntervieweeIterator>
-      <viva:foreachGovernmentAgencyTranslatorOfIterator>
-         <tr><td>translatorOf</td><td><a href="../<viva:GovernmentAgencyTranslatorOfType/>/<viva:GovernmentAgencyTranslatorOfType/>.jsp?uri=<viva:GovernmentAgencyTranslatorOf/>"><viva:GovernmentAgencyTranslatorOf /></a></td></tr>
-      </viva:foreachGovernmentAgencyTranslatorOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachGovernmentAgencyOBI_0000304InverseIterator>
-         <tr><td>OBI_0000304</td><td><a href="../<viva:GovernmentAgencyOBI_0000304InverseType/>/<viva:GovernmentAgencyOBI_0000304InverseType/>.jsp?uri=<viva:GovernmentAgencyOBI_0000304Inverse/>"><viva:GovernmentAgencyOBI_0000304Inverse/></a></td></tr>
-      </viva:foreachGovernmentAgencyOBI_0000304InverseIterator>
-      <viva:foreachGovernmentAgencyCourtInverseIterator>
-         <tr><td>court</td><td><a href="../<viva:GovernmentAgencyCourtInverseType/>/<viva:GovernmentAgencyCourtInverseType/>.jsp?uri=<viva:GovernmentAgencyCourtInverse/>"><viva:GovernmentAgencyCourtInverse/></a></td></tr>
-      </viva:foreachGovernmentAgencyCourtInverseIterator>
       <viva:foreachGovernmentAgencyOrganizerInverseIterator>
          <tr><td>organizer</td><td><a href="../<viva:GovernmentAgencyOrganizerInverseType/>/<viva:GovernmentAgencyOrganizerInverseType/>.jsp?uri=<viva:GovernmentAgencyOrganizerInverse/>"><viva:GovernmentAgencyOrganizerInverse/></a></td></tr>
       </viva:foreachGovernmentAgencyOrganizerInverseIterator>
@@ -130,6 +117,12 @@
       <viva:foreachGovernmentAgencyDirectorInverseIterator>
          <tr><td>director</td><td><a href="../<viva:GovernmentAgencyDirectorInverseType/>/<viva:GovernmentAgencyDirectorInverseType/>.jsp?uri=<viva:GovernmentAgencyDirectorInverse/>"><viva:GovernmentAgencyDirectorInverse/></a></td></tr>
       </viva:foreachGovernmentAgencyDirectorInverseIterator>
+      <viva:foreachGovernmentAgencyOBI_0000304InverseIterator>
+         <tr><td>OBI_0000304</td><td><a href="../<viva:GovernmentAgencyOBI_0000304InverseType/>/<viva:GovernmentAgencyOBI_0000304InverseType/>.jsp?uri=<viva:GovernmentAgencyOBI_0000304Inverse/>"><viva:GovernmentAgencyOBI_0000304Inverse/></a></td></tr>
+      </viva:foreachGovernmentAgencyOBI_0000304InverseIterator>
+      <viva:foreachGovernmentAgencyCourtInverseIterator>
+         <tr><td>court</td><td><a href="../<viva:GovernmentAgencyCourtInverseType/>/<viva:GovernmentAgencyCourtInverseType/>.jsp?uri=<viva:GovernmentAgencyCourtInverse/>"><viva:GovernmentAgencyCourtInverse/></a></td></tr>
+      </viva:foreachGovernmentAgencyCourtInverseIterator>
    </table>
    </viva:GovernmentAgency>
 

@@ -27,9 +27,45 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachResourceAnnotatedSourceIterator>
+         <tr><td>annotatedSource</td><td><viva:ResourceAnnotatedSource /></td></tr>
+      </viva:foreachResourceAnnotatedSourceIterator>
+      <viva:foreachResourceLabelIterator>
+         <tr><td>label</td><td><viva:ResourceLabel /></td></tr>
+      </viva:foreachResourceLabelIterator>
+      <viva:foreachResourceCommentIterator>
+         <tr><td>comment</td><td><viva:ResourceComment /></td></tr>
+      </viva:foreachResourceCommentIterator>
+      <viva:foreachResourceIsDefinedByIterator>
+         <tr><td>isDefinedBy</td><td><viva:ResourceIsDefinedBy /></td></tr>
+      </viva:foreachResourceIsDefinedByIterator>
+      <viva:foreachResourceMembersIterator>
+         <tr><td>members</td><td><viva:ResourceMembers /></td></tr>
+      </viva:foreachResourceMembersIterator>
+      <viva:foreachResourceSeeAlsoIterator>
+         <tr><td>seeAlso</td><td><viva:ResourceSeeAlso /></td></tr>
+      </viva:foreachResourceSeeAlsoIterator>
+      <viva:foreachResourceMemberIterator>
+         <tr><td>member</td><td><viva:ResourceMember /></td></tr>
+      </viva:foreachResourceMemberIterator>
+      <viva:foreachResourceAnnotatedTargetIterator>
+         <tr><td>annotatedTarget</td><td><viva:ResourceAnnotatedTarget /></td></tr>
+      </viva:foreachResourceAnnotatedTargetIterator>
+      <viva:foreachResourceAnnotatedPropertyIterator>
+         <tr><td>annotatedProperty</td><td><viva:ResourceAnnotatedProperty /></td></tr>
+      </viva:foreachResourceAnnotatedPropertyIterator>
+      <viva:foreachResourceTypeIterator>
+         <tr><td>type</td><td><viva:ResourceType /></td></tr>
+      </viva:foreachResourceTypeIterator>
       <viva:foreachResourceTheAbstractIterator>
          <tr><td>theAbstract</td><td><viva:ResourceTheAbstract /></td></tr>
       </viva:foreachResourceTheAbstractIterator>
+      <viva:foreachResourceDeprecatedIterator>
+         <tr><td>deprecated</td><td><viva:ResourceDeprecated /></td></tr>
+      </viva:foreachResourceDeprecatedIterator>
+      <viva:foreachResourceVersionInfoIterator>
+         <tr><td>versionInfo</td><td><viva:ResourceVersionInfo /></td></tr>
+      </viva:foreachResourceVersionInfoIterator>
    </table>
 
    <h3>Object Properties</h3>

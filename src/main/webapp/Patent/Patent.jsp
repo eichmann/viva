@@ -134,12 +134,6 @@
       <viva:foreachPatentFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:PatentFeaturesType/>/<viva:PatentFeaturesType/>.jsp?uri=<viva:PatentFeatures/>"><viva:PatentFeatures /></a></td></tr>
       </viva:foreachPatentFeaturesIterator>
-      <viva:foreachPatentInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:PatentInformationResourceSupportedByType/>/<viva:PatentInformationResourceSupportedByType/>.jsp?uri=<viva:PatentInformationResourceSupportedBy/>"><viva:PatentInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachPatentInformationResourceSupportedByIterator>
-      <viva:foreachPatentIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:PatentIAO_0000136Type/>/<viva:PatentIAO_0000136Type/>.jsp?uri=<viva:PatentIAO_0000136/>"><viva:PatentIAO_0000136 /></a></td></tr>
-      </viva:foreachPatentIAO_0000136Iterator>
       <viva:foreachPatentEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:PatentEditorType/>/<viva:PatentEditorType/>.jsp?uri=<viva:PatentEditor/>"><viva:PatentEditor /></a></td></tr>
       </viva:foreachPatentEditorIterator>

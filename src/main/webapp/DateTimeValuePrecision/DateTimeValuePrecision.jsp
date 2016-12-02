@@ -46,12 +46,6 @@
       <viva:foreachDateTimeValuePrecisionTopConceptOfIterator>
          <tr><td>topConceptOf</td><td><a href="../<viva:DateTimeValuePrecisionTopConceptOfType/>/<viva:DateTimeValuePrecisionTopConceptOfType/>.jsp?uri=<viva:DateTimeValuePrecisionTopConceptOf/>"><viva:DateTimeValuePrecisionTopConceptOf /></a></td></tr>
       </viva:foreachDateTimeValuePrecisionTopConceptOfIterator>
-      <viva:foreachDateTimeValuePrecisionResearchAreaOfIterator>
-         <tr><td>researchAreaOf</td><td><a href="../<viva:DateTimeValuePrecisionResearchAreaOfType/>/<viva:DateTimeValuePrecisionResearchAreaOfType/>.jsp?uri=<viva:DateTimeValuePrecisionResearchAreaOf/>"><viva:DateTimeValuePrecisionResearchAreaOf /></a></td></tr>
-      </viva:foreachDateTimeValuePrecisionResearchAreaOfIterator>
-      <viva:foreachDateTimeValuePrecisionSubjectAreaOfIterator>
-         <tr><td>subjectAreaOf</td><td><a href="../<viva:DateTimeValuePrecisionSubjectAreaOfType/>/<viva:DateTimeValuePrecisionSubjectAreaOfType/>.jsp?uri=<viva:DateTimeValuePrecisionSubjectAreaOf/>"><viva:DateTimeValuePrecisionSubjectAreaOf /></a></td></tr>
-      </viva:foreachDateTimeValuePrecisionSubjectAreaOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

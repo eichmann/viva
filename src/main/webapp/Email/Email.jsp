@@ -30,12 +30,6 @@
       <viva:foreachEmailEmailIterator>
          <tr><td>email</td><td><viva:EmailEmail /></td></tr>
       </viva:foreachEmailEmailIterator>
-      <viva:foreachEmailRankIterator>
-         <tr><td>rank</td><td><viva:EmailRank /></td></tr>
-      </viva:foreachEmailRankIterator>
-      <viva:foreachEmailUrlIterator>
-         <tr><td>url</td><td><viva:EmailUrl /></td></tr>
-      </viva:foreachEmailUrlIterator>
    </table>
 
    <h3>Object Properties</h3>

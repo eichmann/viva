@@ -27,22 +27,22 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachStateOrProvinceBFO_0000050Iterator>
+         <tr><td>BFO_0000050</td><td><viva:StateOrProvinceBFO_0000050 /></td></tr>
+      </viva:foreachStateOrProvinceBFO_0000050Iterator>
+      <viva:foreachStateOrProvinceGeographicFocusOfIterator>
+         <tr><td>geographicFocusOf</td><td><viva:StateOrProvinceGeographicFocusOf /></td></tr>
+      </viva:foreachStateOrProvinceGeographicFocusOfIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachStateOrProvinceBFO_0000050Iterator>
-         <tr><td>BFO_0000050</td><td><a href="../<viva:StateOrProvinceBFO_0000050Type/>/<viva:StateOrProvinceBFO_0000050Type/>.jsp?uri=<viva:StateOrProvinceBFO_0000050/>"><viva:StateOrProvinceBFO_0000050 /></a></td></tr>
-      </viva:foreachStateOrProvinceBFO_0000050Iterator>
-      <viva:foreachStateOrProvinceRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:StateOrProvinceRO_0000053Type/>/<viva:StateOrProvinceRO_0000053Type/>.jsp?uri=<viva:StateOrProvinceRO_0000053/>"><viva:StateOrProvinceRO_0000053 /></a></td></tr>
-      </viva:foreachStateOrProvinceRO_0000053Iterator>
-      <viva:foreachStateOrProvinceGeographicFocusOfIterator>
-         <tr><td>geographicFocusOf</td><td><a href="../<viva:StateOrProvinceGeographicFocusOfType/>/<viva:StateOrProvinceGeographicFocusOfType/>.jsp?uri=<viva:StateOrProvinceGeographicFocusOf/>"><viva:StateOrProvinceGeographicFocusOf /></a></td></tr>
-      </viva:foreachStateOrProvinceGeographicFocusOfIterator>
       <viva:foreachStateOrProvinceRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:StateOrProvinceRO_0000056Type/>/<viva:StateOrProvinceRO_0000056Type/>.jsp?uri=<viva:StateOrProvinceRO_0000056/>"><viva:StateOrProvinceRO_0000056 /></a></td></tr>
       </viva:foreachStateOrProvinceRO_0000056Iterator>
+      <viva:foreachStateOrProvinceRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:StateOrProvinceRO_0000053Type/>/<viva:StateOrProvinceRO_0000053Type/>.jsp?uri=<viva:StateOrProvinceRO_0000053/>"><viva:StateOrProvinceRO_0000053 /></a></td></tr>
+      </viva:foreachStateOrProvinceRO_0000053Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

@@ -121,12 +121,6 @@
       <viva:foreachExcerptFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:ExcerptFeaturesType/>/<viva:ExcerptFeaturesType/>.jsp?uri=<viva:ExcerptFeatures/>"><viva:ExcerptFeatures /></a></td></tr>
       </viva:foreachExcerptFeaturesIterator>
-      <viva:foreachExcerptInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ExcerptInformationResourceSupportedByType/>/<viva:ExcerptInformationResourceSupportedByType/>.jsp?uri=<viva:ExcerptInformationResourceSupportedBy/>"><viva:ExcerptInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachExcerptInformationResourceSupportedByIterator>
-      <viva:foreachExcerptIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ExcerptIAO_0000136Type/>/<viva:ExcerptIAO_0000136Type/>.jsp?uri=<viva:ExcerptIAO_0000136/>"><viva:ExcerptIAO_0000136 /></a></td></tr>
-      </viva:foreachExcerptIAO_0000136Iterator>
       <viva:foreachExcerptEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:ExcerptEditorType/>/<viva:ExcerptEditorType/>.jsp?uri=<viva:ExcerptEditor/>"><viva:ExcerptEditor /></a></td></tr>
       </viva:foreachExcerptEditorIterator>

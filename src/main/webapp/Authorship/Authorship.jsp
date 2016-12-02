@@ -24,7 +24,6 @@
    <h3>Functional Datatype Properties</h3>
    <table>
       <tr><td>isCorrespondingAuthor</td><td><viva:AuthorshipIsCorrespondingAuthor /></td></tr>
-      <tr><td>hideFromDisplay</td><td><viva:AuthorshipHideFromDisplay /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -32,28 +31,16 @@
       <viva:foreachAuthorshipRankIterator>
          <tr><td>rank</td><td><viva:AuthorshipRank /></td></tr>
       </viva:foreachAuthorshipRankIterator>
-      <viva:foreachAuthorshipUrlIterator>
-         <tr><td>url</td><td><viva:AuthorshipUrl /></td></tr>
-      </viva:foreachAuthorshipUrlIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachAuthorshipRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:AuthorshipRelatedByType/>/<viva:AuthorshipRelatedByType/>.jsp?uri=<viva:AuthorshipRelatedBy/>"><viva:AuthorshipRelatedBy /></a></td></tr>
-      </viva:foreachAuthorshipRelatedByIterator>
-      <viva:foreachAuthorshipRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:AuthorshipRelatesType/>/<viva:AuthorshipRelatesType/>.jsp?uri=<viva:AuthorshipRelates/>"><viva:AuthorshipRelates /></a></td></tr>
-      </viva:foreachAuthorshipRelatesIterator>
-      <viva:foreachAuthorshipHasURLIterator>
-         <tr><td>hasURL</td><td><a href="../<viva:AuthorshipHasURLType/>/<viva:AuthorshipHasURLType/>.jsp?uri=<viva:AuthorshipHasURL/>"><viva:AuthorshipHasURL /></a></td></tr>
-      </viva:foreachAuthorshipHasURLIterator>
-      <viva:foreachAuthorshipRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:AuthorshipRO_0000056Type/>/<viva:AuthorshipRO_0000056Type/>.jsp?uri=<viva:AuthorshipRO_0000056/>"><viva:AuthorshipRO_0000056 /></a></td></tr>
-      </viva:foreachAuthorshipRO_0000056Iterator>
       <viva:foreachAuthorshipRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<viva:AuthorshipRO_0000052Type/>/<viva:AuthorshipRO_0000052Type/>.jsp?uri=<viva:AuthorshipRO_0000052/>"><viva:AuthorshipRO_0000052 /></a></td></tr>
       </viva:foreachAuthorshipRO_0000052Iterator>
+      <viva:foreachAuthorshipRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:AuthorshipRO_0000056Type/>/<viva:AuthorshipRO_0000056Type/>.jsp?uri=<viva:AuthorshipRO_0000056/>"><viva:AuthorshipRO_0000056 /></a></td></tr>
+      </viva:foreachAuthorshipRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

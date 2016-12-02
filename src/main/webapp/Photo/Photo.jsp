@@ -30,12 +30,6 @@
       <viva:foreachPhotoPhotoIterator>
          <tr><td>photo</td><td><viva:PhotoPhoto /></td></tr>
       </viva:foreachPhotoPhotoIterator>
-      <viva:foreachPhotoRankIterator>
-         <tr><td>rank</td><td><viva:PhotoRank /></td></tr>
-      </viva:foreachPhotoRankIterator>
-      <viva:foreachPhotoUrlIterator>
-         <tr><td>url</td><td><viva:PhotoUrl /></td></tr>
-      </viva:foreachPhotoUrlIterator>
    </table>
 
    <h3>Object Properties</h3>

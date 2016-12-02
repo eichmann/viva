@@ -121,12 +121,6 @@
       <viva:foreachClinicalGuidelineFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:ClinicalGuidelineFeaturesType/>/<viva:ClinicalGuidelineFeaturesType/>.jsp?uri=<viva:ClinicalGuidelineFeatures/>"><viva:ClinicalGuidelineFeatures /></a></td></tr>
       </viva:foreachClinicalGuidelineFeaturesIterator>
-      <viva:foreachClinicalGuidelineInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ClinicalGuidelineInformationResourceSupportedByType/>/<viva:ClinicalGuidelineInformationResourceSupportedByType/>.jsp?uri=<viva:ClinicalGuidelineInformationResourceSupportedBy/>"><viva:ClinicalGuidelineInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachClinicalGuidelineInformationResourceSupportedByIterator>
-      <viva:foreachClinicalGuidelineIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ClinicalGuidelineIAO_0000136Type/>/<viva:ClinicalGuidelineIAO_0000136Type/>.jsp?uri=<viva:ClinicalGuidelineIAO_0000136/>"><viva:ClinicalGuidelineIAO_0000136 /></a></td></tr>
-      </viva:foreachClinicalGuidelineIAO_0000136Iterator>
       <viva:foreachClinicalGuidelineEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:ClinicalGuidelineEditorType/>/<viva:ClinicalGuidelineEditorType/>.jsp?uri=<viva:ClinicalGuidelineEditor/>"><viva:ClinicalGuidelineEditor /></a></td></tr>
       </viva:foreachClinicalGuidelineEditorIterator>

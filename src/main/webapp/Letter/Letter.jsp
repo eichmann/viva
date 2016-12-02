@@ -118,18 +118,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachLetterRecipientIterator>
-         <tr><td>recipient</td><td><a href="../<viva:LetterRecipientType/>/<viva:LetterRecipientType/>.jsp?uri=<viva:LetterRecipient/>"><viva:LetterRecipient /></a></td></tr>
-      </viva:foreachLetterRecipientIterator>
       <viva:foreachLetterFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:LetterFeaturesType/>/<viva:LetterFeaturesType/>.jsp?uri=<viva:LetterFeatures/>"><viva:LetterFeatures /></a></td></tr>
       </viva:foreachLetterFeaturesIterator>
-      <viva:foreachLetterInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:LetterInformationResourceSupportedByType/>/<viva:LetterInformationResourceSupportedByType/>.jsp?uri=<viva:LetterInformationResourceSupportedBy/>"><viva:LetterInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachLetterInformationResourceSupportedByIterator>
-      <viva:foreachLetterIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:LetterIAO_0000136Type/>/<viva:LetterIAO_0000136Type/>.jsp?uri=<viva:LetterIAO_0000136/>"><viva:LetterIAO_0000136 /></a></td></tr>
-      </viva:foreachLetterIAO_0000136Iterator>
+      <viva:foreachLetterRecipientIterator>
+         <tr><td>recipient</td><td><a href="../<viva:LetterRecipientType/>/<viva:LetterRecipientType/>.jsp?uri=<viva:LetterRecipient/>"><viva:LetterRecipient /></a></td></tr>
+      </viva:foreachLetterRecipientIterator>
       <viva:foreachLetterEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:LetterEditorType/>/<viva:LetterEditorType/>.jsp?uri=<viva:LetterEditor/>"><viva:LetterEditor /></a></td></tr>
       </viva:foreachLetterEditorIterator>

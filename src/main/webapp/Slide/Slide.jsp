@@ -121,12 +121,6 @@
       <viva:foreachSlideFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:SlideFeaturesType/>/<viva:SlideFeaturesType/>.jsp?uri=<viva:SlideFeatures/>"><viva:SlideFeatures /></a></td></tr>
       </viva:foreachSlideFeaturesIterator>
-      <viva:foreachSlideInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:SlideInformationResourceSupportedByType/>/<viva:SlideInformationResourceSupportedByType/>.jsp?uri=<viva:SlideInformationResourceSupportedBy/>"><viva:SlideInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachSlideInformationResourceSupportedByIterator>
-      <viva:foreachSlideIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:SlideIAO_0000136Type/>/<viva:SlideIAO_0000136Type/>.jsp?uri=<viva:SlideIAO_0000136/>"><viva:SlideIAO_0000136 /></a></td></tr>
-      </viva:foreachSlideIAO_0000136Iterator>
       <viva:foreachSlideEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:SlideEditorType/>/<viva:SlideEditorType/>.jsp?uri=<viva:SlideEditor/>"><viva:SlideEditor /></a></td></tr>
       </viva:foreachSlideEditorIterator>

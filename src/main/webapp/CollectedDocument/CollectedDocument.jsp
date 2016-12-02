@@ -121,12 +121,6 @@
       <viva:foreachCollectedDocumentFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:CollectedDocumentFeaturesType/>/<viva:CollectedDocumentFeaturesType/>.jsp?uri=<viva:CollectedDocumentFeatures/>"><viva:CollectedDocumentFeatures /></a></td></tr>
       </viva:foreachCollectedDocumentFeaturesIterator>
-      <viva:foreachCollectedDocumentInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:CollectedDocumentInformationResourceSupportedByType/>/<viva:CollectedDocumentInformationResourceSupportedByType/>.jsp?uri=<viva:CollectedDocumentInformationResourceSupportedBy/>"><viva:CollectedDocumentInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachCollectedDocumentInformationResourceSupportedByIterator>
-      <viva:foreachCollectedDocumentIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:CollectedDocumentIAO_0000136Type/>/<viva:CollectedDocumentIAO_0000136Type/>.jsp?uri=<viva:CollectedDocumentIAO_0000136/>"><viva:CollectedDocumentIAO_0000136 /></a></td></tr>
-      </viva:foreachCollectedDocumentIAO_0000136Iterator>
       <viva:foreachCollectedDocumentEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:CollectedDocumentEditorType/>/<viva:CollectedDocumentEditorType/>.jsp?uri=<viva:CollectedDocumentEditor/>"><viva:CollectedDocumentEditor /></a></td></tr>
       </viva:foreachCollectedDocumentEditorIterator>

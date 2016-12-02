@@ -28,9 +28,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachThesisDegreeDescriptionIterator>
-         <tr><td>description</td><td><viva:ThesisDegreeDescription /></td></tr>
-      </viva:foreachThesisDegreeDescriptionIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -50,12 +47,6 @@
       <viva:foreachThesisDegreeTopConceptOfIterator>
          <tr><td>topConceptOf</td><td><a href="../<viva:ThesisDegreeTopConceptOfType/>/<viva:ThesisDegreeTopConceptOfType/>.jsp?uri=<viva:ThesisDegreeTopConceptOf/>"><viva:ThesisDegreeTopConceptOf /></a></td></tr>
       </viva:foreachThesisDegreeTopConceptOfIterator>
-      <viva:foreachThesisDegreeResearchAreaOfIterator>
-         <tr><td>researchAreaOf</td><td><a href="../<viva:ThesisDegreeResearchAreaOfType/>/<viva:ThesisDegreeResearchAreaOfType/>.jsp?uri=<viva:ThesisDegreeResearchAreaOf/>"><viva:ThesisDegreeResearchAreaOf /></a></td></tr>
-      </viva:foreachThesisDegreeResearchAreaOfIterator>
-      <viva:foreachThesisDegreeSubjectAreaOfIterator>
-         <tr><td>subjectAreaOf</td><td><a href="../<viva:ThesisDegreeSubjectAreaOfType/>/<viva:ThesisDegreeSubjectAreaOfType/>.jsp?uri=<viva:ThesisDegreeSubjectAreaOf/>"><viva:ThesisDegreeSubjectAreaOf /></a></td></tr>
-      </viva:foreachThesisDegreeSubjectAreaOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

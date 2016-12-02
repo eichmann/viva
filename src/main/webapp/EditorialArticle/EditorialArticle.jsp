@@ -27,12 +27,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachEditorialArticlePmcidIterator>
-         <tr><td>pmcid</td><td><viva:EditorialArticlePmcid /></td></tr>
-      </viva:foreachEditorialArticlePmcidIterator>
-      <viva:foreachEditorialArticleNihmsidIterator>
-         <tr><td>nihmsid</td><td><viva:EditorialArticleNihmsid /></td></tr>
-      </viva:foreachEditorialArticleNihmsidIterator>
       <viva:foreachEditorialArticleEanucc13Iterator>
          <tr><td>eanucc13</td><td><viva:EditorialArticleEanucc13 /></td></tr>
       </viva:foreachEditorialArticleEanucc13Iterator>
@@ -120,34 +114,19 @@
       <viva:foreachEditorialArticleDoiIterator>
          <tr><td>doi</td><td><viva:EditorialArticleDoi /></td></tr>
       </viva:foreachEditorialArticleDoiIterator>
+      <viva:foreachEditorialArticlePmcidIterator>
+         <tr><td>pmcid</td><td><viva:EditorialArticlePmcid /></td></tr>
+      </viva:foreachEditorialArticlePmcidIterator>
+      <viva:foreachEditorialArticleNihmsidIterator>
+         <tr><td>nihmsid</td><td><viva:EditorialArticleNihmsid /></td></tr>
+      </viva:foreachEditorialArticleNihmsidIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachEditorialArticleDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<viva:EditorialArticleDateTimeValueType/>/<viva:EditorialArticleDateTimeValueType/>.jsp?uri=<viva:EditorialArticleDateTimeValue/>"><viva:EditorialArticleDateTimeValue /></a></td></tr>
-      </viva:foreachEditorialArticleDateTimeValueIterator>
-      <viva:foreachEditorialArticleHasPublicationVenueIterator>
-         <tr><td>hasPublicationVenue</td><td><a href="../<viva:EditorialArticleHasPublicationVenueType/>/<viva:EditorialArticleHasPublicationVenueType/>.jsp?uri=<viva:EditorialArticleHasPublicationVenue/>"><viva:EditorialArticleHasPublicationVenue /></a></td></tr>
-      </viva:foreachEditorialArticleHasPublicationVenueIterator>
-      <viva:foreachEditorialArticleARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<viva:EditorialArticleARG_2000028Type/>/<viva:EditorialArticleARG_2000028Type/>.jsp?uri=<viva:EditorialArticleARG_2000028/>"><viva:EditorialArticleARG_2000028 /></a></td></tr>
-      </viva:foreachEditorialArticleARG_2000028Iterator>
-      <viva:foreachEditorialArticleRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:EditorialArticleRelatedByType/>/<viva:EditorialArticleRelatedByType/>.jsp?uri=<viva:EditorialArticleRelatedBy/>"><viva:EditorialArticleRelatedBy /></a></td></tr>
-      </viva:foreachEditorialArticleRelatedByIterator>
-      <viva:foreachEditorialArticleRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:EditorialArticleRelatesType/>/<viva:EditorialArticleRelatesType/>.jsp?uri=<viva:EditorialArticleRelates/>"><viva:EditorialArticleRelates /></a></td></tr>
-      </viva:foreachEditorialArticleRelatesIterator>
       <viva:foreachEditorialArticleFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:EditorialArticleFeaturesType/>/<viva:EditorialArticleFeaturesType/>.jsp?uri=<viva:EditorialArticleFeatures/>"><viva:EditorialArticleFeatures /></a></td></tr>
       </viva:foreachEditorialArticleFeaturesIterator>
-      <viva:foreachEditorialArticleInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:EditorialArticleInformationResourceSupportedByType/>/<viva:EditorialArticleInformationResourceSupportedByType/>.jsp?uri=<viva:EditorialArticleInformationResourceSupportedBy/>"><viva:EditorialArticleInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachEditorialArticleInformationResourceSupportedByIterator>
-      <viva:foreachEditorialArticleIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:EditorialArticleIAO_0000136Type/>/<viva:EditorialArticleIAO_0000136Type/>.jsp?uri=<viva:EditorialArticleIAO_0000136/>"><viva:EditorialArticleIAO_0000136 /></a></td></tr>
-      </viva:foreachEditorialArticleIAO_0000136Iterator>
       <viva:foreachEditorialArticleEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:EditorialArticleEditorType/>/<viva:EditorialArticleEditorType/>.jsp?uri=<viva:EditorialArticleEditor/>"><viva:EditorialArticleEditor /></a></td></tr>
       </viva:foreachEditorialArticleEditorIterator>

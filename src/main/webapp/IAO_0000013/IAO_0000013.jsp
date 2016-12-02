@@ -27,12 +27,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachIAO_0000013PmcidIterator>
-         <tr><td>pmcid</td><td><viva:IAO_0000013Pmcid /></td></tr>
-      </viva:foreachIAO_0000013PmcidIterator>
-      <viva:foreachIAO_0000013NihmsidIterator>
-         <tr><td>nihmsid</td><td><viva:IAO_0000013Nihmsid /></td></tr>
-      </viva:foreachIAO_0000013NihmsidIterator>
       <viva:foreachIAO_0000013Eanucc13Iterator>
          <tr><td>eanucc13</td><td><viva:IAO_0000013Eanucc13 /></td></tr>
       </viva:foreachIAO_0000013Eanucc13Iterator>
@@ -120,37 +114,25 @@
       <viva:foreachIAO_0000013DoiIterator>
          <tr><td>doi</td><td><viva:IAO_0000013Doi /></td></tr>
       </viva:foreachIAO_0000013DoiIterator>
+      <viva:foreachIAO_0000013PmcidIterator>
+         <tr><td>pmcid</td><td><viva:IAO_0000013Pmcid /></td></tr>
+      </viva:foreachIAO_0000013PmcidIterator>
+      <viva:foreachIAO_0000013NihmsidIterator>
+         <tr><td>nihmsid</td><td><viva:IAO_0000013Nihmsid /></td></tr>
+      </viva:foreachIAO_0000013NihmsidIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachIAO_0000013DateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<viva:IAO_0000013DateTimeValueType/>/<viva:IAO_0000013DateTimeValueType/>.jsp?uri=<viva:IAO_0000013DateTimeValue/>"><viva:IAO_0000013DateTimeValue /></a></td></tr>
-      </viva:foreachIAO_0000013DateTimeValueIterator>
-      <viva:foreachIAO_0000013HasPublicationVenueIterator>
-         <tr><td>hasPublicationVenue</td><td><a href="../<viva:IAO_0000013HasPublicationVenueType/>/<viva:IAO_0000013HasPublicationVenueType/>.jsp?uri=<viva:IAO_0000013HasPublicationVenue/>"><viva:IAO_0000013HasPublicationVenue /></a></td></tr>
-      </viva:foreachIAO_0000013HasPublicationVenueIterator>
-      <viva:foreachIAO_0000013ARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<viva:IAO_0000013ARG_2000028Type/>/<viva:IAO_0000013ARG_2000028Type/>.jsp?uri=<viva:IAO_0000013ARG_2000028/>"><viva:IAO_0000013ARG_2000028 /></a></td></tr>
-      </viva:foreachIAO_0000013ARG_2000028Iterator>
-      <viva:foreachIAO_0000013RelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:IAO_0000013RelatedByType/>/<viva:IAO_0000013RelatedByType/>.jsp?uri=<viva:IAO_0000013RelatedBy/>"><viva:IAO_0000013RelatedBy /></a></td></tr>
-      </viva:foreachIAO_0000013RelatedByIterator>
-      <viva:foreachIAO_0000013RelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:IAO_0000013RelatesType/>/<viva:IAO_0000013RelatesType/>.jsp?uri=<viva:IAO_0000013Relates/>"><viva:IAO_0000013Relates /></a></td></tr>
-      </viva:foreachIAO_0000013RelatesIterator>
       <viva:foreachIAO_0000013FeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:IAO_0000013FeaturesType/>/<viva:IAO_0000013FeaturesType/>.jsp?uri=<viva:IAO_0000013Features/>"><viva:IAO_0000013Features /></a></td></tr>
       </viva:foreachIAO_0000013FeaturesIterator>
-      <viva:foreachIAO_0000013InformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:IAO_0000013InformationResourceSupportedByType/>/<viva:IAO_0000013InformationResourceSupportedByType/>.jsp?uri=<viva:IAO_0000013InformationResourceSupportedBy/>"><viva:IAO_0000013InformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachIAO_0000013InformationResourceSupportedByIterator>
-      <viva:foreachIAO_0000013IAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:IAO_0000013IAO_0000136Type/>/<viva:IAO_0000013IAO_0000136Type/>.jsp?uri=<viva:IAO_0000013IAO_0000136/>"><viva:IAO_0000013IAO_0000136 /></a></td></tr>
-      </viva:foreachIAO_0000013IAO_0000136Iterator>
-      <viva:foreachIAO_0000013HasSubjectAreaIterator>
-         <tr><td>hasSubjectArea</td><td><a href="../<viva:IAO_0000013HasSubjectAreaType/>/<viva:IAO_0000013HasSubjectAreaType/>.jsp?uri=<viva:IAO_0000013HasSubjectArea/>"><viva:IAO_0000013HasSubjectArea /></a></td></tr>
-      </viva:foreachIAO_0000013HasSubjectAreaIterator>
+      <viva:foreachIAO_0000013DateTimeValueIterator>
+         <tr><td>dateTimeValue</td><td><a href="../<viva:IAO_0000013DateTimeValueType/>/<viva:IAO_0000013DateTimeValueType/>.jsp?uri=<viva:IAO_0000013DateTimeValue/>"><viva:IAO_0000013DateTimeValue /></a></td></tr>
+      </viva:foreachIAO_0000013DateTimeValueIterator>
+      <viva:foreachIAO_0000013ARG_2000028Iterator>
+         <tr><td>ARG_2000028</td><td><a href="../<viva:IAO_0000013ARG_2000028Type/>/<viva:IAO_0000013ARG_2000028Type/>.jsp?uri=<viva:IAO_0000013ARG_2000028/>"><viva:IAO_0000013ARG_2000028 /></a></td></tr>
+      </viva:foreachIAO_0000013ARG_2000028Iterator>
       <viva:foreachIAO_0000013EditorIterator>
          <tr><td>editor</td><td><a href="../<viva:IAO_0000013EditorType/>/<viva:IAO_0000013EditorType/>.jsp?uri=<viva:IAO_0000013Editor/>"><viva:IAO_0000013Editor /></a></td></tr>
       </viva:foreachIAO_0000013EditorIterator>

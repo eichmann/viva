@@ -121,12 +121,6 @@
       <viva:foreachDocumentPartFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:DocumentPartFeaturesType/>/<viva:DocumentPartFeaturesType/>.jsp?uri=<viva:DocumentPartFeatures/>"><viva:DocumentPartFeatures /></a></td></tr>
       </viva:foreachDocumentPartFeaturesIterator>
-      <viva:foreachDocumentPartInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:DocumentPartInformationResourceSupportedByType/>/<viva:DocumentPartInformationResourceSupportedByType/>.jsp?uri=<viva:DocumentPartInformationResourceSupportedBy/>"><viva:DocumentPartInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachDocumentPartInformationResourceSupportedByIterator>
-      <viva:foreachDocumentPartIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:DocumentPartIAO_0000136Type/>/<viva:DocumentPartIAO_0000136Type/>.jsp?uri=<viva:DocumentPartIAO_0000136/>"><viva:DocumentPartIAO_0000136 /></a></td></tr>
-      </viva:foreachDocumentPartIAO_0000136Iterator>
       <viva:foreachDocumentPartEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:DocumentPartEditorType/>/<viva:DocumentPartEditorType/>.jsp?uri=<viva:DocumentPartEditor/>"><viva:DocumentPartEditor /></a></td></tr>
       </viva:foreachDocumentPartEditorIterator>

@@ -40,6 +40,12 @@
       <viva:foreachNonAcademicSameAsIterator>
          <tr><td>sameAs</td><td><a href="<viva:NonAcademicSameAs />"><viva:NonAcademicSameAs /></a></td></tr>
       </viva:foreachNonAcademicSameAsIterator>
+      <viva:foreachNonAcademicRO_0001025Iterator>
+         <tr><td>RO_0001025</td><td><viva:NonAcademicRO_0001025 /></td></tr>
+      </viva:foreachNonAcademicRO_0001025Iterator>
+      <viva:foreachNonAcademicOrcidIdIterator>
+         <tr><td>orcidId</td><td><viva:NonAcademicOrcidId /></td></tr>
+      </viva:foreachNonAcademicOrcidIdIterator>
       <viva:foreachNonAcademicERACommonsIdIterator>
          <tr><td>eRACommonsId</td><td><viva:NonAcademicERACommonsId /></td></tr>
       </viva:foreachNonAcademicERACommonsIdIterator>
@@ -62,12 +68,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachNonAcademicRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:NonAcademicRO_0000053Type/>/<viva:NonAcademicRO_0000053Type/>.jsp?uri=<viva:NonAcademicRO_0000053/>"><viva:NonAcademicRO_0000053 /></a></td></tr>
-      </viva:foreachNonAcademicRO_0000053Iterator>
       <viva:foreachNonAcademicRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:NonAcademicRO_0000056Type/>/<viva:NonAcademicRO_0000056Type/>.jsp?uri=<viva:NonAcademicRO_0000056/>"><viva:NonAcademicRO_0000056 /></a></td></tr>
       </viva:foreachNonAcademicRO_0000056Iterator>
+      <viva:foreachNonAcademicRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:NonAcademicRO_0000053Type/>/<viva:NonAcademicRO_0000053Type/>.jsp?uri=<viva:NonAcademicRO_0000053/>"><viva:NonAcademicRO_0000053 /></a></td></tr>
+      </viva:foreachNonAcademicRO_0000053Iterator>
       <viva:foreachNonAcademicAssigneeForIterator>
          <tr><td>assigneeFor</td><td><a href="../<viva:NonAcademicAssigneeForType/>/<viva:NonAcademicAssigneeForType/>.jsp?uri=<viva:NonAcademicAssigneeFor/>"><viva:NonAcademicAssigneeFor /></a></td></tr>
       </viva:foreachNonAcademicAssigneeForIterator>
@@ -86,30 +92,15 @@
       <viva:foreachNonAcademicERO_0000397Iterator>
          <tr><td>ERO_0000397</td><td><a href="../<viva:NonAcademicERO_0000397Type/>/<viva:NonAcademicERO_0000397Type/>.jsp?uri=<viva:NonAcademicERO_0000397/>"><viva:NonAcademicERO_0000397 /></a></td></tr>
       </viva:foreachNonAcademicERO_0000397Iterator>
-      <viva:foreachNonAcademicRO_0001025Iterator>
-         <tr><td>RO_0001025</td><td><a href="../<viva:NonAcademicRO_0001025Type/>/<viva:NonAcademicRO_0001025Type/>.jsp?uri=<viva:NonAcademicRO_0001025/>"><viva:NonAcademicRO_0001025 /></a></td></tr>
-      </viva:foreachNonAcademicRO_0001025Iterator>
       <viva:foreachNonAcademicERO_0000037Iterator>
          <tr><td>ERO_0000037</td><td><a href="../<viva:NonAcademicERO_0000037Type/>/<viva:NonAcademicERO_0000037Type/>.jsp?uri=<viva:NonAcademicERO_0000037/>"><viva:NonAcademicERO_0000037 /></a></td></tr>
       </viva:foreachNonAcademicERO_0000037Iterator>
-      <viva:foreachNonAcademicHasResearchAreaIterator>
-         <tr><td>hasResearchArea</td><td><a href="../<viva:NonAcademicHasResearchAreaType/>/<viva:NonAcademicHasResearchAreaType/>.jsp?uri=<viva:NonAcademicHasResearchArea/>"><viva:NonAcademicHasResearchArea /></a></td></tr>
-      </viva:foreachNonAcademicHasResearchAreaIterator>
-      <viva:foreachNonAcademicGeographicFocusIterator>
-         <tr><td>geographicFocus</td><td><a href="../<viva:NonAcademicGeographicFocusType/>/<viva:NonAcademicGeographicFocusType/>.jsp?uri=<viva:NonAcademicGeographicFocus/>"><viva:NonAcademicGeographicFocus /></a></td></tr>
-      </viva:foreachNonAcademicGeographicFocusIterator>
       <viva:foreachNonAcademicARG_2000028Iterator>
          <tr><td>ARG_2000028</td><td><a href="../<viva:NonAcademicARG_2000028Type/>/<viva:NonAcademicARG_2000028Type/>.jsp?uri=<viva:NonAcademicARG_2000028/>"><viva:NonAcademicARG_2000028 /></a></td></tr>
       </viva:foreachNonAcademicARG_2000028Iterator>
-      <viva:foreachNonAcademicRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:NonAcademicRelatedByType/>/<viva:NonAcademicRelatedByType/>.jsp?uri=<viva:NonAcademicRelatedBy/>"><viva:NonAcademicRelatedBy /></a></td></tr>
-      </viva:foreachNonAcademicRelatedByIterator>
       <viva:foreachNonAcademicERO_0000033Iterator>
          <tr><td>ERO_0000033</td><td><a href="../<viva:NonAcademicERO_0000033Type/>/<viva:NonAcademicERO_0000033Type/>.jsp?uri=<viva:NonAcademicERO_0000033/>"><viva:NonAcademicERO_0000033 /></a></td></tr>
       </viva:foreachNonAcademicERO_0000033Iterator>
-      <viva:foreachNonAcademicOrcidIdIterator>
-         <tr><td>orcidId</td><td><a href="../<viva:NonAcademicOrcidIdType/>/<viva:NonAcademicOrcidIdType/>.jsp?uri=<viva:NonAcademicOrcidId/>"><viva:NonAcademicOrcidId /></a></td></tr>
-      </viva:foreachNonAcademicOrcidIdIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

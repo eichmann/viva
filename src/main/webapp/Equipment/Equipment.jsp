@@ -34,12 +34,6 @@
       <viva:foreachEquipmentEquipmentForIterator>
          <tr><td>equipmentFor</td><td><a href="../<viva:EquipmentEquipmentForType/>/<viva:EquipmentEquipmentForType/>.jsp?uri=<viva:EquipmentEquipmentFor/>"><viva:EquipmentEquipmentFor /></a></td></tr>
       </viva:foreachEquipmentEquipmentForIterator>
-      <viva:foreachEquipmentRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:EquipmentRO_0000053Type/>/<viva:EquipmentRO_0000053Type/>.jsp?uri=<viva:EquipmentRO_0000053/>"><viva:EquipmentRO_0000053 /></a></td></tr>
-      </viva:foreachEquipmentRO_0000053Iterator>
-      <viva:foreachEquipmentRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:EquipmentRO_0000056Type/>/<viva:EquipmentRO_0000056Type/>.jsp?uri=<viva:EquipmentRO_0000056/>"><viva:EquipmentRO_0000056 /></a></td></tr>
-      </viva:foreachEquipmentRO_0000056Iterator>
       <viva:foreachEquipmentRO_0003000Iterator>
          <tr><td>RO_0003000</td><td><a href="../<viva:EquipmentRO_0003000Type/>/<viva:EquipmentRO_0003000Type/>.jsp?uri=<viva:EquipmentRO_0003000/>"><viva:EquipmentRO_0003000 /></a></td></tr>
       </viva:foreachEquipmentRO_0003000Iterator>
@@ -49,6 +43,12 @@
       <viva:foreachEquipmentOBI_0000304Iterator>
          <tr><td>OBI_0000304</td><td><a href="../<viva:EquipmentOBI_0000304Type/>/<viva:EquipmentOBI_0000304Type/>.jsp?uri=<viva:EquipmentOBI_0000304/>"><viva:EquipmentOBI_0000304 /></a></td></tr>
       </viva:foreachEquipmentOBI_0000304Iterator>
+      <viva:foreachEquipmentRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:EquipmentRO_0000056Type/>/<viva:EquipmentRO_0000056Type/>.jsp?uri=<viva:EquipmentRO_0000056/>"><viva:EquipmentRO_0000056 /></a></td></tr>
+      </viva:foreachEquipmentRO_0000056Iterator>
+      <viva:foreachEquipmentRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:EquipmentRO_0000053Type/>/<viva:EquipmentRO_0000053Type/>.jsp?uri=<viva:EquipmentRO_0000053/>"><viva:EquipmentRO_0000053 /></a></td></tr>
+      </viva:foreachEquipmentRO_0000053Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

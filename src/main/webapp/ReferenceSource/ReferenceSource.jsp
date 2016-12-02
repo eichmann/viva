@@ -121,12 +121,6 @@
       <viva:foreachReferenceSourceFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:ReferenceSourceFeaturesType/>/<viva:ReferenceSourceFeaturesType/>.jsp?uri=<viva:ReferenceSourceFeatures/>"><viva:ReferenceSourceFeatures /></a></td></tr>
       </viva:foreachReferenceSourceFeaturesIterator>
-      <viva:foreachReferenceSourceInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ReferenceSourceInformationResourceSupportedByType/>/<viva:ReferenceSourceInformationResourceSupportedByType/>.jsp?uri=<viva:ReferenceSourceInformationResourceSupportedBy/>"><viva:ReferenceSourceInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachReferenceSourceInformationResourceSupportedByIterator>
-      <viva:foreachReferenceSourceIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ReferenceSourceIAO_0000136Type/>/<viva:ReferenceSourceIAO_0000136Type/>.jsp?uri=<viva:ReferenceSourceIAO_0000136/>"><viva:ReferenceSourceIAO_0000136 /></a></td></tr>
-      </viva:foreachReferenceSourceIAO_0000136Iterator>
       <viva:foreachReferenceSourceEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:ReferenceSourceEditorType/>/<viva:ReferenceSourceEditorType/>.jsp?uri=<viva:ReferenceSourceEditor/>"><viva:ReferenceSourceEditor /></a></td></tr>
       </viva:foreachReferenceSourceEditorIterator>

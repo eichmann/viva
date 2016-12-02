@@ -27,6 +27,9 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachspecial_groupSourceIterator>
+         <tr><td>source</td><td><viva:special_groupSource /></td></tr>
+      </viva:foreachspecial_groupSourceIterator>
       <viva:foreachspecial_groupNameOfficialRUIterator>
          <tr><td>nameOfficialRU</td><td><viva:special_groupNameOfficialRU /></td></tr>
       </viva:foreachspecial_groupNameOfficialRUIterator>
@@ -102,6 +105,15 @@
       <viva:foreachspecial_groupNameShortRUIterator>
          <tr><td>nameShortRU</td><td><viva:special_groupNameShortRU /></td></tr>
       </viva:foreachspecial_groupNameShortRUIterator>
+      <viva:foreachspecial_groupSourceIdentifierIterator>
+         <tr><td>sourceIdentifier</td><td><viva:special_groupSourceIdentifier /></td></tr>
+      </viva:foreachspecial_groupSourceIdentifierIterator>
+      <viva:foreachspecial_groupSourceCreatorIterator>
+         <tr><td>sourceCreator</td><td><viva:special_groupSourceCreator /></td></tr>
+      </viva:foreachspecial_groupSourceCreatorIterator>
+      <viva:foreachspecial_groupSourceModifiedIterator>
+         <tr><td>sourceModified</td><td><viva:special_groupSourceModified /></td></tr>
+      </viva:foreachspecial_groupSourceModifiedIterator>
       <viva:foreachspecial_groupHasListNameIterator>
          <tr><td>hasListName</td><td><viva:special_groupHasListName /></td></tr>
       </viva:foreachspecial_groupHasListNameIterator>
@@ -120,6 +132,9 @@
       <viva:foreachspecial_groupValidSinceIterator>
          <tr><td>validSince</td><td><viva:special_groupValidSince /></td></tr>
       </viva:foreachspecial_groupValidSinceIterator>
+      <viva:foreachspecial_groupDifferentFromIterator>
+         <tr><td>differentFrom</td><td><viva:special_groupDifferentFrom /></td></tr>
+      </viva:foreachspecial_groupDifferentFromIterator>
       <viva:foreachspecial_groupTopDataPropertyIterator>
          <tr><td>topDataProperty</td><td><viva:special_groupTopDataProperty /></td></tr>
       </viva:foreachspecial_groupTopDataPropertyIterator>
@@ -130,9 +145,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachspecial_groupHasMemberIterator>
-         <tr><td>hasMember</td><td><a href="../<viva:special_groupHasMemberType/>/<viva:special_groupHasMemberType/>.jsp?uri=<viva:special_groupHasMember/>"><viva:special_groupHasMember /></a></td></tr>
-      </viva:foreachspecial_groupHasMemberIterator>
       <viva:foreachspecial_groupIsSuccessorOfIterator>
          <tr><td>isSuccessorOf</td><td><a href="../<viva:special_groupIsSuccessorOfType/>/<viva:special_groupIsSuccessorOfType/>.jsp?uri=<viva:special_groupIsSuccessorOf/>"><viva:special_groupIsSuccessorOf /></a></td></tr>
       </viva:foreachspecial_groupIsSuccessorOfIterator>
@@ -145,13 +157,13 @@
       <viva:foreachspecial_groupTopObjectPropertyIterator>
          <tr><td>topObjectProperty</td><td><a href="../<viva:special_groupTopObjectPropertyType/>/<viva:special_groupTopObjectPropertyType/>.jsp?uri=<viva:special_groupTopObjectProperty/>"><viva:special_groupTopObjectProperty /></a></td></tr>
       </viva:foreachspecial_groupTopObjectPropertyIterator>
+      <viva:foreachspecial_groupHasMemberIterator>
+         <tr><td>hasMember</td><td><a href="../<viva:special_groupHasMemberType/>/<viva:special_groupHasMemberType/>.jsp?uri=<viva:special_groupHasMember/>"><viva:special_groupHasMember /></a></td></tr>
+      </viva:foreachspecial_groupHasMemberIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachspecial_groupOrcidIdInverseIterator>
-         <tr><td>orcidId</td><td><a href="../<viva:special_groupOrcidIdInverseType/>/<viva:special_groupOrcidIdInverseType/>.jsp?uri=<viva:special_groupOrcidIdInverse/>"><viva:special_groupOrcidIdInverse/></a></td></tr>
-      </viva:foreachspecial_groupOrcidIdInverseIterator>
    </table>
    </viva:special_group>
 

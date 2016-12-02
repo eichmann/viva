@@ -30,12 +30,6 @@
       <viva:foreachFormattedNameFormattedNameIterator>
          <tr><td>formattedName</td><td><viva:FormattedNameFormattedName /></td></tr>
       </viva:foreachFormattedNameFormattedNameIterator>
-      <viva:foreachFormattedNameRankIterator>
-         <tr><td>rank</td><td><viva:FormattedNameRank /></td></tr>
-      </viva:foreachFormattedNameRankIterator>
-      <viva:foreachFormattedNameUrlIterator>
-         <tr><td>url</td><td><viva:FormattedNameUrl /></td></tr>
-      </viva:foreachFormattedNameUrlIterator>
    </table>
 
    <h3>Object Properties</h3>

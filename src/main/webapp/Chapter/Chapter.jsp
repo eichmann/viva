@@ -23,7 +23,6 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>placeOfPublication</td><td><viva:ChapterPlaceOfPublication /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -125,33 +124,12 @@
       <viva:foreachChapterDateTimeValueIterator>
          <tr><td>dateTimeValue</td><td><a href="../<viva:ChapterDateTimeValueType/>/<viva:ChapterDateTimeValueType/>.jsp?uri=<viva:ChapterDateTimeValue/>"><viva:ChapterDateTimeValue /></a></td></tr>
       </viva:foreachChapterDateTimeValueIterator>
-      <viva:foreachChapterHasPublicationVenueIterator>
-         <tr><td>hasPublicationVenue</td><td><a href="../<viva:ChapterHasPublicationVenueType/>/<viva:ChapterHasPublicationVenueType/>.jsp?uri=<viva:ChapterHasPublicationVenue/>"><viva:ChapterHasPublicationVenue /></a></td></tr>
-      </viva:foreachChapterHasPublicationVenueIterator>
       <viva:foreachChapterARG_2000028Iterator>
          <tr><td>ARG_2000028</td><td><a href="../<viva:ChapterARG_2000028Type/>/<viva:ChapterARG_2000028Type/>.jsp?uri=<viva:ChapterARG_2000028/>"><viva:ChapterARG_2000028 /></a></td></tr>
       </viva:foreachChapterARG_2000028Iterator>
-      <viva:foreachChapterPublisherIterator>
-         <tr><td>publisher</td><td><a href="../<viva:ChapterPublisherType/>/<viva:ChapterPublisherType/>.jsp?uri=<viva:ChapterPublisher/>"><viva:ChapterPublisher /></a></td></tr>
-      </viva:foreachChapterPublisherIterator>
-      <viva:foreachChapterRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:ChapterRelatedByType/>/<viva:ChapterRelatedByType/>.jsp?uri=<viva:ChapterRelatedBy/>"><viva:ChapterRelatedBy /></a></td></tr>
-      </viva:foreachChapterRelatedByIterator>
-      <viva:foreachChapterHasSubjectAreaIterator>
-         <tr><td>hasSubjectArea</td><td><a href="../<viva:ChapterHasSubjectAreaType/>/<viva:ChapterHasSubjectAreaType/>.jsp?uri=<viva:ChapterHasSubjectArea/>"><viva:ChapterHasSubjectArea /></a></td></tr>
-      </viva:foreachChapterHasSubjectAreaIterator>
-      <viva:foreachChapterRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:ChapterRelatesType/>/<viva:ChapterRelatesType/>.jsp?uri=<viva:ChapterRelates/>"><viva:ChapterRelates /></a></td></tr>
-      </viva:foreachChapterRelatesIterator>
       <viva:foreachChapterFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:ChapterFeaturesType/>/<viva:ChapterFeaturesType/>.jsp?uri=<viva:ChapterFeatures/>"><viva:ChapterFeatures /></a></td></tr>
       </viva:foreachChapterFeaturesIterator>
-      <viva:foreachChapterInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ChapterInformationResourceSupportedByType/>/<viva:ChapterInformationResourceSupportedByType/>.jsp?uri=<viva:ChapterInformationResourceSupportedBy/>"><viva:ChapterInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachChapterInformationResourceSupportedByIterator>
-      <viva:foreachChapterIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ChapterIAO_0000136Type/>/<viva:ChapterIAO_0000136Type/>.jsp?uri=<viva:ChapterIAO_0000136/>"><viva:ChapterIAO_0000136 /></a></td></tr>
-      </viva:foreachChapterIAO_0000136Iterator>
       <viva:foreachChapterEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:ChapterEditorType/>/<viva:ChapterEditorType/>.jsp?uri=<viva:ChapterEditor/>"><viva:ChapterEditor /></a></td></tr>
       </viva:foreachChapterEditorIterator>

@@ -37,12 +37,6 @@
       <viva:foreachIAO_0000005FeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:IAO_0000005FeaturesType/>/<viva:IAO_0000005FeaturesType/>.jsp?uri=<viva:IAO_0000005Features/>"><viva:IAO_0000005Features /></a></td></tr>
       </viva:foreachIAO_0000005FeaturesIterator>
-      <viva:foreachIAO_0000005InformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:IAO_0000005InformationResourceSupportedByType/>/<viva:IAO_0000005InformationResourceSupportedByType/>.jsp?uri=<viva:IAO_0000005InformationResourceSupportedBy/>"><viva:IAO_0000005InformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachIAO_0000005InformationResourceSupportedByIterator>
-      <viva:foreachIAO_0000005IAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:IAO_0000005IAO_0000136Type/>/<viva:IAO_0000005IAO_0000136Type/>.jsp?uri=<viva:IAO_0000005IAO_0000136/>"><viva:IAO_0000005IAO_0000136 /></a></td></tr>
-      </viva:foreachIAO_0000005IAO_0000136Iterator>
       <viva:foreachIAO_0000005RO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:IAO_0000005RO_0000056Type/>/<viva:IAO_0000005RO_0000056Type/>.jsp?uri=<viva:IAO_0000005RO_0000056/>"><viva:IAO_0000005RO_0000056 /></a></td></tr>
       </viva:foreachIAO_0000005RO_0000056Iterator>

@@ -34,12 +34,12 @@
       <viva:foreachWorkshopRO_0000057Iterator>
          <tr><td>RO_0000057</td><td><a href="../<viva:WorkshopRO_0000057Type/>/<viva:WorkshopRO_0000057Type/>.jsp?uri=<viva:WorkshopRO_0000057/>"><viva:WorkshopRO_0000057 /></a></td></tr>
       </viva:foreachWorkshopRO_0000057Iterator>
-      <viva:foreachWorkshopOrganizerIterator>
-         <tr><td>organizer</td><td><a href="../<viva:WorkshopOrganizerType/>/<viva:WorkshopOrganizerType/>.jsp?uri=<viva:WorkshopOrganizer/>"><viva:WorkshopOrganizer /></a></td></tr>
-      </viva:foreachWorkshopOrganizerIterator>
       <viva:foreachWorkshopBFO_0000055Iterator>
          <tr><td>BFO_0000055</td><td><a href="../<viva:WorkshopBFO_0000055Type/>/<viva:WorkshopBFO_0000055Type/>.jsp?uri=<viva:WorkshopBFO_0000055/>"><viva:WorkshopBFO_0000055 /></a></td></tr>
       </viva:foreachWorkshopBFO_0000055Iterator>
+      <viva:foreachWorkshopOrganizerIterator>
+         <tr><td>organizer</td><td><a href="../<viva:WorkshopOrganizerType/>/<viva:WorkshopOrganizerType/>.jsp?uri=<viva:WorkshopOrganizer/>"><viva:WorkshopOrganizer /></a></td></tr>
+      </viva:foreachWorkshopOrganizerIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

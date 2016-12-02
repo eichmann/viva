@@ -45,6 +45,9 @@
       <viva:foreachareaValidSinceIterator>
          <tr><td>validSince</td><td><viva:areaValidSince /></td></tr>
       </viva:foreachareaValidSinceIterator>
+      <viva:foreachareaDifferentFromIterator>
+         <tr><td>differentFrom</td><td><viva:areaDifferentFrom /></td></tr>
+      </viva:foreachareaDifferentFromIterator>
       <viva:foreachareaTopDataPropertyIterator>
          <tr><td>topDataProperty</td><td><viva:areaTopDataProperty /></td></tr>
       </viva:foreachareaTopDataPropertyIterator>
@@ -71,9 +74,6 @@
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachareaOrcidIdInverseIterator>
-         <tr><td>orcidId</td><td><a href="../<viva:areaOrcidIdInverseType/>/<viva:areaOrcidIdInverseType/>.jsp?uri=<viva:areaOrcidIdInverse/>"><viva:areaOrcidIdInverse/></a></td></tr>
-      </viva:foreachareaOrcidIdInverseIterator>
    </table>
    </viva:area>
 

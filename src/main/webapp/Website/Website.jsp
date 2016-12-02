@@ -85,45 +85,24 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachWebsiteFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:WebsiteFeaturesType/>/<viva:WebsiteFeaturesType/>.jsp?uri=<viva:WebsiteFeatures/>"><viva:WebsiteFeatures /></a></td></tr>
-      </viva:foreachWebsiteFeaturesIterator>
-      <viva:foreachWebsiteInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:WebsiteInformationResourceSupportedByType/>/<viva:WebsiteInformationResourceSupportedByType/>.jsp?uri=<viva:WebsiteInformationResourceSupportedBy/>"><viva:WebsiteInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachWebsiteInformationResourceSupportedByIterator>
-      <viva:foreachWebsiteIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:WebsiteIAO_0000136Type/>/<viva:WebsiteIAO_0000136Type/>.jsp?uri=<viva:WebsiteIAO_0000136/>"><viva:WebsiteIAO_0000136 /></a></td></tr>
-      </viva:foreachWebsiteIAO_0000136Iterator>
       <viva:foreachWebsiteEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:WebsiteEditorType/>/<viva:WebsiteEditorType/>.jsp?uri=<viva:WebsiteEditor/>"><viva:WebsiteEditor /></a></td></tr>
       </viva:foreachWebsiteEditorIterator>
-      <viva:foreachWebsiteDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<viva:WebsiteDateTimeValueType/>/<viva:WebsiteDateTimeValueType/>.jsp?uri=<viva:WebsiteDateTimeValue/>"><viva:WebsiteDateTimeValue /></a></td></tr>
-      </viva:foreachWebsiteDateTimeValueIterator>
       <viva:foreachWebsiteOwnerIterator>
          <tr><td>owner</td><td><a href="../<viva:WebsiteOwnerType/>/<viva:WebsiteOwnerType/>.jsp?uri=<viva:WebsiteOwner/>"><viva:WebsiteOwner /></a></td></tr>
       </viva:foreachWebsiteOwnerIterator>
-      <viva:foreachWebsiteTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:WebsiteTranslatorType/>/<viva:WebsiteTranslatorType/>.jsp?uri=<viva:WebsiteTranslator/>"><viva:WebsiteTranslator /></a></td></tr>
-      </viva:foreachWebsiteTranslatorIterator>
-      <viva:foreachWebsiteRO_0002353Iterator>
-         <tr><td>RO_0002353</td><td><a href="../<viva:WebsiteRO_0002353Type/>/<viva:WebsiteRO_0002353Type/>.jsp?uri=<viva:WebsiteRO_0002353/>"><viva:WebsiteRO_0002353 /></a></td></tr>
-      </viva:foreachWebsiteRO_0002353Iterator>
       <viva:foreachWebsiteIssuerIterator>
          <tr><td>issuer</td><td><a href="../<viva:WebsiteIssuerType/>/<viva:WebsiteIssuerType/>.jsp?uri=<viva:WebsiteIssuer/>"><viva:WebsiteIssuer /></a></td></tr>
       </viva:foreachWebsiteIssuerIterator>
-      <viva:foreachWebsiteARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<viva:WebsiteARG_2000028Type/>/<viva:WebsiteARG_2000028Type/>.jsp?uri=<viva:WebsiteARG_2000028/>"><viva:WebsiteARG_2000028 /></a></td></tr>
-      </viva:foreachWebsiteARG_2000028Iterator>
-      <viva:foreachWebsiteRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:WebsiteRelatedByType/>/<viva:WebsiteRelatedByType/>.jsp?uri=<viva:WebsiteRelatedBy/>"><viva:WebsiteRelatedBy /></a></td></tr>
-      </viva:foreachWebsiteRelatedByIterator>
       <viva:foreachWebsiteDistributorIterator>
          <tr><td>distributor</td><td><a href="../<viva:WebsiteDistributorType/>/<viva:WebsiteDistributorType/>.jsp?uri=<viva:WebsiteDistributor/>"><viva:WebsiteDistributor /></a></td></tr>
       </viva:foreachWebsiteDistributorIterator>
       <viva:foreachWebsiteProducerIterator>
          <tr><td>producer</td><td><a href="../<viva:WebsiteProducerType/>/<viva:WebsiteProducerType/>.jsp?uri=<viva:WebsiteProducer/>"><viva:WebsiteProducer /></a></td></tr>
       </viva:foreachWebsiteProducerIterator>
+      <viva:foreachWebsiteFeaturesIterator>
+         <tr><td>features</td><td><a href="../<viva:WebsiteFeaturesType/>/<viva:WebsiteFeaturesType/>.jsp?uri=<viva:WebsiteFeatures/>"><viva:WebsiteFeatures /></a></td></tr>
+      </viva:foreachWebsiteFeaturesIterator>
       <viva:foreachWebsiteRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:WebsiteRO_0000056Type/>/<viva:WebsiteRO_0000056Type/>.jsp?uri=<viva:WebsiteRO_0000056/>"><viva:WebsiteRO_0000056 /></a></td></tr>
       </viva:foreachWebsiteRO_0000056Iterator>

@@ -133,12 +133,6 @@
       <viva:foreachOBI_0000272FeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:OBI_0000272FeaturesType/>/<viva:OBI_0000272FeaturesType/>.jsp?uri=<viva:OBI_0000272Features/>"><viva:OBI_0000272Features /></a></td></tr>
       </viva:foreachOBI_0000272FeaturesIterator>
-      <viva:foreachOBI_0000272InformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:OBI_0000272InformationResourceSupportedByType/>/<viva:OBI_0000272InformationResourceSupportedByType/>.jsp?uri=<viva:OBI_0000272InformationResourceSupportedBy/>"><viva:OBI_0000272InformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachOBI_0000272InformationResourceSupportedByIterator>
-      <viva:foreachOBI_0000272IAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:OBI_0000272IAO_0000136Type/>/<viva:OBI_0000272IAO_0000136Type/>.jsp?uri=<viva:OBI_0000272IAO_0000136/>"><viva:OBI_0000272IAO_0000136 /></a></td></tr>
-      </viva:foreachOBI_0000272IAO_0000136Iterator>
       <viva:foreachOBI_0000272EditorIterator>
          <tr><td>editor</td><td><a href="../<viva:OBI_0000272EditorType/>/<viva:OBI_0000272EditorType/>.jsp?uri=<viva:OBI_0000272Editor/>"><viva:OBI_0000272Editor /></a></td></tr>
       </viva:foreachOBI_0000272EditorIterator>

@@ -121,12 +121,6 @@
       <viva:foreachMapFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:MapFeaturesType/>/<viva:MapFeaturesType/>.jsp?uri=<viva:MapFeatures/>"><viva:MapFeatures /></a></td></tr>
       </viva:foreachMapFeaturesIterator>
-      <viva:foreachMapInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:MapInformationResourceSupportedByType/>/<viva:MapInformationResourceSupportedByType/>.jsp?uri=<viva:MapInformationResourceSupportedBy/>"><viva:MapInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachMapInformationResourceSupportedByIterator>
-      <viva:foreachMapIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:MapIAO_0000136Type/>/<viva:MapIAO_0000136Type/>.jsp?uri=<viva:MapIAO_0000136/>"><viva:MapIAO_0000136 /></a></td></tr>
-      </viva:foreachMapIAO_0000136Iterator>
       <viva:foreachMapEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:MapEditorType/>/<viva:MapEditorType/>.jsp?uri=<viva:MapEditor/>"><viva:MapEditor /></a></td></tr>
       </viva:foreachMapEditorIterator>

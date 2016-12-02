@@ -121,12 +121,6 @@
       <viva:foreachAbstractFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:AbstractFeaturesType/>/<viva:AbstractFeaturesType/>.jsp?uri=<viva:AbstractFeatures/>"><viva:AbstractFeatures /></a></td></tr>
       </viva:foreachAbstractFeaturesIterator>
-      <viva:foreachAbstractInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:AbstractInformationResourceSupportedByType/>/<viva:AbstractInformationResourceSupportedByType/>.jsp?uri=<viva:AbstractInformationResourceSupportedBy/>"><viva:AbstractInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachAbstractInformationResourceSupportedByIterator>
-      <viva:foreachAbstractIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:AbstractIAO_0000136Type/>/<viva:AbstractIAO_0000136Type/>.jsp?uri=<viva:AbstractIAO_0000136/>"><viva:AbstractIAO_0000136 /></a></td></tr>
-      </viva:foreachAbstractIAO_0000136Iterator>
       <viva:foreachAbstractEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:AbstractEditorType/>/<viva:AbstractEditorType/>.jsp?uri=<viva:AbstractEditor/>"><viva:AbstractEditor /></a></td></tr>
       </viva:foreachAbstractEditorIterator>

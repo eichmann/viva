@@ -27,9 +27,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachStatuteArguedIterator>
-         <tr><td>argued</td><td><viva:StatuteArgued /></td></tr>
-      </viva:foreachStatuteArguedIterator>
       <viva:foreachStatuteEanucc13Iterator>
          <tr><td>eanucc13</td><td><viva:StatuteEanucc13 /></td></tr>
       </viva:foreachStatuteEanucc13Iterator>
@@ -117,22 +114,16 @@
       <viva:foreachStatuteDoiIterator>
          <tr><td>doi</td><td><viva:StatuteDoi /></td></tr>
       </viva:foreachStatuteDoiIterator>
+      <viva:foreachStatuteArguedIterator>
+         <tr><td>argued</td><td><viva:StatuteArgued /></td></tr>
+      </viva:foreachStatuteArguedIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachStatuteCourtIterator>
-         <tr><td>court</td><td><a href="../<viva:StatuteCourtType/>/<viva:StatuteCourtType/>.jsp?uri=<viva:StatuteCourt/>"><viva:StatuteCourt /></a></td></tr>
-      </viva:foreachStatuteCourtIterator>
       <viva:foreachStatuteFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:StatuteFeaturesType/>/<viva:StatuteFeaturesType/>.jsp?uri=<viva:StatuteFeatures/>"><viva:StatuteFeatures /></a></td></tr>
       </viva:foreachStatuteFeaturesIterator>
-      <viva:foreachStatuteInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:StatuteInformationResourceSupportedByType/>/<viva:StatuteInformationResourceSupportedByType/>.jsp?uri=<viva:StatuteInformationResourceSupportedBy/>"><viva:StatuteInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachStatuteInformationResourceSupportedByIterator>
-      <viva:foreachStatuteIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:StatuteIAO_0000136Type/>/<viva:StatuteIAO_0000136Type/>.jsp?uri=<viva:StatuteIAO_0000136/>"><viva:StatuteIAO_0000136 /></a></td></tr>
-      </viva:foreachStatuteIAO_0000136Iterator>
       <viva:foreachStatuteEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:StatuteEditorType/>/<viva:StatuteEditorType/>.jsp?uri=<viva:StatuteEditor/>"><viva:StatuteEditor /></a></td></tr>
       </viva:foreachStatuteEditorIterator>
@@ -196,6 +187,9 @@
       <viva:foreachStatuteRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:StatuteRO_0000056Type/>/<viva:StatuteRO_0000056Type/>.jsp?uri=<viva:StatuteRO_0000056/>"><viva:StatuteRO_0000056 /></a></td></tr>
       </viva:foreachStatuteRO_0000056Iterator>
+      <viva:foreachStatuteCourtIterator>
+         <tr><td>court</td><td><a href="../<viva:StatuteCourtType/>/<viva:StatuteCourtType/>.jsp?uri=<viva:StatuteCourt/>"><viva:StatuteCourt /></a></td></tr>
+      </viva:foreachStatuteCourtIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

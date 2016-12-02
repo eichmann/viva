@@ -124,12 +124,6 @@
       <viva:foreachBookSectionFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:BookSectionFeaturesType/>/<viva:BookSectionFeaturesType/>.jsp?uri=<viva:BookSectionFeatures/>"><viva:BookSectionFeatures /></a></td></tr>
       </viva:foreachBookSectionFeaturesIterator>
-      <viva:foreachBookSectionInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:BookSectionInformationResourceSupportedByType/>/<viva:BookSectionInformationResourceSupportedByType/>.jsp?uri=<viva:BookSectionInformationResourceSupportedBy/>"><viva:BookSectionInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachBookSectionInformationResourceSupportedByIterator>
-      <viva:foreachBookSectionIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:BookSectionIAO_0000136Type/>/<viva:BookSectionIAO_0000136Type/>.jsp?uri=<viva:BookSectionIAO_0000136/>"><viva:BookSectionIAO_0000136 /></a></td></tr>
-      </viva:foreachBookSectionIAO_0000136Iterator>
       <viva:foreachBookSectionEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:BookSectionEditorType/>/<viva:BookSectionEditorType/>.jsp?uri=<viva:BookSectionEditor/>"><viva:BookSectionEditor /></a></td></tr>
       </viva:foreachBookSectionEditorIterator>

@@ -121,12 +121,6 @@
       <viva:foreachScreenplayFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:ScreenplayFeaturesType/>/<viva:ScreenplayFeaturesType/>.jsp?uri=<viva:ScreenplayFeatures/>"><viva:ScreenplayFeatures /></a></td></tr>
       </viva:foreachScreenplayFeaturesIterator>
-      <viva:foreachScreenplayInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ScreenplayInformationResourceSupportedByType/>/<viva:ScreenplayInformationResourceSupportedByType/>.jsp?uri=<viva:ScreenplayInformationResourceSupportedBy/>"><viva:ScreenplayInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachScreenplayInformationResourceSupportedByIterator>
-      <viva:foreachScreenplayIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ScreenplayIAO_0000136Type/>/<viva:ScreenplayIAO_0000136Type/>.jsp?uri=<viva:ScreenplayIAO_0000136/>"><viva:ScreenplayIAO_0000136 /></a></td></tr>
-      </viva:foreachScreenplayIAO_0000136Iterator>
       <viva:foreachScreenplayEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:ScreenplayEditorType/>/<viva:ScreenplayEditorType/>.jsp?uri=<viva:ScreenplayEditor/>"><viva:ScreenplayEditor /></a></td></tr>
       </viva:foreachScreenplayEditorIterator>

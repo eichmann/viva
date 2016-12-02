@@ -34,12 +34,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachNonFacultyAcademicPositionDateTimeIntervalIterator>
-         <tr><td>dateTimeInterval</td><td><a href="../<viva:NonFacultyAcademicPositionDateTimeIntervalType/>/<viva:NonFacultyAcademicPositionDateTimeIntervalType/>.jsp?uri=<viva:NonFacultyAcademicPositionDateTimeInterval/>"><viva:NonFacultyAcademicPositionDateTimeInterval /></a></td></tr>
-      </viva:foreachNonFacultyAcademicPositionDateTimeIntervalIterator>
-      <viva:foreachNonFacultyAcademicPositionRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:NonFacultyAcademicPositionRelatesType/>/<viva:NonFacultyAcademicPositionRelatesType/>.jsp?uri=<viva:NonFacultyAcademicPositionRelates/>"><viva:NonFacultyAcademicPositionRelates /></a></td></tr>
-      </viva:foreachNonFacultyAcademicPositionRelatesIterator>
       <viva:foreachNonFacultyAcademicPositionRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<viva:NonFacultyAcademicPositionRO_0000052Type/>/<viva:NonFacultyAcademicPositionRO_0000052Type/>.jsp?uri=<viva:NonFacultyAcademicPositionRO_0000052/>"><viva:NonFacultyAcademicPositionRO_0000052 /></a></td></tr>
       </viva:foreachNonFacultyAcademicPositionRO_0000052Iterator>

@@ -33,21 +33,12 @@
       <viva:foreachNameFamilyNameIterator>
          <tr><td>familyName</td><td><viva:NameFamilyName /></td></tr>
       </viva:foreachNameFamilyNameIterator>
-      <viva:foreachNameMiddleNameIterator>
-         <tr><td>middleName</td><td><viva:NameMiddleName /></td></tr>
-      </viva:foreachNameMiddleNameIterator>
-      <viva:foreachNameRankIterator>
-         <tr><td>rank</td><td><viva:NameRank /></td></tr>
-      </viva:foreachNameRankIterator>
       <viva:foreachNameHonorificPrefixIterator>
          <tr><td>honorificPrefix</td><td><viva:NameHonorificPrefix /></td></tr>
       </viva:foreachNameHonorificPrefixIterator>
       <viva:foreachNameHonorificSuffixIterator>
          <tr><td>honorificSuffix</td><td><viva:NameHonorificSuffix /></td></tr>
       </viva:foreachNameHonorificSuffixIterator>
-      <viva:foreachNameUrlIterator>
-         <tr><td>url</td><td><viva:NameUrl /></td></tr>
-      </viva:foreachNameUrlIterator>
       <viva:foreachNameAdditionalNameIterator>
          <tr><td>additionalName</td><td><viva:NameAdditionalName /></td></tr>
       </viva:foreachNameAdditionalNameIterator>
@@ -55,15 +46,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachNameRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:NameRelatedByType/>/<viva:NameRelatedByType/>.jsp?uri=<viva:NameRelatedBy/>"><viva:NameRelatedBy /></a></td></tr>
-      </viva:foreachNameRelatedByIterator>
-      <viva:foreachNameRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:NameRelatesType/>/<viva:NameRelatesType/>.jsp?uri=<viva:NameRelates/>"><viva:NameRelates /></a></td></tr>
-      </viva:foreachNameRelatesIterator>
-      <viva:foreachNameHasURLIterator>
-         <tr><td>hasURL</td><td><a href="../<viva:NameHasURLType/>/<viva:NameHasURLType/>.jsp?uri=<viva:NameHasURL/>"><viva:NameHasURL /></a></td></tr>
-      </viva:foreachNameHasURLIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

@@ -27,9 +27,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachLegislationArguedIterator>
-         <tr><td>argued</td><td><viva:LegislationArgued /></td></tr>
-      </viva:foreachLegislationArguedIterator>
       <viva:foreachLegislationEanucc13Iterator>
          <tr><td>eanucc13</td><td><viva:LegislationEanucc13 /></td></tr>
       </viva:foreachLegislationEanucc13Iterator>
@@ -117,22 +114,16 @@
       <viva:foreachLegislationDoiIterator>
          <tr><td>doi</td><td><viva:LegislationDoi /></td></tr>
       </viva:foreachLegislationDoiIterator>
+      <viva:foreachLegislationArguedIterator>
+         <tr><td>argued</td><td><viva:LegislationArgued /></td></tr>
+      </viva:foreachLegislationArguedIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachLegislationCourtIterator>
-         <tr><td>court</td><td><a href="../<viva:LegislationCourtType/>/<viva:LegislationCourtType/>.jsp?uri=<viva:LegislationCourt/>"><viva:LegislationCourt /></a></td></tr>
-      </viva:foreachLegislationCourtIterator>
       <viva:foreachLegislationFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:LegislationFeaturesType/>/<viva:LegislationFeaturesType/>.jsp?uri=<viva:LegislationFeatures/>"><viva:LegislationFeatures /></a></td></tr>
       </viva:foreachLegislationFeaturesIterator>
-      <viva:foreachLegislationInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:LegislationInformationResourceSupportedByType/>/<viva:LegislationInformationResourceSupportedByType/>.jsp?uri=<viva:LegislationInformationResourceSupportedBy/>"><viva:LegislationInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachLegislationInformationResourceSupportedByIterator>
-      <viva:foreachLegislationIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:LegislationIAO_0000136Type/>/<viva:LegislationIAO_0000136Type/>.jsp?uri=<viva:LegislationIAO_0000136/>"><viva:LegislationIAO_0000136 /></a></td></tr>
-      </viva:foreachLegislationIAO_0000136Iterator>
       <viva:foreachLegislationEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:LegislationEditorType/>/<viva:LegislationEditorType/>.jsp?uri=<viva:LegislationEditor/>"><viva:LegislationEditor /></a></td></tr>
       </viva:foreachLegislationEditorIterator>
@@ -196,6 +187,9 @@
       <viva:foreachLegislationRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:LegislationRO_0000056Type/>/<viva:LegislationRO_0000056Type/>.jsp?uri=<viva:LegislationRO_0000056/>"><viva:LegislationRO_0000056 /></a></td></tr>
       </viva:foreachLegislationRO_0000056Iterator>
+      <viva:foreachLegislationCourtIterator>
+         <tr><td>court</td><td><a href="../<viva:LegislationCourtType/>/<viva:LegislationCourtType/>.jsp?uri=<viva:LegislationCourt/>"><viva:LegislationCourt /></a></td></tr>
+      </viva:foreachLegislationCourtIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

@@ -120,22 +120,22 @@
       <viva:foreachgeographical_regionValidSinceIterator>
          <tr><td>validSince</td><td><viva:geographical_regionValidSince /></td></tr>
       </viva:foreachgeographical_regionValidSinceIterator>
+      <viva:foreachgeographical_regionDifferentFromIterator>
+         <tr><td>differentFrom</td><td><viva:geographical_regionDifferentFrom /></td></tr>
+      </viva:foreachgeographical_regionDifferentFromIterator>
       <viva:foreachgeographical_regionTopDataPropertyIterator>
          <tr><td>topDataProperty</td><td><viva:geographical_regionTopDataProperty /></td></tr>
       </viva:foreachgeographical_regionTopDataPropertyIterator>
       <viva:foreachgeographical_regionBottomDataPropertyIterator>
          <tr><td>bottomDataProperty</td><td><viva:geographical_regionBottomDataProperty /></td></tr>
       </viva:foreachgeographical_regionBottomDataPropertyIterator>
+      <viva:foreachgeographical_regionGeographicFocusOfIterator>
+         <tr><td>geographicFocusOf</td><td><viva:geographical_regionGeographicFocusOf /></td></tr>
+      </viva:foreachgeographical_regionGeographicFocusOfIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachgeographical_regionGeographicFocusOfIterator>
-         <tr><td>geographicFocusOf</td><td><a href="../<viva:geographical_regionGeographicFocusOfType/>/<viva:geographical_regionGeographicFocusOfType/>.jsp?uri=<viva:geographical_regionGeographicFocusOf/>"><viva:geographical_regionGeographicFocusOf /></a></td></tr>
-      </viva:foreachgeographical_regionGeographicFocusOfIterator>
-      <viva:foreachgeographical_regionHasMemberIterator>
-         <tr><td>hasMember</td><td><a href="../<viva:geographical_regionHasMemberType/>/<viva:geographical_regionHasMemberType/>.jsp?uri=<viva:geographical_regionHasMember/>"><viva:geographical_regionHasMember /></a></td></tr>
-      </viva:foreachgeographical_regionHasMemberIterator>
       <viva:foreachgeographical_regionIsSuccessorOfIterator>
          <tr><td>isSuccessorOf</td><td><a href="../<viva:geographical_regionIsSuccessorOfType/>/<viva:geographical_regionIsSuccessorOfType/>.jsp?uri=<viva:geographical_regionIsSuccessorOf/>"><viva:geographical_regionIsSuccessorOf /></a></td></tr>
       </viva:foreachgeographical_regionIsSuccessorOfIterator>
@@ -148,12 +148,15 @@
       <viva:foreachgeographical_regionTopObjectPropertyIterator>
          <tr><td>topObjectProperty</td><td><a href="../<viva:geographical_regionTopObjectPropertyType/>/<viva:geographical_regionTopObjectPropertyType/>.jsp?uri=<viva:geographical_regionTopObjectProperty/>"><viva:geographical_regionTopObjectProperty /></a></td></tr>
       </viva:foreachgeographical_regionTopObjectPropertyIterator>
-      <viva:foreachgeographical_regionRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:geographical_regionRO_0000053Type/>/<viva:geographical_regionRO_0000053Type/>.jsp?uri=<viva:geographical_regionRO_0000053/>"><viva:geographical_regionRO_0000053 /></a></td></tr>
-      </viva:foreachgeographical_regionRO_0000053Iterator>
       <viva:foreachgeographical_regionRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:geographical_regionRO_0000056Type/>/<viva:geographical_regionRO_0000056Type/>.jsp?uri=<viva:geographical_regionRO_0000056/>"><viva:geographical_regionRO_0000056 /></a></td></tr>
       </viva:foreachgeographical_regionRO_0000056Iterator>
+      <viva:foreachgeographical_regionHasMemberIterator>
+         <tr><td>hasMember</td><td><a href="../<viva:geographical_regionHasMemberType/>/<viva:geographical_regionHasMemberType/>.jsp?uri=<viva:geographical_regionHasMember/>"><viva:geographical_regionHasMember /></a></td></tr>
+      </viva:foreachgeographical_regionHasMemberIterator>
+      <viva:foreachgeographical_regionRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:geographical_regionRO_0000053Type/>/<viva:geographical_regionRO_0000053Type/>.jsp?uri=<viva:geographical_regionRO_0000053/>"><viva:geographical_regionRO_0000053 /></a></td></tr>
+      </viva:foreachgeographical_regionRO_0000053Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
@@ -161,9 +164,6 @@
       <viva:foreachgeographical_regionValidInInverseIterator>
          <tr><td>validIn</td><td><a href="../<viva:geographical_regionValidInInverseType/>/<viva:geographical_regionValidInInverseType/>.jsp?uri=<viva:geographical_regionValidInInverse/>"><viva:geographical_regionValidInInverse/></a></td></tr>
       </viva:foreachgeographical_regionValidInInverseIterator>
-      <viva:foreachgeographical_regionOrcidIdInverseIterator>
-         <tr><td>orcidId</td><td><a href="../<viva:geographical_regionOrcidIdInverseType/>/<viva:geographical_regionOrcidIdInverseType/>.jsp?uri=<viva:geographical_regionOrcidIdInverse/>"><viva:geographical_regionOrcidIdInverse/></a></td></tr>
-      </viva:foreachgeographical_regionOrcidIdInverseIterator>
    </table>
    </viva:geographical_region>
 

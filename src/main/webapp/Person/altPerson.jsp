@@ -21,9 +21,9 @@
                     <h3><viva:foreachNameGivenNameIterator><viva:NameGivenName/></viva:foreachNameGivenNameIterator> <viva:foreachNameFamilyNameIterator><viva:NameFamilyName/></viva:foreachNameFamilyNameIterator></h3>
                 </viva:Name>
             </viva:foreachIndividualHasNameIterator>
-            <viva:foreachIndividualHasEmailIterator>
-                <p>Email: <viva:Email><viva:foreachEmailEmailIterator><viva:EmailEmail/></viva:foreachEmailEmailIterator></viva:Email>
-            </viva:foreachIndividualHasEmailIterator>
+<%--             <viva:foreachIndividualHasEmailIterator> --%>
+<%--                 <p>Email: <viva:Email><viva:foreachEmailEmailIterator><viva:EmailEmail/></viva:foreachEmailEmailIterator></viva:Email> --%>
+<%--             </viva:foreachIndividualHasEmailIterator> --%>
          </viva:Individual>
      <viva:foreachPersonOrcidIdIterator>
          <p>ORCiD ID: <a href="<viva:PersonOrcidId/>"><viva:PersonOrcidId/></a>
@@ -55,17 +55,17 @@
       </ol>
 
       <h4>Book</h4>
-      <ol class=bulletedList>
-      <viva:foreachPersonRelatedByIterator classFilter="Authorship">
-         <viva:Authorship>
-            <viva:foreachAuthorshipRelatesIterator classFilter="Book">
-               <viva:Book>
-                  <li><a href="../Book/altBook.jsp?uri=<viva:BookSubjectURI/>"><viva:BookLabel/></a>
-               </viva:Book>
-            </viva:foreachAuthorshipRelatesIterator>
-         </viva:Authorship>
-      </viva:foreachPersonRelatedByIterator>
-      </ol>
+<!--       <ol class=bulletedList> -->
+<%--       <viva:foreachPersonRelatedByIterator classFilter="Authorship"> --%>
+<%--          <viva:Authorship> --%>
+<%--             <viva:foreachAuthorshipRelatesIterator classFilter="Book"> --%>
+<%--                <viva:Book> --%>
+<%--                   <li><a href="../Book/altBook.jsp?uri=<viva:BookSubjectURI/>"><viva:BookLabel/></a> --%>
+<%--                </viva:Book> --%>
+<%--             </viva:foreachAuthorshipRelatesIterator> --%>
+<%--          </viva:Authorship> --%>
+<%--       </viva:foreachPersonRelatedByIterator> --%>
+<!--       </ol> -->
 
       <h4>Book Chapter</h4>
       <ol class=bulletedList>

@@ -121,12 +121,6 @@
       <viva:foreachResearchProposalFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:ResearchProposalFeaturesType/>/<viva:ResearchProposalFeaturesType/>.jsp?uri=<viva:ResearchProposalFeatures/>"><viva:ResearchProposalFeatures /></a></td></tr>
       </viva:foreachResearchProposalFeaturesIterator>
-      <viva:foreachResearchProposalInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ResearchProposalInformationResourceSupportedByType/>/<viva:ResearchProposalInformationResourceSupportedByType/>.jsp?uri=<viva:ResearchProposalInformationResourceSupportedBy/>"><viva:ResearchProposalInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachResearchProposalInformationResourceSupportedByIterator>
-      <viva:foreachResearchProposalIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ResearchProposalIAO_0000136Type/>/<viva:ResearchProposalIAO_0000136Type/>.jsp?uri=<viva:ResearchProposalIAO_0000136/>"><viva:ResearchProposalIAO_0000136 /></a></td></tr>
-      </viva:foreachResearchProposalIAO_0000136Iterator>
       <viva:foreachResearchProposalEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:ResearchProposalEditorType/>/<viva:ResearchProposalEditorType/>.jsp?uri=<viva:ResearchProposalEditor/>"><viva:ResearchProposalEditor /></a></td></tr>
       </viva:foreachResearchProposalEditorIterator>

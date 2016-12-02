@@ -31,18 +31,15 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachMemberRoleRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:MemberRoleRO_0000056Type/>/<viva:MemberRoleRO_0000056Type/>.jsp?uri=<viva:MemberRoleRO_0000056/>"><viva:MemberRoleRO_0000056 /></a></td></tr>
-      </viva:foreachMemberRoleRO_0000056Iterator>
       <viva:foreachMemberRoleRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<viva:MemberRoleRO_0000052Type/>/<viva:MemberRoleRO_0000052Type/>.jsp?uri=<viva:MemberRoleRO_0000052/>"><viva:MemberRoleRO_0000052 /></a></td></tr>
       </viva:foreachMemberRoleRO_0000052Iterator>
       <viva:foreachMemberRoleBFO_0000054Iterator>
          <tr><td>BFO_0000054</td><td><a href="../<viva:MemberRoleBFO_0000054Type/>/<viva:MemberRoleBFO_0000054Type/>.jsp?uri=<viva:MemberRoleBFO_0000054/>"><viva:MemberRoleBFO_0000054 /></a></td></tr>
       </viva:foreachMemberRoleBFO_0000054Iterator>
-      <viva:foreachMemberRoleRoleContributesToIterator>
-         <tr><td>roleContributesTo</td><td><a href="../<viva:MemberRoleRoleContributesToType/>/<viva:MemberRoleRoleContributesToType/>.jsp?uri=<viva:MemberRoleRoleContributesTo/>"><viva:MemberRoleRoleContributesTo /></a></td></tr>
-      </viva:foreachMemberRoleRoleContributesToIterator>
+      <viva:foreachMemberRoleRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:MemberRoleRO_0000056Type/>/<viva:MemberRoleRO_0000056Type/>.jsp?uri=<viva:MemberRoleRO_0000056/>"><viva:MemberRoleRO_0000056 /></a></td></tr>
+      </viva:foreachMemberRoleRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

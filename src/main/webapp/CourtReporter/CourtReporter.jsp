@@ -88,27 +88,12 @@
       <viva:foreachCourtReporterEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:CourtReporterEditorType/>/<viva:CourtReporterEditorType/>.jsp?uri=<viva:CourtReporterEditor/>"><viva:CourtReporterEditor /></a></td></tr>
       </viva:foreachCourtReporterEditorIterator>
-      <viva:foreachCourtReporterDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<viva:CourtReporterDateTimeValueType/>/<viva:CourtReporterDateTimeValueType/>.jsp?uri=<viva:CourtReporterDateTimeValue/>"><viva:CourtReporterDateTimeValue /></a></td></tr>
-      </viva:foreachCourtReporterDateTimeValueIterator>
       <viva:foreachCourtReporterOwnerIterator>
          <tr><td>owner</td><td><a href="../<viva:CourtReporterOwnerType/>/<viva:CourtReporterOwnerType/>.jsp?uri=<viva:CourtReporterOwner/>"><viva:CourtReporterOwner /></a></td></tr>
       </viva:foreachCourtReporterOwnerIterator>
-      <viva:foreachCourtReporterTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:CourtReporterTranslatorType/>/<viva:CourtReporterTranslatorType/>.jsp?uri=<viva:CourtReporterTranslator/>"><viva:CourtReporterTranslator /></a></td></tr>
-      </viva:foreachCourtReporterTranslatorIterator>
-      <viva:foreachCourtReporterRO_0002353Iterator>
-         <tr><td>RO_0002353</td><td><a href="../<viva:CourtReporterRO_0002353Type/>/<viva:CourtReporterRO_0002353Type/>.jsp?uri=<viva:CourtReporterRO_0002353/>"><viva:CourtReporterRO_0002353 /></a></td></tr>
-      </viva:foreachCourtReporterRO_0002353Iterator>
       <viva:foreachCourtReporterIssuerIterator>
          <tr><td>issuer</td><td><a href="../<viva:CourtReporterIssuerType/>/<viva:CourtReporterIssuerType/>.jsp?uri=<viva:CourtReporterIssuer/>"><viva:CourtReporterIssuer /></a></td></tr>
       </viva:foreachCourtReporterIssuerIterator>
-      <viva:foreachCourtReporterARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<viva:CourtReporterARG_2000028Type/>/<viva:CourtReporterARG_2000028Type/>.jsp?uri=<viva:CourtReporterARG_2000028/>"><viva:CourtReporterARG_2000028 /></a></td></tr>
-      </viva:foreachCourtReporterARG_2000028Iterator>
-      <viva:foreachCourtReporterRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:CourtReporterRelatedByType/>/<viva:CourtReporterRelatedByType/>.jsp?uri=<viva:CourtReporterRelatedBy/>"><viva:CourtReporterRelatedBy /></a></td></tr>
-      </viva:foreachCourtReporterRelatedByIterator>
       <viva:foreachCourtReporterDistributorIterator>
          <tr><td>distributor</td><td><a href="../<viva:CourtReporterDistributorType/>/<viva:CourtReporterDistributorType/>.jsp?uri=<viva:CourtReporterDistributor/>"><viva:CourtReporterDistributor /></a></td></tr>
       </viva:foreachCourtReporterDistributorIterator>
@@ -118,12 +103,6 @@
       <viva:foreachCourtReporterFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:CourtReporterFeaturesType/>/<viva:CourtReporterFeaturesType/>.jsp?uri=<viva:CourtReporterFeatures/>"><viva:CourtReporterFeatures /></a></td></tr>
       </viva:foreachCourtReporterFeaturesIterator>
-      <viva:foreachCourtReporterInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:CourtReporterInformationResourceSupportedByType/>/<viva:CourtReporterInformationResourceSupportedByType/>.jsp?uri=<viva:CourtReporterInformationResourceSupportedBy/>"><viva:CourtReporterInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachCourtReporterInformationResourceSupportedByIterator>
-      <viva:foreachCourtReporterIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:CourtReporterIAO_0000136Type/>/<viva:CourtReporterIAO_0000136Type/>.jsp?uri=<viva:CourtReporterIAO_0000136/>"><viva:CourtReporterIAO_0000136 /></a></td></tr>
-      </viva:foreachCourtReporterIAO_0000136Iterator>
       <viva:foreachCourtReporterRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:CourtReporterRO_0000056Type/>/<viva:CourtReporterRO_0000056Type/>.jsp?uri=<viva:CourtReporterRO_0000056/>"><viva:CourtReporterRO_0000056 /></a></td></tr>
       </viva:foreachCourtReporterRO_0000056Iterator>

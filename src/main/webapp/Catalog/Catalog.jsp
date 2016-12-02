@@ -121,12 +121,6 @@
       <viva:foreachCatalogFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:CatalogFeaturesType/>/<viva:CatalogFeaturesType/>.jsp?uri=<viva:CatalogFeatures/>"><viva:CatalogFeatures /></a></td></tr>
       </viva:foreachCatalogFeaturesIterator>
-      <viva:foreachCatalogInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:CatalogInformationResourceSupportedByType/>/<viva:CatalogInformationResourceSupportedByType/>.jsp?uri=<viva:CatalogInformationResourceSupportedBy/>"><viva:CatalogInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachCatalogInformationResourceSupportedByIterator>
-      <viva:foreachCatalogIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:CatalogIAO_0000136Type/>/<viva:CatalogIAO_0000136Type/>.jsp?uri=<viva:CatalogIAO_0000136/>"><viva:CatalogIAO_0000136 /></a></td></tr>
-      </viva:foreachCatalogIAO_0000136Iterator>
       <viva:foreachCatalogEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:CatalogEditorType/>/<viva:CatalogEditorType/>.jsp?uri=<viva:CatalogEditor/>"><viva:CatalogEditor /></a></td></tr>
       </viva:foreachCatalogEditorIterator>

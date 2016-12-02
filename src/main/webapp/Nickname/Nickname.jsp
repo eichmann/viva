@@ -30,12 +30,6 @@
       <viva:foreachNicknameNickNameIterator>
          <tr><td>nickName</td><td><viva:NicknameNickName /></td></tr>
       </viva:foreachNicknameNickNameIterator>
-      <viva:foreachNicknameRankIterator>
-         <tr><td>rank</td><td><viva:NicknameRank /></td></tr>
-      </viva:foreachNicknameRankIterator>
-      <viva:foreachNicknameUrlIterator>
-         <tr><td>url</td><td><viva:NicknameUrl /></td></tr>
-      </viva:foreachNicknameUrlIterator>
    </table>
 
    <h3>Object Properties</h3>

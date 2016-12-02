@@ -27,9 +27,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachLocationRankIterator>
-         <tr><td>rank</td><td><viva:LocationRank /></td></tr>
-      </viva:foreachLocationRankIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -37,36 +34,12 @@
       <viva:foreachLocationFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:LocationFeaturesType/>/<viva:LocationFeaturesType/>.jsp?uri=<viva:LocationFeatures/>"><viva:LocationFeatures /></a></td></tr>
       </viva:foreachLocationFeaturesIterator>
-      <viva:foreachLocationInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:LocationInformationResourceSupportedByType/>/<viva:LocationInformationResourceSupportedByType/>.jsp?uri=<viva:LocationInformationResourceSupportedBy/>"><viva:LocationInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachLocationInformationResourceSupportedByIterator>
-      <viva:foreachLocationIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:LocationIAO_0000136Type/>/<viva:LocationIAO_0000136Type/>.jsp?uri=<viva:LocationIAO_0000136/>"><viva:LocationIAO_0000136 /></a></td></tr>
-      </viva:foreachLocationIAO_0000136Iterator>
-      <viva:foreachLocationARG_2000029Iterator>
-         <tr><td>ARG_2000029</td><td><a href="../<viva:LocationARG_2000029Type/>/<viva:LocationARG_2000029Type/>.jsp?uri=<viva:LocationARG_2000029/>"><viva:LocationARG_2000029 /></a></td></tr>
-      </viva:foreachLocationARG_2000029Iterator>
       <viva:foreachLocationRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:LocationRO_0000056Type/>/<viva:LocationRO_0000056Type/>.jsp?uri=<viva:LocationRO_0000056/>"><viva:LocationRO_0000056 /></a></td></tr>
       </viva:foreachLocationRO_0000056Iterator>
       <viva:foreachLocationHasAddressIterator>
          <tr><td>hasAddress</td><td><a href="../<viva:LocationHasAddressType/>/<viva:LocationHasAddressType/>.jsp?uri=<viva:LocationHasAddress/>"><viva:LocationHasAddress /></a></td></tr>
       </viva:foreachLocationHasAddressIterator>
-      <viva:foreachLocationHasGeoIterator>
-         <tr><td>hasGeo</td><td><a href="../<viva:LocationHasGeoType/>/<viva:LocationHasGeoType/>.jsp?uri=<viva:LocationHasGeo/>"><viva:LocationHasGeo /></a></td></tr>
-      </viva:foreachLocationHasGeoIterator>
-      <viva:foreachLocationRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:LocationRelatedByType/>/<viva:LocationRelatedByType/>.jsp?uri=<viva:LocationRelatedBy/>"><viva:LocationRelatedBy /></a></td></tr>
-      </viva:foreachLocationRelatedByIterator>
-      <viva:foreachLocationHasEmailIterator>
-         <tr><td>hasEmail</td><td><a href="../<viva:LocationHasEmailType/>/<viva:LocationHasEmailType/>.jsp?uri=<viva:LocationHasEmail/>"><viva:LocationHasEmail /></a></td></tr>
-      </viva:foreachLocationHasEmailIterator>
-      <viva:foreachLocationRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:LocationRelatesType/>/<viva:LocationRelatesType/>.jsp?uri=<viva:LocationRelates/>"><viva:LocationRelates /></a></td></tr>
-      </viva:foreachLocationRelatesIterator>
-      <viva:foreachLocationHasURLIterator>
-         <tr><td>hasURL</td><td><a href="../<viva:LocationHasURLType/>/<viva:LocationHasURLType/>.jsp?uri=<viva:LocationHasURL/>"><viva:LocationHasURL /></a></td></tr>
-      </viva:foreachLocationHasURLIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

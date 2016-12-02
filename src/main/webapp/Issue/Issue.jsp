@@ -124,12 +124,6 @@
       <viva:foreachIssueFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:IssueFeaturesType/>/<viva:IssueFeaturesType/>.jsp?uri=<viva:IssueFeatures/>"><viva:IssueFeatures /></a></td></tr>
       </viva:foreachIssueFeaturesIterator>
-      <viva:foreachIssueInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:IssueInformationResourceSupportedByType/>/<viva:IssueInformationResourceSupportedByType/>.jsp?uri=<viva:IssueInformationResourceSupportedBy/>"><viva:IssueInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachIssueInformationResourceSupportedByIterator>
-      <viva:foreachIssueIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:IssueIAO_0000136Type/>/<viva:IssueIAO_0000136Type/>.jsp?uri=<viva:IssueIAO_0000136/>"><viva:IssueIAO_0000136 /></a></td></tr>
-      </viva:foreachIssueIAO_0000136Iterator>
       <viva:foreachIssueEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:IssueEditorType/>/<viva:IssueEditorType/>.jsp?uri=<viva:IssueEditor/>"><viva:IssueEditor /></a></td></tr>
       </viva:foreachIssueEditorIterator>

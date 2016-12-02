@@ -31,15 +31,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachEditorshipRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:EditorshipRelatesType/>/<viva:EditorshipRelatesType/>.jsp?uri=<viva:EditorshipRelates/>"><viva:EditorshipRelates /></a></td></tr>
-      </viva:foreachEditorshipRelatesIterator>
-      <viva:foreachEditorshipRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:EditorshipRO_0000056Type/>/<viva:EditorshipRO_0000056Type/>.jsp?uri=<viva:EditorshipRO_0000056/>"><viva:EditorshipRO_0000056 /></a></td></tr>
-      </viva:foreachEditorshipRO_0000056Iterator>
       <viva:foreachEditorshipRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<viva:EditorshipRO_0000052Type/>/<viva:EditorshipRO_0000052Type/>.jsp?uri=<viva:EditorshipRO_0000052/>"><viva:EditorshipRO_0000052 /></a></td></tr>
       </viva:foreachEditorshipRO_0000052Iterator>
+      <viva:foreachEditorshipRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:EditorshipRO_0000056Type/>/<viva:EditorshipRO_0000056Type/>.jsp?uri=<viva:EditorshipRO_0000056/>"><viva:EditorshipRO_0000056 /></a></td></tr>
+      </viva:foreachEditorshipRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

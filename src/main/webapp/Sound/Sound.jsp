@@ -30,12 +30,6 @@
       <viva:foreachSoundSoundIterator>
          <tr><td>sound</td><td><viva:SoundSound /></td></tr>
       </viva:foreachSoundSoundIterator>
-      <viva:foreachSoundRankIterator>
-         <tr><td>rank</td><td><viva:SoundRank /></td></tr>
-      </viva:foreachSoundRankIterator>
-      <viva:foreachSoundUrlIterator>
-         <tr><td>url</td><td><viva:SoundUrl /></td></tr>
-      </viva:foreachSoundUrlIterator>
    </table>
 
    <h3>Object Properties</h3>

@@ -23,14 +23,10 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>abbreviation</td><td><viva:ConferenceAbbreviation /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachConferenceDescriptionIterator>
-         <tr><td>description</td><td><viva:ConferenceDescription /></td></tr>
-      </viva:foreachConferenceDescriptionIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -38,12 +34,6 @@
       <viva:foreachConferenceARG_2000028Iterator>
          <tr><td>ARG_2000028</td><td><a href="../<viva:ConferenceARG_2000028Type/>/<viva:ConferenceARG_2000028Type/>.jsp?uri=<viva:ConferenceARG_2000028/>"><viva:ConferenceARG_2000028 /></a></td></tr>
       </viva:foreachConferenceARG_2000028Iterator>
-      <viva:foreachConferenceRO_0002234Iterator>
-         <tr><td>RO_0002234</td><td><a href="../<viva:ConferenceRO_0002234Type/>/<viva:ConferenceRO_0002234Type/>.jsp?uri=<viva:ConferenceRO_0002234/>"><viva:ConferenceRO_0002234 /></a></td></tr>
-      </viva:foreachConferenceRO_0002234Iterator>
-      <viva:foreachConferenceHasSubjectAreaIterator>
-         <tr><td>hasSubjectArea</td><td><a href="../<viva:ConferenceHasSubjectAreaType/>/<viva:ConferenceHasSubjectAreaType/>.jsp?uri=<viva:ConferenceHasSubjectArea/>"><viva:ConferenceHasSubjectArea /></a></td></tr>
-      </viva:foreachConferenceHasSubjectAreaIterator>
       <viva:foreachConferenceHasProceedingsIterator>
          <tr><td>hasProceedings</td><td><a href="../<viva:ConferenceHasProceedingsType/>/<viva:ConferenceHasProceedingsType/>.jsp?uri=<viva:ConferenceHasProceedings/>"><viva:ConferenceHasProceedings /></a></td></tr>
       </viva:foreachConferenceHasProceedingsIterator>
@@ -53,12 +43,12 @@
       <viva:foreachConferenceRO_0000057Iterator>
          <tr><td>RO_0000057</td><td><a href="../<viva:ConferenceRO_0000057Type/>/<viva:ConferenceRO_0000057Type/>.jsp?uri=<viva:ConferenceRO_0000057/>"><viva:ConferenceRO_0000057 /></a></td></tr>
       </viva:foreachConferenceRO_0000057Iterator>
-      <viva:foreachConferenceOrganizerIterator>
-         <tr><td>organizer</td><td><a href="../<viva:ConferenceOrganizerType/>/<viva:ConferenceOrganizerType/>.jsp?uri=<viva:ConferenceOrganizer/>"><viva:ConferenceOrganizer /></a></td></tr>
-      </viva:foreachConferenceOrganizerIterator>
       <viva:foreachConferenceBFO_0000055Iterator>
          <tr><td>BFO_0000055</td><td><a href="../<viva:ConferenceBFO_0000055Type/>/<viva:ConferenceBFO_0000055Type/>.jsp?uri=<viva:ConferenceBFO_0000055/>"><viva:ConferenceBFO_0000055 /></a></td></tr>
       </viva:foreachConferenceBFO_0000055Iterator>
+      <viva:foreachConferenceOrganizerIterator>
+         <tr><td>organizer</td><td><a href="../<viva:ConferenceOrganizerType/>/<viva:ConferenceOrganizerType/>.jsp?uri=<viva:ConferenceOrganizer/>"><viva:ConferenceOrganizer /></a></td></tr>
+      </viva:foreachConferenceOrganizerIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

@@ -27,19 +27,19 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachPopulatedPlaceGeographicFocusOfIterator>
+         <tr><td>geographicFocusOf</td><td><viva:PopulatedPlaceGeographicFocusOf /></td></tr>
+      </viva:foreachPopulatedPlaceGeographicFocusOfIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachPopulatedPlaceRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:PopulatedPlaceRO_0000053Type/>/<viva:PopulatedPlaceRO_0000053Type/>.jsp?uri=<viva:PopulatedPlaceRO_0000053/>"><viva:PopulatedPlaceRO_0000053 /></a></td></tr>
-      </viva:foreachPopulatedPlaceRO_0000053Iterator>
-      <viva:foreachPopulatedPlaceGeographicFocusOfIterator>
-         <tr><td>geographicFocusOf</td><td><a href="../<viva:PopulatedPlaceGeographicFocusOfType/>/<viva:PopulatedPlaceGeographicFocusOfType/>.jsp?uri=<viva:PopulatedPlaceGeographicFocusOf/>"><viva:PopulatedPlaceGeographicFocusOf /></a></td></tr>
-      </viva:foreachPopulatedPlaceGeographicFocusOfIterator>
       <viva:foreachPopulatedPlaceRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:PopulatedPlaceRO_0000056Type/>/<viva:PopulatedPlaceRO_0000056Type/>.jsp?uri=<viva:PopulatedPlaceRO_0000056/>"><viva:PopulatedPlaceRO_0000056 /></a></td></tr>
       </viva:foreachPopulatedPlaceRO_0000056Iterator>
+      <viva:foreachPopulatedPlaceRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:PopulatedPlaceRO_0000053Type/>/<viva:PopulatedPlaceRO_0000053Type/>.jsp?uri=<viva:PopulatedPlaceRO_0000053/>"><viva:PopulatedPlaceRO_0000053 /></a></td></tr>
+      </viva:foreachPopulatedPlaceRO_0000053Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

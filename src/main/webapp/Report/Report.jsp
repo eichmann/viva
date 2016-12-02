@@ -125,21 +125,9 @@
       <viva:foreachReportARG_2000028Iterator>
          <tr><td>ARG_2000028</td><td><a href="../<viva:ReportARG_2000028Type/>/<viva:ReportARG_2000028Type/>.jsp?uri=<viva:ReportARG_2000028/>"><viva:ReportARG_2000028 /></a></td></tr>
       </viva:foreachReportARG_2000028Iterator>
-      <viva:foreachReportRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:ReportRelatedByType/>/<viva:ReportRelatedByType/>.jsp?uri=<viva:ReportRelatedBy/>"><viva:ReportRelatedBy /></a></td></tr>
-      </viva:foreachReportRelatedByIterator>
-      <viva:foreachReportRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:ReportRelatesType/>/<viva:ReportRelatesType/>.jsp?uri=<viva:ReportRelates/>"><viva:ReportRelates /></a></td></tr>
-      </viva:foreachReportRelatesIterator>
       <viva:foreachReportFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:ReportFeaturesType/>/<viva:ReportFeaturesType/>.jsp?uri=<viva:ReportFeatures/>"><viva:ReportFeatures /></a></td></tr>
       </viva:foreachReportFeaturesIterator>
-      <viva:foreachReportInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ReportInformationResourceSupportedByType/>/<viva:ReportInformationResourceSupportedByType/>.jsp?uri=<viva:ReportInformationResourceSupportedBy/>"><viva:ReportInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachReportInformationResourceSupportedByIterator>
-      <viva:foreachReportIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ReportIAO_0000136Type/>/<viva:ReportIAO_0000136Type/>.jsp?uri=<viva:ReportIAO_0000136/>"><viva:ReportIAO_0000136 /></a></td></tr>
-      </viva:foreachReportIAO_0000136Iterator>
       <viva:foreachReportEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:ReportEditorType/>/<viva:ReportEditorType/>.jsp?uri=<viva:ReportEditor/>"><viva:ReportEditor /></a></td></tr>
       </viva:foreachReportEditorIterator>

@@ -23,7 +23,6 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>hideFromDisplay</td><td><viva:InvestigatorRoleHideFromDisplay /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -32,18 +31,15 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachInvestigatorRoleRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:InvestigatorRoleRO_0000056Type/>/<viva:InvestigatorRoleRO_0000056Type/>.jsp?uri=<viva:InvestigatorRoleRO_0000056/>"><viva:InvestigatorRoleRO_0000056 /></a></td></tr>
-      </viva:foreachInvestigatorRoleRO_0000056Iterator>
       <viva:foreachInvestigatorRoleRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<viva:InvestigatorRoleRO_0000052Type/>/<viva:InvestigatorRoleRO_0000052Type/>.jsp?uri=<viva:InvestigatorRoleRO_0000052/>"><viva:InvestigatorRoleRO_0000052 /></a></td></tr>
       </viva:foreachInvestigatorRoleRO_0000052Iterator>
       <viva:foreachInvestigatorRoleBFO_0000054Iterator>
          <tr><td>BFO_0000054</td><td><a href="../<viva:InvestigatorRoleBFO_0000054Type/>/<viva:InvestigatorRoleBFO_0000054Type/>.jsp?uri=<viva:InvestigatorRoleBFO_0000054/>"><viva:InvestigatorRoleBFO_0000054 /></a></td></tr>
       </viva:foreachInvestigatorRoleBFO_0000054Iterator>
-      <viva:foreachInvestigatorRoleRoleContributesToIterator>
-         <tr><td>roleContributesTo</td><td><a href="../<viva:InvestigatorRoleRoleContributesToType/>/<viva:InvestigatorRoleRoleContributesToType/>.jsp?uri=<viva:InvestigatorRoleRoleContributesTo/>"><viva:InvestigatorRoleRoleContributesTo /></a></td></tr>
-      </viva:foreachInvestigatorRoleRoleContributesToIterator>
+      <viva:foreachInvestigatorRoleRO_0000056Iterator>
+         <tr><td>RO_0000056</td><td><a href="../<viva:InvestigatorRoleRO_0000056Type/>/<viva:InvestigatorRoleRO_0000056Type/>.jsp?uri=<viva:InvestigatorRoleRO_0000056/>"><viva:InvestigatorRoleRO_0000056 /></a></td></tr>
+      </viva:foreachInvestigatorRoleRO_0000056Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

@@ -30,12 +30,6 @@
       <viva:foreachNoteNoteIterator>
          <tr><td>note</td><td><viva:NoteNote /></td></tr>
       </viva:foreachNoteNoteIterator>
-      <viva:foreachNoteRankIterator>
-         <tr><td>rank</td><td><viva:NoteRank /></td></tr>
-      </viva:foreachNoteRankIterator>
-      <viva:foreachNoteUrlIterator>
-         <tr><td>url</td><td><viva:NoteUrl /></td></tr>
-      </viva:foreachNoteUrlIterator>
    </table>
 
    <h3>Object Properties</h3>

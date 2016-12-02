@@ -27,9 +27,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachBillArguedIterator>
-         <tr><td>argued</td><td><viva:BillArgued /></td></tr>
-      </viva:foreachBillArguedIterator>
       <viva:foreachBillEanucc13Iterator>
          <tr><td>eanucc13</td><td><viva:BillEanucc13 /></td></tr>
       </viva:foreachBillEanucc13Iterator>
@@ -117,22 +114,16 @@
       <viva:foreachBillDoiIterator>
          <tr><td>doi</td><td><viva:BillDoi /></td></tr>
       </viva:foreachBillDoiIterator>
+      <viva:foreachBillArguedIterator>
+         <tr><td>argued</td><td><viva:BillArgued /></td></tr>
+      </viva:foreachBillArguedIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachBillCourtIterator>
-         <tr><td>court</td><td><a href="../<viva:BillCourtType/>/<viva:BillCourtType/>.jsp?uri=<viva:BillCourt/>"><viva:BillCourt /></a></td></tr>
-      </viva:foreachBillCourtIterator>
       <viva:foreachBillFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:BillFeaturesType/>/<viva:BillFeaturesType/>.jsp?uri=<viva:BillFeatures/>"><viva:BillFeatures /></a></td></tr>
       </viva:foreachBillFeaturesIterator>
-      <viva:foreachBillInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:BillInformationResourceSupportedByType/>/<viva:BillInformationResourceSupportedByType/>.jsp?uri=<viva:BillInformationResourceSupportedBy/>"><viva:BillInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachBillInformationResourceSupportedByIterator>
-      <viva:foreachBillIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:BillIAO_0000136Type/>/<viva:BillIAO_0000136Type/>.jsp?uri=<viva:BillIAO_0000136/>"><viva:BillIAO_0000136 /></a></td></tr>
-      </viva:foreachBillIAO_0000136Iterator>
       <viva:foreachBillEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:BillEditorType/>/<viva:BillEditorType/>.jsp?uri=<viva:BillEditor/>"><viva:BillEditor /></a></td></tr>
       </viva:foreachBillEditorIterator>
@@ -196,6 +187,9 @@
       <viva:foreachBillRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:BillRO_0000056Type/>/<viva:BillRO_0000056Type/>.jsp?uri=<viva:BillRO_0000056/>"><viva:BillRO_0000056 /></a></td></tr>
       </viva:foreachBillRO_0000056Iterator>
+      <viva:foreachBillCourtIterator>
+         <tr><td>court</td><td><a href="../<viva:BillCourtType/>/<viva:BillCourtType/>.jsp?uri=<viva:BillCourt/>"><viva:BillCourt /></a></td></tr>
+      </viva:foreachBillCourtIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

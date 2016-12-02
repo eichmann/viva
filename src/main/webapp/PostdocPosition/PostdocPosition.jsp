@@ -37,9 +37,6 @@
       <viva:foreachPostdocPositionDateTimeIntervalIterator>
          <tr><td>dateTimeInterval</td><td><a href="../<viva:PostdocPositionDateTimeIntervalType/>/<viva:PostdocPositionDateTimeIntervalType/>.jsp?uri=<viva:PostdocPositionDateTimeInterval/>"><viva:PostdocPositionDateTimeInterval /></a></td></tr>
       </viva:foreachPostdocPositionDateTimeIntervalIterator>
-      <viva:foreachPostdocPositionRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:PostdocPositionRelatesType/>/<viva:PostdocPositionRelatesType/>.jsp?uri=<viva:PostdocPositionRelates/>"><viva:PostdocPositionRelates /></a></td></tr>
-      </viva:foreachPostdocPositionRelatesIterator>
       <viva:foreachPostdocPositionRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<viva:PostdocPositionRO_0000052Type/>/<viva:PostdocPositionRO_0000052Type/>.jsp?uri=<viva:PostdocPositionRO_0000052/>"><viva:PostdocPositionRO_0000052 /></a></td></tr>
       </viva:foreachPostdocPositionRO_0000052Iterator>

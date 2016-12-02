@@ -31,9 +31,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachCollectionMemberIterator>
-         <tr><td>member</td><td><a href="../<viva:CollectionMemberType/>/<viva:CollectionMemberType/>.jsp?uri=<viva:CollectionMember/>"><viva:CollectionMember /></a></td></tr>
-      </viva:foreachCollectionMemberIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

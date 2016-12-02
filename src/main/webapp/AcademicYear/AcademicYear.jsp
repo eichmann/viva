@@ -31,15 +31,15 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachAcademicYearRO_0000057Iterator>
-         <tr><td>RO_0000057</td><td><a href="../<viva:AcademicYearRO_0000057Type/>/<viva:AcademicYearRO_0000057Type/>.jsp?uri=<viva:AcademicYearRO_0000057/>"><viva:AcademicYearRO_0000057 /></a></td></tr>
-      </viva:foreachAcademicYearRO_0000057Iterator>
       <viva:foreachAcademicYearEndIterator>
          <tr><td>end</td><td><a href="../<viva:AcademicYearEndType/>/<viva:AcademicYearEndType/>.jsp?uri=<viva:AcademicYearEnd/>"><viva:AcademicYearEnd /></a></td></tr>
       </viva:foreachAcademicYearEndIterator>
       <viva:foreachAcademicYearStartIterator>
          <tr><td>start</td><td><a href="../<viva:AcademicYearStartType/>/<viva:AcademicYearStartType/>.jsp?uri=<viva:AcademicYearStart/>"><viva:AcademicYearStart /></a></td></tr>
       </viva:foreachAcademicYearStartIterator>
+      <viva:foreachAcademicYearRO_0000057Iterator>
+         <tr><td>RO_0000057</td><td><a href="../<viva:AcademicYearRO_0000057Type/>/<viva:AcademicYearRO_0000057Type/>.jsp?uri=<viva:AcademicYearRO_0000057/>"><viva:AcademicYearRO_0000057 /></a></td></tr>
+      </viva:foreachAcademicYearRO_0000057Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

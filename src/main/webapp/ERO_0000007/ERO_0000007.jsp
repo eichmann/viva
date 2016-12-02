@@ -34,21 +34,15 @@
       <viva:foreachERO_0000007ERO_0000398Iterator>
          <tr><td>ERO_0000398</td><td><a href="../<viva:ERO_0000007ERO_0000398Type/>/<viva:ERO_0000007ERO_0000398Type/>.jsp?uri=<viva:ERO_0000007ERO_0000398/>"><viva:ERO_0000007ERO_0000398 /></a></td></tr>
       </viva:foreachERO_0000007ERO_0000398Iterator>
-      <viva:foreachERO_0000007RO_0000057Iterator>
-         <tr><td>RO_0000057</td><td><a href="../<viva:ERO_0000007RO_0000057Type/>/<viva:ERO_0000007RO_0000057Type/>.jsp?uri=<viva:ERO_0000007RO_0000057/>"><viva:ERO_0000007RO_0000057 /></a></td></tr>
-      </viva:foreachERO_0000007RO_0000057Iterator>
-      <viva:foreachERO_0000007OBI_0000293Iterator>
-         <tr><td>OBI_0000293</td><td><a href="../<viva:ERO_0000007OBI_0000293Type/>/<viva:ERO_0000007OBI_0000293Type/>.jsp?uri=<viva:ERO_0000007OBI_0000293/>"><viva:ERO_0000007OBI_0000293 /></a></td></tr>
-      </viva:foreachERO_0000007OBI_0000293Iterator>
-      <viva:foreachERO_0000007OBI_0000417Iterator>
-         <tr><td>OBI_0000417</td><td><a href="../<viva:ERO_0000007OBI_0000417Type/>/<viva:ERO_0000007OBI_0000417Type/>.jsp?uri=<viva:ERO_0000007OBI_0000417/>"><viva:ERO_0000007OBI_0000417 /></a></td></tr>
-      </viva:foreachERO_0000007OBI_0000417Iterator>
-      <viva:foreachERO_0000007OBI_0000299Iterator>
-         <tr><td>OBI_0000299</td><td><a href="../<viva:ERO_0000007OBI_0000299Type/>/<viva:ERO_0000007OBI_0000299Type/>.jsp?uri=<viva:ERO_0000007OBI_0000299/>"><viva:ERO_0000007OBI_0000299 /></a></td></tr>
-      </viva:foreachERO_0000007OBI_0000299Iterator>
       <viva:foreachERO_0000007BFO_0000055Iterator>
          <tr><td>BFO_0000055</td><td><a href="../<viva:ERO_0000007BFO_0000055Type/>/<viva:ERO_0000007BFO_0000055Type/>.jsp?uri=<viva:ERO_0000007BFO_0000055/>"><viva:ERO_0000007BFO_0000055 /></a></td></tr>
       </viva:foreachERO_0000007BFO_0000055Iterator>
+      <viva:foreachERO_0000007OBI_0000417Iterator>
+         <tr><td>OBI_0000417</td><td><a href="../<viva:ERO_0000007OBI_0000417Type/>/<viva:ERO_0000007OBI_0000417Type/>.jsp?uri=<viva:ERO_0000007OBI_0000417/>"><viva:ERO_0000007OBI_0000417 /></a></td></tr>
+      </viva:foreachERO_0000007OBI_0000417Iterator>
+      <viva:foreachERO_0000007RO_0000057Iterator>
+         <tr><td>RO_0000057</td><td><a href="../<viva:ERO_0000007RO_0000057Type/>/<viva:ERO_0000007RO_0000057Type/>.jsp?uri=<viva:ERO_0000007RO_0000057/>"><viva:ERO_0000007RO_0000057 /></a></td></tr>
+      </viva:foreachERO_0000007RO_0000057Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

@@ -34,12 +34,12 @@
       <viva:foreachCompetitionRO_0000057Iterator>
          <tr><td>RO_0000057</td><td><a href="../<viva:CompetitionRO_0000057Type/>/<viva:CompetitionRO_0000057Type/>.jsp?uri=<viva:CompetitionRO_0000057/>"><viva:CompetitionRO_0000057 /></a></td></tr>
       </viva:foreachCompetitionRO_0000057Iterator>
-      <viva:foreachCompetitionOrganizerIterator>
-         <tr><td>organizer</td><td><a href="../<viva:CompetitionOrganizerType/>/<viva:CompetitionOrganizerType/>.jsp?uri=<viva:CompetitionOrganizer/>"><viva:CompetitionOrganizer /></a></td></tr>
-      </viva:foreachCompetitionOrganizerIterator>
       <viva:foreachCompetitionBFO_0000055Iterator>
          <tr><td>BFO_0000055</td><td><a href="../<viva:CompetitionBFO_0000055Type/>/<viva:CompetitionBFO_0000055Type/>.jsp?uri=<viva:CompetitionBFO_0000055/>"><viva:CompetitionBFO_0000055 /></a></td></tr>
       </viva:foreachCompetitionBFO_0000055Iterator>
+      <viva:foreachCompetitionOrganizerIterator>
+         <tr><td>organizer</td><td><a href="../<viva:CompetitionOrganizerType/>/<viva:CompetitionOrganizerType/>.jsp?uri=<viva:CompetitionOrganizer/>"><viva:CompetitionOrganizer /></a></td></tr>
+      </viva:foreachCompetitionOrganizerIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

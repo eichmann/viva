@@ -121,12 +121,6 @@
       <viva:foreachScoreFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:ScoreFeaturesType/>/<viva:ScoreFeaturesType/>.jsp?uri=<viva:ScoreFeatures/>"><viva:ScoreFeatures /></a></td></tr>
       </viva:foreachScoreFeaturesIterator>
-      <viva:foreachScoreInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:ScoreInformationResourceSupportedByType/>/<viva:ScoreInformationResourceSupportedByType/>.jsp?uri=<viva:ScoreInformationResourceSupportedBy/>"><viva:ScoreInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachScoreInformationResourceSupportedByIterator>
-      <viva:foreachScoreIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:ScoreIAO_0000136Type/>/<viva:ScoreIAO_0000136Type/>.jsp?uri=<viva:ScoreIAO_0000136/>"><viva:ScoreIAO_0000136 /></a></td></tr>
-      </viva:foreachScoreIAO_0000136Iterator>
       <viva:foreachScoreEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:ScoreEditorType/>/<viva:ScoreEditorType/>.jsp?uri=<viva:ScoreEditor/>"><viva:ScoreEditor /></a></td></tr>
       </viva:foreachScoreEditorIterator>

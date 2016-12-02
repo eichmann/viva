@@ -27,6 +27,9 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachVideoRO_0002353Iterator>
+         <tr><td>RO_0002353</td><td><viva:VideoRO_0002353 /></td></tr>
+      </viva:foreachVideoRO_0002353Iterator>
       <viva:foreachVideoEanucc13Iterator>
          <tr><td>eanucc13</td><td><viva:VideoEanucc13 /></td></tr>
       </viva:foreachVideoEanucc13Iterator>
@@ -121,27 +124,15 @@
       <viva:foreachVideoDateTimeValueIterator>
          <tr><td>dateTimeValue</td><td><a href="../<viva:VideoDateTimeValueType/>/<viva:VideoDateTimeValueType/>.jsp?uri=<viva:VideoDateTimeValue/>"><viva:VideoDateTimeValue /></a></td></tr>
       </viva:foreachVideoDateTimeValueIterator>
-      <viva:foreachVideoRO_0002353Iterator>
-         <tr><td>RO_0002353</td><td><a href="../<viva:VideoRO_0002353Type/>/<viva:VideoRO_0002353Type/>.jsp?uri=<viva:VideoRO_0002353/>"><viva:VideoRO_0002353 /></a></td></tr>
-      </viva:foreachVideoRO_0002353Iterator>
       <viva:foreachVideoARG_2000028Iterator>
          <tr><td>ARG_2000028</td><td><a href="../<viva:VideoARG_2000028Type/>/<viva:VideoARG_2000028Type/>.jsp?uri=<viva:VideoARG_2000028/>"><viva:VideoARG_2000028 /></a></td></tr>
       </viva:foreachVideoARG_2000028Iterator>
-      <viva:foreachVideoRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:VideoRelatedByType/>/<viva:VideoRelatedByType/>.jsp?uri=<viva:VideoRelatedBy/>"><viva:VideoRelatedBy /></a></td></tr>
-      </viva:foreachVideoRelatedByIterator>
       <viva:foreachVideoDirectorIterator>
          <tr><td>director</td><td><a href="../<viva:VideoDirectorType/>/<viva:VideoDirectorType/>.jsp?uri=<viva:VideoDirector/>"><viva:VideoDirector /></a></td></tr>
       </viva:foreachVideoDirectorIterator>
       <viva:foreachVideoFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:VideoFeaturesType/>/<viva:VideoFeaturesType/>.jsp?uri=<viva:VideoFeatures/>"><viva:VideoFeatures /></a></td></tr>
       </viva:foreachVideoFeaturesIterator>
-      <viva:foreachVideoInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:VideoInformationResourceSupportedByType/>/<viva:VideoInformationResourceSupportedByType/>.jsp?uri=<viva:VideoInformationResourceSupportedBy/>"><viva:VideoInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachVideoInformationResourceSupportedByIterator>
-      <viva:foreachVideoIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:VideoIAO_0000136Type/>/<viva:VideoIAO_0000136Type/>.jsp?uri=<viva:VideoIAO_0000136/>"><viva:VideoIAO_0000136 /></a></td></tr>
-      </viva:foreachVideoIAO_0000136Iterator>
       <viva:foreachVideoEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:VideoEditorType/>/<viva:VideoEditorType/>.jsp?uri=<viva:VideoEditor/>"><viva:VideoEditor /></a></td></tr>
       </viva:foreachVideoEditorIterator>

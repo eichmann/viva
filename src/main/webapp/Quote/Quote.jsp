@@ -121,12 +121,6 @@
       <viva:foreachQuoteFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:QuoteFeaturesType/>/<viva:QuoteFeaturesType/>.jsp?uri=<viva:QuoteFeatures/>"><viva:QuoteFeatures /></a></td></tr>
       </viva:foreachQuoteFeaturesIterator>
-      <viva:foreachQuoteInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:QuoteInformationResourceSupportedByType/>/<viva:QuoteInformationResourceSupportedByType/>.jsp?uri=<viva:QuoteInformationResourceSupportedBy/>"><viva:QuoteInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachQuoteInformationResourceSupportedByIterator>
-      <viva:foreachQuoteIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:QuoteIAO_0000136Type/>/<viva:QuoteIAO_0000136Type/>.jsp?uri=<viva:QuoteIAO_0000136/>"><viva:QuoteIAO_0000136 /></a></td></tr>
-      </viva:foreachQuoteIAO_0000136Iterator>
       <viva:foreachQuoteEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:QuoteEditorType/>/<viva:QuoteEditorType/>.jsp?uri=<viva:QuoteEditor/>"><viva:QuoteEditor /></a></td></tr>
       </viva:foreachQuoteEditorIterator>

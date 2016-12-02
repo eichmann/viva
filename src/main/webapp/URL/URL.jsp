@@ -27,9 +27,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachURLRankIterator>
-         <tr><td>rank</td><td><viva:URLRank /></td></tr>
-      </viva:foreachURLRankIterator>
       <viva:foreachURLUrlIterator>
          <tr><td>url</td><td><viva:URLUrl /></td></tr>
       </viva:foreachURLUrlIterator>
@@ -37,9 +34,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachURLRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:URLRelatesType/>/<viva:URLRelatesType/>.jsp?uri=<viva:URLRelates/>"><viva:URLRelates /></a></td></tr>
-      </viva:foreachURLRelatesIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

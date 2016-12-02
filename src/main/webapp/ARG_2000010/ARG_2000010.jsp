@@ -31,21 +31,15 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachARG_2000010RO_0000057Iterator>
-         <tr><td>RO_0000057</td><td><a href="../<viva:ARG_2000010RO_0000057Type/>/<viva:ARG_2000010RO_0000057Type/>.jsp?uri=<viva:ARG_2000010RO_0000057/>"><viva:ARG_2000010RO_0000057 /></a></td></tr>
-      </viva:foreachARG_2000010RO_0000057Iterator>
-      <viva:foreachARG_2000010OBI_0000293Iterator>
-         <tr><td>OBI_0000293</td><td><a href="../<viva:ARG_2000010OBI_0000293Type/>/<viva:ARG_2000010OBI_0000293Type/>.jsp?uri=<viva:ARG_2000010OBI_0000293/>"><viva:ARG_2000010OBI_0000293 /></a></td></tr>
-      </viva:foreachARG_2000010OBI_0000293Iterator>
-      <viva:foreachARG_2000010OBI_0000417Iterator>
-         <tr><td>OBI_0000417</td><td><a href="../<viva:ARG_2000010OBI_0000417Type/>/<viva:ARG_2000010OBI_0000417Type/>.jsp?uri=<viva:ARG_2000010OBI_0000417/>"><viva:ARG_2000010OBI_0000417 /></a></td></tr>
-      </viva:foreachARG_2000010OBI_0000417Iterator>
-      <viva:foreachARG_2000010OBI_0000299Iterator>
-         <tr><td>OBI_0000299</td><td><a href="../<viva:ARG_2000010OBI_0000299Type/>/<viva:ARG_2000010OBI_0000299Type/>.jsp?uri=<viva:ARG_2000010OBI_0000299/>"><viva:ARG_2000010OBI_0000299 /></a></td></tr>
-      </viva:foreachARG_2000010OBI_0000299Iterator>
       <viva:foreachARG_2000010BFO_0000055Iterator>
          <tr><td>BFO_0000055</td><td><a href="../<viva:ARG_2000010BFO_0000055Type/>/<viva:ARG_2000010BFO_0000055Type/>.jsp?uri=<viva:ARG_2000010BFO_0000055/>"><viva:ARG_2000010BFO_0000055 /></a></td></tr>
       </viva:foreachARG_2000010BFO_0000055Iterator>
+      <viva:foreachARG_2000010OBI_0000417Iterator>
+         <tr><td>OBI_0000417</td><td><a href="../<viva:ARG_2000010OBI_0000417Type/>/<viva:ARG_2000010OBI_0000417Type/>.jsp?uri=<viva:ARG_2000010OBI_0000417/>"><viva:ARG_2000010OBI_0000417 /></a></td></tr>
+      </viva:foreachARG_2000010OBI_0000417Iterator>
+      <viva:foreachARG_2000010RO_0000057Iterator>
+         <tr><td>RO_0000057</td><td><a href="../<viva:ARG_2000010RO_0000057Type/>/<viva:ARG_2000010RO_0000057Type/>.jsp?uri=<viva:ARG_2000010RO_0000057/>"><viva:ARG_2000010RO_0000057 /></a></td></tr>
+      </viva:foreachARG_2000010RO_0000057Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

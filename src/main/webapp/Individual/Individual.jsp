@@ -36,55 +36,22 @@
       <viva:foreachIndividualBirthdateIterator>
          <tr><td>birthdate</td><td><viva:IndividualBirthdate /></td></tr>
       </viva:foreachIndividualBirthdateIterator>
-      <viva:foreachIndividualRankIterator>
-         <tr><td>rank</td><td><viva:IndividualRank /></td></tr>
-      </viva:foreachIndividualRankIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachIndividualHasTelephoneIterator>
-         <tr><td>hasTelephone</td><td><a href="../<viva:IndividualHasTelephoneType/>/<viva:IndividualHasTelephoneType/>.jsp?uri=<viva:IndividualHasTelephone/>"><viva:IndividualHasTelephone /></a></td></tr>
-      </viva:foreachIndividualHasTelephoneIterator>
-      <viva:foreachIndividualHasTitleIterator>
-         <tr><td>hasTitle</td><td><a href="../<viva:IndividualHasTitleType/>/<viva:IndividualHasTitleType/>.jsp?uri=<viva:IndividualHasTitle/>"><viva:IndividualHasTitle /></a></td></tr>
-      </viva:foreachIndividualHasTitleIterator>
       <viva:foreachIndividualHasNameIterator>
          <tr><td>hasName</td><td><a href="../<viva:IndividualHasNameType/>/<viva:IndividualHasNameType/>.jsp?uri=<viva:IndividualHasName/>"><viva:IndividualHasName /></a></td></tr>
       </viva:foreachIndividualHasNameIterator>
-      <viva:foreachIndividualRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:IndividualRelatedByType/>/<viva:IndividualRelatedByType/>.jsp?uri=<viva:IndividualRelatedBy/>"><viva:IndividualRelatedBy /></a></td></tr>
-      </viva:foreachIndividualRelatedByIterator>
-      <viva:foreachIndividualHasEmailIterator>
-         <tr><td>hasEmail</td><td><a href="../<viva:IndividualHasEmailType/>/<viva:IndividualHasEmailType/>.jsp?uri=<viva:IndividualHasEmail/>"><viva:IndividualHasEmail /></a></td></tr>
-      </viva:foreachIndividualHasEmailIterator>
-      <viva:foreachIndividualHasURLIterator>
-         <tr><td>hasURL</td><td><a href="../<viva:IndividualHasURLType/>/<viva:IndividualHasURLType/>.jsp?uri=<viva:IndividualHasURL/>"><viva:IndividualHasURL /></a></td></tr>
-      </viva:foreachIndividualHasURLIterator>
       <viva:foreachIndividualFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:IndividualFeaturesType/>/<viva:IndividualFeaturesType/>.jsp?uri=<viva:IndividualFeatures/>"><viva:IndividualFeatures /></a></td></tr>
       </viva:foreachIndividualFeaturesIterator>
-      <viva:foreachIndividualInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:IndividualInformationResourceSupportedByType/>/<viva:IndividualInformationResourceSupportedByType/>.jsp?uri=<viva:IndividualInformationResourceSupportedBy/>"><viva:IndividualInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachIndividualInformationResourceSupportedByIterator>
-      <viva:foreachIndividualIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:IndividualIAO_0000136Type/>/<viva:IndividualIAO_0000136Type/>.jsp?uri=<viva:IndividualIAO_0000136/>"><viva:IndividualIAO_0000136 /></a></td></tr>
-      </viva:foreachIndividualIAO_0000136Iterator>
-      <viva:foreachIndividualARG_2000029Iterator>
-         <tr><td>ARG_2000029</td><td><a href="../<viva:IndividualARG_2000029Type/>/<viva:IndividualARG_2000029Type/>.jsp?uri=<viva:IndividualARG_2000029/>"><viva:IndividualARG_2000029 /></a></td></tr>
-      </viva:foreachIndividualARG_2000029Iterator>
       <viva:foreachIndividualRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:IndividualRO_0000056Type/>/<viva:IndividualRO_0000056Type/>.jsp?uri=<viva:IndividualRO_0000056/>"><viva:IndividualRO_0000056 /></a></td></tr>
       </viva:foreachIndividualRO_0000056Iterator>
       <viva:foreachIndividualHasAddressIterator>
          <tr><td>hasAddress</td><td><a href="../<viva:IndividualHasAddressType/>/<viva:IndividualHasAddressType/>.jsp?uri=<viva:IndividualHasAddress/>"><viva:IndividualHasAddress /></a></td></tr>
       </viva:foreachIndividualHasAddressIterator>
-      <viva:foreachIndividualHasGeoIterator>
-         <tr><td>hasGeo</td><td><a href="../<viva:IndividualHasGeoType/>/<viva:IndividualHasGeoType/>.jsp?uri=<viva:IndividualHasGeo/>"><viva:IndividualHasGeo /></a></td></tr>
-      </viva:foreachIndividualHasGeoIterator>
-      <viva:foreachIndividualRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:IndividualRelatesType/>/<viva:IndividualRelatesType/>.jsp?uri=<viva:IndividualRelates/>"><viva:IndividualRelates /></a></td></tr>
-      </viva:foreachIndividualRelatesIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

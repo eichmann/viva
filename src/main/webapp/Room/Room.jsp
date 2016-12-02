@@ -32,15 +32,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachRoomRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:RoomRO_0000053Type/>/<viva:RoomRO_0000053Type/>.jsp?uri=<viva:RoomRO_0000053/>"><viva:RoomRO_0000053 /></a></td></tr>
-      </viva:foreachRoomRO_0000053Iterator>
       <viva:foreachRoomRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:RoomRO_0000056Type/>/<viva:RoomRO_0000056Type/>.jsp?uri=<viva:RoomRO_0000056/>"><viva:RoomRO_0000056 /></a></td></tr>
       </viva:foreachRoomRO_0000056Iterator>
-      <viva:foreachRoomFacilityForIterator>
-         <tr><td>facilityFor</td><td><a href="../<viva:RoomFacilityForType/>/<viva:RoomFacilityForType/>.jsp?uri=<viva:RoomFacilityFor/>"><viva:RoomFacilityFor /></a></td></tr>
-      </viva:foreachRoomFacilityForIterator>
+      <viva:foreachRoomRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:RoomRO_0000053Type/>/<viva:RoomRO_0000053Type/>.jsp?uri=<viva:RoomRO_0000053/>"><viva:RoomRO_0000053 /></a></td></tr>
+      </viva:foreachRoomRO_0000053Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

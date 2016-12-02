@@ -30,12 +30,6 @@
       <viva:foreachInstantMessageInstantMessageIterator>
          <tr><td>instantMessage</td><td><viva:InstantMessageInstantMessage /></td></tr>
       </viva:foreachInstantMessageInstantMessageIterator>
-      <viva:foreachInstantMessageRankIterator>
-         <tr><td>rank</td><td><viva:InstantMessageRank /></td></tr>
-      </viva:foreachInstantMessageRankIterator>
-      <viva:foreachInstantMessageUrlIterator>
-         <tr><td>url</td><td><viva:InstantMessageUrl /></td></tr>
-      </viva:foreachInstantMessageUrlIterator>
    </table>
 
    <h3>Object Properties</h3>

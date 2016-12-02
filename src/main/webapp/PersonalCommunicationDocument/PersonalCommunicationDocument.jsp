@@ -124,12 +124,6 @@
       <viva:foreachPersonalCommunicationDocumentFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:PersonalCommunicationDocumentFeaturesType/>/<viva:PersonalCommunicationDocumentFeaturesType/>.jsp?uri=<viva:PersonalCommunicationDocumentFeatures/>"><viva:PersonalCommunicationDocumentFeatures /></a></td></tr>
       </viva:foreachPersonalCommunicationDocumentFeaturesIterator>
-      <viva:foreachPersonalCommunicationDocumentInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:PersonalCommunicationDocumentInformationResourceSupportedByType/>/<viva:PersonalCommunicationDocumentInformationResourceSupportedByType/>.jsp?uri=<viva:PersonalCommunicationDocumentInformationResourceSupportedBy/>"><viva:PersonalCommunicationDocumentInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachPersonalCommunicationDocumentInformationResourceSupportedByIterator>
-      <viva:foreachPersonalCommunicationDocumentIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:PersonalCommunicationDocumentIAO_0000136Type/>/<viva:PersonalCommunicationDocumentIAO_0000136Type/>.jsp?uri=<viva:PersonalCommunicationDocumentIAO_0000136/>"><viva:PersonalCommunicationDocumentIAO_0000136 /></a></td></tr>
-      </viva:foreachPersonalCommunicationDocumentIAO_0000136Iterator>
       <viva:foreachPersonalCommunicationDocumentEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:PersonalCommunicationDocumentEditorType/>/<viva:PersonalCommunicationDocumentEditorType/>.jsp?uri=<viva:PersonalCommunicationDocumentEditor/>"><viva:PersonalCommunicationDocumentEditor /></a></td></tr>
       </viva:foreachPersonalCommunicationDocumentEditorIterator>

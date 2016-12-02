@@ -34,12 +34,6 @@
       <viva:foreachDefinitionFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:DefinitionFeaturesType/>/<viva:DefinitionFeaturesType/>.jsp?uri=<viva:DefinitionFeatures/>"><viva:DefinitionFeatures /></a></td></tr>
       </viva:foreachDefinitionFeaturesIterator>
-      <viva:foreachDefinitionInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:DefinitionInformationResourceSupportedByType/>/<viva:DefinitionInformationResourceSupportedByType/>.jsp?uri=<viva:DefinitionInformationResourceSupportedBy/>"><viva:DefinitionInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachDefinitionInformationResourceSupportedByIterator>
-      <viva:foreachDefinitionIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:DefinitionIAO_0000136Type/>/<viva:DefinitionIAO_0000136Type/>.jsp?uri=<viva:DefinitionIAO_0000136/>"><viva:DefinitionIAO_0000136 /></a></td></tr>
-      </viva:foreachDefinitionIAO_0000136Iterator>
       <viva:foreachDefinitionRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:DefinitionRO_0000056Type/>/<viva:DefinitionRO_0000056Type/>.jsp?uri=<viva:DefinitionRO_0000056/>"><viva:DefinitionRO_0000056 /></a></td></tr>
       </viva:foreachDefinitionRO_0000056Iterator>

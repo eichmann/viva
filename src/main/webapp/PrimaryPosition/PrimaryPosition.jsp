@@ -37,9 +37,6 @@
       <viva:foreachPrimaryPositionDateTimeIntervalIterator>
          <tr><td>dateTimeInterval</td><td><a href="../<viva:PrimaryPositionDateTimeIntervalType/>/<viva:PrimaryPositionDateTimeIntervalType/>.jsp?uri=<viva:PrimaryPositionDateTimeInterval/>"><viva:PrimaryPositionDateTimeInterval /></a></td></tr>
       </viva:foreachPrimaryPositionDateTimeIntervalIterator>
-      <viva:foreachPrimaryPositionRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:PrimaryPositionRelatesType/>/<viva:PrimaryPositionRelatesType/>.jsp?uri=<viva:PrimaryPositionRelates/>"><viva:PrimaryPositionRelates /></a></td></tr>
-      </viva:foreachPrimaryPositionRelatesIterator>
       <viva:foreachPrimaryPositionRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<viva:PrimaryPositionRO_0000052Type/>/<viva:PrimaryPositionRO_0000052Type/>.jsp?uri=<viva:PrimaryPositionRO_0000052/>"><viva:PrimaryPositionRO_0000052 /></a></td></tr>
       </viva:foreachPrimaryPositionRO_0000052Iterator>

@@ -40,12 +40,12 @@
       <viva:foreachBFO_0000040OBI_0000304Iterator>
          <tr><td>OBI_0000304</td><td><a href="../<viva:BFO_0000040OBI_0000304Type/>/<viva:BFO_0000040OBI_0000304Type/>.jsp?uri=<viva:BFO_0000040OBI_0000304/>"><viva:BFO_0000040OBI_0000304 /></a></td></tr>
       </viva:foreachBFO_0000040OBI_0000304Iterator>
-      <viva:foreachBFO_0000040RO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:BFO_0000040RO_0000053Type/>/<viva:BFO_0000040RO_0000053Type/>.jsp?uri=<viva:BFO_0000040RO_0000053/>"><viva:BFO_0000040RO_0000053 /></a></td></tr>
-      </viva:foreachBFO_0000040RO_0000053Iterator>
       <viva:foreachBFO_0000040RO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:BFO_0000040RO_0000056Type/>/<viva:BFO_0000040RO_0000056Type/>.jsp?uri=<viva:BFO_0000040RO_0000056/>"><viva:BFO_0000040RO_0000056 /></a></td></tr>
       </viva:foreachBFO_0000040RO_0000056Iterator>
+      <viva:foreachBFO_0000040RO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:BFO_0000040RO_0000053Type/>/<viva:BFO_0000040RO_0000053Type/>.jsp?uri=<viva:BFO_0000040RO_0000053/>"><viva:BFO_0000040RO_0000053 /></a></td></tr>
+      </viva:foreachBFO_0000040RO_0000053Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

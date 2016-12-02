@@ -45,9 +45,6 @@
       <viva:foreachContinentNameShortITIterator>
          <tr><td>nameShortIT</td><td><viva:ContinentNameShortIT /></td></tr>
       </viva:foreachContinentNameShortITIterator>
-      <viva:foreachContinentCodeISO3Iterator>
-         <tr><td>codeISO3</td><td><viva:ContinentCodeISO3 /></td></tr>
-      </viva:foreachContinentCodeISO3Iterator>
       <viva:foreachContinentCodeAGROVOCIterator>
          <tr><td>codeAGROVOC</td><td><viva:ContinentCodeAGROVOC /></td></tr>
       </viva:foreachContinentCodeAGROVOCIterator>
@@ -90,9 +87,6 @@
       <viva:foreachContinentNameShortFRIterator>
          <tr><td>nameShortFR</td><td><viva:ContinentNameShortFR /></td></tr>
       </viva:foreachContinentNameShortFRIterator>
-      <viva:foreachContinentCodeISO2Iterator>
-         <tr><td>codeISO2</td><td><viva:ContinentCodeISO2 /></td></tr>
-      </viva:foreachContinentCodeISO2Iterator>
       <viva:foreachContinentNameOfficialFRIterator>
          <tr><td>nameOfficialFR</td><td><viva:ContinentNameOfficialFR /></td></tr>
       </viva:foreachContinentNameOfficialFRIterator>
@@ -108,19 +102,19 @@
       <viva:foreachContinentNameShortRUIterator>
          <tr><td>nameShortRU</td><td><viva:ContinentNameShortRU /></td></tr>
       </viva:foreachContinentNameShortRUIterator>
+      <viva:foreachContinentGeographicFocusOfIterator>
+         <tr><td>geographicFocusOf</td><td><viva:ContinentGeographicFocusOf /></td></tr>
+      </viva:foreachContinentGeographicFocusOfIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachContinentGeographicFocusOfIterator>
-         <tr><td>geographicFocusOf</td><td><a href="../<viva:ContinentGeographicFocusOfType/>/<viva:ContinentGeographicFocusOfType/>.jsp?uri=<viva:ContinentGeographicFocusOf/>"><viva:ContinentGeographicFocusOf /></a></td></tr>
-      </viva:foreachContinentGeographicFocusOfIterator>
-      <viva:foreachContinentRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:ContinentRO_0000053Type/>/<viva:ContinentRO_0000053Type/>.jsp?uri=<viva:ContinentRO_0000053/>"><viva:ContinentRO_0000053 /></a></td></tr>
-      </viva:foreachContinentRO_0000053Iterator>
       <viva:foreachContinentRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:ContinentRO_0000056Type/>/<viva:ContinentRO_0000056Type/>.jsp?uri=<viva:ContinentRO_0000056/>"><viva:ContinentRO_0000056 /></a></td></tr>
       </viva:foreachContinentRO_0000056Iterator>
+      <viva:foreachContinentRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:ContinentRO_0000053Type/>/<viva:ContinentRO_0000053Type/>.jsp?uri=<viva:ContinentRO_0000053/>"><viva:ContinentRO_0000053 /></a></td></tr>
+      </viva:foreachContinentRO_0000053Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

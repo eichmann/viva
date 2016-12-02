@@ -31,15 +31,15 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachAcademicTermRO_0000057Iterator>
-         <tr><td>RO_0000057</td><td><a href="../<viva:AcademicTermRO_0000057Type/>/<viva:AcademicTermRO_0000057Type/>.jsp?uri=<viva:AcademicTermRO_0000057/>"><viva:AcademicTermRO_0000057 /></a></td></tr>
-      </viva:foreachAcademicTermRO_0000057Iterator>
       <viva:foreachAcademicTermEndIterator>
          <tr><td>end</td><td><a href="../<viva:AcademicTermEndType/>/<viva:AcademicTermEndType/>.jsp?uri=<viva:AcademicTermEnd/>"><viva:AcademicTermEnd /></a></td></tr>
       </viva:foreachAcademicTermEndIterator>
       <viva:foreachAcademicTermStartIterator>
          <tr><td>start</td><td><a href="../<viva:AcademicTermStartType/>/<viva:AcademicTermStartType/>.jsp?uri=<viva:AcademicTermStart/>"><viva:AcademicTermStart /></a></td></tr>
       </viva:foreachAcademicTermStartIterator>
+      <viva:foreachAcademicTermRO_0000057Iterator>
+         <tr><td>RO_0000057</td><td><a href="../<viva:AcademicTermRO_0000057Type/>/<viva:AcademicTermRO_0000057Type/>.jsp?uri=<viva:AcademicTermRO_0000057/>"><viva:AcademicTermRO_0000057 /></a></td></tr>
+      </viva:foreachAcademicTermRO_0000057Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

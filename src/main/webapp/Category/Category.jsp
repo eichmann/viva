@@ -30,12 +30,6 @@
       <viva:foreachCategoryCategoryIterator>
          <tr><td>category</td><td><viva:CategoryCategory /></td></tr>
       </viva:foreachCategoryCategoryIterator>
-      <viva:foreachCategoryRankIterator>
-         <tr><td>rank</td><td><viva:CategoryRank /></td></tr>
-      </viva:foreachCategoryRankIterator>
-      <viva:foreachCategoryUrlIterator>
-         <tr><td>url</td><td><viva:CategoryUrl /></td></tr>
-      </viva:foreachCategoryUrlIterator>
    </table>
 
    <h3>Object Properties</h3>

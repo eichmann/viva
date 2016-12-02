@@ -118,30 +118,12 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachDatasetDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<viva:DatasetDateTimeValueType/>/<viva:DatasetDateTimeValueType/>.jsp?uri=<viva:DatasetDateTimeValue/>"><viva:DatasetDateTimeValue /></a></td></tr>
-      </viva:foreachDatasetDateTimeValueIterator>
-      <viva:foreachDatasetRO_0002353Iterator>
-         <tr><td>RO_0002353</td><td><a href="../<viva:DatasetRO_0002353Type/>/<viva:DatasetRO_0002353Type/>.jsp?uri=<viva:DatasetRO_0002353/>"><viva:DatasetRO_0002353 /></a></td></tr>
-      </viva:foreachDatasetRO_0002353Iterator>
       <viva:foreachDatasetARG_2000028Iterator>
          <tr><td>ARG_2000028</td><td><a href="../<viva:DatasetARG_2000028Type/>/<viva:DatasetARG_2000028Type/>.jsp?uri=<viva:DatasetARG_2000028/>"><viva:DatasetARG_2000028 /></a></td></tr>
       </viva:foreachDatasetARG_2000028Iterator>
-      <viva:foreachDatasetRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:DatasetRelatedByType/>/<viva:DatasetRelatedByType/>.jsp?uri=<viva:DatasetRelatedBy/>"><viva:DatasetRelatedBy /></a></td></tr>
-      </viva:foreachDatasetRelatedByIterator>
-      <viva:foreachDatasetRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:DatasetRelatesType/>/<viva:DatasetRelatesType/>.jsp?uri=<viva:DatasetRelates/>"><viva:DatasetRelates /></a></td></tr>
-      </viva:foreachDatasetRelatesIterator>
       <viva:foreachDatasetFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:DatasetFeaturesType/>/<viva:DatasetFeaturesType/>.jsp?uri=<viva:DatasetFeatures/>"><viva:DatasetFeatures /></a></td></tr>
       </viva:foreachDatasetFeaturesIterator>
-      <viva:foreachDatasetInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:DatasetInformationResourceSupportedByType/>/<viva:DatasetInformationResourceSupportedByType/>.jsp?uri=<viva:DatasetInformationResourceSupportedBy/>"><viva:DatasetInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachDatasetInformationResourceSupportedByIterator>
-      <viva:foreachDatasetIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:DatasetIAO_0000136Type/>/<viva:DatasetIAO_0000136Type/>.jsp?uri=<viva:DatasetIAO_0000136/>"><viva:DatasetIAO_0000136 /></a></td></tr>
-      </viva:foreachDatasetIAO_0000136Iterator>
       <viva:foreachDatasetEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:DatasetEditorType/>/<viva:DatasetEditorType/>.jsp?uri=<viva:DatasetEditor/>"><viva:DatasetEditor /></a></td></tr>
       </viva:foreachDatasetEditorIterator>

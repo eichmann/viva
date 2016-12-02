@@ -34,12 +34,12 @@
       <viva:foreachGraduateAdvisingRelationshipRO_0000052Iterator>
          <tr><td>RO_0000052</td><td><a href="../<viva:GraduateAdvisingRelationshipRO_0000052Type/>/<viva:GraduateAdvisingRelationshipRO_0000052Type/>.jsp?uri=<viva:GraduateAdvisingRelationshipRO_0000052/>"><viva:GraduateAdvisingRelationshipRO_0000052 /></a></td></tr>
       </viva:foreachGraduateAdvisingRelationshipRO_0000052Iterator>
-      <viva:foreachGraduateAdvisingRelationshipDegreeCandidacyIterator>
-         <tr><td>degreeCandidacy</td><td><a href="../<viva:GraduateAdvisingRelationshipDegreeCandidacyType/>/<viva:GraduateAdvisingRelationshipDegreeCandidacyType/>.jsp?uri=<viva:GraduateAdvisingRelationshipDegreeCandidacy/>"><viva:GraduateAdvisingRelationshipDegreeCandidacy /></a></td></tr>
-      </viva:foreachGraduateAdvisingRelationshipDegreeCandidacyIterator>
       <viva:foreachGraduateAdvisingRelationshipRO_0000056Iterator>
          <tr><td>RO_0000056</td><td><a href="../<viva:GraduateAdvisingRelationshipRO_0000056Type/>/<viva:GraduateAdvisingRelationshipRO_0000056Type/>.jsp?uri=<viva:GraduateAdvisingRelationshipRO_0000056/>"><viva:GraduateAdvisingRelationshipRO_0000056 /></a></td></tr>
       </viva:foreachGraduateAdvisingRelationshipRO_0000056Iterator>
+      <viva:foreachGraduateAdvisingRelationshipDegreeCandidacyIterator>
+         <tr><td>degreeCandidacy</td><td><a href="../<viva:GraduateAdvisingRelationshipDegreeCandidacyType/>/<viva:GraduateAdvisingRelationshipDegreeCandidacyType/>.jsp?uri=<viva:GraduateAdvisingRelationshipDegreeCandidacy/>"><viva:GraduateAdvisingRelationshipDegreeCandidacy /></a></td></tr>
+      </viva:foreachGraduateAdvisingRelationshipDegreeCandidacyIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

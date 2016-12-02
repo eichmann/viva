@@ -27,6 +27,9 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachNothingDifferentFromIterator>
+         <tr><td>differentFrom</td><td><viva:NothingDifferentFrom /></td></tr>
+      </viva:foreachNothingDifferentFromIterator>
       <viva:foreachNothingTopDataPropertyIterator>
          <tr><td>topDataProperty</td><td><viva:NothingTopDataProperty /></td></tr>
       </viva:foreachNothingTopDataPropertyIterator>
@@ -47,9 +50,6 @@
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachNothingOrcidIdInverseIterator>
-         <tr><td>orcidId</td><td><a href="../<viva:NothingOrcidIdInverseType/>/<viva:NothingOrcidIdInverseType/>.jsp?uri=<viva:NothingOrcidIdInverse/>"><viva:NothingOrcidIdInverse/></a></td></tr>
-      </viva:foreachNothingOrcidIdInverseIterator>
    </table>
    </viva:Nothing>
 

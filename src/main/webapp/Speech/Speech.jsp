@@ -121,12 +121,6 @@
       <viva:foreachSpeechFeaturesIterator>
          <tr><td>features</td><td><a href="../<viva:SpeechFeaturesType/>/<viva:SpeechFeaturesType/>.jsp?uri=<viva:SpeechFeatures/>"><viva:SpeechFeatures /></a></td></tr>
       </viva:foreachSpeechFeaturesIterator>
-      <viva:foreachSpeechInformationResourceSupportedByIterator>
-         <tr><td>informationResourceSupportedBy</td><td><a href="../<viva:SpeechInformationResourceSupportedByType/>/<viva:SpeechInformationResourceSupportedByType/>.jsp?uri=<viva:SpeechInformationResourceSupportedBy/>"><viva:SpeechInformationResourceSupportedBy /></a></td></tr>
-      </viva:foreachSpeechInformationResourceSupportedByIterator>
-      <viva:foreachSpeechIAO_0000136Iterator>
-         <tr><td>IAO_0000136</td><td><a href="../<viva:SpeechIAO_0000136Type/>/<viva:SpeechIAO_0000136Type/>.jsp?uri=<viva:SpeechIAO_0000136/>"><viva:SpeechIAO_0000136 /></a></td></tr>
-      </viva:foreachSpeechIAO_0000136Iterator>
       <viva:foreachSpeechEditorIterator>
          <tr><td>editor</td><td><a href="../<viva:SpeechEditorType/>/<viva:SpeechEditorType/>.jsp?uri=<viva:SpeechEditor/>"><viva:SpeechEditor /></a></td></tr>
       </viva:foreachSpeechEditorIterator>
