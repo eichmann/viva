@@ -41,9 +41,6 @@
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachDocumentStatusStatusInverseIterator>
-         <tr><td>status</td><td><a href="../<viva:DocumentStatusStatusInverseType/>/<viva:DocumentStatusStatusInverseType/>.jsp?uri=<viva:DocumentStatusStatusInverse/>"><viva:DocumentStatusStatusInverse/></a></td></tr>
-      </viva:foreachDocumentStatusStatusInverseIterator>
    </table>
    </viva:DocumentStatus>
 

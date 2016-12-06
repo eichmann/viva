@@ -28,35 +28,23 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachAcademicDegreeDescriptionIterator>
+         <tr><td>description</td><td><viva:AcademicDegreeDescription /></td></tr>
+      </viva:foreachAcademicDegreeDescriptionIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachAcademicDegreeRelatedIterator>
-         <tr><td>related</td><td><a href="../<viva:AcademicDegreeRelatedType/>/<viva:AcademicDegreeRelatedType/>.jsp?uri=<viva:AcademicDegreeRelated/>"><viva:AcademicDegreeRelated /></a></td></tr>
-      </viva:foreachAcademicDegreeRelatedIterator>
-      <viva:foreachAcademicDegreeNarrowerIterator>
-         <tr><td>narrower</td><td><a href="../<viva:AcademicDegreeNarrowerType/>/<viva:AcademicDegreeNarrowerType/>.jsp?uri=<viva:AcademicDegreeNarrower/>"><viva:AcademicDegreeNarrower /></a></td></tr>
-      </viva:foreachAcademicDegreeNarrowerIterator>
-      <viva:foreachAcademicDegreeSemanticRelationIterator>
-         <tr><td>semanticRelation</td><td><a href="../<viva:AcademicDegreeSemanticRelationType/>/<viva:AcademicDegreeSemanticRelationType/>.jsp?uri=<viva:AcademicDegreeSemanticRelation/>"><viva:AcademicDegreeSemanticRelation /></a></td></tr>
-      </viva:foreachAcademicDegreeSemanticRelationIterator>
-      <viva:foreachAcademicDegreeBroaderIterator>
-         <tr><td>broader</td><td><a href="../<viva:AcademicDegreeBroaderType/>/<viva:AcademicDegreeBroaderType/>.jsp?uri=<viva:AcademicDegreeBroader/>"><viva:AcademicDegreeBroader /></a></td></tr>
-      </viva:foreachAcademicDegreeBroaderIterator>
-      <viva:foreachAcademicDegreeTopConceptOfIterator>
-         <tr><td>topConceptOf</td><td><a href="../<viva:AcademicDegreeTopConceptOfType/>/<viva:AcademicDegreeTopConceptOfType/>.jsp?uri=<viva:AcademicDegreeTopConceptOf/>"><viva:AcademicDegreeTopConceptOf /></a></td></tr>
-      </viva:foreachAcademicDegreeTopConceptOfIterator>
+      <viva:foreachAcademicDegreeResearchAreaOfIterator>
+         <tr><td>researchAreaOf</td><td><a href="../<viva:AcademicDegreeResearchAreaOfType/>/<viva:AcademicDegreeResearchAreaOfType/>.jsp?uri=<viva:AcademicDegreeResearchAreaOf/>"><viva:AcademicDegreeResearchAreaOf /></a></td></tr>
+      </viva:foreachAcademicDegreeResearchAreaOfIterator>
+      <viva:foreachAcademicDegreeSubjectAreaOfIterator>
+         <tr><td>subjectAreaOf</td><td><a href="../<viva:AcademicDegreeSubjectAreaOfType/>/<viva:AcademicDegreeSubjectAreaOfType/>.jsp?uri=<viva:AcademicDegreeSubjectAreaOf/>"><viva:AcademicDegreeSubjectAreaOf /></a></td></tr>
+      </viva:foreachAcademicDegreeSubjectAreaOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachAcademicDegreeDegreeCandidacyInverseIterator>
-         <tr><td>degreeCandidacy</td><td><a href="../<viva:AcademicDegreeDegreeCandidacyInverseType/>/<viva:AcademicDegreeDegreeCandidacyInverseType/>.jsp?uri=<viva:AcademicDegreeDegreeCandidacyInverse/>"><viva:AcademicDegreeDegreeCandidacyInverse/></a></td></tr>
-      </viva:foreachAcademicDegreeDegreeCandidacyInverseIterator>
-      <viva:foreachAcademicDegreeMemberInverseIterator>
-         <tr><td>member</td><td><a href="../<viva:AcademicDegreeMemberInverseType/>/<viva:AcademicDegreeMemberInverseType/>.jsp?uri=<viva:AcademicDegreeMemberInverse/>"><viva:AcademicDegreeMemberInverse/></a></td></tr>
-      </viva:foreachAcademicDegreeMemberInverseIterator>
    </table>
    </viva:AcademicDegree>
 

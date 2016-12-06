@@ -27,10 +27,37 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachIdentificationMiddleNameIterator>
+         <tr><td>middleName</td><td><viva:IdentificationMiddleName /></td></tr>
+      </viva:foreachIdentificationMiddleNameIterator>
+      <viva:foreachIdentificationRankIterator>
+         <tr><td>rank</td><td><viva:IdentificationRank /></td></tr>
+      </viva:foreachIdentificationRankIterator>
+      <viva:foreachIdentificationTelephoneIterator>
+         <tr><td>telephone</td><td><viva:IdentificationTelephone /></td></tr>
+      </viva:foreachIdentificationTelephoneIterator>
+      <viva:foreachIdentificationUrlIterator>
+         <tr><td>url</td><td><viva:IdentificationUrl /></td></tr>
+      </viva:foreachIdentificationUrlIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachIdentificationHasAddressIterator>
+         <tr><td>hasAddress</td><td><a href="../<viva:IdentificationHasAddressType/>/<viva:IdentificationHasAddressType/>.jsp?uri=<viva:IdentificationHasAddress/>"><viva:IdentificationHasAddress /></a></td></tr>
+      </viva:foreachIdentificationHasAddressIterator>
+      <viva:foreachIdentificationRelatedByIterator>
+         <tr><td>relatedBy</td><td><a href="../<viva:IdentificationRelatedByType/>/<viva:IdentificationRelatedByType/>.jsp?uri=<viva:IdentificationRelatedBy/>"><viva:IdentificationRelatedBy /></a></td></tr>
+      </viva:foreachIdentificationRelatedByIterator>
+      <viva:foreachIdentificationHasEmailIterator>
+         <tr><td>hasEmail</td><td><a href="../<viva:IdentificationHasEmailType/>/<viva:IdentificationHasEmailType/>.jsp?uri=<viva:IdentificationHasEmail/>"><viva:IdentificationHasEmail /></a></td></tr>
+      </viva:foreachIdentificationHasEmailIterator>
+      <viva:foreachIdentificationRelatesIterator>
+         <tr><td>relates</td><td><a href="../<viva:IdentificationRelatesType/>/<viva:IdentificationRelatesType/>.jsp?uri=<viva:IdentificationRelates/>"><viva:IdentificationRelates /></a></td></tr>
+      </viva:foreachIdentificationRelatesIterator>
+      <viva:foreachIdentificationHasURLIterator>
+         <tr><td>hasURL</td><td><a href="../<viva:IdentificationHasURLType/>/<viva:IdentificationHasURLType/>.jsp?uri=<viva:IdentificationHasURL/>"><viva:IdentificationHasURL /></a></td></tr>
+      </viva:foreachIdentificationHasURLIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

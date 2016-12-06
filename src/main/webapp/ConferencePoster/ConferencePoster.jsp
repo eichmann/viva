@@ -23,97 +23,265 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
+      <tr><td>placeOfPublication</td><td><viva:ConferencePosterPlaceOfPublication /></td></tr>
+      <tr><td>hideFromDisplay</td><td><viva:ConferencePosterHideFromDisplay /></td></tr>
+      <tr><td>abbreviation</td><td><viva:ConferencePosterAbbreviation /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachConferencePosterRO_0002353Iterator>
-         <tr><td>RO_0002353</td><td><viva:ConferencePosterRO_0002353 /></td></tr>
-      </viva:foreachConferencePosterRO_0002353Iterator>
-      <viva:foreachConferencePosterEanucc13Iterator>
-         <tr><td>eanucc13</td><td><viva:ConferencePosterEanucc13 /></td></tr>
-      </viva:foreachConferencePosterEanucc13Iterator>
-      <viva:foreachConferencePosterShortDescriptionIterator>
-         <tr><td>shortDescription</td><td><viva:ConferencePosterShortDescription /></td></tr>
-      </viva:foreachConferencePosterShortDescriptionIterator>
+      <viva:foreachConferencePosterAgriculturalAreaUnitIterator>
+         <tr><td>agriculturalAreaUnit</td><td><viva:ConferencePosterAgriculturalAreaUnit /></td></tr>
+      </viva:foreachConferencePosterAgriculturalAreaUnitIterator>
+      <viva:foreachConferencePosterAgriculturalAreaTotalIterator>
+         <tr><td>agriculturalAreaTotal</td><td><viva:ConferencePosterAgriculturalAreaTotal /></td></tr>
+      </viva:foreachConferencePosterAgriculturalAreaTotalIterator>
+      <viva:foreachConferencePosterNationalityITIterator>
+         <tr><td>nationalityIT</td><td><viva:ConferencePosterNationalityIT /></td></tr>
+      </viva:foreachConferencePosterNationalityITIterator>
+      <viva:foreachConferencePosterNameOfficialRUIterator>
+         <tr><td>nameOfficialRU</td><td><viva:ConferencePosterNameOfficialRU /></td></tr>
+      </viva:foreachConferencePosterNameOfficialRUIterator>
+      <viva:foreachConferencePosterAgriculturalAreaYearIterator>
+         <tr><td>agriculturalAreaYear</td><td><viva:ConferencePosterAgriculturalAreaYear /></td></tr>
+      </viva:foreachConferencePosterAgriculturalAreaYearIterator>
+      <viva:foreachConferencePosterNameCurrencyFRIterator>
+         <tr><td>nameCurrencyFR</td><td><viva:ConferencePosterNameCurrencyFR /></td></tr>
+      </viva:foreachConferencePosterNameCurrencyFRIterator>
+      <viva:foreachConferencePosterNameListENIterator>
+         <tr><td>nameListEN</td><td><viva:ConferencePosterNameListEN /></td></tr>
+      </viva:foreachConferencePosterNameListENIterator>
+      <viva:foreachConferencePosterGDPNotesIterator>
+         <tr><td>GDPNotes</td><td><viva:ConferencePosterGDPNotes /></td></tr>
+      </viva:foreachConferencePosterGDPNotesIterator>
+      <viva:foreachConferencePosterGDPTotalInCurrentPricesIterator>
+         <tr><td>GDPTotalInCurrentPrices</td><td><viva:ConferencePosterGDPTotalInCurrentPrices /></td></tr>
+      </viva:foreachConferencePosterGDPTotalInCurrentPricesIterator>
+      <viva:foreachConferencePosterNameOfficialZHIterator>
+         <tr><td>nameOfficialZH</td><td><viva:ConferencePosterNameOfficialZH /></td></tr>
+      </viva:foreachConferencePosterNameOfficialZHIterator>
+      <viva:foreachConferencePosterNationalityARIterator>
+         <tr><td>nationalityAR</td><td><viva:ConferencePosterNationalityAR /></td></tr>
+      </viva:foreachConferencePosterNationalityARIterator>
+      <viva:foreachConferencePosterPopulationUnitIterator>
+         <tr><td>populationUnit</td><td><viva:ConferencePosterPopulationUnit /></td></tr>
+      </viva:foreachConferencePosterPopulationUnitIterator>
+      <viva:foreachConferencePosterNationalityESIterator>
+         <tr><td>nationalityES</td><td><viva:ConferencePosterNationalityES /></td></tr>
+      </viva:foreachConferencePosterNationalityESIterator>
+      <viva:foreachConferencePosterNameListARIterator>
+         <tr><td>nameListAR</td><td><viva:ConferencePosterNameListAR /></td></tr>
+      </viva:foreachConferencePosterNameListARIterator>
+      <viva:foreachConferencePosterCountryAreaTotalIterator>
+         <tr><td>countryAreaTotal</td><td><viva:ConferencePosterCountryAreaTotal /></td></tr>
+      </viva:foreachConferencePosterCountryAreaTotalIterator>
+      <viva:foreachConferencePosterHasMinLatitudeIterator>
+         <tr><td>hasMinLatitude</td><td><viva:ConferencePosterHasMinLatitude /></td></tr>
+      </viva:foreachConferencePosterHasMinLatitudeIterator>
+      <viva:foreachConferencePosterNameShortZHIterator>
+         <tr><td>nameShortZH</td><td><viva:ConferencePosterNameShortZH /></td></tr>
+      </viva:foreachConferencePosterNameShortZHIterator>
+      <viva:foreachConferencePosterNameShortITIterator>
+         <tr><td>nameShortIT</td><td><viva:ConferencePosterNameShortIT /></td></tr>
+      </viva:foreachConferencePosterNameShortITIterator>
+      <viva:foreachConferencePosterCodeISO3Iterator>
+         <tr><td>codeISO3</td><td><viva:ConferencePosterCodeISO3 /></td></tr>
+      </viva:foreachConferencePosterCodeISO3Iterator>
+      <viva:foreachConferencePosterCodeAGROVOCIterator>
+         <tr><td>codeAGROVOC</td><td><viva:ConferencePosterCodeAGROVOC /></td></tr>
+      </viva:foreachConferencePosterCodeAGROVOCIterator>
+      <viva:foreachConferencePosterNationalityRUIterator>
+         <tr><td>nationalityRU</td><td><viva:ConferencePosterNationalityRU /></td></tr>
+      </viva:foreachConferencePosterNationalityRUIterator>
+      <viva:foreachConferencePosterHasMaxLongitudeIterator>
+         <tr><td>hasMaxLongitude</td><td><viva:ConferencePosterHasMaxLongitude /></td></tr>
+      </viva:foreachConferencePosterHasMaxLongitudeIterator>
+      <viva:foreachConferencePosterNameCurrencyZHIterator>
+         <tr><td>nameCurrencyZH</td><td><viva:ConferencePosterNameCurrencyZH /></td></tr>
+      </viva:foreachConferencePosterNameCurrencyZHIterator>
+      <viva:foreachConferencePosterNationalityENIterator>
+         <tr><td>nationalityEN</td><td><viva:ConferencePosterNationalityEN /></td></tr>
+      </viva:foreachConferencePosterNationalityENIterator>
+      <viva:foreachConferencePosterAgriculturalAreaNotesIterator>
+         <tr><td>agriculturalAreaNotes</td><td><viva:ConferencePosterAgriculturalAreaNotes /></td></tr>
+      </viva:foreachConferencePosterAgriculturalAreaNotesIterator>
+      <viva:foreachConferencePosterNameListFRIterator>
+         <tr><td>nameListFR</td><td><viva:ConferencePosterNameListFR /></td></tr>
+      </viva:foreachConferencePosterNameListFRIterator>
+      <viva:foreachConferencePosterNameOfficialESIterator>
+         <tr><td>nameOfficialES</td><td><viva:ConferencePosterNameOfficialES /></td></tr>
+      </viva:foreachConferencePosterNameOfficialESIterator>
+      <viva:foreachConferencePosterNameCurrencyENIterator>
+         <tr><td>nameCurrencyEN</td><td><viva:ConferencePosterNameCurrencyEN /></td></tr>
+      </viva:foreachConferencePosterNameCurrencyENIterator>
+      <viva:foreachConferencePosterCountryAreaNotesIterator>
+         <tr><td>countryAreaNotes</td><td><viva:ConferencePosterCountryAreaNotes /></td></tr>
+      </viva:foreachConferencePosterCountryAreaNotesIterator>
+      <viva:foreachConferencePosterCodeFAOTERMIterator>
+         <tr><td>codeFAOTERM</td><td><viva:ConferencePosterCodeFAOTERM /></td></tr>
+      </viva:foreachConferencePosterCodeFAOTERMIterator>
+      <viva:foreachConferencePosterNameOfficialITIterator>
+         <tr><td>nameOfficialIT</td><td><viva:ConferencePosterNameOfficialIT /></td></tr>
+      </viva:foreachConferencePosterNameOfficialITIterator>
+      <viva:foreachConferencePosterNameListRUIterator>
+         <tr><td>nameListRU</td><td><viva:ConferencePosterNameListRU /></td></tr>
+      </viva:foreachConferencePosterNameListRUIterator>
+      <viva:foreachConferencePosterNameShortESIterator>
+         <tr><td>nameShortES</td><td><viva:ConferencePosterNameShortES /></td></tr>
+      </viva:foreachConferencePosterNameShortESIterator>
+      <viva:foreachConferencePosterGDPYearIterator>
+         <tr><td>GDPYear</td><td><viva:ConferencePosterGDPYear /></td></tr>
+      </viva:foreachConferencePosterGDPYearIterator>
+      <viva:foreachConferencePosterPopulationYearIterator>
+         <tr><td>populationYear</td><td><viva:ConferencePosterPopulationYear /></td></tr>
+      </viva:foreachConferencePosterPopulationYearIterator>
+      <viva:foreachConferencePosterPopulationNotesIterator>
+         <tr><td>populationNotes</td><td><viva:ConferencePosterPopulationNotes /></td></tr>
+      </viva:foreachConferencePosterPopulationNotesIterator>
+      <viva:foreachConferencePosterCountryAreaUnitIterator>
+         <tr><td>countryAreaUnit</td><td><viva:ConferencePosterCountryAreaUnit /></td></tr>
+      </viva:foreachConferencePosterCountryAreaUnitIterator>
+      <viva:foreachConferencePosterHasMinLongitudeIterator>
+         <tr><td>hasMinLongitude</td><td><viva:ConferencePosterHasMinLongitude /></td></tr>
+      </viva:foreachConferencePosterHasMinLongitudeIterator>
+      <viva:foreachConferencePosterRankIterator>
+         <tr><td>rank</td><td><viva:ConferencePosterRank /></td></tr>
+      </viva:foreachConferencePosterRankIterator>
+      <viva:foreachConferencePosterNameCurrencyITIterator>
+         <tr><td>nameCurrencyIT</td><td><viva:ConferencePosterNameCurrencyIT /></td></tr>
+      </viva:foreachConferencePosterNameCurrencyITIterator>
+      <viva:foreachConferencePosterCodeFAOSTATIterator>
+         <tr><td>codeFAOSTAT</td><td><viva:ConferencePosterCodeFAOSTAT /></td></tr>
+      </viva:foreachConferencePosterCodeFAOSTATIterator>
+      <viva:foreachConferencePosterNameCurrencyARIterator>
+         <tr><td>nameCurrencyAR</td><td><viva:ConferencePosterNameCurrencyAR /></td></tr>
+      </viva:foreachConferencePosterNameCurrencyARIterator>
+      <viva:foreachConferencePosterNameCurrencyESIterator>
+         <tr><td>nameCurrencyES</td><td><viva:ConferencePosterNameCurrencyES /></td></tr>
+      </viva:foreachConferencePosterNameCurrencyESIterator>
+      <viva:foreachConferencePosterCodeDBPediaIDIterator>
+         <tr><td>codeDBPediaID</td><td><viva:ConferencePosterCodeDBPediaID /></td></tr>
+      </viva:foreachConferencePosterCodeDBPediaIDIterator>
+      <viva:foreachConferencePosterNameListZHIterator>
+         <tr><td>nameListZH</td><td><viva:ConferencePosterNameListZH /></td></tr>
+      </viva:foreachConferencePosterNameListZHIterator>
+      <viva:foreachConferencePosterNameShortENIterator>
+         <tr><td>nameShortEN</td><td><viva:ConferencePosterNameShortEN /></td></tr>
+      </viva:foreachConferencePosterNameShortENIterator>
+      <viva:foreachConferencePosterNameOfficialARIterator>
+         <tr><td>nameOfficialAR</td><td><viva:ConferencePosterNameOfficialAR /></td></tr>
+      </viva:foreachConferencePosterNameOfficialARIterator>
+      <viva:foreachConferencePosterHasMaxLatitudeIterator>
+         <tr><td>hasMaxLatitude</td><td><viva:ConferencePosterHasMaxLatitude /></td></tr>
+      </viva:foreachConferencePosterHasMaxLatitudeIterator>
+      <viva:foreachConferencePosterNationalityFRIterator>
+         <tr><td>nationalityFR</td><td><viva:ConferencePosterNationalityFR /></td></tr>
+      </viva:foreachConferencePosterNationalityFRIterator>
+      <viva:foreachConferencePosterNationalityZHIterator>
+         <tr><td>nationalityZH</td><td><viva:ConferencePosterNationalityZH /></td></tr>
+      </viva:foreachConferencePosterNationalityZHIterator>
+      <viva:foreachConferencePosterGDPUnitIterator>
+         <tr><td>GDPUnit</td><td><viva:ConferencePosterGDPUnit /></td></tr>
+      </viva:foreachConferencePosterGDPUnitIterator>
+      <viva:foreachConferencePosterHDINotesIterator>
+         <tr><td>HDINotes</td><td><viva:ConferencePosterHDINotes /></td></tr>
+      </viva:foreachConferencePosterHDINotesIterator>
+      <viva:foreachConferencePosterLandAreaYearIterator>
+         <tr><td>landAreaYear</td><td><viva:ConferencePosterLandAreaYear /></td></tr>
+      </viva:foreachConferencePosterLandAreaYearIterator>
+      <viva:foreachConferencePosterCountryAreaYearIterator>
+         <tr><td>countryAreaYear</td><td><viva:ConferencePosterCountryAreaYear /></td></tr>
+      </viva:foreachConferencePosterCountryAreaYearIterator>
+      <viva:foreachConferencePosterNameShortARIterator>
+         <tr><td>nameShortAR</td><td><viva:ConferencePosterNameShortAR /></td></tr>
+      </viva:foreachConferencePosterNameShortARIterator>
+      <viva:foreachConferencePosterNameOfficialENIterator>
+         <tr><td>nameOfficialEN</td><td><viva:ConferencePosterNameOfficialEN /></td></tr>
+      </viva:foreachConferencePosterNameOfficialENIterator>
+      <viva:foreachConferencePosterLandAreaUnitIterator>
+         <tr><td>landAreaUnit</td><td><viva:ConferencePosterLandAreaUnit /></td></tr>
+      </viva:foreachConferencePosterLandAreaUnitIterator>
+      <viva:foreachConferencePosterPopulationTotalIterator>
+         <tr><td>populationTotal</td><td><viva:ConferencePosterPopulationTotal /></td></tr>
+      </viva:foreachConferencePosterPopulationTotalIterator>
+      <viva:foreachConferencePosterFreetextKeywordIterator>
+         <tr><td>freetextKeyword</td><td><viva:ConferencePosterFreetextKeyword /></td></tr>
+      </viva:foreachConferencePosterFreetextKeywordIterator>
+      <viva:foreachConferencePosterNameShortFRIterator>
+         <tr><td>nameShortFR</td><td><viva:ConferencePosterNameShortFR /></td></tr>
+      </viva:foreachConferencePosterNameShortFRIterator>
+      <viva:foreachConferencePosterCodeISO2Iterator>
+         <tr><td>codeISO2</td><td><viva:ConferencePosterCodeISO2 /></td></tr>
+      </viva:foreachConferencePosterCodeISO2Iterator>
+      <viva:foreachConferencePosterDescriptionIterator>
+         <tr><td>description</td><td><viva:ConferencePosterDescription /></td></tr>
+      </viva:foreachConferencePosterDescriptionIterator>
+      <viva:foreachConferencePosterCodeGAULIterator>
+         <tr><td>codeGAUL</td><td><viva:ConferencePosterCodeGAUL /></td></tr>
+      </viva:foreachConferencePosterCodeGAULIterator>
+      <viva:foreachConferencePosterHDITotalIterator>
+         <tr><td>HDITotal</td><td><viva:ConferencePosterHDITotal /></td></tr>
+      </viva:foreachConferencePosterHDITotalIterator>
+      <viva:foreachConferencePosterNameCurrencyRUIterator>
+         <tr><td>nameCurrencyRU</td><td><viva:ConferencePosterNameCurrencyRU /></td></tr>
+      </viva:foreachConferencePosterNameCurrencyRUIterator>
+      <viva:foreachConferencePosterCodeCurrencyIterator>
+         <tr><td>codeCurrency</td><td><viva:ConferencePosterCodeCurrency /></td></tr>
+      </viva:foreachConferencePosterCodeCurrencyIterator>
+      <viva:foreachConferencePosterNameOfficialFRIterator>
+         <tr><td>nameOfficialFR</td><td><viva:ConferencePosterNameOfficialFR /></td></tr>
+      </viva:foreachConferencePosterNameOfficialFRIterator>
+      <viva:foreachConferencePosterLandAreaTotalIterator>
+         <tr><td>landAreaTotal</td><td><viva:ConferencePosterLandAreaTotal /></td></tr>
+      </viva:foreachConferencePosterLandAreaTotalIterator>
+      <viva:foreachConferencePosterNameListESIterator>
+         <tr><td>nameListES</td><td><viva:ConferencePosterNameListES /></td></tr>
+      </viva:foreachConferencePosterNameListESIterator>
+      <viva:foreachConferencePosterNameListITIterator>
+         <tr><td>nameListIT</td><td><viva:ConferencePosterNameListIT /></td></tr>
+      </viva:foreachConferencePosterNameListITIterator>
+      <viva:foreachConferencePosterCodeUNIterator>
+         <tr><td>codeUN</td><td><viva:ConferencePosterCodeUN /></td></tr>
+      </viva:foreachConferencePosterCodeUNIterator>
+      <viva:foreachConferencePosterUrlIterator>
+         <tr><td>url</td><td><viva:ConferencePosterUrl /></td></tr>
+      </viva:foreachConferencePosterUrlIterator>
+      <viva:foreachConferencePosterNameShortRUIterator>
+         <tr><td>nameShortRU</td><td><viva:ConferencePosterNameShortRU /></td></tr>
+      </viva:foreachConferencePosterNameShortRUIterator>
+      <viva:foreachConferencePosterHDIYearIterator>
+         <tr><td>HDIYear</td><td><viva:ConferencePosterHDIYear /></td></tr>
+      </viva:foreachConferencePosterHDIYearIterator>
+      <viva:foreachConferencePosterCodeUNDPIterator>
+         <tr><td>codeUNDP</td><td><viva:ConferencePosterCodeUNDP /></td></tr>
+      </viva:foreachConferencePosterCodeUNDPIterator>
+      <viva:foreachConferencePosterLandAreaNotesIterator>
+         <tr><td>landAreaNotes</td><td><viva:ConferencePosterLandAreaNotes /></td></tr>
+      </viva:foreachConferencePosterLandAreaNotesIterator>
       <viva:foreachConferencePosterPageStartIterator>
          <tr><td>pageStart</td><td><viva:ConferencePosterPageStart /></td></tr>
       </viva:foreachConferencePosterPageStartIterator>
-      <viva:foreachConferencePosterOclcnumIterator>
-         <tr><td>oclcnum</td><td><viva:ConferencePosterOclcnum /></td></tr>
-      </viva:foreachConferencePosterOclcnumIterator>
       <viva:foreachConferencePosterPmidIterator>
          <tr><td>pmid</td><td><viva:ConferencePosterPmid /></td></tr>
       </viva:foreachConferencePosterPmidIterator>
-      <viva:foreachConferencePosterARG_0000001Iterator>
-         <tr><td>ARG_0000001</td><td><viva:ConferencePosterARG_0000001 /></td></tr>
-      </viva:foreachConferencePosterARG_0000001Iterator>
-      <viva:foreachConferencePosterSectionIterator>
-         <tr><td>section</td><td><viva:ConferencePosterSection /></td></tr>
-      </viva:foreachConferencePosterSectionIterator>
-      <viva:foreachConferencePosterUriIterator>
-         <tr><td>uri</td><td><viva:ConferencePosterUri /></td></tr>
-      </viva:foreachConferencePosterUriIterator>
       <viva:foreachConferencePosterIsbn13Iterator>
          <tr><td>isbn13</td><td><viva:ConferencePosterIsbn13 /></td></tr>
       </viva:foreachConferencePosterIsbn13Iterator>
       <viva:foreachConferencePosterVolumeIterator>
          <tr><td>volume</td><td><viva:ConferencePosterVolume /></td></tr>
       </viva:foreachConferencePosterVolumeIterator>
-      <viva:foreachConferencePosterLocatorIterator>
-         <tr><td>locator</td><td><viva:ConferencePosterLocator /></td></tr>
-      </viva:foreachConferencePosterLocatorIterator>
       <viva:foreachConferencePosterPageEndIterator>
          <tr><td>pageEnd</td><td><viva:ConferencePosterPageEnd /></td></tr>
       </viva:foreachConferencePosterPageEndIterator>
       <viva:foreachConferencePosterIsbn10Iterator>
          <tr><td>isbn10</td><td><viva:ConferencePosterIsbn10 /></td></tr>
       </viva:foreachConferencePosterIsbn10Iterator>
-      <viva:foreachConferencePosterERO_0000045Iterator>
-         <tr><td>ERO_0000045</td><td><viva:ConferencePosterERO_0000045 /></td></tr>
-      </viva:foreachConferencePosterERO_0000045Iterator>
-      <viva:foreachConferencePosterNumberIterator>
-         <tr><td>number</td><td><viva:ConferencePosterNumber /></td></tr>
-      </viva:foreachConferencePosterNumberIterator>
-      <viva:foreachConferencePosterEditionIterator>
-         <tr><td>edition</td><td><viva:ConferencePosterEdition /></td></tr>
-      </viva:foreachConferencePosterEditionIterator>
-      <viva:foreachConferencePosterSiciIterator>
-         <tr><td>sici</td><td><viva:ConferencePosterSici /></td></tr>
-      </viva:foreachConferencePosterSiciIterator>
-      <viva:foreachConferencePosterUpcIterator>
-         <tr><td>upc</td><td><viva:ConferencePosterUpc /></td></tr>
-      </viva:foreachConferencePosterUpcIterator>
-      <viva:foreachConferencePosterContentIterator>
-         <tr><td>content</td><td><viva:ConferencePosterContent /></td></tr>
-      </viva:foreachConferencePosterContentIterator>
-      <viva:foreachConferencePosterShortTitleIterator>
-         <tr><td>shortTitle</td><td><viva:ConferencePosterShortTitle /></td></tr>
-      </viva:foreachConferencePosterShortTitleIterator>
-      <viva:foreachConferencePosterHandleIterator>
-         <tr><td>handle</td><td><viva:ConferencePosterHandle /></td></tr>
-      </viva:foreachConferencePosterHandleIterator>
-      <viva:foreachConferencePosterCodenIterator>
-         <tr><td>coden</td><td><viva:ConferencePosterCoden /></td></tr>
-      </viva:foreachConferencePosterCodenIterator>
-      <viva:foreachConferencePosterPagesIterator>
-         <tr><td>pages</td><td><viva:ConferencePosterPages /></td></tr>
-      </viva:foreachConferencePosterPagesIterator>
       <viva:foreachConferencePosterIdentifierIterator>
          <tr><td>identifier</td><td><viva:ConferencePosterIdentifier /></td></tr>
       </viva:foreachConferencePosterIdentifierIterator>
-      <viva:foreachConferencePosterGtin14Iterator>
-         <tr><td>gtin14</td><td><viva:ConferencePosterGtin14 /></td></tr>
-      </viva:foreachConferencePosterGtin14Iterator>
       <viva:foreachConferencePosterNumPagesIterator>
          <tr><td>numPages</td><td><viva:ConferencePosterNumPages /></td></tr>
       </viva:foreachConferencePosterNumPagesIterator>
-      <viva:foreachConferencePosterAsinIterator>
-         <tr><td>asin</td><td><viva:ConferencePosterAsin /></td></tr>
-      </viva:foreachConferencePosterAsinIterator>
-      <viva:foreachConferencePosterLccnIterator>
-         <tr><td>lccn</td><td><viva:ConferencePosterLccn /></td></tr>
-      </viva:foreachConferencePosterLccnIterator>
       <viva:foreachConferencePosterDoiIterator>
          <tr><td>doi</td><td><viva:ConferencePosterDoi /></td></tr>
       </viva:foreachConferencePosterDoiIterator>
@@ -124,75 +292,72 @@
       <viva:foreachConferencePosterDateTimeValueIterator>
          <tr><td>dateTimeValue</td><td><a href="../<viva:ConferencePosterDateTimeValueType/>/<viva:ConferencePosterDateTimeValueType/>.jsp?uri=<viva:ConferencePosterDateTimeValue/>"><viva:ConferencePosterDateTimeValue /></a></td></tr>
       </viva:foreachConferencePosterDateTimeValueIterator>
+      <viva:foreachConferencePosterRO_0002353Iterator>
+         <tr><td>RO_0002353</td><td><a href="../<viva:ConferencePosterRO_0002353Type/>/<viva:ConferencePosterRO_0002353Type/>.jsp?uri=<viva:ConferencePosterRO_0002353/>"><viva:ConferencePosterRO_0002353 /></a></td></tr>
+      </viva:foreachConferencePosterRO_0002353Iterator>
       <viva:foreachConferencePosterARG_2000028Iterator>
          <tr><td>ARG_2000028</td><td><a href="../<viva:ConferencePosterARG_2000028Type/>/<viva:ConferencePosterARG_2000028Type/>.jsp?uri=<viva:ConferencePosterARG_2000028/>"><viva:ConferencePosterARG_2000028 /></a></td></tr>
       </viva:foreachConferencePosterARG_2000028Iterator>
-      <viva:foreachConferencePosterFeaturesIterator>
-         <tr><td>features</td><td><a href="../<viva:ConferencePosterFeaturesType/>/<viva:ConferencePosterFeaturesType/>.jsp?uri=<viva:ConferencePosterFeatures/>"><viva:ConferencePosterFeatures /></a></td></tr>
-      </viva:foreachConferencePosterFeaturesIterator>
-      <viva:foreachConferencePosterEditorIterator>
-         <tr><td>editor</td><td><a href="../<viva:ConferencePosterEditorType/>/<viva:ConferencePosterEditorType/>.jsp?uri=<viva:ConferencePosterEditor/>"><viva:ConferencePosterEditor /></a></td></tr>
-      </viva:foreachConferencePosterEditorIterator>
-      <viva:foreachConferencePosterDocumentationForIterator>
-         <tr><td>documentationFor</td><td><a href="../<viva:ConferencePosterDocumentationForType/>/<viva:ConferencePosterDocumentationForType/>.jsp?uri=<viva:ConferencePosterDocumentationFor/>"><viva:ConferencePosterDocumentationFor /></a></td></tr>
-      </viva:foreachConferencePosterDocumentationForIterator>
-      <viva:foreachConferencePosterCitedByIterator>
-         <tr><td>citedBy</td><td><a href="../<viva:ConferencePosterCitedByType/>/<viva:ConferencePosterCitedByType/>.jsp?uri=<viva:ConferencePosterCitedBy/>"><viva:ConferencePosterCitedBy /></a></td></tr>
-      </viva:foreachConferencePosterCitedByIterator>
-      <viva:foreachConferencePosterOwnerIterator>
-         <tr><td>owner</td><td><a href="../<viva:ConferencePosterOwnerType/>/<viva:ConferencePosterOwnerType/>.jsp?uri=<viva:ConferencePosterOwner/>"><viva:ConferencePosterOwner /></a></td></tr>
-      </viva:foreachConferencePosterOwnerIterator>
-      <viva:foreachConferencePosterTranslatorIterator>
-         <tr><td>translator</td><td><a href="../<viva:ConferencePosterTranslatorType/>/<viva:ConferencePosterTranslatorType/>.jsp?uri=<viva:ConferencePosterTranslator/>"><viva:ConferencePosterTranslator /></a></td></tr>
-      </viva:foreachConferencePosterTranslatorIterator>
-      <viva:foreachConferencePosterTranslationOfIterator>
-         <tr><td>translationOf</td><td><a href="../<viva:ConferencePosterTranslationOfType/>/<viva:ConferencePosterTranslationOfType/>.jsp?uri=<viva:ConferencePosterTranslationOf/>"><viva:ConferencePosterTranslationOf /></a></td></tr>
-      </viva:foreachConferencePosterTranslationOfIterator>
-      <viva:foreachConferencePosterEditorListIterator>
-         <tr><td>editorList</td><td><a href="../<viva:ConferencePosterEditorListType/>/<viva:ConferencePosterEditorListType/>.jsp?uri=<viva:ConferencePosterEditorList/>"><viva:ConferencePosterEditorList /></a></td></tr>
-      </viva:foreachConferencePosterEditorListIterator>
-      <viva:foreachConferencePosterReproducesIterator>
-         <tr><td>reproduces</td><td><a href="../<viva:ConferencePosterReproducesType/>/<viva:ConferencePosterReproducesType/>.jsp?uri=<viva:ConferencePosterReproduces/>"><viva:ConferencePosterReproduces /></a></td></tr>
-      </viva:foreachConferencePosterReproducesIterator>
-      <viva:foreachConferencePosterStatusIterator>
-         <tr><td>status</td><td><a href="../<viva:ConferencePosterStatusType/>/<viva:ConferencePosterStatusType/>.jsp?uri=<viva:ConferencePosterStatus/>"><viva:ConferencePosterStatus /></a></td></tr>
-      </viva:foreachConferencePosterStatusIterator>
-      <viva:foreachConferencePosterReproducedInIterator>
-         <tr><td>reproducedIn</td><td><a href="../<viva:ConferencePosterReproducedInType/>/<viva:ConferencePosterReproducedInType/>.jsp?uri=<viva:ConferencePosterReproducedIn/>"><viva:ConferencePosterReproducedIn /></a></td></tr>
-      </viva:foreachConferencePosterReproducedInIterator>
-      <viva:foreachConferencePosterIssuerIterator>
-         <tr><td>issuer</td><td><a href="../<viva:ConferencePosterIssuerType/>/<viva:ConferencePosterIssuerType/>.jsp?uri=<viva:ConferencePosterIssuer/>"><viva:ConferencePosterIssuer /></a></td></tr>
-      </viva:foreachConferencePosterIssuerIterator>
-      <viva:foreachConferencePosterAuthorListIterator>
-         <tr><td>authorList</td><td><a href="../<viva:ConferencePosterAuthorListType/>/<viva:ConferencePosterAuthorListType/>.jsp?uri=<viva:ConferencePosterAuthorList/>"><viva:ConferencePosterAuthorList /></a></td></tr>
-      </viva:foreachConferencePosterAuthorListIterator>
-      <viva:foreachConferencePosterDistributorIterator>
-         <tr><td>distributor</td><td><a href="../<viva:ConferencePosterDistributorType/>/<viva:ConferencePosterDistributorType/>.jsp?uri=<viva:ConferencePosterDistributor/>"><viva:ConferencePosterDistributor /></a></td></tr>
-      </viva:foreachConferencePosterDistributorIterator>
-      <viva:foreachConferencePosterTranscriptOfIterator>
-         <tr><td>transcriptOf</td><td><a href="../<viva:ConferencePosterTranscriptOfType/>/<viva:ConferencePosterTranscriptOfType/>.jsp?uri=<viva:ConferencePosterTranscriptOf/>"><viva:ConferencePosterTranscriptOf /></a></td></tr>
-      </viva:foreachConferencePosterTranscriptOfIterator>
-      <viva:foreachConferencePosterPresentedAtIterator>
-         <tr><td>presentedAt</td><td><a href="../<viva:ConferencePosterPresentedAtType/>/<viva:ConferencePosterPresentedAtType/>.jsp?uri=<viva:ConferencePosterPresentedAt/>"><viva:ConferencePosterPresentedAt /></a></td></tr>
-      </viva:foreachConferencePosterPresentedAtIterator>
-      <viva:foreachConferencePosterHasTranslationIterator>
-         <tr><td>hasTranslation</td><td><a href="../<viva:ConferencePosterHasTranslationType/>/<viva:ConferencePosterHasTranslationType/>.jsp?uri=<viva:ConferencePosterHasTranslation/>"><viva:ConferencePosterHasTranslation /></a></td></tr>
-      </viva:foreachConferencePosterHasTranslationIterator>
-      <viva:foreachConferencePosterContributorListIterator>
-         <tr><td>contributorList</td><td><a href="../<viva:ConferencePosterContributorListType/>/<viva:ConferencePosterContributorListType/>.jsp?uri=<viva:ConferencePosterContributorList/>"><viva:ConferencePosterContributorList /></a></td></tr>
-      </viva:foreachConferencePosterContributorListIterator>
-      <viva:foreachConferencePosterProducerIterator>
-         <tr><td>producer</td><td><a href="../<viva:ConferencePosterProducerType/>/<viva:ConferencePosterProducerType/>.jsp?uri=<viva:ConferencePosterProducer/>"><viva:ConferencePosterProducer /></a></td></tr>
-      </viva:foreachConferencePosterProducerIterator>
-      <viva:foreachConferencePosterReviewOfIterator>
-         <tr><td>reviewOf</td><td><a href="../<viva:ConferencePosterReviewOfType/>/<viva:ConferencePosterReviewOfType/>.jsp?uri=<viva:ConferencePosterReviewOf/>"><viva:ConferencePosterReviewOf /></a></td></tr>
-      </viva:foreachConferencePosterReviewOfIterator>
-      <viva:foreachConferencePosterCitesIterator>
-         <tr><td>cites</td><td><a href="../<viva:ConferencePosterCitesType/>/<viva:ConferencePosterCitesType/>.jsp?uri=<viva:ConferencePosterCites/>"><viva:ConferencePosterCites /></a></td></tr>
-      </viva:foreachConferencePosterCitesIterator>
-      <viva:foreachConferencePosterRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:ConferencePosterRO_0000056Type/>/<viva:ConferencePosterRO_0000056Type/>.jsp?uri=<viva:ConferencePosterRO_0000056/>"><viva:ConferencePosterRO_0000056 /></a></td></tr>
-      </viva:foreachConferencePosterRO_0000056Iterator>
+      <viva:foreachConferencePosterRelatedByIterator>
+         <tr><td>relatedBy</td><td><a href="../<viva:ConferencePosterRelatedByType/>/<viva:ConferencePosterRelatedByType/>.jsp?uri=<viva:ConferencePosterRelatedBy/>"><viva:ConferencePosterRelatedBy /></a></td></tr>
+      </viva:foreachConferencePosterRelatedByIterator>
+      <viva:foreachConferencePosterRelatesIterator>
+         <tr><td>relates</td><td><a href="../<viva:ConferencePosterRelatesType/>/<viva:ConferencePosterRelatesType/>.jsp?uri=<viva:ConferencePosterRelates/>"><viva:ConferencePosterRelates /></a></td></tr>
+      </viva:foreachConferencePosterRelatesIterator>
+      <viva:foreachConferencePosterHasAddressIterator>
+         <tr><td>hasAddress</td><td><a href="../<viva:ConferencePosterHasAddressType/>/<viva:ConferencePosterHasAddressType/>.jsp?uri=<viva:ConferencePosterHasAddress/>"><viva:ConferencePosterHasAddress /></a></td></tr>
+      </viva:foreachConferencePosterHasAddressIterator>
+      <viva:foreachConferencePosterHasTelephoneIterator>
+         <tr><td>hasTelephone</td><td><a href="../<viva:ConferencePosterHasTelephoneType/>/<viva:ConferencePosterHasTelephoneType/>.jsp?uri=<viva:ConferencePosterHasTelephone/>"><viva:ConferencePosterHasTelephone /></a></td></tr>
+      </viva:foreachConferencePosterHasTelephoneIterator>
+      <viva:foreachConferencePosterBFO_0000051Iterator>
+         <tr><td>BFO_0000051</td><td><a href="../<viva:ConferencePosterBFO_0000051Type/>/<viva:ConferencePosterBFO_0000051Type/>.jsp?uri=<viva:ConferencePosterBFO_0000051/>"><viva:ConferencePosterBFO_0000051 /></a></td></tr>
+      </viva:foreachConferencePosterBFO_0000051Iterator>
+      <viva:foreachConferencePosterRO_0001015Iterator>
+         <tr><td>RO_0001015</td><td><a href="../<viva:ConferencePosterRO_0001015Type/>/<viva:ConferencePosterRO_0001015Type/>.jsp?uri=<viva:ConferencePosterRO_0001015/>"><viva:ConferencePosterRO_0001015 /></a></td></tr>
+      </viva:foreachConferencePosterRO_0001015Iterator>
+      <viva:foreachConferencePosterRO_0001025Iterator>
+         <tr><td>RO_0001025</td><td><a href="../<viva:ConferencePosterRO_0001025Type/>/<viva:ConferencePosterRO_0001025Type/>.jsp?uri=<viva:ConferencePosterRO_0001025/>"><viva:ConferencePosterRO_0001025 /></a></td></tr>
+      </viva:foreachConferencePosterRO_0001025Iterator>
+      <viva:foreachConferencePosterHasTitleIterator>
+         <tr><td>hasTitle</td><td><a href="../<viva:ConferencePosterHasTitleType/>/<viva:ConferencePosterHasTitleType/>.jsp?uri=<viva:ConferencePosterHasTitle/>"><viva:ConferencePosterHasTitle /></a></td></tr>
+      </viva:foreachConferencePosterHasTitleIterator>
+      <viva:foreachConferencePosterHasResearchAreaIterator>
+         <tr><td>hasResearchArea</td><td><a href="../<viva:ConferencePosterHasResearchAreaType/>/<viva:ConferencePosterHasResearchAreaType/>.jsp?uri=<viva:ConferencePosterHasResearchArea/>"><viva:ConferencePosterHasResearchArea /></a></td></tr>
+      </viva:foreachConferencePosterHasResearchAreaIterator>
+      <viva:foreachConferencePosterGeographicFocusIterator>
+         <tr><td>geographicFocus</td><td><a href="../<viva:ConferencePosterGeographicFocusType/>/<viva:ConferencePosterGeographicFocusType/>.jsp?uri=<viva:ConferencePosterGeographicFocus/>"><viva:ConferencePosterGeographicFocus /></a></td></tr>
+      </viva:foreachConferencePosterGeographicFocusIterator>
+      <viva:foreachConferencePosterHasPublicationVenueIterator>
+         <tr><td>hasPublicationVenue</td><td><a href="../<viva:ConferencePosterHasPublicationVenueType/>/<viva:ConferencePosterHasPublicationVenueType/>.jsp?uri=<viva:ConferencePosterHasPublicationVenue/>"><viva:ConferencePosterHasPublicationVenue /></a></td></tr>
+      </viva:foreachConferencePosterHasPublicationVenueIterator>
+      <viva:foreachConferencePosterHasNameIterator>
+         <tr><td>hasName</td><td><a href="../<viva:ConferencePosterHasNameType/>/<viva:ConferencePosterHasNameType/>.jsp?uri=<viva:ConferencePosterHasName/>"><viva:ConferencePosterHasName /></a></td></tr>
+      </viva:foreachConferencePosterHasNameIterator>
+      <viva:foreachConferencePosterPublicationVenueForIterator>
+         <tr><td>publicationVenueFor</td><td><a href="../<viva:ConferencePosterPublicationVenueForType/>/<viva:ConferencePosterPublicationVenueForType/>.jsp?uri=<viva:ConferencePosterPublicationVenueFor/>"><viva:ConferencePosterPublicationVenueFor /></a></td></tr>
+      </viva:foreachConferencePosterPublicationVenueForIterator>
+      <viva:foreachConferencePosterPublisherIterator>
+         <tr><td>publisher</td><td><a href="../<viva:ConferencePosterPublisherType/>/<viva:ConferencePosterPublisherType/>.jsp?uri=<viva:ConferencePosterPublisher/>"><viva:ConferencePosterPublisher /></a></td></tr>
+      </viva:foreachConferencePosterPublisherIterator>
+      <viva:foreachConferencePosterRO_0002234Iterator>
+         <tr><td>RO_0002234</td><td><a href="../<viva:ConferencePosterRO_0002234Type/>/<viva:ConferencePosterRO_0002234Type/>.jsp?uri=<viva:ConferencePosterRO_0002234/>"><viva:ConferencePosterRO_0002234 /></a></td></tr>
+      </viva:foreachConferencePosterRO_0002234Iterator>
+      <viva:foreachConferencePosterHasSubjectAreaIterator>
+         <tr><td>hasSubjectArea</td><td><a href="../<viva:ConferencePosterHasSubjectAreaType/>/<viva:ConferencePosterHasSubjectAreaType/>.jsp?uri=<viva:ConferencePosterHasSubjectArea/>"><viva:ConferencePosterHasSubjectArea /></a></td></tr>
+      </viva:foreachConferencePosterHasSubjectAreaIterator>
+      <viva:foreachConferencePosterDateTimeIntervalIterator>
+         <tr><td>dateTimeInterval</td><td><a href="../<viva:ConferencePosterDateTimeIntervalType/>/<viva:ConferencePosterDateTimeIntervalType/>.jsp?uri=<viva:ConferencePosterDateTimeInterval/>"><viva:ConferencePosterDateTimeInterval /></a></td></tr>
+      </viva:foreachConferencePosterDateTimeIntervalIterator>
+      <viva:foreachConferencePosterHasEmailIterator>
+         <tr><td>hasEmail</td><td><a href="../<viva:ConferencePosterHasEmailType/>/<viva:ConferencePosterHasEmailType/>.jsp?uri=<viva:ConferencePosterHasEmail/>"><viva:ConferencePosterHasEmail /></a></td></tr>
+      </viva:foreachConferencePosterHasEmailIterator>
+      <viva:foreachConferencePosterBFO_0000050Iterator>
+         <tr><td>BFO_0000050</td><td><a href="../<viva:ConferencePosterBFO_0000050Type/>/<viva:ConferencePosterBFO_0000050Type/>.jsp?uri=<viva:ConferencePosterBFO_0000050/>"><viva:ConferencePosterBFO_0000050 /></a></td></tr>
+      </viva:foreachConferencePosterBFO_0000050Iterator>
+      <viva:foreachConferencePosterHasURLIterator>
+         <tr><td>hasURL</td><td><a href="../<viva:ConferencePosterHasURLType/>/<viva:ConferencePosterHasURLType/>.jsp?uri=<viva:ConferencePosterHasURL/>"><viva:ConferencePosterHasURL /></a></td></tr>
+      </viva:foreachConferencePosterHasURLIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

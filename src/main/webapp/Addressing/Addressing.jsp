@@ -27,10 +27,37 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachAddressingMiddleNameIterator>
+         <tr><td>middleName</td><td><viva:AddressingMiddleName /></td></tr>
+      </viva:foreachAddressingMiddleNameIterator>
+      <viva:foreachAddressingRankIterator>
+         <tr><td>rank</td><td><viva:AddressingRank /></td></tr>
+      </viva:foreachAddressingRankIterator>
+      <viva:foreachAddressingTelephoneIterator>
+         <tr><td>telephone</td><td><viva:AddressingTelephone /></td></tr>
+      </viva:foreachAddressingTelephoneIterator>
+      <viva:foreachAddressingUrlIterator>
+         <tr><td>url</td><td><viva:AddressingUrl /></td></tr>
+      </viva:foreachAddressingUrlIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachAddressingHasAddressIterator>
+         <tr><td>hasAddress</td><td><a href="../<viva:AddressingHasAddressType/>/<viva:AddressingHasAddressType/>.jsp?uri=<viva:AddressingHasAddress/>"><viva:AddressingHasAddress /></a></td></tr>
+      </viva:foreachAddressingHasAddressIterator>
+      <viva:foreachAddressingRelatedByIterator>
+         <tr><td>relatedBy</td><td><a href="../<viva:AddressingRelatedByType/>/<viva:AddressingRelatedByType/>.jsp?uri=<viva:AddressingRelatedBy/>"><viva:AddressingRelatedBy /></a></td></tr>
+      </viva:foreachAddressingRelatedByIterator>
+      <viva:foreachAddressingHasEmailIterator>
+         <tr><td>hasEmail</td><td><a href="../<viva:AddressingHasEmailType/>/<viva:AddressingHasEmailType/>.jsp?uri=<viva:AddressingHasEmail/>"><viva:AddressingHasEmail /></a></td></tr>
+      </viva:foreachAddressingHasEmailIterator>
+      <viva:foreachAddressingRelatesIterator>
+         <tr><td>relates</td><td><a href="../<viva:AddressingRelatesType/>/<viva:AddressingRelatesType/>.jsp?uri=<viva:AddressingRelates/>"><viva:AddressingRelates /></a></td></tr>
+      </viva:foreachAddressingRelatesIterator>
+      <viva:foreachAddressingHasURLIterator>
+         <tr><td>hasURL</td><td><a href="../<viva:AddressingHasURLType/>/<viva:AddressingHasURLType/>.jsp?uri=<viva:AddressingHasURL/>"><viva:AddressingHasURL /></a></td></tr>
+      </viva:foreachAddressingHasURLIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

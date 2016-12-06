@@ -23,20 +23,317 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
+      <tr><td>placeOfPublication</td><td><viva:BFO_0000141PlaceOfPublication /></td></tr>
+      <tr><td>hideFromDisplay</td><td><viva:BFO_0000141HideFromDisplay /></td></tr>
+      <tr><td>abbreviation</td><td><viva:BFO_0000141Abbreviation /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachBFO_0000141AgriculturalAreaUnitIterator>
+         <tr><td>agriculturalAreaUnit</td><td><viva:BFO_0000141AgriculturalAreaUnit /></td></tr>
+      </viva:foreachBFO_0000141AgriculturalAreaUnitIterator>
+      <viva:foreachBFO_0000141AgriculturalAreaTotalIterator>
+         <tr><td>agriculturalAreaTotal</td><td><viva:BFO_0000141AgriculturalAreaTotal /></td></tr>
+      </viva:foreachBFO_0000141AgriculturalAreaTotalIterator>
+      <viva:foreachBFO_0000141NationalityITIterator>
+         <tr><td>nationalityIT</td><td><viva:BFO_0000141NationalityIT /></td></tr>
+      </viva:foreachBFO_0000141NationalityITIterator>
+      <viva:foreachBFO_0000141NameOfficialRUIterator>
+         <tr><td>nameOfficialRU</td><td><viva:BFO_0000141NameOfficialRU /></td></tr>
+      </viva:foreachBFO_0000141NameOfficialRUIterator>
+      <viva:foreachBFO_0000141AgriculturalAreaYearIterator>
+         <tr><td>agriculturalAreaYear</td><td><viva:BFO_0000141AgriculturalAreaYear /></td></tr>
+      </viva:foreachBFO_0000141AgriculturalAreaYearIterator>
+      <viva:foreachBFO_0000141NameCurrencyFRIterator>
+         <tr><td>nameCurrencyFR</td><td><viva:BFO_0000141NameCurrencyFR /></td></tr>
+      </viva:foreachBFO_0000141NameCurrencyFRIterator>
+      <viva:foreachBFO_0000141NameListENIterator>
+         <tr><td>nameListEN</td><td><viva:BFO_0000141NameListEN /></td></tr>
+      </viva:foreachBFO_0000141NameListENIterator>
+      <viva:foreachBFO_0000141GDPNotesIterator>
+         <tr><td>GDPNotes</td><td><viva:BFO_0000141GDPNotes /></td></tr>
+      </viva:foreachBFO_0000141GDPNotesIterator>
+      <viva:foreachBFO_0000141GDPTotalInCurrentPricesIterator>
+         <tr><td>GDPTotalInCurrentPrices</td><td><viva:BFO_0000141GDPTotalInCurrentPrices /></td></tr>
+      </viva:foreachBFO_0000141GDPTotalInCurrentPricesIterator>
+      <viva:foreachBFO_0000141NameOfficialZHIterator>
+         <tr><td>nameOfficialZH</td><td><viva:BFO_0000141NameOfficialZH /></td></tr>
+      </viva:foreachBFO_0000141NameOfficialZHIterator>
+      <viva:foreachBFO_0000141NationalityARIterator>
+         <tr><td>nationalityAR</td><td><viva:BFO_0000141NationalityAR /></td></tr>
+      </viva:foreachBFO_0000141NationalityARIterator>
+      <viva:foreachBFO_0000141PopulationUnitIterator>
+         <tr><td>populationUnit</td><td><viva:BFO_0000141PopulationUnit /></td></tr>
+      </viva:foreachBFO_0000141PopulationUnitIterator>
+      <viva:foreachBFO_0000141NationalityESIterator>
+         <tr><td>nationalityES</td><td><viva:BFO_0000141NationalityES /></td></tr>
+      </viva:foreachBFO_0000141NationalityESIterator>
+      <viva:foreachBFO_0000141NameListARIterator>
+         <tr><td>nameListAR</td><td><viva:BFO_0000141NameListAR /></td></tr>
+      </viva:foreachBFO_0000141NameListARIterator>
+      <viva:foreachBFO_0000141CountryAreaTotalIterator>
+         <tr><td>countryAreaTotal</td><td><viva:BFO_0000141CountryAreaTotal /></td></tr>
+      </viva:foreachBFO_0000141CountryAreaTotalIterator>
+      <viva:foreachBFO_0000141HasMinLatitudeIterator>
+         <tr><td>hasMinLatitude</td><td><viva:BFO_0000141HasMinLatitude /></td></tr>
+      </viva:foreachBFO_0000141HasMinLatitudeIterator>
+      <viva:foreachBFO_0000141NameShortZHIterator>
+         <tr><td>nameShortZH</td><td><viva:BFO_0000141NameShortZH /></td></tr>
+      </viva:foreachBFO_0000141NameShortZHIterator>
+      <viva:foreachBFO_0000141NameShortITIterator>
+         <tr><td>nameShortIT</td><td><viva:BFO_0000141NameShortIT /></td></tr>
+      </viva:foreachBFO_0000141NameShortITIterator>
+      <viva:foreachBFO_0000141CodeISO3Iterator>
+         <tr><td>codeISO3</td><td><viva:BFO_0000141CodeISO3 /></td></tr>
+      </viva:foreachBFO_0000141CodeISO3Iterator>
+      <viva:foreachBFO_0000141CodeAGROVOCIterator>
+         <tr><td>codeAGROVOC</td><td><viva:BFO_0000141CodeAGROVOC /></td></tr>
+      </viva:foreachBFO_0000141CodeAGROVOCIterator>
+      <viva:foreachBFO_0000141NationalityRUIterator>
+         <tr><td>nationalityRU</td><td><viva:BFO_0000141NationalityRU /></td></tr>
+      </viva:foreachBFO_0000141NationalityRUIterator>
+      <viva:foreachBFO_0000141HasMaxLongitudeIterator>
+         <tr><td>hasMaxLongitude</td><td><viva:BFO_0000141HasMaxLongitude /></td></tr>
+      </viva:foreachBFO_0000141HasMaxLongitudeIterator>
+      <viva:foreachBFO_0000141NameCurrencyZHIterator>
+         <tr><td>nameCurrencyZH</td><td><viva:BFO_0000141NameCurrencyZH /></td></tr>
+      </viva:foreachBFO_0000141NameCurrencyZHIterator>
+      <viva:foreachBFO_0000141NationalityENIterator>
+         <tr><td>nationalityEN</td><td><viva:BFO_0000141NationalityEN /></td></tr>
+      </viva:foreachBFO_0000141NationalityENIterator>
+      <viva:foreachBFO_0000141AgriculturalAreaNotesIterator>
+         <tr><td>agriculturalAreaNotes</td><td><viva:BFO_0000141AgriculturalAreaNotes /></td></tr>
+      </viva:foreachBFO_0000141AgriculturalAreaNotesIterator>
+      <viva:foreachBFO_0000141NameListFRIterator>
+         <tr><td>nameListFR</td><td><viva:BFO_0000141NameListFR /></td></tr>
+      </viva:foreachBFO_0000141NameListFRIterator>
+      <viva:foreachBFO_0000141NameOfficialESIterator>
+         <tr><td>nameOfficialES</td><td><viva:BFO_0000141NameOfficialES /></td></tr>
+      </viva:foreachBFO_0000141NameOfficialESIterator>
+      <viva:foreachBFO_0000141NameCurrencyENIterator>
+         <tr><td>nameCurrencyEN</td><td><viva:BFO_0000141NameCurrencyEN /></td></tr>
+      </viva:foreachBFO_0000141NameCurrencyENIterator>
+      <viva:foreachBFO_0000141CountryAreaNotesIterator>
+         <tr><td>countryAreaNotes</td><td><viva:BFO_0000141CountryAreaNotes /></td></tr>
+      </viva:foreachBFO_0000141CountryAreaNotesIterator>
+      <viva:foreachBFO_0000141CodeFAOTERMIterator>
+         <tr><td>codeFAOTERM</td><td><viva:BFO_0000141CodeFAOTERM /></td></tr>
+      </viva:foreachBFO_0000141CodeFAOTERMIterator>
+      <viva:foreachBFO_0000141NameOfficialITIterator>
+         <tr><td>nameOfficialIT</td><td><viva:BFO_0000141NameOfficialIT /></td></tr>
+      </viva:foreachBFO_0000141NameOfficialITIterator>
+      <viva:foreachBFO_0000141NameListRUIterator>
+         <tr><td>nameListRU</td><td><viva:BFO_0000141NameListRU /></td></tr>
+      </viva:foreachBFO_0000141NameListRUIterator>
+      <viva:foreachBFO_0000141NameShortESIterator>
+         <tr><td>nameShortES</td><td><viva:BFO_0000141NameShortES /></td></tr>
+      </viva:foreachBFO_0000141NameShortESIterator>
+      <viva:foreachBFO_0000141GDPYearIterator>
+         <tr><td>GDPYear</td><td><viva:BFO_0000141GDPYear /></td></tr>
+      </viva:foreachBFO_0000141GDPYearIterator>
+      <viva:foreachBFO_0000141PopulationYearIterator>
+         <tr><td>populationYear</td><td><viva:BFO_0000141PopulationYear /></td></tr>
+      </viva:foreachBFO_0000141PopulationYearIterator>
+      <viva:foreachBFO_0000141PopulationNotesIterator>
+         <tr><td>populationNotes</td><td><viva:BFO_0000141PopulationNotes /></td></tr>
+      </viva:foreachBFO_0000141PopulationNotesIterator>
+      <viva:foreachBFO_0000141CountryAreaUnitIterator>
+         <tr><td>countryAreaUnit</td><td><viva:BFO_0000141CountryAreaUnit /></td></tr>
+      </viva:foreachBFO_0000141CountryAreaUnitIterator>
+      <viva:foreachBFO_0000141HasMinLongitudeIterator>
+         <tr><td>hasMinLongitude</td><td><viva:BFO_0000141HasMinLongitude /></td></tr>
+      </viva:foreachBFO_0000141HasMinLongitudeIterator>
+      <viva:foreachBFO_0000141NameCurrencyITIterator>
+         <tr><td>nameCurrencyIT</td><td><viva:BFO_0000141NameCurrencyIT /></td></tr>
+      </viva:foreachBFO_0000141NameCurrencyITIterator>
+      <viva:foreachBFO_0000141CodeFAOSTATIterator>
+         <tr><td>codeFAOSTAT</td><td><viva:BFO_0000141CodeFAOSTAT /></td></tr>
+      </viva:foreachBFO_0000141CodeFAOSTATIterator>
+      <viva:foreachBFO_0000141NameCurrencyARIterator>
+         <tr><td>nameCurrencyAR</td><td><viva:BFO_0000141NameCurrencyAR /></td></tr>
+      </viva:foreachBFO_0000141NameCurrencyARIterator>
+      <viva:foreachBFO_0000141NameCurrencyESIterator>
+         <tr><td>nameCurrencyES</td><td><viva:BFO_0000141NameCurrencyES /></td></tr>
+      </viva:foreachBFO_0000141NameCurrencyESIterator>
+      <viva:foreachBFO_0000141CodeDBPediaIDIterator>
+         <tr><td>codeDBPediaID</td><td><viva:BFO_0000141CodeDBPediaID /></td></tr>
+      </viva:foreachBFO_0000141CodeDBPediaIDIterator>
+      <viva:foreachBFO_0000141NameListZHIterator>
+         <tr><td>nameListZH</td><td><viva:BFO_0000141NameListZH /></td></tr>
+      </viva:foreachBFO_0000141NameListZHIterator>
+      <viva:foreachBFO_0000141NameShortENIterator>
+         <tr><td>nameShortEN</td><td><viva:BFO_0000141NameShortEN /></td></tr>
+      </viva:foreachBFO_0000141NameShortENIterator>
+      <viva:foreachBFO_0000141NameOfficialARIterator>
+         <tr><td>nameOfficialAR</td><td><viva:BFO_0000141NameOfficialAR /></td></tr>
+      </viva:foreachBFO_0000141NameOfficialARIterator>
+      <viva:foreachBFO_0000141HasMaxLatitudeIterator>
+         <tr><td>hasMaxLatitude</td><td><viva:BFO_0000141HasMaxLatitude /></td></tr>
+      </viva:foreachBFO_0000141HasMaxLatitudeIterator>
+      <viva:foreachBFO_0000141NationalityFRIterator>
+         <tr><td>nationalityFR</td><td><viva:BFO_0000141NationalityFR /></td></tr>
+      </viva:foreachBFO_0000141NationalityFRIterator>
+      <viva:foreachBFO_0000141NationalityZHIterator>
+         <tr><td>nationalityZH</td><td><viva:BFO_0000141NationalityZH /></td></tr>
+      </viva:foreachBFO_0000141NationalityZHIterator>
+      <viva:foreachBFO_0000141GDPUnitIterator>
+         <tr><td>GDPUnit</td><td><viva:BFO_0000141GDPUnit /></td></tr>
+      </viva:foreachBFO_0000141GDPUnitIterator>
+      <viva:foreachBFO_0000141HDINotesIterator>
+         <tr><td>HDINotes</td><td><viva:BFO_0000141HDINotes /></td></tr>
+      </viva:foreachBFO_0000141HDINotesIterator>
+      <viva:foreachBFO_0000141LandAreaYearIterator>
+         <tr><td>landAreaYear</td><td><viva:BFO_0000141LandAreaYear /></td></tr>
+      </viva:foreachBFO_0000141LandAreaYearIterator>
+      <viva:foreachBFO_0000141CountryAreaYearIterator>
+         <tr><td>countryAreaYear</td><td><viva:BFO_0000141CountryAreaYear /></td></tr>
+      </viva:foreachBFO_0000141CountryAreaYearIterator>
+      <viva:foreachBFO_0000141NameShortARIterator>
+         <tr><td>nameShortAR</td><td><viva:BFO_0000141NameShortAR /></td></tr>
+      </viva:foreachBFO_0000141NameShortARIterator>
+      <viva:foreachBFO_0000141NameOfficialENIterator>
+         <tr><td>nameOfficialEN</td><td><viva:BFO_0000141NameOfficialEN /></td></tr>
+      </viva:foreachBFO_0000141NameOfficialENIterator>
+      <viva:foreachBFO_0000141LandAreaUnitIterator>
+         <tr><td>landAreaUnit</td><td><viva:BFO_0000141LandAreaUnit /></td></tr>
+      </viva:foreachBFO_0000141LandAreaUnitIterator>
+      <viva:foreachBFO_0000141PopulationTotalIterator>
+         <tr><td>populationTotal</td><td><viva:BFO_0000141PopulationTotal /></td></tr>
+      </viva:foreachBFO_0000141PopulationTotalIterator>
+      <viva:foreachBFO_0000141NameShortFRIterator>
+         <tr><td>nameShortFR</td><td><viva:BFO_0000141NameShortFR /></td></tr>
+      </viva:foreachBFO_0000141NameShortFRIterator>
+      <viva:foreachBFO_0000141CodeISO2Iterator>
+         <tr><td>codeISO2</td><td><viva:BFO_0000141CodeISO2 /></td></tr>
+      </viva:foreachBFO_0000141CodeISO2Iterator>
+      <viva:foreachBFO_0000141CodeGAULIterator>
+         <tr><td>codeGAUL</td><td><viva:BFO_0000141CodeGAUL /></td></tr>
+      </viva:foreachBFO_0000141CodeGAULIterator>
+      <viva:foreachBFO_0000141HDITotalIterator>
+         <tr><td>HDITotal</td><td><viva:BFO_0000141HDITotal /></td></tr>
+      </viva:foreachBFO_0000141HDITotalIterator>
+      <viva:foreachBFO_0000141NameCurrencyRUIterator>
+         <tr><td>nameCurrencyRU</td><td><viva:BFO_0000141NameCurrencyRU /></td></tr>
+      </viva:foreachBFO_0000141NameCurrencyRUIterator>
+      <viva:foreachBFO_0000141CodeCurrencyIterator>
+         <tr><td>codeCurrency</td><td><viva:BFO_0000141CodeCurrency /></td></tr>
+      </viva:foreachBFO_0000141CodeCurrencyIterator>
+      <viva:foreachBFO_0000141NameOfficialFRIterator>
+         <tr><td>nameOfficialFR</td><td><viva:BFO_0000141NameOfficialFR /></td></tr>
+      </viva:foreachBFO_0000141NameOfficialFRIterator>
+      <viva:foreachBFO_0000141LandAreaTotalIterator>
+         <tr><td>landAreaTotal</td><td><viva:BFO_0000141LandAreaTotal /></td></tr>
+      </viva:foreachBFO_0000141LandAreaTotalIterator>
+      <viva:foreachBFO_0000141NameListESIterator>
+         <tr><td>nameListES</td><td><viva:BFO_0000141NameListES /></td></tr>
+      </viva:foreachBFO_0000141NameListESIterator>
+      <viva:foreachBFO_0000141NameListITIterator>
+         <tr><td>nameListIT</td><td><viva:BFO_0000141NameListIT /></td></tr>
+      </viva:foreachBFO_0000141NameListITIterator>
+      <viva:foreachBFO_0000141CodeUNIterator>
+         <tr><td>codeUN</td><td><viva:BFO_0000141CodeUN /></td></tr>
+      </viva:foreachBFO_0000141CodeUNIterator>
+      <viva:foreachBFO_0000141NameShortRUIterator>
+         <tr><td>nameShortRU</td><td><viva:BFO_0000141NameShortRU /></td></tr>
+      </viva:foreachBFO_0000141NameShortRUIterator>
+      <viva:foreachBFO_0000141HDIYearIterator>
+         <tr><td>HDIYear</td><td><viva:BFO_0000141HDIYear /></td></tr>
+      </viva:foreachBFO_0000141HDIYearIterator>
+      <viva:foreachBFO_0000141CodeUNDPIterator>
+         <tr><td>codeUNDP</td><td><viva:BFO_0000141CodeUNDP /></td></tr>
+      </viva:foreachBFO_0000141CodeUNDPIterator>
+      <viva:foreachBFO_0000141LandAreaNotesIterator>
+         <tr><td>landAreaNotes</td><td><viva:BFO_0000141LandAreaNotes /></td></tr>
+      </viva:foreachBFO_0000141LandAreaNotesIterator>
+      <viva:foreachBFO_0000141RankIterator>
+         <tr><td>rank</td><td><viva:BFO_0000141Rank /></td></tr>
+      </viva:foreachBFO_0000141RankIterator>
+      <viva:foreachBFO_0000141FreetextKeywordIterator>
+         <tr><td>freetextKeyword</td><td><viva:BFO_0000141FreetextKeyword /></td></tr>
+      </viva:foreachBFO_0000141FreetextKeywordIterator>
+      <viva:foreachBFO_0000141UrlIterator>
+         <tr><td>url</td><td><viva:BFO_0000141Url /></td></tr>
+      </viva:foreachBFO_0000141UrlIterator>
+      <viva:foreachBFO_0000141DescriptionIterator>
+         <tr><td>description</td><td><viva:BFO_0000141Description /></td></tr>
+      </viva:foreachBFO_0000141DescriptionIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachBFO_0000141RO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:BFO_0000141RO_0000056Type/>/<viva:BFO_0000141RO_0000056Type/>.jsp?uri=<viva:BFO_0000141RO_0000056/>"><viva:BFO_0000141RO_0000056 /></a></td></tr>
-      </viva:foreachBFO_0000141RO_0000056Iterator>
+      <viva:foreachBFO_0000141BFO_0000051Iterator>
+         <tr><td>BFO_0000051</td><td><a href="../<viva:BFO_0000141BFO_0000051Type/>/<viva:BFO_0000141BFO_0000051Type/>.jsp?uri=<viva:BFO_0000141BFO_0000051/>"><viva:BFO_0000141BFO_0000051 /></a></td></tr>
+      </viva:foreachBFO_0000141BFO_0000051Iterator>
+      <viva:foreachBFO_0000141RO_0001015Iterator>
+         <tr><td>RO_0001015</td><td><a href="../<viva:BFO_0000141RO_0001015Type/>/<viva:BFO_0000141RO_0001015Type/>.jsp?uri=<viva:BFO_0000141RO_0001015/>"><viva:BFO_0000141RO_0001015 /></a></td></tr>
+      </viva:foreachBFO_0000141RO_0001015Iterator>
+      <viva:foreachBFO_0000141BFO_0000050Iterator>
+         <tr><td>BFO_0000050</td><td><a href="../<viva:BFO_0000141BFO_0000050Type/>/<viva:BFO_0000141BFO_0000050Type/>.jsp?uri=<viva:BFO_0000141BFO_0000050/>"><viva:BFO_0000141BFO_0000050 /></a></td></tr>
+      </viva:foreachBFO_0000141BFO_0000050Iterator>
+      <viva:foreachBFO_0000141HasAddressIterator>
+         <tr><td>hasAddress</td><td><a href="../<viva:BFO_0000141HasAddressType/>/<viva:BFO_0000141HasAddressType/>.jsp?uri=<viva:BFO_0000141HasAddress/>"><viva:BFO_0000141HasAddress /></a></td></tr>
+      </viva:foreachBFO_0000141HasAddressIterator>
+      <viva:foreachBFO_0000141HasTelephoneIterator>
+         <tr><td>hasTelephone</td><td><a href="../<viva:BFO_0000141HasTelephoneType/>/<viva:BFO_0000141HasTelephoneType/>.jsp?uri=<viva:BFO_0000141HasTelephone/>"><viva:BFO_0000141HasTelephone /></a></td></tr>
+      </viva:foreachBFO_0000141HasTelephoneIterator>
+      <viva:foreachBFO_0000141DateTimeValueIterator>
+         <tr><td>dateTimeValue</td><td><a href="../<viva:BFO_0000141DateTimeValueType/>/<viva:BFO_0000141DateTimeValueType/>.jsp?uri=<viva:BFO_0000141DateTimeValue/>"><viva:BFO_0000141DateTimeValue /></a></td></tr>
+      </viva:foreachBFO_0000141DateTimeValueIterator>
+      <viva:foreachBFO_0000141RO_0001025Iterator>
+         <tr><td>RO_0001025</td><td><a href="../<viva:BFO_0000141RO_0001025Type/>/<viva:BFO_0000141RO_0001025Type/>.jsp?uri=<viva:BFO_0000141RO_0001025/>"><viva:BFO_0000141RO_0001025 /></a></td></tr>
+      </viva:foreachBFO_0000141RO_0001025Iterator>
+      <viva:foreachBFO_0000141HasTitleIterator>
+         <tr><td>hasTitle</td><td><a href="../<viva:BFO_0000141HasTitleType/>/<viva:BFO_0000141HasTitleType/>.jsp?uri=<viva:BFO_0000141HasTitle/>"><viva:BFO_0000141HasTitle /></a></td></tr>
+      </viva:foreachBFO_0000141HasTitleIterator>
+      <viva:foreachBFO_0000141RO_0002353Iterator>
+         <tr><td>RO_0002353</td><td><a href="../<viva:BFO_0000141RO_0002353Type/>/<viva:BFO_0000141RO_0002353Type/>.jsp?uri=<viva:BFO_0000141RO_0002353/>"><viva:BFO_0000141RO_0002353 /></a></td></tr>
+      </viva:foreachBFO_0000141RO_0002353Iterator>
+      <viva:foreachBFO_0000141HasResearchAreaIterator>
+         <tr><td>hasResearchArea</td><td><a href="../<viva:BFO_0000141HasResearchAreaType/>/<viva:BFO_0000141HasResearchAreaType/>.jsp?uri=<viva:BFO_0000141HasResearchArea/>"><viva:BFO_0000141HasResearchArea /></a></td></tr>
+      </viva:foreachBFO_0000141HasResearchAreaIterator>
+      <viva:foreachBFO_0000141GeographicFocusIterator>
+         <tr><td>geographicFocus</td><td><a href="../<viva:BFO_0000141GeographicFocusType/>/<viva:BFO_0000141GeographicFocusType/>.jsp?uri=<viva:BFO_0000141GeographicFocus/>"><viva:BFO_0000141GeographicFocus /></a></td></tr>
+      </viva:foreachBFO_0000141GeographicFocusIterator>
+      <viva:foreachBFO_0000141HasPublicationVenueIterator>
+         <tr><td>hasPublicationVenue</td><td><a href="../<viva:BFO_0000141HasPublicationVenueType/>/<viva:BFO_0000141HasPublicationVenueType/>.jsp?uri=<viva:BFO_0000141HasPublicationVenue/>"><viva:BFO_0000141HasPublicationVenue /></a></td></tr>
+      </viva:foreachBFO_0000141HasPublicationVenueIterator>
+      <viva:foreachBFO_0000141HasNameIterator>
+         <tr><td>hasName</td><td><a href="../<viva:BFO_0000141HasNameType/>/<viva:BFO_0000141HasNameType/>.jsp?uri=<viva:BFO_0000141HasName/>"><viva:BFO_0000141HasName /></a></td></tr>
+      </viva:foreachBFO_0000141HasNameIterator>
+      <viva:foreachBFO_0000141PublicationVenueForIterator>
+         <tr><td>publicationVenueFor</td><td><a href="../<viva:BFO_0000141PublicationVenueForType/>/<viva:BFO_0000141PublicationVenueForType/>.jsp?uri=<viva:BFO_0000141PublicationVenueFor/>"><viva:BFO_0000141PublicationVenueFor /></a></td></tr>
+      </viva:foreachBFO_0000141PublicationVenueForIterator>
+      <viva:foreachBFO_0000141ARG_2000028Iterator>
+         <tr><td>ARG_2000028</td><td><a href="../<viva:BFO_0000141ARG_2000028Type/>/<viva:BFO_0000141ARG_2000028Type/>.jsp?uri=<viva:BFO_0000141ARG_2000028/>"><viva:BFO_0000141ARG_2000028 /></a></td></tr>
+      </viva:foreachBFO_0000141ARG_2000028Iterator>
+      <viva:foreachBFO_0000141PublisherIterator>
+         <tr><td>publisher</td><td><a href="../<viva:BFO_0000141PublisherType/>/<viva:BFO_0000141PublisherType/>.jsp?uri=<viva:BFO_0000141Publisher/>"><viva:BFO_0000141Publisher /></a></td></tr>
+      </viva:foreachBFO_0000141PublisherIterator>
+      <viva:foreachBFO_0000141RelatedByIterator>
+         <tr><td>relatedBy</td><td><a href="../<viva:BFO_0000141RelatedByType/>/<viva:BFO_0000141RelatedByType/>.jsp?uri=<viva:BFO_0000141RelatedBy/>"><viva:BFO_0000141RelatedBy /></a></td></tr>
+      </viva:foreachBFO_0000141RelatedByIterator>
+      <viva:foreachBFO_0000141HasSubjectAreaIterator>
+         <tr><td>hasSubjectArea</td><td><a href="../<viva:BFO_0000141HasSubjectAreaType/>/<viva:BFO_0000141HasSubjectAreaType/>.jsp?uri=<viva:BFO_0000141HasSubjectArea/>"><viva:BFO_0000141HasSubjectArea /></a></td></tr>
+      </viva:foreachBFO_0000141HasSubjectAreaIterator>
+      <viva:foreachBFO_0000141DateTimeIntervalIterator>
+         <tr><td>dateTimeInterval</td><td><a href="../<viva:BFO_0000141DateTimeIntervalType/>/<viva:BFO_0000141DateTimeIntervalType/>.jsp?uri=<viva:BFO_0000141DateTimeInterval/>"><viva:BFO_0000141DateTimeInterval /></a></td></tr>
+      </viva:foreachBFO_0000141DateTimeIntervalIterator>
+      <viva:foreachBFO_0000141HasEmailIterator>
+         <tr><td>hasEmail</td><td><a href="../<viva:BFO_0000141HasEmailType/>/<viva:BFO_0000141HasEmailType/>.jsp?uri=<viva:BFO_0000141HasEmail/>"><viva:BFO_0000141HasEmail /></a></td></tr>
+      </viva:foreachBFO_0000141HasEmailIterator>
+      <viva:foreachBFO_0000141RelatesIterator>
+         <tr><td>relates</td><td><a href="../<viva:BFO_0000141RelatesType/>/<viva:BFO_0000141RelatesType/>.jsp?uri=<viva:BFO_0000141Relates/>"><viva:BFO_0000141Relates /></a></td></tr>
+      </viva:foreachBFO_0000141RelatesIterator>
+      <viva:foreachBFO_0000141HasURLIterator>
+         <tr><td>hasURL</td><td><a href="../<viva:BFO_0000141HasURLType/>/<viva:BFO_0000141HasURLType/>.jsp?uri=<viva:BFO_0000141HasURL/>"><viva:BFO_0000141HasURL /></a></td></tr>
+      </viva:foreachBFO_0000141HasURLIterator>
       <viva:foreachBFO_0000141RO_0000053Iterator>
          <tr><td>RO_0000053</td><td><a href="../<viva:BFO_0000141RO_0000053Type/>/<viva:BFO_0000141RO_0000053Type/>.jsp?uri=<viva:BFO_0000141RO_0000053/>"><viva:BFO_0000141RO_0000053 /></a></td></tr>
       </viva:foreachBFO_0000141RO_0000053Iterator>
+      <viva:foreachBFO_0000141RO_0002234Iterator>
+         <tr><td>RO_0002234</td><td><a href="../<viva:BFO_0000141RO_0002234Type/>/<viva:BFO_0000141RO_0002234Type/>.jsp?uri=<viva:BFO_0000141RO_0002234/>"><viva:BFO_0000141RO_0002234 /></a></td></tr>
+      </viva:foreachBFO_0000141RO_0002234Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

@@ -27,10 +27,37 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachExplanatoryMiddleNameIterator>
+         <tr><td>middleName</td><td><viva:ExplanatoryMiddleName /></td></tr>
+      </viva:foreachExplanatoryMiddleNameIterator>
+      <viva:foreachExplanatoryRankIterator>
+         <tr><td>rank</td><td><viva:ExplanatoryRank /></td></tr>
+      </viva:foreachExplanatoryRankIterator>
+      <viva:foreachExplanatoryTelephoneIterator>
+         <tr><td>telephone</td><td><viva:ExplanatoryTelephone /></td></tr>
+      </viva:foreachExplanatoryTelephoneIterator>
+      <viva:foreachExplanatoryUrlIterator>
+         <tr><td>url</td><td><viva:ExplanatoryUrl /></td></tr>
+      </viva:foreachExplanatoryUrlIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachExplanatoryHasAddressIterator>
+         <tr><td>hasAddress</td><td><a href="../<viva:ExplanatoryHasAddressType/>/<viva:ExplanatoryHasAddressType/>.jsp?uri=<viva:ExplanatoryHasAddress/>"><viva:ExplanatoryHasAddress /></a></td></tr>
+      </viva:foreachExplanatoryHasAddressIterator>
+      <viva:foreachExplanatoryRelatedByIterator>
+         <tr><td>relatedBy</td><td><a href="../<viva:ExplanatoryRelatedByType/>/<viva:ExplanatoryRelatedByType/>.jsp?uri=<viva:ExplanatoryRelatedBy/>"><viva:ExplanatoryRelatedBy /></a></td></tr>
+      </viva:foreachExplanatoryRelatedByIterator>
+      <viva:foreachExplanatoryHasEmailIterator>
+         <tr><td>hasEmail</td><td><a href="../<viva:ExplanatoryHasEmailType/>/<viva:ExplanatoryHasEmailType/>.jsp?uri=<viva:ExplanatoryHasEmail/>"><viva:ExplanatoryHasEmail /></a></td></tr>
+      </viva:foreachExplanatoryHasEmailIterator>
+      <viva:foreachExplanatoryRelatesIterator>
+         <tr><td>relates</td><td><a href="../<viva:ExplanatoryRelatesType/>/<viva:ExplanatoryRelatesType/>.jsp?uri=<viva:ExplanatoryRelates/>"><viva:ExplanatoryRelates /></a></td></tr>
+      </viva:foreachExplanatoryRelatesIterator>
+      <viva:foreachExplanatoryHasURLIterator>
+         <tr><td>hasURL</td><td><a href="../<viva:ExplanatoryHasURLType/>/<viva:ExplanatoryHasURLType/>.jsp?uri=<viva:ExplanatoryHasURL/>"><viva:ExplanatoryHasURL /></a></td></tr>
+      </viva:foreachExplanatoryHasURLIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

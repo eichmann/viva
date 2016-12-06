@@ -37,9 +37,9 @@
       <viva:foreachGeoHasAddressIterator>
          <tr><td>hasAddress</td><td><a href="../<viva:GeoHasAddressType/>/<viva:GeoHasAddressType/>.jsp?uri=<viva:GeoHasAddress/>"><viva:GeoHasAddress /></a></td></tr>
       </viva:foreachGeoHasAddressIterator>
-      <viva:foreachGeoHasGeoIterator>
-         <tr><td>hasGeo</td><td><a href="../<viva:GeoHasGeoType/>/<viva:GeoHasGeoType/>.jsp?uri=<viva:GeoHasGeo/>"><viva:GeoHasGeo /></a></td></tr>
-      </viva:foreachGeoHasGeoIterator>
+      <viva:foreachGeoHasEmailIterator>
+         <tr><td>hasEmail</td><td><a href="../<viva:GeoHasEmailType/>/<viva:GeoHasEmailType/>.jsp?uri=<viva:GeoHasEmail/>"><viva:GeoHasEmail /></a></td></tr>
+      </viva:foreachGeoHasEmailIterator>
       <viva:foreachGeoHasURLIterator>
          <tr><td>hasURL</td><td><a href="../<viva:GeoHasURLType/>/<viva:GeoHasURLType/>.jsp?uri=<viva:GeoHasURL/>"><viva:GeoHasURL /></a></td></tr>
       </viva:foreachGeoHasURLIterator>
@@ -47,6 +47,9 @@
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
+      <viva:foreachGeoHasGeoInverseIterator>
+         <tr><td>hasGeo</td><td><a href="../<viva:GeoHasGeoInverseType/>/<viva:GeoHasGeoInverseType/>.jsp?uri=<viva:GeoHasGeoInverse/>"><viva:GeoHasGeoInverse/></a></td></tr>
+      </viva:foreachGeoHasGeoInverseIterator>
    </table>
    </viva:Geo>
 

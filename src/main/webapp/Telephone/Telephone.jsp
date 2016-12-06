@@ -30,10 +30,34 @@
       <viva:foreachTelephoneTelephoneIterator>
          <tr><td>telephone</td><td><viva:TelephoneTelephone /></td></tr>
       </viva:foreachTelephoneTelephoneIterator>
+      <viva:foreachTelephoneMiddleNameIterator>
+         <tr><td>middleName</td><td><viva:TelephoneMiddleName /></td></tr>
+      </viva:foreachTelephoneMiddleNameIterator>
+      <viva:foreachTelephoneRankIterator>
+         <tr><td>rank</td><td><viva:TelephoneRank /></td></tr>
+      </viva:foreachTelephoneRankIterator>
+      <viva:foreachTelephoneUrlIterator>
+         <tr><td>url</td><td><viva:TelephoneUrl /></td></tr>
+      </viva:foreachTelephoneUrlIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachTelephoneHasAddressIterator>
+         <tr><td>hasAddress</td><td><a href="../<viva:TelephoneHasAddressType/>/<viva:TelephoneHasAddressType/>.jsp?uri=<viva:TelephoneHasAddress/>"><viva:TelephoneHasAddress /></a></td></tr>
+      </viva:foreachTelephoneHasAddressIterator>
+      <viva:foreachTelephoneRelatedByIterator>
+         <tr><td>relatedBy</td><td><a href="../<viva:TelephoneRelatedByType/>/<viva:TelephoneRelatedByType/>.jsp?uri=<viva:TelephoneRelatedBy/>"><viva:TelephoneRelatedBy /></a></td></tr>
+      </viva:foreachTelephoneRelatedByIterator>
+      <viva:foreachTelephoneHasEmailIterator>
+         <tr><td>hasEmail</td><td><a href="../<viva:TelephoneHasEmailType/>/<viva:TelephoneHasEmailType/>.jsp?uri=<viva:TelephoneHasEmail/>"><viva:TelephoneHasEmail /></a></td></tr>
+      </viva:foreachTelephoneHasEmailIterator>
+      <viva:foreachTelephoneRelatesIterator>
+         <tr><td>relates</td><td><a href="../<viva:TelephoneRelatesType/>/<viva:TelephoneRelatesType/>.jsp?uri=<viva:TelephoneRelates/>"><viva:TelephoneRelates /></a></td></tr>
+      </viva:foreachTelephoneRelatesIterator>
+      <viva:foreachTelephoneHasURLIterator>
+         <tr><td>hasURL</td><td><a href="../<viva:TelephoneHasURLType/>/<viva:TelephoneHasURLType/>.jsp?uri=<viva:TelephoneHasURL/>"><viva:TelephoneHasURL /></a></td></tr>
+      </viva:foreachTelephoneHasURLIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

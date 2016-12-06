@@ -27,9 +27,6 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachTimeZoneTimeZoneIterator>
-         <tr><td>timeZone</td><td><viva:TimeZoneTimeZone /></td></tr>
-      </viva:foreachTimeZoneTimeZoneIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -37,9 +34,9 @@
       <viva:foreachTimeZoneHasAddressIterator>
          <tr><td>hasAddress</td><td><a href="../<viva:TimeZoneHasAddressType/>/<viva:TimeZoneHasAddressType/>.jsp?uri=<viva:TimeZoneHasAddress/>"><viva:TimeZoneHasAddress /></a></td></tr>
       </viva:foreachTimeZoneHasAddressIterator>
-      <viva:foreachTimeZoneHasGeoIterator>
-         <tr><td>hasGeo</td><td><a href="../<viva:TimeZoneHasGeoType/>/<viva:TimeZoneHasGeoType/>.jsp?uri=<viva:TimeZoneHasGeo/>"><viva:TimeZoneHasGeo /></a></td></tr>
-      </viva:foreachTimeZoneHasGeoIterator>
+      <viva:foreachTimeZoneHasEmailIterator>
+         <tr><td>hasEmail</td><td><a href="../<viva:TimeZoneHasEmailType/>/<viva:TimeZoneHasEmailType/>.jsp?uri=<viva:TimeZoneHasEmail/>"><viva:TimeZoneHasEmail /></a></td></tr>
+      </viva:foreachTimeZoneHasEmailIterator>
       <viva:foreachTimeZoneHasURLIterator>
          <tr><td>hasURL</td><td><a href="../<viva:TimeZoneHasURLType/>/<viva:TimeZoneHasURLType/>.jsp?uri=<viva:TimeZoneHasURL/>"><viva:TimeZoneHasURL /></a></td></tr>
       </viva:foreachTimeZoneHasURLIterator>
@@ -47,9 +44,6 @@
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachTimeZoneHasTimeZoneInverseIterator>
-         <tr><td>hasTimeZone</td><td><a href="../<viva:TimeZoneHasTimeZoneInverseType/>/<viva:TimeZoneHasTimeZoneInverseType/>.jsp?uri=<viva:TimeZoneHasTimeZoneInverse/>"><viva:TimeZoneHasTimeZoneInverse/></a></td></tr>
-      </viva:foreachTimeZoneHasTimeZoneInverseIterator>
    </table>
    </viva:TimeZone>
 

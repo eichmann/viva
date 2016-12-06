@@ -27,10 +27,37 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachCommunicationMiddleNameIterator>
+         <tr><td>middleName</td><td><viva:CommunicationMiddleName /></td></tr>
+      </viva:foreachCommunicationMiddleNameIterator>
+      <viva:foreachCommunicationRankIterator>
+         <tr><td>rank</td><td><viva:CommunicationRank /></td></tr>
+      </viva:foreachCommunicationRankIterator>
+      <viva:foreachCommunicationTelephoneIterator>
+         <tr><td>telephone</td><td><viva:CommunicationTelephone /></td></tr>
+      </viva:foreachCommunicationTelephoneIterator>
+      <viva:foreachCommunicationUrlIterator>
+         <tr><td>url</td><td><viva:CommunicationUrl /></td></tr>
+      </viva:foreachCommunicationUrlIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachCommunicationHasAddressIterator>
+         <tr><td>hasAddress</td><td><a href="../<viva:CommunicationHasAddressType/>/<viva:CommunicationHasAddressType/>.jsp?uri=<viva:CommunicationHasAddress/>"><viva:CommunicationHasAddress /></a></td></tr>
+      </viva:foreachCommunicationHasAddressIterator>
+      <viva:foreachCommunicationRelatedByIterator>
+         <tr><td>relatedBy</td><td><a href="../<viva:CommunicationRelatedByType/>/<viva:CommunicationRelatedByType/>.jsp?uri=<viva:CommunicationRelatedBy/>"><viva:CommunicationRelatedBy /></a></td></tr>
+      </viva:foreachCommunicationRelatedByIterator>
+      <viva:foreachCommunicationHasEmailIterator>
+         <tr><td>hasEmail</td><td><a href="../<viva:CommunicationHasEmailType/>/<viva:CommunicationHasEmailType/>.jsp?uri=<viva:CommunicationHasEmail/>"><viva:CommunicationHasEmail /></a></td></tr>
+      </viva:foreachCommunicationHasEmailIterator>
+      <viva:foreachCommunicationRelatesIterator>
+         <tr><td>relates</td><td><a href="../<viva:CommunicationRelatesType/>/<viva:CommunicationRelatesType/>.jsp?uri=<viva:CommunicationRelates/>"><viva:CommunicationRelates /></a></td></tr>
+      </viva:foreachCommunicationRelatesIterator>
+      <viva:foreachCommunicationHasURLIterator>
+         <tr><td>hasURL</td><td><a href="../<viva:CommunicationHasURLType/>/<viva:CommunicationHasURLType/>.jsp?uri=<viva:CommunicationHasURL/>"><viva:CommunicationHasURL /></a></td></tr>
+      </viva:foreachCommunicationHasURLIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

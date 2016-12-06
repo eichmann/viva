@@ -23,29 +23,24 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
+      <tr><td>abbreviation</td><td><viva:DateTimeValuePrecisionAbbreviation /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachDateTimeValuePrecisionDescriptionIterator>
+         <tr><td>description</td><td><viva:DateTimeValuePrecisionDescription /></td></tr>
+      </viva:foreachDateTimeValuePrecisionDescriptionIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachDateTimeValuePrecisionRelatedIterator>
-         <tr><td>related</td><td><a href="../<viva:DateTimeValuePrecisionRelatedType/>/<viva:DateTimeValuePrecisionRelatedType/>.jsp?uri=<viva:DateTimeValuePrecisionRelated/>"><viva:DateTimeValuePrecisionRelated /></a></td></tr>
-      </viva:foreachDateTimeValuePrecisionRelatedIterator>
-      <viva:foreachDateTimeValuePrecisionNarrowerIterator>
-         <tr><td>narrower</td><td><a href="../<viva:DateTimeValuePrecisionNarrowerType/>/<viva:DateTimeValuePrecisionNarrowerType/>.jsp?uri=<viva:DateTimeValuePrecisionNarrower/>"><viva:DateTimeValuePrecisionNarrower /></a></td></tr>
-      </viva:foreachDateTimeValuePrecisionNarrowerIterator>
-      <viva:foreachDateTimeValuePrecisionSemanticRelationIterator>
-         <tr><td>semanticRelation</td><td><a href="../<viva:DateTimeValuePrecisionSemanticRelationType/>/<viva:DateTimeValuePrecisionSemanticRelationType/>.jsp?uri=<viva:DateTimeValuePrecisionSemanticRelation/>"><viva:DateTimeValuePrecisionSemanticRelation /></a></td></tr>
-      </viva:foreachDateTimeValuePrecisionSemanticRelationIterator>
-      <viva:foreachDateTimeValuePrecisionBroaderIterator>
-         <tr><td>broader</td><td><a href="../<viva:DateTimeValuePrecisionBroaderType/>/<viva:DateTimeValuePrecisionBroaderType/>.jsp?uri=<viva:DateTimeValuePrecisionBroader/>"><viva:DateTimeValuePrecisionBroader /></a></td></tr>
-      </viva:foreachDateTimeValuePrecisionBroaderIterator>
-      <viva:foreachDateTimeValuePrecisionTopConceptOfIterator>
-         <tr><td>topConceptOf</td><td><a href="../<viva:DateTimeValuePrecisionTopConceptOfType/>/<viva:DateTimeValuePrecisionTopConceptOfType/>.jsp?uri=<viva:DateTimeValuePrecisionTopConceptOf/>"><viva:DateTimeValuePrecisionTopConceptOf /></a></td></tr>
-      </viva:foreachDateTimeValuePrecisionTopConceptOfIterator>
+      <viva:foreachDateTimeValuePrecisionResearchAreaOfIterator>
+         <tr><td>researchAreaOf</td><td><a href="../<viva:DateTimeValuePrecisionResearchAreaOfType/>/<viva:DateTimeValuePrecisionResearchAreaOfType/>.jsp?uri=<viva:DateTimeValuePrecisionResearchAreaOf/>"><viva:DateTimeValuePrecisionResearchAreaOf /></a></td></tr>
+      </viva:foreachDateTimeValuePrecisionResearchAreaOfIterator>
+      <viva:foreachDateTimeValuePrecisionSubjectAreaOfIterator>
+         <tr><td>subjectAreaOf</td><td><a href="../<viva:DateTimeValuePrecisionSubjectAreaOfType/>/<viva:DateTimeValuePrecisionSubjectAreaOfType/>.jsp?uri=<viva:DateTimeValuePrecisionSubjectAreaOf/>"><viva:DateTimeValuePrecisionSubjectAreaOf /></a></td></tr>
+      </viva:foreachDateTimeValuePrecisionSubjectAreaOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
@@ -53,9 +48,6 @@
       <viva:foreachDateTimeValuePrecisionDateTimePrecisionInverseIterator>
          <tr><td>dateTimePrecision</td><td><a href="../<viva:DateTimeValuePrecisionDateTimePrecisionInverseType/>/<viva:DateTimeValuePrecisionDateTimePrecisionInverseType/>.jsp?uri=<viva:DateTimeValuePrecisionDateTimePrecisionInverse/>"><viva:DateTimeValuePrecisionDateTimePrecisionInverse/></a></td></tr>
       </viva:foreachDateTimeValuePrecisionDateTimePrecisionInverseIterator>
-      <viva:foreachDateTimeValuePrecisionMemberInverseIterator>
-         <tr><td>member</td><td><a href="../<viva:DateTimeValuePrecisionMemberInverseType/>/<viva:DateTimeValuePrecisionMemberInverseType/>.jsp?uri=<viva:DateTimeValuePrecisionMemberInverse/>"><viva:DateTimeValuePrecisionMemberInverse/></a></td></tr>
-      </viva:foreachDateTimeValuePrecisionMemberInverseIterator>
    </table>
    </viva:DateTimeValuePrecision>
 

@@ -23,6 +23,9 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
+      <tr><td>abbreviation</td><td><viva:non_self_governingAbbreviation /></td></tr>
+      <tr><td>placeOfPublication</td><td><viva:non_self_governingPlaceOfPublication /></td></tr>
+      <tr><td>hideFromDisplay</td><td><viva:non_self_governingHideFromDisplay /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -36,6 +39,9 @@
       <viva:foreachnon_self_governingNationalityITIterator>
          <tr><td>nationalityIT</td><td><viva:non_self_governingNationalityIT /></td></tr>
       </viva:foreachnon_self_governingNationalityITIterator>
+      <viva:foreachnon_self_governingNameOfficialRUIterator>
+         <tr><td>nameOfficialRU</td><td><viva:non_self_governingNameOfficialRU /></td></tr>
+      </viva:foreachnon_self_governingNameOfficialRUIterator>
       <viva:foreachnon_self_governingAgriculturalAreaYearIterator>
          <tr><td>agriculturalAreaYear</td><td><viva:non_self_governingAgriculturalAreaYear /></td></tr>
       </viva:foreachnon_self_governingAgriculturalAreaYearIterator>
@@ -45,6 +51,12 @@
       <viva:foreachnon_self_governingNameListENIterator>
          <tr><td>nameListEN</td><td><viva:non_self_governingNameListEN /></td></tr>
       </viva:foreachnon_self_governingNameListENIterator>
+      <viva:foreachnon_self_governingGDPNotesIterator>
+         <tr><td>GDPNotes</td><td><viva:non_self_governingGDPNotes /></td></tr>
+      </viva:foreachnon_self_governingGDPNotesIterator>
+      <viva:foreachnon_self_governingGDPTotalInCurrentPricesIterator>
+         <tr><td>GDPTotalInCurrentPrices</td><td><viva:non_self_governingGDPTotalInCurrentPrices /></td></tr>
+      </viva:foreachnon_self_governingGDPTotalInCurrentPricesIterator>
       <viva:foreachnon_self_governingNameOfficialZHIterator>
          <tr><td>nameOfficialZH</td><td><viva:non_self_governingNameOfficialZH /></td></tr>
       </viva:foreachnon_self_governingNameOfficialZHIterator>
@@ -105,9 +117,15 @@
       <viva:foreachnon_self_governingNameOfficialITIterator>
          <tr><td>nameOfficialIT</td><td><viva:non_self_governingNameOfficialIT /></td></tr>
       </viva:foreachnon_self_governingNameOfficialITIterator>
+      <viva:foreachnon_self_governingNameListRUIterator>
+         <tr><td>nameListRU</td><td><viva:non_self_governingNameListRU /></td></tr>
+      </viva:foreachnon_self_governingNameListRUIterator>
       <viva:foreachnon_self_governingNameShortESIterator>
          <tr><td>nameShortES</td><td><viva:non_self_governingNameShortES /></td></tr>
       </viva:foreachnon_self_governingNameShortESIterator>
+      <viva:foreachnon_self_governingGDPYearIterator>
+         <tr><td>GDPYear</td><td><viva:non_self_governingGDPYear /></td></tr>
+      </viva:foreachnon_self_governingGDPYearIterator>
       <viva:foreachnon_self_governingPopulationYearIterator>
          <tr><td>populationYear</td><td><viva:non_self_governingPopulationYear /></td></tr>
       </viva:foreachnon_self_governingPopulationYearIterator>
@@ -147,6 +165,9 @@
       <viva:foreachnon_self_governingNationalityZHIterator>
          <tr><td>nationalityZH</td><td><viva:non_self_governingNationalityZH /></td></tr>
       </viva:foreachnon_self_governingNationalityZHIterator>
+      <viva:foreachnon_self_governingGDPUnitIterator>
+         <tr><td>GDPUnit</td><td><viva:non_self_governingGDPUnit /></td></tr>
+      </viva:foreachnon_self_governingGDPUnitIterator>
       <viva:foreachnon_self_governingLandAreaYearIterator>
          <tr><td>landAreaYear</td><td><viva:non_self_governingLandAreaYear /></td></tr>
       </viva:foreachnon_self_governingLandAreaYearIterator>
@@ -195,54 +216,75 @@
       <viva:foreachnon_self_governingCodeUNIterator>
          <tr><td>codeUN</td><td><viva:non_self_governingCodeUN /></td></tr>
       </viva:foreachnon_self_governingCodeUNIterator>
+      <viva:foreachnon_self_governingNameShortRUIterator>
+         <tr><td>nameShortRU</td><td><viva:non_self_governingNameShortRU /></td></tr>
+      </viva:foreachnon_self_governingNameShortRUIterator>
       <viva:foreachnon_self_governingCodeUNDPIterator>
          <tr><td>codeUNDP</td><td><viva:non_self_governingCodeUNDP /></td></tr>
       </viva:foreachnon_self_governingCodeUNDPIterator>
       <viva:foreachnon_self_governingLandAreaNotesIterator>
          <tr><td>landAreaNotes</td><td><viva:non_self_governingLandAreaNotes /></td></tr>
       </viva:foreachnon_self_governingLandAreaNotesIterator>
-      <viva:foreachnon_self_governingHasListNameIterator>
-         <tr><td>hasListName</td><td><viva:non_self_governingHasListName /></td></tr>
-      </viva:foreachnon_self_governingHasListNameIterator>
+      <viva:foreachnon_self_governingHasMinLatitudeIterator>
+         <tr><td>hasMinLatitude</td><td><viva:non_self_governingHasMinLatitude /></td></tr>
+      </viva:foreachnon_self_governingHasMinLatitudeIterator>
+      <viva:foreachnon_self_governingHasMaxLongitudeIterator>
+         <tr><td>hasMaxLongitude</td><td><viva:non_self_governingHasMaxLongitude /></td></tr>
+      </viva:foreachnon_self_governingHasMaxLongitudeIterator>
+      <viva:foreachnon_self_governingHasMinLongitudeIterator>
+         <tr><td>hasMinLongitude</td><td><viva:non_self_governingHasMinLongitude /></td></tr>
+      </viva:foreachnon_self_governingHasMinLongitudeIterator>
+      <viva:foreachnon_self_governingHasMaxLatitudeIterator>
+         <tr><td>hasMaxLatitude</td><td><viva:non_self_governingHasMaxLatitude /></td></tr>
+      </viva:foreachnon_self_governingHasMaxLatitudeIterator>
+      <viva:foreachnon_self_governingHDINotesIterator>
+         <tr><td>HDINotes</td><td><viva:non_self_governingHDINotes /></td></tr>
+      </viva:foreachnon_self_governingHDINotesIterator>
+      <viva:foreachnon_self_governingHDITotalIterator>
+         <tr><td>HDITotal</td><td><viva:non_self_governingHDITotal /></td></tr>
+      </viva:foreachnon_self_governingHDITotalIterator>
+      <viva:foreachnon_self_governingHDIYearIterator>
+         <tr><td>HDIYear</td><td><viva:non_self_governingHDIYear /></td></tr>
+      </viva:foreachnon_self_governingHDIYearIterator>
+      <viva:foreachnon_self_governingFreetextKeywordIterator>
+         <tr><td>freetextKeyword</td><td><viva:non_self_governingFreetextKeyword /></td></tr>
+      </viva:foreachnon_self_governingFreetextKeywordIterator>
+      <viva:foreachnon_self_governingSourceIterator>
+         <tr><td>source</td><td><viva:non_self_governingSource /></td></tr>
+      </viva:foreachnon_self_governingSourceIterator>
       <viva:foreachnon_self_governingValidUntilIterator>
          <tr><td>validUntil</td><td><viva:non_self_governingValidUntil /></td></tr>
       </viva:foreachnon_self_governingValidUntilIterator>
-      <viva:foreachnon_self_governingHasCodeIterator>
-         <tr><td>hasCode</td><td><viva:non_self_governingHasCode /></td></tr>
-      </viva:foreachnon_self_governingHasCodeIterator>
-      <viva:foreachnon_self_governingHasOfficialNameIterator>
-         <tr><td>hasOfficialName</td><td><viva:non_self_governingHasOfficialName /></td></tr>
-      </viva:foreachnon_self_governingHasOfficialNameIterator>
-      <viva:foreachnon_self_governingHasShortNameIterator>
-         <tr><td>hasShortName</td><td><viva:non_self_governingHasShortName /></td></tr>
-      </viva:foreachnon_self_governingHasShortNameIterator>
       <viva:foreachnon_self_governingValidSinceIterator>
          <tr><td>validSince</td><td><viva:non_self_governingValidSince /></td></tr>
       </viva:foreachnon_self_governingValidSinceIterator>
-      <viva:foreachnon_self_governingHasNationalityIterator>
-         <tr><td>hasNationality</td><td><viva:non_self_governingHasNationality /></td></tr>
-      </viva:foreachnon_self_governingHasNationalityIterator>
-      <viva:foreachnon_self_governingHasStatisticsIterator>
-         <tr><td>hasStatistics</td><td><viva:non_self_governingHasStatistics /></td></tr>
-      </viva:foreachnon_self_governingHasStatisticsIterator>
-      <viva:foreachnon_self_governingHasCurrencyIterator>
-         <tr><td>hasCurrency</td><td><viva:non_self_governingHasCurrency /></td></tr>
-      </viva:foreachnon_self_governingHasCurrencyIterator>
-      <viva:foreachnon_self_governingHasCoordinateIterator>
-         <tr><td>hasCoordinate</td><td><viva:non_self_governingHasCoordinate /></td></tr>
-      </viva:foreachnon_self_governingHasCoordinateIterator>
-      <viva:foreachnon_self_governingDifferentFromIterator>
-         <tr><td>differentFrom</td><td><viva:non_self_governingDifferentFrom /></td></tr>
-      </viva:foreachnon_self_governingDifferentFromIterator>
-      <viva:foreachnon_self_governingTopDataPropertyIterator>
-         <tr><td>topDataProperty</td><td><viva:non_self_governingTopDataProperty /></td></tr>
-      </viva:foreachnon_self_governingTopDataPropertyIterator>
-      <viva:foreachnon_self_governingBottomDataPropertyIterator>
-         <tr><td>bottomDataProperty</td><td><viva:non_self_governingBottomDataProperty /></td></tr>
-      </viva:foreachnon_self_governingBottomDataPropertyIterator>
-      <viva:foreachnon_self_governingGeographicFocusOfIterator>
-         <tr><td>geographicFocusOf</td><td><viva:non_self_governingGeographicFocusOf /></td></tr>
-      </viva:foreachnon_self_governingGeographicFocusOfIterator>
+      <viva:foreachnon_self_governingSourceIdentifierIterator>
+         <tr><td>sourceIdentifier</td><td><viva:non_self_governingSourceIdentifier /></td></tr>
+      </viva:foreachnon_self_governingSourceIdentifierIterator>
+      <viva:foreachnon_self_governingSourceCreatorIterator>
+         <tr><td>sourceCreator</td><td><viva:non_self_governingSourceCreator /></td></tr>
+      </viva:foreachnon_self_governingSourceCreatorIterator>
+      <viva:foreachnon_self_governingSourceModifiedIterator>
+         <tr><td>sourceModified</td><td><viva:non_self_governingSourceModified /></td></tr>
+      </viva:foreachnon_self_governingSourceModifiedIterator>
+      <viva:foreachnon_self_governingRankIterator>
+         <tr><td>rank</td><td><viva:non_self_governingRank /></td></tr>
+      </viva:foreachnon_self_governingRankIterator>
+      <viva:foreachnon_self_governingUrlIterator>
+         <tr><td>url</td><td><viva:non_self_governingUrl /></td></tr>
+      </viva:foreachnon_self_governingUrlIterator>
+      <viva:foreachnon_self_governingDescriptionIterator>
+         <tr><td>description</td><td><viva:non_self_governingDescription /></td></tr>
+      </viva:foreachnon_self_governingDescriptionIterator>
+      <viva:foreachnon_self_governingMiddleNameIterator>
+         <tr><td>middleName</td><td><viva:non_self_governingMiddleName /></td></tr>
+      </viva:foreachnon_self_governingMiddleNameIterator>
+      <viva:foreachnon_self_governingTelephoneIterator>
+         <tr><td>telephone</td><td><viva:non_self_governingTelephone /></td></tr>
+      </viva:foreachnon_self_governingTelephoneIterator>
+      <viva:foreachnon_self_governingIAO_0000115Iterator>
+         <tr><td>IAO_0000115</td><td><viva:non_self_governingIAO_0000115 /></td></tr>
+      </viva:foreachnon_self_governingIAO_0000115Iterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -250,6 +292,33 @@
       <viva:foreachnon_self_governingIsAdministeredByIterator>
          <tr><td>isAdministeredBy</td><td><a href="../<viva:non_self_governingIsAdministeredByType/>/<viva:non_self_governingIsAdministeredByType/>.jsp?uri=<viva:non_self_governingIsAdministeredBy/>"><viva:non_self_governingIsAdministeredBy /></a></td></tr>
       </viva:foreachnon_self_governingIsAdministeredByIterator>
+      <viva:foreachnon_self_governingBFO_0000051Iterator>
+         <tr><td>BFO_0000051</td><td><a href="../<viva:non_self_governingBFO_0000051Type/>/<viva:non_self_governingBFO_0000051Type/>.jsp?uri=<viva:non_self_governingBFO_0000051/>"><viva:non_self_governingBFO_0000051 /></a></td></tr>
+      </viva:foreachnon_self_governingBFO_0000051Iterator>
+      <viva:foreachnon_self_governingRO_0001015Iterator>
+         <tr><td>RO_0001015</td><td><a href="../<viva:non_self_governingRO_0001015Type/>/<viva:non_self_governingRO_0001015Type/>.jsp?uri=<viva:non_self_governingRO_0001015/>"><viva:non_self_governingRO_0001015 /></a></td></tr>
+      </viva:foreachnon_self_governingRO_0001015Iterator>
+      <viva:foreachnon_self_governingBFO_0000050Iterator>
+         <tr><td>BFO_0000050</td><td><a href="../<viva:non_self_governingBFO_0000050Type/>/<viva:non_self_governingBFO_0000050Type/>.jsp?uri=<viva:non_self_governingBFO_0000050/>"><viva:non_self_governingBFO_0000050 /></a></td></tr>
+      </viva:foreachnon_self_governingBFO_0000050Iterator>
+      <viva:foreachnon_self_governingRO_0001025Iterator>
+         <tr><td>RO_0001025</td><td><a href="../<viva:non_self_governingRO_0001025Type/>/<viva:non_self_governingRO_0001025Type/>.jsp?uri=<viva:non_self_governingRO_0001025/>"><viva:non_self_governingRO_0001025 /></a></td></tr>
+      </viva:foreachnon_self_governingRO_0001025Iterator>
+      <viva:foreachnon_self_governingHasResearchAreaIterator>
+         <tr><td>hasResearchArea</td><td><a href="../<viva:non_self_governingHasResearchAreaType/>/<viva:non_self_governingHasResearchAreaType/>.jsp?uri=<viva:non_self_governingHasResearchArea/>"><viva:non_self_governingHasResearchArea /></a></td></tr>
+      </viva:foreachnon_self_governingHasResearchAreaIterator>
+      <viva:foreachnon_self_governingGeographicFocusIterator>
+         <tr><td>geographicFocus</td><td><a href="../<viva:non_self_governingGeographicFocusType/>/<viva:non_self_governingGeographicFocusType/>.jsp?uri=<viva:non_self_governingGeographicFocus/>"><viva:non_self_governingGeographicFocus /></a></td></tr>
+      </viva:foreachnon_self_governingGeographicFocusIterator>
+      <viva:foreachnon_self_governingRO_0000053Iterator>
+         <tr><td>RO_0000053</td><td><a href="../<viva:non_self_governingRO_0000053Type/>/<viva:non_self_governingRO_0000053Type/>.jsp?uri=<viva:non_self_governingRO_0000053/>"><viva:non_self_governingRO_0000053 /></a></td></tr>
+      </viva:foreachnon_self_governingRO_0000053Iterator>
+      <viva:foreachnon_self_governingARG_2000028Iterator>
+         <tr><td>ARG_2000028</td><td><a href="../<viva:non_self_governingARG_2000028Type/>/<viva:non_self_governingARG_2000028Type/>.jsp?uri=<viva:non_self_governingARG_2000028/>"><viva:non_self_governingARG_2000028 /></a></td></tr>
+      </viva:foreachnon_self_governingARG_2000028Iterator>
+      <viva:foreachnon_self_governingRelatedByIterator>
+         <tr><td>relatedBy</td><td><a href="../<viva:non_self_governingRelatedByType/>/<viva:non_self_governingRelatedByType/>.jsp?uri=<viva:non_self_governingRelatedBy/>"><viva:non_self_governingRelatedBy /></a></td></tr>
+      </viva:foreachnon_self_governingRelatedByIterator>
       <viva:foreachnon_self_governingIsSuccessorOfIterator>
          <tr><td>isSuccessorOf</td><td><a href="../<viva:non_self_governingIsSuccessorOfType/>/<viva:non_self_governingIsSuccessorOfType/>.jsp?uri=<viva:non_self_governingIsSuccessorOf/>"><viva:non_self_governingIsSuccessorOf /></a></td></tr>
       </viva:foreachnon_self_governingIsSuccessorOfIterator>
@@ -262,25 +331,67 @@
       <viva:foreachnon_self_governingIsInGroupIterator>
          <tr><td>isInGroup</td><td><a href="../<viva:non_self_governingIsInGroupType/>/<viva:non_self_governingIsInGroupType/>.jsp?uri=<viva:non_self_governingIsInGroup/>"><viva:non_self_governingIsInGroup /></a></td></tr>
       </viva:foreachnon_self_governingIsInGroupIterator>
-      <viva:foreachnon_self_governingBottomObjectPropertyIterator>
-         <tr><td>bottomObjectProperty</td><td><a href="../<viva:non_self_governingBottomObjectPropertyType/>/<viva:non_self_governingBottomObjectPropertyType/>.jsp?uri=<viva:non_self_governingBottomObjectProperty/>"><viva:non_self_governingBottomObjectProperty /></a></td></tr>
-      </viva:foreachnon_self_governingBottomObjectPropertyIterator>
-      <viva:foreachnon_self_governingTopObjectPropertyIterator>
-         <tr><td>topObjectProperty</td><td><a href="../<viva:non_self_governingTopObjectPropertyType/>/<viva:non_self_governingTopObjectPropertyType/>.jsp?uri=<viva:non_self_governingTopObjectProperty/>"><viva:non_self_governingTopObjectProperty /></a></td></tr>
-      </viva:foreachnon_self_governingTopObjectPropertyIterator>
-      <viva:foreachnon_self_governingRO_0000056Iterator>
-         <tr><td>RO_0000056</td><td><a href="../<viva:non_self_governingRO_0000056Type/>/<viva:non_self_governingRO_0000056Type/>.jsp?uri=<viva:non_self_governingRO_0000056/>"><viva:non_self_governingRO_0000056 /></a></td></tr>
-      </viva:foreachnon_self_governingRO_0000056Iterator>
-      <viva:foreachnon_self_governingRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:non_self_governingRO_0000053Type/>/<viva:non_self_governingRO_0000053Type/>.jsp?uri=<viva:non_self_governingRO_0000053/>"><viva:non_self_governingRO_0000053 /></a></td></tr>
-      </viva:foreachnon_self_governingRO_0000053Iterator>
+      <viva:foreachnon_self_governingHasAddressIterator>
+         <tr><td>hasAddress</td><td><a href="../<viva:non_self_governingHasAddressType/>/<viva:non_self_governingHasAddressType/>.jsp?uri=<viva:non_self_governingHasAddress/>"><viva:non_self_governingHasAddress /></a></td></tr>
+      </viva:foreachnon_self_governingHasAddressIterator>
+      <viva:foreachnon_self_governingHasTelephoneIterator>
+         <tr><td>hasTelephone</td><td><a href="../<viva:non_self_governingHasTelephoneType/>/<viva:non_self_governingHasTelephoneType/>.jsp?uri=<viva:non_self_governingHasTelephone/>"><viva:non_self_governingHasTelephone /></a></td></tr>
+      </viva:foreachnon_self_governingHasTelephoneIterator>
+      <viva:foreachnon_self_governingDateTimeValueIterator>
+         <tr><td>dateTimeValue</td><td><a href="../<viva:non_self_governingDateTimeValueType/>/<viva:non_self_governingDateTimeValueType/>.jsp?uri=<viva:non_self_governingDateTimeValue/>"><viva:non_self_governingDateTimeValue /></a></td></tr>
+      </viva:foreachnon_self_governingDateTimeValueIterator>
+      <viva:foreachnon_self_governingHasTitleIterator>
+         <tr><td>hasTitle</td><td><a href="../<viva:non_self_governingHasTitleType/>/<viva:non_self_governingHasTitleType/>.jsp?uri=<viva:non_self_governingHasTitle/>"><viva:non_self_governingHasTitle /></a></td></tr>
+      </viva:foreachnon_self_governingHasTitleIterator>
+      <viva:foreachnon_self_governingRO_0002353Iterator>
+         <tr><td>RO_0002353</td><td><a href="../<viva:non_self_governingRO_0002353Type/>/<viva:non_self_governingRO_0002353Type/>.jsp?uri=<viva:non_self_governingRO_0002353/>"><viva:non_self_governingRO_0002353 /></a></td></tr>
+      </viva:foreachnon_self_governingRO_0002353Iterator>
+      <viva:foreachnon_self_governingHasPublicationVenueIterator>
+         <tr><td>hasPublicationVenue</td><td><a href="../<viva:non_self_governingHasPublicationVenueType/>/<viva:non_self_governingHasPublicationVenueType/>.jsp?uri=<viva:non_self_governingHasPublicationVenue/>"><viva:non_self_governingHasPublicationVenue /></a></td></tr>
+      </viva:foreachnon_self_governingHasPublicationVenueIterator>
+      <viva:foreachnon_self_governingHasNameIterator>
+         <tr><td>hasName</td><td><a href="../<viva:non_self_governingHasNameType/>/<viva:non_self_governingHasNameType/>.jsp?uri=<viva:non_self_governingHasName/>"><viva:non_self_governingHasName /></a></td></tr>
+      </viva:foreachnon_self_governingHasNameIterator>
+      <viva:foreachnon_self_governingPublicationVenueForIterator>
+         <tr><td>publicationVenueFor</td><td><a href="../<viva:non_self_governingPublicationVenueForType/>/<viva:non_self_governingPublicationVenueForType/>.jsp?uri=<viva:non_self_governingPublicationVenueFor/>"><viva:non_self_governingPublicationVenueFor /></a></td></tr>
+      </viva:foreachnon_self_governingPublicationVenueForIterator>
+      <viva:foreachnon_self_governingPublisherIterator>
+         <tr><td>publisher</td><td><a href="../<viva:non_self_governingPublisherType/>/<viva:non_self_governingPublisherType/>.jsp?uri=<viva:non_self_governingPublisher/>"><viva:non_self_governingPublisher /></a></td></tr>
+      </viva:foreachnon_self_governingPublisherIterator>
+      <viva:foreachnon_self_governingHasSubjectAreaIterator>
+         <tr><td>hasSubjectArea</td><td><a href="../<viva:non_self_governingHasSubjectAreaType/>/<viva:non_self_governingHasSubjectAreaType/>.jsp?uri=<viva:non_self_governingHasSubjectArea/>"><viva:non_self_governingHasSubjectArea /></a></td></tr>
+      </viva:foreachnon_self_governingHasSubjectAreaIterator>
+      <viva:foreachnon_self_governingDateTimeIntervalIterator>
+         <tr><td>dateTimeInterval</td><td><a href="../<viva:non_self_governingDateTimeIntervalType/>/<viva:non_self_governingDateTimeIntervalType/>.jsp?uri=<viva:non_self_governingDateTimeInterval/>"><viva:non_self_governingDateTimeInterval /></a></td></tr>
+      </viva:foreachnon_self_governingDateTimeIntervalIterator>
+      <viva:foreachnon_self_governingHasEmailIterator>
+         <tr><td>hasEmail</td><td><a href="../<viva:non_self_governingHasEmailType/>/<viva:non_self_governingHasEmailType/>.jsp?uri=<viva:non_self_governingHasEmail/>"><viva:non_self_governingHasEmail /></a></td></tr>
+      </viva:foreachnon_self_governingHasEmailIterator>
+      <viva:foreachnon_self_governingRelatesIterator>
+         <tr><td>relates</td><td><a href="../<viva:non_self_governingRelatesType/>/<viva:non_self_governingRelatesType/>.jsp?uri=<viva:non_self_governingRelates/>"><viva:non_self_governingRelates /></a></td></tr>
+      </viva:foreachnon_self_governingRelatesIterator>
+      <viva:foreachnon_self_governingHasURLIterator>
+         <tr><td>hasURL</td><td><a href="../<viva:non_self_governingHasURLType/>/<viva:non_self_governingHasURLType/>.jsp?uri=<viva:non_self_governingHasURL/>"><viva:non_self_governingHasURL /></a></td></tr>
+      </viva:foreachnon_self_governingHasURLIterator>
+      <viva:foreachnon_self_governingGeographicFocusOfIterator>
+         <tr><td>geographicFocusOf</td><td><a href="../<viva:non_self_governingGeographicFocusOfType/>/<viva:non_self_governingGeographicFocusOfType/>.jsp?uri=<viva:non_self_governingGeographicFocusOf/>"><viva:non_self_governingGeographicFocusOf /></a></td></tr>
+      </viva:foreachnon_self_governingGeographicFocusOfIterator>
+      <viva:foreachnon_self_governingRO_0002234Iterator>
+         <tr><td>RO_0002234</td><td><a href="../<viva:non_self_governingRO_0002234Type/>/<viva:non_self_governingRO_0002234Type/>.jsp?uri=<viva:non_self_governingRO_0002234/>"><viva:non_self_governingRO_0002234 /></a></td></tr>
+      </viva:foreachnon_self_governingRO_0002234Iterator>
+      <viva:foreachnon_self_governingResearchAreaOfIterator>
+         <tr><td>researchAreaOf</td><td><a href="../<viva:non_self_governingResearchAreaOfType/>/<viva:non_self_governingResearchAreaOfType/>.jsp?uri=<viva:non_self_governingResearchAreaOf/>"><viva:non_self_governingResearchAreaOf /></a></td></tr>
+      </viva:foreachnon_self_governingResearchAreaOfIterator>
+      <viva:foreachnon_self_governingSubjectAreaOfIterator>
+         <tr><td>subjectAreaOf</td><td><a href="../<viva:non_self_governingSubjectAreaOfType/>/<viva:non_self_governingSubjectAreaOfType/>.jsp?uri=<viva:non_self_governingSubjectAreaOf/>"><viva:non_self_governingSubjectAreaOf /></a></td></tr>
+      </viva:foreachnon_self_governingSubjectAreaOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
-      <viva:foreachnon_self_governingValidInInverseIterator>
-         <tr><td>validIn</td><td><a href="../<viva:non_self_governingValidInInverseType/>/<viva:non_self_governingValidInInverseType/>.jsp?uri=<viva:non_self_governingValidInInverse/>"><viva:non_self_governingValidInInverse/></a></td></tr>
-      </viva:foreachnon_self_governingValidInInverseIterator>
+      <viva:foreachnon_self_governingOrcidIdInverseIterator>
+         <tr><td>orcidId</td><td><a href="../<viva:non_self_governingOrcidIdInverseType/>/<viva:non_self_governingOrcidIdInverseType/>.jsp?uri=<viva:non_self_governingOrcidIdInverse/>"><viva:non_self_governingOrcidIdInverse/></a></td></tr>
+      </viva:foreachnon_self_governingOrcidIdInverseIterator>
    </table>
    </viva:non_self_governing>
 
