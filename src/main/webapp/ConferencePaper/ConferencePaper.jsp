@@ -27,12 +27,9 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachConferencePaperIsbn13Iterator>
-         <tr><td>isbn13</td><td><viva:ConferencePaperIsbn13 /></td></tr>
-      </viva:foreachConferencePaperIsbn13Iterator>
-      <viva:foreachConferencePaperIsbn10Iterator>
-         <tr><td>isbn10</td><td><viva:ConferencePaperIsbn10 /></td></tr>
-      </viva:foreachConferencePaperIsbn10Iterator>
+      <viva:foreachConferencePaperTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:ConferencePaperTheAbstract /></td></tr>
+      </viva:foreachConferencePaperTheAbstractIterator>
       <viva:foreachConferencePaperDoiIterator>
          <tr><td>doi</td><td><viva:ConferencePaperDoi /></td></tr>
       </viva:foreachConferencePaperDoiIterator>

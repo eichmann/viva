@@ -36,6 +36,9 @@
       <viva:foreachThingAgriculturalAreaUnitIterator>
          <tr><td>agriculturalAreaUnit</td><td><viva:ThingAgriculturalAreaUnit /></td></tr>
       </viva:foreachThingAgriculturalAreaUnitIterator>
+      <viva:foreachThingPageStartIterator>
+         <tr><td>pageStart</td><td><viva:ThingPageStart /></td></tr>
+      </viva:foreachThingPageStartIterator>
       <viva:foreachThingAgriculturalAreaTotalIterator>
          <tr><td>agriculturalAreaTotal</td><td><viva:ThingAgriculturalAreaTotal /></td></tr>
       </viva:foreachThingAgriculturalAreaTotalIterator>
@@ -156,6 +159,9 @@
       <viva:foreachThingNameCurrencyITIterator>
          <tr><td>nameCurrencyIT</td><td><viva:ThingNameCurrencyIT /></td></tr>
       </viva:foreachThingNameCurrencyITIterator>
+      <viva:foreachThingPageEndIterator>
+         <tr><td>pageEnd</td><td><viva:ThingPageEnd /></td></tr>
+      </viva:foreachThingPageEndIterator>
       <viva:foreachThingCodeFAOSTATIterator>
          <tr><td>codeFAOSTAT</td><td><viva:ThingCodeFAOSTAT /></td></tr>
       </viva:foreachThingCodeFAOSTATIterator>
@@ -171,6 +177,9 @@
       <viva:foreachThingNameListZHIterator>
          <tr><td>nameListZH</td><td><viva:ThingNameListZH /></td></tr>
       </viva:foreachThingNameListZHIterator>
+      <viva:foreachThingEissnIterator>
+         <tr><td>eissn</td><td><viva:ThingEissn /></td></tr>
+      </viva:foreachThingEissnIterator>
       <viva:foreachThingNameShortENIterator>
          <tr><td>nameShortEN</td><td><viva:ThingNameShortEN /></td></tr>
       </viva:foreachThingNameShortENIterator>
@@ -207,6 +216,9 @@
       <viva:foreachThingLandAreaUnitIterator>
          <tr><td>landAreaUnit</td><td><viva:ThingLandAreaUnit /></td></tr>
       </viva:foreachThingLandAreaUnitIterator>
+      <viva:foreachThingIssnIterator>
+         <tr><td>issn</td><td><viva:ThingIssn /></td></tr>
+      </viva:foreachThingIssnIterator>
       <viva:foreachThingPopulationTotalIterator>
          <tr><td>populationTotal</td><td><viva:ThingPopulationTotal /></td></tr>
       </viva:foreachThingPopulationTotalIterator>
@@ -252,9 +264,15 @@
       <viva:foreachThingCodeUNIterator>
          <tr><td>codeUN</td><td><viva:ThingCodeUN /></td></tr>
       </viva:foreachThingCodeUNIterator>
+      <viva:foreachThingIdentifierIterator>
+         <tr><td>identifier</td><td><viva:ThingIdentifier /></td></tr>
+      </viva:foreachThingIdentifierIterator>
       <viva:foreachThingUrlIterator>
          <tr><td>url</td><td><viva:ThingUrl /></td></tr>
       </viva:foreachThingUrlIterator>
+      <viva:foreachThingNumPagesIterator>
+         <tr><td>numPages</td><td><viva:ThingNumPages /></td></tr>
+      </viva:foreachThingNumPagesIterator>
       <viva:foreachThingNameShortRUIterator>
          <tr><td>nameShortRU</td><td><viva:ThingNameShortRU /></td></tr>
       </viva:foreachThingNameShortRUIterator>

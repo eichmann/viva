@@ -27,6 +27,9 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachDatasetTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:DatasetTheAbstract /></td></tr>
+      </viva:foreachDatasetTheAbstractIterator>
       <viva:foreachDatasetDoiIterator>
          <tr><td>doi</td><td><viva:DatasetDoi /></td></tr>
       </viva:foreachDatasetDoiIterator>

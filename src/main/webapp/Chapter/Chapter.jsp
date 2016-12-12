@@ -31,18 +31,15 @@
       <viva:foreachChapterPageStartIterator>
          <tr><td>pageStart</td><td><viva:ChapterPageStart /></td></tr>
       </viva:foreachChapterPageStartIterator>
-      <viva:foreachChapterIsbn13Iterator>
-         <tr><td>isbn13</td><td><viva:ChapterIsbn13 /></td></tr>
-      </viva:foreachChapterIsbn13Iterator>
       <viva:foreachChapterPageEndIterator>
          <tr><td>pageEnd</td><td><viva:ChapterPageEnd /></td></tr>
       </viva:foreachChapterPageEndIterator>
-      <viva:foreachChapterIsbn10Iterator>
-         <tr><td>isbn10</td><td><viva:ChapterIsbn10 /></td></tr>
-      </viva:foreachChapterIsbn10Iterator>
       <viva:foreachChapterNumPagesIterator>
          <tr><td>numPages</td><td><viva:ChapterNumPages /></td></tr>
       </viva:foreachChapterNumPagesIterator>
+      <viva:foreachChapterTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:ChapterTheAbstract /></td></tr>
+      </viva:foreachChapterTheAbstractIterator>
       <viva:foreachChapterDoiIterator>
          <tr><td>doi</td><td><viva:ChapterDoi /></td></tr>
       </viva:foreachChapterDoiIterator>

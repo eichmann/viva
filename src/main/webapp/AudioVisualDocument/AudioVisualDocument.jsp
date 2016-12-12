@@ -27,6 +27,9 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachAudioVisualDocumentTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:AudioVisualDocumentTheAbstract /></td></tr>
+      </viva:foreachAudioVisualDocumentTheAbstractIterator>
       <viva:foreachAudioVisualDocumentDoiIterator>
          <tr><td>doi</td><td><viva:AudioVisualDocumentDoi /></td></tr>
       </viva:foreachAudioVisualDocumentDoiIterator>

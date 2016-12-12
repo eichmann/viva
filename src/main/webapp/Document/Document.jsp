@@ -34,21 +34,18 @@
       <viva:foreachDocumentPmidIterator>
          <tr><td>pmid</td><td><viva:DocumentPmid /></td></tr>
       </viva:foreachDocumentPmidIterator>
-      <viva:foreachDocumentIsbn13Iterator>
-         <tr><td>isbn13</td><td><viva:DocumentIsbn13 /></td></tr>
-      </viva:foreachDocumentIsbn13Iterator>
       <viva:foreachDocumentVolumeIterator>
          <tr><td>volume</td><td><viva:DocumentVolume /></td></tr>
       </viva:foreachDocumentVolumeIterator>
       <viva:foreachDocumentPageEndIterator>
          <tr><td>pageEnd</td><td><viva:DocumentPageEnd /></td></tr>
       </viva:foreachDocumentPageEndIterator>
-      <viva:foreachDocumentIsbn10Iterator>
-         <tr><td>isbn10</td><td><viva:DocumentIsbn10 /></td></tr>
-      </viva:foreachDocumentIsbn10Iterator>
       <viva:foreachDocumentNumPagesIterator>
          <tr><td>numPages</td><td><viva:DocumentNumPages /></td></tr>
       </viva:foreachDocumentNumPagesIterator>
+      <viva:foreachDocumentTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:DocumentTheAbstract /></td></tr>
+      </viva:foreachDocumentTheAbstractIterator>
       <viva:foreachDocumentDoiIterator>
          <tr><td>doi</td><td><viva:DocumentDoi /></td></tr>
       </viva:foreachDocumentDoiIterator>

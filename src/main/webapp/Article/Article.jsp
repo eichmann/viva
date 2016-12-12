@@ -27,33 +27,33 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachArticlePmcidIterator>
-         <tr><td>pmcid</td><td><viva:ArticlePmcid /></td></tr>
-      </viva:foreachArticlePmcidIterator>
       <viva:foreachArticlePageStartIterator>
          <tr><td>pageStart</td><td><viva:ArticlePageStart /></td></tr>
       </viva:foreachArticlePageStartIterator>
-      <viva:foreachArticlePmidIterator>
-         <tr><td>pmid</td><td><viva:ArticlePmid /></td></tr>
-      </viva:foreachArticlePmidIterator>
-      <viva:foreachArticleIsbn13Iterator>
-         <tr><td>isbn13</td><td><viva:ArticleIsbn13 /></td></tr>
-      </viva:foreachArticleIsbn13Iterator>
-      <viva:foreachArticleVolumeIterator>
-         <tr><td>volume</td><td><viva:ArticleVolume /></td></tr>
-      </viva:foreachArticleVolumeIterator>
+      <viva:foreachArticlePmcidIterator>
+         <tr><td>pmcid</td><td><viva:ArticlePmcid /></td></tr>
+      </viva:foreachArticlePmcidIterator>
+      <viva:foreachArticleIssueIterator>
+         <tr><td>issue</td><td><viva:ArticleIssue /></td></tr>
+      </viva:foreachArticleIssueIterator>
       <viva:foreachArticlePageEndIterator>
          <tr><td>pageEnd</td><td><viva:ArticlePageEnd /></td></tr>
       </viva:foreachArticlePageEndIterator>
-      <viva:foreachArticleIsbn10Iterator>
-         <tr><td>isbn10</td><td><viva:ArticleIsbn10 /></td></tr>
-      </viva:foreachArticleIsbn10Iterator>
       <viva:foreachArticleNumPagesIterator>
          <tr><td>numPages</td><td><viva:ArticleNumPages /></td></tr>
       </viva:foreachArticleNumPagesIterator>
+      <viva:foreachArticleTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:ArticleTheAbstract /></td></tr>
+      </viva:foreachArticleTheAbstractIterator>
       <viva:foreachArticleDoiIterator>
          <tr><td>doi</td><td><viva:ArticleDoi /></td></tr>
       </viva:foreachArticleDoiIterator>
+      <viva:foreachArticlePmidIterator>
+         <tr><td>pmid</td><td><viva:ArticlePmid /></td></tr>
+      </viva:foreachArticlePmidIterator>
+      <viva:foreachArticleVolumeIterator>
+         <tr><td>volume</td><td><viva:ArticleVolume /></td></tr>
+      </viva:foreachArticleVolumeIterator>
    </table>
 
    <h3>Object Properties</h3>

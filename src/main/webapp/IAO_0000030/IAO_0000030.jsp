@@ -29,9 +29,33 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachIAO_0000030TheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:IAO_0000030TheAbstract /></td></tr>
+      </viva:foreachIAO_0000030TheAbstractIterator>
+      <viva:foreachIAO_0000030PageStartIterator>
+         <tr><td>pageStart</td><td><viva:IAO_0000030PageStart /></td></tr>
+      </viva:foreachIAO_0000030PageStartIterator>
       <viva:foreachIAO_0000030RankIterator>
          <tr><td>rank</td><td><viva:IAO_0000030Rank /></td></tr>
       </viva:foreachIAO_0000030RankIterator>
+      <viva:foreachIAO_0000030PageEndIterator>
+         <tr><td>pageEnd</td><td><viva:IAO_0000030PageEnd /></td></tr>
+      </viva:foreachIAO_0000030PageEndIterator>
+      <viva:foreachIAO_0000030EissnIterator>
+         <tr><td>eissn</td><td><viva:IAO_0000030Eissn /></td></tr>
+      </viva:foreachIAO_0000030EissnIterator>
+      <viva:foreachIAO_0000030IssnIterator>
+         <tr><td>issn</td><td><viva:IAO_0000030Issn /></td></tr>
+      </viva:foreachIAO_0000030IssnIterator>
+      <viva:foreachIAO_0000030IdentifierIterator>
+         <tr><td>identifier</td><td><viva:IAO_0000030Identifier /></td></tr>
+      </viva:foreachIAO_0000030IdentifierIterator>
+      <viva:foreachIAO_0000030NumPagesIterator>
+         <tr><td>numPages</td><td><viva:IAO_0000030NumPages /></td></tr>
+      </viva:foreachIAO_0000030NumPagesIterator>
+      <viva:foreachIAO_0000030DoiIterator>
+         <tr><td>doi</td><td><viva:IAO_0000030Doi /></td></tr>
+      </viva:foreachIAO_0000030DoiIterator>
    </table>
 
    <h3>Object Properties</h3>

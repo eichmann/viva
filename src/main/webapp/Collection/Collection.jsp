@@ -37,6 +37,9 @@
       <viva:foreachCollectionIdentifierIterator>
          <tr><td>identifier</td><td><viva:CollectionIdentifier /></td></tr>
       </viva:foreachCollectionIdentifierIterator>
+      <viva:foreachCollectionTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:CollectionTheAbstract /></td></tr>
+      </viva:foreachCollectionTheAbstractIterator>
       <viva:foreachCollectionDoiIterator>
          <tr><td>doi</td><td><viva:CollectionDoi /></td></tr>
       </viva:foreachCollectionDoiIterator>

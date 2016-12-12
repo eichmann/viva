@@ -27,6 +27,9 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachConferencePosterTheAbstractIterator>
+         <tr><td>theAbstract</td><td><viva:ConferencePosterTheAbstract /></td></tr>
+      </viva:foreachConferencePosterTheAbstractIterator>
       <viva:foreachConferencePosterDoiIterator>
          <tr><td>doi</td><td><viva:ConferencePosterDoi /></td></tr>
       </viva:foreachConferencePosterDoiIterator>

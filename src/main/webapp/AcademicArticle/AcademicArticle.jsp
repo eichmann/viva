@@ -27,18 +27,9 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachAcademicArticlePmcidIterator>
-         <tr><td>pmcid</td><td><viva:AcademicArticlePmcid /></td></tr>
-      </viva:foreachAcademicArticlePmcidIterator>
       <viva:foreachAcademicArticlePageStartIterator>
          <tr><td>pageStart</td><td><viva:AcademicArticlePageStart /></td></tr>
       </viva:foreachAcademicArticlePageStartIterator>
-      <viva:foreachAcademicArticlePmidIterator>
-         <tr><td>pmid</td><td><viva:AcademicArticlePmid /></td></tr>
-      </viva:foreachAcademicArticlePmidIterator>
-      <viva:foreachAcademicArticleVolumeIterator>
-         <tr><td>volume</td><td><viva:AcademicArticleVolume /></td></tr>
-      </viva:foreachAcademicArticleVolumeIterator>
       <viva:foreachAcademicArticlePageEndIterator>
          <tr><td>pageEnd</td><td><viva:AcademicArticlePageEnd /></td></tr>
       </viva:foreachAcademicArticlePageEndIterator>
@@ -48,6 +39,18 @@
       <viva:foreachAcademicArticleDoiIterator>
          <tr><td>doi</td><td><viva:AcademicArticleDoi /></td></tr>
       </viva:foreachAcademicArticleDoiIterator>
+      <viva:foreachAcademicArticlePmcidIterator>
+         <tr><td>pmcid</td><td><viva:AcademicArticlePmcid /></td></tr>
+      </viva:foreachAcademicArticlePmcidIterator>
+      <viva:foreachAcademicArticleIssueIterator>
+         <tr><td>issue</td><td><viva:AcademicArticleIssue /></td></tr>
+      </viva:foreachAcademicArticleIssueIterator>
+      <viva:foreachAcademicArticlePmidIterator>
+         <tr><td>pmid</td><td><viva:AcademicArticlePmid /></td></tr>
+      </viva:foreachAcademicArticlePmidIterator>
+      <viva:foreachAcademicArticleVolumeIterator>
+         <tr><td>volume</td><td><viva:AcademicArticleVolume /></td></tr>
+      </viva:foreachAcademicArticleVolumeIterator>
    </table>
 
    <h3>Object Properties</h3>

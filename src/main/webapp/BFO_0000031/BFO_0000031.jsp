@@ -29,9 +29,27 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachBFO_0000031PageStartIterator>
+         <tr><td>pageStart</td><td><viva:BFO_0000031PageStart /></td></tr>
+      </viva:foreachBFO_0000031PageStartIterator>
       <viva:foreachBFO_0000031RankIterator>
          <tr><td>rank</td><td><viva:BFO_0000031Rank /></td></tr>
       </viva:foreachBFO_0000031RankIterator>
+      <viva:foreachBFO_0000031PageEndIterator>
+         <tr><td>pageEnd</td><td><viva:BFO_0000031PageEnd /></td></tr>
+      </viva:foreachBFO_0000031PageEndIterator>
+      <viva:foreachBFO_0000031EissnIterator>
+         <tr><td>eissn</td><td><viva:BFO_0000031Eissn /></td></tr>
+      </viva:foreachBFO_0000031EissnIterator>
+      <viva:foreachBFO_0000031IssnIterator>
+         <tr><td>issn</td><td><viva:BFO_0000031Issn /></td></tr>
+      </viva:foreachBFO_0000031IssnIterator>
+      <viva:foreachBFO_0000031IdentifierIterator>
+         <tr><td>identifier</td><td><viva:BFO_0000031Identifier /></td></tr>
+      </viva:foreachBFO_0000031IdentifierIterator>
+      <viva:foreachBFO_0000031NumPagesIterator>
+         <tr><td>numPages</td><td><viva:BFO_0000031NumPages /></td></tr>
+      </viva:foreachBFO_0000031NumPagesIterator>
    </table>
 
    <h3>Object Properties</h3>

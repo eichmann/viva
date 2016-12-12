@@ -33,9 +33,6 @@
       <viva:foreachBookIsbn13Iterator>
          <tr><td>isbn13</td><td><viva:BookIsbn13 /></td></tr>
       </viva:foreachBookIsbn13Iterator>
-      <viva:foreachBookVolumeIterator>
-         <tr><td>volume</td><td><viva:BookVolume /></td></tr>
-      </viva:foreachBookVolumeIterator>
       <viva:foreachBookPageEndIterator>
          <tr><td>pageEnd</td><td><viva:BookPageEnd /></td></tr>
       </viva:foreachBookPageEndIterator>
@@ -48,6 +45,9 @@
       <viva:foreachBookDoiIterator>
          <tr><td>doi</td><td><viva:BookDoi /></td></tr>
       </viva:foreachBookDoiIterator>
+      <viva:foreachBookVolumeIterator>
+         <tr><td>volume</td><td><viva:BookVolume /></td></tr>
+      </viva:foreachBookVolumeIterator>
    </table>
 
    <h3>Object Properties</h3>

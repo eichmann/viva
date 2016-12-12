@@ -33,6 +33,9 @@
       <viva:foreachBFO_0000001AgriculturalAreaUnitIterator>
          <tr><td>agriculturalAreaUnit</td><td><viva:BFO_0000001AgriculturalAreaUnit /></td></tr>
       </viva:foreachBFO_0000001AgriculturalAreaUnitIterator>
+      <viva:foreachBFO_0000001PageStartIterator>
+         <tr><td>pageStart</td><td><viva:BFO_0000001PageStart /></td></tr>
+      </viva:foreachBFO_0000001PageStartIterator>
       <viva:foreachBFO_0000001AgriculturalAreaTotalIterator>
          <tr><td>agriculturalAreaTotal</td><td><viva:BFO_0000001AgriculturalAreaTotal /></td></tr>
       </viva:foreachBFO_0000001AgriculturalAreaTotalIterator>
@@ -150,6 +153,9 @@
       <viva:foreachBFO_0000001NameCurrencyITIterator>
          <tr><td>nameCurrencyIT</td><td><viva:BFO_0000001NameCurrencyIT /></td></tr>
       </viva:foreachBFO_0000001NameCurrencyITIterator>
+      <viva:foreachBFO_0000001PageEndIterator>
+         <tr><td>pageEnd</td><td><viva:BFO_0000001PageEnd /></td></tr>
+      </viva:foreachBFO_0000001PageEndIterator>
       <viva:foreachBFO_0000001CodeFAOSTATIterator>
          <tr><td>codeFAOSTAT</td><td><viva:BFO_0000001CodeFAOSTAT /></td></tr>
       </viva:foreachBFO_0000001CodeFAOSTATIterator>
@@ -165,6 +171,9 @@
       <viva:foreachBFO_0000001NameListZHIterator>
          <tr><td>nameListZH</td><td><viva:BFO_0000001NameListZH /></td></tr>
       </viva:foreachBFO_0000001NameListZHIterator>
+      <viva:foreachBFO_0000001EissnIterator>
+         <tr><td>eissn</td><td><viva:BFO_0000001Eissn /></td></tr>
+      </viva:foreachBFO_0000001EissnIterator>
       <viva:foreachBFO_0000001NameShortENIterator>
          <tr><td>nameShortEN</td><td><viva:BFO_0000001NameShortEN /></td></tr>
       </viva:foreachBFO_0000001NameShortENIterator>
@@ -201,6 +210,9 @@
       <viva:foreachBFO_0000001LandAreaUnitIterator>
          <tr><td>landAreaUnit</td><td><viva:BFO_0000001LandAreaUnit /></td></tr>
       </viva:foreachBFO_0000001LandAreaUnitIterator>
+      <viva:foreachBFO_0000001IssnIterator>
+         <tr><td>issn</td><td><viva:BFO_0000001Issn /></td></tr>
+      </viva:foreachBFO_0000001IssnIterator>
       <viva:foreachBFO_0000001PopulationTotalIterator>
          <tr><td>populationTotal</td><td><viva:BFO_0000001PopulationTotal /></td></tr>
       </viva:foreachBFO_0000001PopulationTotalIterator>
@@ -243,9 +255,15 @@
       <viva:foreachBFO_0000001CodeUNIterator>
          <tr><td>codeUN</td><td><viva:BFO_0000001CodeUN /></td></tr>
       </viva:foreachBFO_0000001CodeUNIterator>
+      <viva:foreachBFO_0000001IdentifierIterator>
+         <tr><td>identifier</td><td><viva:BFO_0000001Identifier /></td></tr>
+      </viva:foreachBFO_0000001IdentifierIterator>
       <viva:foreachBFO_0000001UrlIterator>
          <tr><td>url</td><td><viva:BFO_0000001Url /></td></tr>
       </viva:foreachBFO_0000001UrlIterator>
+      <viva:foreachBFO_0000001NumPagesIterator>
+         <tr><td>numPages</td><td><viva:BFO_0000001NumPages /></td></tr>
+      </viva:foreachBFO_0000001NumPagesIterator>
       <viva:foreachBFO_0000001NameShortRUIterator>
          <tr><td>nameShortRU</td><td><viva:BFO_0000001NameShortRU /></td></tr>
       </viva:foreachBFO_0000001NameShortRUIterator>
