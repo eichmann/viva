@@ -23,24 +23,14 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>abbreviation</td><td><viva:DateTimeValuePrecisionAbbreviation /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachDateTimeValuePrecisionDescriptionIterator>
-         <tr><td>description</td><td><viva:DateTimeValuePrecisionDescription /></td></tr>
-      </viva:foreachDateTimeValuePrecisionDescriptionIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachDateTimeValuePrecisionResearchAreaOfIterator>
-         <tr><td>researchAreaOf</td><td><a href="../<viva:DateTimeValuePrecisionResearchAreaOfType/>/<viva:DateTimeValuePrecisionResearchAreaOfType/>.jsp?uri=<viva:DateTimeValuePrecisionResearchAreaOf/>"><viva:DateTimeValuePrecisionResearchAreaOf /></a></td></tr>
-      </viva:foreachDateTimeValuePrecisionResearchAreaOfIterator>
-      <viva:foreachDateTimeValuePrecisionSubjectAreaOfIterator>
-         <tr><td>subjectAreaOf</td><td><a href="../<viva:DateTimeValuePrecisionSubjectAreaOfType/>/<viva:DateTimeValuePrecisionSubjectAreaOfType/>.jsp?uri=<viva:DateTimeValuePrecisionSubjectAreaOf/>"><viva:DateTimeValuePrecisionSubjectAreaOf /></a></td></tr>
-      </viva:foreachDateTimeValuePrecisionSubjectAreaOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

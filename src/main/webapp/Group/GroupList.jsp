@@ -7,16 +7,16 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>non_self_governing List - http://aims.fao.org/aos/geopolitical.owl#non_self_governing</title>
+<title>Group List - http://aims.fao.org/aos/geopolitical.owl#group</title>
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
 <ul>
-<viva:foreachnon_self_governing>
-   <viva:non_self_governing>
-      <li><a href="non_self_governing.jsp?uri=<viva:non_self_governingSubjectURI/>"><viva:non_self_governingLabel/></a>
-   </viva:non_self_governing>
-</viva:foreachnon_self_governing>
+<viva:foreachGroup>
+   <viva:Group>
+      <li><a href="Group.jsp?uri=<viva:GroupSubjectURI/>"><viva:GroupLabel/></a>
+   </viva:Group>
+</viva:foreachGroup>
 </ul>
 
 <jsp:include page="/footer.jsp" flush="true" /></div></div></body>

@@ -255,9 +255,6 @@
       <viva:foreachBFO_0000002LandAreaNotesIterator>
          <tr><td>landAreaNotes</td><td><viva:BFO_0000002LandAreaNotes /></td></tr>
       </viva:foreachBFO_0000002LandAreaNotesIterator>
-      <viva:foreachBFO_0000002DescriptionIterator>
-         <tr><td>description</td><td><viva:BFO_0000002Description /></td></tr>
-      </viva:foreachBFO_0000002DescriptionIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -301,6 +298,9 @@
       <viva:foreachBFO_0000002PublicationVenueForIterator>
          <tr><td>publicationVenueFor</td><td><a href="../<viva:BFO_0000002PublicationVenueForType/>/<viva:BFO_0000002PublicationVenueForType/>.jsp?uri=<viva:BFO_0000002PublicationVenueFor/>"><viva:BFO_0000002PublicationVenueFor /></a></td></tr>
       </viva:foreachBFO_0000002PublicationVenueForIterator>
+      <viva:foreachBFO_0000002HasGeoIterator>
+         <tr><td>hasGeo</td><td><a href="../<viva:BFO_0000002HasGeoType/>/<viva:BFO_0000002HasGeoType/>.jsp?uri=<viva:BFO_0000002HasGeo/>"><viva:BFO_0000002HasGeo /></a></td></tr>
+      </viva:foreachBFO_0000002HasGeoIterator>
       <viva:foreachBFO_0000002ARG_2000028Iterator>
          <tr><td>ARG_2000028</td><td><a href="../<viva:BFO_0000002ARG_2000028Type/>/<viva:BFO_0000002ARG_2000028Type/>.jsp?uri=<viva:BFO_0000002ARG_2000028/>"><viva:BFO_0000002ARG_2000028 /></a></td></tr>
       </viva:foreachBFO_0000002ARG_2000028Iterator>
@@ -328,9 +328,6 @@
       <viva:foreachBFO_0000002HasURLIterator>
          <tr><td>hasURL</td><td><a href="../<viva:BFO_0000002HasURLType/>/<viva:BFO_0000002HasURLType/>.jsp?uri=<viva:BFO_0000002HasURL/>"><viva:BFO_0000002HasURL /></a></td></tr>
       </viva:foreachBFO_0000002HasURLIterator>
-      <viva:foreachBFO_0000002RO_0002234Iterator>
-         <tr><td>RO_0002234</td><td><a href="../<viva:BFO_0000002RO_0002234Type/>/<viva:BFO_0000002RO_0002234Type/>.jsp?uri=<viva:BFO_0000002RO_0002234/>"><viva:BFO_0000002RO_0002234 /></a></td></tr>
-      </viva:foreachBFO_0000002RO_0002234Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

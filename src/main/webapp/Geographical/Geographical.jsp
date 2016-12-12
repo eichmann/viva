@@ -34,6 +34,9 @@
       <viva:foreachGeographicalHasAddressIterator>
          <tr><td>hasAddress</td><td><a href="../<viva:GeographicalHasAddressType/>/<viva:GeographicalHasAddressType/>.jsp?uri=<viva:GeographicalHasAddress/>"><viva:GeographicalHasAddress /></a></td></tr>
       </viva:foreachGeographicalHasAddressIterator>
+      <viva:foreachGeographicalHasGeoIterator>
+         <tr><td>hasGeo</td><td><a href="../<viva:GeographicalHasGeoType/>/<viva:GeographicalHasGeoType/>.jsp?uri=<viva:GeographicalHasGeo/>"><viva:GeographicalHasGeo /></a></td></tr>
+      </viva:foreachGeographicalHasGeoIterator>
       <viva:foreachGeographicalHasEmailIterator>
          <tr><td>hasEmail</td><td><a href="../<viva:GeographicalHasEmailType/>/<viva:GeographicalHasEmailType/>.jsp?uri=<viva:GeographicalHasEmail/>"><viva:GeographicalHasEmail /></a></td></tr>
       </viva:foreachGeographicalHasEmailIterator>

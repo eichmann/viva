@@ -23,9 +23,6 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>placeOfPublication</td><td><viva:CountryPlaceOfPublication /></td></tr>
-      <tr><td>hideFromDisplay</td><td><viva:CountryHideFromDisplay /></td></tr>
-      <tr><td>abbreviation</td><td><viva:CountryAbbreviation /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -246,18 +243,6 @@
       <viva:foreachCountryLandAreaNotesIterator>
          <tr><td>landAreaNotes</td><td><viva:CountryLandAreaNotes /></td></tr>
       </viva:foreachCountryLandAreaNotesIterator>
-      <viva:foreachCountryRankIterator>
-         <tr><td>rank</td><td><viva:CountryRank /></td></tr>
-      </viva:foreachCountryRankIterator>
-      <viva:foreachCountryFreetextKeywordIterator>
-         <tr><td>freetextKeyword</td><td><viva:CountryFreetextKeyword /></td></tr>
-      </viva:foreachCountryFreetextKeywordIterator>
-      <viva:foreachCountryDescriptionIterator>
-         <tr><td>description</td><td><viva:CountryDescription /></td></tr>
-      </viva:foreachCountryDescriptionIterator>
-      <viva:foreachCountryUrlIterator>
-         <tr><td>url</td><td><viva:CountryUrl /></td></tr>
-      </viva:foreachCountryUrlIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -268,72 +253,6 @@
       <viva:foreachCountryRO_0001015Iterator>
          <tr><td>RO_0001015</td><td><a href="../<viva:CountryRO_0001015Type/>/<viva:CountryRO_0001015Type/>.jsp?uri=<viva:CountryRO_0001015/>"><viva:CountryRO_0001015 /></a></td></tr>
       </viva:foreachCountryRO_0001015Iterator>
-      <viva:foreachCountryHasAddressIterator>
-         <tr><td>hasAddress</td><td><a href="../<viva:CountryHasAddressType/>/<viva:CountryHasAddressType/>.jsp?uri=<viva:CountryHasAddress/>"><viva:CountryHasAddress /></a></td></tr>
-      </viva:foreachCountryHasAddressIterator>
-      <viva:foreachCountryHasTelephoneIterator>
-         <tr><td>hasTelephone</td><td><a href="../<viva:CountryHasTelephoneType/>/<viva:CountryHasTelephoneType/>.jsp?uri=<viva:CountryHasTelephone/>"><viva:CountryHasTelephone /></a></td></tr>
-      </viva:foreachCountryHasTelephoneIterator>
-      <viva:foreachCountryDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<viva:CountryDateTimeValueType/>/<viva:CountryDateTimeValueType/>.jsp?uri=<viva:CountryDateTimeValue/>"><viva:CountryDateTimeValue /></a></td></tr>
-      </viva:foreachCountryDateTimeValueIterator>
-      <viva:foreachCountryRO_0001025Iterator>
-         <tr><td>RO_0001025</td><td><a href="../<viva:CountryRO_0001025Type/>/<viva:CountryRO_0001025Type/>.jsp?uri=<viva:CountryRO_0001025/>"><viva:CountryRO_0001025 /></a></td></tr>
-      </viva:foreachCountryRO_0001025Iterator>
-      <viva:foreachCountryHasTitleIterator>
-         <tr><td>hasTitle</td><td><a href="../<viva:CountryHasTitleType/>/<viva:CountryHasTitleType/>.jsp?uri=<viva:CountryHasTitle/>"><viva:CountryHasTitle /></a></td></tr>
-      </viva:foreachCountryHasTitleIterator>
-      <viva:foreachCountryRO_0002353Iterator>
-         <tr><td>RO_0002353</td><td><a href="../<viva:CountryRO_0002353Type/>/<viva:CountryRO_0002353Type/>.jsp?uri=<viva:CountryRO_0002353/>"><viva:CountryRO_0002353 /></a></td></tr>
-      </viva:foreachCountryRO_0002353Iterator>
-      <viva:foreachCountryHasResearchAreaIterator>
-         <tr><td>hasResearchArea</td><td><a href="../<viva:CountryHasResearchAreaType/>/<viva:CountryHasResearchAreaType/>.jsp?uri=<viva:CountryHasResearchArea/>"><viva:CountryHasResearchArea /></a></td></tr>
-      </viva:foreachCountryHasResearchAreaIterator>
-      <viva:foreachCountryGeographicFocusIterator>
-         <tr><td>geographicFocus</td><td><a href="../<viva:CountryGeographicFocusType/>/<viva:CountryGeographicFocusType/>.jsp?uri=<viva:CountryGeographicFocus/>"><viva:CountryGeographicFocus /></a></td></tr>
-      </viva:foreachCountryGeographicFocusIterator>
-      <viva:foreachCountryHasPublicationVenueIterator>
-         <tr><td>hasPublicationVenue</td><td><a href="../<viva:CountryHasPublicationVenueType/>/<viva:CountryHasPublicationVenueType/>.jsp?uri=<viva:CountryHasPublicationVenue/>"><viva:CountryHasPublicationVenue /></a></td></tr>
-      </viva:foreachCountryHasPublicationVenueIterator>
-      <viva:foreachCountryHasNameIterator>
-         <tr><td>hasName</td><td><a href="../<viva:CountryHasNameType/>/<viva:CountryHasNameType/>.jsp?uri=<viva:CountryHasName/>"><viva:CountryHasName /></a></td></tr>
-      </viva:foreachCountryHasNameIterator>
-      <viva:foreachCountryPublicationVenueForIterator>
-         <tr><td>publicationVenueFor</td><td><a href="../<viva:CountryPublicationVenueForType/>/<viva:CountryPublicationVenueForType/>.jsp?uri=<viva:CountryPublicationVenueFor/>"><viva:CountryPublicationVenueFor /></a></td></tr>
-      </viva:foreachCountryPublicationVenueForIterator>
-      <viva:foreachCountryARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<viva:CountryARG_2000028Type/>/<viva:CountryARG_2000028Type/>.jsp?uri=<viva:CountryARG_2000028/>"><viva:CountryARG_2000028 /></a></td></tr>
-      </viva:foreachCountryARG_2000028Iterator>
-      <viva:foreachCountryPublisherIterator>
-         <tr><td>publisher</td><td><a href="../<viva:CountryPublisherType/>/<viva:CountryPublisherType/>.jsp?uri=<viva:CountryPublisher/>"><viva:CountryPublisher /></a></td></tr>
-      </viva:foreachCountryPublisherIterator>
-      <viva:foreachCountryRO_0002234Iterator>
-         <tr><td>RO_0002234</td><td><a href="../<viva:CountryRO_0002234Type/>/<viva:CountryRO_0002234Type/>.jsp?uri=<viva:CountryRO_0002234/>"><viva:CountryRO_0002234 /></a></td></tr>
-      </viva:foreachCountryRO_0002234Iterator>
-      <viva:foreachCountryRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:CountryRelatedByType/>/<viva:CountryRelatedByType/>.jsp?uri=<viva:CountryRelatedBy/>"><viva:CountryRelatedBy /></a></td></tr>
-      </viva:foreachCountryRelatedByIterator>
-      <viva:foreachCountryHasSubjectAreaIterator>
-         <tr><td>hasSubjectArea</td><td><a href="../<viva:CountryHasSubjectAreaType/>/<viva:CountryHasSubjectAreaType/>.jsp?uri=<viva:CountryHasSubjectArea/>"><viva:CountryHasSubjectArea /></a></td></tr>
-      </viva:foreachCountryHasSubjectAreaIterator>
-      <viva:foreachCountryDateTimeIntervalIterator>
-         <tr><td>dateTimeInterval</td><td><a href="../<viva:CountryDateTimeIntervalType/>/<viva:CountryDateTimeIntervalType/>.jsp?uri=<viva:CountryDateTimeInterval/>"><viva:CountryDateTimeInterval /></a></td></tr>
-      </viva:foreachCountryDateTimeIntervalIterator>
-      <viva:foreachCountryHasEmailIterator>
-         <tr><td>hasEmail</td><td><a href="../<viva:CountryHasEmailType/>/<viva:CountryHasEmailType/>.jsp?uri=<viva:CountryHasEmail/>"><viva:CountryHasEmail /></a></td></tr>
-      </viva:foreachCountryHasEmailIterator>
-      <viva:foreachCountryRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:CountryRelatesType/>/<viva:CountryRelatesType/>.jsp?uri=<viva:CountryRelates/>"><viva:CountryRelates /></a></td></tr>
-      </viva:foreachCountryRelatesIterator>
-      <viva:foreachCountryBFO_0000050Iterator>
-         <tr><td>BFO_0000050</td><td><a href="../<viva:CountryBFO_0000050Type/>/<viva:CountryBFO_0000050Type/>.jsp?uri=<viva:CountryBFO_0000050/>"><viva:CountryBFO_0000050 /></a></td></tr>
-      </viva:foreachCountryBFO_0000050Iterator>
-      <viva:foreachCountryHasURLIterator>
-         <tr><td>hasURL</td><td><a href="../<viva:CountryHasURLType/>/<viva:CountryHasURLType/>.jsp?uri=<viva:CountryHasURL/>"><viva:CountryHasURL /></a></td></tr>
-      </viva:foreachCountryHasURLIterator>
-      <viva:foreachCountryRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:CountryRO_0000053Type/>/<viva:CountryRO_0000053Type/>.jsp?uri=<viva:CountryRO_0000053/>"><viva:CountryRO_0000053 /></a></td></tr>
-      </viva:foreachCountryRO_0000053Iterator>
       <viva:foreachCountryGeographicFocusOfIterator>
          <tr><td>geographicFocusOf</td><td><a href="../<viva:CountryGeographicFocusOfType/>/<viva:CountryGeographicFocusOfType/>.jsp?uri=<viva:CountryGeographicFocusOf/>"><viva:CountryGeographicFocusOf /></a></td></tr>
       </viva:foreachCountryGeographicFocusOfIterator>

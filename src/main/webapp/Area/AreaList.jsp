@@ -7,16 +7,16 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>economic_region List - http://aims.fao.org/aos/geopolitical.owl#economic_region</title>
+<title>Area List - http://aims.fao.org/aos/geopolitical.owl#area</title>
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
 <ul>
-<viva:foreacheconomic_region>
-   <viva:economic_region>
-      <li><a href="economic_region.jsp?uri=<viva:economic_regionSubjectURI/>"><viva:economic_regionLabel/></a>
-   </viva:economic_region>
-</viva:foreacheconomic_region>
+<viva:foreachArea>
+   <viva:Area>
+      <li><a href="Area.jsp?uri=<viva:AreaSubjectURI/>"><viva:AreaLabel/></a>
+   </viva:Area>
+</viva:foreachArea>
 </ul>
 
 <jsp:include page="/footer.jsp" flush="true" /></div></div></body>

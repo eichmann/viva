@@ -46,6 +46,9 @@
       <viva:foreachExplanatoryHasAddressIterator>
          <tr><td>hasAddress</td><td><a href="../<viva:ExplanatoryHasAddressType/>/<viva:ExplanatoryHasAddressType/>.jsp?uri=<viva:ExplanatoryHasAddress/>"><viva:ExplanatoryHasAddress /></a></td></tr>
       </viva:foreachExplanatoryHasAddressIterator>
+      <viva:foreachExplanatoryHasGeoIterator>
+         <tr><td>hasGeo</td><td><a href="../<viva:ExplanatoryHasGeoType/>/<viva:ExplanatoryHasGeoType/>.jsp?uri=<viva:ExplanatoryHasGeo/>"><viva:ExplanatoryHasGeo /></a></td></tr>
+      </viva:foreachExplanatoryHasGeoIterator>
       <viva:foreachExplanatoryRelatedByIterator>
          <tr><td>relatedBy</td><td><a href="../<viva:ExplanatoryRelatedByType/>/<viva:ExplanatoryRelatedByType/>.jsp?uri=<viva:ExplanatoryRelatedBy/>"><viva:ExplanatoryRelatedBy /></a></td></tr>
       </viva:foreachExplanatoryRelatedByIterator>

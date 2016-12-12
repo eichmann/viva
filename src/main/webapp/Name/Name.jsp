@@ -51,9 +51,6 @@
       <viva:foreachNameAdditionalNameIterator>
          <tr><td>additionalName</td><td><viva:NameAdditionalName /></td></tr>
       </viva:foreachNameAdditionalNameIterator>
-      <viva:foreachNameTelephoneIterator>
-         <tr><td>telephone</td><td><viva:NameTelephone /></td></tr>
-      </viva:foreachNameTelephoneIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -67,12 +64,6 @@
       <viva:foreachNameHasURLIterator>
          <tr><td>hasURL</td><td><a href="../<viva:NameHasURLType/>/<viva:NameHasURLType/>.jsp?uri=<viva:NameHasURL/>"><viva:NameHasURL /></a></td></tr>
       </viva:foreachNameHasURLIterator>
-      <viva:foreachNameHasAddressIterator>
-         <tr><td>hasAddress</td><td><a href="../<viva:NameHasAddressType/>/<viva:NameHasAddressType/>.jsp?uri=<viva:NameHasAddress/>"><viva:NameHasAddress /></a></td></tr>
-      </viva:foreachNameHasAddressIterator>
-      <viva:foreachNameHasEmailIterator>
-         <tr><td>hasEmail</td><td><a href="../<viva:NameHasEmailType/>/<viva:NameHasEmailType/>.jsp?uri=<viva:NameHasEmail/>"><viva:NameHasEmail /></a></td></tr>
-      </viva:foreachNameHasEmailIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

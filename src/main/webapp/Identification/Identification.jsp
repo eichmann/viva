@@ -46,6 +46,9 @@
       <viva:foreachIdentificationHasAddressIterator>
          <tr><td>hasAddress</td><td><a href="../<viva:IdentificationHasAddressType/>/<viva:IdentificationHasAddressType/>.jsp?uri=<viva:IdentificationHasAddress/>"><viva:IdentificationHasAddress /></a></td></tr>
       </viva:foreachIdentificationHasAddressIterator>
+      <viva:foreachIdentificationHasGeoIterator>
+         <tr><td>hasGeo</td><td><a href="../<viva:IdentificationHasGeoType/>/<viva:IdentificationHasGeoType/>.jsp?uri=<viva:IdentificationHasGeo/>"><viva:IdentificationHasGeo /></a></td></tr>
+      </viva:foreachIdentificationHasGeoIterator>
       <viva:foreachIdentificationRelatedByIterator>
          <tr><td>relatedBy</td><td><a href="../<viva:IdentificationRelatedByType/>/<viva:IdentificationRelatedByType/>.jsp?uri=<viva:IdentificationRelatedBy/>"><viva:IdentificationRelatedBy /></a></td></tr>
       </viva:foreachIdentificationRelatedByIterator>

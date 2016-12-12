@@ -33,12 +33,6 @@
       <viva:foreachURLUrlIterator>
          <tr><td>url</td><td><viva:URLUrl /></td></tr>
       </viva:foreachURLUrlIterator>
-      <viva:foreachURLMiddleNameIterator>
-         <tr><td>middleName</td><td><viva:URLMiddleName /></td></tr>
-      </viva:foreachURLMiddleNameIterator>
-      <viva:foreachURLTelephoneIterator>
-         <tr><td>telephone</td><td><viva:URLTelephone /></td></tr>
-      </viva:foreachURLTelephoneIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -46,22 +40,13 @@
       <viva:foreachURLRelatesIterator>
          <tr><td>relates</td><td><a href="../<viva:URLRelatesType/>/<viva:URLRelatesType/>.jsp?uri=<viva:URLRelates/>"><viva:URLRelates /></a></td></tr>
       </viva:foreachURLRelatesIterator>
-      <viva:foreachURLHasAddressIterator>
-         <tr><td>hasAddress</td><td><a href="../<viva:URLHasAddressType/>/<viva:URLHasAddressType/>.jsp?uri=<viva:URLHasAddress/>"><viva:URLHasAddress /></a></td></tr>
-      </viva:foreachURLHasAddressIterator>
-      <viva:foreachURLRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:URLRelatedByType/>/<viva:URLRelatedByType/>.jsp?uri=<viva:URLRelatedBy/>"><viva:URLRelatedBy /></a></td></tr>
-      </viva:foreachURLRelatedByIterator>
-      <viva:foreachURLHasEmailIterator>
-         <tr><td>hasEmail</td><td><a href="../<viva:URLHasEmailType/>/<viva:URLHasEmailType/>.jsp?uri=<viva:URLHasEmail/>"><viva:URLHasEmail /></a></td></tr>
-      </viva:foreachURLHasEmailIterator>
-      <viva:foreachURLHasURLIterator>
-         <tr><td>hasURL</td><td><a href="../<viva:URLHasURLType/>/<viva:URLHasURLType/>.jsp?uri=<viva:URLHasURL/>"><viva:URLHasURL /></a></td></tr>
-      </viva:foreachURLHasURLIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
    <table>
+      <viva:foreachURLHasURLInverseIterator>
+         <tr><td>hasURL</td><td><a href="../<viva:URLHasURLInverseType/>/<viva:URLHasURLInverseType/>.jsp?uri=<viva:URLHasURLInverse/>"><viva:URLHasURLInverse/></a></td></tr>
+      </viva:foreachURLHasURLInverseIterator>
    </table>
    </viva:URL>
 

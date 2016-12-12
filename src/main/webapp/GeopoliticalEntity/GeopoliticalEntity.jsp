@@ -23,9 +23,6 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>placeOfPublication</td><td><viva:GeopoliticalEntityPlaceOfPublication /></td></tr>
-      <tr><td>hideFromDisplay</td><td><viva:GeopoliticalEntityHideFromDisplay /></td></tr>
-      <tr><td>abbreviation</td><td><viva:GeopoliticalEntityAbbreviation /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -246,18 +243,6 @@
       <viva:foreachGeopoliticalEntityLandAreaNotesIterator>
          <tr><td>landAreaNotes</td><td><viva:GeopoliticalEntityLandAreaNotes /></td></tr>
       </viva:foreachGeopoliticalEntityLandAreaNotesIterator>
-      <viva:foreachGeopoliticalEntityRankIterator>
-         <tr><td>rank</td><td><viva:GeopoliticalEntityRank /></td></tr>
-      </viva:foreachGeopoliticalEntityRankIterator>
-      <viva:foreachGeopoliticalEntityFreetextKeywordIterator>
-         <tr><td>freetextKeyword</td><td><viva:GeopoliticalEntityFreetextKeyword /></td></tr>
-      </viva:foreachGeopoliticalEntityFreetextKeywordIterator>
-      <viva:foreachGeopoliticalEntityUrlIterator>
-         <tr><td>url</td><td><viva:GeopoliticalEntityUrl /></td></tr>
-      </viva:foreachGeopoliticalEntityUrlIterator>
-      <viva:foreachGeopoliticalEntityDescriptionIterator>
-         <tr><td>description</td><td><viva:GeopoliticalEntityDescription /></td></tr>
-      </viva:foreachGeopoliticalEntityDescriptionIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -271,72 +256,9 @@
       <viva:foreachGeopoliticalEntityBFO_0000050Iterator>
          <tr><td>BFO_0000050</td><td><a href="../<viva:GeopoliticalEntityBFO_0000050Type/>/<viva:GeopoliticalEntityBFO_0000050Type/>.jsp?uri=<viva:GeopoliticalEntityBFO_0000050/>"><viva:GeopoliticalEntityBFO_0000050 /></a></td></tr>
       </viva:foreachGeopoliticalEntityBFO_0000050Iterator>
-      <viva:foreachGeopoliticalEntityHasAddressIterator>
-         <tr><td>hasAddress</td><td><a href="../<viva:GeopoliticalEntityHasAddressType/>/<viva:GeopoliticalEntityHasAddressType/>.jsp?uri=<viva:GeopoliticalEntityHasAddress/>"><viva:GeopoliticalEntityHasAddress /></a></td></tr>
-      </viva:foreachGeopoliticalEntityHasAddressIterator>
-      <viva:foreachGeopoliticalEntityHasTelephoneIterator>
-         <tr><td>hasTelephone</td><td><a href="../<viva:GeopoliticalEntityHasTelephoneType/>/<viva:GeopoliticalEntityHasTelephoneType/>.jsp?uri=<viva:GeopoliticalEntityHasTelephone/>"><viva:GeopoliticalEntityHasTelephone /></a></td></tr>
-      </viva:foreachGeopoliticalEntityHasTelephoneIterator>
-      <viva:foreachGeopoliticalEntityDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<viva:GeopoliticalEntityDateTimeValueType/>/<viva:GeopoliticalEntityDateTimeValueType/>.jsp?uri=<viva:GeopoliticalEntityDateTimeValue/>"><viva:GeopoliticalEntityDateTimeValue /></a></td></tr>
-      </viva:foreachGeopoliticalEntityDateTimeValueIterator>
-      <viva:foreachGeopoliticalEntityRO_0001025Iterator>
-         <tr><td>RO_0001025</td><td><a href="../<viva:GeopoliticalEntityRO_0001025Type/>/<viva:GeopoliticalEntityRO_0001025Type/>.jsp?uri=<viva:GeopoliticalEntityRO_0001025/>"><viva:GeopoliticalEntityRO_0001025 /></a></td></tr>
-      </viva:foreachGeopoliticalEntityRO_0001025Iterator>
-      <viva:foreachGeopoliticalEntityHasTitleIterator>
-         <tr><td>hasTitle</td><td><a href="../<viva:GeopoliticalEntityHasTitleType/>/<viva:GeopoliticalEntityHasTitleType/>.jsp?uri=<viva:GeopoliticalEntityHasTitle/>"><viva:GeopoliticalEntityHasTitle /></a></td></tr>
-      </viva:foreachGeopoliticalEntityHasTitleIterator>
-      <viva:foreachGeopoliticalEntityRO_0002353Iterator>
-         <tr><td>RO_0002353</td><td><a href="../<viva:GeopoliticalEntityRO_0002353Type/>/<viva:GeopoliticalEntityRO_0002353Type/>.jsp?uri=<viva:GeopoliticalEntityRO_0002353/>"><viva:GeopoliticalEntityRO_0002353 /></a></td></tr>
-      </viva:foreachGeopoliticalEntityRO_0002353Iterator>
-      <viva:foreachGeopoliticalEntityHasResearchAreaIterator>
-         <tr><td>hasResearchArea</td><td><a href="../<viva:GeopoliticalEntityHasResearchAreaType/>/<viva:GeopoliticalEntityHasResearchAreaType/>.jsp?uri=<viva:GeopoliticalEntityHasResearchArea/>"><viva:GeopoliticalEntityHasResearchArea /></a></td></tr>
-      </viva:foreachGeopoliticalEntityHasResearchAreaIterator>
-      <viva:foreachGeopoliticalEntityGeographicFocusIterator>
-         <tr><td>geographicFocus</td><td><a href="../<viva:GeopoliticalEntityGeographicFocusType/>/<viva:GeopoliticalEntityGeographicFocusType/>.jsp?uri=<viva:GeopoliticalEntityGeographicFocus/>"><viva:GeopoliticalEntityGeographicFocus /></a></td></tr>
-      </viva:foreachGeopoliticalEntityGeographicFocusIterator>
-      <viva:foreachGeopoliticalEntityHasPublicationVenueIterator>
-         <tr><td>hasPublicationVenue</td><td><a href="../<viva:GeopoliticalEntityHasPublicationVenueType/>/<viva:GeopoliticalEntityHasPublicationVenueType/>.jsp?uri=<viva:GeopoliticalEntityHasPublicationVenue/>"><viva:GeopoliticalEntityHasPublicationVenue /></a></td></tr>
-      </viva:foreachGeopoliticalEntityHasPublicationVenueIterator>
-      <viva:foreachGeopoliticalEntityHasNameIterator>
-         <tr><td>hasName</td><td><a href="../<viva:GeopoliticalEntityHasNameType/>/<viva:GeopoliticalEntityHasNameType/>.jsp?uri=<viva:GeopoliticalEntityHasName/>"><viva:GeopoliticalEntityHasName /></a></td></tr>
-      </viva:foreachGeopoliticalEntityHasNameIterator>
-      <viva:foreachGeopoliticalEntityPublicationVenueForIterator>
-         <tr><td>publicationVenueFor</td><td><a href="../<viva:GeopoliticalEntityPublicationVenueForType/>/<viva:GeopoliticalEntityPublicationVenueForType/>.jsp?uri=<viva:GeopoliticalEntityPublicationVenueFor/>"><viva:GeopoliticalEntityPublicationVenueFor /></a></td></tr>
-      </viva:foreachGeopoliticalEntityPublicationVenueForIterator>
-      <viva:foreachGeopoliticalEntityARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<viva:GeopoliticalEntityARG_2000028Type/>/<viva:GeopoliticalEntityARG_2000028Type/>.jsp?uri=<viva:GeopoliticalEntityARG_2000028/>"><viva:GeopoliticalEntityARG_2000028 /></a></td></tr>
-      </viva:foreachGeopoliticalEntityARG_2000028Iterator>
-      <viva:foreachGeopoliticalEntityPublisherIterator>
-         <tr><td>publisher</td><td><a href="../<viva:GeopoliticalEntityPublisherType/>/<viva:GeopoliticalEntityPublisherType/>.jsp?uri=<viva:GeopoliticalEntityPublisher/>"><viva:GeopoliticalEntityPublisher /></a></td></tr>
-      </viva:foreachGeopoliticalEntityPublisherIterator>
-      <viva:foreachGeopoliticalEntityRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:GeopoliticalEntityRelatedByType/>/<viva:GeopoliticalEntityRelatedByType/>.jsp?uri=<viva:GeopoliticalEntityRelatedBy/>"><viva:GeopoliticalEntityRelatedBy /></a></td></tr>
-      </viva:foreachGeopoliticalEntityRelatedByIterator>
-      <viva:foreachGeopoliticalEntityHasSubjectAreaIterator>
-         <tr><td>hasSubjectArea</td><td><a href="../<viva:GeopoliticalEntityHasSubjectAreaType/>/<viva:GeopoliticalEntityHasSubjectAreaType/>.jsp?uri=<viva:GeopoliticalEntityHasSubjectArea/>"><viva:GeopoliticalEntityHasSubjectArea /></a></td></tr>
-      </viva:foreachGeopoliticalEntityHasSubjectAreaIterator>
-      <viva:foreachGeopoliticalEntityDateTimeIntervalIterator>
-         <tr><td>dateTimeInterval</td><td><a href="../<viva:GeopoliticalEntityDateTimeIntervalType/>/<viva:GeopoliticalEntityDateTimeIntervalType/>.jsp?uri=<viva:GeopoliticalEntityDateTimeInterval/>"><viva:GeopoliticalEntityDateTimeInterval /></a></td></tr>
-      </viva:foreachGeopoliticalEntityDateTimeIntervalIterator>
-      <viva:foreachGeopoliticalEntityHasEmailIterator>
-         <tr><td>hasEmail</td><td><a href="../<viva:GeopoliticalEntityHasEmailType/>/<viva:GeopoliticalEntityHasEmailType/>.jsp?uri=<viva:GeopoliticalEntityHasEmail/>"><viva:GeopoliticalEntityHasEmail /></a></td></tr>
-      </viva:foreachGeopoliticalEntityHasEmailIterator>
-      <viva:foreachGeopoliticalEntityRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:GeopoliticalEntityRelatesType/>/<viva:GeopoliticalEntityRelatesType/>.jsp?uri=<viva:GeopoliticalEntityRelates/>"><viva:GeopoliticalEntityRelates /></a></td></tr>
-      </viva:foreachGeopoliticalEntityRelatesIterator>
-      <viva:foreachGeopoliticalEntityHasURLIterator>
-         <tr><td>hasURL</td><td><a href="../<viva:GeopoliticalEntityHasURLType/>/<viva:GeopoliticalEntityHasURLType/>.jsp?uri=<viva:GeopoliticalEntityHasURL/>"><viva:GeopoliticalEntityHasURL /></a></td></tr>
-      </viva:foreachGeopoliticalEntityHasURLIterator>
-      <viva:foreachGeopoliticalEntityRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:GeopoliticalEntityRO_0000053Type/>/<viva:GeopoliticalEntityRO_0000053Type/>.jsp?uri=<viva:GeopoliticalEntityRO_0000053/>"><viva:GeopoliticalEntityRO_0000053 /></a></td></tr>
-      </viva:foreachGeopoliticalEntityRO_0000053Iterator>
       <viva:foreachGeopoliticalEntityGeographicFocusOfIterator>
          <tr><td>geographicFocusOf</td><td><a href="../<viva:GeopoliticalEntityGeographicFocusOfType/>/<viva:GeopoliticalEntityGeographicFocusOfType/>.jsp?uri=<viva:GeopoliticalEntityGeographicFocusOf/>"><viva:GeopoliticalEntityGeographicFocusOf /></a></td></tr>
       </viva:foreachGeopoliticalEntityGeographicFocusOfIterator>
-      <viva:foreachGeopoliticalEntityRO_0002234Iterator>
-         <tr><td>RO_0002234</td><td><a href="../<viva:GeopoliticalEntityRO_0002234Type/>/<viva:GeopoliticalEntityRO_0002234Type/>.jsp?uri=<viva:GeopoliticalEntityRO_0002234/>"><viva:GeopoliticalEntityRO_0002234 /></a></td></tr>
-      </viva:foreachGeopoliticalEntityRO_0002234Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

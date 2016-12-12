@@ -328,6 +328,9 @@
       <viva:foreachThingPublicationVenueForIterator>
          <tr><td>publicationVenueFor</td><td><a href="../<viva:ThingPublicationVenueForType/>/<viva:ThingPublicationVenueForType/>.jsp?uri=<viva:ThingPublicationVenueFor/>"><viva:ThingPublicationVenueFor /></a></td></tr>
       </viva:foreachThingPublicationVenueForIterator>
+      <viva:foreachThingHasGeoIterator>
+         <tr><td>hasGeo</td><td><a href="../<viva:ThingHasGeoType/>/<viva:ThingHasGeoType/>.jsp?uri=<viva:ThingHasGeo/>"><viva:ThingHasGeo /></a></td></tr>
+      </viva:foreachThingHasGeoIterator>
       <viva:foreachThingARG_2000028Iterator>
          <tr><td>ARG_2000028</td><td><a href="../<viva:ThingARG_2000028Type/>/<viva:ThingARG_2000028Type/>.jsp?uri=<viva:ThingARG_2000028/>"><viva:ThingARG_2000028 /></a></td></tr>
       </viva:foreachThingARG_2000028Iterator>

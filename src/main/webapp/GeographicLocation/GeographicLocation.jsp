@@ -23,9 +23,6 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>placeOfPublication</td><td><viva:GeographicLocationPlaceOfPublication /></td></tr>
-      <tr><td>hideFromDisplay</td><td><viva:GeographicLocationHideFromDisplay /></td></tr>
-      <tr><td>abbreviation</td><td><viva:GeographicLocationAbbreviation /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -246,18 +243,6 @@
       <viva:foreachGeographicLocationLandAreaNotesIterator>
          <tr><td>landAreaNotes</td><td><viva:GeographicLocationLandAreaNotes /></td></tr>
       </viva:foreachGeographicLocationLandAreaNotesIterator>
-      <viva:foreachGeographicLocationRankIterator>
-         <tr><td>rank</td><td><viva:GeographicLocationRank /></td></tr>
-      </viva:foreachGeographicLocationRankIterator>
-      <viva:foreachGeographicLocationFreetextKeywordIterator>
-         <tr><td>freetextKeyword</td><td><viva:GeographicLocationFreetextKeyword /></td></tr>
-      </viva:foreachGeographicLocationFreetextKeywordIterator>
-      <viva:foreachGeographicLocationUrlIterator>
-         <tr><td>url</td><td><viva:GeographicLocationUrl /></td></tr>
-      </viva:foreachGeographicLocationUrlIterator>
-      <viva:foreachGeographicLocationDescriptionIterator>
-         <tr><td>description</td><td><viva:GeographicLocationDescription /></td></tr>
-      </viva:foreachGeographicLocationDescriptionIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -271,69 +256,6 @@
       <viva:foreachGeographicLocationBFO_0000050Iterator>
          <tr><td>BFO_0000050</td><td><a href="../<viva:GeographicLocationBFO_0000050Type/>/<viva:GeographicLocationBFO_0000050Type/>.jsp?uri=<viva:GeographicLocationBFO_0000050/>"><viva:GeographicLocationBFO_0000050 /></a></td></tr>
       </viva:foreachGeographicLocationBFO_0000050Iterator>
-      <viva:foreachGeographicLocationHasAddressIterator>
-         <tr><td>hasAddress</td><td><a href="../<viva:GeographicLocationHasAddressType/>/<viva:GeographicLocationHasAddressType/>.jsp?uri=<viva:GeographicLocationHasAddress/>"><viva:GeographicLocationHasAddress /></a></td></tr>
-      </viva:foreachGeographicLocationHasAddressIterator>
-      <viva:foreachGeographicLocationHasTelephoneIterator>
-         <tr><td>hasTelephone</td><td><a href="../<viva:GeographicLocationHasTelephoneType/>/<viva:GeographicLocationHasTelephoneType/>.jsp?uri=<viva:GeographicLocationHasTelephone/>"><viva:GeographicLocationHasTelephone /></a></td></tr>
-      </viva:foreachGeographicLocationHasTelephoneIterator>
-      <viva:foreachGeographicLocationDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<viva:GeographicLocationDateTimeValueType/>/<viva:GeographicLocationDateTimeValueType/>.jsp?uri=<viva:GeographicLocationDateTimeValue/>"><viva:GeographicLocationDateTimeValue /></a></td></tr>
-      </viva:foreachGeographicLocationDateTimeValueIterator>
-      <viva:foreachGeographicLocationRO_0001025Iterator>
-         <tr><td>RO_0001025</td><td><a href="../<viva:GeographicLocationRO_0001025Type/>/<viva:GeographicLocationRO_0001025Type/>.jsp?uri=<viva:GeographicLocationRO_0001025/>"><viva:GeographicLocationRO_0001025 /></a></td></tr>
-      </viva:foreachGeographicLocationRO_0001025Iterator>
-      <viva:foreachGeographicLocationHasTitleIterator>
-         <tr><td>hasTitle</td><td><a href="../<viva:GeographicLocationHasTitleType/>/<viva:GeographicLocationHasTitleType/>.jsp?uri=<viva:GeographicLocationHasTitle/>"><viva:GeographicLocationHasTitle /></a></td></tr>
-      </viva:foreachGeographicLocationHasTitleIterator>
-      <viva:foreachGeographicLocationRO_0002353Iterator>
-         <tr><td>RO_0002353</td><td><a href="../<viva:GeographicLocationRO_0002353Type/>/<viva:GeographicLocationRO_0002353Type/>.jsp?uri=<viva:GeographicLocationRO_0002353/>"><viva:GeographicLocationRO_0002353 /></a></td></tr>
-      </viva:foreachGeographicLocationRO_0002353Iterator>
-      <viva:foreachGeographicLocationHasResearchAreaIterator>
-         <tr><td>hasResearchArea</td><td><a href="../<viva:GeographicLocationHasResearchAreaType/>/<viva:GeographicLocationHasResearchAreaType/>.jsp?uri=<viva:GeographicLocationHasResearchArea/>"><viva:GeographicLocationHasResearchArea /></a></td></tr>
-      </viva:foreachGeographicLocationHasResearchAreaIterator>
-      <viva:foreachGeographicLocationGeographicFocusIterator>
-         <tr><td>geographicFocus</td><td><a href="../<viva:GeographicLocationGeographicFocusType/>/<viva:GeographicLocationGeographicFocusType/>.jsp?uri=<viva:GeographicLocationGeographicFocus/>"><viva:GeographicLocationGeographicFocus /></a></td></tr>
-      </viva:foreachGeographicLocationGeographicFocusIterator>
-      <viva:foreachGeographicLocationHasPublicationVenueIterator>
-         <tr><td>hasPublicationVenue</td><td><a href="../<viva:GeographicLocationHasPublicationVenueType/>/<viva:GeographicLocationHasPublicationVenueType/>.jsp?uri=<viva:GeographicLocationHasPublicationVenue/>"><viva:GeographicLocationHasPublicationVenue /></a></td></tr>
-      </viva:foreachGeographicLocationHasPublicationVenueIterator>
-      <viva:foreachGeographicLocationHasNameIterator>
-         <tr><td>hasName</td><td><a href="../<viva:GeographicLocationHasNameType/>/<viva:GeographicLocationHasNameType/>.jsp?uri=<viva:GeographicLocationHasName/>"><viva:GeographicLocationHasName /></a></td></tr>
-      </viva:foreachGeographicLocationHasNameIterator>
-      <viva:foreachGeographicLocationPublicationVenueForIterator>
-         <tr><td>publicationVenueFor</td><td><a href="../<viva:GeographicLocationPublicationVenueForType/>/<viva:GeographicLocationPublicationVenueForType/>.jsp?uri=<viva:GeographicLocationPublicationVenueFor/>"><viva:GeographicLocationPublicationVenueFor /></a></td></tr>
-      </viva:foreachGeographicLocationPublicationVenueForIterator>
-      <viva:foreachGeographicLocationARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<viva:GeographicLocationARG_2000028Type/>/<viva:GeographicLocationARG_2000028Type/>.jsp?uri=<viva:GeographicLocationARG_2000028/>"><viva:GeographicLocationARG_2000028 /></a></td></tr>
-      </viva:foreachGeographicLocationARG_2000028Iterator>
-      <viva:foreachGeographicLocationPublisherIterator>
-         <tr><td>publisher</td><td><a href="../<viva:GeographicLocationPublisherType/>/<viva:GeographicLocationPublisherType/>.jsp?uri=<viva:GeographicLocationPublisher/>"><viva:GeographicLocationPublisher /></a></td></tr>
-      </viva:foreachGeographicLocationPublisherIterator>
-      <viva:foreachGeographicLocationRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:GeographicLocationRelatedByType/>/<viva:GeographicLocationRelatedByType/>.jsp?uri=<viva:GeographicLocationRelatedBy/>"><viva:GeographicLocationRelatedBy /></a></td></tr>
-      </viva:foreachGeographicLocationRelatedByIterator>
-      <viva:foreachGeographicLocationHasSubjectAreaIterator>
-         <tr><td>hasSubjectArea</td><td><a href="../<viva:GeographicLocationHasSubjectAreaType/>/<viva:GeographicLocationHasSubjectAreaType/>.jsp?uri=<viva:GeographicLocationHasSubjectArea/>"><viva:GeographicLocationHasSubjectArea /></a></td></tr>
-      </viva:foreachGeographicLocationHasSubjectAreaIterator>
-      <viva:foreachGeographicLocationDateTimeIntervalIterator>
-         <tr><td>dateTimeInterval</td><td><a href="../<viva:GeographicLocationDateTimeIntervalType/>/<viva:GeographicLocationDateTimeIntervalType/>.jsp?uri=<viva:GeographicLocationDateTimeInterval/>"><viva:GeographicLocationDateTimeInterval /></a></td></tr>
-      </viva:foreachGeographicLocationDateTimeIntervalIterator>
-      <viva:foreachGeographicLocationHasEmailIterator>
-         <tr><td>hasEmail</td><td><a href="../<viva:GeographicLocationHasEmailType/>/<viva:GeographicLocationHasEmailType/>.jsp?uri=<viva:GeographicLocationHasEmail/>"><viva:GeographicLocationHasEmail /></a></td></tr>
-      </viva:foreachGeographicLocationHasEmailIterator>
-      <viva:foreachGeographicLocationRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:GeographicLocationRelatesType/>/<viva:GeographicLocationRelatesType/>.jsp?uri=<viva:GeographicLocationRelates/>"><viva:GeographicLocationRelates /></a></td></tr>
-      </viva:foreachGeographicLocationRelatesIterator>
-      <viva:foreachGeographicLocationHasURLIterator>
-         <tr><td>hasURL</td><td><a href="../<viva:GeographicLocationHasURLType/>/<viva:GeographicLocationHasURLType/>.jsp?uri=<viva:GeographicLocationHasURL/>"><viva:GeographicLocationHasURL /></a></td></tr>
-      </viva:foreachGeographicLocationHasURLIterator>
-      <viva:foreachGeographicLocationRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:GeographicLocationRO_0000053Type/>/<viva:GeographicLocationRO_0000053Type/>.jsp?uri=<viva:GeographicLocationRO_0000053/>"><viva:GeographicLocationRO_0000053 /></a></td></tr>
-      </viva:foreachGeographicLocationRO_0000053Iterator>
-      <viva:foreachGeographicLocationRO_0002234Iterator>
-         <tr><td>RO_0002234</td><td><a href="../<viva:GeographicLocationRO_0002234Type/>/<viva:GeographicLocationRO_0002234Type/>.jsp?uri=<viva:GeographicLocationRO_0002234/>"><viva:GeographicLocationRO_0002234 /></a></td></tr>
-      </viva:foreachGeographicLocationRO_0002234Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

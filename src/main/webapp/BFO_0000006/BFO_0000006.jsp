@@ -23,9 +23,6 @@
 
    <h3>Functional Datatype Properties</h3>
    <table>
-      <tr><td>placeOfPublication</td><td><viva:BFO_0000006PlaceOfPublication /></td></tr>
-      <tr><td>hideFromDisplay</td><td><viva:BFO_0000006HideFromDisplay /></td></tr>
-      <tr><td>abbreviation</td><td><viva:BFO_0000006Abbreviation /></td></tr>
    </table>
 
    <h3>Non-Functional Datatype Properties</h3>
@@ -246,18 +243,6 @@
       <viva:foreachBFO_0000006LandAreaNotesIterator>
          <tr><td>landAreaNotes</td><td><viva:BFO_0000006LandAreaNotes /></td></tr>
       </viva:foreachBFO_0000006LandAreaNotesIterator>
-      <viva:foreachBFO_0000006RankIterator>
-         <tr><td>rank</td><td><viva:BFO_0000006Rank /></td></tr>
-      </viva:foreachBFO_0000006RankIterator>
-      <viva:foreachBFO_0000006FreetextKeywordIterator>
-         <tr><td>freetextKeyword</td><td><viva:BFO_0000006FreetextKeyword /></td></tr>
-      </viva:foreachBFO_0000006FreetextKeywordIterator>
-      <viva:foreachBFO_0000006UrlIterator>
-         <tr><td>url</td><td><viva:BFO_0000006Url /></td></tr>
-      </viva:foreachBFO_0000006UrlIterator>
-      <viva:foreachBFO_0000006DescriptionIterator>
-         <tr><td>description</td><td><viva:BFO_0000006Description /></td></tr>
-      </viva:foreachBFO_0000006DescriptionIterator>
    </table>
 
    <h3>Object Properties</h3>
@@ -271,69 +256,6 @@
       <viva:foreachBFO_0000006BFO_0000050Iterator>
          <tr><td>BFO_0000050</td><td><a href="../<viva:BFO_0000006BFO_0000050Type/>/<viva:BFO_0000006BFO_0000050Type/>.jsp?uri=<viva:BFO_0000006BFO_0000050/>"><viva:BFO_0000006BFO_0000050 /></a></td></tr>
       </viva:foreachBFO_0000006BFO_0000050Iterator>
-      <viva:foreachBFO_0000006HasAddressIterator>
-         <tr><td>hasAddress</td><td><a href="../<viva:BFO_0000006HasAddressType/>/<viva:BFO_0000006HasAddressType/>.jsp?uri=<viva:BFO_0000006HasAddress/>"><viva:BFO_0000006HasAddress /></a></td></tr>
-      </viva:foreachBFO_0000006HasAddressIterator>
-      <viva:foreachBFO_0000006HasTelephoneIterator>
-         <tr><td>hasTelephone</td><td><a href="../<viva:BFO_0000006HasTelephoneType/>/<viva:BFO_0000006HasTelephoneType/>.jsp?uri=<viva:BFO_0000006HasTelephone/>"><viva:BFO_0000006HasTelephone /></a></td></tr>
-      </viva:foreachBFO_0000006HasTelephoneIterator>
-      <viva:foreachBFO_0000006DateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<viva:BFO_0000006DateTimeValueType/>/<viva:BFO_0000006DateTimeValueType/>.jsp?uri=<viva:BFO_0000006DateTimeValue/>"><viva:BFO_0000006DateTimeValue /></a></td></tr>
-      </viva:foreachBFO_0000006DateTimeValueIterator>
-      <viva:foreachBFO_0000006RO_0001025Iterator>
-         <tr><td>RO_0001025</td><td><a href="../<viva:BFO_0000006RO_0001025Type/>/<viva:BFO_0000006RO_0001025Type/>.jsp?uri=<viva:BFO_0000006RO_0001025/>"><viva:BFO_0000006RO_0001025 /></a></td></tr>
-      </viva:foreachBFO_0000006RO_0001025Iterator>
-      <viva:foreachBFO_0000006HasTitleIterator>
-         <tr><td>hasTitle</td><td><a href="../<viva:BFO_0000006HasTitleType/>/<viva:BFO_0000006HasTitleType/>.jsp?uri=<viva:BFO_0000006HasTitle/>"><viva:BFO_0000006HasTitle /></a></td></tr>
-      </viva:foreachBFO_0000006HasTitleIterator>
-      <viva:foreachBFO_0000006RO_0002353Iterator>
-         <tr><td>RO_0002353</td><td><a href="../<viva:BFO_0000006RO_0002353Type/>/<viva:BFO_0000006RO_0002353Type/>.jsp?uri=<viva:BFO_0000006RO_0002353/>"><viva:BFO_0000006RO_0002353 /></a></td></tr>
-      </viva:foreachBFO_0000006RO_0002353Iterator>
-      <viva:foreachBFO_0000006HasResearchAreaIterator>
-         <tr><td>hasResearchArea</td><td><a href="../<viva:BFO_0000006HasResearchAreaType/>/<viva:BFO_0000006HasResearchAreaType/>.jsp?uri=<viva:BFO_0000006HasResearchArea/>"><viva:BFO_0000006HasResearchArea /></a></td></tr>
-      </viva:foreachBFO_0000006HasResearchAreaIterator>
-      <viva:foreachBFO_0000006GeographicFocusIterator>
-         <tr><td>geographicFocus</td><td><a href="../<viva:BFO_0000006GeographicFocusType/>/<viva:BFO_0000006GeographicFocusType/>.jsp?uri=<viva:BFO_0000006GeographicFocus/>"><viva:BFO_0000006GeographicFocus /></a></td></tr>
-      </viva:foreachBFO_0000006GeographicFocusIterator>
-      <viva:foreachBFO_0000006HasPublicationVenueIterator>
-         <tr><td>hasPublicationVenue</td><td><a href="../<viva:BFO_0000006HasPublicationVenueType/>/<viva:BFO_0000006HasPublicationVenueType/>.jsp?uri=<viva:BFO_0000006HasPublicationVenue/>"><viva:BFO_0000006HasPublicationVenue /></a></td></tr>
-      </viva:foreachBFO_0000006HasPublicationVenueIterator>
-      <viva:foreachBFO_0000006HasNameIterator>
-         <tr><td>hasName</td><td><a href="../<viva:BFO_0000006HasNameType/>/<viva:BFO_0000006HasNameType/>.jsp?uri=<viva:BFO_0000006HasName/>"><viva:BFO_0000006HasName /></a></td></tr>
-      </viva:foreachBFO_0000006HasNameIterator>
-      <viva:foreachBFO_0000006PublicationVenueForIterator>
-         <tr><td>publicationVenueFor</td><td><a href="../<viva:BFO_0000006PublicationVenueForType/>/<viva:BFO_0000006PublicationVenueForType/>.jsp?uri=<viva:BFO_0000006PublicationVenueFor/>"><viva:BFO_0000006PublicationVenueFor /></a></td></tr>
-      </viva:foreachBFO_0000006PublicationVenueForIterator>
-      <viva:foreachBFO_0000006ARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<viva:BFO_0000006ARG_2000028Type/>/<viva:BFO_0000006ARG_2000028Type/>.jsp?uri=<viva:BFO_0000006ARG_2000028/>"><viva:BFO_0000006ARG_2000028 /></a></td></tr>
-      </viva:foreachBFO_0000006ARG_2000028Iterator>
-      <viva:foreachBFO_0000006PublisherIterator>
-         <tr><td>publisher</td><td><a href="../<viva:BFO_0000006PublisherType/>/<viva:BFO_0000006PublisherType/>.jsp?uri=<viva:BFO_0000006Publisher/>"><viva:BFO_0000006Publisher /></a></td></tr>
-      </viva:foreachBFO_0000006PublisherIterator>
-      <viva:foreachBFO_0000006RelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:BFO_0000006RelatedByType/>/<viva:BFO_0000006RelatedByType/>.jsp?uri=<viva:BFO_0000006RelatedBy/>"><viva:BFO_0000006RelatedBy /></a></td></tr>
-      </viva:foreachBFO_0000006RelatedByIterator>
-      <viva:foreachBFO_0000006HasSubjectAreaIterator>
-         <tr><td>hasSubjectArea</td><td><a href="../<viva:BFO_0000006HasSubjectAreaType/>/<viva:BFO_0000006HasSubjectAreaType/>.jsp?uri=<viva:BFO_0000006HasSubjectArea/>"><viva:BFO_0000006HasSubjectArea /></a></td></tr>
-      </viva:foreachBFO_0000006HasSubjectAreaIterator>
-      <viva:foreachBFO_0000006DateTimeIntervalIterator>
-         <tr><td>dateTimeInterval</td><td><a href="../<viva:BFO_0000006DateTimeIntervalType/>/<viva:BFO_0000006DateTimeIntervalType/>.jsp?uri=<viva:BFO_0000006DateTimeInterval/>"><viva:BFO_0000006DateTimeInterval /></a></td></tr>
-      </viva:foreachBFO_0000006DateTimeIntervalIterator>
-      <viva:foreachBFO_0000006HasEmailIterator>
-         <tr><td>hasEmail</td><td><a href="../<viva:BFO_0000006HasEmailType/>/<viva:BFO_0000006HasEmailType/>.jsp?uri=<viva:BFO_0000006HasEmail/>"><viva:BFO_0000006HasEmail /></a></td></tr>
-      </viva:foreachBFO_0000006HasEmailIterator>
-      <viva:foreachBFO_0000006RelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:BFO_0000006RelatesType/>/<viva:BFO_0000006RelatesType/>.jsp?uri=<viva:BFO_0000006Relates/>"><viva:BFO_0000006Relates /></a></td></tr>
-      </viva:foreachBFO_0000006RelatesIterator>
-      <viva:foreachBFO_0000006HasURLIterator>
-         <tr><td>hasURL</td><td><a href="../<viva:BFO_0000006HasURLType/>/<viva:BFO_0000006HasURLType/>.jsp?uri=<viva:BFO_0000006HasURL/>"><viva:BFO_0000006HasURL /></a></td></tr>
-      </viva:foreachBFO_0000006HasURLIterator>
-      <viva:foreachBFO_0000006RO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:BFO_0000006RO_0000053Type/>/<viva:BFO_0000006RO_0000053Type/>.jsp?uri=<viva:BFO_0000006RO_0000053/>"><viva:BFO_0000006RO_0000053 /></a></td></tr>
-      </viva:foreachBFO_0000006RO_0000053Iterator>
-      <viva:foreachBFO_0000006RO_0002234Iterator>
-         <tr><td>RO_0002234</td><td><a href="../<viva:BFO_0000006RO_0002234Type/>/<viva:BFO_0000006RO_0002234Type/>.jsp?uri=<viva:BFO_0000006RO_0002234/>"><viva:BFO_0000006RO_0002234 /></a></td></tr>
-      </viva:foreachBFO_0000006RO_0002234Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

@@ -7,16 +7,16 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>area List - http://aims.fao.org/aos/geopolitical.owl#area</title>
+<title>Non_self_governing List - http://aims.fao.org/aos/geopolitical.owl#non_self_governing</title>
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
 <ul>
-<viva:foreacharea>
-   <viva:area>
-      <li><a href="area.jsp?uri=<viva:areaSubjectURI/>"><viva:areaLabel/></a>
-   </viva:area>
-</viva:foreacharea>
+<viva:foreachNon_self_governing>
+   <viva:Non_self_governing>
+      <li><a href="Non_self_governing.jsp?uri=<viva:Non_self_governingSubjectURI/>"><viva:Non_self_governingLabel/></a>
+   </viva:Non_self_governing>
+</viva:foreachNon_self_governing>
 </ul>
 
 <jsp:include page="/footer.jsp" flush="true" /></div></div></body>

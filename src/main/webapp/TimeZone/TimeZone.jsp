@@ -31,15 +31,6 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachTimeZoneHasAddressIterator>
-         <tr><td>hasAddress</td><td><a href="../<viva:TimeZoneHasAddressType/>/<viva:TimeZoneHasAddressType/>.jsp?uri=<viva:TimeZoneHasAddress/>"><viva:TimeZoneHasAddress /></a></td></tr>
-      </viva:foreachTimeZoneHasAddressIterator>
-      <viva:foreachTimeZoneHasEmailIterator>
-         <tr><td>hasEmail</td><td><a href="../<viva:TimeZoneHasEmailType/>/<viva:TimeZoneHasEmailType/>.jsp?uri=<viva:TimeZoneHasEmail/>"><viva:TimeZoneHasEmail /></a></td></tr>
-      </viva:foreachTimeZoneHasEmailIterator>
-      <viva:foreachTimeZoneHasURLIterator>
-         <tr><td>hasURL</td><td><a href="../<viva:TimeZoneHasURLType/>/<viva:TimeZoneHasURLType/>.jsp?uri=<viva:TimeZoneHasURL/>"><viva:TimeZoneHasURL /></a></td></tr>
-      </viva:foreachTimeZoneHasURLIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

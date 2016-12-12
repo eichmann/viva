@@ -7,16 +7,16 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>territory List - http://aims.fao.org/aos/geopolitical.owl#territory</title>
+<title>Territory List - http://aims.fao.org/aos/geopolitical.owl#territory</title>
 <style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
 <ul>
-<viva:foreachterritory>
-   <viva:territory>
-      <li><a href="territory.jsp?uri=<viva:territorySubjectURI/>"><viva:territoryLabel/></a>
-   </viva:territory>
-</viva:foreachterritory>
+<viva:foreachTerritory>
+   <viva:Territory>
+      <li><a href="Territory.jsp?uri=<viva:TerritorySubjectURI/>"><viva:TerritoryLabel/></a>
+   </viva:Territory>
+</viva:foreachTerritory>
 </ul>
 
 <jsp:include page="/footer.jsp" flush="true" /></div></div></body>

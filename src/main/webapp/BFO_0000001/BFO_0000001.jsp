@@ -301,6 +301,9 @@
       <viva:foreachBFO_0000001PublicationVenueForIterator>
          <tr><td>publicationVenueFor</td><td><a href="../<viva:BFO_0000001PublicationVenueForType/>/<viva:BFO_0000001PublicationVenueForType/>.jsp?uri=<viva:BFO_0000001PublicationVenueFor/>"><viva:BFO_0000001PublicationVenueFor /></a></td></tr>
       </viva:foreachBFO_0000001PublicationVenueForIterator>
+      <viva:foreachBFO_0000001HasGeoIterator>
+         <tr><td>hasGeo</td><td><a href="../<viva:BFO_0000001HasGeoType/>/<viva:BFO_0000001HasGeoType/>.jsp?uri=<viva:BFO_0000001HasGeo/>"><viva:BFO_0000001HasGeo /></a></td></tr>
+      </viva:foreachBFO_0000001HasGeoIterator>
       <viva:foreachBFO_0000001ARG_2000028Iterator>
          <tr><td>ARG_2000028</td><td><a href="../<viva:BFO_0000001ARG_2000028Type/>/<viva:BFO_0000001ARG_2000028Type/>.jsp?uri=<viva:BFO_0000001ARG_2000028/>"><viva:BFO_0000001ARG_2000028 /></a></td></tr>
       </viva:foreachBFO_0000001ARG_2000028Iterator>
