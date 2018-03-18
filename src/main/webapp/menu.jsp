@@ -2,8 +2,7 @@
 <div id=leftCol>
 <br>
 <h3><a href="<util:applicationRoot/>/index.jsp">Home</a></h3>
-<ul>
-</ul>
+<h3><a href="<util:applicationRoot/>/Person/altPersonList.jsp">People</h3>
 <h3>Classes</h3>
 <ul>
 <li><a href="<util:applicationRoot/>/classHierarchy.jsp">Class Hierarchy</a>

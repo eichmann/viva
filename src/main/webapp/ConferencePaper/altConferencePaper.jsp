@@ -23,6 +23,10 @@
          <b>DOI:</b> <a href="http://dx.doi.org/<viva:ConferencePaperDoi />"><viva:ConferencePaperDoi /></a>
       </viva:foreachConferencePaperDoiIterator>
       
+      <viva:foreachConferencePaperTheAbstractIterator>
+         <p><b>Abstract:</b> <viva:ConferencePaperTheAbstract />
+      </viva:foreachConferencePaperTheAbstractIterator>
+      
    <h3>Authors</h3>
       <ol class=bulletedList>
       <viva:foreachConferencePaperRelatedByIterator classFilter="Authorship">

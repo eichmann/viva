@@ -2,6 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="viva" uri="http://slis.uiowa.edu/VIVOISF"%>
 <%@ taglib prefix="util" uri="http://icts.uiowa.edu/tagUtil"%>
+<%@ taglib prefix = "fn" uri = "http://java.sun.com/jsp/jstl/functions" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -18,8 +19,13 @@
       <p>
       <viva:foreachConferencePosterDoiIterator>
          <b>DOI:</b> <a href="http://dx.doi.org/<viva:ConferencePosterDoi />"><viva:ConferencePosterDoi /></a>
+         <c:set var="doi"><viva:ConferencePosterDoi/></c:set>
       </viva:foreachConferencePosterDoiIterator>
       
+      <viva:foreachConferencePosterTheAbstractIterator>
+         <p><b>Abstract:</b> <viva:ConferencePosterTheAbstract />
+      </viva:foreachConferencePosterTheAbstractIterator>
+
   <h3>Authors</h3>
       <ol class=bulletedList>
       <viva:foreachConferencePosterRelatedByIterator classFilter="Authorship">
@@ -33,6 +39,10 @@
       </viva:foreachConferencePosterRelatedByIterator>
       </ol>
    </viva:ConferencePoster>
+
+   <c:if test="${fn:contains(doi,'figshare')}">
+        <iframe src="https://widgets.figshare.com/articles/${fn:substringAfter(doi, "figshare.")}/embed?show_title=0" width="568" height="426" frameborder="0"></iframe>
+   </c:if>
 
 <jsp:include page="/footer.jsp" flush="true" /></div></div></body>
 </html>

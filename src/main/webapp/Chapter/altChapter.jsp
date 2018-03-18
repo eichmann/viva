@@ -22,6 +22,10 @@
       <viva:foreachChapterDoiIterator>
          <b>DOI:</b> <a href="http://dx.doi.org/<viva:ChapterDoi />"><viva:ChapterDoi /></a>
       </viva:foreachChapterDoiIterator>
+
+      <viva:foreachChapterTheAbstractIterator>
+         <p><b>Abstract:</b> <viva:ChapterTheAbstract />
+      </viva:foreachChapterTheAbstractIterator>
       
    <h3>Authors</h3>
       <ol class=bulletedList>
