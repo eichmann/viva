@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Dataset - http://vivoweb.org/ontology/core#Dataset</title>
-<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<style type="text/css" media="all">    @import "<util:applicationRoot/>/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altDataset.jsp?uri=${param.uri}">alternate view</a></p>
@@ -37,20 +37,70 @@
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachDatasetRelatedByIterator>
+         <tr><td>relatedBy</td><td>
+            <c:set var="localType"><viva:DatasetRelatedByType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:DatasetRelatedBy/>"><viva:DatasetRelatedBy/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:DatasetRelatedByType/>/<viva:DatasetRelatedByType/>.jsp?uri=<viva:DatasetRelatedBy/>"><viva:DatasetRelatedBy /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachDatasetRelatedByIterator>
+      <viva:foreachDatasetARG_2000028Iterator>
+         <tr><td>ARG_2000028</td><td>
+            <c:set var="localType"><viva:DatasetARG_2000028Type/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:DatasetARG_2000028/>"><viva:DatasetARG_2000028/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:DatasetARG_2000028Type/>/<viva:DatasetARG_2000028Type/>.jsp?uri=<viva:DatasetARG_2000028/>"><viva:DatasetARG_2000028 /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachDatasetARG_2000028Iterator>
       <viva:foreachDatasetDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<viva:DatasetDateTimeValueType/>/<viva:DatasetDateTimeValueType/>.jsp?uri=<viva:DatasetDateTimeValue/>"><viva:DatasetDateTimeValue /></a></td></tr>
+         <tr><td>dateTimeValue</td><td>
+            <c:set var="localType"><viva:DatasetDateTimeValueType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:DatasetDateTimeValue/>"><viva:DatasetDateTimeValue/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:DatasetDateTimeValueType/>/<viva:DatasetDateTimeValueType/>.jsp?uri=<viva:DatasetDateTimeValue/>"><viva:DatasetDateTimeValue /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachDatasetDateTimeValueIterator>
       <viva:foreachDatasetRO_0002353Iterator>
-         <tr><td>RO_0002353</td><td><a href="../<viva:DatasetRO_0002353Type/>/<viva:DatasetRO_0002353Type/>.jsp?uri=<viva:DatasetRO_0002353/>"><viva:DatasetRO_0002353 /></a></td></tr>
+         <tr><td>RO_0002353</td><td>
+            <c:set var="localType"><viva:DatasetRO_0002353Type/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:DatasetRO_0002353/>"><viva:DatasetRO_0002353/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:DatasetRO_0002353Type/>/<viva:DatasetRO_0002353Type/>.jsp?uri=<viva:DatasetRO_0002353/>"><viva:DatasetRO_0002353 /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachDatasetRO_0002353Iterator>
-      <viva:foreachDatasetARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<viva:DatasetARG_2000028Type/>/<viva:DatasetARG_2000028Type/>.jsp?uri=<viva:DatasetARG_2000028/>"><viva:DatasetARG_2000028 /></a></td></tr>
-      </viva:foreachDatasetARG_2000028Iterator>
-      <viva:foreachDatasetRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:DatasetRelatedByType/>/<viva:DatasetRelatedByType/>.jsp?uri=<viva:DatasetRelatedBy/>"><viva:DatasetRelatedBy /></a></td></tr>
-      </viva:foreachDatasetRelatedByIterator>
       <viva:foreachDatasetRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:DatasetRelatesType/>/<viva:DatasetRelatesType/>.jsp?uri=<viva:DatasetRelates/>"><viva:DatasetRelates /></a></td></tr>
+         <tr><td>relates</td><td>
+            <c:set var="localType"><viva:DatasetRelatesType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:DatasetRelates/>"><viva:DatasetRelates/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:DatasetRelatesType/>/<viva:DatasetRelatesType/>.jsp?uri=<viva:DatasetRelates/>"><viva:DatasetRelates /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachDatasetRelatesIterator>
    </table>
 

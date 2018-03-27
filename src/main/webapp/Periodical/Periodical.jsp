@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Periodical - http://purl.org/ontology/bibo/Periodical</title>
-<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<style type="text/css" media="all">    @import "<util:applicationRoot/>/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altPeriodical.jsp?uri=${param.uri}">alternate view</a></p>
@@ -31,21 +31,41 @@
       <viva:foreachPeriodicalEissnIterator>
          <tr><td>eissn</td><td><viva:PeriodicalEissn /></td></tr>
       </viva:foreachPeriodicalEissnIterator>
-      <viva:foreachPeriodicalIssnIterator>
-         <tr><td>issn</td><td><viva:PeriodicalIssn /></td></tr>
-      </viva:foreachPeriodicalIssnIterator>
       <viva:foreachPeriodicalIdentifierIterator>
          <tr><td>identifier</td><td><viva:PeriodicalIdentifier /></td></tr>
       </viva:foreachPeriodicalIdentifierIterator>
+      <viva:foreachPeriodicalIssnIterator>
+         <tr><td>issn</td><td><viva:PeriodicalIssn /></td></tr>
+      </viva:foreachPeriodicalIssnIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
       <viva:foreachPeriodicalPublicationVenueForIterator>
-         <tr><td>publicationVenueFor</td><td><a href="../<viva:PeriodicalPublicationVenueForType/>/<viva:PeriodicalPublicationVenueForType/>.jsp?uri=<viva:PeriodicalPublicationVenueFor/>"><viva:PeriodicalPublicationVenueFor /></a></td></tr>
+         <tr><td>publicationVenueFor</td><td>
+            <c:set var="localType"><viva:PeriodicalPublicationVenueForType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:PeriodicalPublicationVenueFor/>"><viva:PeriodicalPublicationVenueFor/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:PeriodicalPublicationVenueForType/>/<viva:PeriodicalPublicationVenueForType/>.jsp?uri=<viva:PeriodicalPublicationVenueFor/>"><viva:PeriodicalPublicationVenueFor /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachPeriodicalPublicationVenueForIterator>
       <viva:foreachPeriodicalPublisherIterator>
-         <tr><td>publisher</td><td><a href="../<viva:PeriodicalPublisherType/>/<viva:PeriodicalPublisherType/>.jsp?uri=<viva:PeriodicalPublisher/>"><viva:PeriodicalPublisher /></a></td></tr>
+         <tr><td>publisher</td><td>
+            <c:set var="localType"><viva:PeriodicalPublisherType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:PeriodicalPublisher/>"><viva:PeriodicalPublisher/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:PeriodicalPublisherType/>/<viva:PeriodicalPublisherType/>.jsp?uri=<viva:PeriodicalPublisher/>"><viva:PeriodicalPublisher /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachPeriodicalPublisherIterator>
    </table>
 

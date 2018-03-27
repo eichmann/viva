@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>ConferencePoster - http://vivoweb.org/ontology/core#ConferencePoster</title>
-<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<style type="text/css" media="all">    @import "<util:applicationRoot/>/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altConferencePoster.jsp?uri=${param.uri}">alternate view</a></p>
@@ -37,20 +37,70 @@
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachConferencePosterRelatedByIterator>
+         <tr><td>relatedBy</td><td>
+            <c:set var="localType"><viva:ConferencePosterRelatedByType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:ConferencePosterRelatedBy/>"><viva:ConferencePosterRelatedBy/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:ConferencePosterRelatedByType/>/<viva:ConferencePosterRelatedByType/>.jsp?uri=<viva:ConferencePosterRelatedBy/>"><viva:ConferencePosterRelatedBy /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachConferencePosterRelatedByIterator>
+      <viva:foreachConferencePosterARG_2000028Iterator>
+         <tr><td>ARG_2000028</td><td>
+            <c:set var="localType"><viva:ConferencePosterARG_2000028Type/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:ConferencePosterARG_2000028/>"><viva:ConferencePosterARG_2000028/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:ConferencePosterARG_2000028Type/>/<viva:ConferencePosterARG_2000028Type/>.jsp?uri=<viva:ConferencePosterARG_2000028/>"><viva:ConferencePosterARG_2000028 /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachConferencePosterARG_2000028Iterator>
       <viva:foreachConferencePosterDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<viva:ConferencePosterDateTimeValueType/>/<viva:ConferencePosterDateTimeValueType/>.jsp?uri=<viva:ConferencePosterDateTimeValue/>"><viva:ConferencePosterDateTimeValue /></a></td></tr>
+         <tr><td>dateTimeValue</td><td>
+            <c:set var="localType"><viva:ConferencePosterDateTimeValueType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:ConferencePosterDateTimeValue/>"><viva:ConferencePosterDateTimeValue/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:ConferencePosterDateTimeValueType/>/<viva:ConferencePosterDateTimeValueType/>.jsp?uri=<viva:ConferencePosterDateTimeValue/>"><viva:ConferencePosterDateTimeValue /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachConferencePosterDateTimeValueIterator>
       <viva:foreachConferencePosterRO_0002353Iterator>
-         <tr><td>RO_0002353</td><td><a href="../<viva:ConferencePosterRO_0002353Type/>/<viva:ConferencePosterRO_0002353Type/>.jsp?uri=<viva:ConferencePosterRO_0002353/>"><viva:ConferencePosterRO_0002353 /></a></td></tr>
+         <tr><td>RO_0002353</td><td>
+            <c:set var="localType"><viva:ConferencePosterRO_0002353Type/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:ConferencePosterRO_0002353/>"><viva:ConferencePosterRO_0002353/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:ConferencePosterRO_0002353Type/>/<viva:ConferencePosterRO_0002353Type/>.jsp?uri=<viva:ConferencePosterRO_0002353/>"><viva:ConferencePosterRO_0002353 /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachConferencePosterRO_0002353Iterator>
-      <viva:foreachConferencePosterARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<viva:ConferencePosterARG_2000028Type/>/<viva:ConferencePosterARG_2000028Type/>.jsp?uri=<viva:ConferencePosterARG_2000028/>"><viva:ConferencePosterARG_2000028 /></a></td></tr>
-      </viva:foreachConferencePosterARG_2000028Iterator>
-      <viva:foreachConferencePosterRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:ConferencePosterRelatedByType/>/<viva:ConferencePosterRelatedByType/>.jsp?uri=<viva:ConferencePosterRelatedBy/>"><viva:ConferencePosterRelatedBy /></a></td></tr>
-      </viva:foreachConferencePosterRelatedByIterator>
       <viva:foreachConferencePosterRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:ConferencePosterRelatesType/>/<viva:ConferencePosterRelatesType/>.jsp?uri=<viva:ConferencePosterRelates/>"><viva:ConferencePosterRelates /></a></td></tr>
+         <tr><td>relates</td><td>
+            <c:set var="localType"><viva:ConferencePosterRelatesType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:ConferencePosterRelates/>"><viva:ConferencePosterRelates/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:ConferencePosterRelatesType/>/<viva:ConferencePosterRelatesType/>.jsp?uri=<viva:ConferencePosterRelates/>"><viva:ConferencePosterRelates /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachConferencePosterRelatesIterator>
    </table>
 

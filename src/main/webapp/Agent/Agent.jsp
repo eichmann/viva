@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Agent - http://xmlns.com/foaf/0.1/Agent</title>
-<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<style type="text/css" media="all">    @import "<util:applicationRoot/>/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altAgent.jsp?uri=${param.uri}">alternate view</a></p>
@@ -37,22 +37,82 @@
    <h3>Object Properties</h3>
    <table>
       <viva:foreachAgentRO_0001025Iterator>
-         <tr><td>RO_0001025</td><td><a href="../<viva:AgentRO_0001025Type/>/<viva:AgentRO_0001025Type/>.jsp?uri=<viva:AgentRO_0001025/>"><viva:AgentRO_0001025 /></a></td></tr>
+         <tr><td>RO_0001025</td><td>
+            <c:set var="localType"><viva:AgentRO_0001025Type/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:AgentRO_0001025/>"><viva:AgentRO_0001025/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:AgentRO_0001025Type/>/<viva:AgentRO_0001025Type/>.jsp?uri=<viva:AgentRO_0001025/>"><viva:AgentRO_0001025 /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachAgentRO_0001025Iterator>
-      <viva:foreachAgentHasResearchAreaIterator>
-         <tr><td>hasResearchArea</td><td><a href="../<viva:AgentHasResearchAreaType/>/<viva:AgentHasResearchAreaType/>.jsp?uri=<viva:AgentHasResearchArea/>"><viva:AgentHasResearchArea /></a></td></tr>
-      </viva:foreachAgentHasResearchAreaIterator>
       <viva:foreachAgentGeographicFocusIterator>
-         <tr><td>geographicFocus</td><td><a href="../<viva:AgentGeographicFocusType/>/<viva:AgentGeographicFocusType/>.jsp?uri=<viva:AgentGeographicFocus/>"><viva:AgentGeographicFocus /></a></td></tr>
+         <tr><td>geographicFocus</td><td>
+            <c:set var="localType"><viva:AgentGeographicFocusType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:AgentGeographicFocus/>"><viva:AgentGeographicFocus/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:AgentGeographicFocusType/>/<viva:AgentGeographicFocusType/>.jsp?uri=<viva:AgentGeographicFocus/>"><viva:AgentGeographicFocus /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachAgentGeographicFocusIterator>
-      <viva:foreachAgentARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<viva:AgentARG_2000028Type/>/<viva:AgentARG_2000028Type/>.jsp?uri=<viva:AgentARG_2000028/>"><viva:AgentARG_2000028 /></a></td></tr>
-      </viva:foreachAgentARG_2000028Iterator>
       <viva:foreachAgentRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:AgentRelatedByType/>/<viva:AgentRelatedByType/>.jsp?uri=<viva:AgentRelatedBy/>"><viva:AgentRelatedBy /></a></td></tr>
+         <tr><td>relatedBy</td><td>
+            <c:set var="localType"><viva:AgentRelatedByType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:AgentRelatedBy/>"><viva:AgentRelatedBy/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:AgentRelatedByType/>/<viva:AgentRelatedByType/>.jsp?uri=<viva:AgentRelatedBy/>"><viva:AgentRelatedBy /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachAgentRelatedByIterator>
+      <viva:foreachAgentARG_2000028Iterator>
+         <tr><td>ARG_2000028</td><td>
+            <c:set var="localType"><viva:AgentARG_2000028Type/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:AgentARG_2000028/>"><viva:AgentARG_2000028/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:AgentARG_2000028Type/>/<viva:AgentARG_2000028Type/>.jsp?uri=<viva:AgentARG_2000028/>"><viva:AgentARG_2000028 /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachAgentARG_2000028Iterator>
+      <viva:foreachAgentHasResearchAreaIterator>
+         <tr><td>hasResearchArea</td><td>
+            <c:set var="localType"><viva:AgentHasResearchAreaType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:AgentHasResearchArea/>"><viva:AgentHasResearchArea/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:AgentHasResearchAreaType/>/<viva:AgentHasResearchAreaType/>.jsp?uri=<viva:AgentHasResearchArea/>"><viva:AgentHasResearchArea /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachAgentHasResearchAreaIterator>
       <viva:foreachAgentRO_0000053Iterator>
-         <tr><td>RO_0000053</td><td><a href="../<viva:AgentRO_0000053Type/>/<viva:AgentRO_0000053Type/>.jsp?uri=<viva:AgentRO_0000053/>"><viva:AgentRO_0000053 /></a></td></tr>
+         <tr><td>RO_0000053</td><td>
+            <c:set var="localType"><viva:AgentRO_0000053Type/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:AgentRO_0000053/>"><viva:AgentRO_0000053/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:AgentRO_0000053Type/>/<viva:AgentRO_0000053Type/>.jsp?uri=<viva:AgentRO_0000053/>"><viva:AgentRO_0000053 /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachAgentRO_0000053Iterator>
    </table>
 

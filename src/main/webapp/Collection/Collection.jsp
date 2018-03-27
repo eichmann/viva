@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Collection - http://purl.org/ontology/bibo/Collection</title>
-<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<style type="text/css" media="all">    @import "<util:applicationRoot/>/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altCollection.jsp?uri=${param.uri}">alternate view</a></p>
@@ -31,12 +31,12 @@
       <viva:foreachCollectionEissnIterator>
          <tr><td>eissn</td><td><viva:CollectionEissn /></td></tr>
       </viva:foreachCollectionEissnIterator>
-      <viva:foreachCollectionIssnIterator>
-         <tr><td>issn</td><td><viva:CollectionIssn /></td></tr>
-      </viva:foreachCollectionIssnIterator>
       <viva:foreachCollectionIdentifierIterator>
          <tr><td>identifier</td><td><viva:CollectionIdentifier /></td></tr>
       </viva:foreachCollectionIdentifierIterator>
+      <viva:foreachCollectionIssnIterator>
+         <tr><td>issn</td><td><viva:CollectionIssn /></td></tr>
+      </viva:foreachCollectionIssnIterator>
       <viva:foreachCollectionTheAbstractIterator>
          <tr><td>theAbstract</td><td><viva:CollectionTheAbstract /></td></tr>
       </viva:foreachCollectionTheAbstractIterator>
@@ -47,24 +47,84 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachCollectionDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<viva:CollectionDateTimeValueType/>/<viva:CollectionDateTimeValueType/>.jsp?uri=<viva:CollectionDateTimeValue/>"><viva:CollectionDateTimeValue /></a></td></tr>
-      </viva:foreachCollectionDateTimeValueIterator>
-      <viva:foreachCollectionRO_0002353Iterator>
-         <tr><td>RO_0002353</td><td><a href="../<viva:CollectionRO_0002353Type/>/<viva:CollectionRO_0002353Type/>.jsp?uri=<viva:CollectionRO_0002353/>"><viva:CollectionRO_0002353 /></a></td></tr>
-      </viva:foreachCollectionRO_0002353Iterator>
-      <viva:foreachCollectionPublicationVenueForIterator>
-         <tr><td>publicationVenueFor</td><td><a href="../<viva:CollectionPublicationVenueForType/>/<viva:CollectionPublicationVenueForType/>.jsp?uri=<viva:CollectionPublicationVenueFor/>"><viva:CollectionPublicationVenueFor /></a></td></tr>
-      </viva:foreachCollectionPublicationVenueForIterator>
-      <viva:foreachCollectionARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<viva:CollectionARG_2000028Type/>/<viva:CollectionARG_2000028Type/>.jsp?uri=<viva:CollectionARG_2000028/>"><viva:CollectionARG_2000028 /></a></td></tr>
-      </viva:foreachCollectionARG_2000028Iterator>
-      <viva:foreachCollectionPublisherIterator>
-         <tr><td>publisher</td><td><a href="../<viva:CollectionPublisherType/>/<viva:CollectionPublisherType/>.jsp?uri=<viva:CollectionPublisher/>"><viva:CollectionPublisher /></a></td></tr>
-      </viva:foreachCollectionPublisherIterator>
       <viva:foreachCollectionRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:CollectionRelatedByType/>/<viva:CollectionRelatedByType/>.jsp?uri=<viva:CollectionRelatedBy/>"><viva:CollectionRelatedBy /></a></td></tr>
+         <tr><td>relatedBy</td><td>
+            <c:set var="localType"><viva:CollectionRelatedByType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:CollectionRelatedBy/>"><viva:CollectionRelatedBy/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:CollectionRelatedByType/>/<viva:CollectionRelatedByType/>.jsp?uri=<viva:CollectionRelatedBy/>"><viva:CollectionRelatedBy /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachCollectionRelatedByIterator>
+      <viva:foreachCollectionARG_2000028Iterator>
+         <tr><td>ARG_2000028</td><td>
+            <c:set var="localType"><viva:CollectionARG_2000028Type/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:CollectionARG_2000028/>"><viva:CollectionARG_2000028/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:CollectionARG_2000028Type/>/<viva:CollectionARG_2000028Type/>.jsp?uri=<viva:CollectionARG_2000028/>"><viva:CollectionARG_2000028 /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachCollectionARG_2000028Iterator>
+      <viva:foreachCollectionDateTimeValueIterator>
+         <tr><td>dateTimeValue</td><td>
+            <c:set var="localType"><viva:CollectionDateTimeValueType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:CollectionDateTimeValue/>"><viva:CollectionDateTimeValue/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:CollectionDateTimeValueType/>/<viva:CollectionDateTimeValueType/>.jsp?uri=<viva:CollectionDateTimeValue/>"><viva:CollectionDateTimeValue /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachCollectionDateTimeValueIterator>
+      <viva:foreachCollectionPublicationVenueForIterator>
+         <tr><td>publicationVenueFor</td><td>
+            <c:set var="localType"><viva:CollectionPublicationVenueForType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:CollectionPublicationVenueFor/>"><viva:CollectionPublicationVenueFor/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:CollectionPublicationVenueForType/>/<viva:CollectionPublicationVenueForType/>.jsp?uri=<viva:CollectionPublicationVenueFor/>"><viva:CollectionPublicationVenueFor /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachCollectionPublicationVenueForIterator>
+      <viva:foreachCollectionRO_0002353Iterator>
+         <tr><td>RO_0002353</td><td>
+            <c:set var="localType"><viva:CollectionRO_0002353Type/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:CollectionRO_0002353/>"><viva:CollectionRO_0002353/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:CollectionRO_0002353Type/>/<viva:CollectionRO_0002353Type/>.jsp?uri=<viva:CollectionRO_0002353/>"><viva:CollectionRO_0002353 /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachCollectionRO_0002353Iterator>
+      <viva:foreachCollectionPublisherIterator>
+         <tr><td>publisher</td><td>
+            <c:set var="localType"><viva:CollectionPublisherType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:CollectionPublisher/>"><viva:CollectionPublisher/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:CollectionPublisherType/>/<viva:CollectionPublisherType/>.jsp?uri=<viva:CollectionPublisher/>"><viva:CollectionPublisher /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachCollectionPublisherIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

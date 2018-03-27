@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>ConferencePaper - http://vivoweb.org/ontology/core#ConferencePaper</title>
-<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<style type="text/css" media="all">    @import "<util:applicationRoot/>/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altConferencePaper.jsp?uri=${param.uri}">alternate view</a></p>
@@ -37,23 +37,83 @@
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachConferencePaperRelatedByIterator>
+         <tr><td>relatedBy</td><td>
+            <c:set var="localType"><viva:ConferencePaperRelatedByType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:ConferencePaperRelatedBy/>"><viva:ConferencePaperRelatedBy/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:ConferencePaperRelatedByType/>/<viva:ConferencePaperRelatedByType/>.jsp?uri=<viva:ConferencePaperRelatedBy/>"><viva:ConferencePaperRelatedBy /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachConferencePaperRelatedByIterator>
+      <viva:foreachConferencePaperARG_2000028Iterator>
+         <tr><td>ARG_2000028</td><td>
+            <c:set var="localType"><viva:ConferencePaperARG_2000028Type/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:ConferencePaperARG_2000028/>"><viva:ConferencePaperARG_2000028/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:ConferencePaperARG_2000028Type/>/<viva:ConferencePaperARG_2000028Type/>.jsp?uri=<viva:ConferencePaperARG_2000028/>"><viva:ConferencePaperARG_2000028 /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachConferencePaperARG_2000028Iterator>
+      <viva:foreachConferencePaperHasPublicationVenueIterator>
+         <tr><td>hasPublicationVenue</td><td>
+            <c:set var="localType"><viva:ConferencePaperHasPublicationVenueType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:ConferencePaperHasPublicationVenue/>"><viva:ConferencePaperHasPublicationVenue/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:ConferencePaperHasPublicationVenueType/>/<viva:ConferencePaperHasPublicationVenueType/>.jsp?uri=<viva:ConferencePaperHasPublicationVenue/>"><viva:ConferencePaperHasPublicationVenue /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachConferencePaperHasPublicationVenueIterator>
       <viva:foreachConferencePaperDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<viva:ConferencePaperDateTimeValueType/>/<viva:ConferencePaperDateTimeValueType/>.jsp?uri=<viva:ConferencePaperDateTimeValue/>"><viva:ConferencePaperDateTimeValue /></a></td></tr>
+         <tr><td>dateTimeValue</td><td>
+            <c:set var="localType"><viva:ConferencePaperDateTimeValueType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:ConferencePaperDateTimeValue/>"><viva:ConferencePaperDateTimeValue/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:ConferencePaperDateTimeValueType/>/<viva:ConferencePaperDateTimeValueType/>.jsp?uri=<viva:ConferencePaperDateTimeValue/>"><viva:ConferencePaperDateTimeValue /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachConferencePaperDateTimeValueIterator>
       <viva:foreachConferencePaperRO_0002353Iterator>
-         <tr><td>RO_0002353</td><td><a href="../<viva:ConferencePaperRO_0002353Type/>/<viva:ConferencePaperRO_0002353Type/>.jsp?uri=<viva:ConferencePaperRO_0002353/>"><viva:ConferencePaperRO_0002353 /></a></td></tr>
+         <tr><td>RO_0002353</td><td>
+            <c:set var="localType"><viva:ConferencePaperRO_0002353Type/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:ConferencePaperRO_0002353/>"><viva:ConferencePaperRO_0002353/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:ConferencePaperRO_0002353Type/>/<viva:ConferencePaperRO_0002353Type/>.jsp?uri=<viva:ConferencePaperRO_0002353/>"><viva:ConferencePaperRO_0002353 /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachConferencePaperRO_0002353Iterator>
-      <viva:foreachConferencePaperHasPublicationVenueIterator>
-         <tr><td>hasPublicationVenue</td><td><a href="../<viva:ConferencePaperHasPublicationVenueType/>/<viva:ConferencePaperHasPublicationVenueType/>.jsp?uri=<viva:ConferencePaperHasPublicationVenue/>"><viva:ConferencePaperHasPublicationVenue /></a></td></tr>
-      </viva:foreachConferencePaperHasPublicationVenueIterator>
-      <viva:foreachConferencePaperARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<viva:ConferencePaperARG_2000028Type/>/<viva:ConferencePaperARG_2000028Type/>.jsp?uri=<viva:ConferencePaperARG_2000028/>"><viva:ConferencePaperARG_2000028 /></a></td></tr>
-      </viva:foreachConferencePaperARG_2000028Iterator>
-      <viva:foreachConferencePaperRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:ConferencePaperRelatedByType/>/<viva:ConferencePaperRelatedByType/>.jsp?uri=<viva:ConferencePaperRelatedBy/>"><viva:ConferencePaperRelatedBy /></a></td></tr>
-      </viva:foreachConferencePaperRelatedByIterator>
       <viva:foreachConferencePaperRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:ConferencePaperRelatesType/>/<viva:ConferencePaperRelatesType/>.jsp?uri=<viva:ConferencePaperRelates/>"><viva:ConferencePaperRelates /></a></td></tr>
+         <tr><td>relates</td><td>
+            <c:set var="localType"><viva:ConferencePaperRelatesType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:ConferencePaperRelates/>"><viva:ConferencePaperRelates/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:ConferencePaperRelatesType/>/<viva:ConferencePaperRelatesType/>.jsp?uri=<viva:ConferencePaperRelates/>"><viva:ConferencePaperRelates /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachConferencePaperRelatesIterator>
    </table>
 

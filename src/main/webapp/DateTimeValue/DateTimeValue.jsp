@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>DateTimeValue - http://vivoweb.org/ontology/core#DateTimeValue</title>
-<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<style type="text/css" media="all">    @import "<util:applicationRoot/>/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altDateTimeValue.jsp?uri=${param.uri}">alternate view</a></p>
@@ -31,12 +31,32 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachDateTimeValueDateTimePrecisionIterator>
-         <tr><td>dateTimePrecision</td><td><a href="../<viva:DateTimeValueDateTimePrecisionType/>/<viva:DateTimeValueDateTimePrecisionType/>.jsp?uri=<viva:DateTimeValueDateTimePrecision/>"><viva:DateTimeValueDateTimePrecision /></a></td></tr>
-      </viva:foreachDateTimeValueDateTimePrecisionIterator>
       <viva:foreachDateTimeValueDateTimeIterator>
-         <tr><td>dateTime</td><td><a href="../<viva:DateTimeValueDateTimeType/>/<viva:DateTimeValueDateTimeType/>.jsp?uri=<viva:DateTimeValueDateTime/>"><viva:DateTimeValueDateTime /></a></td></tr>
+         <tr><td>dateTime</td><td>
+            <c:set var="localType"><viva:DateTimeValueDateTimeType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:DateTimeValueDateTime/>"><viva:DateTimeValueDateTime/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:DateTimeValueDateTimeType/>/<viva:DateTimeValueDateTimeType/>.jsp?uri=<viva:DateTimeValueDateTime/>"><viva:DateTimeValueDateTime /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachDateTimeValueDateTimeIterator>
+      <viva:foreachDateTimeValueDateTimePrecisionIterator>
+         <tr><td>dateTimePrecision</td><td>
+            <c:set var="localType"><viva:DateTimeValueDateTimePrecisionType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:DateTimeValueDateTimePrecision/>"><viva:DateTimeValueDateTimePrecision/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:DateTimeValueDateTimePrecisionType/>/<viva:DateTimeValueDateTimePrecisionType/>.jsp?uri=<viva:DateTimeValueDateTimePrecision/>"><viva:DateTimeValueDateTimePrecision /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachDateTimeValueDateTimePrecisionIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

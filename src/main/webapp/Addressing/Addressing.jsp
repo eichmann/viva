@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Addressing - http://www.w3.org/2006/vcard/ns#Addressing</title>
-<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<style type="text/css" media="all">    @import "<util:applicationRoot/>/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altAddressing.jsp?uri=${param.uri}">alternate view</a></p>
@@ -30,37 +30,97 @@
       <viva:foreachAddressingMiddleNameIterator>
          <tr><td>middleName</td><td><viva:AddressingMiddleName /></td></tr>
       </viva:foreachAddressingMiddleNameIterator>
-      <viva:foreachAddressingRankIterator>
-         <tr><td>rank</td><td><viva:AddressingRank /></td></tr>
-      </viva:foreachAddressingRankIterator>
       <viva:foreachAddressingTelephoneIterator>
          <tr><td>telephone</td><td><viva:AddressingTelephone /></td></tr>
       </viva:foreachAddressingTelephoneIterator>
       <viva:foreachAddressingUrlIterator>
          <tr><td>url</td><td><viva:AddressingUrl /></td></tr>
       </viva:foreachAddressingUrlIterator>
+      <viva:foreachAddressingRankIterator>
+         <tr><td>rank</td><td><viva:AddressingRank /></td></tr>
+      </viva:foreachAddressingRankIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
       <viva:foreachAddressingHasAddressIterator>
-         <tr><td>hasAddress</td><td><a href="../<viva:AddressingHasAddressType/>/<viva:AddressingHasAddressType/>.jsp?uri=<viva:AddressingHasAddress/>"><viva:AddressingHasAddress /></a></td></tr>
+         <tr><td>hasAddress</td><td>
+            <c:set var="localType"><viva:AddressingHasAddressType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:AddressingHasAddress/>"><viva:AddressingHasAddress/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:AddressingHasAddressType/>/<viva:AddressingHasAddressType/>.jsp?uri=<viva:AddressingHasAddress/>"><viva:AddressingHasAddress /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachAddressingHasAddressIterator>
-      <viva:foreachAddressingHasGeoIterator>
-         <tr><td>hasGeo</td><td><a href="../<viva:AddressingHasGeoType/>/<viva:AddressingHasGeoType/>.jsp?uri=<viva:AddressingHasGeo/>"><viva:AddressingHasGeo /></a></td></tr>
-      </viva:foreachAddressingHasGeoIterator>
-      <viva:foreachAddressingRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:AddressingRelatedByType/>/<viva:AddressingRelatedByType/>.jsp?uri=<viva:AddressingRelatedBy/>"><viva:AddressingRelatedBy /></a></td></tr>
-      </viva:foreachAddressingRelatedByIterator>
-      <viva:foreachAddressingHasEmailIterator>
-         <tr><td>hasEmail</td><td><a href="../<viva:AddressingHasEmailType/>/<viva:AddressingHasEmailType/>.jsp?uri=<viva:AddressingHasEmail/>"><viva:AddressingHasEmail /></a></td></tr>
-      </viva:foreachAddressingHasEmailIterator>
-      <viva:foreachAddressingRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:AddressingRelatesType/>/<viva:AddressingRelatesType/>.jsp?uri=<viva:AddressingRelates/>"><viva:AddressingRelates /></a></td></tr>
-      </viva:foreachAddressingRelatesIterator>
       <viva:foreachAddressingHasURLIterator>
-         <tr><td>hasURL</td><td><a href="../<viva:AddressingHasURLType/>/<viva:AddressingHasURLType/>.jsp?uri=<viva:AddressingHasURL/>"><viva:AddressingHasURL /></a></td></tr>
+         <tr><td>hasURL</td><td>
+            <c:set var="localType"><viva:AddressingHasURLType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:AddressingHasURL/>"><viva:AddressingHasURL/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:AddressingHasURLType/>/<viva:AddressingHasURLType/>.jsp?uri=<viva:AddressingHasURL/>"><viva:AddressingHasURL /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachAddressingHasURLIterator>
+      <viva:foreachAddressingRelatedByIterator>
+         <tr><td>relatedBy</td><td>
+            <c:set var="localType"><viva:AddressingRelatedByType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:AddressingRelatedBy/>"><viva:AddressingRelatedBy/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:AddressingRelatedByType/>/<viva:AddressingRelatedByType/>.jsp?uri=<viva:AddressingRelatedBy/>"><viva:AddressingRelatedBy /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachAddressingRelatedByIterator>
+      <viva:foreachAddressingRelatesIterator>
+         <tr><td>relates</td><td>
+            <c:set var="localType"><viva:AddressingRelatesType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:AddressingRelates/>"><viva:AddressingRelates/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:AddressingRelatesType/>/<viva:AddressingRelatesType/>.jsp?uri=<viva:AddressingRelates/>"><viva:AddressingRelates /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachAddressingRelatesIterator>
+      <viva:foreachAddressingHasGeoIterator>
+         <tr><td>hasGeo</td><td>
+            <c:set var="localType"><viva:AddressingHasGeoType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:AddressingHasGeo/>"><viva:AddressingHasGeo/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:AddressingHasGeoType/>/<viva:AddressingHasGeoType/>.jsp?uri=<viva:AddressingHasGeo/>"><viva:AddressingHasGeo /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachAddressingHasGeoIterator>
+      <viva:foreachAddressingHasEmailIterator>
+         <tr><td>hasEmail</td><td>
+            <c:set var="localType"><viva:AddressingHasEmailType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:AddressingHasEmail/>"><viva:AddressingHasEmail/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:AddressingHasEmailType/>/<viva:AddressingHasEmailType/>.jsp?uri=<viva:AddressingHasEmail/>"><viva:AddressingHasEmail /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachAddressingHasEmailIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

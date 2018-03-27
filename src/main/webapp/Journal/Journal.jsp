@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Journal - http://purl.org/ontology/bibo/Journal</title>
-<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<style type="text/css" media="all">    @import "<util:applicationRoot/>/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altJournal.jsp?uri=${param.uri}">alternate view</a></p>
@@ -31,21 +31,41 @@
       <viva:foreachJournalEissnIterator>
          <tr><td>eissn</td><td><viva:JournalEissn /></td></tr>
       </viva:foreachJournalEissnIterator>
-      <viva:foreachJournalIssnIterator>
-         <tr><td>issn</td><td><viva:JournalIssn /></td></tr>
-      </viva:foreachJournalIssnIterator>
       <viva:foreachJournalIdentifierIterator>
          <tr><td>identifier</td><td><viva:JournalIdentifier /></td></tr>
       </viva:foreachJournalIdentifierIterator>
+      <viva:foreachJournalIssnIterator>
+         <tr><td>issn</td><td><viva:JournalIssn /></td></tr>
+      </viva:foreachJournalIssnIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
       <viva:foreachJournalPublicationVenueForIterator>
-         <tr><td>publicationVenueFor</td><td><a href="../<viva:JournalPublicationVenueForType/>/<viva:JournalPublicationVenueForType/>.jsp?uri=<viva:JournalPublicationVenueFor/>"><viva:JournalPublicationVenueFor /></a></td></tr>
+         <tr><td>publicationVenueFor</td><td>
+            <c:set var="localType"><viva:JournalPublicationVenueForType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:JournalPublicationVenueFor/>"><viva:JournalPublicationVenueFor/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:JournalPublicationVenueForType/>/<viva:JournalPublicationVenueForType/>.jsp?uri=<viva:JournalPublicationVenueFor/>"><viva:JournalPublicationVenueFor /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachJournalPublicationVenueForIterator>
       <viva:foreachJournalPublisherIterator>
-         <tr><td>publisher</td><td><a href="../<viva:JournalPublisherType/>/<viva:JournalPublisherType/>.jsp?uri=<viva:JournalPublisher/>"><viva:JournalPublisher /></a></td></tr>
+         <tr><td>publisher</td><td>
+            <c:set var="localType"><viva:JournalPublisherType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:JournalPublisher/>"><viva:JournalPublisher/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:JournalPublisherType/>/<viva:JournalPublisherType/>.jsp?uri=<viva:JournalPublisher/>"><viva:JournalPublisher /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachJournalPublisherIterator>
    </table>
 

@@ -47,6 +47,7 @@
 <li><a href="person_tab1.jsp?uri=${param.uri}" rel="tabcontainer" id="favorite" class="selected">Overview</a></li>
 <li><a href="person_tab2.jsp?uri=${param.uri}" rel="tabcontainer">Publications</a></li>
 <li><a href="person_tab3.jsp?uri=${param.uri}" rel="tabcontainer">Tabbed Publications</a></li>
+<li><a href="person_tab4.jsp?uri=${param.uri}" rel="tabcontainer">Positions</a></li>
 </ul>
 
 <div id="tabcontainer" style="border-radius: 5px;border:1px solid gray; width:90%; margin-bottom: 1em; padding: 10px"/>
@@ -66,7 +67,6 @@
 		}
 	}
 </script>
-
 
 <jsp:include page="/footer.jsp" flush="true" /></div></div></body>
 </html>

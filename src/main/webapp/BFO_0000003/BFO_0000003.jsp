@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>BFO_0000003 - http://purl.obolibrary.org/obo/BFO_0000003</title>
-<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<style type="text/css" media="all">    @import "<util:applicationRoot/>/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altBFO_0000003.jsp?uri=${param.uri}">alternate view</a></p>
@@ -35,18 +35,58 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachBFO_0000003ARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<viva:BFO_0000003ARG_2000028Type/>/<viva:BFO_0000003ARG_2000028Type/>.jsp?uri=<viva:BFO_0000003ARG_2000028/>"><viva:BFO_0000003ARG_2000028 /></a></td></tr>
-      </viva:foreachBFO_0000003ARG_2000028Iterator>
-      <viva:foreachBFO_0000003RO_0002234Iterator>
-         <tr><td>RO_0002234</td><td><a href="../<viva:BFO_0000003RO_0002234Type/>/<viva:BFO_0000003RO_0002234Type/>.jsp?uri=<viva:BFO_0000003RO_0002234/>"><viva:BFO_0000003RO_0002234 /></a></td></tr>
-      </viva:foreachBFO_0000003RO_0002234Iterator>
-      <viva:foreachBFO_0000003HasSubjectAreaIterator>
-         <tr><td>hasSubjectArea</td><td><a href="../<viva:BFO_0000003HasSubjectAreaType/>/<viva:BFO_0000003HasSubjectAreaType/>.jsp?uri=<viva:BFO_0000003HasSubjectArea/>"><viva:BFO_0000003HasSubjectArea /></a></td></tr>
-      </viva:foreachBFO_0000003HasSubjectAreaIterator>
       <viva:foreachBFO_0000003DateTimeIntervalIterator>
-         <tr><td>dateTimeInterval</td><td><a href="../<viva:BFO_0000003DateTimeIntervalType/>/<viva:BFO_0000003DateTimeIntervalType/>.jsp?uri=<viva:BFO_0000003DateTimeInterval/>"><viva:BFO_0000003DateTimeInterval /></a></td></tr>
+         <tr><td>dateTimeInterval</td><td>
+            <c:set var="localType"><viva:BFO_0000003DateTimeIntervalType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:BFO_0000003DateTimeInterval/>"><viva:BFO_0000003DateTimeInterval/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:BFO_0000003DateTimeIntervalType/>/<viva:BFO_0000003DateTimeIntervalType/>.jsp?uri=<viva:BFO_0000003DateTimeInterval/>"><viva:BFO_0000003DateTimeInterval /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachBFO_0000003DateTimeIntervalIterator>
+      <viva:foreachBFO_0000003RO_0002234Iterator>
+         <tr><td>RO_0002234</td><td>
+            <c:set var="localType"><viva:BFO_0000003RO_0002234Type/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:BFO_0000003RO_0002234/>"><viva:BFO_0000003RO_0002234/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:BFO_0000003RO_0002234Type/>/<viva:BFO_0000003RO_0002234Type/>.jsp?uri=<viva:BFO_0000003RO_0002234/>"><viva:BFO_0000003RO_0002234 /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachBFO_0000003RO_0002234Iterator>
+      <viva:foreachBFO_0000003ARG_2000028Iterator>
+         <tr><td>ARG_2000028</td><td>
+            <c:set var="localType"><viva:BFO_0000003ARG_2000028Type/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:BFO_0000003ARG_2000028/>"><viva:BFO_0000003ARG_2000028/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:BFO_0000003ARG_2000028Type/>/<viva:BFO_0000003ARG_2000028Type/>.jsp?uri=<viva:BFO_0000003ARG_2000028/>"><viva:BFO_0000003ARG_2000028 /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachBFO_0000003ARG_2000028Iterator>
+      <viva:foreachBFO_0000003HasSubjectAreaIterator>
+         <tr><td>hasSubjectArea</td><td>
+            <c:set var="localType"><viva:BFO_0000003HasSubjectAreaType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:BFO_0000003HasSubjectArea/>"><viva:BFO_0000003HasSubjectArea/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:BFO_0000003HasSubjectAreaType/>/<viva:BFO_0000003HasSubjectAreaType/>.jsp?uri=<viva:BFO_0000003HasSubjectArea/>"><viva:BFO_0000003HasSubjectArea /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachBFO_0000003HasSubjectAreaIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

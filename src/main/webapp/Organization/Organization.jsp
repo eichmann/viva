@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Organization - http://xmlns.com/foaf/0.1/Organization</title>
-<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<style type="text/css" media="all">    @import "<util:applicationRoot/>/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altOrganization.jsp?uri=${param.uri}">alternate view</a></p>
@@ -32,12 +32,32 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachOrganizationPublisherOfIterator>
-         <tr><td>publisherOf</td><td><a href="../<viva:OrganizationPublisherOfType/>/<viva:OrganizationPublisherOfType/>.jsp?uri=<viva:OrganizationPublisherOf/>"><viva:OrganizationPublisherOf /></a></td></tr>
-      </viva:foreachOrganizationPublisherOfIterator>
       <viva:foreachOrganizationRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:OrganizationRelatedByType/>/<viva:OrganizationRelatedByType/>.jsp?uri=<viva:OrganizationRelatedBy/>"><viva:OrganizationRelatedBy /></a></td></tr>
+         <tr><td>relatedBy</td><td>
+            <c:set var="localType"><viva:OrganizationRelatedByType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:OrganizationRelatedBy/>"><viva:OrganizationRelatedBy/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:OrganizationRelatedByType/>/<viva:OrganizationRelatedByType/>.jsp?uri=<viva:OrganizationRelatedBy/>"><viva:OrganizationRelatedBy /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachOrganizationRelatedByIterator>
+      <viva:foreachOrganizationPublisherOfIterator>
+         <tr><td>publisherOf</td><td>
+            <c:set var="localType"><viva:OrganizationPublisherOfType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:OrganizationPublisherOf/>"><viva:OrganizationPublisherOf/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:OrganizationPublisherOfType/>/<viva:OrganizationPublisherOfType/>.jsp?uri=<viva:OrganizationPublisherOf/>"><viva:OrganizationPublisherOf /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachOrganizationPublisherOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Identification - http://www.w3.org/2006/vcard/ns#Identification</title>
-<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<style type="text/css" media="all">    @import "<util:applicationRoot/>/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altIdentification.jsp?uri=${param.uri}">alternate view</a></p>
@@ -30,37 +30,97 @@
       <viva:foreachIdentificationMiddleNameIterator>
          <tr><td>middleName</td><td><viva:IdentificationMiddleName /></td></tr>
       </viva:foreachIdentificationMiddleNameIterator>
-      <viva:foreachIdentificationRankIterator>
-         <tr><td>rank</td><td><viva:IdentificationRank /></td></tr>
-      </viva:foreachIdentificationRankIterator>
       <viva:foreachIdentificationTelephoneIterator>
          <tr><td>telephone</td><td><viva:IdentificationTelephone /></td></tr>
       </viva:foreachIdentificationTelephoneIterator>
       <viva:foreachIdentificationUrlIterator>
          <tr><td>url</td><td><viva:IdentificationUrl /></td></tr>
       </viva:foreachIdentificationUrlIterator>
+      <viva:foreachIdentificationRankIterator>
+         <tr><td>rank</td><td><viva:IdentificationRank /></td></tr>
+      </viva:foreachIdentificationRankIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
       <viva:foreachIdentificationHasAddressIterator>
-         <tr><td>hasAddress</td><td><a href="../<viva:IdentificationHasAddressType/>/<viva:IdentificationHasAddressType/>.jsp?uri=<viva:IdentificationHasAddress/>"><viva:IdentificationHasAddress /></a></td></tr>
+         <tr><td>hasAddress</td><td>
+            <c:set var="localType"><viva:IdentificationHasAddressType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:IdentificationHasAddress/>"><viva:IdentificationHasAddress/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:IdentificationHasAddressType/>/<viva:IdentificationHasAddressType/>.jsp?uri=<viva:IdentificationHasAddress/>"><viva:IdentificationHasAddress /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachIdentificationHasAddressIterator>
-      <viva:foreachIdentificationHasGeoIterator>
-         <tr><td>hasGeo</td><td><a href="../<viva:IdentificationHasGeoType/>/<viva:IdentificationHasGeoType/>.jsp?uri=<viva:IdentificationHasGeo/>"><viva:IdentificationHasGeo /></a></td></tr>
-      </viva:foreachIdentificationHasGeoIterator>
-      <viva:foreachIdentificationRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:IdentificationRelatedByType/>/<viva:IdentificationRelatedByType/>.jsp?uri=<viva:IdentificationRelatedBy/>"><viva:IdentificationRelatedBy /></a></td></tr>
-      </viva:foreachIdentificationRelatedByIterator>
-      <viva:foreachIdentificationHasEmailIterator>
-         <tr><td>hasEmail</td><td><a href="../<viva:IdentificationHasEmailType/>/<viva:IdentificationHasEmailType/>.jsp?uri=<viva:IdentificationHasEmail/>"><viva:IdentificationHasEmail /></a></td></tr>
-      </viva:foreachIdentificationHasEmailIterator>
-      <viva:foreachIdentificationRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:IdentificationRelatesType/>/<viva:IdentificationRelatesType/>.jsp?uri=<viva:IdentificationRelates/>"><viva:IdentificationRelates /></a></td></tr>
-      </viva:foreachIdentificationRelatesIterator>
       <viva:foreachIdentificationHasURLIterator>
-         <tr><td>hasURL</td><td><a href="../<viva:IdentificationHasURLType/>/<viva:IdentificationHasURLType/>.jsp?uri=<viva:IdentificationHasURL/>"><viva:IdentificationHasURL /></a></td></tr>
+         <tr><td>hasURL</td><td>
+            <c:set var="localType"><viva:IdentificationHasURLType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:IdentificationHasURL/>"><viva:IdentificationHasURL/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:IdentificationHasURLType/>/<viva:IdentificationHasURLType/>.jsp?uri=<viva:IdentificationHasURL/>"><viva:IdentificationHasURL /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachIdentificationHasURLIterator>
+      <viva:foreachIdentificationRelatedByIterator>
+         <tr><td>relatedBy</td><td>
+            <c:set var="localType"><viva:IdentificationRelatedByType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:IdentificationRelatedBy/>"><viva:IdentificationRelatedBy/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:IdentificationRelatedByType/>/<viva:IdentificationRelatedByType/>.jsp?uri=<viva:IdentificationRelatedBy/>"><viva:IdentificationRelatedBy /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachIdentificationRelatedByIterator>
+      <viva:foreachIdentificationRelatesIterator>
+         <tr><td>relates</td><td>
+            <c:set var="localType"><viva:IdentificationRelatesType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:IdentificationRelates/>"><viva:IdentificationRelates/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:IdentificationRelatesType/>/<viva:IdentificationRelatesType/>.jsp?uri=<viva:IdentificationRelates/>"><viva:IdentificationRelates /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachIdentificationRelatesIterator>
+      <viva:foreachIdentificationHasGeoIterator>
+         <tr><td>hasGeo</td><td>
+            <c:set var="localType"><viva:IdentificationHasGeoType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:IdentificationHasGeo/>"><viva:IdentificationHasGeo/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:IdentificationHasGeoType/>/<viva:IdentificationHasGeoType/>.jsp?uri=<viva:IdentificationHasGeo/>"><viva:IdentificationHasGeo /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachIdentificationHasGeoIterator>
+      <viva:foreachIdentificationHasEmailIterator>
+         <tr><td>hasEmail</td><td>
+            <c:set var="localType"><viva:IdentificationHasEmailType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:IdentificationHasEmail/>"><viva:IdentificationHasEmail/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:IdentificationHasEmailType/>/<viva:IdentificationHasEmailType/>.jsp?uri=<viva:IdentificationHasEmail/>"><viva:IdentificationHasEmail /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachIdentificationHasEmailIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

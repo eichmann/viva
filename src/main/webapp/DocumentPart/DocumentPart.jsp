@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>DocumentPart - http://purl.org/ontology/bibo/DocumentPart</title>
-<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<style type="text/css" media="all">    @import "<util:applicationRoot/>/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altDocumentPart.jsp?uri=${param.uri}">alternate view</a></p>
@@ -28,15 +28,15 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
+      <viva:foreachDocumentPartNumPagesIterator>
+         <tr><td>numPages</td><td><viva:DocumentPartNumPages /></td></tr>
+      </viva:foreachDocumentPartNumPagesIterator>
       <viva:foreachDocumentPartPageStartIterator>
          <tr><td>pageStart</td><td><viva:DocumentPartPageStart /></td></tr>
       </viva:foreachDocumentPartPageStartIterator>
       <viva:foreachDocumentPartPageEndIterator>
          <tr><td>pageEnd</td><td><viva:DocumentPartPageEnd /></td></tr>
       </viva:foreachDocumentPartPageEndIterator>
-      <viva:foreachDocumentPartNumPagesIterator>
-         <tr><td>numPages</td><td><viva:DocumentPartNumPages /></td></tr>
-      </viva:foreachDocumentPartNumPagesIterator>
       <viva:foreachDocumentPartTheAbstractIterator>
          <tr><td>theAbstract</td><td><viva:DocumentPartTheAbstract /></td></tr>
       </viva:foreachDocumentPartTheAbstractIterator>
@@ -47,27 +47,97 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachDocumentPartDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<viva:DocumentPartDateTimeValueType/>/<viva:DocumentPartDateTimeValueType/>.jsp?uri=<viva:DocumentPartDateTimeValue/>"><viva:DocumentPartDateTimeValue /></a></td></tr>
-      </viva:foreachDocumentPartDateTimeValueIterator>
-      <viva:foreachDocumentPartHasPublicationVenueIterator>
-         <tr><td>hasPublicationVenue</td><td><a href="../<viva:DocumentPartHasPublicationVenueType/>/<viva:DocumentPartHasPublicationVenueType/>.jsp?uri=<viva:DocumentPartHasPublicationVenue/>"><viva:DocumentPartHasPublicationVenue /></a></td></tr>
-      </viva:foreachDocumentPartHasPublicationVenueIterator>
-      <viva:foreachDocumentPartARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<viva:DocumentPartARG_2000028Type/>/<viva:DocumentPartARG_2000028Type/>.jsp?uri=<viva:DocumentPartARG_2000028/>"><viva:DocumentPartARG_2000028 /></a></td></tr>
-      </viva:foreachDocumentPartARG_2000028Iterator>
-      <viva:foreachDocumentPartPublisherIterator>
-         <tr><td>publisher</td><td><a href="../<viva:DocumentPartPublisherType/>/<viva:DocumentPartPublisherType/>.jsp?uri=<viva:DocumentPartPublisher/>"><viva:DocumentPartPublisher /></a></td></tr>
-      </viva:foreachDocumentPartPublisherIterator>
       <viva:foreachDocumentPartRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:DocumentPartRelatedByType/>/<viva:DocumentPartRelatedByType/>.jsp?uri=<viva:DocumentPartRelatedBy/>"><viva:DocumentPartRelatedBy /></a></td></tr>
+         <tr><td>relatedBy</td><td>
+            <c:set var="localType"><viva:DocumentPartRelatedByType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:DocumentPartRelatedBy/>"><viva:DocumentPartRelatedBy/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:DocumentPartRelatedByType/>/<viva:DocumentPartRelatedByType/>.jsp?uri=<viva:DocumentPartRelatedBy/>"><viva:DocumentPartRelatedBy /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachDocumentPartRelatedByIterator>
-      <viva:foreachDocumentPartHasSubjectAreaIterator>
-         <tr><td>hasSubjectArea</td><td><a href="../<viva:DocumentPartHasSubjectAreaType/>/<viva:DocumentPartHasSubjectAreaType/>.jsp?uri=<viva:DocumentPartHasSubjectArea/>"><viva:DocumentPartHasSubjectArea /></a></td></tr>
-      </viva:foreachDocumentPartHasSubjectAreaIterator>
+      <viva:foreachDocumentPartARG_2000028Iterator>
+         <tr><td>ARG_2000028</td><td>
+            <c:set var="localType"><viva:DocumentPartARG_2000028Type/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:DocumentPartARG_2000028/>"><viva:DocumentPartARG_2000028/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:DocumentPartARG_2000028Type/>/<viva:DocumentPartARG_2000028Type/>.jsp?uri=<viva:DocumentPartARG_2000028/>"><viva:DocumentPartARG_2000028 /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachDocumentPartARG_2000028Iterator>
+      <viva:foreachDocumentPartHasPublicationVenueIterator>
+         <tr><td>hasPublicationVenue</td><td>
+            <c:set var="localType"><viva:DocumentPartHasPublicationVenueType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:DocumentPartHasPublicationVenue/>"><viva:DocumentPartHasPublicationVenue/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:DocumentPartHasPublicationVenueType/>/<viva:DocumentPartHasPublicationVenueType/>.jsp?uri=<viva:DocumentPartHasPublicationVenue/>"><viva:DocumentPartHasPublicationVenue /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachDocumentPartHasPublicationVenueIterator>
+      <viva:foreachDocumentPartDateTimeValueIterator>
+         <tr><td>dateTimeValue</td><td>
+            <c:set var="localType"><viva:DocumentPartDateTimeValueType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:DocumentPartDateTimeValue/>"><viva:DocumentPartDateTimeValue/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:DocumentPartDateTimeValueType/>/<viva:DocumentPartDateTimeValueType/>.jsp?uri=<viva:DocumentPartDateTimeValue/>"><viva:DocumentPartDateTimeValue /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachDocumentPartDateTimeValueIterator>
       <viva:foreachDocumentPartRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:DocumentPartRelatesType/>/<viva:DocumentPartRelatesType/>.jsp?uri=<viva:DocumentPartRelates/>"><viva:DocumentPartRelates /></a></td></tr>
+         <tr><td>relates</td><td>
+            <c:set var="localType"><viva:DocumentPartRelatesType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:DocumentPartRelates/>"><viva:DocumentPartRelates/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:DocumentPartRelatesType/>/<viva:DocumentPartRelatesType/>.jsp?uri=<viva:DocumentPartRelates/>"><viva:DocumentPartRelates /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachDocumentPartRelatesIterator>
+      <viva:foreachDocumentPartHasSubjectAreaIterator>
+         <tr><td>hasSubjectArea</td><td>
+            <c:set var="localType"><viva:DocumentPartHasSubjectAreaType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:DocumentPartHasSubjectArea/>"><viva:DocumentPartHasSubjectArea/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:DocumentPartHasSubjectAreaType/>/<viva:DocumentPartHasSubjectAreaType/>.jsp?uri=<viva:DocumentPartHasSubjectArea/>"><viva:DocumentPartHasSubjectArea /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachDocumentPartHasSubjectAreaIterator>
+      <viva:foreachDocumentPartPublisherIterator>
+         <tr><td>publisher</td><td>
+            <c:set var="localType"><viva:DocumentPartPublisherType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:DocumentPartPublisher/>"><viva:DocumentPartPublisher/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:DocumentPartPublisherType/>/<viva:DocumentPartPublisherType/>.jsp?uri=<viva:DocumentPartPublisher/>"><viva:DocumentPartPublisher /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachDocumentPartPublisherIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

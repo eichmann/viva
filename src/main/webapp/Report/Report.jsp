@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Report - http://purl.org/ontology/bibo/Report</title>
-<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<style type="text/css" media="all">    @import "<util:applicationRoot/>/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altReport.jsp?uri=${param.uri}">alternate view</a></p>
@@ -34,17 +34,57 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachReportDateTimeValueIterator>
-         <tr><td>dateTimeValue</td><td><a href="../<viva:ReportDateTimeValueType/>/<viva:ReportDateTimeValueType/>.jsp?uri=<viva:ReportDateTimeValue/>"><viva:ReportDateTimeValue /></a></td></tr>
-      </viva:foreachReportDateTimeValueIterator>
-      <viva:foreachReportARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<viva:ReportARG_2000028Type/>/<viva:ReportARG_2000028Type/>.jsp?uri=<viva:ReportARG_2000028/>"><viva:ReportARG_2000028 /></a></td></tr>
-      </viva:foreachReportARG_2000028Iterator>
       <viva:foreachReportRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:ReportRelatedByType/>/<viva:ReportRelatedByType/>.jsp?uri=<viva:ReportRelatedBy/>"><viva:ReportRelatedBy /></a></td></tr>
+         <tr><td>relatedBy</td><td>
+            <c:set var="localType"><viva:ReportRelatedByType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:ReportRelatedBy/>"><viva:ReportRelatedBy/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:ReportRelatedByType/>/<viva:ReportRelatedByType/>.jsp?uri=<viva:ReportRelatedBy/>"><viva:ReportRelatedBy /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachReportRelatedByIterator>
+      <viva:foreachReportARG_2000028Iterator>
+         <tr><td>ARG_2000028</td><td>
+            <c:set var="localType"><viva:ReportARG_2000028Type/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:ReportARG_2000028/>"><viva:ReportARG_2000028/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:ReportARG_2000028Type/>/<viva:ReportARG_2000028Type/>.jsp?uri=<viva:ReportARG_2000028/>"><viva:ReportARG_2000028 /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachReportARG_2000028Iterator>
+      <viva:foreachReportDateTimeValueIterator>
+         <tr><td>dateTimeValue</td><td>
+            <c:set var="localType"><viva:ReportDateTimeValueType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:ReportDateTimeValue/>"><viva:ReportDateTimeValue/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:ReportDateTimeValueType/>/<viva:ReportDateTimeValueType/>.jsp?uri=<viva:ReportDateTimeValue/>"><viva:ReportDateTimeValue /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachReportDateTimeValueIterator>
       <viva:foreachReportRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:ReportRelatesType/>/<viva:ReportRelatesType/>.jsp?uri=<viva:ReportRelates/>"><viva:ReportRelates /></a></td></tr>
+         <tr><td>relates</td><td>
+            <c:set var="localType"><viva:ReportRelatesType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:ReportRelates/>"><viva:ReportRelates/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:ReportRelatesType/>/<viva:ReportRelatesType/>.jsp?uri=<viva:ReportRelates/>"><viva:ReportRelates /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachReportRelatesIterator>
    </table>
 

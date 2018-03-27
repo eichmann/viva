@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Explanatory - http://www.w3.org/2006/vcard/ns#Explanatory</title>
-<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<style type="text/css" media="all">    @import "<util:applicationRoot/>/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altExplanatory.jsp?uri=${param.uri}">alternate view</a></p>
@@ -30,37 +30,97 @@
       <viva:foreachExplanatoryMiddleNameIterator>
          <tr><td>middleName</td><td><viva:ExplanatoryMiddleName /></td></tr>
       </viva:foreachExplanatoryMiddleNameIterator>
-      <viva:foreachExplanatoryRankIterator>
-         <tr><td>rank</td><td><viva:ExplanatoryRank /></td></tr>
-      </viva:foreachExplanatoryRankIterator>
       <viva:foreachExplanatoryTelephoneIterator>
          <tr><td>telephone</td><td><viva:ExplanatoryTelephone /></td></tr>
       </viva:foreachExplanatoryTelephoneIterator>
       <viva:foreachExplanatoryUrlIterator>
          <tr><td>url</td><td><viva:ExplanatoryUrl /></td></tr>
       </viva:foreachExplanatoryUrlIterator>
+      <viva:foreachExplanatoryRankIterator>
+         <tr><td>rank</td><td><viva:ExplanatoryRank /></td></tr>
+      </viva:foreachExplanatoryRankIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
       <viva:foreachExplanatoryHasAddressIterator>
-         <tr><td>hasAddress</td><td><a href="../<viva:ExplanatoryHasAddressType/>/<viva:ExplanatoryHasAddressType/>.jsp?uri=<viva:ExplanatoryHasAddress/>"><viva:ExplanatoryHasAddress /></a></td></tr>
+         <tr><td>hasAddress</td><td>
+            <c:set var="localType"><viva:ExplanatoryHasAddressType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:ExplanatoryHasAddress/>"><viva:ExplanatoryHasAddress/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:ExplanatoryHasAddressType/>/<viva:ExplanatoryHasAddressType/>.jsp?uri=<viva:ExplanatoryHasAddress/>"><viva:ExplanatoryHasAddress /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachExplanatoryHasAddressIterator>
-      <viva:foreachExplanatoryHasGeoIterator>
-         <tr><td>hasGeo</td><td><a href="../<viva:ExplanatoryHasGeoType/>/<viva:ExplanatoryHasGeoType/>.jsp?uri=<viva:ExplanatoryHasGeo/>"><viva:ExplanatoryHasGeo /></a></td></tr>
-      </viva:foreachExplanatoryHasGeoIterator>
-      <viva:foreachExplanatoryRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:ExplanatoryRelatedByType/>/<viva:ExplanatoryRelatedByType/>.jsp?uri=<viva:ExplanatoryRelatedBy/>"><viva:ExplanatoryRelatedBy /></a></td></tr>
-      </viva:foreachExplanatoryRelatedByIterator>
-      <viva:foreachExplanatoryHasEmailIterator>
-         <tr><td>hasEmail</td><td><a href="../<viva:ExplanatoryHasEmailType/>/<viva:ExplanatoryHasEmailType/>.jsp?uri=<viva:ExplanatoryHasEmail/>"><viva:ExplanatoryHasEmail /></a></td></tr>
-      </viva:foreachExplanatoryHasEmailIterator>
-      <viva:foreachExplanatoryRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:ExplanatoryRelatesType/>/<viva:ExplanatoryRelatesType/>.jsp?uri=<viva:ExplanatoryRelates/>"><viva:ExplanatoryRelates /></a></td></tr>
-      </viva:foreachExplanatoryRelatesIterator>
       <viva:foreachExplanatoryHasURLIterator>
-         <tr><td>hasURL</td><td><a href="../<viva:ExplanatoryHasURLType/>/<viva:ExplanatoryHasURLType/>.jsp?uri=<viva:ExplanatoryHasURL/>"><viva:ExplanatoryHasURL /></a></td></tr>
+         <tr><td>hasURL</td><td>
+            <c:set var="localType"><viva:ExplanatoryHasURLType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:ExplanatoryHasURL/>"><viva:ExplanatoryHasURL/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:ExplanatoryHasURLType/>/<viva:ExplanatoryHasURLType/>.jsp?uri=<viva:ExplanatoryHasURL/>"><viva:ExplanatoryHasURL /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachExplanatoryHasURLIterator>
+      <viva:foreachExplanatoryRelatedByIterator>
+         <tr><td>relatedBy</td><td>
+            <c:set var="localType"><viva:ExplanatoryRelatedByType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:ExplanatoryRelatedBy/>"><viva:ExplanatoryRelatedBy/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:ExplanatoryRelatedByType/>/<viva:ExplanatoryRelatedByType/>.jsp?uri=<viva:ExplanatoryRelatedBy/>"><viva:ExplanatoryRelatedBy /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachExplanatoryRelatedByIterator>
+      <viva:foreachExplanatoryRelatesIterator>
+         <tr><td>relates</td><td>
+            <c:set var="localType"><viva:ExplanatoryRelatesType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:ExplanatoryRelates/>"><viva:ExplanatoryRelates/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:ExplanatoryRelatesType/>/<viva:ExplanatoryRelatesType/>.jsp?uri=<viva:ExplanatoryRelates/>"><viva:ExplanatoryRelates /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachExplanatoryRelatesIterator>
+      <viva:foreachExplanatoryHasGeoIterator>
+         <tr><td>hasGeo</td><td>
+            <c:set var="localType"><viva:ExplanatoryHasGeoType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:ExplanatoryHasGeo/>"><viva:ExplanatoryHasGeo/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:ExplanatoryHasGeoType/>/<viva:ExplanatoryHasGeoType/>.jsp?uri=<viva:ExplanatoryHasGeo/>"><viva:ExplanatoryHasGeo /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachExplanatoryHasGeoIterator>
+      <viva:foreachExplanatoryHasEmailIterator>
+         <tr><td>hasEmail</td><td>
+            <c:set var="localType"><viva:ExplanatoryHasEmailType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:ExplanatoryHasEmail/>"><viva:ExplanatoryHasEmail/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:ExplanatoryHasEmailType/>/<viva:ExplanatoryHasEmailType/>.jsp?uri=<viva:ExplanatoryHasEmail/>"><viva:ExplanatoryHasEmail /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachExplanatoryHasEmailIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Geographical - http://www.w3.org/2006/vcard/ns#Geographical</title>
-<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<style type="text/css" media="all">    @import "<util:applicationRoot/>/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altGeographical.jsp?uri=${param.uri}">alternate view</a></p>
@@ -32,17 +32,57 @@
    <h3>Object Properties</h3>
    <table>
       <viva:foreachGeographicalHasAddressIterator>
-         <tr><td>hasAddress</td><td><a href="../<viva:GeographicalHasAddressType/>/<viva:GeographicalHasAddressType/>.jsp?uri=<viva:GeographicalHasAddress/>"><viva:GeographicalHasAddress /></a></td></tr>
+         <tr><td>hasAddress</td><td>
+            <c:set var="localType"><viva:GeographicalHasAddressType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:GeographicalHasAddress/>"><viva:GeographicalHasAddress/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:GeographicalHasAddressType/>/<viva:GeographicalHasAddressType/>.jsp?uri=<viva:GeographicalHasAddress/>"><viva:GeographicalHasAddress /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachGeographicalHasAddressIterator>
+      <viva:foreachGeographicalHasURLIterator>
+         <tr><td>hasURL</td><td>
+            <c:set var="localType"><viva:GeographicalHasURLType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:GeographicalHasURL/>"><viva:GeographicalHasURL/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:GeographicalHasURLType/>/<viva:GeographicalHasURLType/>.jsp?uri=<viva:GeographicalHasURL/>"><viva:GeographicalHasURL /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachGeographicalHasURLIterator>
       <viva:foreachGeographicalHasGeoIterator>
-         <tr><td>hasGeo</td><td><a href="../<viva:GeographicalHasGeoType/>/<viva:GeographicalHasGeoType/>.jsp?uri=<viva:GeographicalHasGeo/>"><viva:GeographicalHasGeo /></a></td></tr>
+         <tr><td>hasGeo</td><td>
+            <c:set var="localType"><viva:GeographicalHasGeoType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:GeographicalHasGeo/>"><viva:GeographicalHasGeo/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:GeographicalHasGeoType/>/<viva:GeographicalHasGeoType/>.jsp?uri=<viva:GeographicalHasGeo/>"><viva:GeographicalHasGeo /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachGeographicalHasGeoIterator>
       <viva:foreachGeographicalHasEmailIterator>
-         <tr><td>hasEmail</td><td><a href="../<viva:GeographicalHasEmailType/>/<viva:GeographicalHasEmailType/>.jsp?uri=<viva:GeographicalHasEmail/>"><viva:GeographicalHasEmail /></a></td></tr>
+         <tr><td>hasEmail</td><td>
+            <c:set var="localType"><viva:GeographicalHasEmailType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:GeographicalHasEmail/>"><viva:GeographicalHasEmail/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:GeographicalHasEmailType/>/<viva:GeographicalHasEmailType/>.jsp?uri=<viva:GeographicalHasEmail/>"><viva:GeographicalHasEmail /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachGeographicalHasEmailIterator>
-      <viva:foreachGeographicalHasURLIterator>
-         <tr><td>hasURL</td><td><a href="../<viva:GeographicalHasURLType/>/<viva:GeographicalHasURLType/>.jsp?uri=<viva:GeographicalHasURL/>"><viva:GeographicalHasURL /></a></td></tr>
-      </viva:foreachGeographicalHasURLIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Concept - http://www.w3.org/2004/02/skos/core#Concept</title>
-<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<style type="text/css" media="all">    @import "<util:applicationRoot/>/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altConcept.jsp?uri=${param.uri}">alternate view</a></p>
@@ -35,12 +35,32 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachConceptResearchAreaOfIterator>
-         <tr><td>researchAreaOf</td><td><a href="../<viva:ConceptResearchAreaOfType/>/<viva:ConceptResearchAreaOfType/>.jsp?uri=<viva:ConceptResearchAreaOf/>"><viva:ConceptResearchAreaOf /></a></td></tr>
-      </viva:foreachConceptResearchAreaOfIterator>
       <viva:foreachConceptSubjectAreaOfIterator>
-         <tr><td>subjectAreaOf</td><td><a href="../<viva:ConceptSubjectAreaOfType/>/<viva:ConceptSubjectAreaOfType/>.jsp?uri=<viva:ConceptSubjectAreaOf/>"><viva:ConceptSubjectAreaOf /></a></td></tr>
+         <tr><td>subjectAreaOf</td><td>
+            <c:set var="localType"><viva:ConceptSubjectAreaOfType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:ConceptSubjectAreaOf/>"><viva:ConceptSubjectAreaOf/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:ConceptSubjectAreaOfType/>/<viva:ConceptSubjectAreaOfType/>.jsp?uri=<viva:ConceptSubjectAreaOf/>"><viva:ConceptSubjectAreaOf /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachConceptSubjectAreaOfIterator>
+      <viva:foreachConceptResearchAreaOfIterator>
+         <tr><td>researchAreaOf</td><td>
+            <c:set var="localType"><viva:ConceptResearchAreaOfType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:ConceptResearchAreaOf/>"><viva:ConceptResearchAreaOf/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:ConceptResearchAreaOfType/>/<viva:ConceptResearchAreaOfType/>.jsp?uri=<viva:ConceptResearchAreaOf/>"><viva:ConceptResearchAreaOf /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachConceptResearchAreaOfIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

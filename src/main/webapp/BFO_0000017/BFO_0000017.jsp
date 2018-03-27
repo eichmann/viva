@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>BFO_0000017 - http://purl.obolibrary.org/obo/BFO_0000017</title>
-<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<style type="text/css" media="all">    @import "<util:applicationRoot/>/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altBFO_0000017.jsp?uri=${param.uri}">alternate view</a></p>
@@ -35,20 +35,70 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachBFO_0000017BFO_0000054Iterator>
-         <tr><td>BFO_0000054</td><td><a href="../<viva:BFO_0000017BFO_0000054Type/>/<viva:BFO_0000017BFO_0000054Type/>.jsp?uri=<viva:BFO_0000017BFO_0000054/>"><viva:BFO_0000017BFO_0000054 /></a></td></tr>
-      </viva:foreachBFO_0000017BFO_0000054Iterator>
+      <viva:foreachBFO_0000017HasURLIterator>
+         <tr><td>hasURL</td><td>
+            <c:set var="localType"><viva:BFO_0000017HasURLType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:BFO_0000017HasURL/>"><viva:BFO_0000017HasURL/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:BFO_0000017HasURLType/>/<viva:BFO_0000017HasURLType/>.jsp?uri=<viva:BFO_0000017HasURL/>"><viva:BFO_0000017HasURL /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachBFO_0000017HasURLIterator>
       <viva:foreachBFO_0000017RelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:BFO_0000017RelatedByType/>/<viva:BFO_0000017RelatedByType/>.jsp?uri=<viva:BFO_0000017RelatedBy/>"><viva:BFO_0000017RelatedBy /></a></td></tr>
+         <tr><td>relatedBy</td><td>
+            <c:set var="localType"><viva:BFO_0000017RelatedByType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:BFO_0000017RelatedBy/>"><viva:BFO_0000017RelatedBy/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:BFO_0000017RelatedByType/>/<viva:BFO_0000017RelatedByType/>.jsp?uri=<viva:BFO_0000017RelatedBy/>"><viva:BFO_0000017RelatedBy /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachBFO_0000017RelatedByIterator>
       <viva:foreachBFO_0000017RelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:BFO_0000017RelatesType/>/<viva:BFO_0000017RelatesType/>.jsp?uri=<viva:BFO_0000017Relates/>"><viva:BFO_0000017Relates /></a></td></tr>
+         <tr><td>relates</td><td>
+            <c:set var="localType"><viva:BFO_0000017RelatesType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:BFO_0000017Relates/>"><viva:BFO_0000017Relates/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:BFO_0000017RelatesType/>/<viva:BFO_0000017RelatesType/>.jsp?uri=<viva:BFO_0000017Relates/>"><viva:BFO_0000017Relates /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachBFO_0000017RelatesIterator>
-      <viva:foreachBFO_0000017HasURLIterator>
-         <tr><td>hasURL</td><td><a href="../<viva:BFO_0000017HasURLType/>/<viva:BFO_0000017HasURLType/>.jsp?uri=<viva:BFO_0000017HasURL/>"><viva:BFO_0000017HasURL /></a></td></tr>
-      </viva:foreachBFO_0000017HasURLIterator>
+      <viva:foreachBFO_0000017BFO_0000054Iterator>
+         <tr><td>BFO_0000054</td><td>
+            <c:set var="localType"><viva:BFO_0000017BFO_0000054Type/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:BFO_0000017BFO_0000054/>"><viva:BFO_0000017BFO_0000054/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:BFO_0000017BFO_0000054Type/>/<viva:BFO_0000017BFO_0000054Type/>.jsp?uri=<viva:BFO_0000017BFO_0000054/>"><viva:BFO_0000017BFO_0000054 /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachBFO_0000017BFO_0000054Iterator>
       <viva:foreachBFO_0000017RO_0000052Iterator>
-         <tr><td>RO_0000052</td><td><a href="../<viva:BFO_0000017RO_0000052Type/>/<viva:BFO_0000017RO_0000052Type/>.jsp?uri=<viva:BFO_0000017RO_0000052/>"><viva:BFO_0000017RO_0000052 /></a></td></tr>
+         <tr><td>RO_0000052</td><td>
+            <c:set var="localType"><viva:BFO_0000017RO_0000052Type/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:BFO_0000017RO_0000052/>"><viva:BFO_0000017RO_0000052/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:BFO_0000017RO_0000052Type/>/<viva:BFO_0000017RO_0000052Type/>.jsp?uri=<viva:BFO_0000017RO_0000052/>"><viva:BFO_0000017RO_0000052 /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachBFO_0000017RO_0000052Iterator>
    </table>
 

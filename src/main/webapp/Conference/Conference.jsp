@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Conference - http://purl.org/ontology/bibo/Conference</title>
-<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<style type="text/css" media="all">    @import "<util:applicationRoot/>/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altConference.jsp?uri=${param.uri}">alternate view</a></p>
@@ -35,20 +35,70 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachConferenceARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<viva:ConferenceARG_2000028Type/>/<viva:ConferenceARG_2000028Type/>.jsp?uri=<viva:ConferenceARG_2000028/>"><viva:ConferenceARG_2000028 /></a></td></tr>
-      </viva:foreachConferenceARG_2000028Iterator>
-      <viva:foreachConferenceRO_0002234Iterator>
-         <tr><td>RO_0002234</td><td><a href="../<viva:ConferenceRO_0002234Type/>/<viva:ConferenceRO_0002234Type/>.jsp?uri=<viva:ConferenceRO_0002234/>"><viva:ConferenceRO_0002234 /></a></td></tr>
-      </viva:foreachConferenceRO_0002234Iterator>
-      <viva:foreachConferenceHasSubjectAreaIterator>
-         <tr><td>hasSubjectArea</td><td><a href="../<viva:ConferenceHasSubjectAreaType/>/<viva:ConferenceHasSubjectAreaType/>.jsp?uri=<viva:ConferenceHasSubjectArea/>"><viva:ConferenceHasSubjectArea /></a></td></tr>
-      </viva:foreachConferenceHasSubjectAreaIterator>
       <viva:foreachConferenceDateTimeIntervalIterator>
-         <tr><td>dateTimeInterval</td><td><a href="../<viva:ConferenceDateTimeIntervalType/>/<viva:ConferenceDateTimeIntervalType/>.jsp?uri=<viva:ConferenceDateTimeInterval/>"><viva:ConferenceDateTimeInterval /></a></td></tr>
+         <tr><td>dateTimeInterval</td><td>
+            <c:set var="localType"><viva:ConferenceDateTimeIntervalType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:ConferenceDateTimeInterval/>"><viva:ConferenceDateTimeInterval/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:ConferenceDateTimeIntervalType/>/<viva:ConferenceDateTimeIntervalType/>.jsp?uri=<viva:ConferenceDateTimeInterval/>"><viva:ConferenceDateTimeInterval /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachConferenceDateTimeIntervalIterator>
+      <viva:foreachConferenceRO_0002234Iterator>
+         <tr><td>RO_0002234</td><td>
+            <c:set var="localType"><viva:ConferenceRO_0002234Type/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:ConferenceRO_0002234/>"><viva:ConferenceRO_0002234/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:ConferenceRO_0002234Type/>/<viva:ConferenceRO_0002234Type/>.jsp?uri=<viva:ConferenceRO_0002234/>"><viva:ConferenceRO_0002234 /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachConferenceRO_0002234Iterator>
+      <viva:foreachConferenceARG_2000028Iterator>
+         <tr><td>ARG_2000028</td><td>
+            <c:set var="localType"><viva:ConferenceARG_2000028Type/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:ConferenceARG_2000028/>"><viva:ConferenceARG_2000028/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:ConferenceARG_2000028Type/>/<viva:ConferenceARG_2000028Type/>.jsp?uri=<viva:ConferenceARG_2000028/>"><viva:ConferenceARG_2000028 /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachConferenceARG_2000028Iterator>
+      <viva:foreachConferenceHasSubjectAreaIterator>
+         <tr><td>hasSubjectArea</td><td>
+            <c:set var="localType"><viva:ConferenceHasSubjectAreaType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:ConferenceHasSubjectArea/>"><viva:ConferenceHasSubjectArea/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:ConferenceHasSubjectAreaType/>/<viva:ConferenceHasSubjectAreaType/>.jsp?uri=<viva:ConferenceHasSubjectArea/>"><viva:ConferenceHasSubjectArea /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachConferenceHasSubjectAreaIterator>
       <viva:foreachConferenceBFO_0000055Iterator>
-         <tr><td>BFO_0000055</td><td><a href="../<viva:ConferenceBFO_0000055Type/>/<viva:ConferenceBFO_0000055Type/>.jsp?uri=<viva:ConferenceBFO_0000055/>"><viva:ConferenceBFO_0000055 /></a></td></tr>
+         <tr><td>BFO_0000055</td><td>
+            <c:set var="localType"><viva:ConferenceBFO_0000055Type/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:ConferenceBFO_0000055/>"><viva:ConferenceBFO_0000055/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:ConferenceBFO_0000055Type/>/<viva:ConferenceBFO_0000055Type/>.jsp?uri=<viva:ConferenceBFO_0000055/>"><viva:ConferenceBFO_0000055 /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachConferenceBFO_0000055Iterator>
    </table>
 

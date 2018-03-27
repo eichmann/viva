@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Kind - http://www.w3.org/2006/vcard/ns#Kind</title>
-<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<style type="text/css" media="all">    @import "<util:applicationRoot/>/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altKind.jsp?uri=${param.uri}">alternate view</a></p>
@@ -35,34 +35,134 @@
    <h3>Object Properties</h3>
    <table>
       <viva:foreachKindHasAddressIterator>
-         <tr><td>hasAddress</td><td><a href="../<viva:KindHasAddressType/>/<viva:KindHasAddressType/>.jsp?uri=<viva:KindHasAddress/>"><viva:KindHasAddress /></a></td></tr>
+         <tr><td>hasAddress</td><td>
+            <c:set var="localType"><viva:KindHasAddressType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:KindHasAddress/>"><viva:KindHasAddress/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:KindHasAddressType/>/<viva:KindHasAddressType/>.jsp?uri=<viva:KindHasAddress/>"><viva:KindHasAddress /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachKindHasAddressIterator>
-      <viva:foreachKindHasTelephoneIterator>
-         <tr><td>hasTelephone</td><td><a href="../<viva:KindHasTelephoneType/>/<viva:KindHasTelephoneType/>.jsp?uri=<viva:KindHasTelephone/>"><viva:KindHasTelephone /></a></td></tr>
-      </viva:foreachKindHasTelephoneIterator>
-      <viva:foreachKindHasTitleIterator>
-         <tr><td>hasTitle</td><td><a href="../<viva:KindHasTitleType/>/<viva:KindHasTitleType/>.jsp?uri=<viva:KindHasTitle/>"><viva:KindHasTitle /></a></td></tr>
-      </viva:foreachKindHasTitleIterator>
-      <viva:foreachKindHasNameIterator>
-         <tr><td>hasName</td><td><a href="../<viva:KindHasNameType/>/<viva:KindHasNameType/>.jsp?uri=<viva:KindHasName/>"><viva:KindHasName /></a></td></tr>
-      </viva:foreachKindHasNameIterator>
-      <viva:foreachKindHasGeoIterator>
-         <tr><td>hasGeo</td><td><a href="../<viva:KindHasGeoType/>/<viva:KindHasGeoType/>.jsp?uri=<viva:KindHasGeo/>"><viva:KindHasGeo /></a></td></tr>
-      </viva:foreachKindHasGeoIterator>
-      <viva:foreachKindRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:KindRelatedByType/>/<viva:KindRelatedByType/>.jsp?uri=<viva:KindRelatedBy/>"><viva:KindRelatedBy /></a></td></tr>
-      </viva:foreachKindRelatedByIterator>
-      <viva:foreachKindHasEmailIterator>
-         <tr><td>hasEmail</td><td><a href="../<viva:KindHasEmailType/>/<viva:KindHasEmailType/>.jsp?uri=<viva:KindHasEmail/>"><viva:KindHasEmail /></a></td></tr>
-      </viva:foreachKindHasEmailIterator>
-      <viva:foreachKindRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:KindRelatesType/>/<viva:KindRelatesType/>.jsp?uri=<viva:KindRelates/>"><viva:KindRelates /></a></td></tr>
-      </viva:foreachKindRelatesIterator>
       <viva:foreachKindHasURLIterator>
-         <tr><td>hasURL</td><td><a href="../<viva:KindHasURLType/>/<viva:KindHasURLType/>.jsp?uri=<viva:KindHasURL/>"><viva:KindHasURL /></a></td></tr>
+         <tr><td>hasURL</td><td>
+            <c:set var="localType"><viva:KindHasURLType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:KindHasURL/>"><viva:KindHasURL/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:KindHasURLType/>/<viva:KindHasURLType/>.jsp?uri=<viva:KindHasURL/>"><viva:KindHasURL /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachKindHasURLIterator>
+      <viva:foreachKindRelatedByIterator>
+         <tr><td>relatedBy</td><td>
+            <c:set var="localType"><viva:KindRelatedByType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:KindRelatedBy/>"><viva:KindRelatedBy/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:KindRelatedByType/>/<viva:KindRelatedByType/>.jsp?uri=<viva:KindRelatedBy/>"><viva:KindRelatedBy /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachKindRelatedByIterator>
+      <viva:foreachKindHasNameIterator>
+         <tr><td>hasName</td><td>
+            <c:set var="localType"><viva:KindHasNameType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:KindHasName/>"><viva:KindHasName/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:KindHasNameType/>/<viva:KindHasNameType/>.jsp?uri=<viva:KindHasName/>"><viva:KindHasName /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachKindHasNameIterator>
+      <viva:foreachKindRelatesIterator>
+         <tr><td>relates</td><td>
+            <c:set var="localType"><viva:KindRelatesType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:KindRelates/>"><viva:KindRelates/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:KindRelatesType/>/<viva:KindRelatesType/>.jsp?uri=<viva:KindRelates/>"><viva:KindRelates /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachKindRelatesIterator>
+      <viva:foreachKindHasGeoIterator>
+         <tr><td>hasGeo</td><td>
+            <c:set var="localType"><viva:KindHasGeoType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:KindHasGeo/>"><viva:KindHasGeo/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:KindHasGeoType/>/<viva:KindHasGeoType/>.jsp?uri=<viva:KindHasGeo/>"><viva:KindHasGeo /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachKindHasGeoIterator>
+      <viva:foreachKindHasTelephoneIterator>
+         <tr><td>hasTelephone</td><td>
+            <c:set var="localType"><viva:KindHasTelephoneType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:KindHasTelephone/>"><viva:KindHasTelephone/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:KindHasTelephoneType/>/<viva:KindHasTelephoneType/>.jsp?uri=<viva:KindHasTelephone/>"><viva:KindHasTelephone /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachKindHasTelephoneIterator>
+      <viva:foreachKindHasEmailIterator>
+         <tr><td>hasEmail</td><td>
+            <c:set var="localType"><viva:KindHasEmailType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:KindHasEmail/>"><viva:KindHasEmail/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:KindHasEmailType/>/<viva:KindHasEmailType/>.jsp?uri=<viva:KindHasEmail/>"><viva:KindHasEmail /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachKindHasEmailIterator>
+      <viva:foreachKindHasTitleIterator>
+         <tr><td>hasTitle</td><td>
+            <c:set var="localType"><viva:KindHasTitleType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:KindHasTitle/>"><viva:KindHasTitle/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:KindHasTitleType/>/<viva:KindHasTitleType/>.jsp?uri=<viva:KindHasTitle/>"><viva:KindHasTitle /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachKindHasTitleIterator>
       <viva:foreachKindARG_2000029Iterator>
-         <tr><td>ARG_2000029</td><td><a href="../<viva:KindARG_2000029Type/>/<viva:KindARG_2000029Type/>.jsp?uri=<viva:KindARG_2000029/>"><viva:KindARG_2000029 /></a></td></tr>
+         <tr><td>ARG_2000029</td><td>
+            <c:set var="localType"><viva:KindARG_2000029Type/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:KindARG_2000029/>"><viva:KindARG_2000029/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:KindARG_2000029Type/>/<viva:KindARG_2000029Type/>.jsp?uri=<viva:KindARG_2000029/>"><viva:KindARG_2000029 /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachKindARG_2000029Iterator>
    </table>
 

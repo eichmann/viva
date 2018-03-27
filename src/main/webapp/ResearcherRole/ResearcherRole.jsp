@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>ResearcherRole - http://vivoweb.org/ontology/core#ResearcherRole</title>
-<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<style type="text/css" media="all">    @import "<util:applicationRoot/>/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altResearcherRole.jsp?uri=${param.uri}">alternate view</a></p>
@@ -32,12 +32,32 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachResearcherRoleRO_0000052Iterator>
-         <tr><td>RO_0000052</td><td><a href="../<viva:ResearcherRoleRO_0000052Type/>/<viva:ResearcherRoleRO_0000052Type/>.jsp?uri=<viva:ResearcherRoleRO_0000052/>"><viva:ResearcherRoleRO_0000052 /></a></td></tr>
-      </viva:foreachResearcherRoleRO_0000052Iterator>
       <viva:foreachResearcherRoleBFO_0000054Iterator>
-         <tr><td>BFO_0000054</td><td><a href="../<viva:ResearcherRoleBFO_0000054Type/>/<viva:ResearcherRoleBFO_0000054Type/>.jsp?uri=<viva:ResearcherRoleBFO_0000054/>"><viva:ResearcherRoleBFO_0000054 /></a></td></tr>
+         <tr><td>BFO_0000054</td><td>
+            <c:set var="localType"><viva:ResearcherRoleBFO_0000054Type/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:ResearcherRoleBFO_0000054/>"><viva:ResearcherRoleBFO_0000054/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:ResearcherRoleBFO_0000054Type/>/<viva:ResearcherRoleBFO_0000054Type/>.jsp?uri=<viva:ResearcherRoleBFO_0000054/>"><viva:ResearcherRoleBFO_0000054 /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachResearcherRoleBFO_0000054Iterator>
+      <viva:foreachResearcherRoleRO_0000052Iterator>
+         <tr><td>RO_0000052</td><td>
+            <c:set var="localType"><viva:ResearcherRoleRO_0000052Type/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:ResearcherRoleRO_0000052/>"><viva:ResearcherRoleRO_0000052/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:ResearcherRoleRO_0000052Type/>/<viva:ResearcherRoleRO_0000052Type/>.jsp?uri=<viva:ResearcherRoleRO_0000052/>"><viva:ResearcherRoleRO_0000052 /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachResearcherRoleRO_0000052Iterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>

@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>NonFacultyAcademicPosition - http://vivoweb.org/ontology/core#NonFacultyAcademicPosition</title>
-<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<style type="text/css" media="all">    @import "<util:applicationRoot/>/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altNonFacultyAcademicPosition.jsp?uri=${param.uri}">alternate view</a></p>
@@ -32,10 +32,30 @@
    <h3>Object Properties</h3>
    <table>
       <viva:foreachNonFacultyAcademicPositionDateTimeIntervalIterator>
-         <tr><td>dateTimeInterval</td><td><a href="../<viva:NonFacultyAcademicPositionDateTimeIntervalType/>/<viva:NonFacultyAcademicPositionDateTimeIntervalType/>.jsp?uri=<viva:NonFacultyAcademicPositionDateTimeInterval/>"><viva:NonFacultyAcademicPositionDateTimeInterval /></a></td></tr>
+         <tr><td>dateTimeInterval</td><td>
+            <c:set var="localType"><viva:NonFacultyAcademicPositionDateTimeIntervalType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:NonFacultyAcademicPositionDateTimeInterval/>"><viva:NonFacultyAcademicPositionDateTimeInterval/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:NonFacultyAcademicPositionDateTimeIntervalType/>/<viva:NonFacultyAcademicPositionDateTimeIntervalType/>.jsp?uri=<viva:NonFacultyAcademicPositionDateTimeInterval/>"><viva:NonFacultyAcademicPositionDateTimeInterval /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachNonFacultyAcademicPositionDateTimeIntervalIterator>
       <viva:foreachNonFacultyAcademicPositionRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:NonFacultyAcademicPositionRelatesType/>/<viva:NonFacultyAcademicPositionRelatesType/>.jsp?uri=<viva:NonFacultyAcademicPositionRelates/>"><viva:NonFacultyAcademicPositionRelates /></a></td></tr>
+         <tr><td>relates</td><td>
+            <c:set var="localType"><viva:NonFacultyAcademicPositionRelatesType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:NonFacultyAcademicPositionRelates/>"><viva:NonFacultyAcademicPositionRelates/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:NonFacultyAcademicPositionRelatesType/>/<viva:NonFacultyAcademicPositionRelatesType/>.jsp?uri=<viva:NonFacultyAcademicPositionRelates/>"><viva:NonFacultyAcademicPositionRelates /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachNonFacultyAcademicPositionRelatesIterator>
    </table>
 

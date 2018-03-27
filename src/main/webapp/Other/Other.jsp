@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Other - http://aims.fao.org/aos/geopolitical.owl#other</title>
-<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<style type="text/css" media="all">    @import "<util:applicationRoot/>/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altOther.jsp?uri=${param.uri}">alternate view</a></p>
@@ -27,69 +27,69 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachOtherNameOfficialRUIterator>
-         <tr><td>nameOfficialRU</td><td><viva:OtherNameOfficialRU /></td></tr>
-      </viva:foreachOtherNameOfficialRUIterator>
+      <viva:foreachOtherNameListESIterator>
+         <tr><td>nameListES</td><td><viva:OtherNameListES /></td></tr>
+      </viva:foreachOtherNameListESIterator>
+      <viva:foreachOtherNameShortENIterator>
+         <tr><td>nameShortEN</td><td><viva:OtherNameShortEN /></td></tr>
+      </viva:foreachOtherNameShortENIterator>
       <viva:foreachOtherNameListENIterator>
          <tr><td>nameListEN</td><td><viva:OtherNameListEN /></td></tr>
       </viva:foreachOtherNameListENIterator>
-      <viva:foreachOtherNameOfficialZHIterator>
-         <tr><td>nameOfficialZH</td><td><viva:OtherNameOfficialZH /></td></tr>
-      </viva:foreachOtherNameOfficialZHIterator>
-      <viva:foreachOtherNameListARIterator>
-         <tr><td>nameListAR</td><td><viva:OtherNameListAR /></td></tr>
-      </viva:foreachOtherNameListARIterator>
-      <viva:foreachOtherNameShortZHIterator>
-         <tr><td>nameShortZH</td><td><viva:OtherNameShortZH /></td></tr>
-      </viva:foreachOtherNameShortZHIterator>
       <viva:foreachOtherCodeISO3Iterator>
          <tr><td>codeISO3</td><td><viva:OtherCodeISO3 /></td></tr>
       </viva:foreachOtherCodeISO3Iterator>
+      <viva:foreachOtherCodeISO2Iterator>
+         <tr><td>codeISO2</td><td><viva:OtherCodeISO2 /></td></tr>
+      </viva:foreachOtherCodeISO2Iterator>
+      <viva:foreachOtherNameOfficialARIterator>
+         <tr><td>nameOfficialAR</td><td><viva:OtherNameOfficialAR /></td></tr>
+      </viva:foreachOtherNameOfficialARIterator>
+      <viva:foreachOtherNameOfficialZHIterator>
+         <tr><td>nameOfficialZH</td><td><viva:OtherNameOfficialZH /></td></tr>
+      </viva:foreachOtherNameOfficialZHIterator>
+      <viva:foreachOtherNameShortARIterator>
+         <tr><td>nameShortAR</td><td><viva:OtherNameShortAR /></td></tr>
+      </viva:foreachOtherNameShortARIterator>
+      <viva:foreachOtherNameShortZHIterator>
+         <tr><td>nameShortZH</td><td><viva:OtherNameShortZH /></td></tr>
+      </viva:foreachOtherNameShortZHIterator>
+      <viva:foreachOtherNameListARIterator>
+         <tr><td>nameListAR</td><td><viva:OtherNameListAR /></td></tr>
+      </viva:foreachOtherNameListARIterator>
+      <viva:foreachOtherNameListZHIterator>
+         <tr><td>nameListZH</td><td><viva:OtherNameListZH /></td></tr>
+      </viva:foreachOtherNameListZHIterator>
       <viva:foreachOtherCodeAGROVOCIterator>
          <tr><td>codeAGROVOC</td><td><viva:OtherCodeAGROVOC /></td></tr>
       </viva:foreachOtherCodeAGROVOCIterator>
+      <viva:foreachOtherNameOfficialFRIterator>
+         <tr><td>nameOfficialFR</td><td><viva:OtherNameOfficialFR /></td></tr>
+      </viva:foreachOtherNameOfficialFRIterator>
+      <viva:foreachOtherNameOfficialRUIterator>
+         <tr><td>nameOfficialRU</td><td><viva:OtherNameOfficialRU /></td></tr>
+      </viva:foreachOtherNameOfficialRUIterator>
+      <viva:foreachOtherNameShortFRIterator>
+         <tr><td>nameShortFR</td><td><viva:OtherNameShortFR /></td></tr>
+      </viva:foreachOtherNameShortFRIterator>
       <viva:foreachOtherNameListFRIterator>
          <tr><td>nameListFR</td><td><viva:OtherNameListFR /></td></tr>
       </viva:foreachOtherNameListFRIterator>
+      <viva:foreachOtherNameShortRUIterator>
+         <tr><td>nameShortRU</td><td><viva:OtherNameShortRU /></td></tr>
+      </viva:foreachOtherNameShortRUIterator>
       <viva:foreachOtherNameOfficialESIterator>
          <tr><td>nameOfficialES</td><td><viva:OtherNameOfficialES /></td></tr>
       </viva:foreachOtherNameOfficialESIterator>
       <viva:foreachOtherNameListRUIterator>
          <tr><td>nameListRU</td><td><viva:OtherNameListRU /></td></tr>
       </viva:foreachOtherNameListRUIterator>
-      <viva:foreachOtherNameShortESIterator>
-         <tr><td>nameShortES</td><td><viva:OtherNameShortES /></td></tr>
-      </viva:foreachOtherNameShortESIterator>
-      <viva:foreachOtherNameListZHIterator>
-         <tr><td>nameListZH</td><td><viva:OtherNameListZH /></td></tr>
-      </viva:foreachOtherNameListZHIterator>
-      <viva:foreachOtherNameShortENIterator>
-         <tr><td>nameShortEN</td><td><viva:OtherNameShortEN /></td></tr>
-      </viva:foreachOtherNameShortENIterator>
-      <viva:foreachOtherNameOfficialARIterator>
-         <tr><td>nameOfficialAR</td><td><viva:OtherNameOfficialAR /></td></tr>
-      </viva:foreachOtherNameOfficialARIterator>
-      <viva:foreachOtherNameShortARIterator>
-         <tr><td>nameShortAR</td><td><viva:OtherNameShortAR /></td></tr>
-      </viva:foreachOtherNameShortARIterator>
       <viva:foreachOtherNameOfficialENIterator>
          <tr><td>nameOfficialEN</td><td><viva:OtherNameOfficialEN /></td></tr>
       </viva:foreachOtherNameOfficialENIterator>
-      <viva:foreachOtherNameShortFRIterator>
-         <tr><td>nameShortFR</td><td><viva:OtherNameShortFR /></td></tr>
-      </viva:foreachOtherNameShortFRIterator>
-      <viva:foreachOtherCodeISO2Iterator>
-         <tr><td>codeISO2</td><td><viva:OtherCodeISO2 /></td></tr>
-      </viva:foreachOtherCodeISO2Iterator>
-      <viva:foreachOtherNameOfficialFRIterator>
-         <tr><td>nameOfficialFR</td><td><viva:OtherNameOfficialFR /></td></tr>
-      </viva:foreachOtherNameOfficialFRIterator>
-      <viva:foreachOtherNameListESIterator>
-         <tr><td>nameListES</td><td><viva:OtherNameListES /></td></tr>
-      </viva:foreachOtherNameListESIterator>
-      <viva:foreachOtherNameShortRUIterator>
-         <tr><td>nameShortRU</td><td><viva:OtherNameShortRU /></td></tr>
-      </viva:foreachOtherNameShortRUIterator>
+      <viva:foreachOtherNameShortESIterator>
+         <tr><td>nameShortES</td><td><viva:OtherNameShortES /></td></tr>
+      </viva:foreachOtherNameShortESIterator>
       <viva:foreachOtherValidUntilIterator>
          <tr><td>validUntil</td><td><viva:OtherValidUntil /></td></tr>
       </viva:foreachOtherValidUntilIterator>

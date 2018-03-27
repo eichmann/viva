@@ -8,11 +8,32 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>DateTimeValuePrecision List - http://vivoweb.org/ontology/core#DateTimeValuePrecision</title>
-<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<style type="text/css" media="all">    @import "<util:applicationRoot/>/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+
+<c:set var="limit" value="20"/>
+<c:if test="${not empty param.limit}">
+	<c:set var="limit" value="${0 + param.limit}"/>
+</c:if>
+<c:set var="offset" value="0"/>
+<c:if test="${not empty param.offset}">
+	<c:set var="offset" value="${0 + param.offset}"/>
+</c:if>
+
+<table>
+	<tr>
+		<td>
+			<c:if test="${limit > 0 && offset > 0}"><a href="DateTimeValuePrecisionList.jsp?limit=${limit}&offset=${offset - limit}">&lt;</a></c:if>
+		</td>
+		<td>
+			<c:if test="${limit > 0}"><a href="DateTimeValuePrecisionList.jsp?limit=${limit}&offset=${offset + limit}">&gt;</a></c:if>
+		</td>
+	</tr>
+</table>
+
 <ul>
-<viva:foreachDateTimeValuePrecision>
+<viva:foreachDateTimeValuePrecision limitCriteria="${limit}" offsetCriteria="${offset}" >
    <viva:DateTimeValuePrecision>
       <li><a href="DateTimeValuePrecision.jsp?uri=<viva:DateTimeValuePrecisionSubjectURI/>"><viva:DateTimeValuePrecisionLabel/></a>
    </viva:DateTimeValuePrecision>

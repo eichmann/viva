@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Geographical_region - http://aims.fao.org/aos/geopolitical.owl#geographical_region</title>
-<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<style type="text/css" media="all">    @import "<util:applicationRoot/>/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altGeographical_region.jsp?uri=${param.uri}">alternate view</a></p>
@@ -27,81 +27,81 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachGeographical_regionNameOfficialRUIterator>
-         <tr><td>nameOfficialRU</td><td><viva:Geographical_regionNameOfficialRU /></td></tr>
-      </viva:foreachGeographical_regionNameOfficialRUIterator>
-      <viva:foreachGeographical_regionNameListENIterator>
-         <tr><td>nameListEN</td><td><viva:Geographical_regionNameListEN /></td></tr>
-      </viva:foreachGeographical_regionNameListENIterator>
-      <viva:foreachGeographical_regionNameOfficialZHIterator>
-         <tr><td>nameOfficialZH</td><td><viva:Geographical_regionNameOfficialZH /></td></tr>
-      </viva:foreachGeographical_regionNameOfficialZHIterator>
-      <viva:foreachGeographical_regionNameListARIterator>
-         <tr><td>nameListAR</td><td><viva:Geographical_regionNameListAR /></td></tr>
-      </viva:foreachGeographical_regionNameListARIterator>
-      <viva:foreachGeographical_regionNameShortZHIterator>
-         <tr><td>nameShortZH</td><td><viva:Geographical_regionNameShortZH /></td></tr>
-      </viva:foreachGeographical_regionNameShortZHIterator>
-      <viva:foreachGeographical_regionNameShortITIterator>
-         <tr><td>nameShortIT</td><td><viva:Geographical_regionNameShortIT /></td></tr>
-      </viva:foreachGeographical_regionNameShortITIterator>
-      <viva:foreachGeographical_regionCodeAGROVOCIterator>
-         <tr><td>codeAGROVOC</td><td><viva:Geographical_regionCodeAGROVOC /></td></tr>
-      </viva:foreachGeographical_regionCodeAGROVOCIterator>
-      <viva:foreachGeographical_regionNameListFRIterator>
-         <tr><td>nameListFR</td><td><viva:Geographical_regionNameListFR /></td></tr>
-      </viva:foreachGeographical_regionNameListFRIterator>
-      <viva:foreachGeographical_regionNameOfficialESIterator>
-         <tr><td>nameOfficialES</td><td><viva:Geographical_regionNameOfficialES /></td></tr>
-      </viva:foreachGeographical_regionNameOfficialESIterator>
-      <viva:foreachGeographical_regionCodeFAOTERMIterator>
-         <tr><td>codeFAOTERM</td><td><viva:Geographical_regionCodeFAOTERM /></td></tr>
-      </viva:foreachGeographical_regionCodeFAOTERMIterator>
-      <viva:foreachGeographical_regionNameOfficialITIterator>
-         <tr><td>nameOfficialIT</td><td><viva:Geographical_regionNameOfficialIT /></td></tr>
-      </viva:foreachGeographical_regionNameOfficialITIterator>
-      <viva:foreachGeographical_regionNameListRUIterator>
-         <tr><td>nameListRU</td><td><viva:Geographical_regionNameListRU /></td></tr>
-      </viva:foreachGeographical_regionNameListRUIterator>
-      <viva:foreachGeographical_regionNameShortESIterator>
-         <tr><td>nameShortES</td><td><viva:Geographical_regionNameShortES /></td></tr>
-      </viva:foreachGeographical_regionNameShortESIterator>
-      <viva:foreachGeographical_regionCodeFAOSTATIterator>
-         <tr><td>codeFAOSTAT</td><td><viva:Geographical_regionCodeFAOSTAT /></td></tr>
-      </viva:foreachGeographical_regionCodeFAOSTATIterator>
-      <viva:foreachGeographical_regionNameListZHIterator>
-         <tr><td>nameListZH</td><td><viva:Geographical_regionNameListZH /></td></tr>
-      </viva:foreachGeographical_regionNameListZHIterator>
-      <viva:foreachGeographical_regionNameShortENIterator>
-         <tr><td>nameShortEN</td><td><viva:Geographical_regionNameShortEN /></td></tr>
-      </viva:foreachGeographical_regionNameShortENIterator>
-      <viva:foreachGeographical_regionNameOfficialARIterator>
-         <tr><td>nameOfficialAR</td><td><viva:Geographical_regionNameOfficialAR /></td></tr>
-      </viva:foreachGeographical_regionNameOfficialARIterator>
-      <viva:foreachGeographical_regionNameShortARIterator>
-         <tr><td>nameShortAR</td><td><viva:Geographical_regionNameShortAR /></td></tr>
-      </viva:foreachGeographical_regionNameShortARIterator>
-      <viva:foreachGeographical_regionNameOfficialENIterator>
-         <tr><td>nameOfficialEN</td><td><viva:Geographical_regionNameOfficialEN /></td></tr>
-      </viva:foreachGeographical_regionNameOfficialENIterator>
-      <viva:foreachGeographical_regionNameShortFRIterator>
-         <tr><td>nameShortFR</td><td><viva:Geographical_regionNameShortFR /></td></tr>
-      </viva:foreachGeographical_regionNameShortFRIterator>
-      <viva:foreachGeographical_regionNameOfficialFRIterator>
-         <tr><td>nameOfficialFR</td><td><viva:Geographical_regionNameOfficialFR /></td></tr>
-      </viva:foreachGeographical_regionNameOfficialFRIterator>
       <viva:foreachGeographical_regionNameListESIterator>
          <tr><td>nameListES</td><td><viva:Geographical_regionNameListES /></td></tr>
       </viva:foreachGeographical_regionNameListESIterator>
-      <viva:foreachGeographical_regionNameListITIterator>
-         <tr><td>nameListIT</td><td><viva:Geographical_regionNameListIT /></td></tr>
-      </viva:foreachGeographical_regionNameListITIterator>
+      <viva:foreachGeographical_regionNameShortENIterator>
+         <tr><td>nameShortEN</td><td><viva:Geographical_regionNameShortEN /></td></tr>
+      </viva:foreachGeographical_regionNameShortENIterator>
+      <viva:foreachGeographical_regionNameListENIterator>
+         <tr><td>nameListEN</td><td><viva:Geographical_regionNameListEN /></td></tr>
+      </viva:foreachGeographical_regionNameListENIterator>
+      <viva:foreachGeographical_regionCodeFAOTERMIterator>
+         <tr><td>codeFAOTERM</td><td><viva:Geographical_regionCodeFAOTERM /></td></tr>
+      </viva:foreachGeographical_regionCodeFAOTERMIterator>
+      <viva:foreachGeographical_regionNameOfficialARIterator>
+         <tr><td>nameOfficialAR</td><td><viva:Geographical_regionNameOfficialAR /></td></tr>
+      </viva:foreachGeographical_regionNameOfficialARIterator>
+      <viva:foreachGeographical_regionNameOfficialZHIterator>
+         <tr><td>nameOfficialZH</td><td><viva:Geographical_regionNameOfficialZH /></td></tr>
+      </viva:foreachGeographical_regionNameOfficialZHIterator>
+      <viva:foreachGeographical_regionNameShortARIterator>
+         <tr><td>nameShortAR</td><td><viva:Geographical_regionNameShortAR /></td></tr>
+      </viva:foreachGeographical_regionNameShortARIterator>
+      <viva:foreachGeographical_regionNameShortZHIterator>
+         <tr><td>nameShortZH</td><td><viva:Geographical_regionNameShortZH /></td></tr>
+      </viva:foreachGeographical_regionNameShortZHIterator>
+      <viva:foreachGeographical_regionNameListARIterator>
+         <tr><td>nameListAR</td><td><viva:Geographical_regionNameListAR /></td></tr>
+      </viva:foreachGeographical_regionNameListARIterator>
+      <viva:foreachGeographical_regionNameListZHIterator>
+         <tr><td>nameListZH</td><td><viva:Geographical_regionNameListZH /></td></tr>
+      </viva:foreachGeographical_regionNameListZHIterator>
       <viva:foreachGeographical_regionCodeUNIterator>
          <tr><td>codeUN</td><td><viva:Geographical_regionCodeUN /></td></tr>
       </viva:foreachGeographical_regionCodeUNIterator>
+      <viva:foreachGeographical_regionCodeAGROVOCIterator>
+         <tr><td>codeAGROVOC</td><td><viva:Geographical_regionCodeAGROVOC /></td></tr>
+      </viva:foreachGeographical_regionCodeAGROVOCIterator>
+      <viva:foreachGeographical_regionNameOfficialITIterator>
+         <tr><td>nameOfficialIT</td><td><viva:Geographical_regionNameOfficialIT /></td></tr>
+      </viva:foreachGeographical_regionNameOfficialITIterator>
+      <viva:foreachGeographical_regionNameShortITIterator>
+         <tr><td>nameShortIT</td><td><viva:Geographical_regionNameShortIT /></td></tr>
+      </viva:foreachGeographical_regionNameShortITIterator>
+      <viva:foreachGeographical_regionNameListITIterator>
+         <tr><td>nameListIT</td><td><viva:Geographical_regionNameListIT /></td></tr>
+      </viva:foreachGeographical_regionNameListITIterator>
+      <viva:foreachGeographical_regionCodeFAOSTATIterator>
+         <tr><td>codeFAOSTAT</td><td><viva:Geographical_regionCodeFAOSTAT /></td></tr>
+      </viva:foreachGeographical_regionCodeFAOSTATIterator>
+      <viva:foreachGeographical_regionNameOfficialFRIterator>
+         <tr><td>nameOfficialFR</td><td><viva:Geographical_regionNameOfficialFR /></td></tr>
+      </viva:foreachGeographical_regionNameOfficialFRIterator>
+      <viva:foreachGeographical_regionNameOfficialRUIterator>
+         <tr><td>nameOfficialRU</td><td><viva:Geographical_regionNameOfficialRU /></td></tr>
+      </viva:foreachGeographical_regionNameOfficialRUIterator>
+      <viva:foreachGeographical_regionNameShortFRIterator>
+         <tr><td>nameShortFR</td><td><viva:Geographical_regionNameShortFR /></td></tr>
+      </viva:foreachGeographical_regionNameShortFRIterator>
+      <viva:foreachGeographical_regionNameListFRIterator>
+         <tr><td>nameListFR</td><td><viva:Geographical_regionNameListFR /></td></tr>
+      </viva:foreachGeographical_regionNameListFRIterator>
       <viva:foreachGeographical_regionNameShortRUIterator>
          <tr><td>nameShortRU</td><td><viva:Geographical_regionNameShortRU /></td></tr>
       </viva:foreachGeographical_regionNameShortRUIterator>
+      <viva:foreachGeographical_regionNameOfficialESIterator>
+         <tr><td>nameOfficialES</td><td><viva:Geographical_regionNameOfficialES /></td></tr>
+      </viva:foreachGeographical_regionNameOfficialESIterator>
+      <viva:foreachGeographical_regionNameListRUIterator>
+         <tr><td>nameListRU</td><td><viva:Geographical_regionNameListRU /></td></tr>
+      </viva:foreachGeographical_regionNameListRUIterator>
+      <viva:foreachGeographical_regionNameOfficialENIterator>
+         <tr><td>nameOfficialEN</td><td><viva:Geographical_regionNameOfficialEN /></td></tr>
+      </viva:foreachGeographical_regionNameOfficialENIterator>
+      <viva:foreachGeographical_regionNameShortESIterator>
+         <tr><td>nameShortES</td><td><viva:Geographical_regionNameShortES /></td></tr>
+      </viva:foreachGeographical_regionNameShortESIterator>
       <viva:foreachGeographical_regionValidUntilIterator>
          <tr><td>validUntil</td><td><viva:Geographical_regionValidUntil /></td></tr>
       </viva:foreachGeographical_regionValidUntilIterator>
@@ -113,7 +113,17 @@
    <h3>Object Properties</h3>
    <table>
       <viva:foreachGeographical_regionHasMemberIterator>
-         <tr><td>hasMember</td><td><a href="../<viva:Geographical_regionHasMemberType/>/<viva:Geographical_regionHasMemberType/>.jsp?uri=<viva:Geographical_regionHasMember/>"><viva:Geographical_regionHasMember /></a></td></tr>
+         <tr><td>hasMember</td><td>
+            <c:set var="localType"><viva:Geographical_regionHasMemberType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:Geographical_regionHasMember/>"><viva:Geographical_regionHasMember/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:Geographical_regionHasMemberType/>/<viva:Geographical_regionHasMemberType/>.jsp?uri=<viva:Geographical_regionHasMember/>"><viva:Geographical_regionHasMember /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachGeographical_regionHasMemberIterator>
    </table>
 

@@ -8,11 +8,32 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Authorship List - http://vivoweb.org/ontology/core#Authorship</title>
-<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<style type="text/css" media="all">    @import "<util:applicationRoot/>/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
+
+<c:set var="limit" value="20"/>
+<c:if test="${not empty param.limit}">
+	<c:set var="limit" value="${0 + param.limit}"/>
+</c:if>
+<c:set var="offset" value="0"/>
+<c:if test="${not empty param.offset}">
+	<c:set var="offset" value="${0 + param.offset}"/>
+</c:if>
+
+<table>
+	<tr>
+		<td>
+			<c:if test="${limit > 0 && offset > 0}"><a href="AuthorshipList.jsp?limit=${limit}&offset=${offset - limit}">&lt;</a></c:if>
+		</td>
+		<td>
+			<c:if test="${limit > 0}"><a href="AuthorshipList.jsp?limit=${limit}&offset=${offset + limit}">&gt;</a></c:if>
+		</td>
+	</tr>
+</table>
+
 <ul>
-<viva:foreachAuthorship>
+<viva:foreachAuthorship limitCriteria="${limit}" offsetCriteria="${offset}" >
    <viva:Authorship>
       <li><a href="Authorship.jsp?uri=<viva:AuthorshipSubjectURI/>"><viva:AuthorshipLabel/></a>
    </viva:Authorship>

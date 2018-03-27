@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Event - http://purl.org/NET/c4dm/event.owl#Event</title>
-<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<style type="text/css" media="all">    @import "<util:applicationRoot/>/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altEvent.jsp?uri=${param.uri}">alternate view</a></p>
@@ -35,20 +35,70 @@
 
    <h3>Object Properties</h3>
    <table>
-      <viva:foreachEventARG_2000028Iterator>
-         <tr><td>ARG_2000028</td><td><a href="../<viva:EventARG_2000028Type/>/<viva:EventARG_2000028Type/>.jsp?uri=<viva:EventARG_2000028/>"><viva:EventARG_2000028 /></a></td></tr>
-      </viva:foreachEventARG_2000028Iterator>
-      <viva:foreachEventRO_0002234Iterator>
-         <tr><td>RO_0002234</td><td><a href="../<viva:EventRO_0002234Type/>/<viva:EventRO_0002234Type/>.jsp?uri=<viva:EventRO_0002234/>"><viva:EventRO_0002234 /></a></td></tr>
-      </viva:foreachEventRO_0002234Iterator>
-      <viva:foreachEventHasSubjectAreaIterator>
-         <tr><td>hasSubjectArea</td><td><a href="../<viva:EventHasSubjectAreaType/>/<viva:EventHasSubjectAreaType/>.jsp?uri=<viva:EventHasSubjectArea/>"><viva:EventHasSubjectArea /></a></td></tr>
-      </viva:foreachEventHasSubjectAreaIterator>
       <viva:foreachEventDateTimeIntervalIterator>
-         <tr><td>dateTimeInterval</td><td><a href="../<viva:EventDateTimeIntervalType/>/<viva:EventDateTimeIntervalType/>.jsp?uri=<viva:EventDateTimeInterval/>"><viva:EventDateTimeInterval /></a></td></tr>
+         <tr><td>dateTimeInterval</td><td>
+            <c:set var="localType"><viva:EventDateTimeIntervalType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:EventDateTimeInterval/>"><viva:EventDateTimeInterval/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:EventDateTimeIntervalType/>/<viva:EventDateTimeIntervalType/>.jsp?uri=<viva:EventDateTimeInterval/>"><viva:EventDateTimeInterval /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachEventDateTimeIntervalIterator>
+      <viva:foreachEventRO_0002234Iterator>
+         <tr><td>RO_0002234</td><td>
+            <c:set var="localType"><viva:EventRO_0002234Type/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:EventRO_0002234/>"><viva:EventRO_0002234/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:EventRO_0002234Type/>/<viva:EventRO_0002234Type/>.jsp?uri=<viva:EventRO_0002234/>"><viva:EventRO_0002234 /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachEventRO_0002234Iterator>
+      <viva:foreachEventARG_2000028Iterator>
+         <tr><td>ARG_2000028</td><td>
+            <c:set var="localType"><viva:EventARG_2000028Type/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:EventARG_2000028/>"><viva:EventARG_2000028/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:EventARG_2000028Type/>/<viva:EventARG_2000028Type/>.jsp?uri=<viva:EventARG_2000028/>"><viva:EventARG_2000028 /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachEventARG_2000028Iterator>
+      <viva:foreachEventHasSubjectAreaIterator>
+         <tr><td>hasSubjectArea</td><td>
+            <c:set var="localType"><viva:EventHasSubjectAreaType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:EventHasSubjectArea/>"><viva:EventHasSubjectArea/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:EventHasSubjectAreaType/>/<viva:EventHasSubjectAreaType/>.jsp?uri=<viva:EventHasSubjectArea/>"><viva:EventHasSubjectArea /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachEventHasSubjectAreaIterator>
       <viva:foreachEventBFO_0000055Iterator>
-         <tr><td>BFO_0000055</td><td><a href="../<viva:EventBFO_0000055Type/>/<viva:EventBFO_0000055Type/>.jsp?uri=<viva:EventBFO_0000055/>"><viva:EventBFO_0000055 /></a></td></tr>
+         <tr><td>BFO_0000055</td><td>
+            <c:set var="localType"><viva:EventBFO_0000055Type/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:EventBFO_0000055/>"><viva:EventBFO_0000055/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:EventBFO_0000055Type/>/<viva:EventBFO_0000055Type/>.jsp?uri=<viva:EventBFO_0000055/>"><viva:EventBFO_0000055 /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachEventBFO_0000055Iterator>
    </table>
 

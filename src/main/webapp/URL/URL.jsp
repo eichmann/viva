@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>URL - http://www.w3.org/2006/vcard/ns#URL</title>
-<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<style type="text/css" media="all">    @import "<util:applicationRoot/>/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altURL.jsp?uri=${param.uri}">alternate view</a></p>
@@ -27,18 +27,28 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachURLRankIterator>
-         <tr><td>rank</td><td><viva:URLRank /></td></tr>
-      </viva:foreachURLRankIterator>
       <viva:foreachURLUrlIterator>
          <tr><td>url</td><td><viva:URLUrl /></td></tr>
       </viva:foreachURLUrlIterator>
+      <viva:foreachURLRankIterator>
+         <tr><td>rank</td><td><viva:URLRank /></td></tr>
+      </viva:foreachURLRankIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
       <viva:foreachURLRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:URLRelatesType/>/<viva:URLRelatesType/>.jsp?uri=<viva:URLRelates/>"><viva:URLRelates /></a></td></tr>
+         <tr><td>relates</td><td>
+            <c:set var="localType"><viva:URLRelatesType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:URLRelates/>"><viva:URLRelates/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:URLRelatesType/>/<viva:URLRelatesType/>.jsp?uri=<viva:URLRelates/>"><viva:URLRelates /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachURLRelatesIterator>
    </table>
 

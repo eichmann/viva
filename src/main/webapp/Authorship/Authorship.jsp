@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Authorship - http://vivoweb.org/ontology/core#Authorship</title>
-<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<style type="text/css" media="all">    @import "<util:applicationRoot/>/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altAuthorship.jsp?uri=${param.uri}">alternate view</a></p>
@@ -28,27 +28,67 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachAuthorshipRankIterator>
-         <tr><td>rank</td><td><viva:AuthorshipRank /></td></tr>
-      </viva:foreachAuthorshipRankIterator>
       <viva:foreachAuthorshipUrlIterator>
          <tr><td>url</td><td><viva:AuthorshipUrl /></td></tr>
       </viva:foreachAuthorshipUrlIterator>
+      <viva:foreachAuthorshipRankIterator>
+         <tr><td>rank</td><td><viva:AuthorshipRank /></td></tr>
+      </viva:foreachAuthorshipRankIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachAuthorshipHasURLIterator>
+         <tr><td>hasURL</td><td>
+            <c:set var="localType"><viva:AuthorshipHasURLType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:AuthorshipHasURL/>"><viva:AuthorshipHasURL/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:AuthorshipHasURLType/>/<viva:AuthorshipHasURLType/>.jsp?uri=<viva:AuthorshipHasURL/>"><viva:AuthorshipHasURL /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachAuthorshipHasURLIterator>
       <viva:foreachAuthorshipRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:AuthorshipRelatedByType/>/<viva:AuthorshipRelatedByType/>.jsp?uri=<viva:AuthorshipRelatedBy/>"><viva:AuthorshipRelatedBy /></a></td></tr>
+         <tr><td>relatedBy</td><td>
+            <c:set var="localType"><viva:AuthorshipRelatedByType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:AuthorshipRelatedBy/>"><viva:AuthorshipRelatedBy/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:AuthorshipRelatedByType/>/<viva:AuthorshipRelatedByType/>.jsp?uri=<viva:AuthorshipRelatedBy/>"><viva:AuthorshipRelatedBy /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachAuthorshipRelatedByIterator>
       <viva:foreachAuthorshipRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:AuthorshipRelatesType/>/<viva:AuthorshipRelatesType/>.jsp?uri=<viva:AuthorshipRelates/>"><viva:AuthorshipRelates /></a></td></tr>
+         <tr><td>relates</td><td>
+            <c:set var="localType"><viva:AuthorshipRelatesType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:AuthorshipRelates/>"><viva:AuthorshipRelates/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:AuthorshipRelatesType/>/<viva:AuthorshipRelatesType/>.jsp?uri=<viva:AuthorshipRelates/>"><viva:AuthorshipRelates /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachAuthorshipRelatesIterator>
-      <viva:foreachAuthorshipHasURLIterator>
-         <tr><td>hasURL</td><td><a href="../<viva:AuthorshipHasURLType/>/<viva:AuthorshipHasURLType/>.jsp?uri=<viva:AuthorshipHasURL/>"><viva:AuthorshipHasURL /></a></td></tr>
-      </viva:foreachAuthorshipHasURLIterator>
       <viva:foreachAuthorshipRO_0000052Iterator>
-         <tr><td>RO_0000052</td><td><a href="../<viva:AuthorshipRO_0000052Type/>/<viva:AuthorshipRO_0000052Type/>.jsp?uri=<viva:AuthorshipRO_0000052/>"><viva:AuthorshipRO_0000052 /></a></td></tr>
+         <tr><td>RO_0000052</td><td>
+            <c:set var="localType"><viva:AuthorshipRO_0000052Type/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:AuthorshipRO_0000052/>"><viva:AuthorshipRO_0000052/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:AuthorshipRO_0000052Type/>/<viva:AuthorshipRO_0000052Type/>.jsp?uri=<viva:AuthorshipRO_0000052/>"><viva:AuthorshipRO_0000052 /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachAuthorshipRO_0000052Iterator>
    </table>
 

@@ -15,6 +15,7 @@
     <sparql:parameter var="s" value="${param.uri}" type="IRI" />
 </sparql:query>
 
+
 <c:forEach items="${image.rows}" var="row" varStatus="rowCounter">
     <img alt="" src="<util:applicationRoot/>${row.filename}" style="height:100px; align:left" />
 </c:forEach>

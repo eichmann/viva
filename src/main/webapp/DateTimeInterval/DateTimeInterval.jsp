@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>DateTimeInterval - http://vivoweb.org/ontology/core#DateTimeInterval</title>
-<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<style type="text/css" media="all">    @import "<util:applicationRoot/>/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altDateTimeInterval.jsp?uri=${param.uri}">alternate view</a></p>
@@ -32,10 +32,30 @@
    <h3>Object Properties</h3>
    <table>
       <viva:foreachDateTimeIntervalEndIterator>
-         <tr><td>end</td><td><a href="../<viva:DateTimeIntervalEndType/>/<viva:DateTimeIntervalEndType/>.jsp?uri=<viva:DateTimeIntervalEnd/>"><viva:DateTimeIntervalEnd /></a></td></tr>
+         <tr><td>end</td><td>
+            <c:set var="localType"><viva:DateTimeIntervalEndType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:DateTimeIntervalEnd/>"><viva:DateTimeIntervalEnd/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:DateTimeIntervalEndType/>/<viva:DateTimeIntervalEndType/>.jsp?uri=<viva:DateTimeIntervalEnd/>"><viva:DateTimeIntervalEnd /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachDateTimeIntervalEndIterator>
       <viva:foreachDateTimeIntervalStartIterator>
-         <tr><td>start</td><td><a href="../<viva:DateTimeIntervalStartType/>/<viva:DateTimeIntervalStartType/>.jsp?uri=<viva:DateTimeIntervalStart/>"><viva:DateTimeIntervalStart /></a></td></tr>
+         <tr><td>start</td><td>
+            <c:set var="localType"><viva:DateTimeIntervalStartType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:DateTimeIntervalStart/>"><viva:DateTimeIntervalStart/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:DateTimeIntervalStartType/>/<viva:DateTimeIntervalStartType/>.jsp?uri=<viva:DateTimeIntervalStart/>"><viva:DateTimeIntervalStart /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachDateTimeIntervalStartIterator>
    </table>
 

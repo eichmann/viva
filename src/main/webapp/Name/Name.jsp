@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Name - http://www.w3.org/2006/vcard/ns#Name</title>
-<style type="text/css" media="all">    @import "/viva/resources/style.css";</style></head>
+<style type="text/css" media="all">    @import "<util:applicationRoot/>/resources/style.css";</style></head>
 <body>
 <div id="content"><jsp:include page="/header.jsp" flush="true" /> <jsp:include page="/menu.jsp" flush="true"><jsp:param name="caller" value="research" /></jsp:include><div id="centerCol">
    <p><a href="altName.jsp?uri=${param.uri}">alternate view</a></p>
@@ -27,43 +27,73 @@
 
    <h3>Non-Functional Datatype Properties</h3>
    <table>
-      <viva:foreachNameGivenNameIterator>
-         <tr><td>givenName</td><td><viva:NameGivenName /></td></tr>
-      </viva:foreachNameGivenNameIterator>
-      <viva:foreachNameFamilyNameIterator>
-         <tr><td>familyName</td><td><viva:NameFamilyName /></td></tr>
-      </viva:foreachNameFamilyNameIterator>
       <viva:foreachNameMiddleNameIterator>
          <tr><td>middleName</td><td><viva:NameMiddleName /></td></tr>
       </viva:foreachNameMiddleNameIterator>
-      <viva:foreachNameRankIterator>
-         <tr><td>rank</td><td><viva:NameRank /></td></tr>
-      </viva:foreachNameRankIterator>
       <viva:foreachNameHonorificPrefixIterator>
          <tr><td>honorificPrefix</td><td><viva:NameHonorificPrefix /></td></tr>
       </viva:foreachNameHonorificPrefixIterator>
+      <viva:foreachNameFamilyNameIterator>
+         <tr><td>familyName</td><td><viva:NameFamilyName /></td></tr>
+      </viva:foreachNameFamilyNameIterator>
       <viva:foreachNameHonorificSuffixIterator>
          <tr><td>honorificSuffix</td><td><viva:NameHonorificSuffix /></td></tr>
       </viva:foreachNameHonorificSuffixIterator>
-      <viva:foreachNameUrlIterator>
-         <tr><td>url</td><td><viva:NameUrl /></td></tr>
-      </viva:foreachNameUrlIterator>
+      <viva:foreachNameGivenNameIterator>
+         <tr><td>givenName</td><td><viva:NameGivenName /></td></tr>
+      </viva:foreachNameGivenNameIterator>
       <viva:foreachNameAdditionalNameIterator>
          <tr><td>additionalName</td><td><viva:NameAdditionalName /></td></tr>
       </viva:foreachNameAdditionalNameIterator>
+      <viva:foreachNameUrlIterator>
+         <tr><td>url</td><td><viva:NameUrl /></td></tr>
+      </viva:foreachNameUrlIterator>
+      <viva:foreachNameRankIterator>
+         <tr><td>rank</td><td><viva:NameRank /></td></tr>
+      </viva:foreachNameRankIterator>
    </table>
 
    <h3>Object Properties</h3>
    <table>
+      <viva:foreachNameHasURLIterator>
+         <tr><td>hasURL</td><td>
+            <c:set var="localType"><viva:NameHasURLType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:NameHasURL/>"><viva:NameHasURL/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:NameHasURLType/>/<viva:NameHasURLType/>.jsp?uri=<viva:NameHasURL/>"><viva:NameHasURL /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
+      </viva:foreachNameHasURLIterator>
       <viva:foreachNameRelatedByIterator>
-         <tr><td>relatedBy</td><td><a href="../<viva:NameRelatedByType/>/<viva:NameRelatedByType/>.jsp?uri=<viva:NameRelatedBy/>"><viva:NameRelatedBy /></a></td></tr>
+         <tr><td>relatedBy</td><td>
+            <c:set var="localType"><viva:NameRelatedByType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:NameRelatedBy/>"><viva:NameRelatedBy/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:NameRelatedByType/>/<viva:NameRelatedByType/>.jsp?uri=<viva:NameRelatedBy/>"><viva:NameRelatedBy /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachNameRelatedByIterator>
       <viva:foreachNameRelatesIterator>
-         <tr><td>relates</td><td><a href="../<viva:NameRelatesType/>/<viva:NameRelatesType/>.jsp?uri=<viva:NameRelates/>"><viva:NameRelates /></a></td></tr>
+         <tr><td>relates</td><td>
+            <c:set var="localType"><viva:NameRelatesType/></c:set>
+            <c:choose>
+            <c:when test="${ localType eq 'null'}">
+                  <a href="<viva:NameRelates/>"><viva:NameRelates/></a>
+            </c:when>
+            <c:otherwise>
+                  <a href="../<viva:NameRelatesType/>/<viva:NameRelatesType/>.jsp?uri=<viva:NameRelates/>"><viva:NameRelates /></a>
+            </c:otherwise>
+            </c:choose>
+         </td></tr>
       </viva:foreachNameRelatesIterator>
-      <viva:foreachNameHasURLIterator>
-         <tr><td>hasURL</td><td><a href="../<viva:NameHasURLType/>/<viva:NameHasURLType/>.jsp?uri=<viva:NameHasURL/>"><viva:NameHasURL /></a></td></tr>
-      </viva:foreachNameHasURLIterator>
    </table>
 
    <h3>Inverse Object Properties (these do not have declared inverses)</h3>
