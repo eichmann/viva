@@ -107,6 +107,17 @@
         	<artifactId>SPARQLTagLib</artifactId>
         	<version>0.0.1-SNAPSHOT</version>
         </dependency>
+        <dependency>
+        	<groupId>org.postgresql</groupId>
+        	<artifactId>postgresql</artifactId>
+        	<version>9.3-1102-jdbc4</version>
+        	<scope>runtime</scope>
+        </dependency>
+        <dependency>
+        	<groupId>GitHubTagLib</groupId>
+        	<artifactId>GitHubTagLib</artifactId>
+        	<version>0.0.1-SNAPSHOT</version>
+        </dependency>
   </dependencies>
   <build>
   	<plugins>

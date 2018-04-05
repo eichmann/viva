@@ -197,8 +197,10 @@ src/main/webapp/Periodical/PeriodicalList.jsp -text
 src/main/webapp/Person/Person.jsp -text
 src/main/webapp/Person/PersonList.jsp -text
 src/main/webapp/Person/altPerson.jsp -text
+src/main/webapp/Person/altPersonGitHubProbe.jsp -text
 src/main/webapp/Person/altPersonImage.jsp -text
 src/main/webapp/Person/altPersonList.jsp -text
+src/main/webapp/Person/altPersonTwitter.jsp -text
 src/main/webapp/Person/person_tab0.jsp -text
 src/main/webapp/Person/person_tab1.jsp -text
 src/main/webapp/Person/person_tab2.jsp -text
@@ -210,6 +212,7 @@ src/main/webapp/Person/person_tab3_4.jsp -text
 src/main/webapp/Person/person_tab3_5.jsp -text
 src/main/webapp/Person/person_tab3_6.jsp -text
 src/main/webapp/Person/person_tab4.jsp -text
+src/main/webapp/Person/person_tab5.jsp -text
 src/main/webapp/Position/Position.jsp -text
 src/main/webapp/Position/PositionList.jsp -text
 src/main/webapp/PostdocPosition/PostdocPosition.jsp -text
@@ -276,6 +279,8 @@ src/main/webapp/resources/ajaxtabs.js -text
 src/main/webapp/resources/style.css -text
 src/main/webapp/territory/territory.jsp -text
 src/main/webapp/territory/territoryList.jsp -text
+src/main/webapp/utility/githubers.jsp -text
 src/main/webapp/utility/sparqlDump.jsp -text
+src/main/webapp/utility/tweeters.jsp -text
 src/test/java/edu/uiowa/slis/viva/DemoTest.java -text
 src/test/resources/README.txt -text
