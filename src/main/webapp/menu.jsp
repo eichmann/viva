@@ -8,6 +8,7 @@
 </c:catch>
 <h3><a href="<util:applicationRoot/>/Person/altPersonList.jsp">People</a></h3>
 <ul>
+<li><a href="<util:applicationRoot/>/Person/searchPerson.jsp">Search</a>
 <li><a href="<util:applicationRoot/>/utility/tweeters.jsp">Tweeters</a>
 <li><a href="<util:applicationRoot/>/utility/githubers.jsp">GitHub'ers</a>
 </ul>

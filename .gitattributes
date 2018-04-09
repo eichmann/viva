@@ -12,6 +12,7 @@
 .settings/org.maven.ide.eclipse.prefs -text
 /pom.xml -text svneol=unset#application/xml
 src/main/java/edu/uiowa/slis/viva/Demo.java -text
+src/main/java/edu/uiowa/slis/viva/PersonIndexer.java -text
 src/main/resources/README.txt -text
 src/main/webapp/ARG_2000379/ARG_2000379.jsp -text
 src/main/webapp/ARG_2000379/ARG_2000379List.jsp -text
@@ -213,6 +214,7 @@ src/main/webapp/Person/person_tab3_5.jsp -text
 src/main/webapp/Person/person_tab3_6.jsp -text
 src/main/webapp/Person/person_tab4.jsp -text
 src/main/webapp/Person/person_tab5.jsp -text
+src/main/webapp/Person/searchPerson.jsp -text
 src/main/webapp/Position/Position.jsp -text
 src/main/webapp/Position/PositionList.jsp -text
 src/main/webapp/PostdocPosition/PostdocPosition.jsp -text

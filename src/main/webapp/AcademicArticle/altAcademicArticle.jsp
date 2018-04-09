@@ -2,6 +2,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="viva" uri="http://slis.uiowa.edu/VIVOISF"%>
 <%@ taglib prefix="util" uri="http://icts.uiowa.edu/tagUtil"%>
+<%@ taglib prefix="medline" uri="http://icts.uiowa.edu/medline"%>
+<%@ taglib prefix="sql" uri="http://java.sun.com/jsp/jstl/sql"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -49,8 +51,30 @@
          </viva:Authorship>
       </viva:foreachAcademicArticleRelatedByIterator>
       </ol>
-   </viva:AcademicArticle>
 
-<jsp:include page="/footer.jsp" flush="true" /></div></div></body>
+		<viva:foreachAcademicArticleDoiIterator>
+			<sql:query var="pmids" dataSource="jdbc/MEDLINETagLib">
+                  select pmid from medline18.elocation where eid = ?
+                  <sql:param><viva:AcademicArticleDoi/></sql:param>
+			</sql:query>
+			<c:forEach items="${pmids.rows}" var="row" varStatus="rowCounter">
+				<medline:article pmid="${row.pmid}">
+					<h4>PMID: ${row.pmid}</h4>
+					<medline:foreachAbstr var="xx">
+						<medline:abstr>
+							<p>
+								<c:if test="${not empty medline:abstrLabelValue()}">
+									<b><medline:abstrLabel />:</b>
+								</c:if>
+								<medline:abstrAbstractText />
+							</p>
+						</medline:abstr>
+					</medline:foreachAbstr>
+				</medline:article>
+			</c:forEach>
+		</viva:foreachAcademicArticleDoiIterator>
+
+	</viva:AcademicArticle>
+	<jsp:include page="/footer.jsp" flush="true" /></div></div></body>
 </html>
 
