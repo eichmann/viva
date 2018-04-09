@@ -83,7 +83,7 @@
 					<c:set var="rid" value="${git:committerRidValue()}" />
 					<git:repository ID="${rid}">
 						<tr>
-							<td><a href="<util:applicationRoot/>/repository/repository.jsp?id=<git:repositoryID/>"><git:repositoryFullName /></a></td>
+							<td><a href="http://labs.cd2h.org/gitforager/repository/repository.jsp?id=<git:repositoryID/>"><git:repositoryFullName /></a></td>
 							<td><git:committerMostRecent /></td>
 							<td><git:committerCount /></td>
 						</tr>
